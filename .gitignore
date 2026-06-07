@@ -1,6 +1,9 @@
 # macOS
 .DS_Store
 
+# Excluded data
+1.preliminary_dataset/Coriell_apes_families.pdf
+
 # Files still exceeding GitHub's 100MB per-file limit even after compression
 # (kept local only)
 6.VEP_shet_snvs_svs/snvs_vep/long_only/snv_impact_long.tsv.gz
