@@ -1,4 +1,6 @@
-# PAN-PANGENOME project
+# PANPAN project
+
+### A Pan-pangenome illuminates complex structural variation and selection in humans, chimpanzees, and bonobos
 
 ![](chimp_peter.png)
 
