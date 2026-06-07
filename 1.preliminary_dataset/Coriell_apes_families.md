@@ -61,7 +61,7 @@ The three parents (sires `1021`, `0834`; shared dam `0835`) are local/ISIS IDs a
 ## PANPAN sequenced set
 
 Of the individuals above, the following are part of the project's sequenced sample set
-(present in `Sample_information.md`):
+(present in this folder's [`README.md`](README.md) sample tables):
 
 **PR00251 (this is T2T mPanPan1), PR00366, PR00400, PR00548, PR00818, PR00826, PR01171.**
 
