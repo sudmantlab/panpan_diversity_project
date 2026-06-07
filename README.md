@@ -18,7 +18,7 @@ A repo for code and methods related to analyses and figures. This code is deposi
 
 [SV diversity](https://github.com/sudmantlab/panpan_diversity_project/tree/main/5.sv_diversity)
 
-[Variant effect prediction and gene constraint for SNVs and SVs](https://github.com/sudmantlab/panpan_diversity_project/blob/main/6.VEP_shet_snvs_svs/methods_detailed_description.md)
+[Variant effect prediction and gene constraint for SNVs and SVs](https://github.com/sudmantlab/panpan_diversity_project/blob/main/6.VEP_shet_snvs_svs/README.md)
 
 [Ancestral recombination graphs (ARGs)](https://github.com/sudmantlab/panpan_diversity_project/blob/main/7.ARGs/methods_singer_ARG.md)
 
