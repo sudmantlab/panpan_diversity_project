@@ -14,15 +14,9 @@ A repo for code and methods related to analyses and figures. This code is deposi
 
 [SNV diversity](https://github.com/sudmantlab/panpan_diversity_project/tree/main/4.snv_diversity)
 
-[Windowed nucleotide diversity (π)](https://github.com/sudmantlab/panpan_diversity_project/blob/main/4.snv_diversity/calling_snv_shortlong_from_reads/snv_pi_windows/METHODS_pi_windowed.md)
+[SV diversity](https://github.com/sudmantlab/panpan_diversity_project/tree/main/5.sv_diversity)
 
-[Structural variant diversity](https://github.com/sudmantlab/panpan_diversity_project/tree/main/5.sv_diversity)
-
-[Variant effect prediction and selection (s_het) for SNVs and SVs](https://github.com/sudmantlab/panpan_diversity_project/blob/main/6.VEP_shet_snvs_svs/methods_detailed_description.md)
-
-[GO enrichment of constrained SNV genes](https://github.com/sudmantlab/panpan_diversity_project/blob/main/6.VEP_shet_snvs_svs/snvs_vep/GO_analysis_shared_species/README.md)
-
-[GO enrichment of constrained SV genes](https://github.com/sudmantlab/panpan_diversity_project/blob/main/6.VEP_shet_snvs_svs/svs_vep/GO_analysis_shared_species/README.md)
+[Variant effect prediction and gene constraint for SNVs and SVs](https://github.com/sudmantlab/panpan_diversity_project/blob/main/6.VEP_shet_snvs_svs/methods_detailed_description.md)
 
 [Ancestral recombination graphs (ARGs)](https://github.com/sudmantlab/panpan_diversity_project/blob/main/7.ARGs/methods_singer_ARG.md)
 
