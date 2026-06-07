@@ -7,6 +7,13 @@
 1.dataset/Matt_old_tables/
 7.ARGs/output_supp_tables_EXTRA/
 
+# Unused chimps regional-tree extraction/visualization scripts (kept local)
+7.ARGs/run_singer_tskit_scripts/chimps/extract_regional_trees.py
+7.ARGs/run_singer_tskit_scripts/chimps/ts_to_newick.py
+7.ARGs/run_singer_tskit_scripts/chimps/relabel_rescale_nwk.py
+7.ARGs/run_singer_tskit_scripts/chimps/plot_ts_to_svg.py
+7.ARGs/run_singer_tskit_scripts/chimps/plot_regional_svg_labeled.py
+
 # Files still exceeding GitHub's 100MB per-file limit even after compression
 # (kept local only)
 6.VEP_shet_snvs_svs/snvs_vep/long_only/snv_impact_long.tsv.gz

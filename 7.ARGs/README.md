@@ -30,9 +30,6 @@ The human side has several panels: [`hprc_hgsvc/`](run_singer_tskit_scripts/huma
 [`humans579_dantu/`](run_singer_tskit_scripts/humans/humans579_dantu), and the superpopulation
 variants ([`humans579_dantu_superpops/`](run_singer_tskit_scripts/humans/humans579_dantu_superpops),
 [`humans579_dantu_hgsvc_superpops/`](run_singer_tskit_scripts/humans/humans579_dantu_hgsvc_superpops)).
-The [`chimps/`](run_singer_tskit_scripts/chimps) folder additionally has regional-tree
-extraction and visualization (`extract_regional_trees.py`, `ts_to_newick.py`,
-`relabel_rescale_nwk.py`, `plot_ts_to_svg.py`, `plot_regional_svg_labeled.py`).
 
 ## `output_processing_scripts/` — downstream analysis
 
@@ -58,7 +55,3 @@ and figures.
   from Deng *et al.* (`gencode47_rename.R`, gene-name and region-overlap tables).
 - [`test_singer_hla/`](test_singer_hla) — HLA test region used to validate the pipeline
   (SINGER tutorial, regional-tree and windowed-TMRCA scripts).
-
-> Note: some large outputs are kept local and git-ignored — `output_supp_tables_EXTRA/`,
-> `test_singer_hla/tmrca_data.csv`, and the >100 MB tables under
-> `output_processing_scripts/humans/input_tables/`.
