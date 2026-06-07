@@ -8,7 +8,7 @@ Links &amp; readmes for all things related to the PanPan project
 
 ## PROJECT INFORMATION 
 
-[Sample information](https://github.com/sudmantlab/panpan/blob/main/markdowns/Sample_information.md)
+[Sample information](1.preliminary_dataset/Sample_information.md)
 
 
 ## COMPUTATIONAL WORK
