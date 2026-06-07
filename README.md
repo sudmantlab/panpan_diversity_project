@@ -12,7 +12,7 @@ A repo for code and methods related to analyses and figures. This code is deposi
 
 [Genome assembly pipelines](https://github.com/sudmantlab/panpan_diversity_project/tree/main/2.assembly_pipelines)
 
-[Assembly statistics](https://github.com/sudmantlab/panpan_diversity_project/blob/main/3.assembly_stats/Assembly.md)
+[Assembly statistics](https://github.com/sudmantlab/panpan_diversity_project/tree/main/3.assembly_stats)
 
 [SNV diversity](https://github.com/sudmantlab/panpan_diversity_project/tree/main/4.snv_diversity)
 

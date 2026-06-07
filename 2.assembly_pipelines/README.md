@@ -43,42 +43,6 @@ CHIMPANZEE AG18354_5 is the same individual as T2T mPanTro3
 | AG06939_13| Pan troglodytes (verus)     | PacBIO HiFi + HiC  | assemled with hifiasm-HiC                                               | 
 
 
-| No. | Description:{sample}                          | Hifiasm Hi-Fi assemblies                                   | Hifiasm Hi-C assemblies                                    | Verkko assemblies |
-|-----|-----------------------------------------------|------------------------------------------------------------|------------------------------------------------------------|-------------------|
-| 1   | Pan troglodytes verus:PR01228                | PANPAN/output2/{sample}/output/hifiasm-fasta/             |                                                            |                   |
-| 2   | Pan troglodytes verus:PR01227                | PANPAN/output2/{sample}/output/hifiasm-fasta/             | PANPAN/output2/{sample}/output/hifiasm-fasta-HiC/         | PANPAN/output2/{sample}/output/asm/ |
-| 3   | Pan troglodytes verus:PR01225                | PANPAN/output2/{sample}/output/hifiasm-fasta/             |                                                            |                   |
-| 4   | Pan troglodytes verus:PR01223                | PANPAN/output2/{sample}/output/hifiasm-fasta/             |                                                            |                   |
-| 5   | Pan troglodytes verus:PR01100                | PANPAN/output2/{sample}/output/hifiasm-fasta/             |                                                            |                   |
-| 6   | Pan troglodytes schweinfurthii:PR01010       | PANPAN/output2/{sample}/output/hifiasm-fasta/             | PANPAN/output2/{sample}/output/hifiasm-fasta-HiC/         | PANPAN/output2/{sample}/output/asm/ |
-| 7   | Pan troglodytes schweinfurthii:PR01009       | PANPAN/output/{sample}/hifiasm-fasta/                     |                                                            |                   |
-| 8   | Pan troglodytes schweinfurthii:PR01008       | PANPAN/output2/{sample}/output/hifiasm-fasta/             | PANPAN/output2/{sample}/output/hifiasm-fasta-HiC/         | PANPAN/output2/{sample}/output/asm/ |
-| 9   | Pan troglodytes troglodytes:PR00838          | PANPAN/output2/{sample}/output/hifiasm-fasta/             |                                                            |                   |
-| 10  | Pan troglodytes troglodytes:PR00834          | PANPAN/output2/{sample}/output/hifiasm-fasta/             | PANPAN/output2/{sample}/output/hifiasm-fasta-HiC/         |                   |
-| 11  | Pan troglodytes verus:PR00512                | PANPAN/output2/{sample}/output/hifiasm-fasta/             |                                                            |                   |
-| 12  | Pan troglodytes troglodytes?:PR00496A        | PANPAN/output2/{sample}/output/hifiasm-fasta/             |                                                            |                   |
-| 13  | Pan paniscus:PR00445                         | PANPAN/output2/{sample}/output/hifiasm-fasta/             |                                                            |                   |
-| 14  | Pan paniscus:PR00366                         | PANPAN/output2/{sample}/output/hifiasm-fasta/             | PANPAN/output2/{sample}/output/hifiasm-fasta-HiC/         |                   |
-| 15  | Pan paniscus:PR00251                         | PANPAN/output2/{sample}/output/hifiasm-fasta/             | PANPAN/output2/{sample}/output/hifiasm-fasta-HiC/         |                   |
-| 16  | Pan paniscus:PR00249                         | PANPAN/output2/{sample}/output/hifiasm-fasta/             |                                                            |                   |
-| 17  | Pan troglodytes troglodytes:PR00115          | PANPAN/output2/{sample}/output/hifiasm-fasta/             |                                                            |                   |
-| 18  | Pan paniscus:AG05253_1                             | PANPAN/output2/{sample}/output/hifiasm-fasta/             | PANPAN/output2/{sample}/output/hifiasm-fasta-HiC/         |                   |
-| 19  | Sample:AG18352_2                             | PANPAN/output2/{sample}/output/hifiasm-fasta/             | PANPAN/output2/{sample}/output/hifiasm-fasta-HiC/         |                   |
-| 20  | Sample:AG18357_3                             | PANPAN/output2/{sample}/output/hifiasm-fasta/             | PANPAN/output2/{sample}/output/hifiasm-fasta-HiC/         |                   |
-| 21  | Sample:AG18358_4                             | PANPAN/output2/{sample}/output/hifiasm-fasta/             | PANPAN/output2/{sample}/output/hifiasm-fasta-HiC/         |                   |
-| 22  | Sample:AG18354_5                             | PANPAN/output2/{sample}/output/hifiasm-fasta/             | PANPAN/output2/{sample}/output/hifiasm-fasta-HiC/         |                   |
-| 23  | Sample:AG18356_6                             | PANPAN/output2/{sample}/output/hifiasm-fasta/             | PANPAN/output2/{sample}/output/hifiasm-fasta-HiC/         |                   |
-| 24  | Sample:AG18359_7                             | PANPAN/output2/{sample}/output/hifiasm-fasta/             | PANPAN/output2/{sample}/output/hifiasm-fasta-HiC/         |                   |
-| 25  | Sample:AG18355_8                             | PANPAN/output2/{sample}/output/hifiasm-fasta/             | PANPAN/output2/{sample}/output/hifiasm-fasta-HiC/         |                   |
-| 26  | Sample:AG18353_9                             | PANPAN/output2/{sample}/output/hifiasm-fasta/             | PANPAN/output2/{sample}/output/hifiasm-fasta-HiC/         |                   |
-| 27  | Sample:AG18361_10                            | PANPAN/output2/{sample}/output/hifiasm-fasta/             | PANPAN/output2/{sample}/output/hifiasm-fasta-HiC/         |                   |
-| 28  | Sample:AG18360_11                            | PANPAN/output2/{sample}/output/hifiasm-fasta/             | PANPAN/output2/{sample}/output/hifiasm-fasta-HiC/         |                   |
-| 29  | Sample:AG16618_12                            | PANPAN/output2/{sample}/output/hifiasm-fasta/             | PANPAN/output2/{sample}/output/hifiasm-fasta-HiC/         |                   |
-| 30  | Sample:AG06939_13                            | PANPAN/output2/{sample}/output/hifiasm-fasta/             | PANPAN/output2/{sample}/output/hifiasm-fasta-HiC/         |                   |
-
-
-
-
 ### COMPLETED (PRIMARY AND PHASED) ASSEMBLIES (example with a sample PR01227)
 to run assembly pipeline with hifiasm only:
 ```
@@ -107,7 +71,6 @@ ln -s /global/scratch/users/joana_rocha/.singularity ~/.singularity
 ```
 #snakemake -prj40 --keep-going --use-singularity --singularity-args "-B /global/scratch -B $(pwd -P)" --use-conda --conda-frontend mamba output/mitoHiFi/PR01227/fromContig/joana_settings_shortcut/no_opts/final_mitogenome.fasta output/mitoHiFi/PR01227/by_reads/joana_settings_shortcut/final_mitogenome.fasta  
 ```
-
 
 
 # HiFi reads filtering outputs for individuals sequenced with Sequel II still containing HiFi adaptaters
