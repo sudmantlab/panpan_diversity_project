@@ -1,4 +1,4 @@
-# Coriell ape families — pedigree information
+# Coriell families information
 
 ---
 
@@ -58,7 +58,7 @@ The three parents (sires `1021`, `0834`; shared dam `0835`) are local/ISIS IDs a
 
 ---
 
-## Membership in the PANPAN sequenced set
+## PANPAN sequenced set
 
 Of the individuals above, the following are part of the project's sequenced sample set
 (present in `Sample_information.md`):
