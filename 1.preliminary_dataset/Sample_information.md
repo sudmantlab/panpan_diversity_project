@@ -8,10 +8,6 @@
 ![image](https://user-images.githubusercontent.com/42983167/195955631-c60f53f8-5fe1-4fcb-88fc-f635dd6eddb9.png)
 
 
-# [NCBI dataset](https://github.com/sudmantlab/panpan/blob/main/markdowns/Sample_infoNCBI.py) 
-
-
-
 ### ILLUMINA LOW COVERAGE RE-SEQUENCING - The samples below were used to select a group of diverse and geographically representative individuals of chimpanzee and bonobos for PACBIO. They were also used downstream for COSIGT analysis to account for ability to genotype structures seen in long-read counterpart into the short-read sample. 
 
 | ind | Species | Subspecies | Population | Birth Type | Sex | Cell | Local ID | short-read low coverage WGS | PACBIO |
