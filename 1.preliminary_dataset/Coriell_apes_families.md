@@ -1,12 +1,17 @@
 # Coriell ape families — pedigree information
 
-Transcription of the hand-drawn pedigrees in `Coriell_apes_families.pdf` (5 families of
-Coriell bonobo and chimpanzee samples). Each family is drawn as a standard pedigree on
-graph paper and color-coded.
+Five families of Coriell bonobo (*Pan paniscus*) and chimpanzee (*Pan troglodytes*)
+samples, originally sketched as hand-drawn pedigrees. The pedigree drawings were
+cross-referenced against the Coriell **distribution list** and **families** tables to
+correct names, studbook IDs, and parentage.
 
-> **Note:** these values are transcribed from handwritten notes. Entries marked `[?]`
-> were difficult to read and should be verified against the original source. Where a
-> symbol is unlabeled in the drawing, the individual is listed as *unnamed*.
+**Sources**
+- Hand-drawn pedigrees (`Coriell_apes_families.pdf`) — family groupings and pedigree topology.
+- Coriell sample tables (`Matt_old_tables/Pan_samples_list_relationships_notated.xlsx`,
+  sheets `Distribution_list` and `Families`) — names, studbook/KB# IDs, and sire/dam IDs.
+
+*(The PDF and the xlsx source tables are kept locally and are git-ignored; this file is the
+shareable transcription.)*
 
 **Pedigree symbol key**
 
@@ -14,72 +19,76 @@ graph paper and color-coded.
 |---|---|
 | ○ circle | female |
 | □ square | male |
-| ◇ diamond | offspring (sex unspecified in drawing) |
-| dashed symbol | inferred / not sampled |
+| ◇ diamond | offspring (sex not indicated in drawing) |
 
-Each individual carries a **studbook ID** (e.g. `8798`) and a **Coriell catalog ID**
-(`PR#####`).
+Each individual carries a **studbook / KB# ID** and a **Coriell catalog ID** (`PR#####`).
+Sire/dam values shown as bare numbers (e.g. `360`, `0835`, `169118`) are local/ISIS/studbook
+IDs of **unsampled** parents — they have no Coriell `PR` sample.
 
 ---
 
-## Family 1 — yellow (bonobos)
+## Family 1 — yellow (bonobos, *Pan paniscus*)
 
-Labeled **F1 · Bonobos**. Legend on the drawing: **1 trio · 3 half-sibs · spanning 1–3 generations**.
+A three-generation bonobo pedigree centered on the sire **Bosondjo**: one trio
+(Bosondjo × Matata → Panbanisha) and three paternal half-sibs (Panbanisha, Akili, Lisala).
 
-| Name | Studbook ID | Coriell ID | Role / symbol |
-|---|---|---|---|
-| Lisala | 8798 | PR00748 | female (○) |
-| Bosondjo ("Boso") | 12730 | PR00111 | male (□) |
-| Akili | 5274 | PR00236 | offspring (◇) |
-| Jumanji | 10227 | PR00802 | offspring (◇) |
-| Pumbamisha [?] | 8764 | PR00366 | offspring (◇) |
-| Mafuta | 7187 | PR00367 | female (○) |
-| Nsenga [?] | — | — | female (○), unlabeled ID |
-| Rachael [?] | — | — | offspring (◇), unlabeled ID |
+| Name | Studbook / KB# | Coriell ID | Sex | Role / parents |
+|---|---|---|---|---|
+| Bosondjo ("Boso") | 12730 | PR00111 | ♂ | sire; father of Akili, Lisala, Panbanisha |
+| Matata | 7189 | PR00367 | ♀ | dam of Panbanisha (× Bosondjo) |
+| Panbanisha | 8764 | PR00366 | ♀ | offspring of Bosondjo × Matata |
+| Akili | 5274 | PR00236 | ♂ | offspring of Bosondjo (dam P1); father of Jumanji |
+| Lisala | 8798 | PR00748 | ♀ | offspring of Bosondjo (dam 169118, unsampled) |
+| Jumanji | 10227 | PR00802 | — | offspring of Akili (dam 587376, unsampled); 3rd generation |
 
-## Family 2 — green (bonobos)
+## Family 2 — green (bonobos, *Pan paniscus*)
 
-Labeled **F2 · Bonobos**. Annotated **mother–daughter**.
+Mother–daughter pair.
 
-| Name | Studbook ID | Coriell ID | Role / symbol |
-|---|---|---|---|
-| Coretta | — | PR00255 | mother, female (○) |
-| Erin | — | PR00251 | daughter, female (○) |
+| Name | Studbook / KB# | Coriell ID | Sex | Role / parents |
+|---|---|---|---|---|
+| Loretta | 2535 | PR00235 | ♀ | mother of Erin |
+| Erin | 8711 | PR00251 | ♀ | daughter of Loretta (sire ISIS 180343, unsampled) |
 
-Relationship: Coretta (mother) → Erin (daughter); the sire is drawn as a dashed/unsampled male.
+Note: **PR00251 (Erin) is the same individual as the T2T reference mPanPan1.**
 
-## Family 3 — orange (chimpanzees)
+## Family 3 — orange (chimpanzees, *Pan troglodytes*)
 
-Labeled **F3 · Chimps · half-sibs**. One male (□) paired with two females (○), producing two
-half-sib offspring.
+Two paternal half-sibs sharing sire `360`.
 
-| Name | Studbook ID | Coriell ID | Role / symbol |
-|---|---|---|---|
-| Hanky [?] | 12796 | PR00826 | offspring (◇), half-sib |
-| Goodman [?] | 13273 | PR00400 | offspring (◇), half-sib |
+| Name | Studbook / KB# | Coriell ID | Sex | Role / parents |
+|---|---|---|---|---|
+| Hanky | 12796 | PR00826 | — | offspring; sire 360, dam 364 |
+| Goober | 13273 | PR00400 | — | offspring; sire 360, dam 387 |
 
-The two parental females and the shared sire are drawn but not individually labeled.
+Both parents of each individual (sires 360; dams 364/387) are unsampled.
 
-## Family 4 — blue (chimpanzees)
+## Family 4 — blue (chimpanzees, *Pan troglodytes*)
 
-Labeled **F4 · Chimps**.
+| Name | Studbook / KB# | Coriell ID | Sex | Role / parents |
+|---|---|---|---|---|
+| Blackie | 13470 | PR00549 | ♀ | mother (ISIS 298) of Kioja |
+| Kioja | 13471 | PR00548 | — | offspring; sire 297 (unsampled), dam 298 (Blackie) |
 
-| Name | Studbook ID | Coriell ID | Role / symbol |
-|---|---|---|---|
-| Blackie | 13470 | PR00549 | female (○) |
-| Kjoju [?] | 13471 | PR00548 | offspring (◇) |
+## Family 5 — red (chimpanzees, *Pan troglodytes*)
 
-Relationship: Blackie (female) × a male (drawn as a dashed/unsampled square) → offspring Kjoju.
+Two maternal half-sibs sharing dam `0835`.
 
-## Family 5 — red (chimpanzees)
+| Name | Studbook / KB# | Coriell ID | Sex | Role / parents |
+|---|---|---|---|---|
+| Joshua | 10512 | PR01171 | — | offspring; sire 1021, dam 0835 |
+| Rachel | 10790 | PR00818 | — | offspring; sire 0834, dam 0835 |
 
-Labeled **F5 · Chimps**. A female (`0835`, ○) paired with two males (`1021` and `0834`, □),
-producing two half-sib offspring.
+The three parents (sires `1021`, `0834`; shared dam `0835`) are local/ISIS IDs and are unsampled.
 
-| Name | Studbook ID | Coriell ID | Role / symbol |
-|---|---|---|---|
-| — | 1021 | — | sire, male (□) |
-| — | 0835 | — | dam, female (○) |
-| — | 0834 | — | sire, male (□) |
-| Joshua | 10512 | PR01171 | offspring (◇) of 1021 × 0835 |
-| Rachel | 10798 | PR00818 | offspring (◇) of 0835 × 0834 |
+---
+
+## Membership in the PANPAN sequenced set
+
+Of the individuals above, the following are part of the project's sequenced sample set
+(present in `Sample_information.md`):
+
+**PR00251, PR00366, PR00400, PR00548, PR00818, PR00826, PR01171.**
+
+The remainder (PR00111, PR00235, PR00236, PR00367, PR00549, PR00748, PR00802) appear in the
+Coriell catalog but not in the project's sequenced samples.
