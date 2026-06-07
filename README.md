@@ -1,7 +1,7 @@
 # PanPan
 Links &amp; readmes for all things related to the PanPan project
 
-![](https://pasa.org/wp-content/uploads/2021/02/Tacugama-infant-chimp.jpg)
+![](chimp_peter.png)
 
 
 
