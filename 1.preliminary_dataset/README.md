@@ -9,7 +9,7 @@ family/pedigree information. Each section links to the detailed file.
 | File | What it holds |
 |---|---|
 | [`Sample_information.md`](Sample_information.md) | Samples sequenced for this project (short-read, PacBio Sequel II / Revio, HiC, ONT) |
-| [`Sample_infoNCBI.py`](Sample_infoNCBI.py) | Public NCBI/SRA re-sequencing accessions used for sample selection |
+| `Sample_infoNCBI.py` *(kept locally, not tracked)* | Public NCBI/SRA re-sequencing accessions used for sample selection |
 | [`Coriell_apes_families.md`](Coriell_apes_families.md) | Pedigrees and parentage of the Coriell bonobo/chimpanzee samples |
 | [`pca/`](pca) | PCA of the low-coverage chimpanzee panel (`pca.R`, covariance + eigen outputs) |
 
@@ -34,9 +34,10 @@ Reference-genome cross-links:
 
 ## 2. NCBI public re-sequencing panel
 
-See **[`Sample_infoNCBI.py`](Sample_infoNCBI.py)** — a dictionary mapping BioSamples to their
-SRA/ENA run accessions for publicly available great-ape WGS (Prado-Martinez / de Manuel
-*et al.* great-ape diversity data), used to contextualize and select samples.
+See `Sample_infoNCBI.py` *(kept locally, not tracked in the repo)* — a dictionary mapping
+BioSamples to their SRA/ENA run accessions for publicly available great-ape WGS
+(Prado-Martinez / de Manuel *et al.* great-ape diversity data), used to contextualize and
+select samples.
 
 - **60 samples**, **416 SRA/ENA runs** total.
 - By taxon: *P. t. schweinfurthii* (eastern) 19 · *P. t. troglodytes* (central) 18 ·
