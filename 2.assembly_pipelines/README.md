@@ -9,38 +9,38 @@ CHIMPANZEE AG18354_5 is the same individual as T2T mPanTro3
 
 #### Current Status
 
-| Name     | Species                                        | Data                                        |  STATUS |
-| -------- | ---------------------------------------------- | ------------------------------------------- | ---------------------------------------------- |
-| PR01227  | Pan troglodytes (verus)                        | PacBIO HiFi, HiC, ONT-UL                    | assembled with hifiasm, hifiasm-hic, verkko 2.0, updated with verkko 2.2.1                         |
-| PR01225  | Pan troglodytes (verus)                        | PacBIO HiFi                                 | assembled with hifiasm                                              |
-| PR01223  | Pan troglodytes (verus)                        | PacBIO HiFi                                 | assembled with hifiasm                                              |
-| PR01228  | Pan troglodytes (verus)                        | PacBIO HiFi                                 | assembled with hifiasm                                             |
-| PR00512  | Pan troglodytes (verus)                        | PacBIO HiFi                                 | assembled with hifiasm                                            |
-| PR01100  | Pan troglodytes (verus)                        | PacBIO HiFi                                 | assembled with hifiasm                                      |
-| PR00834  | Pan troglodytes (verus x troglodytes hybrid)                  | PacBIO HiFi, HiC, ONT-UL                    | assemled with hifiasm, hifiasm-HiC                     |
-| PR00838  | Pan troglodytes (verus x troglodytes hybrid)                  | PacBIO HiFi                                 | assemled with hifiasm                                           |
-| PR00115  | Pan troglodytes (troglodytes)                  | PacBIO HiFi                                 | assemled with hifiasm                                             |
-| PR00251  | Pan paniscus                                   | PacBIO HiFi, HiC \*DUPLICATE w T2T effort\* | assemled with hifiasm, hifiasm-HiC, mPanPan1 T2T assembly            |
-| PR00366  | Pan paniscus                                   | PacBIO HiFi, HiC, ONT-UL                    | assembled with hifiasm, hifiasm-hic, verkko 2.1, updated with verkko 2.2.1                    |
-| PR00445  | Pan paniscus                                   | PacBIO HiFi                                 | assemled with hifiasm                                              |
-| PR00249  | Pan paniscus                                   | PacBIO HiFi                                 | assemled with hifiasm                                              |
-| PR01008  | Pan troglodytes (schweinfurthii)               | PacBIO HiFi, HiC, ONT-UL                    | assembled with hifiasm, hifiasm-hic, verkko 2.0, updated with verkko 2.2.1                        |
-| PR01009  | Pan troglodytes (schweinfurthii)               | PacBIO HiFi                                 | assemled with hifiasm                                               |
-| PR01010  | Pan troglodytes (schweinfurthii)               | PacBIO HiFi, HiC, ONT-UL                    | assembled with hifiasm, hifiasm-hic, verkko 2.0, updated with verkko 2.2.1                                |
-| PR00496A | Pan troglodytes (troglodytes) | PacBIO HiFi                                 |  assembled with hifiasm                                             |
-| AG05253_1 | Pan paniscus     | PacBIO HiFi + HiC  | assemled with hifiasm-HiC                                               | 
-| AG18352_2 | ??     | PacBIO HiFi + HiC  | FAILED/REMOVED                                               | 
-| AG18357_3 | Pan troglodytes (verus)     | PacBIO HiFi + HiC  | assemled with hifiasm-HiC                                              | 
-| AG18358_4 | Pan troglodytes (verus)     | PacBIO HiFi + HiC  | assemled with hifiasm-HiC                                              | 
-| AG18354_5 | Pan troglodytes (verus)     | PacBIO HiFi, HiC \*DUPLICATE w T2T effort\*  | assemled with hifiasm-HiC, mPanTro3 T2T assembly                                              | 
-| AG18356_6 | Pan troglodytes (verus x troglodytes hybrid)     | PacBIO HiFi + HiC  | assemled with hifiasm-HiC                                                | 
-| AG18359_7 | Pan troglodytes (verus)     | PacBIO HiFi + HiC  | assemled with hifiasm-HiC                                            | 
-| AG18355_8 | Pan troglodytes (verus)     | PacBIO HiFi + HiC  | assemled with hifiasm-HiC                                               | 
-| AG18353_9 | Pan troglodytes (verus)    | PacBIO HiFi + HiC  | assemled with hifiasm-HiC                                               | 
-| AG18361_10| Pan troglodytes (verus)     | PacBIO HiFi + HiC  | assemled with hifiasm-HiC                                              |  
-| AG18360_11| Pan troglodytes (verus)     | PacBIO HiFi + HiC  | assemled with hifiasm-HiC                                               |
-| AG16618_12| Pan troglodytes (verus x troglodytes hybrid)     | PacBIO HiFi + HiC  | assemled with hifiasm-HiC                                               |  
-| AG06939_13| Pan troglodytes (verus)     | PacBIO HiFi + HiC  | assemled with hifiasm-HiC                                               | 
+| Name     | Data                                        |  STATUS |
+| -------- | ------------------------------------------- | ---------------------------------------------- |
+| PR01227  | PacBIO HiFi, HiC, ONT-UL                    | assembled with hifiasm, hifiasm-hic, verkko 2.0, updated with verkko 2.2.1                         |
+| PR01225  | PacBIO HiFi                                 | assembled with hifiasm                                              |
+| PR01223  | PacBIO HiFi                                 | assembled with hifiasm                                              |
+| PR01228  | PacBIO HiFi                                 | assembled with hifiasm                                             |
+| PR00512  | PacBIO HiFi                                 | assembled with hifiasm                                            |
+| PR01100  | PacBIO HiFi                                 | assembled with hifiasm                                      |
+| PR00834  | PacBIO HiFi, HiC, ONT-UL                    | assemled with hifiasm, hifiasm-HiC                     |
+| PR00838  | PacBIO HiFi                                 | assemled with hifiasm                                           |
+| PR00115  | PacBIO HiFi                                 | assemled with hifiasm                                             |
+| PR00251  | PacBIO HiFi, HiC \*DUPLICATE w T2T effort\* | assemled with hifiasm, hifiasm-HiC, mPanPan1 T2T assembly            |
+| PR00366  | PacBIO HiFi, HiC, ONT-UL                    | assembled with hifiasm, hifiasm-hic, verkko 2.1, updated with verkko 2.2.1                    |
+| PR00445  | PacBIO HiFi                                 | assemled with hifiasm                                              |
+| PR00249  | PacBIO HiFi                                 | assemled with hifiasm                                              |
+| PR01008  | PacBIO HiFi, HiC, ONT-UL                    | assembled with hifiasm, hifiasm-hic, verkko 2.0, updated with verkko 2.2.1                        |
+| PR01009  | PacBIO HiFi                                 | assemled with hifiasm                                               |
+| PR01010  | PacBIO HiFi, HiC, ONT-UL                    | assembled with hifiasm, hifiasm-hic, verkko 2.0, updated with verkko 2.2.1                                |
+| PR00496A | PacBIO HiFi                                 |  assembled with hifiasm                                             |
+| AG05253_1 | PacBIO HiFi + HiC  | assemled with hifiasm-HiC                                               | 
+| AG18352_2 | PacBIO HiFi + HiC  | FAILED/REMOVED                                               | 
+| AG18357_3 | PacBIO HiFi + HiC  | assemled with hifiasm-HiC                                              | 
+| AG18358_4 | PacBIO HiFi + HiC  | assemled with hifiasm-HiC                                              | 
+| AG18354_5 | PacBIO HiFi, HiC \*DUPLICATE w T2T effort\*  | assemled with hifiasm-HiC, mPanTro3 T2T assembly                                              | 
+| AG18356_6 | PacBIO HiFi + HiC  | assemled with hifiasm-HiC                                                | 
+| AG18359_7 | PacBIO HiFi + HiC  | assemled with hifiasm-HiC                                            | 
+| AG18355_8 | PacBIO HiFi + HiC  | assemled with hifiasm-HiC                                               | 
+| AG18353_9 | PacBIO HiFi + HiC  | assemled with hifiasm-HiC                                               | 
+| AG18361_10| PacBIO HiFi + HiC  | assemled with hifiasm-HiC                                              |  
+| AG18360_11| PacBIO HiFi + HiC  | assemled with hifiasm-HiC                                               |
+| AG16618_12| PacBIO HiFi + HiC  | assemled with hifiasm-HiC                                               |  
+| AG06939_13| PacBIO HiFi + HiC  | assemled with hifiasm-HiC                                               | 
 
 
 ### COMPLETED (PRIMARY AND PHASED) ASSEMBLIES (example with a sample PR01227)
