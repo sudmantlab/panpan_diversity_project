@@ -1,0 +1,30 @@
+ID	population	birth	cell	sex	reads	assembly method	N50_h1_h2_Mbp	QV_h1_h2	Coverage_Kmer	Coverage_depth	Notes
+AG05253_1	Bonobo	unknown	Fibroblast	male	HiFi+HiC	Hifiasm HiC	55.49/55.3	69/70	68	59.4	
+PR00249	Bonobo	captive	LCL	female	HiFi	Hifiasm	32.94/29.14	69/70	44	44.2	
+PR00251	Bonobo	captive	LCL	male	HiFi+HiC	Hifiasm HiC	51.52/49.6	71/72	69	67.1	this is mPanPan1
+PR00366	Bonobo	captive	Fibroblast	female	HiFi+HiC+ONT	Verkko 2.2.1	149.6/147.8	70/69	56	55.9	
+PR00445	Bonobo	captive	LCL	female	HiFi	Hifiasm	25.72/16.26	68/68	33	33.3	
+PR00115	Central	captive	Fibroblast	male	HiFi	Hifiasm	76.16/48.52	72/72	88	84.6	
+PR00496A	Central	wild	LCL	male	HiFi	Hifiasm	15.36/12.21	68/69	33	32.7	
+PR01008	Eastern	wild	Fibroblast	female	HiFi+HiC+ONT	Verkko 2.2.1	128.3/144.8	71/71	53	52.7	
+PR01009	Eastern	wild	Fibroblast	male	HiFi	Hifiasm	12.36/9.519	67/67	33	32.6	
+PR01010	Eastern	captive	Fibroblast	female	HiFi+HiC+ONT	Verkko 2.2.1	141.6/144.1	69/70	54	53.3	
+AG06939_13	Western	unknown	Fibroblast	male	HiFi+HiC	Hifiasm HiC	77.17/67.44	70/70	65	58.9	
+AG18353_9	Western	unknown	LCL	male	HiFi+HiC	Hifiasm HiC	56.71/60.14	68/69	65	61.1	
+AG18354_5	Western	unknown	LCL	male	HiFi+HiC	Hifiasm HiC	71.74/59.57	69/61	59	51.8	this is mPanTro3
+AG18355_8	Western	unknown	LCL	male	HiFi+HiC	Hifiasm HiC	52.06/58.62	69/69	55	56.6	
+AG18357_3	Western	unknown	LCL	female	HiFi+HiC	Hifiasm HiC	33.75/32.32	67/68	31	37.9	
+AG18358_4	Western	unknown	LCL	female	HiFi+HiC	Hifiasm HiC	73.62/75.24	68/69	60	58.6	
+AG18359_7	Western	unknown	LCL	female	HiFi+HiC	Hifiasm HiC	59.24/74.79	69/70	67	63.8	
+AG18360_11	Western	unknown	LCL	female	HiFi+HiC	Hifiasm HiC	71.23/74.98	70/70	74	69.6	
+AG18361_10	Western	unknown	LCL	female	HiFi+HiC	Hifiasm HiC	61.45/53.08	69/70	56	52.7	
+PR00512	Western	wild	Fibroblast	female	HiFi	Hifiasm	28.98/18.54	68/67	44	43.8	
+PR01100	Western	captive	LCL	male	HiFi	Hifiasm	24.07/20.85	68/69	48	46.8	
+PR01223	Western	wild	LCL	male	HiFi	Hifiasm	49.25/32.46	70/70	52	50.3	
+PR01225	Western	wild	LCL	male	HiFi	Hifiasm	20.09/10.34	67/67	34	33.8	
+PR01227	Western	wild	LCL	male	HiFi+HiC+ONT	Verkko 2.2.1	136.7/145.9	69/69	59	54.1	
+PR01228	Western	wild	LCL	male	HiFi	Hifiasm	23.15/14.64	69/69	40	39.7	
+AG16618_12	Western x Central	unknown	LCL	male	HiFi+HiC	Hifiasm HiC	55.11/55	70/71	56	51.4	
+AG18356_6	Western x Central	unknown	LCL	female	HiFi+HiC	Hifiasm HiC	71.16/85.18	72/73	76	69.3	
+PR00834	Western x Central	captive	LCL	female	HiFi+HiC	Hifiasm HiC	23.34/27.05	70/72	50	50	
+PR00838	Western x Central	captive	LCL	female	HiFi	Hifiasm	19.17/18.39	68/68	42	42.5	

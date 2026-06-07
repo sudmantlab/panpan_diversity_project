@@ -1,0 +1,102 @@
+id,chrom,gaps,gapless_status,T_status,is_T2T,T2T_status
+AG05253_1.hap1,chrY_pat_hsaY,33,with gaps,1T,FALSE,with gaps 1T
+AG05253_1.hap1,chrX_mat_hsaX,8,with gaps,1T,FALSE,with gaps 1T
+AG05253_1.hap2,chrY_pat_hsaY,14,with gaps,0T,FALSE,with gaps 0T
+AG05253_1.hap2,chrX_mat_hsaX,20,with gaps,0T,FALSE,with gaps 0T
+AG06939_13.hap1,chrY_hap2_hsaY,4,with gaps,,FALSE,with gaps NA
+AG06939_13.hap1,chrX_hap1_hsaX,11,with gaps,0T,FALSE,with gaps 0T
+AG06939_13.hap2,chrY_hap2_hsaY,2,with gaps,,FALSE,with gaps NA
+AG06939_13.hap2,chrX_hap1_hsaX,9,with gaps,0T,FALSE,with gaps 0T
+AG16618_12.hap1,chrY_hap2_hsaY,6,with gaps,,FALSE,with gaps NA
+AG16618_12.hap1,chrX_hap1_hsaX,7,with gaps,2T,FALSE,with gaps 2T
+AG16618_12.hap2,chrY_hap2_hsaY,5,with gaps,,FALSE,with gaps NA
+AG16618_12.hap2,chrX_hap1_hsaX,15,with gaps,1T,FALSE,with gaps 1T
+AG18353_9.hap1,chrY_hap2_hsaY,6,with gaps,,FALSE,with gaps NA
+AG18353_9.hap1,chrX_hap1_hsaX,7,with gaps,2T,FALSE,with gaps 2T
+AG18353_9.hap2,chrY_hap2_hsaY,9,with gaps,,FALSE,with gaps NA
+AG18353_9.hap2,chrX_hap1_hsaX,12,with gaps,0T,FALSE,with gaps 0T
+AG18354_5.hap1,chrY_hap2_hsaY,20,with gaps,,FALSE,with gaps NA
+AG18354_5.hap1,chrX_hap1_hsaX,5,with gaps,1T,FALSE,with gaps 1T
+AG18354_5.hap2,chrY_hap2_hsaY,8,with gaps,,FALSE,with gaps NA
+AG18354_5.hap2,chrX_hap1_hsaX,9,with gaps,0T,FALSE,with gaps 0T
+AG18355_8.hap1,chrY_hap2_hsaY,12,with gaps,,FALSE,with gaps NA
+AG18355_8.hap1,chrX_hap1_hsaX,9,with gaps,0T,FALSE,with gaps 0T
+AG18355_8.hap2,chrY_hap2_hsaY,10,with gaps,,FALSE,with gaps NA
+AG18355_8.hap2,chrX_hap1_hsaX,3,with gaps,0T,FALSE,with gaps 0T
+AG18356_6.hap1,chrX_hap1_hsaX,6,with gaps,1T,FALSE,with gaps 1T
+AG18356_6.hap2,chrX_hap1_hsaX,5,with gaps,0T,FALSE,with gaps 0T
+AG18357_3.hap1,chrY_hap2_hsaY,0,gapless,,,gapless NA
+AG18357_3.hap1,chrX_hap1_hsaX,21,with gaps,0T,FALSE,with gaps 0T
+AG18357_3.hap2,chrY_hap2_hsaY,0,gapless,,,gapless NA
+AG18357_3.hap2,chrX_hap1_hsaX,17,with gaps,2T,FALSE,with gaps 2T
+AG18358_4.hap1,chrY_hap2_hsaY,1,with gaps,,FALSE,with gaps NA
+AG18358_4.hap1,chrX_hap1_hsaX,5,with gaps,0T,FALSE,with gaps 0T
+AG18358_4.hap2,chrX_hap1_hsaX,4,with gaps,1T,FALSE,with gaps 1T
+AG18359_7.hap1,chrX_hap1_hsaX,12,with gaps,1T,FALSE,with gaps 1T
+AG18359_7.hap2,chrY_hap2_hsaY,0,gapless,,,gapless NA
+AG18359_7.hap2,chrX_hap1_hsaX,11,with gaps,1T,FALSE,with gaps 1T
+AG18360_11.hap1,chrX_hap1_hsaX,14,with gaps,1T,FALSE,with gaps 1T
+AG18360_11.hap2,chrY_hap2_hsaY,0,gapless,,,gapless NA
+AG18360_11.hap2,chrX_hap1_hsaX,10,with gaps,0T,FALSE,with gaps 0T
+AG18361_10.hap1,chrY_hap2_hsaY,0,gapless,,,gapless NA
+AG18361_10.hap1,chrX_hap1_hsaX,11,with gaps,1T,FALSE,with gaps 1T
+AG18361_10.hap2,chrX_hap1_hsaX,12,with gaps,0T,FALSE,with gaps 0T
+PR00115.hap1,chrY_hap2_hsaY,4,with gaps,,FALSE,with gaps NA
+PR00115.hap1,chrX_hap1_hsaX,11,with gaps,2T,FALSE,with gaps 2T
+PR00115.hap2,chrY_hap2_hsaY,19,with gaps,,FALSE,with gaps NA
+PR00115.hap2,chrX_hap1_hsaX,65,with gaps,1T,FALSE,with gaps 1T
+PR00249.hap1,chrY_pat_hsaY,0,gapless,0T,FALSE,gapless 0T
+PR00249.hap1,chrX_mat_hsaX,25,with gaps,1T,FALSE,with gaps 1T
+PR00249.hap2,chrY_pat_hsaY,0,gapless,0T,FALSE,gapless 0T
+PR00249.hap2,chrX_mat_hsaX,32,with gaps,1T,FALSE,with gaps 1T
+PR00251.hap1,chrY_pat_hsaY,7,with gaps,0T,FALSE,with gaps 0T
+PR00251.hap1,chrX_mat_hsaX,7,with gaps,0T,FALSE,with gaps 0T
+PR00251.hap2,chrY_pat_hsaY,5,with gaps,1T,FALSE,with gaps 1T
+PR00251.hap2,chrX_mat_hsaX,19,with gaps,2T,FALSE,with gaps 2T
+PR00366.hap1,chrX_mat_hsaX,4,with gaps,1T,FALSE,with gaps 1T
+PR00366.hap2,chrY_pat_hsaY,0,gapless,0T,FALSE,gapless 0T
+PR00366.hap2,chrX_mat_hsaX,3,with gaps,1T,FALSE,with gaps 1T
+PR00445.hap1,chrY_pat_hsaY,1,with gaps,0T,FALSE,with gaps 0T
+PR00445.hap1,chrX_mat_hsaX,34,with gaps,0T,FALSE,with gaps 0T
+PR00445.hap2,chrY_pat_hsaY,3,with gaps,1T,FALSE,with gaps 1T
+PR00445.hap2,chrX_mat_hsaX,33,with gaps,1T,FALSE,with gaps 1T
+PR00496A.hap1,chrY_hap2_hsaY,2,with gaps,,FALSE,with gaps NA
+PR00496A.hap1,chrX_hap1_hsaX,41,with gaps,1T,FALSE,with gaps 1T
+PR00496A.hap2,chrY_hap2_hsaY,2,with gaps,,FALSE,with gaps NA
+PR00496A.hap2,chrX_hap1_hsaX,39,with gaps,1T,FALSE,with gaps 1T
+PR00512.hap1,chrX_hap1_hsaX,29,with gaps,0T,FALSE,with gaps 0T
+PR00512.hap2,chrY_hap2_hsaY,0,gapless,,,gapless NA
+PR00512.hap2,chrX_hap1_hsaX,33,with gaps,1T,FALSE,with gaps 1T
+PR00834.hap1,chrX_hap1_hsaX,26,with gaps,1T,FALSE,with gaps 1T
+PR00834.hap2,chrY_hap2_hsaY,0,gapless,,,gapless NA
+PR00834.hap2,chrX_hap1_hsaX,31,with gaps,2T,FALSE,with gaps 2T
+PR00838.hap1,chrY_hap2_hsaY,0,gapless,,,gapless NA
+PR00838.hap1,chrX_hap1_hsaX,40,with gaps,2T,FALSE,with gaps 2T
+PR00838.hap2,chrX_hap1_hsaX,42,with gaps,1T,FALSE,with gaps 1T
+PR01008.hap1,chrX_hap1_hsaX,5,with gaps,2T,FALSE,with gaps 2T
+PR01008.hap2,chrX_hap1_hsaX,2,with gaps,2T,FALSE,with gaps 2T
+PR01009.hap1,chrY_hap2_hsaY,4,with gaps,,FALSE,with gaps NA
+PR01009.hap1,chrX_hap1_hsaX,60,with gaps,1T,FALSE,with gaps 1T
+PR01009.hap2,chrY_hap2_hsaY,10,with gaps,,FALSE,with gaps NA
+PR01009.hap2,chrX_hap1_hsaX,59,with gaps,0T,FALSE,with gaps 0T
+PR01010.hap1,chrX_hap1_hsaX,4,with gaps,2T,FALSE,with gaps 2T
+PR01010.hap2,chrX_hap1_hsaX,2,with gaps,2T,FALSE,with gaps 2T
+PR01100.hap1,chrY_hap2_hsaY,8,with gaps,,FALSE,with gaps NA
+PR01100.hap1,chrX_hap1_hsaX,20,with gaps,0T,FALSE,with gaps 0T
+PR01100.hap2,chrY_hap2_hsaY,8,with gaps,,FALSE,with gaps NA
+PR01100.hap2,chrX_hap1_hsaX,20,with gaps,0T,FALSE,with gaps 0T
+PR01223.hap1,chrY_hap2_hsaY,6,with gaps,,FALSE,with gaps NA
+PR01223.hap1,chrX_hap1_hsaX,30,with gaps,0T,FALSE,with gaps 0T
+PR01223.hap2,chrY_hap2_hsaY,6,with gaps,,FALSE,with gaps NA
+PR01223.hap2,chrX_hap1_hsaX,32,with gaps,0T,FALSE,with gaps 0T
+PR01225.hap1,chrY_hap2_hsaY,13,with gaps,,FALSE,with gaps NA
+PR01225.hap1,chrX_hap1_hsaX,34,with gaps,2T,FALSE,with gaps 2T
+PR01225.hap2,chrY_hap2_hsaY,10,with gaps,,FALSE,with gaps NA
+PR01225.hap2,chrX_hap1_hsaX,35,with gaps,0T,FALSE,with gaps 0T
+PR01227.hap1,chrY_hap2_hsaY,1,with gaps,,FALSE,with gaps NA
+PR01227.hap2,chrY_hap2_hsaY,2,with gaps,,FALSE,with gaps NA
+PR01227.hap2,chrX_hap1_hsaX,0,gapless,1T,FALSE,gapless 1T
+PR01228.hap1,chrY_hap2_hsaY,4,with gaps,,FALSE,with gaps NA
+PR01228.hap1,chrX_hap1_hsaX,28,with gaps,0T,FALSE,with gaps 0T
+PR01228.hap2,chrY_hap2_hsaY,4,with gaps,,FALSE,with gaps NA
+PR01228.hap2,chrX_hap1_hsaX,30,with gaps,2T,FALSE,with gaps 2T

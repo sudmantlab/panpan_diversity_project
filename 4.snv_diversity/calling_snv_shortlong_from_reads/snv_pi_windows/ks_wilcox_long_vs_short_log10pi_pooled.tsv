@@ -1,0 +1,5 @@
+region	n_long	n_short	median_log10pi_long	median_log10pi_short	median_diff	fold	KS_D	KS_p	wilcox_p
+Centromere	617	612	-1.592	-2.371	0.779	6.02	0.521	0	1.63e-49
+Telomere	12	13	-1.594	-1.842	0.248	1.77	0.5	0.0681	0.137
+CenSat	30363	30345	-2.791	-2.74	-0.051	0.89	0.125	0	5.95e-07
+Other (incl. SegDup, TR, SRA)	771330	773289	-2.938	-2.848	-0.09	0.81	0.14	0	0

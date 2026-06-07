@@ -1,0 +1,3378 @@
+loc_name	new_symbol	description
+LOC124905687	NSRP1	nuclear speckle splicing regulatory protein 1-like
+LOC124903828	NA	collagen alpha-5(IV) chain-like
+LOC128966578	NA	putative PRAME family member 26
+LOC124903856	NA	putative protein FAM231BP
+LOC124900386	NA	rootletin-like
+LOC124905693	NA	FAM231A/C-like protein LOC102723383
+LOC124905564	NA	neuroblastoma breakpoint family member 1-like
+LOC124905556	NA	FAM231A/C-like protein LOC102723383
+LOC124903857	NA	FAM231A/C-like protein LOC102723383
+LOC128966598	NA	neuroblastoma breakpoint family member 1-like
+LOC124905662	NA	pancreatic alpha-amylase-like
+LOC128966568	NA	alpha-amylase 1B
+LOC128966570	NA	alpha-amylase 1B
+LOC124905664	NA	pancreatic alpha-amylase-like
+LOC124905666	NA	alpha-amylase 1B
+LOC124905668	NA	alpha-amylase 1B
+LOC124905677	NA	myomegalin-like
+LOC124905743	NA	low affinity immunoglobulin gamma Fc region receptor III-B
+LOC124903813	NA	UPF0764 protein C16orf89-like
+LOC124904588	NA	UPF0764 protein C16orf89-like
+LOC128966580	NA	olfactory receptor 2G6
+LOC124905962	NA	collagen alpha-2(I) chain-like
+LOC124906039	NA	lymphocyte-specific protein 1-like
+LOC124905943	NA	lysine-rich arabinogalactan protein 19-like
+LOC128966597	NA	MAL-like protein
+LOC124908046	EZHIP	EZH inhibitory protein-like
+LOC124905947	NA	serine/arginine-rich splicing factor 11-like
+LOC124905403	NA	zinc finger protein OZF-like
+LOC124906262	NA	endogenous retrovirus group K member 5 Gag polyprotein
+LOC124906255	NA	collagen alpha-1(I) chain-like
+LOC112268458	NA	keratinocyte proline-rich protein
+LOC128966576	NA	olfactory receptor 4F17
+LOC124900642	ZNF141	zinc finger protein 141-like
+LOC124906415	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 20
+LOC124906410	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 22
+LOC124906411	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 22
+LOC124906400	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 22
+LOC128966573	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 22
+LOC124906399	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 22
+LOC128966626	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 11
+LOC124906406	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 22
+LOC124906405	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 22
+LOC124906416	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 22
+LOC128966618	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 22
+LOC128966617	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 22
+LOC124906401	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 22
+LOC124906402	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 22
+LOC124906412	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 22
+LOC124906403	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 22
+LOC124906408	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 22
+LOC124906409	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 22
+LOC128966620	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 22
+LOC128966619	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 22
+LOC128966606	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 22
+LOC128966621	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 22
+LOC124901165	NA	keratin-associated protein 5-5-like
+LOC128966671	NA	putative TAF11-like protein ENSP00000332601
+LOC128966672	NA	putative TAF11-like protein ENSP00000332601
+LOC128966665	NA	putative TAF11-like protein ENSP00000332601
+LOC128966673	NA	putative TAF11-like protein ENSP00000332601
+LOC124906475	NA	putative TAF11-like protein ENSP00000332601
+LOC124906476	NA	putative TAF11-like protein ENSP00000332601
+LOC124906477	NA	putative TAF11-like protein ENSP00000332601
+LOC124906478	NA	putative TAF11-like protein ENSP00000332601
+LOC124906479	NA	putative TAF11-like protein ENSP00000332601
+LOC124906480	NA	putative TAF11-like protein ENSP00000332601
+LOC124906481	NA	putative TAF11-like protein ENSP00000332601
+LOC124906482	NA	putative TAF11-like protein ENSP00000332601
+LOC124906483	NA	putative TAF11-like protein ENSP00000332601
+LOC130160544	NA	putative TAF11-like protein ENSP05220103539
+LOC130160545	NA	putative TAF11-like protein ENSP05220103537
+LOC124906484	NA	putative TAF11-like protein ENSP00000332601
+LOC130160546	NA	putative TAF11-like protein ENSP05220103536
+LOC124906485	NA	putative TAF11-like protein ENSP00000332601
+LOC124906487	NA	putative TAF11-like protein ENSP00000332601
+LOC130160547	NA	putative TAF11-like protein ENSP05220103535
+LOC124906486	NA	putative TAF11-like protein ENSP00000332601
+LOC124906488	NA	putative TAF11-like protein ENSP00000332601
+LOC124906489	NA	putative TAF11-like protein ENSP00000332601
+LOC124906490	NA	putative TAF11-like protein ENSP00000332601
+LOC130160548	NA	putative TAF11-like protein ENSP05220103534
+LOC124906491	NA	putative TAF11-like protein ENSP00000332601
+LOC130160549	NA	putative TAF11-like protein ENSP05220103533
+LOC130160542	NA	putative TAF11-like protein ENSP05220060156
+LOC107987432	NA	putative POM121-like protein 1-like
+LOC124905413	NA	putative POM121-like protein 1-like
+LOC124906494	NA	putative POM121-like protein 1-like
+LOC124906492	NA	putative POM121-like protein 1-like
+LOC124906493	NA	putative POM121-like protein 1-like
+LOC124900567	NA	putative POM121-like protein 1-like
+LOC124901178	NA	translation initiation factor IF-2
+LOC107986346	NA	mitochondrial import receptor subunit TOM7 homolog
+LOC124906496	NA	putative POM121-like protein 1-like
+LOC124906497	NA	putative POM121-like protein 1-like
+LOC112268330	NA	putative POM121-like protein 1-like
+LOC124906495	NA	putative POM121-like protein 1-like
+LOC124906498	NA	putative POM121-like protein 1-like
+LOC107986372	NA	mitochondrial import receptor subunit TOM5 homolog
+LOC128966637	NA	putative POM121-like protein 1-like
+LOC128092253	NA	umcharacterized LOC128092253
+LOC105378149	ZNF227	zinc finger protein 227-like
+LOC101929614	NA	proline-rich receptor-like protein kinase PERK10
+LOC105375112	NA	putative protein FAM157B
+LOC124906654	NA	topoisomerase 1-associated factor 1-like
+LOC124901580	NA	endogenous retrovirus group K member 6 Env polyprotein
+LOC124906661	NA	endogenous retrovirus group K member 6 Gag polyprotein-like
+LOC124906603	NA	putative speedy protein E9
+LOC107986860	NA	endogenous retrovirus group K member 19 Env polyprotein-like
+LOC128966762	NA	extensin-like
+LOC124906716	NA	putative protein FAM90A9P
+LOC124906717	NA	putative protein FAM90A9P
+LOC128966609	NA	putative protein FAM90A9P
+LOC128966594	NA	putative protein FAM90A9P
+LOC124906721	NA	putative protein FAM90A9P
+LOC124906718	NA	ras-associated and pleckstrin homology domains-containing protein 1-like
+LOC124906758	NA	putative protein FAM90A13P
+LOC124906756	NA	putative protein FAM90A13P
+LOC128966605	NA	putative protein FAM90A13P
+LOC124906764	NA	putative protein FAM90A13P
+LOC124906767	NA	putative protein FAM90A12P
+LOC124906752	NA	putative protein FAM90A13P
+LOC124906751	NA	putative protein FAM90A13P
+LOC128966593	NA	putative protein FAM90A13P
+LOC124906760	NA	putative protein FAM90A13P
+LOC124906763	NA	putative protein FAM90A13P
+LOC128966670	NA	inactive ubiquitin carboxyl-terminal hydrolase 17-like protein 7
+LOC124906734	NA	translation initiation factor IF-2-like
+LOC124906757	NA	putative protein FAM90A23P
+LOC124906761	NA	putative protein FAM90A24P
+LOC124906796	NA	olfactory receptor 7E24-like
+LOC128966567	NA	putative protein FAM90A24P
+LOC124906750	NA	putative protein FAM90A24P
+LOC128966607	NA	putative protein FAM90A24P
+LOC128966767	NA	putative protein FAM90A24P
+LOC124906765	NA	putative protein FAM90A24P
+LOC128966602	NA	putative protein FAM90A24P
+LOC124906766	NA	putative protein FAM90A10P
+LOC124906737	NA	proline-rich protein 23D1-like
+LOC124906743	NA	beta-defensin 107
+LOC124906746	NA	beta-defensin 104A
+LOC105375817	NA	POTE ankyrin domain family member A-like
+LOC128966661	NA	putative exonuclease GOR
+LOC124906690	NA	putative exonuclease GOR
+LOC124906694	NA	putative exonuclease GOR
+LOC124906697	NA	putative exonuclease GOR
+LOC124906684	NA	putative exonuclease GOR
+LOC124906699	NA	putative exonuclease GOR
+LOC124906701	NA	putative exonuclease GOR
+LOC124906780	NA	putative exonuclease GOR
+LOC124906689	NA	putative exonuclease GOR
+LOC124906783	NA	putative exonuclease GOR
+LOC124906779	NA	putative exonuclease GOR
+LOC124906781	NA	putative exonuclease GOR
+LOC124906782	NA	putative exonuclease GOR
+LOC128966630	NA	putative exonuclease GOR
+LOC128966625	NA	putative exonuclease GOR
+LOC124906702	NA	putative exonuclease GOR
+LOC124906777	NA	putative exonuclease GOR
+LOC124906687	NA	putative exonuclease GOR
+LOC124906688	NA	putative exonuclease GOR
+LOC124906703	NA	putative exonuclease GOR
+LOC124906704	NA	putative exonuclease GOR
+LOC124906705	NA	putative exonuclease GOR
+LOC124906706	NA	putative exonuclease GOR
+LOC124906707	NA	putative exonuclease GOR
+LOC124906708	NA	putative exonuclease GOR
+LOC124906709	NA	putative exonuclease GOR
+LOC124906710	NA	putative exonuclease GOR
+LOC124906711	NA	putative exonuclease GOR
+LOC124902048	NA	putative exonuclease GOR
+LOC124906793	NA	nascent polypeptide-associated complex subunit alpha%2C muscle-specific form-like
+LOC105375947	NA	translation initiation factor IF-2-like
+LOC112268044	NA	ankyrin repeat domain-containing protein 18B-like
+LOC124906852	NA	putative COBW domain-containing protein 7
+LOC124906857	NA	phosphoglucomutase-like protein 5
+LOC128966581	NA	putative ankyrin repeat domain-containing protein 30B-like
+LOC128966634	NA	ribosome biogenesis protein BMS1 homolog
+LOC128966611	NA	putative ankyrin repeat domain-containing protein 20A2
+LOC124906875	NA	cyclin-dependent kinase 2-associated protein 2-like
+LOC124900275	NA	extensin-like
+LOC102723971	LCN1	lipocalin 1-like
+LOC124900276	NA	cuticle collagen 2-like
+LOC122513141	NA	ring finger protein-like
+LOC124900290	DMBT1	deleted in malignant brain tumors 1 protein-like
+LOC124906924	NA	double homeobox protein 4-like protein 4
+LOC124906931	NA	WAS protein family homolog 2-like
+LOC124906935	NA	olfactory receptor 4F4
+LOC124906949	NA	mas-related G-protein coupled receptor member X1
+LOC128966586	NA	pepsin A-4-like
+LOC124906959	NA	pepsin A-4-like
+LOC124902766	NA	endogenous retrovirus group K member 7 Env polyprotein-like
+LOC128966645	NA	putative ATP-dependent RNA helicase DDX12
+LOC105369787	NA	endogenous retrovirus group K member 21 Env polyprotein
+LOC124907012	NA	endogenous retrovirus group K member 7 Env polyprotein-like
+LOC124907090	NA	ankyrin repeat domain-containing protein SOWAHC-like
+LOC128966781	NA	histone-lysine N-methyltransferase 2C-like
+LOC105379278	NA	putative tyrosine-protein phosphatase TPTE
+LOC112267897	NA	keratin-associated protein 21-1-like
+LOC647264	NA	keratin-associated protein 21-1
+LOC128966780	NA	DNA-directed RNA polymerase II subunit RPB1-like
+LOC124907387	NA	histone-lysine N-methyltransferase 2C-like
+LOC124907432	NA	putative tyrosine-protein phosphatase TPTE
+LOC124907421	NA	protein FRG1-like
+LOC124907420	NA	protein FRG1-like
+LOC128966784	NA	pollen-specific leucine-rich repeat extensin-like protein 3
+LOC105379417	NA	putative ankyrin repeat domain-containing protein 20A2
+LOC124907507	NA	cyclin-dependent kinase 2-associated protein 2-like
+LOC124907501	NA	golgin subfamily A member 6-like protein 1
+LOC124907509	NA	pollen-specific leucine-rich repeat extensin-like protein 3
+LOC100653133	NA	golgin subfamily A member 6-like protein 1
+LOC124903571	NA	serine-aspartate repeat-containing protein I-like
+LOC124907523	NA	golgin subfamily A member 6A-like
+LOC124907524	NA	golgin subfamily A member 6B
+LOC102724117	NA	golgin subfamily A member 6-like protein 4
+LOC100652777	NA	group 10 secretory phospholipase A2
+LOC124900576	OTOA	otoancorin-like
+LOC128966632	NA	serine/threonine-protein kinase SMG1-like
+LOC128966680	NA	serine/threonine-protein kinase SMG1-like
+LOC128966681	NA	putative L-type amino acid transporter 1-like protein IMAA
+LOC124907841	NA	bolA-like protein 2
+LOC124903680	NA	zinc finger protein ENSP00000375192-like
+LOC124907789	NA	translation initiation factor IF-2-like
+LOC124907791	NA	serine/threonine-protein kinase Chk2-like
+LOC124907782	NA	dual specificity protein phosphatase 22
+LOC124907780	NA	leucine-rich repeat extensin-like protein 3
+LOC124903713	PTMS	parathymosin-like
+LOC124907806	CLEC18C	C-type lectin domain family 18 member C-like
+LOC124903757	NA	keratin-associated protein 5-2-like
+LOC101928044	NA	zinc finger CCHC domain-containing protein 9-like
+LOC101060212	NA	puromycin-sensitive aminopeptidase-like protein
+LOC124904077	NA	translation initiation factor IF-2-like
+LOC128966610	NA	UDP-GlcNAc:betaGal beta-1%2C3-N-acetylglucosaminyltransferase-like protein 1
+LOC107985149	NA	histidine-rich protein PFHRP-II-like
+LOC124904333	NA	octapeptide-repeat protein T2
+LOC124908081	NA	glycine cleavage system H protein%2C mitochondrial-like
+LOC122539214	NA	Zinc finger protein LOC122539214
+LOC124904792	ZNF480	zinc finger protein 480-like
+LOC124908094	NA	WAS protein family homolog 2-like
+LOC124908119	NA	cyclin-dependent kinase 2-associated protein 2-like
+LOC124908102	NA	WAS protein family homolog 2-like
+LOC124908103	NA	putative ATP-dependent RNA helicase DDX12
+LOC124908168	NA	DNA-directed RNA polymerase II subunit RPB1-like
+LOC124908169	NA	ankyrin repeat domain-containing protein 20B-like
+LOC124908139	NA	B melanoma antigen 3-like
+LOC124908231	NA	protein FRG1-like
+LOC124908143	NA	protein FRG1B-like
+LOC128966688	NA	translation initiation factor IF-2-like
+LOC128966689	NA	PE-PGRS family protein PE_PGRS30-like
+LOC124908428	NA	extensin-like
+LOC124908437	NA	putative double homeobox protein 3
+LOC124908456	NA	protein FRG1B-like
+LOC124908433	NA	translation initiation factor IF-2-like
+LOC124908434	NA	ankyrin repeat domain-containing protein 36B-like
+LOC124908444	NA	histone-lysine N-methyltransferase 2C-like
+LOC124908445	NA	histone-lysine N-methyltransferase 2C-like
+LOC124908467	NA	B melanoma antigen 3-like
+LOC128966641	NA	putative POM121-like protein 1
+LOC124908409	NA	putative POM121-like protein 1
+LOC124900476	NA	endogenous retrovirus group K member 5 Gag polyprotein-like
+LOC124905135	NA	collagen alpha-1(III) chain-like
+LOC124900597	NA	serine/arginine repetitive matrix protein 1-like
+LOC124908553	GAGE7	G antigen 7-like
+LOC124908554	GAGE7	G antigen 7-like
+LOC124908555	GAGE5	G antigen 5
+LOC124908556	GAGE7	G antigen 7-like
+LOC124908557	GAGE2D	G antigen 2D-like
+LOC124908558	NA	X antigen family member 1-like
+LOC124908533	NA	collagen alpha-4(IV) chain-like
+LOC124908535	NA	collagen alpha-4(IV) chain-like
+LOC124908534	NA	collagen alpha-4(IV) chain-like
+LOC124908536	NA	collagen alpha-4(IV) chain-like
+LOC128966702	NA	paraneoplastic antigen-like protein 6A
+LOC124908988	NA	testis-specific Y-encoded protein 8
+LOC128966595	NA	testis-specific Y-encoded protein 3
+LOC124905625	NA	testis-specific Y-encoded protein 3
+LOC124905615	NA	testis-specific Y-encoded protein 3
+LOC124905628	NA	testis-specific Y-encoded protein 3
+LOC128966647	NA	testis-specific Y-encoded protein 3
+LOC124905614	NA	testis-specific Y-encoded protein 3
+LOC124908978	NA	testis-specific Y-encoded protein 3
+LOC124905618	NA	testis-specific Y-encoded protein 3-like
+LOC124905616	NA	testis-specific Y-encoded protein 3
+LOC124908979	NA	testis-specific Y-encoded protein 3
+LOC124905621	NA	testis-specific Y-encoded protein 3
+LOC124908981	NA	testis-specific Y-encoded protein 3
+LOC124909305	NA	testis-specific Y-encoded protein 4-like
+LOC124909306	NA	testis-specific Y-encoded protein 3-like
+LOC124908980	NA	testis-specific Y-encoded protein 3
+LOC124909084	NA	testis-specific Y-encoded protein 3-like
+LOC124909320	NA	testis-specific Y-encoded protein 3-like
+LOC124909329	NA	testis-specific Y-encoded protein 4-like
+LOC124909330	NA	testis-specific Y-encoded protein 1-like
+LOC124909317	NA	testis-specific Y-encoded protein 4-like
+LOC124909318	NA	testis-specific Y-encoded protein 3-like
+LOC124909093	NA	testis-specific Y-encoded protein 3-like
+LOC124909293	NA	testis-specific Y-encoded protein 4
+LOC124909294	NA	testis-specific Y-encoded protein 3
+LOC124905627	NA	testis-specific Y-encoded protein 4-like
+LOC124905619	NA	testis-specific Y-encoded protein 3-like
+LOC124905620	NA	testis-specific Y-encoded protein 3
+LOC124905617	NA	testis-specific Y-encoded protein 3
+LOC128966599	NA	testis-specific Y-encoded protein 3
+LOC128966655	NA	testis-specific Y-encoded protein 3
+LOC124909197	NA	testis-specific Y-encoded protein 3-like
+LOC128966591	NA	testis-specific Y-encoded protein 4-like
+LOC124908905	NA	WAS protein family homolog 6-like
+LOC129144512	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC129136592	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC107972962	NA	bifunctional peptidase and (3S)-lysyl hydroxylase JMJD7-like
+LOC107969093	NA	spectrin beta chain, non-erythrocytic 5-like
+LOC134807455	NA	mitogen-activated protein kinase-binding protein 1-like
+LOC456647	NA	WAS protein family homolog 2
+LOC100612202	NA	small ribosomal subunit protein uS19-like
+LOC129136598	NA	large ribosomal subunit protein eL13-like
+LOC129136506	NA	putative glycosyltransferase ALG1L2
+LOC750731	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 6
+LOC134806924	KLRG1	killer cell lectin like receptor G1
+LOC107967740	NA	small ribosomal subunit protein eS17-like
+LOC107967437	NA	ovostatin-like
+LOC465369	NA	ovostatin homolog 2
+LOC134806925	CLEC2D	C-type lectin domain family 2 member D
+LOC107973221	NA	NKG2-C type II integral membrane protein
+LOC739542	NA	salivary acidic proline-rich phosphoprotein 1/2
+LOC739490	NA	taste receptor type 2 member 46
+LOC112204978	NA	taste receptor type 2 member 19
+LOC739229	NA	taste receptor type 2 member 45
+LOC100609864	NA	taste receptor type 2 member 30-like
+LOC129136604	NA	basic salivary proline-rich protein 3
+LOC112204985	SLCO1B3	solute carrier organic anion transporter family member 1B3-like
+LOC743902	NA	T-box transcription factor TBX20-like
+LOC467020	NA	olfactory receptor 10A7
+LOC467016	NA	olfactory receptor 9K2-like
+LOC466972	NA	olfactory receptor 8S1
+LOC129136645	PTMA	prothymosin alpha
+LOC746169	SMIM14	small integral membrane protein 14
+LOC134807434	ZNF850	zinc finger protein 850-like
+LOC107967547	NA	large ribosomal subunit protein uL13-like
+LOC473397	NA	ovostatin homolog 2
+LOC134807533	NA	collagen alpha-1(II) chain-like
+LOC112205005	NA	G/T mismatch-specific thymine DNA glycosylase-like
+LOC134807483	IRAG2	inositol 1,4,5-triphosphate receptor associated 2-like
+LOC134807488	NA	putative solute carrier organic anion transporter family member 1B7
+LOC749254	SLCO1B3	solute carrier organic anion transporter family member 1B3
+LOC100614771	NA	elongation factor 1-alpha 1-like
+LOC736227	NA	developmental pluripotency-associated protein 3-like
+LOC104001660	NA	putative golgin subfamily A member 2B
+LOC100608739	NA	thyroid receptor-interacting protein 11-like
+LOC129136556	NA	large ribosomal subunit protein eL8
+LOC134807410	NA	fibroblast growth factor-binding protein 3-like
+LOC101059613	NA	nucleoside diphosphate kinase, mitochondrial
+LOC101057578	NA	large ribosomal subunit protein uL16-like
+LOC104001739	TMEM132B	transmembrane protein 132B-like
+LOC741807	NA	transmembrane emp24 domain-containing protein 2
+LOC738562	NA	putative EP400-like protein
+LOC129135992	NA	histone-lysine N-methyltransferase PRDM7-like
+LOC112207536	NA	BCL-6 corepressor-like protein 1
+LOC129136082	NA	minor allergen Can f 2
+LOC107976814	NA	ficolin-2-like
+LOC112204432	NA	ADP-ribosylation factor 4-like
+LOC450164	ABO	ABO, alpha 1-3-N-acetylgalactosaminyltransferase and alpha 1-3-galactosyltransferase
+LOC464762	TMEM203	transmembrane protein 203
+LOC473049	NA	olfactory receptor 1L4
+LOC100612643	NA	olfactory receptor 1L3
+LOC112204402	NA	olfactory receptor 1N1
+LOC473039	NA	olfactory receptor 1J1
+LOC107976758	NA	basic salivary proline-rich protein 2-like
+LOC134807636	NA	serine/arginine repetitive matrix protein 1-like
+LOC112204398	NUTM2G	NUT family member 2G-like
+LOC134807728	NA	major facilitator superfamily domain-containing 14C-like
+LOC472988	NA	ankyrin repeat domain-containing protein 18B-like
+LOC466297	NUTM2F	NUT family member 2F
+LOC104007940	NA	major facilitator superfamily domain-containing 14C
+LOC134807730	NA	E3 ubiquitin-protein ligase makorin-1-like
+LOC100613702	NUTM2F	NUT family member 2F
+LOC107976711	SPTLC1	serine palmitoyltransferase long chain base subunit 1
+LOC129136042	NA	putative UPF0607 protein ENSP00000381418
+LOC739558	NA	receptor-type tyrosine-protein phosphatase V-like
+LOC104007935	NA	putative UPF0607 protein ENSP00000381418
+LOC472977	NA	serine/threonine-protein kinase NLK-like
+LOC129136001	NA	unconventional myosin-Vb-like
+LOC129136000	NA	translation initiation factor IF-2
+LOC112204071	NA	monofunctional C1-tetrahydrofolate synthase, mitochondrial-like
+LOC107970105	NA	putative ankyrin repeat domain-containing protein 20A2
+LOC134807657	NA	putative UPF0633 protein
+LOC735822	NA	putative UPF0633 protein
+LOC107972967	NA	contactin-associated protein-like 3
+LOC129135946	NA	zinc-regulated GTPase metalloprotein activator 1C
+LOC739614	NA	required for meiotic nuclear division protein 1 homolog
+LOC112204382	NA	spermatogenesis-associated protein 31D1-like
+LOC745963	NA	spermatogenesis-associated protein 31D1-like
+LOC464935	NA	putative spermatogenesis-associated protein 31C2
+LOC107976692	NA	histone-lysine N-methyltransferase SETMAR
+LOC112207515	NA	spermatogenesis-associated protein 31A1
+LOC104007846	NA	phospholipid-transporting ATPase FetA-like
+LOC112204425	NA	small ribosomal subunit protein eS26-like
+LOC100608547	NA	ral-GDS-related protein-like
+LOC104007838	NA	putative UPF0607 protein ENSP00000383144
+LOC741978	NA	interferon alpha-16
+LOC744748	NA	interferon alpha-17
+LOC101056829	NA	non-histone chromosomal protein HMG-17
+LOC464999	NA	L-lactate dehydrogenase A chain-like
+LOC112204364	NA	small nuclear ribonucleoprotein E-like
+LOC129136087	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC129141848	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC129143198	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC101059855	NA	chromosome alignment-maintaining phosphoprotein 1-like
+LOC104004422	NA	bifunctional peptidase and (3S)-lysyl hydroxylase JMJD7
+LOC107973298	NA	spectrin beta chain, non-erythrocytic 5-like
+LOC129143190	NA	small nuclear ribonucleoprotein G-like
+LOC107973590	NA	WAS/WASL-interacting protein family member 1-like
+LOC129135413	NA	RANBP2-like and GRIP domain-containing protein 5/6
+LOC470467	NA	sulfotransferase 1C3
+LOC100608286	NA	sulfotransferase 1C1
+LOC459477	NA	LIM and senescent cell antigen-like-containing domain protein 1
+LOC736102	NA	E3 SUMO-protein ligase RanBP2-like
+LOC129135439	NA	RANBP2-like and GRIP domain-containing protein 5/6
+LOC100612480	NA	anaphase-promoting complex subunit 1
+LOC112208197	NA	ranBP2-like and GRIP domain-containing protein 4
+LOC107972874	NA	interleukin-1 receptor-like 1
+LOC112208201	NA	interleukin-1 receptor-like 1
+LOC112204153	NA	ranBP2-like and GRIP domain-containing protein 4
+LOC741694	NA	ankyrin repeat domain-containing protein 36B
+LOC129143243	NA	small ribosomal subunit protein uS2-like
+LOC107973137	NA	ankyrin repeat domain-containing protein 36C
+LOC107973123	NA	SCY1-like protein 2
+LOC470434	NA	tripartite motif-containing protein 43
+LOC739911	NA	tripartite motif-containing protein 43
+LOC112207519	NA	ankyrin repeat domain-containing protein 20B
+LOC112207981	NA	ankyrin repeat domain-containing protein 20B
+LOC112204070	NA	aquaporin-7B
+LOC750038	NA	monofunctional C1-tetrahydrofolate synthase, mitochondrial-like
+LOC129143157	NA	inactive glutathione hydrolase 2-like
+LOC134807781	NA	histone-lysine N-methyltransferase 2C-like
+LOC100614447	NA	rho GTPase-activating protein 23-like
+LOC129143237	IGKV2-28	immunoglobulin kappa variable 2-28
+LOC104005067	NA	ankyrin repeat domain-containing protein 36B-like
+LOC107971323	NA	RANBP2-like and GRIP domain-containing protein 1
+LOC107973078	NA	anaphase-promoting complex subunit 1-like
+LOC134807800	NA	anaphase-promoting complex subunit 1-like
+LOC129141188	NA	transcription factor NF-E4-like
+LOC134807808	NA	breast carcinoma-amplified sequence 4-like
+LOC459325	NA	putative ALMS1-like protein
+LOC738157	NA	cytochrome P450 26B1
+LOC459308	NA	olfactory receptor 7E24-like
+LOC129143200	NA	elongin-C-like
+LOC735576	NA	gastrokine-3
+LOC738175	NA	putative UPF0607 protein ENSP00000381514
+LOC134807898	NA	WAS/WASL-interacting protein family member 3-like
+LOC134807785	NA	formin-2-like
+LOC107973470	NA	embryonic stem cell-related gene protein-like
+LOC101059249	NA	myeloid-associated differentiation marker
+LOC107972569	NA	putative postmeiotic segregation increased 2-like protein 2
+LOC129140901	NA	endogenous retrovirus group K member 7 Env polyprotein
+LOC129143290	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC129143446	NA	spectrin beta chain, non-erythrocytic 5-like
+LOC748548	NA	cytosolic phospholipase A2 beta
+LOC104004131	NA	mitogen-activated protein kinase-binding protein 1-like
+LOC470525	NA	cytochrome P450 27C1
+LOC107973768	NA	iron-sulfur cluster assembly 1 homolog, mitochondrial
+LOC741724	NA	putative inactive fatty acyl-CoA reductase 2-like protein
+LOC107973632	POTEG	POTE ankyrin domain family member G
+LOC104004656	SMPD4	sphingomyelin phosphodiesterase 4
+LOC749210	NA	mitotic-spindle organizing protein 2B
+LOC112208376	NA	collagen alpha-2(XI) chain-like
+LOC112207946	NA	ras-related protein Rab-6C
+LOC107966644	FAR2	fatty acyl-CoA reductase 2-like
+LOC129143391	POTEE	POTE ankyrin domain family member E
+LOC107971418	POTEI	POTE ankyrin domain family member I
+LOC736079	FAR2	fatty acyl-CoA reductase 2-like
+LOC112208375	NA	ras-related protein Rab-6C
+LOC129135366	NA	collagen alpha-2(XI) chain-like
+LOC129135332	NA	mitotic-spindle organizing protein 2B
+LOC100608221	SMPD4	sphingomyelin phosphodiesterase 4
+LOC107973629	NA	mitotic-spindle organizing protein 2B
+LOC107971415	NA	coiled-coil domain-containing protein 74B
+LOC459619	SMPD4	sphingomyelin phosphodiesterase 4
+LOC459622	NBEA	neurobeachin-like
+LOC129143305	NA	G-protein coupled receptor 39
+LOC134808083	NA	collagen alpha-1(III) chain-like
+LOC107966142	NA	histone H3.3A
+LOC739606	NA	protein ELYS-like
+LOC470576	CTAGE9	cTAGE family member 9-like
+LOC736129	NA	collagen alpha-1(I) chain-like
+LOC107973827	NA	small ribosomal subunit protein eS26-like
+LOC739939	NA	large ribosomal subunit protein P1-like
+LOC134808055	TTN	titin-like
+LOC470599	NA	protein lin-28 homolog A-like
+LOC470601	NA	ETS-related transcription factor Elf-2-like
+LOC747025	NA	aldehyde oxidase 2-like
+LOC129143431	NA	bone morphogenetic protein receptor type-2-like
+LOC739023	NA	transcription factor BTF3
+LOC129143258	NA	fatty acid-binding protein 5-like
+LOC129143283	NA	small cysteine and glycine repeat-containing protein 6-like
+LOC107966250	NA	barrier-to-autointegration factor-like
+LOC129143436	NA	endogenous retrovirus group 3 member 1 Env polyprotein-like
+LOC107973969	NA	UDP-glucuronosyltransferase 1A1
+LOC107971404	NA	UDP-glucuronosyltransferase 1A5-like
+LOC107974000	NA	aquaporin-12B
+LOC129143390	NA	histone-lysine N-methyltransferase PRDM7-like
+LOC134808100	NA	protein VCF2-like
+LOC129136793	NA	protein FRG1B-like
+LOC101058522	NA	putative ankyrin repeat domain-containing protein 20A2
+LOC129137927	NA	putative ankyrin repeat domain-containing protein 20A12
+LOC129136889	NA	ankyrin repeat domain-containing protein SOWAHC-like
+LOC100615457	NA	unconventional myosin-Vb-like
+LOC134806923	NA	cyclin-dependent kinase 2-associated protein 2-like
+LOC129136896	NA	protein FRG1B-like
+LOC129136897	NA	ankyrin repeat domain-containing protein 30B-like
+LOC112205576	POTEB3	POTE ankyrin domain family member B3
+LOC129136711	NA	ankyrin repeat domain-containing protein 18B-like
+LOC107967839	NA	lysine-specific demethylase PHF2-like
+LOC129136901	NA	protein mono-ADP-ribosyltransferase PARP4-like
+LOC104001782	NA	putative coiled-coil domain-containing protein 144B
+LOC467351	NA	coiled-coil-helix-coiled-coil-helix domain-containing protein 2-like
+LOC107972228	NA	peroxiredoxin-2-like
+LOC129136722	NA	phosphatidylinositol 3,4,5-trisphosphate 3-phosphatase TPTE2-like
+LOC129136776	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC129136829	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC129136826	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC112205253	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC107967910	NA	DNA-directed RNA polymerases I, II, and III subunit RPABC4-like
+LOC452727	NA	guanylate cyclase soluble subunit beta-2
+LOC746049	NA	protein SGT1 homolog
+LOC112205260	NA	phosphatidylinositol 3,4,5-trisphosphate 3-phosphatase TPTE2-like
+LOC467370	NA	peptidyl-prolyl cis-trans isomerase A-like
+LOC467369	PTGR1	prostaglandin reductase 1-like
+LOC129136746	NA	proline-rich protein 20E
+LOC129136752	NA	proline-rich protein 20E
+LOC129136753	NA	proline-rich protein 20E
+LOC129136756	NA	proline-rich protein 20E
+LOC129136757	NA	proline-rich protein 20E
+LOC134808217	NA	proline-rich protein 20E
+LOC129136758	NA	proline-rich protein 20E
+LOC129136759	NA	proline-rich protein 20E
+LOC129136760	NA	proline-rich protein 20E
+LOC129136765	NA	proline-rich protein 20E
+LOC129136766	NA	proline-rich protein 20E
+LOC129136767	NA	proline-rich protein 20E
+LOC129136768	NA	proline-rich protein 20E
+LOC129136769	NA	proline-rich protein 20E
+LOC129136770	NA	proline-rich protein 20E
+LOC134808218	NA	proline-rich protein 20E
+LOC134808219	NA	proline-rich protein 20E
+LOC134808220	NA	proline-rich protein 20E
+LOC134808221	NA	proline-rich protein 20E
+LOC134808222	NA	proline-rich protein 20E
+LOC134808223	NA	proline-rich protein 20E
+LOC134808224	NA	proline-rich protein 20E
+LOC134808225	NA	proline-rich protein 20E
+LOC129136834	NA	myosin IC heavy chain-like
+LOC101058170	NA	cTAGE family member 2-like
+LOC104001860	NA	keratin-associated protein 21-1-like
+LOC100611617	NA	putative UPF0607 protein ENSP00000383144
+LOC134808242	NA	T-box transcription factor TBX1-like
+LOC129136848	PTMA	prothymosin alpha-like
+LOC134808147	NA	small ribosomal subunit protein eS26-like
+LOC107968076	ZNF283	zinc finger protein 283-like
+LOC104001904	NA	small nuclear ribonucleoprotein Sm D1-like
+LOC134808156	NA	putative methyltransferase-like protein 21E
+LOC467320	NA	ATP synthase F(0) complex subunit C1, mitochondrial-like
+LOC134808171	NA	glutamine-rich protein 2-like
+LOC134808179	NA	zinc-regulated GTPase metalloprotein activator 1A-like
+LOC134808177	NA	putative COBW domain-containing protein 7
+LOC129139011	NA	tektin-1-like
+LOC134808416	NA	ankyrin repeat domain-containing protein SOWAHC-like
+LOC100611163	NA	protein FRG1B
+LOC467535	NA	sodium/potassium/calcium exchanger 4
+LOC134808404	NA	unconventional myosin-Vb-like
+LOC101059699	NA	disintegrin and metalloproteinase domain-containing protein 29-like
+LOC129136946	NA	disintegrin and metalloproteinase domain-containing protein 21-like
+LOC112205630	NA	putative rhophilin-2-like protein RHPN2P1
+LOC107972911	NA	putative inactive fatty acyl-CoA reductase 2-like protein
+LOC735535	POTEF	POTE ankyrin domain family member F
+LOC465195	NA	olfactory receptor 4N2
+LOC473307	NA	olfactory receptor 4K3
+LOC100613950	NA	olfactory receptor 4K5
+LOC473312	NA	olfactory receptor 4K14
+LOC107968274	NA	olfactory receptor 4L1
+LOC742615	NA	olfactory receptor 10G2
+LOC107966378	NA	olfactory receptor 10G2
+LOC467415	GPAT4	glycerol-3-phosphate acyltransferase 4-like
+LOC107966402	NA	zinc finger protein 42 homolog
+LOC101059615	NA	rho-related GTP-binding protein RhoQ-like
+LOC104002047	NA	basic proline-rich protein-like
+LOC467495	NA	disintegrin and metalloproteinase domain-containing protein 20-like
+LOC107966238	NA	protein phosphatase 1 regulatory subunit 14B
+LOC453134	NA	small ribosomal subunit protein uS2B-like
+LOC736782	COA8	cytochrome c oxidase assembly factor 8
+LOC112208000	IGHE	immunoglobulin heavy constant epsilon
+LOC750127	NA	WASP homolog-associated protein with actin, membranes and microtubules
+LOC100613625	NA	putative golgin subfamily A member 8G
+LOC467627	NA	large ribosomal subunit protein uL18-like
+LOC107968552	NA	small ribosomal subunit protein eS27-like
+LOC112205572	NA	serine/threonine-protein kinase Nek4-like
+LOC107968571	NA	putative golgin subfamily A member 8I
+LOC100615278	POTEB3	POTE ankyrin domain family member B3
+LOC104004591	POTEI	POTE ankyrin domain family member I
+LOC107966503	NA	olfactory receptor 11H12
+LOC107968458	NA	putative rhophilin-2-like protein RHPN2P1
+LOC107966586	NA	disintegrin and metalloproteinase domain-containing protein 21-like
+LOC134808565	NA	disintegrin and metalloproteinase domain-containing protein 29-like
+LOC129137116	NA	unconventional myosin-Vb-like
+LOC129137216	NA	tropomyosin alpha-4 chain-like
+LOC112207462	NA	sterile alpha motif domain-containing protein 1-like
+LOC129135436	NA	B melanoma antigen 5
+LOC112208106	NA	double homeobox protein 4C-like
+LOC107972828	NA	double homeobox protein 4C-like
+LOC129137124	NA	dynamin-1-like
+LOC750180	NA	golgin subfamily A member 8N-like
+LOC107966661	NA	U3 small nucleolar ribonucleoprotein protein MPP10
+LOC134808488	NA	amyloid-beta A4 precursor protein-binding family A member 2-like
+LOC107968580	NA	putative GED domain-containing protein DNM1P46
+LOC129137199	NA	small ribosomal subunit protein uS5-like
+LOC453361	NA	calpain-3
+LOC107966461	NA	inositol hexakisphosphate and diphosphoinositol-pentakisphosphate kinase 1
+LOC107968609	SORD	sorbitol dehydrogenase-like
+LOC107968518	NA	small ribosomal subunit protein uS2-like
+LOC129137225	NA	acyl-coenzyme A thioesterase THEM4-like
+LOC100611213	CNOT6	CCR4-NOT transcription complex subunit 6-like
+LOC129137227	NA	guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-10
+LOC467699	NA	golgin subfamily A member 2
+LOC749557	NA	high mobility group protein B1
+LOC467828	NA	putative GED domain-containing protein DNM1P34
+LOC112205600	NA	elongation factor 1-alpha 1-like
+LOC112207948	NA	golgin subfamily A member 6C-like
+LOC743568	NA	A disintegrin and metalloproteinase with thrombospondin motifs 7
+LOC100608518	NA	golgin subfamily A member 2
+LOC104004447	CSPG4	chondroitin sulfate proteoglycan 4
+LOC749630	NA	golgin subfamily A member 6-like protein 9
+LOC112205556	NA	putative golgin subfamily A member 6-like protein 19
+LOC112207690	NA	golgin subfamily A member 6-like protein 10
+LOC112207685	NA	A disintegrin and metalloproteinase with thrombospondin motifs 7-like
+LOC129135334	NA	golgin subfamily A member 6-like protein 10
+LOC134808476	NA	large ribosomal subunit protein eL21-like
+LOC107968485	NA	histone H2A.V-like
+LOC134808495	NA	serine/threonine-protein phosphatase 1 regulatory subunit 10
+LOC100608823	NA	primary cilium assembly protein FAM149B1-like
+LOC112205623	NA	golgin subfamily A member 2-like
+LOC134808702	NA	protein VCF2-like
+LOC134808697	NA	ankyrin repeat domain-containing protein SOWAHC-like
+LOC134808710	CES4A	carboxylesterase 4A-like
+LOC750120	CES3	carboxylesterase 3-like
+LOC129137935	NA	unconventional myosin-Vb-like
+LOC129137870	NA	cyclin-dependent kinase 2-associated protein 2-like
+LOC129137936	NA	protein FRG1B-like
+LOC455512	NA	ankyrin repeat domain-containing protein 30B
+LOC129137938	NA	collagen alpha-1(I) chain-like
+LOC101058364	NA	nuclear pore complex-interacting protein family member B9
+LOC104003107	NA	WW domain-binding protein 2-like
+LOC735805	EIF1	eukaryotic translation initiation factor 1-like
+LOC129137899	NA	elongin-A3
+LOC134808686	NA	elongin-A3-like
+LOC129137900	NA	elongin-A3
+LOC129137902	NA	elongin-A3
+LOC134808676	NA	elongin-A3
+LOC134808677	NA	elongin-A3
+LOC129137895	NA	elongin-A3
+LOC134808678	NA	elongin-A3
+LOC134808603	NA	elongin-A3
+LOC129137896	NA	elongin-A3
+LOC129137897	NA	elongin-A3
+LOC134808604	NA	elongin-A3
+LOC129137904	NA	elongin-A3
+LOC134808679	NA	elongin-A3
+LOC134808680	NA	elongin-A3
+LOC740344	NA	Y-box-binding protein 2-like
+LOC107969386	NA	mucin-3B
+LOC112206243	NA	large ribosomal subunit protein eL21-like
+LOC455451	NA	endosome-associated-trafficking regulator 1-like
+LOC740098	NA	serpin B3
+LOC104003204	GTSCR1	Gilles de la Tourette syndrome chromosome region, candidate 1
+LOC468581	NA	ubiquitin-like FUBI-ribosomal protein eS30 fusion protein
+LOC129137914	NA	olfactory receptor 4F3/4F16/4F29
+LOC134808793	NA	phosphoglucomutase-like protein 5
+LOC100608245	HBZ	hemoglobin subunit zeta-like
+LOC129388389	NA	hemoglobin subunit alpha
+LOC129137268	NA	hemoglobin subunit alpha-3-like
+LOC100608743	NA	renal cancer differentiation gene 1 protein-like
+LOC129137269	NA	large ribosomal subunit protein uL23-like
+LOC468084	NA	tryptase beta-2-like
+LOC100614054	NA	tryptase delta
+LOC749964	NA	putative serine protease 29
+LOC112204129	NA	acylpyruvase FAHD1, mitochondrial
+LOC112205920	NA	endogenous retrovirus group K member 7 Env polyprotein
+LOC741017	NA	acylpyruvase FAHD1, mitochondrial
+LOC112204145	NA	hydroxyacylglutathione hydrolase, mitochondrial
+LOC112205918	NA	nuclear pore complex-interacting protein family member A9-like
+LOC107973199	NA	nuclear pore complex-interacting protein family member A9
+LOC107972351	NA	putative RRN3-like protein RRN3P2
+LOC112205917	NA	polycystin-1-like
+LOC467872	NA	ATP-binding cassette sub-family A member 17-like
+LOC112205915	NA	putative 3-phosphoinositide-dependent protein kinase 2
+LOC129135253	NA	nuclear pore complex-interacting protein family member A7
+LOC749627	NA	putative NPIP-like protein
+LOC750142	NA	serine protease 30-like
+LOC112205867	NA	nuclear pore complex-interacting protein family member A7-like
+LOC129137396	NA	group 10 secretory phospholipase A2-like
+LOC129135381	NA	nuclear pore complex-interacting protein family member B12-like
+LOC129137395	NA	group 10 secretory phospholipase A2-like
+LOC112205827	NA	nuclear pore complex-interacting protein family member B12-like
+LOC750787	NA	nuclear pore complex-interacting protein family member B12
+LOC739070	NA	group 10 secretory phospholipase A2
+LOC112204066	NA	nuclear pore complex-interacting protein family member B12-like
+LOC112205830	NA	group 10 secretory phospholipase A2-like
+LOC112205833	NA	nuclear pore complex-interacting protein family member B12-like
+LOC112205831	NA	nuclear pore complex-interacting protein family member A5
+LOC112207897	NA	polycystin-1-like
+LOC107973146	NA	BOS complex subunit NOMO3-like
+LOC104004456	NA	large ribosomal subunit protein eL15-like
+LOC742522	NA	ATP-binding cassette sub-family C member 6
+LOC129135305	NA	BOS complex subunit NOMO1-like
+LOC129137397	NA	large ribosomal subunit protein eL15-like
+LOC749124	NA	polycystin-1-like
+LOC112207767	NA	BOS complex subunit NOMO3
+LOC739285	NA	polycystin-1
+LOC100614392	NA	SREBP regulating gene protein-like
+LOC112207763	NA	nuclear pore complex-interacting protein family member A9-like
+LOC112207891	NA	polycystin-1-like
+LOC112207969	NA	BOS complex subunit NOMO3-like
+LOC112205869	NA	polycystin-1-like
+LOC107972902	NA	large ribosomal subunit protein eL15-like
+LOC129135370	NA	polycystin-1-like
+LOC454345	NA	BOS complex subunit NOMO1
+LOC107973209	NA	acyl-coenzyme A synthetase ACSM5, mitochondrial-like
+LOC101058359	NA	phospholipid-transporting ATPase ABCA3-like
+LOC100613237	NA	putative protein SNX29P2
+LOC749371	NA	serine/threonine-protein kinase SMG1-like
+LOC745676	NA	RNA polymerase I-specific transcription initiation factor RRN3
+LOC100615882	NA	RNA polymerase I-specific transcription initiation factor RRN3
+LOC129137399	NA	nuclear pore complex-interacting protein family member A7
+LOC107973150	NA	serine/threonine-protein kinase SMG1-like
+LOC129137286	OTOA	otoancorin-like
+LOC107972317	NA	cytochrome c-like
+LOC454016	EIF3C	eukaryotic translation initiation factor 3 subunit C
+LOC129135420	NA	nuclear pore complex-interacting protein family member B15-like
+LOC129137416	NA	nuclear pore complex-interacting protein family member B8-like
+LOC129135256	EIF3C	eukaryotic translation initiation factor 3 subunit C-like
+LOC737549	NA	battenin
+LOC129137415	NA	nuclear pore complex-interacting protein family member B8-like
+LOC129135255	NA	serine/threonine-protein kinase SMG1-like
+LOC112207873	NA	nuclear pore complex-interacting protein family member B8
+LOC749530	NA	battenin
+LOC129137423	NA	nuclear pore complex-interacting protein family member B8-like
+LOC112205839	NA	nuclear pore complex-interacting protein family member B15-like
+LOC112207590	NA	battenin-like
+LOC738352	EIF3C	eukaryotic translation initiation factor 3 subunit C
+LOC129137424	NA	nuclear pore complex-interacting protein family member B8-like
+LOC453981	NA	putative L-type amino acid transporter 1-like protein MLAS
+LOC112205845	NA	nuclear pore complex-interacting protein family member B8-like
+LOC129137287	OTOA	otoancorin-like
+LOC129135358	NA	putative L-type amino acid transporter 1-like protein MLAS
+LOC744474	NA	serine/threonine-protein kinase SMG1-like
+LOC129137437	NA	nuclear pore complex-interacting protein family member B15-like
+LOC129137436	NA	nuclear pore complex-interacting protein family member B15-like
+LOC129137435	NA	nuclear pore complex-interacting protein family member B15-like
+LOC750420	NA	nuclear pore complex-interacting protein family member B15
+LOC129137438	NA	nuclear pore complex-interacting protein family member B12-like
+LOC129137434	EIF3C	eukaryotic translation initiation factor 3 subunit C
+LOC112208101	NA	battenin
+LOC749547	NA	putative RRN3-like protein RRN3P2
+LOC104004476	NA	nuclear pore complex-interacting protein family member B15
+LOC112207668	NA	nuclear pore complex-interacting protein family member B13-like
+LOC129137443	NA	nuclear pore complex-interacting protein family member B15-like
+LOC129137451	NA	nuclear pore complex-interacting protein family member B15-like
+LOC129137444	NA	nuclear pore complex-interacting protein family member B15-like
+LOC107973273	NA	putative L-type amino acid transporter 1-like protein MLAS
+LOC112207963	OTOA	otoancorin-like
+LOC129137290	NA	nuclear pore complex-interacting protein family member B8
+LOC112207351	NA	serine/threonine-protein kinase SMG1-like
+LOC129137455	NA	nuclear pore complex-interacting protein family member B15-like
+LOC134808807	NA	ectonucleotide pyrophosphatase/phosphodiesterase family member 7-like
+LOC101059732	NA	rho GTPase-activating protein 23-like
+LOC129137302	NA	ATP-binding cassette sub-family D member 1-like
+LOC112208125	NA	TP53-target gene 3 protein
+LOC104004486	NA	E3 ubiquitin-protein ligase HERC2-like
+LOC454097	NA	liver carboxylesterase 1
+LOC747009	NA	liver carboxylesterase 1
+LOC750059	NA	liver carboxylesterase 1
+LOC750069	NA	liver carboxylesterase 1-like
+LOC129137308	NA	high mobility group protein B3-like
+LOC129137345	NA	putative UPF0607 protein ENSP00000381418
+LOC129137346	NA	putative UPF0607 protein ENSP00000381418
+LOC129137347	NA	putative UPF0607 protein ENSP00000381418
+LOC112205880	NA	putative UPF0607 protein ENSP00000381418
+LOC129135258	CES2	carboxylesterase 2
+LOC100609914	NA	putative pyridoxal-dependent decarboxylase domain-containing protein 2
+LOC112207414	NA	nuclear pore complex-interacting protein family member B4
+LOC134808763	NA	serine/threonine-protein phosphatase 2A regulatory subunit B'' subunit beta-like
+LOC112205887	NA	putative nuclear pore complex-interacting protein family member B2
+LOC100608310	NA	nuclear pore complex-interacting protein family member B13
+LOC107968882	CLEC18A	C-type lectin domain family 18 member A
+LOC736783	NA	chymotrypsinogen B
+LOC454266	NA	polycystin-1-like protein 2
+LOC134808792	NA	basic proline-rich protein-like
+LOC104002732	NA	AFG3-like protein 1
+LOC134808778	NA	AFG3-like protein 1
+LOC112205857	NA	bifunctional peptidase and (3S)-lysyl hydroxylase JMJD7-like
+LOC129137313	NA	spectrin beta chain, non-erythrocytic 5-like
+LOC129137488	NA	spectrin beta chain, non-erythrocytic 5-like
+LOC129137314	NA	spectrin beta chain, non-erythrocytic 5-like
+LOC129137483	NA	double C2-like domain-containing protein beta
+LOC129137369	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC134808837	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC134808931	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC134808932	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC129137660	NA	putative RNA-binding regulatory peptide
+LOC112206063	NA	olfactory receptor 1P1-like
+LOC468150	NA	olfactory receptor 1D4
+LOC468152	NA	olfactory receptor 3A1
+LOC129137653	NA	collagen alpha-1(I) chain
+LOC748792	NA	BTB/POZ domain-containing protein KCTD9-like
+LOC455243	NA	polyunsaturated fatty acid (12S)/(13S)-lipoxygenase, epidermal-type-like
+LOC468298	NA	leucine-rich repeat-containing protein 37A3
+LOC107968981	NA	leucine-rich repeat-containing protein 37A
+LOC129137744	NA	leucine-rich repeat-containing protein 37A3-like
+LOC100613991	NA	high mobility group protein B3
+LOC100614183	NA	estradiol 17-beta-dehydrogenase 1
+LOC742416	NA	keratin-associated protein 9-7
+LOC742464	NA	keratin-associated protein 9-2-like
+LOC742618	NA	keratin-associated protein 9-3
+LOC107969063	NA	keratin-associated protein 9-2
+LOC112206033	NA	keratin-associated protein 9-4
+LOC100613382	NA	keratin-associated protein 4-11
+LOC744437	NA	keratin-associated protein 4-8
+LOC107973363	NA	keratin-associated protein 4-7
+LOC112206034	NA	keratin-associated protein 4-7
+LOC100615515	NA	putative keratin-associated protein 4-16
+LOC468245	NA	keratin-associated protein 2-1
+LOC468246	NA	keratin-associated protein 2-1
+LOC107969030	NA	keratin-associated protein 2-1
+LOC468247	NA	keratin-associated protein 2-1
+LOC745883	NA	puromycin-sensitive aminopeptidase-like protein
+LOC454608	PHF14	PHD finger protein 14-like
+LOC104002862	NA	serine/threonine-protein kinase tousled-like 2
+LOC748524	NA	polycomb protein SUZ12-like
+LOC749677	NA	coiled-coil domain-containing protein 144A
+LOC129137576	NA	protein FAM106A-like
+LOC134808876	NA	ubiquitin carboxyl-terminal hydrolase 6-like
+LOC129137579	NA	coiled-coil domain-containing protein 144A-like
+LOC129137714	NA	regulator of nonsense transcripts 3A-like
+LOC129137574	NA	putative coiled-coil domain-containing protein 144B
+LOC104004536	NA	signal recognition particle subunit SRP68-like
+LOC129137581	EVPL	envoplakin-like
+LOC129137583	NA	ribosomal protein S6 kinase beta-1-like
+LOC129135374	CDRT15	CMT1A duplicated region transcript 15 protein
+LOC129137715	NA	C-C motif chemokine 3-like
+LOC129137716	NA	glucose-induced degradation protein 4 homolog
+LOC749948	NA	C-C motif chemokine 3-like
+LOC129137717	NA	keratin, type I cytoskeletal 14-like
+LOC129137684	CDRT15	CMT1A duplicated region transcript 15 protein-like
+LOC129137682	CDRT15	CMT1A duplicated region transcript 15 protein-like protein
+LOC129137690	NA	signal recognition particle subunit SRP68-like
+LOC134808877	EVPL	envoplakin-like
+LOC129137687	NA	ribosomal protein S6 kinase beta-1-like
+LOC112206053	NA	small ribosomal subunit protein uS5-like
+LOC468179	NA	coactosin-like protein
+LOC112206089	NA	transportin-1-like
+LOC129137591	NA	galectin-9C
+LOC134808990	NA	nitric oxide synthase, inducible-like
+LOC129137592	NA	coiled-coil domain-containing protein 144A-like
+LOC129137594	NA	signal recognition particle subunit SRP68-like
+LOC112207725	NA	tripartite motif-containing protein 16-like protein
+LOC104001141	NA	multidrug and toxin extrusion protein 2-like
+LOC107968995	NA	coiled-coil domain-containing protein 144A
+LOC129137604	NA	small ribosomal subunit protein eS28
+LOC129137601	NA	galectin-9B
+LOC129137605	NA	transportin-1-like
+LOC129137611	NA	cytospin-B-like
+LOC129137613	NA	coactosin-like protein
+LOC129135339	CDRT15	CMT1A duplicated region transcript 15 protein-like
+LOC129137615	CDRT15	CMT1A duplicated region transcript 15 protein-like protein
+LOC112206052	NA	ribosomal protein S6 kinase beta-1
+LOC748818	EVPL	envoplakin-like
+LOC742910	NA	coiled-coil domain-containing protein 144A
+LOC750927	NA	coiled-coil domain-containing protein 144A
+LOC107969043	NA	F-box/WD repeat-containing protein 10-like
+LOC455055	NA	small ribosomal subunit protein uS13-like
+LOC129137698	NA	protein mago nashi homolog
+LOC745872	NA	ubiquitin-ribosomal protein eS31 fusion protein-like
+LOC468407	NA	large ribosomal subunit protein uL30-like
+LOC107969000	NA	probable ATP-dependent RNA helicase DHX40
+LOC129137631	TBC1D3G	TBC1 domain family member 3G-like
+LOC107969284	NA	large ribosomal subunit protein uL23-like
+LOC107969085	NA	peptidyl-prolyl cis-trans isomerase A-like
+LOC100611834	ICAM1	intercellular adhesion molecule 1
+LOC740112	NA	ATP synthase subunit f, mitochondrial-like
+LOC742589	EIF4A3	eukaryotic translation initiation factor 4A3
+LOC129135262	NA	eukaryotic initiation factor 4A-III-like
+LOC112208018	NA	eukaryotic initiation factor 4A-III
+LOC129388392	NA	eukaryotic initiation factor 4A-III-like
+LOC129137560	NA	eukaryotic initiation factor 4A-III-like
+LOC129137559	NA	eukaryotic initiation factor 4A-III-like
+LOC134806913	MCRIP1	MAPK regulated corepressor interacting protein 1
+LOC112207721	NA	MAM and LDL-receptor class A domain-containing protein 2-like
+LOC134807900	NA	putative protein FAM157B
+LOC104004104	NA	protein RoBo-1-like
+LOC469777	NA	olfactory receptor 2T3-like
+LOC100612917	NA	olfactory receptor 2T27
+LOC112208657	NA	olfactory receptor 2T2
+LOC741803	NA	olfactory receptor 2T29-like
+LOC469776	NA	olfactory receptor 2T29
+LOC740716	NA	small ubiquitin-related modifier 3
+LOC469775	NA	olfactory receptor 2G6
+LOC100613015	NA	olfactory receptor 2T3
+LOC469774	NA	olfactory receptor 2T2
+LOC469773	NA	olfactory receptor 2T27
+LOC469769	NA	olfactory receptor 2M3-like
+LOC469766	NA	olfactory receptor 2T12
+LOC741161	NA	olfactory receptor 2M3
+LOC469764	NA	olfactory receptor 2M2
+LOC469761	NA	olfactory receptor 2T12
+LOC469759	NA	olfactory receptor 2L3
+LOC469758	NA	olfactory receptor 2L2
+LOC469756	NA	olfactory receptor 2L2-like
+LOC100608066	NA	olfactory receptor 2L8-like
+LOC104004835	NA	olfactory receptor 2L5
+LOC469755	NA	olfactory receptor 2AK2
+LOC100615576	NA	olfactory receptor 2L8
+LOC469160	NA	olfactory receptor 11L1
+LOC104004833	NA	olfactory receptor 6J1-like
+LOC104004827	NA	olfactory receptor 14A2
+LOC469747	NA	olfactory receptor 2G2
+LOC101059730	NA	kinesin-like protein KIF28P
+LOC134809855	NA	mucin-12-like
+LOC104004819	NA	Y-box-binding protein 1-like
+LOC457842	NA	alpha-enolase-like
+LOC457831	NA	small ribosomal subunit protein eS26-like
+LOC129143126	NA	small ribosomal subunit protein uS19-like
+LOC129136167	NA	E3 ubiquitin-protein ligase RNF4-like
+LOC469691	NA	small ribosomal subunit protein eS1-like
+LOC129136056	NA	oligosaccharyltransferase complex subunit OSTC
+LOC749429	NA	zinc finger CCCH domain-containing protein 11A-like
+LOC129143110	NA	syncytin-1-like
+LOC745138	NA	ATP synthase F(0) complex subunit C2, mitochondrial-like
+LOC100608385	NA	10 kDa heat shock protein, mitochondrial-like
+LOC457604	NA	complement factor H-related protein 4
+LOC107966493	NA	complement factor H-related protein 1
+LOC107973509	NA	non-histone chromosomal protein HMG-14-like
+LOC129135576	NA	large ribosomal subunit protein eL21-like
+LOC107973502	NA	ribosomal protein uL30-like
+LOC736490	NA	alkylated DNA repair protein alkB homolog 8-like
+LOC469572	NA	lymphotactin
+LOC746079	ZNF664	zinc finger protein 664-like
+LOC745350	NA	low affinity immunoglobulin gamma Fc region receptor III-B
+LOC748740	NA	heat shock 70 kDa protein 6
+LOC107973075	NA	low affinity immunoglobulin gamma Fc region receptor II-c
+LOC129137966	NA	endogenous retrovirus group K member 18 Env polyprotein
+LOC746844	NA	small ubiquitin-related modifier 1-like
+LOC104003354	NA	putative olfactory receptor 10J6
+LOC112205604	NA	olfactory receptor 10J1
+LOC100613191	NA	olfactory receptor 10J3
+LOC469533	NA	olfactory receptor 6K3-like
+LOC134808731	SLAMF8	SLAM family member 8-like
+LOC101059219	NA	protein S100-A15A
+LOC736981	NA	small proline-rich protein 2E
+LOC457314	NA	small proline-rich protein 2D
+LOC735897	NA	late cornified envelope protein 2C
+LOC112208623	NA	late cornified envelope protein 2B
+LOC134808764	NA	putative neuroblastoma breakpoint family member 7
+LOC112204096	ZNF850	zinc finger protein 850-like
+LOC743531	NA	neuroblastoma breakpoint family member 15
+LOC742208	NA	pachytene checkpoint protein 2 homolog
+LOC742917	NA	palmitoyltransferase ZDHHC11
+LOC134810451	NA	alpha/beta hydrolase domain-containing protein 17A-like
+LOC129135311	NA	vesicle-trafficking protein SEC22b-like
+LOC107966247	NA	thioredoxin-interacting protein
+LOC129137513	NA	myomegalin-like
+LOC745383	NA	Krueppel-like factor 5
+LOC107973016	NA	neuroblastoma breakpoint family member 15
+LOC129138875	NA	myomegalin-like
+LOC129135357	NA	alpha/beta hydrolase domain-containing protein 17A-like
+LOC112208384	NA	neuroblastoma breakpoint family member 15
+LOC107971330	NA	notch homolog 2 N-terminal-like protein A
+LOC107966245	NA	myomegalin
+LOC112204994	NA	neuroblastoma breakpoint family member 15
+LOC129135295	NA	thioredoxin-interacting protein-like
+LOC747969	NA	myomegalin
+LOC112204055	NA	hemojuvelin
+LOC112208395	NA	neuroblastoma breakpoint family member 15
+LOC112208004	NA	leucine-rich repeats and immunoglobulin-like domains protein 2
+LOC129137511	NA	sortilin-like
+LOC129137479	NA	neuroblastoma breakpoint family member 26
+LOC134809775	NA	bile acid receptor-like
+LOC101059076	NA	small ribosomal subunit protein uS8-like
+LOC134810591	NA	neuroblastoma breakpoint family member 4-like
+LOC112208393	NA	neuroblastoma breakpoint family member 14
+LOC129137413	NA	neuroblastoma breakpoint family member 12-like
+LOC134809777	NA	neuroblastoma breakpoint family member 1-like
+LOC112204152	NA	leucine-rich repeats and immunoglobulin-like domains protein 2
+LOC134806918	RBM15	RNA binding motif protein 15
+LOC129143216	NA	basic proline-rich protein-like
+LOC107973663	NA	peptidyl-prolyl cis-trans isomerase A-like 4A
+LOC129137372	NA	notch homolog 2 N-terminal-like protein A
+LOC129137371	NA	neuroblastoma breakpoint family member 10
+LOC129137336	PCNA	proliferating cell nuclear antigen
+LOC134809780	NA	mitochondrial adenyl nucleotide antiporter SLC25A24-like
+LOC457936	NA	neuroblastoma breakpoint family member 6-like
+LOC107973617	NA	small ribosomal subunit protein uS10-like
+LOC107967080	NA	embryonic stem cell-related gene protein-like
+LOC134810897	NA	large ribosomal subunit protein eL21
+LOC738449	NA	iron-sulfur cluster assembly enzyme ISCU
+LOC744483	NA	ribosomal protein L35a like
+LOC100614519	NA	putative inactive cytochrome P450 family member 4Z2
+LOC738231	NA	fatty-acid amide hydrolase 1-like
+LOC112209812	NA	succinyl-CoA:3-ketoacid coenzyme A transferase 2, mitochondrial-like
+LOC456748	NA	magnesium transporter protein 1-like
+LOC100612802	SELENOW	selenoprotein W-like
+LOC112209443	NA	RH-like protein IIR
+LOC112209445	NA	small ribosomal subunit protein uS8-like
+LOC107971361	NA	RH-like protein IC
+LOC456645	NA	rhesus-like protein
+LOC112207632	NA	succinate dehydrogenase [ubiquinone] cytochrome b small subunit, mitochondrial-like
+LOC456491	NA	chymotrypsin-like elastase family member 3B
+LOC129136541	NA	FAM231A/C-like protein
+LOC736194	NA	neuroblastoma breakpoint family member 15
+LOC742959	NA	aflatoxin B1 aldehyde reductase member 4
+LOC129143388	NA	putative protein FAM231BP
+LOC129136527	NA	neuroblastoma breakpoint family member 15-like
+LOC112207546	NA	neuroblastoma breakpoint family member 15-like
+LOC112207542	NA	FAM231A/C-like protein
+LOC112207544	NA	neuroblastoma breakpoint family member 15-like
+LOC129136495	NA	coiled-coil-helix-coiled-coil-helix domain-containing protein 2-like
+LOC112208570	PRAMEF19	PRAME family member 19
+LOC129135277	PRAMEF1	PRAME family member 1
+LOC129138211	PRAMEF11	PRAME family member 11-like
+LOC129143368	PRAMEF10	PRAME family member 10-like
+LOC129143374	PRAMEF1	PRAME family member 1-like
+LOC129143377	NA	heterogeneous nuclear ribonucleoprotein C-like 3
+LOC129143362	PRAMEF15	PRAME family member 15-like
+LOC129143379	NA	heterogeneous nuclear ribonucleoprotein C-like 2
+LOC129143363	PRAMEF15	PRAME family member 15-like
+LOC129143370	PRAMEF2	PRAME family member 2
+LOC129143355	PRAMEF8	PRAME family member 8-like
+LOC129143367	PRAMEF10	PRAME family member 10-like
+LOC129143373	PRAMEF1	PRAME family member 1-like
+LOC129143376	NA	heterogeneous nuclear ribonucleoprotein C-like 3
+LOC746419	PRAMEF15	PRAME family member 15
+LOC129141459	PRAMEF15	PRAME family member 15-like
+LOC129143375	PRAMEF1	PRAME family member 1-like
+LOC129141462	PRAMEF10	PRAME family member 10-like
+LOC129141427	PRAMEF8	PRAME family member 8-like
+LOC112207983	NA	heterogeneous nuclear ribonucleoprotein C-like 2
+LOC129141483	PRAMEF15	PRAME family member 15-like
+LOC129143347	PRAMEF15	PRAME family member 15-like
+LOC129143350	PRAMEF1	PRAME family member 1-like
+LOC129143351	PRAMEF8	PRAME family member 8
+LOC129143353	NA	heterogeneous nuclear ribonucleoprotein C-like 2
+LOC129143343	NA	heterogeneous nuclear ribonucleoprotein C-like 2
+LOC129143342	PRAMEF2	PRAME family member 2
+LOC469825	NA	PRAME family member
+LOC129143340	PRAMEF1	PRAME family member 1-like
+LOC129143341	NA	heterogeneous nuclear ribonucleoprotein C-like 2
+LOC750374	PRAMEF15	PRAME family member 15
+LOC129143336	PRAMEF15	PRAME family member 15-like
+LOC129143339	NA	heterogeneous nuclear ribonucleoprotein C-like 2
+LOC742000	NA	heterogeneous nuclear ribonucleoprotein C-like 2
+LOC129143179	PRAMEF15	PRAME family member 15-like
+LOC129143178	NA	heterogeneous nuclear ribonucleoprotein C-like 1
+LOC129143177	PRAMEF10	PRAME family member 10-like
+LOC469819	PRAMEF10	PRAME family member 10-like
+LOC129143173	PRAMEF15	PRAME family member 15-like
+LOC129143175	PRAMEF1	PRAME family member 1-like
+LOC129143176	PRAMEF8	PRAME family member 8-like
+LOC129143171	PRAMEF14	PRAME family member 14-like
+LOC129135421	PRAMEF8	PRAME family member 8-like
+LOC129143170	PRAMEF15	PRAME family member 15
+LOC746704	PRAMEF18	PRAME family member 18
+LOC107966473	PRAMEF1	PRAME family member 1-like
+LOC129143332	PRAMEF11	PRAME family member 11-like
+LOC129143334	NA	heterogeneous nuclear ribonucleoprotein C-like 2
+LOC129135344	PRAMEF18	PRAME family member 18-like
+LOC129143162	PRAMEF17	PRAME family member 17-like
+LOC129135337	PRAMEF15	PRAME family member 15-like
+LOC129143158	PRAMEF14	PRAME family member 14-like
+LOC112207730	NA	heterogeneous nuclear ribonucleoprotein C-like 1
+LOC129138041	PRAMEF10	PRAME family member 10-like
+LOC129143154	NA	heterogeneous nuclear ribonucleoprotein C-like 1
+LOC129143155	PRAMEF2	PRAME family member 2-like
+LOC746501	PRAMEF15	PRAME family member 15
+LOC129143331	PRAMEF8	PRAME family member 8-like
+LOC129143147	PRAMEF10	PRAME family member 10
+LOC129143150	PRAMEF1	PRAME family member 1-like
+LOC129143152	PRAMEF15	PRAME family member 15-like
+LOC129137951	PRAMEF11	PRAME family member 11-like
+LOC736510	PRAMEF18	PRAME family member 18
+LOC745735	PRAMEF15	PRAME family member 15-like
+LOC747233	NA	neuroblastoma breakpoint family member 15
+LOC457200	NA	ATPase family AAA domain-containing protein 3A
+LOC129136323	PRAMEF15	PRAME family member 15-like
+LOC107975666	NA	large ribosomal subunit protein eL39-like
+LOC100608468	NA	tubulin beta chain-like
+LOC129138110	NA	phosphoglucomutase-like protein 5
+LOC129138080	NA	putative HTLV-1-related endogenous sequence
+LOC468645	NA	small ribosomal subunit protein uS19-like
+LOC129137958	NA	putative adhesion G protein-coupled receptor E4P
+LOC741719	NA	methyl-CpG-binding domain protein 3-like 2
+LOC112206398	NA	putative methyl-CpG-binding domain protein 3-like 3
+LOC468692	NA	putative methyl-CpG-binding domain protein 3-like 3
+LOC129138069	NA	putative methyl-CpG-binding domain protein 3-like 3
+LOC129138071	NA	putative methyl-CpG-binding domain protein 3-like 3
+LOC129138044	NA	putative methyl-CpG-binding domain protein 3-like 3
+LOC129138045	NA	putative methyl-CpG-binding domain protein 3-like 3
+LOC129138046	NA	putative methyl-CpG-binding domain protein 3-like 3
+LOC129138036	NA	putative methyl-CpG-binding domain protein 3-like 3
+LOC134809069	NA	proline-rich protein 23D1-like
+LOC134809070	NA	proline-rich protein 23D1-like
+LOC134809071	NA	proline-rich protein 23D1-like
+LOC134809072	NA	proline-rich protein 23D1-like
+LOC455686	NA	putative zinc finger protein 812
+LOC459923	NA	large ribosomal subunit protein uL16-like
+LOC101059576	C3	complement C3-like
+LOC129138132	NA	protein Hikeshi-like
+LOC112206437	ZNF20	zinc finger protein 20-like
+LOC468725	ZNF823	zinc finger protein 823
+LOC746590	ZNF69	zinc finger protein 69
+LOC468730	ZNF763	zinc finger protein 763-like
+LOC112206438	ZNF878	zinc finger protein 878
+LOC100615195	ZNF433	zinc finger protein 433
+LOC112206362	ZNF878	zinc finger protein 878-like
+LOC455736	NA	probable ribosome biogenesis protein RLP24
+LOC100615438	ZNF564	zinc finger protein 564-like
+LOC100615906	ZNF44	zinc finger protein 44
+LOC112206444	NA	spermatogenesis-associated protein 45
+LOC455744	PGK1	phosphoglycerate kinase 1-like
+LOC107969678	NA	putative small nuclear ribonucleoprotein G-like protein 15
+LOC747830	NA	putative olfactory receptor 7A2
+LOC100615800	NA	putative olfactory receptor 7A2
+LOC134809084	NA	cytochrome P450 4F12-like
+LOC748478	NA	large ribosomal subunit protein uL23-like
+LOC455799	NA	elongator complex protein 5
+LOC129138037	NA	putative zinc finger protein 861
+LOC100609185	NA	cytochrome P450 4F2-like
+LOC455885	ZNF486	zinc finger protein 486
+LOC100608043	ZNF737	zinc finger protein 737
+LOC455890	ZNF85	zinc finger protein 85
+LOC129135340	ZNF85	zinc finger protein 85-like
+LOC455892	ZNF85	zinc finger protein 85
+LOC468794	ZNF737	zinc finger protein 737
+LOC455899	ZNF728	zinc finger protein 728
+LOC456378	NA	large ribosomal subunit protein eL34-like
+LOC739694	ZNF98	zinc finger protein 98
+LOC100614186	ZNF429	zinc finger protein 429-like
+LOC107972442	ZNF98	zinc finger protein 98-like
+LOC129137980	NA	putative zinc finger protein 730
+LOC455904	ZNF724	zinc finger protein 724
+LOC469069	ZNF91	zinc finger protein 91
+LOC740583	ZNF726	zinc finger protein 726-like
+LOC740698	NA	small ribosomal subunit protein eS27-like
+LOC129137997	ZNF724	zinc finger protein 724-like
+LOC468811	NA	cyclin-Y-like protein 2
+LOC107969584	NA	zinc finger protein 781
+LOC129138066	NA	WD repeat-containing protein 87-like
+LOC739343	NA	putative inactive cytochrome P450 2G1
+LOC456052	NA	cytochrome P450 2B6-like
+LOC101058187	NA	cytochrome P450 2A13
+LOC468888	NA	large ribosomal subunit protein eL36-like
+LOC468898	NA	pregnancy-specific beta-1-glycoprotein 8
+LOC456084	NA	pregnancy-specific beta-1-glycoprotein 1
+LOC100613635	NA	pregnancy-specific beta-1-glycoprotein 7
+LOC100612876	NA	pregnancy-specific beta-1-glycoprotein 6
+LOC129135438	NA	pregnancy-specific beta-1-glycoprotein 7
+LOC100613994	NA	pregnancy-specific beta-1-glycoprotein 5
+LOC742336	NA	CD177 antigen
+LOC129135367	CARD8	caspase recruitment domain family member 8
+LOC107969785	SAXO3	stabilizer of axonemal microtubules 3
+LOC129135266	NA	choriogonadotropin subunit beta variant 2
+LOC107973077	NA	choriogonadotropin subunit beta 3
+LOC112206372	NA	choriogonadotropin subunit beta variant 2
+LOC468965	ZNF345	zinc finger protein 345
+LOC100614571	NA	SIGLEC family-like protein 1
+LOC107966154	NA	sialic acid-binding Ig-like lectin 8
+LOC456252	NA	sialic acid-binding Ig-like lectin 14
+LOC468984	ZNF610	zinc finger protein 610
+LOC456264	ZNF701	zinc finger protein 701
+LOC104001134	ZNF83	zinc finger protein 83
+LOC456265	ZNF816	zinc finger protein 816
+LOC100610781	ZNF665	zinc finger protein 665-like
+LOC104003432	ZNF813	zinc finger protein 813
+LOC100612450	IGSF1	immunoglobulin superfamily member 1
+LOC100608180	NA	leukocyte immunoglobulin-like receptor subfamily B member 3-like
+LOC129138013	NA	ret finger protein-like 4A
+LOC129138011	NA	ret finger protein-like 4A
+LOC456315	NA	ret finger protein-like 4A
+LOC129138012	NA	ret finger protein-like 4A
+LOC100610718	NA	ret finger protein-like 4A
+LOC129138014	NA	ret finger protein-like 4A
+LOC129138015	NA	ret finger protein-like 4A
+LOC129138016	NA	ret finger protein-like 4A
+LOC129138017	NA	ret finger protein-like 4A
+LOC129138018	NA	ret finger protein-like 4A
+LOC129138019	NA	ret finger protein-like 4A
+LOC129138020	NA	ret finger protein-like 4A
+LOC129138021	NA	ret finger protein-like 4A
+LOC129138022	NA	ret finger protein-like 4A
+LOC129138023	NA	ret finger protein-like 4A
+LOC129138024	NA	ret finger protein-like 4A
+LOC129138025	NA	ret finger protein-like 4A
+LOC129138026	NA	ret finger protein-like 4A
+LOC129138027	NA	ret finger protein-like 4A
+LOC129138028	NA	ret finger protein-like 4A
+LOC129138029	NA	ret finger protein-like 4A
+LOC129138006	NA	ret finger protein-like 4A
+LOC129138007	NA	ret finger protein-like 4A
+LOC129135345	NA	ret finger protein-like 4A
+LOC104003467	NA	olfactory receptor 1L4-like
+LOC456336	ZNF814	zinc finger protein 814
+LOC107969600	ZNF814	zinc finger protein 814
+LOC129137991	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC107973254	NA	sterile alpha motif domain-containing protein 11-like
+LOC735365	NA	KN motif and ankyrin repeat domain-containing protein 1-like
+LOC112207866	NA	phosphoglucomutase-like protein 5
+LOC458144	NA	cystatin-SA
+LOC748789	NA	putative POM121-like protein 1
+LOC101056735	NA	protein FAM182B
+LOC129138214	NA	protein FAM182B-like
+LOC465131	ZNF285	zinc finger protein 285-like
+LOC107972937	NA	cyclin-dependent kinase 2-associated protein 2-like
+LOC100612351	NA	unconventional myosin-Vb-like
+LOC129138160	NA	protein FRG1-like
+LOC134809208	NA	protein FRG1B-like
+LOC100610148	NA	putative BPIFA4P protein
+LOC104003611	NA	cholinephosphotransferase 1-like
+LOC107970028	NA	large ribosomal subunit protein uL11-like
+LOC107966159	NA	large ribosomal subunit protein uL3-like
+LOC129138182	NA	syncytin-1-like
+LOC100612020	NA	serine/threonine-protein phosphatase 4 regulatory subunit 1
+LOC134809160	NA	bifunctional peptidase and (3S)-lysyl hydroxylase JMJD7-like
+LOC129138202	NA	spectrin beta chain, non-erythrocytic 5-like
+LOC129138175	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC129138158	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC129138159	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC129138980	NA	ankyrin repeat domain-containing protein SOWAHC-like
+LOC129138286	NA	protein VCF2-like
+LOC104004643	NA	protein FRG1B-like
+LOC743831	ZNF717	zinc finger protein 717-like
+LOC107972982	NA	double homeobox protein 1-like
+LOC107972979	NA	cyclin-dependent kinase 2-associated protein 2-like
+LOC112208012	NA	cyclin-dependent kinase 2-associated protein 2-like
+LOC129138259	NA	protein FRG1B-like
+LOC107966649	NA	ankyrin repeat domain-containing protein 30B-like
+LOC107966637	NA	inversin-A
+LOC129135399	NA	putative ankyrin repeat domain-containing protein 20A2
+LOC474069	NA	multidrug resistance-associated protein 1-like
+LOC134809227	NA	collagen, type I, alpha 1a-like
+LOC107970109	NA	small ribosomal subunit protein uS5-like
+LOC100614236	NA	keratin-associated protein 22-2
+LOC129138264	NA	keratin-associated protein 6-3
+LOC100614889	NA	keratin-associated protein 20-3
+LOC745824	NA	keratin-associated protein 8-1
+LOC745851	NA	keratin-associated protein 7-1
+LOC134809257	NA	collagen alpha-1(I) chain-like
+LOC104008051	NA	small integral membrane protein 11B
+LOC129138317	NA	Down syndrome critical region protein 4
+LOC747480	NA	Down syndrome critical region protein 8
+LOC738913	NA	keratin-associated protein 12-2
+LOC738856	NA	keratin-associated protein 12-1
+LOC129138295	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC129136892	NA	ankyrin repeat domain-containing protein SOWAHC-like
+LOC134809668	NA	protein FRG1B-like
+LOC134809757	CES3	carboxylesterase 3-like
+LOC107973185	CES4A	carboxylesterase 4A
+LOC744258	NA	sodium/hydrogen exchanger 9B1
+LOC104003671	NA	protein FAM246C
+LOC129138535	NA	glutathione hydrolase 5 proenzyme-like
+LOC107973274	NA	breakpoint cluster region protein
+LOC101059173	NA	RIMS-binding protein 3A
+LOC458675	NA	putative phosphatidylinositol 4-kinase alpha-like protein P2
+LOC458683	PRAMEF20	PRAME family member 20
+LOC129135272	NA	ral-GDS-related protein
+LOC107966288	NA	ral-GDS-related protein
+LOC112206725	NA	putative POM121-like protein 1
+LOC458958	NA	breakpoint cluster region protein-like
+LOC112206723	NA	glutathione hydrolase 5 proenzyme-like
+LOC101057112	IGLV4-3	immunoglobulin lambda variable 4-3
+LOC107970326	NA	immunoglobulin lambda-1 light chain-like
+LOC470162	NA	immunoglobulin lambda-like polypeptide 1
+LOC134809739	NA	putative inactive beta-glucuronidase protein GUSBP11
+LOC107972616	NA	glutathione S-transferase theta-3
+LOC112206708	NA	D-dopachrome decarboxylase
+LOC112206777	NA	glutathione S-transferase theta-3-like
+LOC112206721	NA	putative POM121-like protein 1
+LOC100610580	NA	glutathione hydrolase light chain 2-like
+LOC134809742	NA	aspartate-rich protein 1-like
+LOC107966561	NA	aspartate-rich protein 1-like
+LOC107970382	NA	immunoglobulin lambda-like polypeptide 1
+LOC129138475	NA	iron-sulfur cluster assembly 2 homolog, mitochondrial-like
+LOC129138576	NA	small ribosomal subunit protein eS17-like
+LOC458861	NA	small ribosomal subunit protein uS4-like
+LOC112206755	NA	cytochrome P450 2D6
+LOC747584	NA	bifunctional peptidase and (3S)-lysyl hydroxylase JMJD7
+LOC129138557	NA	spectrin beta chain, non-erythrocytic 5-like
+LOC129138555	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC129138470	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC129138429	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC134809653	NA	phosphoglucomutase-like protein 5
+LOC129143461	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC129143462	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC129143463	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC107973006	NA	cytosolic phospholipase A2 beta
+LOC750524	NA	spectrin beta chain, non-erythrocytic 5-like
+LOC739761	NA	putative COBW domain-containing protein 7
+LOC129143464	NA	olfactory receptor 4F3/4F16/4F29-like
+LOC107970570	NA	large ribosomal subunit protein eL39-like
+LOC100613308	NA	myosin heavy chain IB-like
+LOC749971	NA	collagen alpha-4(VI) chain-like
+LOC134809544	NA	potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 2-like
+LOC736904	NA	high mobility group protein B1
+LOC129143486	NA	large ribosomal subunit protein eL32-like
+LOC112208579	NA	V-type proton ATPase subunit e 1-like
+LOC134806951	TAFA1	TAFA chemokine like family member 1
+LOC107970484	NA	olfactory receptor 7E24-like
+LOC129143510	NA	double homeobox protein 4C-like
+LOC460522	PTMA	prothymosin alpha-like
+LOC129143577	NA	collagen alpha-2(I) chain-like
+LOC100609461	NA	olfactory receptor 5H14-like
+LOC112208650	NA	endogenous retrovirus group K member 7 Env polyprotein
+LOC134809462	NA	endogenous retrovirus group K member 5 Env polyprotein-like
+LOC107970716	NA	collagen alpha-1(II) chain-like
+LOC744105	CTDNEP1	CTD nuclear envelope phosphatase 1-like
+LOC100615076	NA	olfactory receptor 7E24-like
+LOC104005724	NA	olfactory receptor 1B1-like
+LOC107970747	NA	translation initiation factor IF-2
+LOC134809475	NA	intraflagellar transport protein 122 homolog
+LOC107971425	NA	ectonucleotide pyrophosphatase/phosphodiesterase family member 7-like
+LOC742704	NA	collagen alpha-4(VI) chain-like
+LOC134809608	NA	embryonic stem cell-related gene protein-like
+LOC735610	PLSCR1	phospholipid scramblase 1-like
+LOC129143547	NA	T-box transcription factor TBX1-like
+LOC112204098	PTGES3	prostaglandin E synthase 3-like
+LOC100614395	NA	neugrin
+LOC134809620	NA	putative EGF-like and EMI domain-containing protein 1
+LOC101059447	NA	large ribosomal subunit protein uL4-like
+LOC750356	NA	mucin-20
+LOC107970891	NA	succinate dehydrogenase [ubiquinone] flavoprotein subunit, mitochondrial
+LOC129143663	NA	proline-rich protein 36-like
+LOC134809638	NA	protein MOST-1
+LOC112208690	NA	myosin light chain kinase 2, skeletal/cardiac muscle-like
+LOC104005937	NA	putative ankyrin repeat domain-containing protein 19
+LOC738663	NA	tubulin beta-8 chain-like
+LOC107974580	NA	E3 ubiquitin-protein ligase TRIM52
+LOC747774	NA	meteorin-like protein
+LOC129143816	NA	endogenous retrovirus group K member 113 Env polyprotein-like
+LOC129143817	ZNF141	zinc finger protein 141
+LOC739912	PTMA	prothymosin alpha
+LOC461041	NA	rod cGMP-specific 3',5'-cyclic phosphodiesterase subunit beta
+LOC461056	IDUA	alpha-L-iduronidase
+LOC104005952	NA	myosin IC heavy chain
+LOC750576	NA	chitobiosyldiphosphodolichol beta-mannosyltransferase-like
+LOC134809852	NA	protein-lysine N-methyltransferase EEF2KMT-like
+LOC129143818	NA	beta-defensin 108B
+LOC112208937	NA	ectonucleotide pyrophosphatase/phosphodiesterase family member 7-like
+LOC454371	NA	putative protein N-methyltransferase FAM86B2
+LOC455135	NA	U3 small nucleolar RNA-associated protein 18 homolog
+LOC461139	NA	cytosolic beta-glucosidase
+LOC107974216	NA	small ribosomal subunit protein uS14-like
+LOC112208916	NA	translation machinery-associated protein 7-like
+LOC112208946	NA	large ribosomal subunit protein eL21-like
+LOC471199	NA	large ribosomal subunit protein eL36-like
+LOC104006083	NA	alpha-S2-casein-like
+LOC129143733	NA	UDP-glucuronosyltransferase 2B11
+LOC471219	NA	UDP-glucuronosyltransferase 2B10
+LOC461287	NA	UDP-glucuronosyltransferase 2B10
+LOC461289	NA	UDP-glucuronosyltransferase 2B15
+LOC743607	NA	UDP-glucuronosyltransferase 2B17
+LOC129143735	SERF2	small EDRK-rich factor 2-like
+LOC471233	NA	small ribosomal subunit protein eS12-like
+LOC104006107	NA	bromodomain-containing protein 9
+LOC104006117	NA	COMM domain-containing protein 5
+LOC107973110	ZNF532	zinc finger protein 532-like
+LOC134809902	ERVFC1	endogenous retrovirus group FC1 Env polyprotein-like
+LOC129143889	NA	protein SET-like
+LOC100611896	NA	heat shock factor-binding protein 1-like
+LOC740478	NA	kelch-like protein 2
+LOC112204048	NA	histone H3.3A-like
+LOC100609966	GYPB	glycophorin B (MNS blood group)
+LOC129143853	NA	protein salvador homolog 1-like
+LOC461520	NA	glycophorin A-like protein
+LOC134806961	NA	glycophorin-B
+LOC104006265	NA	14-3-3 protein theta-like
+LOC738676	NA	tripartite motif-containing protein 60
+LOC129143798	NA	small ribosomal subunit protein uS5
+LOC471369	NA	myosin regulatory light chain 12B
+LOC461647	NA	large ribosomal subunit protein eL8-like
+LOC459002	NA	small ribosomal subunit protein eS7-like
+LOC112208644	NA	double homeobox protein 4C
+LOC740306	NA	protein FRG2-like-1
+LOC112208645	NA	double homeobox protein 4-like protein 4
+LOC129144073	NA	spectrin beta chain, non-erythrocytic 5-like
+LOC129135285	NA	cytosolic phospholipase A2 beta-like
+LOC134810042	NA	EH domain-containing protein 4-like
+LOC749983	NA	putative WAS protein family homolog 3
+LOC112204040	NA	beta-defensin 125
+LOC455557	NA	alpha/beta hydrolase domain-containing protein 17A
+LOC750856	NA	succinate dehydrogenase [ubiquinone] flavoprotein subunit, mitochondrial
+LOC750122	NA	golgin subfamily A member 6-like protein 7
+LOC112209194	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC129143928	NA	histone H3.Y-like
+LOC129144186	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134810059	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134810143	NA	TATA-box-binding protein-associated factor 11-like protein 13
+LOC134810144	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134810145	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134810146	NA	TATA-box-binding protein-associated factor 11-like protein 13
+LOC129143931	NA	histone H3.Y
+LOC129144126	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC129144127	NA	TATA-box-binding protein-associated factor 11-like protein 12
+LOC129144128	NA	histone H3.Y-like
+LOC129144130	NA	TATA-box binding protein associated factor 11 like protein 2-like
+LOC129144149	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134810147	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134810061	NA	TATA-box-binding protein-associated factor 11-like protein 3
+LOC134810060	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC129143929	NA	TATA-box-binding protein-associated factor 11-like protein 12
+LOC129143930	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC129143932	NA	TATA-box binding protein associated factor 11 like protein 2-like
+LOC129144131	NA	histone H3.Y-like
+LOC129144150	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134810001	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134810002	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134810003	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134810004	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134810005	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC107971480	NA	TATA-box-binding protein-associated factor 11-like protein 11
+LOC100610779	NA	histone H3.X-like
+LOC129143933	NA	TATA-box-binding protein-associated factor 11-like protein 12
+LOC129143934	NA	TATA-box binding protein associated factor 11 like protein 2-like
+LOC129144132	NA	histone H3.Y-like
+LOC134810006	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134810007	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134810008	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134810064	NA	endogenous retrovirus group S71 member 1 Env polyprotein-like
+LOC107974673	NA	neuroblastoma breakpoint family member 6
+LOC129143954	NA	small ribosomal subunit protein uS17
+LOC738219	NA	large ribosomal subunit protein uL30-like
+LOC741943	NA	small EDRK-rich factor 1
+LOC129144159	NA	mitochondrial import receptor subunit TOM5 homolog
+LOC461830	GTF2H2	general transcription factor IIH subunit 2
+LOC735489	NA	iron-sulfur cluster assembly 1 homolog, mitochondrial
+LOC129144085	NA	BTB/POZ domain-containing protein KCTD9-like
+LOC129143978	PTMS	parathymosin-like
+LOC129144088	NA	mitochondrial import receptor subunit TOM7 homolog
+LOC107974776	NA	large ribosomal subunit protein uL6-like
+LOC129144165	NA	putative POM121-like protein 1
+LOC461963	NA	proteasome activator complex subunit 2-like
+LOC129144001	NA	putative inactive deoxyuridine 5'-triphosphate nucleotidohydrolase-like protein FLJ16323
+LOC736481	NA	gap junction alpha-1 protein-like
+LOC739202	NA	small ribosomal subunit protein eS25-like
+LOC107974816	NA	non-histone chromosomal protein HMG-17-like
+LOC107974820	NA	BEN domain-containing protein 2-like
+LOC112209233	PTMA	prothymosin alpha-like
+LOC134810024	NA	podocalyxin-like
+LOC100612123	NA	bolA-like protein 3
+LOC107974893	NA	short transient receptor potential channel 6-like
+LOC134810129	NA	embryonic stem cell-related gene protein-like
+LOC100611059	NA	small ubiquitin-related modifier 2
+LOC460561	NA	large ribosomal subunit protein eL24-like
+LOC471761	NA	SUMO-interacting motif-containing protein 1-like
+LOC112207927	FAM153B	protein FAM153B
+LOC112209203	NA	homeobox protein prophet of Pit-1
+LOC104006655	FAM153B	protein FAM153B
+LOC471771	NA	high mobility group protein B3-like
+LOC134810137	NA	casein kinase II subunit alpha-like
+LOC112206370	NA	putative COBW domain-containing protein 7
+LOC134810138	NA	putative protein FAM157B
+LOC129144192	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC129144193	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC129144200	NA	spectrin beta chain, non-erythrocytic 5-like
+LOC129144202	NA	tubulin beta-8 chain-like
+LOC107973242	NA	histone-lysine N-methyltransferase PRDM7-like
+LOC134810163	NA	serine/threonine-protein kinase Nek4-like
+LOC471842	NA	protein FAM136A-like
+LOC750751	NA	orofacial cleft 1 candidate gene 1 protein
+LOC134810261	ZNF415	zinc finger protein 415-like
+LOC471890	NA	putative butyrophilin subfamily 2 member A3
+LOC736280	ZNF892	zinc finger protein 892-like
+LOC101059676	TMEM225B	transmembrane protein 225B-like
+LOC115945179	NA	histone H4
+LOC737786	NA	putative olfactory receptor 2W6
+LOC107975096	ZNF3	zinc finger protein 3
+LOC104006768	NA	olfactory receptor 2B2-like
+LOC462525	NA	olfactory receptor 2H1-like
+LOC471948	NA	HLA class I histocompatibility antigen, A alpha chain
+LOC100615066	NA	far upstream element-binding protein 2
+LOC107973291	NA	heat shock 70 kDa protein 1-like
+LOC107973293	NA	tenascin-X
+LOC107973061	NA	steroid 21-hydroxylase-like
+LOC462577	NA	complement C4-A
+LOC462578	NA	tenascin-X
+LOC745345	NA	steroid 21-hydroxylase
+LOC104006793	NA	HLA class II histocompatibility antigen, DR beta 3 chain
+LOC100616520	NA	HLA class II histocompatibility antigen, DQ beta 1 chain
+LOC100610904	NA	HLA class II histocompatibility antigen, DP beta 1 chain-like
+LOC462681	NA	trem-like transcript 4 protein
+LOC129144257	NA	ubiquitin-ribosomal protein eS31 fusion protein
+LOC100611839	NA	glutathione S-transferase A3-like
+LOC743656	NA	serine/threonine-protein phosphatase PP1-gamma catalytic subunit
+LOC750697	NA	putative POM121-like protein 1-like
+LOC129144400	NA	putative POM121-like protein 1-like
+LOC129144432	NA	histone-binding protein RBBP4-like
+LOC100609532	NA	protein eyes shut homolog
+LOC129135405	NA	zinc finger CCCH domain-containing protein 11C-like
+LOC129144369	NA	protein eyes shut homolog
+LOC112208034	NA	protein eyes shut homolog
+LOC112209476	NA	zinc finger CCCH domain-containing protein 11C-like
+LOC129144268	NA	zinc finger CCCH domain-containing protein 11C-like
+LOC112209525	NA	zinc finger CCCH domain-containing protein 11C-like
+LOC129144370	NA	protein eyes shut homolog
+LOC129144371	NA	protein eyes shut homolog
+LOC129144272	NA	protein eyes shut homolog
+LOC129144271	NA	zinc finger CCCH domain-containing protein 11C-like
+LOC112209477	NA	zinc finger CCCH domain-containing protein 11C
+LOC129144270	NA	zinc finger CCCH domain-containing protein 11C-like
+LOC107975183	NA	protein eyes shut homolog
+LOC112207956	NA	protein eyes shut homolog
+LOC129144276	NA	protein eyes shut homolog
+LOC112209478	NA	zinc finger CCCH domain-containing protein 11C-like
+LOC129144373	NA	protein eyes shut homolog
+LOC129144374	NA	protein eyes shut homolog
+LOC129144375	NA	protein eyes shut homolog
+LOC129144376	NA	protein eyes shut homolog
+LOC129144280	NA	zinc finger CCCH domain-containing protein 11C-like
+LOC129144281	NA	zinc finger CCCH domain-containing protein 11C-like
+LOC129144282	NA	zinc finger CCCH domain-containing protein 11C-like
+LOC129144283	NA	zinc finger CCCH domain-containing protein 11C-like
+LOC472247	NA	eyes shut homolog
+LOC129144279	NA	zinc finger CCCH domain-containing protein 11C-like
+LOC129144293	NA	protein GVQW1-like
+LOC739951	NA	rho GTPase-activating protein 21-like
+LOC745101	NA	serine/threonine-protein kinase 17A-like
+LOC462895	NA	dehydrogenase/reductase SDR family member 6-like
+LOC129144307	NA	large ribosomal subunit protein uL3-like
+LOC112209499	NA	UL16-binding protein 2
+LOC112204149	NA	UL16-binding protein 1
+LOC463066	NA	UL16-binding protein 2
+LOC463159	NA	UL16-binding protein 6
+LOC112209507	NA	apolipoprotein(a)-like
+LOC101058699	NA	putative transcriptional regulator encoded by LINC00473
+LOC463170	NA	putative T-complex protein 10A homolog
+LOC112206648	NA	zinc-regulated GTPase metalloprotein activator 1A-like
+LOC104004287	NA	phosphoglucomutase-like protein 5
+LOC129144425	NA	beta-defensin 125
+LOC129135373	NA	mitogen-activated protein kinase-binding protein 1-like
+LOC129144420	NA	bifunctional peptidase and (3S)-lysyl hydroxylase JMJD7
+LOC129144382	NA	cytosolic phospholipase A2 beta-like
+LOC107972867	NA	spectrin beta chain, non-erythrocytic 5-like
+LOC129144421	NA	mediator of RNA polymerase II transcription subunit 29-like
+LOC134810228	NA	putative protein FAM157A
+LOC134810506	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC134810508	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC129135556	NA	spectrin beta chain, non-erythrocytic 5-like
+LOC107972857	NA	bifunctional peptidase and (3S)-lysyl hydroxylase JMJD7
+LOC104008153	NA	putative protein FAM157A
+LOC740445	NA	putative protein ZNF815
+LOC738574	RSPH10B	radial spoke head 10 homolog B
+LOC742626	RSPH10B	radial spoke head 10 homolog B
+LOC134806910	NA	vacuolar fusion protein CCZ1 homolog B
+LOC738765	NA	C3 and PZP-like alpha-2-macroglobulin domain-containing protein 8
+LOC129135579	NA	phosphatidylinositol 4,5-bisphosphate 5-phosphatase A
+LOC129144528	NA	large ribosomal subunit protein uL13-like
+LOC745184	NA	autism susceptibility gene 2 protein
+LOC112209774	NA	large ribosomal subunit protein uL22
+LOC107975747	NA	thymosin beta-4-like
+LOC748251	NA	putative C-mannosyltransferase DPY19L2P2
+LOC107966650	NA	protein C-mannosyl-transferase DPY19L1-like
+LOC134807000	NA	putative C-mannosyltransferase DPY19L2P2
+LOC129135472	NA	protein C-mannosyl-transferase DPY19L1-like
+LOC748640	NA	retinitis pigmentosa 9 protein
+LOC452039	NA	probable C-mannosyltransferase DPY19L2
+LOC747736	TRGC1	T cell receptor gamma constant 1
+LOC129144550	NA	DNA-directed RNA polymerase II subunit RPB11-a-like
+LOC735664	NA	putative speedy protein E21
+LOC107975771	NA	ras GTPase-activating protein 4-like
+LOC743528	NA	dual specificity protein phosphatase CDC14C-like
+LOC465383	NA	putative phosphoserine phosphatase-like protein
+LOC107975604	NA	borealin-like
+LOC100613859	NA	coiled-coil domain-containing protein 144A-like
+LOC129144479	ZNF736	zinc finger protein 736-like
+LOC129144564	ZNF736	zinc finger protein 736-like
+LOC129144575	ZNF479	zinc finger protein 479-like
+LOC100611103	ZNF479	zinc finger protein 479
+LOC134810615	NA	trinucleotide repeat-containing gene 18 protein-like
+LOC107971940	NA	trinucleotide repeat-containing gene 18 protein-like
+LOC101059645	ZNF736	zinc finger protein 736
+LOC129144579	STMP1	short transmembrane mitochondrial protein 1-like
+LOC129144580	NA	coiled-coil domain-containing protein 144A-like
+LOC134810617	NA	nascent polypeptide-associated complex subunit alpha, muscle-specific form-like
+LOC104007253	ZNF85	zinc finger protein 85-like
+LOC107972011	NA	proline-rich protein 13-like
+LOC107973393	INTS4	integrator complex subunit 4
+LOC129135489	INTS4	integrator complex subunit 4-like protein 2
+LOC112207430	NA	mpv17-like protein
+LOC100608861	NA	equilibrative nucleoside transporter 4-like
+LOC100612798	NA	mpv17-like protein
+LOC736588	NA	equilibrative nucleoside transporter 4-like
+LOC451720	INTS4	integrator complex subunit 4-like protein 2
+LOC744965	NA	S-adenosyl-L-methionine-dependent tRNA 4-demethylwyosine synthase TYW1
+LOC742265	NA	speedy protein E1
+LOC129135492	NA	E3 ubiquitin-protein ligase DTX1
+LOC134810436	NA	putative postmeiotic segregation increased 2-like protein 3
+LOC134810435	NA	huntingtin-interacting protein 1-like
+LOC134807025	NA	speedy protein E2-like
+LOC134810622	NA	DNA mismatch repair protein MutL-like
+LOC134810437	NA	uroplakin-3b-like
+LOC134810438	NA	probable E3 ubiquitin-protein ligase DTX2
+LOC107966502	NA	protein CASP
+LOC112207914	NA	putative STAG3-like protein 4
+LOC738428	NA	putative STAG3-like protein 4
+LOC107973094	NA	protein CASP
+LOC129135495	CZIB	CXXC motif containing zinc binding protein
+LOC107966625	NA	probable E3 ubiquitin-protein ligase DTX2
+LOC750858	NA	putative postmeiotic segregation increased 2-like protein 3
+LOC745060	NA	nuclear envelope pore membrane protein POM 121C
+LOC743790	NA	tripartite motif-containing protein 73
+LOC129135498	NA	speedy protein E12-like
+LOC129135506	NA	speedy protein E12-like
+LOC747005	NA	speedy protein E12
+LOC129135502	NA	speedy protein E12-like
+LOC129135499	NA	speedy protein E12-like
+LOC129135500	NA	speedy protein E12-like
+LOC129135505	NA	speedy protein E12-like
+LOC739094	NA	speedy protein E12
+LOC129135501	NA	speedy protein E12-like
+LOC129135503	NA	speedy protein E12-like
+LOC129135508	NA	speedy protein E12-like
+LOC134810448	NA	speedy protein E12-like
+LOC129135504	NA	speedy protein E12-like
+LOC743350	NA	general transcription factor II-I repeat domain-containing protein 2B
+LOC745916	NA	DNA mismatch repair protein MutL
+LOC129135404	NA	speedy protein E1-like
+LOC134810452	NA	uroplakin-3b-like
+LOC112207942	NA	protein CASP-like
+LOC129135515	NA	speedy protein E18-like
+LOC100611433	NA	probable E3 ubiquitin-protein ligase DTX2
+LOC107976168	NA	general transcription factor II-I repeat domain-containing protein 1
+LOC104004648	NA	ras GTPase-activating protein 4
+LOC747633	NA	probable E3 ubiquitin-protein ligase DTX2
+LOC100608898	NA	speedy protein E1-like
+LOC100609008	NA	speedy protein E18
+LOC107976085	NA	desmocollin-2
+LOC745903	NA	non-histone chromosomal protein HMG-17-like
+LOC112209764	HNRNPA1	heterogeneous nuclear ribonucleoprotein A1-like
+LOC134810466	NA	calcium-binding protein P-like
+LOC129144594	NA	T-box transcription factor TBX1-like
+LOC100609753	NA	putative protein SEM1
+LOC129135235	NA	cytochrome P450 3A7
+LOC463620	NA	zinc-alpha-2-glycoprotein
+LOC742087	NA	ras GTPase-activating protein 4
+LOC100610062	NA	DNA-directed RNA polymerase II subunit RPB11-b2
+LOC112209793	NA	putative speedy protein E21
+LOC463627	NA	ras GTPase-activating protein 4
+LOC101057620	NA	uroplakin-3b-like protein 1
+LOC134810473	NA	putative hydro-lyase KRH_21160
+LOC100608972	NA	tubulin beta-8 chain-like
+LOC112209800	NA	sterile alpha motif domain-containing protein 11-like
+LOC129135558	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC463629	NA	probable C-mannosyltransferase DPY19L2
+LOC100610220	NA	polycomb complex protein BMI-1
+LOC738764	NA	hyaluronidase-4-like
+LOC107971619	NA	serine/threonine-protein kinase tousled-like 2
+LOC463791	NA	putative trypsin-6
+LOC129144506	NA	adenosine 5'-monophosphoramidase HINT1-like
+LOC134810588	NA	large ribosomal subunit protein eL21
+LOC100608524	NA	nucleophosmin-like
+LOC100612560	NA	zinc finger and SCAN domain-containing protein 2
+LOC134810480	NA	adhesive plaque matrix protein-like
+LOC107971878	NA	putative fatty acid-binding protein 5-like protein 3
+LOC134810802	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC129135625	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC129135626	NA	peptidyl-prolyl cis-trans isomerase A
+LOC129135627	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC107973256	NA	neutrophil defensin 1
+LOC134810819	NA	putative protein FAM90A26
+LOC107966601	NA	ectonucleotide pyrophosphatase/phosphodiesterase family member 7-like
+LOC129135648	NA	olfactory receptor 7E24-like
+LOC134810906	NA	putative protein FAM90A23
+LOC129135808	NA	protein FAM90A15
+LOC129135809	NA	protein FAM90A15
+LOC129135810	NA	protein FAM90A15
+LOC129135811	NA	protein FAM90A15
+LOC129135812	NA	protein FAM90A15
+LOC129135813	NA	protein FAM90A15
+LOC129135814	NA	protein FAM90A15
+LOC129135821	NA	protein FAM90A15
+LOC129135815	NA	protein FAM90A15
+LOC129135816	NA	protein FAM90A15
+LOC129135818	NA	protein FAM90A15
+LOC129135822	NA	protein FAM90A15
+LOC129135823	NA	protein FAM90A15
+LOC129135824	NA	protein FAM90A15
+LOC129135825	NA	protein FAM90A15
+LOC129135826	NA	protein FAM90A15
+LOC134810707	NA	protein FAM90A15
+LOC129135827	NA	protein FAM90A15
+LOC134810708	NA	protein FAM90A15
+LOC134810709	NA	protein FAM90A15
+LOC134810710	NA	protein FAM90A15
+LOC134810711	NA	protein FAM90A15
+LOC134810712	NA	protein FAM90A15
+LOC134810713	NA	protein FAM90A15-like
+LOC134810714	NA	protein FAM90A15-like
+LOC134810715	NA	protein FAM90A15-like
+LOC134810716	NA	protein FAM90A15
+LOC134810717	NA	protein FAM90A15-like
+LOC134810718	NA	protein FAM90A15-like
+LOC134810719	NA	protein FAM90A15-like
+LOC134810720	NA	protein FAM90A15-like
+LOC129135843	NA	proline-rich protein 23D1-like
+LOC129388394	NA	beta-defensin 103A
+LOC463973	NA	putative zinc finger protein 705G
+LOC129135834	NA	proline-rich protein 23D1-like
+LOC129135833	NA	protein FAM90A15-like
+LOC134810721	NA	protein FAM90A15-like
+LOC134810722	NA	protein FAM90A15
+LOC134810723	NA	protein FAM90A15-like
+LOC134810724	NA	protein FAM90A15-like
+LOC134810725	NA	protein FAM90A15-like
+LOC134810726	NA	protein FAM90A15
+LOC129135828	NA	protein FAM90A15
+LOC129135829	NA	protein FAM90A15
+LOC129135830	NA	protein FAM90A15
+LOC129135831	NA	protein FAM90A15
+LOC134810727	NA	protein FAM90A15-like
+LOC134810728	NA	protein FAM90A15-like
+LOC134810729	NA	protein FAM90A15
+LOC134810730	NA	protein FAM90A15
+LOC134810731	NA	putative protein FAM90A26
+LOC134810732	NA	putative protein FAM90A26
+LOC134810733	NA	putative protein FAM90A26
+LOC134810734	NA	protein FAM90A15-like
+LOC129135852	NA	olfactory receptor 7E24-like
+LOC134810661	NA	ectonucleotide pyrophosphatase/phosphodiesterase family member 7-like
+LOC112207929	NA	putative glycosyltransferase ALG1L2
+LOC129135649	NA	protein-lysine N-methyltransferase EEF2KMT-like
+LOC134806915	NA	beta-defensin 131A-like
+LOC129135661	NA	large ribosomal subunit protein uL11
+LOC112204207	NA	beta-defensin 131A-like
+LOC737613	NA	meiosis expressed gene 1 protein homolog
+LOC107966494	NA	protein artemis
+LOC129135667	NA	RNA-binding motif protein, X chromosome-like
+LOC738829	NA	putative gustatory receptor clone PTE01
+LOC458071	FTL	ferritin light chain-like
+LOC744128	NA	tumor necrosis factor receptor superfamily member 10D
+LOC745862	NA	putative UPF0607 protein ENSP00000382826
+LOC129135687	NA	pro-neuregulin-2, membrane-bound isoform-like
+LOC736264	NA	BMI1 polycomb ring finger oncogene-like
+LOC735522	NA	disintegrin and metalloproteinase domain-containing protein 5
+LOC134810858	NA	POTE ankyrin domain family member A
+LOC134810741	NA	calcium-binding protein P-like
+LOC100615619	NA	neuronal regeneration-related protein-like
+LOC464183	NA	26S proteasome regulatory subunit 10B-like
+LOC745681	NA	short-chain dehydrogenase/reductase family 16C member 6-like
+LOC104007636	NA	small ribosomal subunit protein uS8-like
+LOC100615554	NA	large ribosomal subunit protein bL9m-like
+LOC129135614	NA	exonuclease GOR-like
+LOC134810750	NA	putative exonuclease GOR
+LOC134810751	NA	putative exonuclease GOR
+LOC134810752	NA	putative exonuclease GOR
+LOC134810753	NA	putative exonuclease GOR
+LOC134810754	NA	putative exonuclease GOR
+LOC134810755	NA	putative exonuclease GOR
+LOC134810756	NA	exonuclease GOR-like
+LOC134810757	NA	putative exonuclease GOR
+LOC134810759	NA	exonuclease GOR-like
+LOC134810760	NA	putative exonuclease GOR
+LOC134810761	NA	exonuclease GOR-like
+LOC134810762	NA	exonuclease GOR-like
+LOC134810763	NA	putative exonuclease GOR
+LOC134810764	NA	putative exonuclease GOR
+LOC134810765	NA	putative exonuclease GOR
+LOC134810766	NA	exonuclease GOR-like
+LOC134810767	NA	putative exonuclease GOR
+LOC134810768	NA	putative exonuclease GOR
+LOC134810769	NA	exonuclease GOR-like
+LOC134810770	NA	putative exonuclease GOR
+LOC134810771	NA	exonuclease GOR
+LOC134810772	NA	putative exonuclease GOR
+LOC129135877	NA	exonuclease GOR-like
+LOC134810773	NA	exonuclease GOR-like
+LOC134810774	NA	putative exonuclease GOR
+LOC134810651	NA	putative exonuclease GOR
+LOC134810775	NA	exonuclease GOR-like
+LOC134810776	NA	exonuclease GOR-like
+LOC134810777	NA	putative exonuclease GOR
+LOC134810778	NA	exonuclease GOR-like
+LOC134810779	NA	exonuclease GOR-like
+LOC134810780	NA	putative exonuclease GOR
+LOC134810781	NA	putative exonuclease GOR
+LOC134810782	NA	exonuclease GOR-like
+LOC134810783	NA	exonuclease GOR-like
+LOC134810784	NA	putative exonuclease GOR
+LOC134810785	NA	putative exonuclease GOR
+LOC134810786	NA	exonuclease GOR-like
+LOC134810787	NA	putative exonuclease GOR
+LOC134810788	NA	exonuclease GOR-like
+LOC134810789	NA	putative exonuclease GOR
+LOC134810791	NA	exonuclease GOR-like
+LOC134810792	NA	exonuclease GOR-like
+LOC134806972	NA	exonuclease GOR-like
+LOC129135751	PDC	phosducin-like protein 3
+LOC472836	NA	large ribosomal subunit protein uL16-like
+LOC464350	NA	small ribosomal subunit protein eS26-like
+LOC104007761	NA	serine/arginine repetitive matrix protein 1-like
+LOC742042	NA	collagen alpha-1(VII) chain-like
+LOC129135623	NA	maestro heat-like repeat family member 5
+LOC129135800	NA	sphingomyelin phosphodiesterase 5-like
+LOC129135354	NA	E3 ubiquitin-protein ligase TRIM52
+LOC129135418	NA	meteorin-like protein
+LOC134807112	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC134807156	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC100608090	AKR1C4	aldo-keto reductase family 1 member C4-like
+LOC107976907	NA	endogenous retrovirus group K member 16 Rec protein
+LOC735372	NA	elongin-C-like
+LOC129136177	NA	regulator of nonsense transcripts 2-like
+LOC104008109	NA	putative protein N-methyltransferase FAM86B1
+LOC134806983	NA	LIM zinc-binding domain-containing Nebulette
+LOC100608612	NA	ran-specific GTPase-activating protein-like
+LOC450370	NA	outer dynein arm-docking complex subunit 2
+LOC129136165	NA	basic proline-rich protein-like
+LOC743506	NA	large ribosomal subunit protein eL21-like
+LOC450382	LYZ	lysozyme-like protein 1
+LOC134807152	NA	putative UPF0607 protein FLJ37424
+LOC129136271	NA	nucleotide triphosphate diphosphatase NUDT15
+LOC741031	NAMPT	nicotinamide phosphoribosyltransferase-like
+LOC736189	NA	rRNA 2'-O-methyltransferase fibrillarin-like
+LOC112208093	NA	rRNA 2'-O-methyltransferase fibrillarin-like
+LOC107966912	NA	FXYD domain-containing ion transport regulator 6-like
+LOC134806911	NA	putative zinc finger protein 487
+LOC107976967	NA	calponin-2
+LOC107966727	ZNF248	zinc finger protein 248-like
+LOC107966728	RSU1	ras suppressor protein 1-like
+LOC100610757	NA	arf-GAP with GTPase, ANK repeat and PH domain-containing protein 5-like
+LOC466067	WASHC2A	WASH complex subunit 2A
+LOC104004318	NA	anthrax toxin receptor-like
+LOC107966694	NA	arf-GAP with GTPase, ANK repeat and PH domain-containing protein 9
+LOC735373	NUTM2A	NUT family member 2A-like
+LOC129136179	SHLD2	shieldin complex subunit 2-like
+LOC112204587	NA	arf-GAP with GTPase, ANK repeat and PH domain-containing protein 5
+LOC738814	NA	arf-GAP with GTPase, ANK repeat and PH domain-containing protein 5
+LOC107966570	WASHC2A	WASH complex subunit 2A-like
+LOC107973302	WASHC2A	WASH complex subunit 2A
+LOC450461	NA	putative inactive neutral ceramidase B
+LOC100611461	NA	putative inactive neutral ceramidase B
+LOC745796	NA	talanin
+LOC450550	NA	nuclear nucleic acid-binding protein C1D-like
+LOC738010	NUTM2D	NUT family member 2D
+LOC744093	NUTM2A	NUT family member 2A
+LOC450570	NA	large ribosomal subunit protein eL8-like
+LOC129136200	NA	ribosome biogenesis protein BMS1 homolog
+LOC104008227	NA	synaptotagmin-15-like
+LOC129135318	NUTM2D	NUT family member 2D-like
+LOC134807045	NA	SH3 domain-binding protein 1-like
+LOC134807078	NA	small ribosomal subunit protein eS26
+LOC129136143	NA	large ribosomal subunit protein eL32
+LOC134807048	NA	proline-rich protein HaeIII subfamily 1-like
+LOC129136228	NA	peptidyl-prolyl cis-trans isomerase A-like
+LOC743191	NA	protein CASC2, isoforms 1/2
+LOC741513	NA	small ribosomal subunit protein eS8-like
+LOC745251	DMBT1	deleted in malignant brain tumors 1 protein
+LOC112204578	NA	RNA-binding protein 38-like
+LOC134807081	NA	scavenger receptor cysteine-rich domain-containing protein SCART1-like
+LOC100608666	NA	protein FAM87A-like
+LOC129136305	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC112204781	NA	keratin-associated protein 5-4
+LOC104008393	NA	acyl-coenzyme A synthetase ACSM1, mitochondrial-like
+LOC112204801	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC748182	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC112204802	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC100612918	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC134807288	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC112204803	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2
+LOC134807289	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC134807290	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC745955	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC112204800	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC129136397	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC466333	NA	olfactory receptor 52P1-like
+LOC104008398	NA	olfactory receptor 51F2
+LOC100611659	NA	olfactory receptor 51F2-like
+LOC466347	NA	olfactory receptor 51F2-like
+LOC100611224	NA	olfactory receptor 51S1
+LOC100615983	NA	olfactory receptor 51A4
+LOC129136400	NA	olfactory receptor 51A4-like
+LOC466401	NA	olfactory receptor 52E5-like
+LOC451002	NA	interferon-induced very large GTPase 1
+LOC104008404	NA	basic proline-rich protein
+LOC466428	NA	olfactory receptor 5P1-like
+LOC466434	NA	olfactory receptor 10A3
+LOC107967030	NA	olfactory receptor 7E24-like
+LOC129135242	NA	large ribosomal subunit protein uL23-like
+LOC466513	NA	olfactory receptor 4X1
+LOC107967334	NA	olfactory receptor 4A5
+LOC466737	NA	tripartite motif-containing 49-like
+LOC451709	NOX4	NADPH oxidase 4-like
+LOC451711	NA	tripartite motif-containing 49-like
+LOC100614880	NA	olfactory receptor 4A16-like
+LOC746859	NA	olfactory receptor 4A16-like
+LOC466533	NA	olfactory receptor 4C11-like
+LOC747017	NA	olfactory receptor 4P4
+LOC747092	NA	olfactory receptor 5D13
+LOC747111	NA	olfactory receptor 5D13
+LOC466541	NA	olfactory receptor 5D16
+LOC747236	NA	tripartite motif-containing protein 51
+LOC747344	NA	olfactory receptor 5F1
+LOC466543	NA	olfactory receptor 5F1-like
+LOC100609139	NA	olfactory receptor 8J3
+LOC466552	NA	olfactory receptor 8J2
+LOC740517	NA	olfactory receptor 5T3
+LOC466555	NA	olfactory receptor 8H1
+LOC466561	NA	olfactory receptor 8U9-like
+LOC100608661	NA	olfactory receptor 5M3
+LOC466568	NA	olfactory receptor 5M8-like
+LOC466600	NA	olfactory receptor 10W1
+LOC748371	NA	olfactory receptor 5B3
+LOC748526	NA	olfactory receptor 5AN6-like
+LOC466609	NA	olfactory receptor 5AN1
+LOC466610	NA	olfactory receptor 5A1-like
+LOC134807349	NA	membrane-spanning 4-domains subfamily A member 12-like
+LOC129136426	NA	membrane-spanning 4-domains subfamily A member 8-like
+LOC107966244	NA	pepsin A-5
+LOC107973353	NA	pepsin A-5
+LOC466625	NA	pepsin A-5
+LOC100613484	NA	large ribosomal subunit protein uL10-like
+LOC129136434	NA	small ribosomal subunit protein eS19
+LOC745011	NA	solute carrier family 22 member 20
+LOC112208938	NA	protein FAM90A5-like
+LOC104001450	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 22
+LOC748219	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 6
+LOC107967429	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 17
+LOC134806957	NA	putative zinc finger protein 705EP
+LOC100609546	NA	protein MIX23-like
+LOC451475	NA	Putative N-acetylated-alpha-linked acidic dipeptidase
+LOC129136345	NA	tripartite motif-containing protein 49C
+LOC112208021	NA	tripartite motif-containing protein 49D-like
+LOC129136354	NA	tripartite motif-containing protein 49C-like
+LOC129136460	NA	tripartite motif-containing protein 51
+LOC129136353	NA	tripartite motif-containing protein 49D-like
+LOC129136352	NA	tripartite motif-containing protein 49D-like
+LOC735939	NA	putative tripartite motif-containing protein 64B
+LOC129136368	NA	tripartite motif-containing protein 51
+LOC112207959	NA	tripartite motif-containing protein 49D
+LOC129136347	NA	tripartite motif-containing protein 49C-like
+LOC129136459	NA	tripartite motif-containing protein 49D-like
+LOC451184	NA	tripartite motif-containing protein 49D
+LOC748919	NA	tripartite motif-containing protein 49D-like
+LOC112207962	NA	tripartite motif-containing protein 49D
+LOC112208015	NA	tripartite motif-containing protein 49D
+LOC735456	NA	caspase-1
+LOC466819	NA	olfactory receptor 10G6
+LOC466824	NA	putative olfactory receptor 8G2
+LOC100614352	NA	olfactory receptor 143-like
+LOC104001078	NA	olfactory receptor 8B2
+LOC112204815	NA	olfactory receptor 8B3-like
+LOC104004304	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC104004678	NA	PI-PLC X domain-containing protein 1
+LOC107971128	NA	putative GTP-binding protein 6
+LOC112207609	NA	serine/threonine-protein phosphatase 2A regulatory subunit B'' subunit beta
+LOC107971217	NA	short stature homeobox protein
+LOC749758	CRLF2	cytokine receptor like factor 2
+LOC746936	CSF2RA	colony stimulating factor 2 receptor subunit alpha
+LOC107972835	NA	interleukin-3 receptor subunit alpha
+LOC751056	NA	CD99 antigen-like
+LOC129388397	NA	sperm protein associated with the nucleus on the X chromosome C-like
+LOC493983	NA	SPANX A/D member 3
+LOC740134	NA	atherin-like
+LOC112207788	VCX	variable charge X-linked-like
+LOC465479	NA	large ribosomal subunit protein eL28-like
+LOC112206920	VCX	variable charge X-linked-like
+LOC112207729	VCX	variable charge X-linked-like
+LOC129138886	VCX	variable charge X-linked-like
+LOC107971192	VCX	variable charge X-linked-like
+LOC112206878	VCX	variable charge X-linked-like
+LOC112207919	VCX	variable charge X-linked-like
+LOC735669	NA	cyclin-dependent kinases regulatory subunit 1-like
+LOC129388395	NA	transcription elongation factor A protein-like 8
+LOC107971164	NA	collagen alpha-1(XXIII) chain
+LOC473866	FAM47C	family with sequence similarity 47 member C
+LOC112206867	NA	CDGSH iron-sulfur domain-containing protein 1
+LOC739560	NA	putative E3 ubiquitin-protein ligase makorin-4
+LOC129138643	NA	14-3-3 protein zeta/delta-like
+LOC473870	NA	actin-binding protein WASF2-like
+LOC737502	NA	protein SSX2
+LOC100608018	NA	putative protein SSX9
+LOC107966478	NA	protein SSX4
+LOC737267	NA	protein SSX4
+LOC129138594	GAGE2D	G antigen 2D-like
+LOC129135406	GAGE2D	G antigen 2D-like
+LOC129138855	GAGE2D	G antigen 2D
+LOC129135348	GAGE2D	G antigen 2D-like
+LOC129138595	GAGE2D	G antigen 2D-like
+LOC129138596	GAGE4	G antigen 4
+LOC129138710	GAGE4	G antigen 4
+LOC473605	GAGE4	G antigen 4
+LOC473608	NA	histone H3.3A-like
+LOC107971179	NA	diphosphoinositol polyphosphate phosphohydrolase 3-beta
+LOC107966361	NA	putative G antigen family E member 3
+LOC134807023	NA	large ribosomal subunit protein eL21
+LOC129138685	NA	cytochrome c oxidase subunit NDUFA4-like
+LOC107966387	NA	doublesex- and mab-3-related transcription factor C1
+LOC107971165	NA	putative elongation factor 1-alpha-like 3
+LOC129138666	NA	embryonic stem cell-related gene protein-like
+LOC107971075	NA	protein ZAR1-like
+LOC107966362	NA	ubiquitin-conjugating enzyme E2 N
+LOC735423	NXF2	nuclear RNA export factor 2
+LOC129138885	NXF2	nuclear RNA export factor 2
+LOC104003957	NA	ras-related protein Rab-40A
+LOC100615064	NA	A-kinase anchor protein 17B
+LOC129138611	RHOXF2	rhox homeobox family member 2
+LOC107966504	RHOXF2	rhox homeobox family member 2
+LOC738115	NA	cancer/testis antigen 47A
+LOC465839	CT47B1	cancer/testis antigen family 47 member B1
+LOC112206860	NA	cancer/testis antigen 47A
+LOC101056789	NA	ubiquitin-conjugating enzyme E2 variant 1
+LOC129138625	CT45A6	cancer/testis antigen family 45 member A6
+LOC465877	CT45A6	cancer/testis antigen family 45 member A6
+LOC465884	NA	ras-related C3 botulinum toxin substrate 1-like
+LOC107971048	NA	large ribosomal subunit protein eL42-like
+LOC107972766	NA	melanoma-associated antigen 6
+LOC107972767	NA	chondrosarcoma-associated gene 2/3 protein-like
+LOC129138662	NA	chondrosarcoma-associated gene 2/3 protein
+LOC107971234	PNMA6A	PNMA family member 6A
+LOC107971235	NA	paraneoplastic antigen-like protein 6B
+LOC129135380	NA	testis-specific protein TEX28
+LOC129138866	NA	long-wave-sensitive opsin 1
+LOC100610002	NA	NF-kappa-B essential modulator
+LOC134809342	NA	phosphatidylinositol-binding clathrin assembly protein-like
+LOC112204046	NA	40-kDa huntingtin-associated protein
+LOC104004037	NA	40-kDa huntingtin-associated protein
+LOC129138842	NA	histone-lysine N-methyltransferase PRDM7-like
+LOC129138592	NA	nascent polypeptide-associated complex subunit alpha, muscle-specific form-like
+LOC129138706	NA	spectrin beta chain, non-erythrocytic 5-like
+LOC129135297	NA	testis-specific Y-encoded protein 3-like
+LOC107973386	NA	testis-specific Y-encoded protein 3
+LOC112207446	NA	testis-specific Y-encoded protein 3
+LOC129138949	NA	testis-specific Y-encoded protein 3
+LOC129138954	NA	testis-specific Y-encoded protein 3-like
+LOC129138956	NA	testis-specific Y-encoded protein 3
+LOC129138948	NA	testis-specific Y-encoded protein 3
+LOC129138958	NA	testis-specific Y-encoded protein 3-like
+LOC112207444	NA	testis-specific Y-encoded protein 3
+LOC129138942	NA	testis-specific Y-encoded protein 3
+LOC129138955	NA	testis-specific Y-encoded protein 3
+LOC129138957	NA	testis-specific Y-encoded protein 3-like
+LOC129135429	NA	testis-specific Y-encoded protein 3
+LOC129138959	NA	testis-specific Y-encoded protein 3
+LOC129138960	NA	testis-specific Y-encoded protein 3
+LOC745154	NA	testis-specific Y-encoded protein 3
+LOC129138941	NA	testis-specific Y-encoded protein 3-like
+LOC745089	NA	testis-specific Y-encoded protein 3
+LOC745124	NA	testis-specific Y-encoded protein 3-like
+LOC744621	NA	deleted in azoospermia protein 1
+LOC749905	NA	deleted in azoospermia protein 1
+LOC107971295	NA	testis-specific basic protein Y 2
+LOC736145	NA	RNA-binding motif protein, Y chromosome, family 1 member F/J-like
+LOC112208098	NA	RNA-binding motif protein, Y chromosome, family 1 member F/J
+LOC737822	NA	testis-specific Y-encoded protein 3-like
+LOC740402	NA	glutamate dehydrogenase 1, mitochondrial-like
+LOC112208053	NA	deleted in azoospermia protein 4
+LOC738636	NA	deleted in azoospermia protein 3
+LOC739765	NA	testis-specific Y-encoded protein 3
+LOC112209182	NA	matrix-remodeling-associated protein 5-like
+LOC751056_1	NA	CD99 antigen-like
+LOC107972835_1	NA	interleukin-3 receptor subunit alpha
+LOC746936_1	CSF2RA	colony stimulating factor 2 receptor subunit alpha
+LOC749758_1	CRLF2	cytokine receptor like factor 2
+LOC107971217_1	NA	short stature homeobox protein
+LOC112207609_1	NA	serine/threonine-protein phosphatase 2A regulatory subunit B'' subunit beta
+LOC107971128_1	NA	putative GTP-binding protein 6
+LOC129138939	NA	PI-PLC X domain-containing protein 1-like
+LOC129138938	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC129397705	NA	putative protein FAM157B
+LOC100991907	NA	olfactory receptor 14I1
+LOC100972584	NA	olfactory receptor 2T11
+LOC100971901	NA	olfactory receptor 2T29
+LOC100970998	SUMO3	small ubiquitin like modifier 3
+LOC100971558	NA	olfactory receptor 2G6
+LOC100990488	NA	olfactory receptor 2L2-like
+LOC100989812	NA	olfactory receptor 2L13
+LOC106634333	NA	olfactory receptor 2AK2
+LOC100976667	NA	olfactory receptor 2L8-like
+LOC129392906	NA	E3 ubiquitin-protein ligase TRIM58
+LOC100991478	NA	olfactory receptor 2AJ1
+LOC112438148	NA	olfactory receptor 14K1
+LOC103785522	ZNF695	zinc finger protein 695
+LOC129394312	NA	kinesin-like protein KIF28P
+LOC100993046	NA	E3 ubiquitin-protein ligase RNF4-like
+LOC100990819	ZNF706	zinc finger protein 706-like
+LOC117977169	NA	small ribosomal subunit protein uS8-like
+LOC117976953	NA	small nuclear ribonucleoprotein G-like
+LOC117976634	NA	complement factor H-related protein 2
+LOC129397416	NA	complement factor H-related protein 4
+LOC117976628	NA	complement factor H-related protein 4
+LOC134728364	NA	complement factor H-related protein 3
+LOC134729391	CFH	complement factor H-like
+LOC134729382	NA	complement factor H-related protein 3
+LOC134730372	NA	small ribosomal subunit protein eS7
+LOC100983469	NA	carboxyl-terminal PDZ ligand of neuronal nitric oxide synthase protein
+LOC134730381	NA	thiosulfate:glutathione sulfurtransferase
+LOC134730382	NA	upstream stimulatory factor 1
+LOC100973313	NA	olfactory receptor 10J5
+LOC129397826	NA	serum amyloid P-component-like
+LOC100974350	NA	olfactory receptor 10J1
+LOC100974674	NA	olfactory receptor 10J4
+LOC100995546	NA	protein SON-like
+LOC130541076	NA	small proline-rich protein 2D-like
+LOC130541078	NA	small proline-rich protein 2D
+LOC100996097	NA	putative neuroblastoma breakpoint family member 7
+LOC106635332	NA	endogenous retrovirus group K member 10 Np9 protein-like
+LOC100990288	NA	myomegalin-like
+LOC106634368	NA	bromodomain-containing protein 9
+LOC117974571	NA	neuroblastoma breakpoint family member 15-like
+LOC129397510	NA	neurogenic locus notch homolog protein 2-like
+LOC117981372	NA	neuroblastoma breakpoint family member 15-like
+LOC129394502	NA	Krueppel-like factor 5
+LOC117980872	NA	neuroblastoma breakpoint family member 15-like
+LOC117975161	NA	membrane-associated guanylate kinase, WW and PDZ domain-containing protein 3-like
+LOC100971374	NA	thioredoxin-interacting protein
+LOC129393010	NA	neuroblastoma breakpoint family member 15-like
+LOC100980894	NA	bile acid receptor-like
+LOC100983009	NA	3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase type 1
+LOC134730803	NA	neuroblastoma breakpoint family member 12-like
+LOC129394614	NA	neuroblastoma breakpoint family member 12-like
+LOC117978217	NA	leucine-rich repeats and immunoglobulin-like domains protein 2
+LOC100987295	NUTF2	nuclear transport factor 2
+LOC100980598	NA	adenosine receptor A3
+LOC129398196	GSTM2	glutathione S-transferase Mu 2
+LOC117974945	NA	notch homolog 2 N-terminal-like protein A
+LOC100989383	NA	cytochrome c oxidase subunit NDUFA4-like
+LOC100983088	NA	alpha-amylase 2B
+LOC134731004	NA	actin, alpha skeletal muscle-like
+LOC103784303	NA	large ribosomal subunit protein uL22-like
+LOC100990811	FPGT	fucose-1-phosphate guanylyltransferase
+LOC129398700	NA	rab GDP dissociation inhibitor beta-like
+LOC100967527	AGBL4	AGBL carboxypeptidase 4
+LOC100971216	NA	large ribosomal subunit protein eL21-like
+LOC112441405	NA	translation machinery-associated protein 7
+LOC117979948	NA	blood group Rh(CE) polypeptide
+LOC117979827	NA	chymotrypsin-like elastase family member 3B
+LOC117979789	HGF	hepatocyte growth factor-like protein
+LOC117979780	NA	FAM231A/C-like protein
+LOC100976949	ESPN	espin-like
+LOC129393675	NA	FAM231A/C-like protein
+LOC100971481	HGF	hepatocyte growth factor-like protein
+LOC117979769	NA	neuroblastoma breakpoint family member 15-like
+LOC117978570	NA	FAM231A/C-like protein
+LOC129392903	NA	FAM231A/C-like protein
+LOC117979657	NA	rootletin-like
+LOC117978309	PRAMEF17	PRAME family member 17
+LOC129392992	PRAMEF11	PRAME family member 11-like
+LOC117978020	NA	heterogeneous nuclear ribonucleoprotein C-like 2
+LOC117978589	PRAMEF15	PRAME family member 15-like
+LOC129393929	PRAMEF8	PRAME family member 8-like
+LOC134729819	PRAMEF15	PRAME family member 15-like
+LOC117977904	NA	heterogeneous nuclear ribonucleoprotein C-like 1
+LOC117974243	PRAMEF1	PRAME family member 1-like
+LOC100982456	PRAMEF15	PRAME family member 15
+LOC134728924	PRAMEF15	PRAME family member 15-like
+LOC134728929	PRAMEF10	PRAME family member 10
+LOC134728932	PRAMEF8	PRAME family member 8-like
+LOC134728940	PRAMEF11	PRAME family member 11-like
+LOC117978587	NA	heterogeneous nuclear ribonucleoprotein C-like 1
+LOC134728943	PRAMEF10	PRAME family member 10
+LOC117978253	PRAMEF8	PRAME family member 8
+LOC117978313	PRAMEF1	PRAME family member 1-like
+LOC134728945	PRAMEF15	PRAME family member 15-like
+LOC134728947	PRAMEF18	PRAME family member 18-like
+LOC100972854	PRAMEF1	PRAME family member 1
+LOC100983450	PRAMEF8	PRAME family member 8
+LOC129393902	NA	heterogeneous nuclear ribonucleoprotein C-like 3
+LOC129398150	PRAMEF11	PRAME family member 11-like
+LOC134728953	PRAMEF10	PRAME family member 10-like
+LOC134729822	PRAMEF15	PRAME family member 15-like
+LOC134729810	PRAMEF15	PRAME family member 15-like
+LOC129395010	NA	heterogeneous nuclear ribonucleoprotein C-like 2
+LOC117976417	PRAMEF15	PRAME family member 15-like
+LOC134728957	PRAMEF17	PRAME family member 17-like
+LOC134728384	PRAMEF18	PRAME family member 18-like
+LOC129395020	PRAMEF1	PRAME family member 1-like
+LOC117978450	PRAMEF11	PRAME family member 11-like
+LOC134729814	PRAMEF10	PRAME family member 10
+LOC129393904	PRAMEF8	PRAME family member 8-like
+LOC117978312	PRAMEF15	PRAME family member 15-like
+LOC134728965	NA	heterogeneous nuclear ribonucleoprotein C-like 2
+LOC117978449	NA	heterogeneous nuclear ribonucleoprotein C-like 1
+LOC129393894	PRAMEF15	PRAME family member 15-like
+LOC134728967	PRAMEF15	PRAME family member 15-like
+LOC134729815	PRAMEF10	PRAME family member 10-like
+LOC134728968	PRAMEF17	PRAME family member 17-like
+LOC129393936	PRAMEF10	PRAME family member 10
+LOC134728972	NA	heterogeneous nuclear ribonucleoprotein C-like 1
+LOC134728973	PRAMEF11	PRAME family member 11-like
+LOC134728979	PRAMEF15	PRAME family member 15-like
+LOC117978023	PRAMEF15	PRAME family member 15-like
+LOC117978274	PRAMEF15	PRAME family member 15-like
+LOC117976428	PRAMEF15	PRAME family member 15-like
+LOC117978720	PRAMEF11	PRAME family member 11
+LOC117979561	PRAMEF1	PRAME family member 1-like
+LOC117976372	PRAMEF18	PRAME family member 18
+LOC100967961	NA	ATPase family AAA domain-containing protein 3B
+LOC117978719	PRAMEF15	PRAME family member 15-like
+LOC100970807	NA	tubulin beta-8 chain-like
+LOC134731052	NA	atherin-like
+LOC117978671	NA	tubulin beta-8 chain-like
+LOC100990608	NA	contactin-6
+LOC100989577	NA	contactin-4
+LOC100972901	NA	large ribosomal subunit protein eL29-like
+LOC134729922	NA	proline-rich protein HaeIII subfamily 1-like
+LOC100995302	RAD54L2	RAD54 like 2
+LOC129397513	NA	DNA primase large subunit-like
+LOC100971931	NA	olfactory receptor 5H14
+LOC100995664	NA	olfactory receptor 5H15
+LOC100971597	NA	olfactory receptor 5H1
+LOC100987245	NA	putative protein ARB2BP
+LOC129397422	NA	ATP synthase subunit a-like
+LOC100994493	NA	ribosome biogenesis protein NOP53
+LOC134729904	NA	ferritin heavy chain-like
+LOC100978661	NA	collagen alpha-4(VI) chain-like
+LOC100990106	CP	ceruloplasmin-like
+LOC100971854	HTR3E	5-hydroxytryptamine receptor 3E
+LOC129397482	NA	ATP-binding cassette sub-family F member 2
+LOC100969087	NA	small ribosomal subunit protein uS10
+LOC117974248	NA	mucin-20
+LOC100975254	NA	succinate dehydrogenase [ubiquinone] flavoprotein subunit, mitochondrial-like
+LOC117979566	NA	BRD4-interacting chromatin-remodeling complex-associated protein
+LOC106634644	NA	large ribosomal subunit protein uL22-like
+LOC129397525	NA	putative protein FAM157B
+LOC100979556	NA	RWD domain-containing protein 4-like
+LOC134730236	NA	DNA damage up-regulated protein
+LOC117979902	NA	basic salivary proline-rich protein 1-like
+LOC117978776	JSRP1	junctional sarcoplasmic reticulum protein 1-like
+LOC100987783	NA	serine/threonine-protein kinase 32B
+LOC134730250	ZNF626	zinc finger protein 626-like
+LOC134730254	NA	brahma-associated protein of 60 kDa-like
+LOC117978099	NA	endogenous retrovirus group K member 6 Env polyprotein-like
+LOC106634665	NA	histone H3.v1-like
+LOC100978366	NA	putative cytosolic acyl coenzyme A thioester hydrolase-like
+LOC100982199	NA	cytochrome c oxidase subunit 7B2, mitochondrial
+LOC100974973	NA	histone H2A.Z
+LOC100982184	NA	histone H3.3A-like
+LOC100986527	NDST4	N-deacetylase and N-sulfotransferase 4
+LOC100988236	SMIM43	small integral membrane protein 43
+LOC100994754	NA	serine/threonine-protein phosphatase 4 regulatory subunit 3A-like
+LOC117974336	NA	protein salvador homolog 1
+LOC117980150	NA	proline-rich protein 36-like
+LOC100988158	NA	myotubularin-related protein 9-like
+LOC100991754	HPF1	histone PARylation factor 1
+LOC103786936	NA	atherin-like
+LOC129397647	NA	embryonic stem cell-related gene protein-like
+LOC100972981	NA	myosin regulatory light chain 12B
+LOC134730220	NA	double homeobox protein 4C-like
+LOC134730329	NA	protein FRG2-like-1
+LOC117978370	NA	protein FRG2-like-1
+LOC129397663	NA	olfactory receptor 4K3-like
+LOC129393692	NA	zinc-regulated GTPase metalloprotein activator 1A-like
+LOC129394276	NA	histone-lysine N-methyltransferase PRDM7-like
+LOC129393698	NA	tubulin beta-8 chain-like
+LOC129393699	NA	putative protein FAM157A
+LOC129398493	NA	tubulin beta-8 chain-like
+LOC134728417	NA	zinc-regulated GTPase metalloprotein activator 1A-like
+LOC134730344	NA	B-cell CLL/lymphoma 9-like protein
+LOC134730354	NA	palmitoyltransferase ZDHHC11-like
+LOC134730359	NA	palmitoyltransferase ZDHHC11
+LOC134730414	NA	alpha/beta hydrolase domain-containing protein 17A-like
+LOC129397856	NA	basic salivary proline-rich protein 3-like
+LOC100974473	NA	elongation factor 1-alpha 1-like
+LOC129397727	NA	elongation factor 1-alpha 1-like
+LOC117980224	NA	TATA-box-binding protein-associated factor 11-like protein 12
+LOC129397736	NA	histone H3.X
+LOC134730419	NA	TATA-box binding protein associated factor 11 like protein 2
+LOC117980226	NA	histone H3.Y
+LOC129397734	NA	TATA-box-binding protein-associated factor 11-like protein 12
+LOC117977872	NA	TATA-box-binding protein-associated factor 11-like protein 12
+LOC134730470	NA	histone H3.Y-like
+LOC129397861	NA	TATA-box-binding protein-associated factor 11-like protein 12
+LOC117980241	NA	large ribosomal subunit protein eL28
+LOC129397877	ERVFC1	endogenous retrovirus group FC1 Env polyprotein-like
+LOC100983684	NA	small EDRK-rich factor 1
+LOC112439852	NA	mitochondrial import receptor subunit TOM5 homolog
+LOC100987409	NA	E3 ubiquitin-protein ligase RNF138-like
+LOC129397789	PTMS	parathymosin-like
+LOC100973071	NA	proteasome activator complex subunit 2-like
+LOC117980334	NA	putative POM121-like protein 1-like
+LOC134730447	NA	T-box transcription factor TBX1-like
+LOC129397807	NA	elongation factor 1-alpha 1-like
+LOC100987868	NA	U4/U6.U5 small nuclear ribonucleoprotein 27 kDa protein-like
+LOC100988105	NA	protocadherin beta-6
+LOC103783390	NA	protocadherin beta-10
+LOC100979108	NA	protocadherin gamma-C3
+LOC130541557	NA	protocadherin gamma-B2-like
+LOC100990579	NA	actin, cytoplasmic 1
+LOC100994017	NA	inorganic pyrophosphatase-like
+LOC100972750	NA	SUMO-interacting motif-containing protein 1-like
+LOC117978296	NA	protein FAM153A-like
+LOC106634832	NA	high mobility group protein B3-like
+LOC100967708	NA	olfactory receptor 2V2
+LOC129392967	NA	zinc-regulated GTPase metalloprotein activator 1A-like
+LOC100975257	NA	testis expressed protein 56
+LOC100978953	NA	histone H2A type 1-A
+LOC100979289	NA	histone H2B type 1-A
+LOC103784504	NA	histone H3.1-like
+LOC100992212	NA	histone H4
+LOC100990167	NA	histone H2A type 1-C
+LOC100983789	NA	putative butyrophilin subfamily 2 member A3
+LOC100976134	BTN3A1	butyrophilin subfamily 3 member A1
+LOC100975566	BTN2A2	butyrophilin subfamily 2 member A2
+LOC100976925	BTN3A3	butyrophilin subfamily 3 member A3
+LOC134730542	NA	olfactory receptor 2J2
+LOC100991359	NA	olfactory receptor 12D1
+LOC100978457	NA	patr class I histocompatibility antigen, CH28 alpha chain
+LOC103783493	NA	protein shisa-5
+LOC134730586	NA	far upstream element-binding protein 2
+LOC134730587	NA	HLA class II histocompatibility antigen, DR beta 5 chain
+LOC100986750	NA	HLA class II histocompatibility antigen, DRB1 beta chain
+LOC100979649	NA	HLA class II histocompatibility antigen, DQ alpha 1 chain
+LOC100972994	NA	HLA class II histocompatibility antigen, DQ beta 1 chain
+LOC100994561	NA	HLA class II histocompatibility antigen, DP beta 1 chain-like
+LOC117980785	NA	myosin regulatory light chain 12B-like
+LOC134730495	NA	basic proline-rich protein-like
+LOC100977571	NA	trem-like transcript 4 protein
+LOC100974653	NA	trem-like transcript 4 protein
+LOC103784121	NA	glutathione S-transferase A3-like
+LOC103786681	NA	histone-binding protein RBBP4-like
+LOC129392939	NA	protein C1orf43 homolog
+LOC100974207	NA	eyes shut homolog
+LOC129397988	NA	nucleoside diphosphate kinase 7-like
+LOC129398100	NA	protein eyes shut homolog
+LOC117980609	NA	protein eyes shut homolog
+LOC134730596	NA	zinc finger CCCH domain-containing protein 11C-like
+LOC129397984	NA	zinc finger CCCH domain-containing protein 11C-like
+LOC129397987	NA	zinc finger CCCH domain-containing protein 11C-like
+LOC117978267	NA	protein eyes shut homolog
+LOC129398099	NA	protein eyes shut homolog
+LOC129398006	NA	protein eyes shut homolog
+LOC129398003	NA	zinc finger CCCH domain-containing protein 11C-like
+LOC129397990	NA	zinc finger CCCH domain-containing protein 11C-like
+LOC129398002	NA	zinc finger CCCH domain-containing protein 11C-like
+LOC129397993	NA	zinc finger CCCH domain-containing protein 11C-like
+LOC129398004	NA	zinc finger CCCH domain-containing protein 11C-like
+LOC117978454	NA	protein eyes shut homolog
+LOC117978417	NA	protein C1orf43 homolog
+LOC117978173	NA	protein eyes shut homolog
+LOC129397991	NA	protein eyes shut homolog
+LOC129397998	NA	zinc finger CCCH domain-containing protein 11C-like
+LOC129397995	NA	zinc finger CCCH domain-containing protein 11C-like
+LOC129398008	NA	nucleoside diphosphate kinase 7-like
+LOC100977566	CYB5R4	cytochrome b5 reductase 4
+LOC134730609	AHCY	adenosylhomocysteinase-like
+LOC103786829	NA	mitochondrial import inner membrane translocase subunit TIM14-like
+LOC100991105	NA	dehydrogenase/reductase SDR family member 6-like
+LOC134728420	NA	centrosomal protein of 57 kDa-like
+LOC134730531	NA	putative apolipoprotein(a)-like protein 2
+LOC134730533	NA	apolipoprotein(a)-like
+LOC134730534	NA	apolipoprotein(a)-like
+LOC134730535	NA	apolipoprotein(a)-like
+LOC129398082	NA	zinc-regulated GTPase metalloprotein activator 1A-like
+LOC129398388	NA	phosphoglucomutase-like protein 5
+LOC117981174	NA	spectrin beta chain, non-erythrocytic 5-like
+LOC100968954	NA	putative protein ZNF815
+LOC100976634	NA	vacuolar fusion protein CCZ1 homolog B
+LOC129393039	RSPH10B	radial spoke head 10 homolog B
+LOC117980870	NA	vacuolar fusion protein CCZ1 homolog B
+LOC129398304	NA	chitobiosyldiphosphodolichol beta-mannosyltransferase-like
+LOC100977958	NA	protein-lysine N-methyltransferase EEF2KMT-like
+LOC100991543	NA	dual specificity protein kinase CLK2-like
+LOC103784145	NA	protein C-mannosyl-transferase DPY19L1
+LOC100981379	NA	retinitis pigmentosa 9 protein
+LOC117980919	NA	probable C-mannosyltransferase DPY19L2
+LOC100968685	NA	probable G-protein coupled receptor 141
+LOC100995139	AMPH	amphiphysin
+LOC117980958	NA	bifunctional methylenetetrahydrofolate dehydrogenase/cyclohydrolase, mitochondrial-like
+LOC129398426	STMP1	short transmembrane mitochondrial protein 1-like
+LOC100994550	NA	trinucleotide repeat-containing gene 18 protein-like
+LOC103783255	INTS4	integrator complex subunit 4-like protein 2
+LOC129393052	ENTPD6	ectonucleoside triphosphate diphosphohydrolase 6-like
+LOC100982215	INTS4	integrator complex subunit 4-like protein 2
+LOC100996208	NA	S-phase kinase-associated protein 1-like
+LOC100992172	SBDS	SBDS ribosome maturation factor
+LOC100969148	NA	S-adenosyl-L-methionine-dependent tRNA 4-demethylwyosine synthase TYW1
+LOC129398327	NA	speedy protein E18-like
+LOC117978413	NA	uroplakin-3b-like
+LOC117977839	NA	probable E3 ubiquitin-protein ligase DTX2
+LOC134730681	NA	ras GTPase-activating protein 4-like
+LOC117978262	NA	huntingtin-interacting protein 1
+LOC134730684	NA	rasGAP-activating-like protein 1
+LOC117978326	NA	putative speedy protein E21
+LOC117977910	NA	huntingtin-interacting protein 1-like
+LOC117981027	NA	rasGAP-activating-like protein 1
+LOC117978259	NA	putative speedy protein E21
+LOC129398227	NA	huntingtin-interacting protein 1-like
+LOC134730683	NA	rasGAP-activating-like protein 1
+LOC117981014	NA	ras GTPase-activating protein 4-like
+LOC134730782	NA	speedy protein E2B-like
+LOC134730682	NA	speedy protein E1-like
+LOC129393061	NA	putative postmeiotic segregation increased 2-like protein 2
+LOC117978562	NA	probable E3 ubiquitin-protein ligase DTX2
+LOC117981012	NA	putative speedy protein E7
+LOC129393016	NA	protein CASP-like
+LOC129392959	NA	protein CASP-like
+LOC134730690	NA	putative speedy protein E21
+LOC134730696	NA	putative postmeiotic segregation increased 2-like protein 3
+LOC134730697	NA	putative postmeiotic segregation increased 2-like protein 3
+LOC117978385	NA	putative speedy protein E21
+LOC117978386	NA	putative postmeiotic segregation increased 2-like protein 3
+LOC134730689	NA	putative speedy protein E21
+LOC117977794	NA	putative speedy protein E21
+LOC134730695	NA	putative postmeiotic segregation increased 2-like protein 3
+LOC117978586	NA	putative speedy protein E21
+LOC129398328	NA	ras GTPase-activating protein 4-like
+LOC129392994	NA	ras GTPase-activating protein 4-like
+LOC129398241	NA	huntingtin-interacting protein 1-like
+LOC129398249	NA	putative STAG3-like protein 2
+LOC134728377	NA	speedy protein E12-like
+LOC134730694	NA	putative postmeiotic segregation increased 2-like protein 1
+LOC129393017	NA	speedy protein E12
+LOC129398260	NA	speedy protein E12-like
+LOC129398263	NA	putative postmeiotic segregation increased 2-like protein 1
+LOC129398262	NA	speedy protein E12-like
+LOC129398251	NA	putative postmeiotic segregation increased 2-like protein 1
+LOC129398242	NA	speedy protein E12-like
+LOC129398257	NA	putative postmeiotic segregation increased 2-like protein 1
+LOC129398264	NA	speedy protein E12-like
+LOC129398253	NA	putative postmeiotic segregation increased 2-like protein 1
+LOC129398255	NA	putative postmeiotic segregation increased 2-like protein 1
+LOC129398259	NA	postmeiotic segregation increased 2-like protein 5
+LOC117981049	NA	speedy protein E12
+LOC130541667	NA	putative postmeiotic segregation increased 2-like protein 2
+LOC129398161	GALNT17	polypeptide N-acetylgalactosaminyltransferase 17-like
+LOC117978808	NA	speedy protein E18-like
+LOC117978809	NA	protein CASP-like
+LOC117978810	NA	probable E3 ubiquitin-protein ligase DTX2
+LOC103784512	NA	general transcription factor II-I repeat domain-containing protein 1-like
+LOC117981019	NA	protein CASP-like
+LOC117981018	NA	speedy protein E1-like
+LOC117978304	NA	protein FAM185A
+LOC129398172	NA	LINE-1 retrotransposable element ORF2 protein
+LOC100967964	NA	putative protein SEM1
+LOC100972043	NA	ras GTPase-activating protein 4
+LOC100968901	NA	large ribosomal subunit protein uL30-like
+LOC117981107	NA	serine/threonine-protein kinase tousled-like 2
+LOC100976427	NA	large ribosomal subunit protein eL27-like
+LOC100974082	NA	large ribosomal subunit protein eL15-like
+LOC100989368	KEL	Kell metallo-endopeptidase (Kell blood group)
+LOC100981101	NA	olfactory receptor 10AC1
+LOC103786425	ZNF746	zinc finger protein 746
+LOC129398374	NA	large ribosomal subunit protein uL10
+LOC100989958	NA	protein FAM87A
+LOC100991783	NA	neutrophil defensin 1
+LOC129395848	NA	neutrophil defensin 1
+LOC129395849	NA	neutrophil defensin 1
+LOC129395845	NA	neutrophil defensin 1-like
+LOC129395846	NA	neutrophil defensin 1
+LOC117981308	NA	meiosis expressed gene 1 protein homolog
+LOC117978165	NA	beta-defensin 134
+LOC129395836	NA	proline-rich protein 23D1-like
+LOC129395894	NA	protein FAM90A15-like
+LOC129395895	NA	protein FAM90A15-like
+LOC129395897	NA	protein FAM90A15-like
+LOC129395898	NA	protein FAM90A15
+LOC129395899	NA	protein FAM90A15-like
+LOC129395900	NA	protein FAM90A15-like
+LOC129395901	NA	protein FAM90A15-like
+LOC117981556	NA	protein FAM90A15-like
+LOC129395902	NA	beta-defensin 107A
+LOC129395893	NA	protein FAM90A15-like
+LOC129395885	NA	beta-defensin 130B-like
+LOC134730860	NA	beta-defensin 131A-like
+LOC100992112	NA	translation initiation factor IF-2
+LOC129392922	NA	sperm-associated antigen 11A-like
+LOC129395876	NA	beta-defensin 104A
+LOC129395860	NA	protein FAM90A15-like
+LOC129395862	NA	protein FAM90A15-like
+LOC129395863	NA	protein FAM90A15-like
+LOC129395865	NA	protein FAM90A15-like
+LOC129395866	NA	protein FAM90A15-like
+LOC129395867	NA	protein FAM90A15-like
+LOC134730861	NA	protein FAM90A15-like
+LOC129395858	NA	olfactory receptor 7E24-like
+LOC129395840	NA	beta-defensin 130B-like
+LOC129395842	NA	beta-defensin 131A-like
+LOC100989933	NA	protein-lysine N-methyltransferase EEF2KMT-like
+LOC134730962	NA	beta-defensin 134
+LOC129398500	NA	protein FAM90A15-like
+LOC129398512	NA	protein FAM90A15-like
+LOC134730864	NA	beta-defensin 104A-like
+LOC129398579	NA	protein FAM90A15-like
+LOC129395887	NA	beta-defensin 131A-like
+LOC134731040	NA	beta-defensin 130B-like
+LOC117981344	NA	beta-defensin 104A
+LOC129398578	NA	proline-rich protein 23D1-like
+LOC134730867	NA	protein FAM90A15-like
+LOC129398513	NA	protein FAM90A15-like
+LOC129398519	NA	protein FAM90A15-like
+LOC134730868	NA	protein FAM90A15-like
+LOC134730869	NA	protein FAM90A15-like
+LOC117978522	NA	beta-defensin 131A
+LOC117981327	NA	beta-defensin 134
+LOC117981342	NA	olfactory receptor 7E24-like
+LOC100975471	NA	suppression of tumorigenicity 18 protein
+LOC100995677	NA	26S proteasome regulatory subunit 10B-like
+LOC129398521	NA	exonuclease GOR-like
+LOC134730880	NA	exonuclease GOR-like
+LOC134730881	NA	exonuclease GOR-like
+LOC134730882	NA	exonuclease GOR-like
+LOC134730883	NA	exonuclease GOR
+LOC134730886	NA	exonuclease GOR-like
+LOC134730887	NA	exonuclease GOR-like
+LOC134730888	NA	exonuclease GOR-like
+LOC134730889	NA	exonuclease GOR
+LOC134730890	NA	exonuclease GOR-like
+LOC134730891	NA	exonuclease GOR-like
+LOC134730892	NA	exonuclease GOR-like
+LOC134730893	NA	exonuclease GOR-like
+LOC134730894	NA	exonuclease GOR-like
+LOC134730895	NA	exonuclease GOR-like
+LOC134730896	NA	exonuclease GOR-like
+LOC134730897	NA	exonuclease GOR-like
+LOC134730898	NA	exonuclease GOR-like
+LOC134730899	NA	exonuclease GOR-like
+LOC129398452	NA	exonuclease GOR-like
+LOC134730900	NA	exonuclease GOR-like
+LOC134730901	NA	exonuclease GOR-like
+LOC134730902	NA	exonuclease GOR-like
+LOC134730903	NA	exonuclease GOR-like
+LOC134730904	NA	putative exonuclease GOR
+LOC134730905	NA	exonuclease GOR-like
+LOC134730906	NA	exonuclease GOR
+LOC134730907	NA	putative exonuclease GOR
+LOC134730908	NA	exonuclease GOR-like
+LOC134730909	NA	exonuclease GOR-like
+LOC134730910	NA	exonuclease GOR-like
+LOC134730911	NA	exonuclease GOR-like
+LOC134730912	NA	exonuclease GOR-like
+LOC134730913	NA	exonuclease GOR-like
+LOC134730914	NA	exonuclease GOR
+LOC134730915	NA	exonuclease GOR
+LOC134730916	NA	exonuclease GOR-like
+LOC134730917	NA	exonuclease GOR
+LOC134730918	NA	exonuclease GOR-like
+LOC134730919	NA	exonuclease GOR
+LOC134730923	NA	exonuclease GOR-like
+LOC134730924	NA	putative exonuclease GOR
+LOC134730926	NA	exonuclease GOR-like
+LOC134730927	NA	exonuclease GOR-like
+LOC134730928	NA	putative exonuclease GOR
+LOC134730929	NA	exonuclease GOR
+LOC134730930	NA	putative exonuclease GOR
+LOC134730931	NA	exonuclease GOR-like
+LOC134730932	NA	putative exonuclease GOR
+LOC134730933	NA	exonuclease GOR-like
+LOC134730934	NA	exonuclease GOR-like
+LOC134730935	NA	exonuclease GOR-like
+LOC134730936	NA	putative exonuclease GOR
+LOC134730937	NA	exonuclease GOR-like
+LOC129398443	NA	exonuclease GOR
+LOC134730938	NA	exonuclease GOR-like
+LOC134730939	NA	exonuclease GOR-like
+LOC129398522	NA	exonuclease GOR-like
+LOC100978605	NA	small ribosomal subunit protein eS26-like
+LOC117981464	NA	small ribosomal subunit protein uS12-like
+LOC117981477	NA	high mobility group protein B1-like
+LOC134731012	NA	large ribosomal subunit protein uL11
+LOC134730838	NA	fibrous sheath CABYR-binding protein-like
+LOC100988315	NA	aldo-keto reductase family 1 member C15-like
+LOC129393155	RBIS	ribosomal biogenesis factor-like
+LOC117979556	NA	RNA-binding motif protein, X-linked-like-2
+LOC129393187	NA	small ribosomal subunit protein eS26
+LOC100985125	NA	leucine-rich repeat-containing protein 37A2-like
+LOC100985455	NA	outer dynein arm-docking complex subunit 2
+LOC100973318	NA	outer dynein arm-docking complex subunit 2
+LOC100977039	SVIL	supervillin
+LOC130540526	NA	WAS/WASL-interacting protein family member 1-like
+LOC103782649	ZNF25	zinc finger protein 25
+LOC117974454	RSU1	ras suppressor protein 1-like
+LOC117974457	PARG	poly(ADP-ribose) glycohydrolase-like
+LOC100969124	NA	anthrax toxin receptor-like
+LOC117974579	ANXA8	annexin A8
+LOC117974576	NA	arf-GAP with GTPase, ANK repeat and PH domain-containing protein 5
+LOC100985247	NA	putative inactive neutral ceramidase B
+LOC100970446	NUTM2D	NUT family member 2D-like
+LOC129392945	NA	cadherin-23-like
+LOC117978206	NUTM2D	NUT family member 2D-like
+LOC129393227	NA	protein GVQW1-like
+LOC100995486	NA	large ribosomal subunit protein uL13
+LOC117977999	NUTM2D	NUT family member 2D-like
+LOC117974671	NUTM2D	NUT family member 2D
+LOC129393243	NA	large ribosomal subunit protein eL15
+LOC100975385	NA	forkhead box protein K2
+LOC103785691	NA	scavenger receptor cysteine-rich domain-containing protein SCART1
+LOC100983226	NA	scavenger receptor cysteine-rich domain-containing protein SCART1-like
+LOC134731153	NA	mucin-3B-like
+LOC129392990	NA	zinc-regulated GTPase metalloprotein activator 1A-like
+LOC117978129	NA	phosphoglucomutase-like protein 5
+LOC129393261	NA	alpha/beta hydrolase domain-containing protein 17A-like
+LOC100977930	NA	beta-defensin 125
+LOC117979216	NA	bifunctional peptidase and (3S)-lysyl hydroxylase JMJD7
+LOC117976139	NA	cytosolic phospholipase A2 beta
+LOC117978083	NA	spectrin beta chain, non-erythrocytic 5-like
+LOC117977862	NA	olfactory receptor 4K3-like
+LOC129393264	NA	zinc-regulated GTPase metalloprotein activator 1A-like
+LOC129393262	NA	tubulin beta-8 chain-like
+LOC117974810	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC100971164	NA	interferon-induced transmembrane protein 3
+LOC134731185	NA	basic proline-rich protein-like
+LOC100981745	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2
+LOC129393300	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC129393314	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC129393315	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC129393303	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC129393326	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2
+LOC117978393	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC117975122	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC129393450	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC129393319	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC129393425	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC134731183	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC129393308	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC129393312	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC129393429	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC129393325	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC129393320	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC129393322	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC129393358	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC129393404	NA	RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC100982657	NA	hemoglobin subunit gamma-1
+LOC100979149	NA	hemoglobin subunit gamma-2
+LOC100980536	NA	olfactory receptor 51B2
+LOC100981207	NA	olfactory receptor 51B6
+LOC100979491	NA	olfactory receptor 51B5
+LOC100977464	NA	olfactory receptor 51M1
+LOC100980872	NA	olfactory receptor 51J1
+LOC100978488	NA	olfactory receptor 52D1
+LOC100983089	NA	olfactory receptor 52H1
+LOC100986112	NA	olfactory receptor 52N1
+LOC100985787	NA	olfactory receptor 52E6
+LOC100988813	NA	olfactory receptor 56A5
+LOC100974335	NA	olfactory receptor 6A2
+LOC100974662	NA	olfactory receptor 10A2
+LOC100975556	NA	olfactory receptor 2D3
+LOC134731223	NA	cytochrome c oxidase subunit 7C, mitochondrial
+LOC100968825	NA	small ribosomal subunit protein uS5-like
+LOC103786048	GLTP	glycolipid transfer protein-like
+LOC134731193	CHAF1A	chromatin assembly factor 1 subunit A-like
+LOC100980316	NA	glutamate carboxypeptidase 2
+LOC117975111	NOX4	NADPH oxidase 4-like
+LOC100981724	NA	olfactory receptor 4A8-like
+LOC100993894	NA	olfactory receptor 4C11-like
+LOC100995252	NA	olfactory receptor 5D13-like
+LOC100974842	NA	olfactory receptor 8K5
+LOC106634409	NA	olfactory receptor 8H1-like
+LOC100978318	NA	glycine N-acyltransferase-like protein 1
+LOC117974284	NA	pepsin A-4
+LOC117974931	NA	pepsin A-5
+LOC130540634	NA	keratin-associated protein 5-10
+LOC129393285	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 22
+LOC100969991	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 22
+LOC112437414	NA	ubiquitin carboxyl-terminal hydrolase 17-like protein 22
+LOC100994139	FOLR1	folate receptor alpha
+LOC100981351	NA	NADPH--cytochrome P450 reductase-like
+LOC117974994	NA	tripartite motif-containing protein 49C
+LOC117978341	NA	tripartite motif-containing protein 49D-like
+LOC117978153	NA	tripartite motif-containing protein 49C
+LOC100970297	NA	tripartite motif-containing protein 49D
+LOC129393400	NA	tripartite motif-containing protein 49D
+LOC129393440	NA	E3 ubiquitin-protein ligase TRIM48-like
+LOC129393298	NA	E3 ubiquitin-protein ligase TRIM48-like
+LOC100985633	NA	caspase-1
+LOC100976695	PCSK7	proprotein convertase subtilisin/kexin type 7-like
+LOC100980308	NA	tubulin-specific chaperone cofactor E-like protein
+LOC100977255	NA	putative olfactory receptor 10D4
+LOC100974228	NA	olfactory receptor 8B8-like
+LOC112441186	NA	olfactory receptor 8B3
+LOC100994395	NA	elongin-B
+LOC129393462	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC117978433	NA	spectrin beta chain, non-erythrocytic 5-like
+LOC134728401	NA	bifunctional peptidase and (3S)-lysyl hydroxylase JMJD7-like
+LOC117975334	NA	WAS protein family homolog 2
+LOC100990512	NA	small ribosomal subunit protein uS19-like
+LOC100985239	EIF3F	eukaryotic translation initiation factor 3 subunit F-like
+LOC100990900	NA	putative homeobox protein NANOG2
+LOC117974331	NA	putative glycosyltransferase ALG1L2
+LOC129393491	NA	beta-defensin 109
+LOC100983219	NA	ovostatin homolog 2
+LOC100991458	NA	NKG2-E type II integral membrane protein
+LOC100982386	NA	taste receptor type 2 member 31
+LOC100984072	NA	taste receptor type 2 member 46
+LOC100983389	NA	taste receptor type 2 member 45
+LOC100976584	NA	histone H4
+LOC106634354	SLCO1B3	solute carrier organic anion transporter family member 1B3-like
+LOC129393595	NA	small ribosomal subunit protein uS15
+LOC117975399	NA	T-box transcription factor TBX20-like
+LOC100977501	NA	olfactory receptor 6C2-like
+LOC100992114	NA	olfactory receptor 6C74
+LOC100983186	NA	keratin, type II cytoskeletal 2 epidermal-like
+LOC117975443	NA	testis-specific H1 histone
+LOC100995121	NA	insulin-like growth factor 2 mRNA-binding protein 2
+LOC117975311	NA	ovostatin homolog 2-like
+LOC100976982	SLCO1B3	solute carrier organic anion transporter family member 1B3
+LOC100993477	NA	nucleolar protein 56-like
+LOC100974549	NA	large ribosomal subunit protein eL29-like
+LOC100968595	NA	disintegrin and metalloproteinase domain-containing protein 1-like
+LOC100986398	HCAR3	hydroxycarboxylic acid receptor 3
+LOC100971447	NA	E1A-binding protein p400
+LOC129393564	NA	tubulin beta-8 chain-like
+LOC129398710	NA	tubulin beta-8 chain-like
+LOC129398712	NA	histone-lysine N-methyltransferase PRDM7-like
+LOC117977810	NA	zinc-regulated GTPase metalloprotein activator 1A
+LOC129393693	NA	olfactory receptor 4K3-like
+LOC117977589	NA	spectrin beta chain, non-erythrocytic 5-like
+LOC117977805	NA	cytosolic phospholipase A2 beta-like
+LOC117975686	NA	nascent polypeptide-associated complex subunit alpha, muscle-specific form-like
+LOC117978220	NA	phosphoglucomutase-like protein 5
+LOC117978219	NA	alpha/beta hydrolase domain-containing protein 17A-like
+LOC100971506	NA	ADP-ribosylation factor 4-like
+LOC100967437	NA	olfactory receptor 1B1
+LOC100969519	NA	olfactory receptor 1Q1
+LOC100995068	NA	olfactory receptor 1J1
+LOC129398738	CENPO	centromere protein O-like
+LOC129398739	NA	adenylate cyclase type 3-like
+LOC103784116	NA	large ribosomal subunit protein uL16-like
+LOC100973589	NA	olfactory receptor 13C9
+LOC100973935	NA	olfactory receptor 13C5
+LOC129392918	NA	olfactory receptor 13C2
+LOC100978425	NA	olfactory receptor 13D1-like
+LOC100975396	NA	gap junction alpha-1 protein-like
+LOC117981766	NA	major facilitator superfamily domain-containing 14C-like
+LOC100976475	NA	ankyrin repeat domain-containing protein 18B-like
+LOC100980224	NA	putative ankyrin repeat domain-containing protein 19
+LOC130540483	NA	receptor-type tyrosine-protein phosphatase V-like
+LOC100980541	NA	serine/threonine-protein kinase NLK-like
+LOC129393070	NA	nuclear pore-associated protein 1-like
+LOC117978678	NA	monofunctional C1-tetrahydrofolate synthase, mitochondrial-like
+LOC117978859	NA	contactin-associated protein-like 3
+LOC117978837	CES3	carboxylesterase 3-like
+LOC117978836	CES4A	carboxylesterase 4A-like
+LOC129393076	NA	serine/arginine-rich splicing factor 11
+LOC112440850	NA	large ribosomal subunit protein eL24-like
+LOC100983721	NA	spermatogenesis-associated protein 31D3-like
+LOC117981699	NA	spermatogenesis-associated protein 31D1-like
+LOC100994753	NA	spermatogenesis-associated protein 31D1
+LOC129393085	NA	spermatogenesis-associated protein 31D1-like
+LOC100968305	NA	ubiquitin-conjugating enzyme E2 variant 1
+LOC117977962	NA	contactin-associated protein-like 3
+LOC100982516	NA	high mobility group protein B3-like
+LOC100976766	NA	inosine-5'-monophosphate dehydrogenase 1-like
+LOC134728517	NA	basic proline-rich protein-like
+LOC100969275	NA	interferon alpha-17-like
+LOC100968231	NA	interferon alpha-4
+LOC117981652	NA	interferon alpha-7
+LOC100979723	NA	fructose-bisphosphate aldolase A
+LOC117981631	NA	elongation factor 1-alpha 1
+LOC106635093	NA	small nuclear ribonucleoprotein E-like
+LOC129393119	NA	tubulin beta-8 chain-like
+LOC129397212	NA	chromosome alignment-maintaining phosphoprotein 1-like
+LOC117979020	NA	spectrin beta chain, non-erythrocytic 5-like
+LOC117975333	NA	mitogen-activated protein kinase-binding protein 1-like
+LOC117977006	NA	large ribosomal subunit protein uL13
+LOC100979844	GPAA1	glycosylphosphatidylinositol anchor attachment 1 protein
+LOC117979235	NA	WW domain-binding protein 11-like
+LOC100989340	NA	E3 SUMO-protein ligase RanBP2
+LOC117979239	NA	anaphase-promoting complex subunit 1-like
+LOC129397126	NA	ranBP2-like and GRIP domain-containing protein 4
+LOC117978120	NA	interleukin-1 receptor-like 1
+LOC106634476	NA	non-histone chromosomal protein HMG-14
+LOC103785882	NA	ankyrin repeat domain-containing protein 36A-like
+LOC100968148	NA	ankyrin repeat domain-containing protein 36B
+LOC100989612	NA	ankyrin repeat domain-containing protein 36C-like
+LOC117978848	EIF3A	eukaryotic translation initiation factor 3 subunit A-like
+LOC129397144	NA	small ribosomal subunit protein eS4, X isoform-like
+LOC130541181	NA	histone-lysine N-methyltransferase 2C-like
+LOC129397201	NA	coiled-coil domain-containing protein 117-like
+LOC103785893	NA	anaphase-promoting complex subunit 1-like
+LOC100987219	PTMA	prothymosin alpha-like
+LOC103785954	NA	large ribosomal subunit protein uL10-like
+LOC134728629	NA	LWamide neuropeptides-like
+LOC134728682	NA	phosphoglucomutase-like protein 5
+LOC117978423	NA	spectrin beta chain, non-erythrocytic 5-like
+LOC117979213	NA	cytosolic phospholipase A2 beta-like
+LOC129397245	NA	voltage-dependent N-type calcium channel subunit alpha-1B-like
+LOC129397334	NA	putative inactive fatty acyl-CoA reductase 2-like protein
+LOC117979303	POTEG	POTE ankyrin domain family member G-like
+LOC117979357	SMPD4	sphingomyelin phosphodiesterase 4-like
+LOC100980778	NA	mitotic-spindle organizing protein 2B-like
+LOC129397330	NA	tubulin alpha-3 chain-like
+LOC100996057	POTEE	POTE ankyrin domain family member E
+LOC117979370	NA	putative inactive fatty acyl-CoA reductase 2-like protein
+LOC100973193	NA	tubulin alpha-3 chain
+LOC129392897	SMPD4	sphingomyelin phosphodiesterase 4-like
+LOC129397341	NA	mitotic-spindle organizing protein 2B-like
+LOC100991406	POTEG	POTE ankyrin domain family member G
+LOC117979307	NA	putative inactive fatty acyl-CoA reductase 2-like protein
+LOC129397284	NA	large ribosomal subunit protein eL19
+LOC100982736	NA	dual 3',5'-cyclic-AMP and -GMP phosphodiesterase 11A
+LOC117979316	NA	aldehyde oxidase 2-like
+LOC100985449	NA	protein preY, mitochondrial-like
+LOC106634527	NA	phosphatidylinositol N-acetylglucosaminyltransferase subunit Y-like
+LOC106634526	NA	large ribosomal subunit protein uL30-like 1
+LOC117979291	NA	small ribosomal subunit protein uS14-like
+LOC100981279	NA	large ribosomal subunit protein uL16-like
+LOC103786661	NA	tropomyosin alpha-3 chain-like
+LOC129397312	NA	basic proline-rich protein-like
+LOC117979480	NA	alkaline phosphatase, germ cell type
+LOC100975751	NA	UDP-glucuronosyltransferase 1A1
+LOC117979275	NA	UDP-glucuronosyltransferase 1A5-like
+LOC129397346	NA	UDP-glucuronosyltransferase 1A5-like
+LOC129397347	NA	UDP-glucuronosyltransferase 1A5-like
+LOC117979276	NA	UDP-glucuronosyltransferase 1A3-like
+LOC117979277	NA	UDP-glucuronosyltransferase 1A3-like
+LOC129397348	NA	UDP-glucuronosyltransferase 1A3-like
+LOC130541305	NA	thymosin beta-10-like
+LOC100968789	NA	olfactory receptor 6B3
+LOC117979308	NA	putative proline-rich protein 21
+LOC100967528	NA	aquaporin-12B
+LOC117979297	NA	aquaporin-12B
+LOC134728876	NA	putative ankyrin repeat domain-containing protein 20A12
+LOC129394638	NA	collagen alpha-1(I) chain-like
+LOC134728878	NA	ankyrin repeat domain-containing protein 30B-like
+LOC100973655	NA	protein fem-1 homolog A
+LOC100986553	NA	lysine-specific demethylase PHF2-like
+LOC134728827	PSPC1	paraspeckle component 1-like
+LOC117975669	NA	protein mono-ADP-ribosyltransferase PARP4-like
+LOC129392980	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC117974809	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC100969450	NA	phosphatidylinositol 3,4,5-trisphosphate 3-phosphatase TPTE2-like
+LOC129393728	NA	proline-rich protein 20E
+LOC129393712	NA	proline-rich protein 20E
+LOC129393718	NA	proline-rich protein 20E
+LOC129393730	NA	proline-rich protein 20E
+LOC129393722	NA	proline-rich protein 20E
+LOC129393721	NA	proline-rich protein 20E
+LOC134728866	NA	proline-rich protein 20E
+LOC129393716	NA	proline-rich protein 20E
+LOC129393725	NA	proline-rich protein 20E
+LOC129393729	NA	proline-rich protein 20E
+LOC129393731	NA	proline-rich protein 20E
+LOC129393734	NA	proline-rich protein 20E
+LOC129393748	NA	proline-rich protein 20E
+LOC134728867	NA	proline-rich protein 20E
+LOC134728868	NA	proline-rich protein 20E
+LOC129393732	NA	proline-rich protein 20E
+LOC129393717	NA	proline-rich protein 20E
+LOC129393727	NA	proline-rich protein 20E
+LOC134728871	NA	proline-rich protein 20E
+LOC134728808	NA	CKLF-like MARVEL transmembrane domain-containing protein 7
+LOC129398497	NA	tubulin beta chain-like
+LOC134729014	NA	protein VCF2-like
+LOC117978692	NA	protein FRG1B-like
+LOC100982707	NA	olfactory receptor 4K14
+LOC117975734	NA	olfactory receptor 11H6
+LOC117975735	NA	olfactory receptor 11H7
+LOC100993494	NA	olfactory receptor 10G2
+LOC117975776	NA	putative dehydrogenase/reductase SDR family member 4-like 1
+LOC134728944	NA	intraflagellar transport protein 20 homolog
+LOC100987236	NA	signal recognition particle subunit SRP54
+LOC129393796	NA	metallothionein-1X
+LOC117975808	NA	cytochrome c
+LOC134728894	NA	large ribosomal subunit protein eL21
+LOC103787041	NA	cytochrome c oxidase assembly protein COX16 homolog, mitochondrial
+LOC100980493	EIF4B	eukaryotic translation initiation factor 4B-like
+LOC129393895	NA	putative protein FAM157B
+LOC117978353	NA	tektin-1-like
+LOC129394002	NA	programmed cell death 6-interacting protein-like
+LOC117978228	NA	putative synaptogyrin-2 like protein
+LOC117976132	NA	putative golgin subfamily A member 8I
+LOC100976978	NA	E3 ubiquitin-protein ligase HERC2
+LOC100984613	NA	E3 ubiquitin-protein ligase HERC2
+LOC117980225	NA	histone H3.X
+LOC129393983	NA	TATA-box binding protein associated factor 11 like protein 2-like
+LOC130540840	NA	TATA-box binding protein associated factor 11 like protein 2-like
+LOC134729133	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134729142	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134729159	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134729160	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134729161	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134729134	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134729135	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134729136	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134729137	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134729138	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134729139	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134729140	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134729141	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134729143	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134729144	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134729146	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134729147	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134729148	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134729152	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134729153	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134729154	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134729155	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134729156	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134729157	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC134729158	NA	TATA-box-binding protein-associated factor 11-like protein 5
+LOC129394060	NA	golgin subfamily A member 6-like protein 26
+LOC117975990	NA	golgin subfamily A member 8B
+LOC134729049	SORD	sorbitol dehydrogenase-like
+LOC134728418	NA	ubiquitin-conjugating enzyme E2 K-like
+LOC100989423	NA	golgin subfamily A member 6C-like
+LOC129392921	NA	sodium/nucleoside cotransporter 1
+LOC129393975	NA	A disintegrin and metalloproteinase with thrombospondin motifs 7-like
+LOC129394029	NA	A disintegrin and metalloproteinase with thrombospondin motifs 7-like
+LOC134729181	NA	putative golgin subfamily A member 6-like protein 19
+LOC134729056	NA	A disintegrin and metalloproteinase with thrombospondin motifs 7-like
+LOC134729057	NA	A disintegrin and metalloproteinase with thrombospondin motifs 7-like
+LOC134729185	NA	putative golgin subfamily A member 6-like protein 19
+LOC134729058	NA	A disintegrin and metalloproteinase with thrombospondin motifs 7-like
+LOC134729059	NA	A disintegrin and metalloproteinase with thrombospondin motifs 7-like
+LOC134729060	NA	A disintegrin and metalloproteinase with thrombospondin motifs 7-like
+LOC134729061	NA	A disintegrin and metalloproteinase with thrombospondin motifs 7-like
+LOC100976854	NA	A disintegrin and metalloproteinase with thrombospondin motifs 7
+LOC100974651	NA	histone H2A.V-like
+LOC100992901	NA	olfactory receptor 4F6
+LOC129393057	NA	putative ankyrin repeat domain-containing protein 20A12
+LOC100971897	NA	ankyrin repeat domain-containing protein 30B
+LOC117977778	NA	nuclear pore complex-interacting protein family member B8-like
+LOC129394612	NA	nuclear pore complex-interacting protein family member B8-like
+LOC129394570	NA	elongin-A3-like
+LOC134729230	NA	elongin-A3-like
+LOC134729231	NA	elongin-A3-like
+LOC100985508	NA	probable ribosome biogenesis protein RLP24
+LOC100995709	NA	ATP synthase F(0) complex subunit B1, mitochondrial-like
+LOC106634040	NA	breast carcinoma-amplified sequence 4-like
+LOC129393701	NA	tubulin beta-8 chain-like
+LOC117978663	HBZ	hemoglobin subunit zeta
+LOC100983830	HBZ	hemoglobin subunit zeta
+LOC100984160	NA	hemoglobin subunit alpha
+LOC100987729	NA	large ribosomal subunit protein uL23-like
+LOC100978423	NA	tryptase beta-2
+LOC100983474	NA	tryptase delta
+LOC100994874	NA	putative serine protease 29
+LOC100990880	UQCC4	ubiquinol-cytochrome c reductase complex assembly factor 4
+LOC100975679	NA	acylpyruvase FAHD1, mitochondrial
+LOC100992459	NA	hydroxyacylglutathione hydrolase, mitochondrial
+LOC129394334	NA	nuclear pore complex-interacting protein family member A3-like
+LOC100971139	NA	putative 3-phosphoinositide-dependent protein kinase 2
+LOC129394331	NA	nuclear pore complex-interacting protein family member A7-like
+LOC117976336	NA	nuclear pore complex-interacting protein family member A5-like
+LOC100988258	NA	serine protease 30-like
+LOC100990946	NA	group 10 secretory phospholipase A2
+LOC117976199	NA	nuclear pore complex-interacting protein family member B8-like
+LOC117978333	NA	nuclear pore complex-interacting protein family member A7-like
+LOC134729405	NA	polycystin-1-like
+LOC117977976	NA	nuclear pore complex-interacting protein family member A9-like
+LOC134729406	NA	BOS complex subunit NOMO3-like
+LOC134729407	NA	BOS complex subunit NOMO3-like
+LOC134729408	NA	BOS complex subunit NOMO3-like
+LOC117978225	NA	ATP-binding cassette sub-family C member 6-like
+LOC134728405	NA	nuclear pore complex-interacting protein family member A9-like
+LOC134728422	NA	nuclear pore complex-interacting protein family member A9-like
+LOC117978226	NA	polycystin-1-like
+LOC117977845	NA	large ribosomal subunit protein eL15-like
+LOC117974254	NA	ATP-binding cassette sub-family C member 6
+LOC129394303	NA	BOS complex subunit NOMO3-like
+LOC134729411	NA	nuclear pore complex-interacting protein family member A9-like
+LOC129394309	NA	BOS complex subunit NOMO3-like
+LOC129394308	NA	polycystin-1-like
+LOC129394167	NA	nuclear pore complex-interacting protein family member A9-like
+LOC129394160	NA	BOS complex subunit NOMO1-like
+LOC129393053	NA	polycystin-1-like
+LOC129394304	NA	large ribosomal subunit protein eL15-like
+LOC129394132	NA	BOS complex subunit NOMO3-like
+LOC117978141	NA	ATP-binding cassette sub-family C member 6
+LOC134729409	NA	ATP-binding cassette sub-family C member 6-like
+LOC117976211	NA	nuclear pore complex-interacting protein family member A9-like
+LOC129394133	NA	nuclear pore complex-interacting protein family member A9-like
+LOC129394166	NA	BOS complex subunit NOMO3-like
+LOC117978216	NA	ATP-binding cassette sub-family C member 6-like
+LOC117976207	NA	BOS complex subunit NOMO1
+LOC117978049	NA	nuclear pore complex-interacting protein family member A1-like
+LOC129394140	NA	polycystin-1-like
+LOC129394149	NA	BOS complex subunit NOMO3-like
+LOC100994985	NA	acyl-coenzyme A synthetase ACSM2B, mitochondrial
+LOC100972336	ACSM1	acyl-CoA synthetase medium chain family member 1
+LOC117978926	NA	protein BANP
+LOC129394235	NA	nuclear pore complex-interacting protein family member B8-like
+LOC129394238	NA	serine/threonine-protein kinase SMG1-like
+LOC134728385	NA	RNA polymerase I-specific transcription initiation factor RRN3-like
+LOC129394237	NA	nuclear pore complex-interacting protein family member B8-like
+LOC117977931	NA	putative L-type amino acid transporter 1-like protein MLAS
+LOC129394244	NA	serine/threonine-protein kinase SMG1-like
+LOC129393041	NA	nuclear pore complex-interacting protein family member B9-like
+LOC117977933	OTOA	otoancorin-like
+LOC100985219	NA	nuclear pore complex-interacting protein family member B6-like
+LOC129394183	APOBR	apolipoprotein B receptor-like
+LOC129394185	NA	nuclear pore complex-interacting protein family member B9-like
+LOC117977932	NA	nuclear pore complex-interacting protein family member B8-like
+LOC117978496	NA	putative L-type amino acid transporter 1-like protein MLAS
+LOC129394095	OTOA	otoancorin-like
+LOC129394200	NA	nuclear pore complex-interacting protein family member B6-like
+LOC129394195	NA	serine/threonine-protein kinase SMG1-like
+LOC117978826	NA	serine/threonine-protein kinase SMG1-like
+LOC129394208	NA	nuclear pore complex-interacting protein family member B9-like
+LOC117978823	NA	battenin
+LOC117978822	EIF3C	eukaryotic translation initiation factor 3 subunit C-like
+LOC117978821	APOBR	apolipoprotein B receptor-like
+LOC117974341	NA	sulfotransferase 1A1-like
+LOC100969764	NA	sulfotransferase 1A1
+LOC129394093	OTOA	otoancorin-like
+LOC134728369	NA	putative L-type amino acid transporter 1-like protein MLAS
+LOC129394219	NA	serine/threonine-protein kinase SMG1-like
+LOC134729279	NA	serine/threonine-protein kinase SMG1-like
+LOC134728365	EIF3C	eukaryotic translation initiation factor 3 subunit C-like
+LOC134729280	NA	nuclear pore complex-interacting protein family member B8-like
+LOC129394217	NA	nuclear pore complex-interacting protein family member B15-like
+LOC117978770	NA	nuclear pore complex-interacting protein family member B15-like
+LOC117978355	NA	nuclear pore complex-interacting protein family member B15-like
+LOC129394206	NA	nuclear pore complex-interacting protein family member B15-like
+LOC129394204	NA	nuclear pore complex-interacting protein family member B8-like
+LOC129394188	EIF3C	eukaryotic translation initiation factor 3 subunit C
+LOC129394203	NA	nuclear pore complex-interacting protein family member B15-like
+LOC129394205	NA	nuclear pore complex-interacting protein family member B8
+LOC117978768	EIF3C	eukaryotic translation initiation factor 3 subunit C
+LOC129393030	NA	battenin-like
+LOC129394192	NA	serine/threonine-protein kinase SMG1-like
+LOC129394198	NA	nuclear pore complex-interacting protein family member B8-like
+LOC129394190	NA	serine/threonine-protein kinase SMG1-like
+LOC129394196	NA	nuclear pore complex-interacting protein family member B6-like
+LOC134729281	NA	serine/threonine-protein kinase SMG1-like
+LOC106634374	NA	putative L-type amino acid transporter 1-like protein MLAS
+LOC117976222	NA	carbonic anhydrase 5A, mitochondrial-like
+LOC117976221	NA	cytochrome c-like
+LOC117977907	OTOA	otoancorin-like
+LOC129394262	NA	nuclear pore complex-interacting protein family member B4-like
+LOC129394260	NA	nuclear pore complex-interacting protein family member B15-like
+LOC129394277	NA	polycystin-1-like
+LOC100980074	NA	ATP-binding cassette sub-family C member 6
+LOC129394275	NA	BOS complex subunit NOMO3-like
+LOC129394269	NA	nuclear pore complex-interacting protein family member B15-like
+LOC129394267	NA	polycystin-1-like
+LOC129394268	NA	nuclear pore complex-interacting protein family member B15-like
+LOC117978030	NA	BOS complex subunit NOMO3-like
+LOC134729300	NA	ATP-binding cassette sub-family C member 6-like
+LOC100971351	NA	putative HERC2-like protein 3
+LOC129394125	ZNF85	zinc finger protein 85-like
+LOC134729339	NA	peptide-N(4)-(N-acetyl-beta-glucosaminyl)asparagine amidase-like
+LOC117976226	NA	coiled-coil domain-containing protein 144A-like
+LOC100974343	NA	putative ankyrin repeat domain-containing protein 26-like protein
+LOC100984384	NA	liver carboxylesterase 1-like
+LOC100990164	NA	liver carboxylesterase 1-like
+LOC100993746	NA	liver carboxylesterase 1
+LOC117976239	NA	putative UPF0607 protein ENSP00000381418
+LOC117976244	NA	putative UPF0607 protein ENSP00000381418
+LOC134729352	NA	putative UPF0607 protein ENSP00000381418
+LOC134729360	NA	putative UPF0607 protein ENSP00000381418
+LOC100975226	NA	cocaine esterase-like
+LOC117976260	NA	cocaine esterase-like
+LOC103785397	NA	probable ATP-dependent RNA helicase DDX28
+LOC117976265	NA	probable ATP-dependent RNA helicase DDX28
+LOC100977441	CYB5B	cytochrome b5 type B
+LOC129394118	NA	nuclear pore complex-interacting protein family member B12-like
+LOC117976273	NA	putative pyridoxal-dependent decarboxylase domain-containing protein 2
+LOC129394119	NA	protein GVQW1-like
+LOC103783443	NA	pyruvate dehydrogenase phosphatase regulatory subunit, mitochondrial-like
+LOC100984626	NA	ATP-dependent RNA helicase DDX19B
+LOC117976165	CLEC18A	C-type lectin domain family 18 member A
+LOC100979112	NA	chymotrypsinogen B
+LOC134728409	NA	polycystin-1-like protein 2
+LOC134729315	NA	polycystin-1-like protein 2
+LOC134729374	NA	mucin-19-like
+LOC117976329	NA	mitogen-activated protein kinase-binding protein 1-like
+LOC117976332	NA	bifunctional peptidase and (3S)-lysyl hydroxylase JMJD7-like
+LOC117976173	NA	spectrin beta chain, non-erythrocytic 5-like
+LOC134729330	NA	olfactory receptor 4K3-like
+LOC134729329	NA	zinc-regulated GTPase metalloprotein activator 1A-like
+LOC129394506	NA	nascent polypeptide-associated complex subunit alpha, muscle-specific form-like
+LOC117976398	NA	diazepam-binding inhibitor-like 5
+LOC100992356	NA	olfactory receptor 1D2
+LOC100990999	NA	olfactory receptor 1A1
+LOC100991332	NA	olfactory receptor 1A2
+LOC100988646	NA	olfactory receptor 1E1
+LOC100968316	EIF4E	eukaryotic translation initiation factor 4E-like
+LOC100974049	NA	leucine-rich repeat-containing protein 37A-like
+LOC100985578	NA	C-Jun-amino-terminal kinase-interacting protein 1-like
+LOC117976690	NA	C-Jun-amino-terminal kinase-interacting protein 1-like
+LOC100974087	NA	membrane primary amine oxidase-like
+LOC100987889	NA	keratin-associated protein 2-1
+LOC100987545	NA	keratin-associated protein 2-1
+LOC117976485	NA	keratin-associated protein 2-1-like
+LOC100988223	NA	keratin-associated protein 2-1-like
+LOC100978791	NA	keratin, type I cytoskeletal 24
+LOC129394485	NA	large ribosomal subunit protein eL39-like
+LOC100980531	NA	eotaxin
+LOC103785028	NA	polycomb protein SUZ12
+LOC117976701	NA	large ribosomal subunit protein eL34-like
+LOC117974303	NA	tripartite motif-containing protein 16-like protein
+LOC117978079	NA	signal recognition particle subunit SRP68-like
+LOC129394385	NA	regulator of nonsense transcripts 3A-like
+LOC100987570	NA	coactosin-like protein
+LOC117976680	NA	coiled-coil domain-containing protein 144A-like
+LOC103786033	DYNLT1	dynein light chain Tctex-type 1-like
+LOC100988585	TMEM220	transmembrane protein 220
+LOC100971127	ALOX15B	arachidonate 15-lipoxygenase type B
+LOC134729523	NA	probable ATP-dependent RNA helicase DHX40
+LOC117976572	NA	AP-1 complex subunit sigma-2-like
+LOC100983900	CSH1	chorionic somatomammotropin hormone 1
+LOC100972442	NA	growth hormone variant
+LOC100981715	ICAM2	intercellular adhesion molecule 2
+LOC117976712	CSH1	chorionic somatomammotropin hormone 1
+LOC100967292	NA	pleckstrin homology domain-containing family M member 3-like
+LOC117978379	NA	eukaryotic initiation factor 4A-III
+LOC134729468	NA	eukaryotic initiation factor 4A-III-like
+LOC134729467	NA	eukaryotic initiation factor 4A-III-like
+LOC100988043	NA	eukaryotic initiation factor 4A-III
+LOC129394463	NA	eukaryotic initiation factor 4A-III-like
+LOC129394408	NA	eukaryotic initiation factor 4A-III-like
+LOC129394476	NA	eukaryotic initiation factor 4A-III-like
+LOC129394472	NA	nascent polypeptide-associated complex subunit alpha, muscle-specific form
+LOC134729474	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC129394731	NA	phosphoglucomutase-like protein 5
+LOC100979953	NA	small ribosomal subunit protein uS19
+LOC134729588	NA	histidine-rich glycoprotein-like
+LOC100967790	NA	putative adhesion G protein-coupled receptor E4P
+LOC129394734	NA	putative methyl-CpG-binding domain protein 3-like 3
+LOC129394736	NA	putative methyl-CpG-binding domain protein 3-like 3
+LOC134729659	NA	putative methyl-CpG-binding domain protein 3-like 3
+LOC134729660	NA	putative methyl-CpG-binding domain protein 3-like 3
+LOC134729661	NA	putative methyl-CpG-binding domain protein 3-like 3
+LOC129394665	NA	putative methyl-CpG-binding domain protein 3-like 3
+LOC117976976	NA	putative methyl-CpG-binding domain protein 3-like 3
+LOC134729664	NA	putative methyl-CpG-binding domain protein 3-like 3
+LOC134729617	NA	putative methyl-CpG-binding domain protein 3-like 3
+LOC129394688	NA	putative methyl-CpG-binding domain protein 3-like 3
+LOC129394689	NA	putative methyl-CpG-binding domain protein 3-like 3
+LOC129394676	NA	putative methyl-CpG-binding domain protein 3-like 3
+LOC134729619	NA	putative methyl-CpG-binding domain protein 3-like 3
+LOC129394791	NA	putative methyl-CpG-binding domain protein 3-like 3
+LOC100992942	NA	olfactory receptor 7D4
+LOC103784643	ZNF561	zinc finger protein 561
+LOC100972116	NA	large ribosomal subunit protein uL16-like
+LOC134729603	NA	basic proline-rich protein-like
+LOC100988443	ZNF823	zinc finger protein 823
+LOC117976962	ZNF440	zinc finger protein 440
+LOC100986646	ZNF69	zinc finger protein 69
+LOC103785280	ZNF878	zinc finger protein 878
+LOC100985079	ZNF44	zinc finger protein 44
+LOC100993826	ZNF799	zinc finger protein 799
+LOC134729652	NA	olfactory receptor 1I1
+LOC100970872	NA	large ribosomal subunit protein uL23-like
+LOC100969847	NA	cytochrome P450 4F2-like
+LOC100983421	ZNF90	zinc finger protein 90
+LOC100968226	ZNF486	zinc finger protein 486
+LOC100985752	ZNF430	zinc finger protein 430
+LOC100969273	ZNF85	zinc finger protein 85
+LOC100990474	NA	large ribosomal subunit protein eL34-like
+LOC103783563	ZNF492	zinc finger protein 492
+LOC103783584	ZNF726	zinc finger protein 726-like
+LOC134728410	NA	golgin subfamily A member 2-like
+LOC100985080	ZNF91	zinc finger protein 91
+LOC100995955	ZNF726	zinc finger protein 726
+LOC100989696	NA	cyclin-Y-like protein 2
+LOC100977684	NA	UMP-CMP kinase
+LOC100973061	NA	cytochrome c oxidase subunit 7A1, mitochondrial
+LOC117976984	ZNF568	zinc finger protein 568-like
+LOC100980944	NA	delta(3,5)-Delta(2,4)-dienoyl-CoA isomerase, mitochondrial
+LOC117976943	NA	delta(3,5)-Delta(2,4)-dienoyl-CoA isomerase, mitochondrial-like
+LOC100978560	ZNF780B	zinc finger protein 780B
+LOC100976543	CEACAM6	CEA cell adhesion molecule 6
+LOC103785006	NA	pregnancy-specific beta-1-glycoprotein 3
+LOC100989204	NA	CD177 antigen
+LOC117976966	NA	choriogonadotropin subunit beta variant 2
+LOC117976968	NA	choriogonadotropin subunit beta variant 2
+LOC117976971	NA	synaptotagmin-3-like
+LOC100991594	ZNF345	zinc finger protein 345
+LOC100985404	NA	sialic acid-binding Ig-like lectin 14
+LOC129392938	ZNF610	zinc finger protein 610
+LOC100971601	ZNF701	zinc finger protein 701
+LOC100970246	ZNF83	zinc finger protein 83
+LOC103783501	ZNF611	zinc finger protein 611
+LOC103786729	ZNF813	zinc finger protein 813
+LOC100975466	ZNF701	zinc finger protein 701
+LOC100977156	ZNF816	zinc finger protein 816
+LOC112437895	NA	large ribosomal subunit protein eL39-like
+LOC100974086	ZNF813	zinc finger protein 813
+LOC117976915	NA	putative zinc finger protein 137
+LOC103787114	ZNF761	zinc finger protein 761
+LOC100973790	ZNF525	zinc finger protein 525
+LOC117976912	NA	endogenous retrovirus group K member 19 Env polyprotein-like
+LOC100988885	NA	oligosaccharyltransferase complex subunit OSTC-like
+LOC100991256	NA	leukocyte immunoglobulin-like receptor subfamily B member 3
+LOC106634141	NA	leukocyte immunoglobulin-like receptor subfamily B member 3
+LOC100994016	NA	killer cell immunoglobulin-like receptor 3DL3
+LOC134729565	NA	killer cell immunoglobulin-like receptor 2DL1
+LOC134729566	NA	killer cell immunoglobulin-like receptor 2DS1
+LOC134729567	NA	killer cell immunoglobulin-like receptor 2DL5A
+LOC134728424	NA	killer cell immunoglobulin-like receptor 3DL2
+LOC134729568	NA	putative killer cell immunoglobulin-like receptor like protein KIR3DP1
+LOC134729569	NA	killer cell immunoglobulin-like receptor 3DL1
+LOC134729574	NA	killer cell immunoglobulin-like receptor 2DL4
+LOC117977013	NA	killer cell immunoglobulin-like receptor 2DS1
+LOC134729571	NA	killer cell immunoglobulin-like receptor 2DL5A
+LOC134729572	NA	killer cell immunoglobulin-like receptor 2DL1
+LOC100986982	NA	killer cell immunoglobulin-like receptor 3DL2
+LOC129394797	NA	ret finger protein-like 4A
+LOC129394823	NA	ret finger protein-like 4A
+LOC129394798	NA	ret finger protein-like 4A
+LOC129394802	NA	ret finger protein-like 4A
+LOC134729581	NA	ret finger protein-like 4A
+LOC100976621	NA	ret finger protein-like 4A
+LOC129394799	NA	ret finger protein-like 4A
+LOC134729654	NA	ret finger protein-like 4A
+LOC129394800	NA	ret finger protein-like 4A
+LOC129394806	NA	ret finger protein-like 4A
+LOC129394820	NA	ret finger protein-like 4A
+LOC129394821	NA	ret finger protein-like 4A
+LOC100989536	NA	ret finger protein-like 4A
+LOC129394808	NA	ret finger protein-like 4A
+LOC129394818	NA	ret finger protein-like 4A
+LOC129394819	NA	ret finger protein-like 4A
+LOC117977057	ZNF773	zinc finger protein 773
+LOC117976979	NA	chromosome alignment-maintaining phosphoprotein 1-like
+LOC134729688	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC129394899	NA	phosphoglucomutase-like protein 5
+LOC100977196	NA	large ribosomal subunit protein uL11-like
+LOC117977286	NA	putative POM121-like protein 1
+LOC103784135	NA	protein FAM182B-like
+LOC117977171	NA	basic salivary proline-rich protein 4-like
+LOC117977147	NA	cyclin-dependent kinase 2-associated protein 2-like
+LOC117977268	NA	protein FRG1B-like
+LOC103785569	NA	large ribosomal subunit protein uL18
+LOC134729675	NA	protein GVQW1-like
+LOC100983071	UQCC1	ubiquinol-cytochrome c reductase complex assembly factor 1
+LOC106634187	NA	large ribosomal subunit protein uL11-like
+LOC117977191	NA	elongation factor 1-alpha 1-like
+LOC129394985	NA	ankyrin repeat domain-containing protein 30B-like
+LOC129394987	NA	protein fem-1 homolog A-like
+LOC103786192	NA	transcription factor BTF3 homolog 4-like
+LOC103785200	NA	keratin-associated protein 21-2
+LOC117977371	NA	putative per-hexamer repeat protein 5
+LOC130541111	NA	Down syndrome critical region protein 9
+LOC129394956	NA	Down syndrome critical region protein 4
+LOC117977362	NA	keratin-associated protein 10-1
+LOC134730134	NA	protein VCF2-like
+LOC117977803	NA	histidine-rich glycoprotein-like
+LOC100991444	NA	chromatin remodeling regulator CECR2
+LOC112438147	NA	protein FAM246C
+LOC117978243	NA	breakpoint cluster region protein-like
+LOC103782809	PI4KA	phosphatidylinositol 4-kinase alpha-like
+LOC117977433	NA	RIMS-binding protein 3A
+LOC100986365	PRAMEF20	PRAME family member 20
+LOC117978709	NA	ral-GDS-related protein
+LOC129395015	NA	glutathione hydrolase 5 proenzyme-like
+LOC117978545	NA	sushi domain-containing protein 2-like
+LOC134730154	NA	sushi domain-containing protein 2-like
+LOC134730081	NA	glutathione hydrolase 5 proenzyme-like
+LOC129395163	NA	immunoglobulin lambda-1 light chain-like
+LOC100976375	NA	melanoma antigen preferentially expressed in tumors
+LOC117978696	NA	putative POM121-like protein 1
+LOC117978695	NA	putative POM121-like protein 1
+LOC117978698	NA	glutathione hydrolase light chain 1-like
+LOC117978697	NA	glutathione hydrolase light chain 1-like
+LOC134730083	NA	immunoglobulin lambda-1 light chain-like
+LOC100977273	NA	immunoglobulin lambda-1 light chain
+LOC100994222	NA	glutathione S-transferase theta-3-like
+LOC134730086	NA	D-dopachrome decarboxylase-like
+LOC129395036	NA	glutathione S-transferase theta-3-like
+LOC117977479	NA	small ribosomal subunit protein eS10-like
+LOC134728382	NA	glutathione hydrolase light chain 1-like
+LOC129395001	NA	putative POM121-like protein 1
+LOC117977384	NA	glutathione hydrolase light chain 1-like
+LOC134730088	NA	putative POM121-like protein 1
+LOC117977468	NA	putative POM121-like protein 1
+LOC100982189	NA	aspartate-rich protein 1-like
+LOC134730141	NA	proline-rich protein 36-like
+LOC100976751	NA	tyrosine-protein phosphatase non-receptor type substrate 1-like
+LOC100976417	NA	putative SEC14-like protein 6
+LOC112438160	NA	small ribosomal subunit protein eS17-like
+LOC117977447	NA	putative tyrosine-protein phosphatase TPTE
+LOC100988273	NA	cytochrome P450 2D6-like
+LOC100969627	NA	cytochrome P450 2D6
+LOC100969966	NA	proline-rich protein 2-like
+LOC100976361	NA	serine hydrolase-like protein
+LOC100985019	NA	ribosomal RNA-processing protein 7 homolog A
+LOC103785089	NA	cytochrome c oxidase assembly factor 4 homolog, mitochondrial-like
+LOC129394905	NA	MAM and LDL-receptor class A domain-containing protein 1-like
+LOC100969907	NA	PI-PLC X domain-containing protein 1
+LOC117977740	NA	serine/threonine-protein phosphatase 2A regulatory subunit B'' subunit beta
+LOC117977949	NA	short stature homeobox protein
+LOC100981146	CRLF2	cytokine receptor like factor 2
+LOC129395249	NA	granulocyte-macrophage colony-stimulating factor receptor subunit alpha
+LOC129395392	NA	interleukin-3 receptor subunit alpha
+LOC129395393	NA	histidine-rich glycoprotein-like
+LOC117978100	NA	sperm protein associated with the nucleus on the X chromosome C-like
+LOC129395342	NA	sperm protein associated with the nucleus on the X chromosome C-like
+LOC129395323	NA	sperm protein associated with the nucleus on the X chromosome C-like
+LOC129395244	NA	sperm protein associated with the nucleus on the X chromosome C-like
+LOC129395366	NA	sperm protein associated with the nucleus on the X chromosome C-like
+LOC129395364	NA	sperm protein associated with the nucleus on the X chromosome C-like
+LOC129395350	NA	sperm protein associated with the nucleus on the X chromosome C-like
+LOC129395371	NA	sperm protein associated with the nucleus on the X chromosome C-like
+LOC129395359	NA	sperm protein associated with the nucleus on the X chromosome C-like
+LOC129395370	NA	sperm protein associated with the nucleus on the X chromosome C-like
+LOC129395373	NA	sperm protein associated with the nucleus on the X chromosome C-like
+LOC129395358	NA	sperm protein associated with the nucleus on the X chromosome C-like
+LOC129395331	NA	sperm protein associated with the nucleus on the X chromosome C-like
+LOC129395305	NA	sperm protein associated with the nucleus on the X chromosome C-like
+LOC129395268	NA	sperm protein associated with the nucleus on the X chromosome C-like
+LOC129395336	NA	sperm protein associated with the nucleus on the X chromosome C-like
+LOC129395266	NA	sperm protein associated with the nucleus on the X chromosome C-like
+LOC129395349	NA	sperm protein associated with the nucleus on the X chromosome C-like
+LOC129395326	NA	sperm protein associated with the nucleus on the X chromosome C-like
+LOC129395360	NA	sperm protein associated with the nucleus on the X chromosome C-like
+LOC129395329	NA	sperm protein associated with the nucleus on the X chromosome C-like
+LOC117977892	NA	sperm protein associated with the nucleus on the X chromosome C-like
+LOC117978593	VCX	variable charge X-linked-like
+LOC117978598	VCX	variable charge X-linked-like
+LOC117978111	VCX	variable charge X-linked-like
+LOC117978241	VCX	variable charge X-linked-like
+LOC117978277	VCX	variable charge X-linked-like
+LOC117977723	NA	small ribosomal subunit protein uS5
+LOC129395295	NA	hypermethylated in cancer 2 protein
+LOC117977613	NA	cyclin-dependent kinases regulatory subunit 1-like
+LOC100974881	NA	inosine-5'-monophosphate dehydrogenase 1-like
+LOC117974339	NA	protein SSX4
+LOC129395422	GAGE2D	G antigen 2D
+LOC129395423	GAGE10	G antigen 10-like
+LOC129395245	GAGE2D	G antigen 2D
+LOC129395252	GAGE2D	G antigen 2D
+LOC129395254	GAGE2D	G antigen 2D
+LOC129395256	GAGE2D	G antigen 2D
+LOC129395261	GAGE2D	G antigen 2D
+LOC129395424	GAGE2D	G antigen 2D
+LOC129395260	GAGE2D	G antigen 2D
+LOC129395267	GAGE2D	G antigen 2D
+LOC129395317	GAGE2D	G antigen 2D
+LOC129395299	GAGE4	G antigen 4
+LOC129395302	GAGE4	G antigen 4
+LOC129395301	GAGE4	G antigen 4
+LOC129395313	GAGE4	G antigen 4
+LOC129395314	GAGE4	G antigen 4
+LOC129395320	GAGE4	G antigen 4
+LOC100978834	NA	histone H3.3A-like
+LOC100980311	NA	X antigen family member 1
+LOC100981334	NA	X antigen family member 1
+LOC129393040	NA	protein SSX2
+LOC129395309	NA	putative G antigen family E member 3
+LOC117977552	NA	putative G antigen family E member 3
+LOC129395324	NA	putative G antigen family E member 3
+LOC117977738	NA	cytochrome c oxidase subunit NDUFA4-like
+LOC117977537	NA	doublesex- and mab-3-related transcription factor C1
+LOC100975822	NA	protein enabled homolog
+LOC117977691	NA	polyadenylate-binding protein 1-like 2
+LOC129395400	NA	merozoite surface protein 2-like
+LOC100971757	NA	T-complex protein 11-like X-linked protein 2
+LOC100987323	NA	serine/threonine-protein phosphatase 2A catalytic subunit alpha isoform
+LOC100970694	RHOXF2	rhox homeobox family member 2-like
+LOC117977727	RHOXF2	rhox homeobox family member 2
+LOC117977849	RHOXF2	rhox homeobox family member 2-like
+LOC112438439	NA	cancer/testis antigen 47A
+LOC117977602	NA	cancer/testis antigen 47A-like
+LOC100974571	CT55	cancer/testis antigen 55-like
+LOC100974911	CT55	cancer/testis antigen 55
+LOC129395390	NA	melanoma-associated antigen 8-like
+LOC117978218	NA	melanoma-associated antigen 9
+LOC129395328	NA	melanoma-associated antigen 8
+LOC129395206	NA	melanoma-associated antigen 9
+LOC129395207	NA	polysialoglycoprotein-like
+LOC117978564	NA	melanoma-associated antigen 8
+LOC117977714	NA	chondrosarcoma-associated gene 2/3 protein-like
+LOC106634358	NA	paraneoplastic antigen-like protein 6B
+LOC100971706	NA	putative lung carcinoma-associated protein 10
+LOC117977940	NA	medium-wave-sensitive opsin 1
+LOC129395218	NA	testis-specific protein TEX28-like
+LOC106634364	NA	tubulin beta-8 chain-like
+LOC117977588	NA	tubulin beta-8 chain-like
+LOC129395355	NA	histone-lysine N-methyltransferase PRDM7
+LOC117980851	NA	fibrous sheath CABYR-binding protein-like
+LOC117976172	NA	spectrin beta chain, non-erythrocytic 5-like
+LOC117977588_1	NA	tubulin beta-8 chain-like
+LOC129395355_1	NA	histone-lysine N-methyltransferase PRDM7
+LOC129395733	NA	RNA-binding motif protein, Y chromosome, family 1 member F/J
+LOC129395550	ARSL	arylsulfatase L-like
+LOC129395392_1	NA	interleukin-3 receptor subunit alpha
+LOC129395249_1	NA	granulocyte-macrophage colony-stimulating factor receptor subunit alpha
+LOC100981146_1	CRLF2	cytokine receptor like factor 2
+LOC117977949_1	NA	short stature homeobox protein
+LOC117977740_1	NA	serine/threonine-protein phosphatase 2A regulatory subunit B'' subunit beta
+LOC100969322_1	NA	putative GTP-binding protein 6
+LOC100969907_1	NA	PI-PLC X domain-containing protein 1

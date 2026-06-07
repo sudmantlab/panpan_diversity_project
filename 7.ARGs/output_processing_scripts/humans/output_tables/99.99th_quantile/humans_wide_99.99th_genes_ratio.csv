@@ -1,0 +1,176 @@
+genes,descriptions,num_populations,is_shared,EUR,SAS,EAS,AMR,AFR
+IGK,immunoglobulin kappa locus,2,Yes,74.01711388,NA,4.564281836,NA,NA
+ZNF407,zinc finger protein 407,2,Yes,NA,22.86784253,4.216808121,NA,NA
+BAGE2,,2,Yes,21.4287563,13.62318353,NA,NA,NA
+CNTNAP3,contactin associated protein family member 3,2,Yes,19.65978835,NA,NA,NA,1.772062151
+PTPRD,protein tyrosine phosphatase receptor type D,2,Yes,14.56737931,19.52470142,NA,NA,NA
+DPP6,dipeptidyl peptidase like 6,2,Yes,NA,17.89888576,5.111247682,NA,NA
+OFCC1,,2,Yes,NA,15.20129949,NA,NA,1.980976764
+GPAT2,glycerol-3-phosphate acyltransferase 2%2C mitochondrial,2,Yes,14.74644647,NA,NA,NA,1.775233128
+IGH,immunoglobulin heavy locus,2,Yes,NA,NA,5.34079982,NA,2.229763989
+PACSIN1,protein kinase C and casein kinase substrate in neurons 1,2,Yes,NA,NA,NA,5.017425109,1.865890959
+PTPRK,protein tyrosine phosphatase receptor type K,2,Yes,NA,NA,NA,3.826516347,1.812553774
+SINHCAFP2,,1,No,NA,47.14244874,NA,NA,NA
+LOC124908434,ankyrin repeat domain-containing protein 36B-like,1,No,NA,38.32543406,NA,NA,NA
+HLA-DRB3,major histocompatibility complex%2C class II%2C DR beta 3,1,No,29.61842012,NA,NA,NA,NA
+LINC01140,long intergenic non-protein coding RNA 1140,1,No,24.47718345,NA,NA,NA,NA
+GUSBP15,,1,No,24.37083601,NA,NA,NA,NA
+MAMDC2,MAM domain containing 2,1,No,NA,23.307768,NA,NA,NA
+ZNF385B,zinc finger protein 385B,1,No,NA,22.21928233,NA,NA,NA
+MRAP2,melanocortin 2 receptor accessory protein 2,1,No,22.18346736,NA,NA,NA,NA
+LOC105373262,uncharacterized LOC105373262,1,No,NA,21.63868744,NA,NA,NA
+SNX9,sorting nexin 9,1,No,20.66691713,NA,NA,NA,NA
+LMCD1,LIM and cysteine rich domains 1,1,No,19.77110872,NA,NA,NA,NA
+HLA-DQB1,major histocompatibility complex%2C class II%2C DQ beta 1,1,No,18.45760722,NA,NA,NA,NA
+TNR,tenascin R,1,No,NA,18.23901587,NA,NA,NA
+LOC105369302,uncharacterized LOC105369302,1,No,NA,18.219598,NA,NA,NA
+ADH7,alcohol dehydrogenase 7 (class IV)%2C mu or sigma polypeptide,1,No,NA,17.92976244,NA,NA,NA
+APOBEC2,apolipoprotein B mRNA editing enzyme catalytic subunit 2,1,No,NA,17.80484044,NA,NA,NA
+RPL34-DT,RPL34 divergent transcript,1,No,17.37578728,NA,NA,NA,NA
+CD5,CD5 molecule,1,No,NA,17.37421435,NA,NA,NA
+STARD13,StAR related lipid transfer domain containing 13,1,No,NA,17.06856921,NA,NA,NA
+OARD1,O-acyl-ADP-ribose deacylase 1,1,No,NA,17.02127117,NA,NA,NA
+RAB27B,RAB27B%2C member RAS oncogene family,1,No,NA,16.70482884,NA,NA,NA
+CDH9,cadherin 9,1,No,16.64948831,NA,NA,NA,NA
+POLR2A,RNA polymerase II subunit A,1,No,NA,16.61498981,NA,NA,NA
+MAPK10,mitogen-activated protein kinase 10,1,No,16.26156089,NA,NA,NA,NA
+RAD51B,RAD51 paralog B,1,No,NA,16.24449516,NA,NA,NA
+PARD3B,par-3 family cell polarity regulator beta,1,No,NA,16.23994474,NA,NA,NA
+NFASC,neurofascin,1,No,NA,16.23812372,NA,NA,NA
+LOC105374618,uncharacterized LOC105374618,1,No,16.1215897,NA,NA,NA,NA
+LOC105372926,uncharacterized LOC105372926,1,No,NA,16.07601879,NA,NA,NA
+LBH,LBH regulator of WNT signaling pathway,1,No,NA,16.03245313,NA,NA,NA
+NRXN3,neurexin 3,1,No,16.00787659,NA,NA,NA,NA
+VPS37C,VPS37C subunit of ESCRT-I,1,No,NA,15.92769946,NA,NA,NA
+HLA-DRB1,major histocompatibility complex%2C class II%2C DR beta 1,1,No,15.85289188,NA,NA,NA,NA
+MCC,MCC regulator of WNT signaling pathway,1,No,15.50874065,NA,NA,NA,NA
+ALDH4A1,aldehyde dehydrogenase 4 family member A1,1,No,15.31704,NA,NA,NA,NA
+CCDC178,coiled-coil domain containing 178,1,No,NA,15.08198008,NA,NA,NA
+ATP10B,ATPase phospholipid transporting 10B (putative),1,No,NA,14.96831216,NA,NA,NA
+LOC107984974,,1,No,14.9084582,NA,NA,NA,NA
+LOC107986886,uncharacterized LOC107986886,1,No,14.88350532,NA,NA,NA,NA
+LOC646030,,1,No,14.87462315,NA,NA,NA,NA
+RASA3,RAS p21 protein activator 3,1,No,14.66247236,NA,NA,NA,NA
+IFT52,intraflagellar transport 52,1,No,14.64093753,NA,NA,NA,NA
+LOC124902260,uncharacterized LOC124902260,1,No,NA,14.52636731,NA,NA,NA
+LINC00922,long intergenic non-protein coding RNA 922,1,No,14.34461289,NA,NA,NA,NA
+IQCJ-SCHIP1,IQCJ-SCHIP1 readthrough,1,No,NA,14.27065157,NA,NA,NA
+LOC107986167,uncharacterized LOC107986167,1,No,14.25390585,NA,NA,NA,NA
+ZFP62,ZFP62 zinc finger protein,1,No,NA,14.19746707,NA,NA,NA
+PATJ,PATJ crumbs cell polarity complex component,1,No,NA,NA,14.10291054,NA,NA
+SCN2B,sodium voltage-gated channel beta subunit 2,1,No,NA,14.05976046,NA,NA,NA
+MIR99AHG,mir-99a-let-7c cluster host gene,1,No,NA,14.03442531,NA,NA,NA
+ABCC11,ATP binding cassette subfamily C member 11,1,No,13.9589205,NA,NA,NA,NA
+SV2C,synaptic vesicle glycoprotein 2C,1,No,13.51980059,NA,NA,NA,NA
+LOC107985511,uncharacterized LOC107985511,1,No,NA,13.345125,NA,NA,NA
+SOX2-OT,SOX2 overlapping transcript,1,No,NA,13.30462567,NA,NA,NA
+IPO7,importin 7,1,No,13.20926631,NA,NA,NA,NA
+PKDREJ,polycystin family receptor for egg jelly,1,No,NA,13.08511883,NA,NA,NA
+ZBTB4,zinc finger and BTB domain containing 4,1,No,NA,13.04530342,NA,NA,NA
+WSCD2,WSC domain containing 2,1,No,12.93920756,NA,NA,NA,NA
+COL4A4,collagen type IV alpha 4 chain,1,No,12.90954745,NA,NA,NA,NA
+TRMU,tRNA mitochondrial 2-thiouridylase,1,No,NA,12.85302546,NA,NA,NA
+GLI2,GLI family zinc finger 2,1,No,NA,12.70727788,NA,NA,NA
+SMC5-DT,SMC5 divergent transcript,1,No,NA,12.6218017,NA,NA,NA
+SLC66A2,solute carrier family 66 member 2,1,No,NA,12.58893056,NA,NA,NA
+CLEC12A,C-type lectin domain family 12 member A,1,No,NA,NA,9.45783355,NA,NA
+CUX2,cut like homeobox 2,1,No,NA,NA,NA,8.806945273,NA
+RCAN2,regulator of calcineurin 2,1,No,NA,NA,8.372978163,NA,NA
+CNTN3,contactin 3,1,No,NA,NA,8.107588143,NA,NA
+SLC44A2,solute carrier family 44 member 2 (CTL2 blood group),1,No,NA,NA,8.084383573,NA,NA
+MAP3K20,mitogen-activated protein kinase kinase kinase 20,1,No,NA,NA,7.596488982,NA,NA
+RYR1,ryanodine receptor 1,1,No,NA,NA,7.290362036,NA,NA
+RGS20,regulator of G protein signaling 20,1,No,NA,NA,7.129564592,NA,NA
+MTND6P19,,1,No,NA,NA,NA,7.014779024,NA
+HMCN1,hemicentin 1,1,No,NA,NA,6.882836656,NA,NA
+WNT8B,Wnt family member 8B,1,No,NA,NA,NA,6.712853115,NA
+MLXIPL,MLX interacting protein like,1,No,NA,NA,6.456872239,NA,NA
+ZNF16,zinc finger protein 16,1,No,NA,NA,6.271424909,NA,NA
+LOC113002582,uncharacterized LOC113002582,1,No,NA,NA,6.158936898,NA,NA
+RNU6-533P,,1,No,NA,NA,NA,6.120195676,NA
+PRDM1,PR/SET domain 1,1,No,NA,NA,5.873587329,NA,NA
+CCDC102B,coiled-coil domain containing 102B,1,No,NA,NA,NA,5.792212526,NA
+FAM230E,family with sequence similarity 230 member E,1,No,NA,NA,NA,NA,5.717634115
+CCT6P5,,1,No,NA,NA,5.704025755,NA,NA
+PARN,poly(A)-specific ribonuclease,1,No,NA,NA,5.680331097,NA,NA
+MOSMO,modulator of smoothened,1,No,NA,NA,5.603708579,NA,NA
+FKBP6,FKBP prolyl isomerase family member 6 (inactive),1,No,NA,NA,5.464583107,NA,NA
+LOC105374497,uncharacterized LOC105374497,1,No,NA,NA,5.378185551,NA,NA
+ST18,ST18 C2H2C-type zinc finger transcription factor,1,No,NA,NA,NA,5.158692671,NA
+ILF3,interleukin enhancer binding factor 3,1,No,NA,NA,5.152151799,NA,NA
+TRMT11,tRNA methyltransferase 11 homolog,1,No,NA,NA,NA,5.13957568,NA
+P4HB,prolyl 4-hydroxylase subunit beta,1,No,NA,NA,5.004124078,NA,NA
+MAP3K5,mitogen-activated protein kinase kinase kinase 5,1,No,NA,NA,4.837698899,NA,NA
+HIF1AN,hypoxia inducible factor 1 subunit alpha inhibitor,1,No,NA,NA,NA,4.834306641,NA
+BAZ1B,bromodomain adjacent to zinc finger domain 1B,1,No,NA,NA,4.781715404,NA,NA
+LOC105376041,uncharacterized LOC105376041,1,No,NA,NA,NA,4.736394836,NA
+ABCB1,ATP binding cassette subfamily B member 1,1,No,NA,NA,4.608883752,NA,NA
+OR52N1,olfactory receptor family 52 subfamily N member 1,1,No,NA,NA,NA,4.58614214,NA
+LRMDA,leucine rich melanocyte differentiation associated,1,No,NA,NA,4.549099524,NA,NA
+LOC105369981,uncharacterized LOC105369981,1,No,NA,NA,NA,4.523193995,NA
+ESRRG,estrogen related receptor gamma,1,No,NA,NA,4.452060462,NA,NA
+LGR6,leucine rich repeat containing G protein-coupled receptor 6,1,No,NA,NA,4.451974333,NA,NA
+TSHR,thyroid stimulating hormone receptor,1,No,NA,NA,4.45081104,NA,NA
+CNTNAP2,contactin associated protein 2,1,No,NA,NA,4.4461789,NA,NA
+DYNC2H1,dynein cytoplasmic 2 heavy chain 1,1,No,NA,NA,4.415700504,NA,NA
+ZNF892,zinc finger protein 892,1,No,NA,NA,4.395808681,NA,NA
+KLHDC2,kelch domain containing 2,1,No,NA,NA,4.393082223,NA,NA
+MTG2,mitochondrial ribosome associated GTPase 2,1,No,NA,NA,4.371359832,NA,NA
+DENND11,DENN domain containing 11,1,No,NA,NA,4.323968953,NA,NA
+THOC5,THO complex subunit 5,1,No,NA,NA,4.308650187,NA,NA
+SLC26A7,solute carrier family 26 member 7,1,No,NA,NA,NA,4.307558976,NA
+GRM8,glutamate metabotropic receptor 8,1,No,NA,NA,4.289660247,NA,NA
+LOC105379371,uncharacterized LOC105379371,1,No,NA,NA,4.227159818,NA,NA
+RASAL2,RAS protein activator like 2,1,No,NA,NA,4.20790488,NA,NA
+LINC01098,long intergenic non-protein coding RNA 1098,1,No,NA,NA,NA,4.114525762,NA
+NDUFB8,NADH:ubiquinone oxidoreductase subunit B8,1,No,NA,NA,NA,4.054829592,NA
+LOC101927418,uncharacterized LOC101927418,1,No,NA,NA,NA,4.014037402,NA
+SEC31B,SEC31 homolog B%2C COPII coat complex component,1,No,NA,NA,NA,3.994802889,NA
+LOC105373724,uncharacterized LOC105373724,1,No,NA,NA,NA,3.948488279,NA
+CCSER1,coiled-coil serine rich protein 1,1,No,NA,NA,NA,3.864417688,NA
+GPC6,glypican 6,1,No,NA,NA,NA,3.849273029,NA
+LOC124902038,uncharacterized LOC124902038,1,No,NA,NA,NA,3.847497268,NA
+SPDEF,SAM pointed domain containing ETS transcription factor,1,No,NA,NA,NA,3.797464604,NA
+MFNG,MFNG O-fucosylpeptide 3-beta-N-acetylglucosaminyltransferase,1,No,NA,NA,NA,NA,2.859194486
+CERS6,ceramide synthase 6,1,No,NA,NA,NA,NA,2.697991713
+ANO9,anoctamin 9,1,No,NA,NA,NA,NA,2.438081143
+KANSL1,KAT8 regulatory NSL complex subunit 1,1,No,NA,NA,NA,NA,2.430779305
+LGR5,leucine rich repeat containing G protein-coupled receptor 5,1,No,NA,NA,NA,NA,2.38046259
+LINC02197,long intergenic non-protein coding RNA 2197,1,No,NA,NA,NA,NA,2.264281895
+FAM85B,family with sequence similarity 85 member B,1,No,NA,NA,NA,NA,2.119021162
+FBXL4,F-box and leucine rich repeat protein 4,1,No,NA,NA,NA,NA,2.02052371
+RBMS3,RNA binding motif single stranded interacting protein 3,1,No,NA,NA,NA,NA,2.013052175
+MCTP1,multiple C2 and transmembrane domain containing 1,1,No,NA,NA,NA,NA,1.987128984
+LAMA5,laminin subunit alpha 5,1,No,NA,NA,NA,NA,1.952014766
+OTUD7B,OTU deubiquitinase 7B,1,No,NA,NA,NA,NA,1.908250292
+LOC124907536,protein FAM104B-like,1,No,NA,NA,NA,NA,1.890010199
+PARVA,parvin alpha,1,No,NA,NA,NA,NA,1.856510294
+CDYL,chromodomain Y like,1,No,NA,NA,NA,NA,1.847913132
+ZNF804B,zinc finger protein 804B,1,No,NA,NA,NA,NA,1.843488413
+TDRD1,tudor domain containing 1,1,No,NA,NA,NA,NA,1.82896112
+LOC124902170,uncharacterized LOC124902170,1,No,NA,NA,NA,NA,1.822290254
+LOC101929457,uncharacterized LOC101929457,1,No,NA,NA,NA,NA,1.81739386
+OSCP1,organic solute carrier partner 1,1,No,NA,NA,NA,NA,1.816702794
+OLFML1,olfactomedin like 1,1,No,NA,NA,NA,NA,1.810290211
+NBPF25P,,1,No,NA,NA,NA,NA,1.809017465
+LOC105375195,uncharacterized LOC105375195,1,No,NA,NA,NA,NA,1.808153963
+LOC124905656,,1,No,NA,NA,NA,NA,1.798691648
+IFT88,intraflagellar transport 88,1,No,NA,NA,NA,NA,1.792741291
+LOC101928371,uncharacterized LOC101928371,1,No,NA,NA,NA,NA,1.790083559
+PPM1H,protein phosphatase%2C Mg2+/Mn2+ dependent 1H,1,No,NA,NA,NA,NA,1.7732169
+HMG20A,high mobility group 20A,1,No,NA,NA,NA,NA,1.768512714
+LOC105369881,uncharacterized LOC105369881,1,No,NA,NA,NA,NA,1.764896617
+ABCC6P1,,1,No,NA,NA,NA,NA,1.74432467
+EFCAB6,EF-hand calcium binding domain 6,1,No,NA,NA,NA,NA,1.742172881
+LOC105379535,uncharacterized LOC105379535,1,No,NA,NA,NA,NA,1.736220009
+LOC105376755,uncharacterized LOC105376755,1,No,NA,NA,NA,NA,1.731522794
+SLC16A7,solute carrier family 16 member 7,1,No,NA,NA,NA,NA,1.712163259
+MITF,melanocyte inducing transcription factor,1,No,NA,NA,NA,NA,1.702669986
+KLF12,KLF transcription factor 12,1,No,NA,NA,NA,NA,1.701884181
+FBLN7,fibulin 7,1,No,NA,NA,NA,NA,1.70027751
+KIF5C-AS1,KIF5C antisense RNA 1,1,No,NA,NA,NA,NA,1.69820136
+STK17A,serine/threonine kinase 17a,1,No,NA,NA,NA,NA,1.696386463
+KATNIP,katanin interacting protein,1,No,NA,NA,NA,NA,1.69388862
+BAP1,BRCA1 associated deubiquitinase 1,1,No,NA,NA,NA,NA,1.688147419
+MGAT1,alpha-1%2C3-mannosyl-glycoprotein 2-beta-N-acetylglucosaminyltransferase,1,No,NA,NA,NA,NA,1.687802528
+PHF7,PHD finger protein 7,1,No,NA,NA,NA,NA,1.686774392

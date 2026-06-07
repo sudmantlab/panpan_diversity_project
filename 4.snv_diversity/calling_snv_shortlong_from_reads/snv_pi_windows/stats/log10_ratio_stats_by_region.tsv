@@ -1,0 +1,16 @@
+pop	win_region	n	median_log10	q25_log10	q75_log10	q95_log10	pct_above_0	pct_above_1
+Central	Centromere	210	0.6	-0.036	0.963	1.462	72.86	21.9
+Central	Telomere	5	0.465	0.129	1.135	3.466	80	40
+Central	CenSat	10338	-0.032	-0.202	0.16	1.094	43.68	6.57
+Central	SegDup	12011	-0.067	-0.207	0.041	0.473	33.31	1.4
+Central	Other	245978	-0.074	-0.183	0.006	0.111	26.92	0.04
+Eastern	Centromere	209	0.733	0.075	1.046	1.597	77.03	31.58
+Eastern	Telomere	5	0.005	-0.165	0.591	0.858	60	0
+Eastern	CenSat	10331	-0.024	-0.185	0.192	1.115	44.85	6.59
+Eastern	SegDup	11943	-0.054	-0.198	0.045	0.481	36.24	1.49
+Eastern	Other	245974	-0.064	-0.179	0.013	0.111	29.14	0.05
+Western	Centromere	212	0.675	0.111	1.003	1.591	79.25	25.47
+Western	Telomere	4	0.207	-0.046	0.552	0.862	50	0
+Western	CenSat	10277	0.013	-0.063	0.231	1.362	54.33	8.61
+Western	SegDup	11834	-0.011	-0.081	0.064	0.592	45.5	3.07
+Western	Other	245951	-0.02	-0.077	0.032	0.149	39.12	0.05

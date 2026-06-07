@@ -1,0 +1,476 @@
+genes_renamed,descriptions,gene_biotypes,n_species,species_sharing,Bonobo_Ppa,Chimp_Pt,AFR_hsa
+DOCK1,dedicator of cytokinesis 1,protein_coding,3,all_three,12.76,7.85,7.326624424
+HLA-DPB1,HLA class II histocompatibility antigen%2C DP beta 1 chain-like,protein_coding,3,all_three,6.27,8.87,14.11234052
+PCDH15,protocadherin related 15,protein_coding,3,all_three,10.03,6.49,6.618006362
+ACTR3B,actin related protein 3B,protein_coding,2,bonobo_chimp,8.64,7.03,NA
+ADAMTS2,ADAM metallopeptidase with thrombospondin type 1 motif 2,protein_coding,2,bonobo_chimp,7.64,6.3,NA
+ADARB2,adenosine deaminase RNA specific B2 (inactive),protein_coding,2,bonobo_chimp,19.32,8.85,NA
+ATP13A3,ATPase 13A3,protein_coding,2,bonobo_chimp,7.53,7.21,NA
+BRF1,BRF1 RNA polymerase III transcription initiation factor subunit,protein_coding,2,bonobo_chimp,9.32,11.22,NA
+BTNL2,butyrophilin like 2,protein_coding,2,bonobo_human,6.6,NA,8.767978302
+CADPS,calcium dependent secretion activator,protein_coding,2,bonobo_chimp,6.35,6.03,NA
+CSMD1,CUB and Sushi multiple domains 1,protein_coding,2,bonobo_chimp,11.59,6.98,NA
+DIP2C,disco interacting protein 2 homolog C,protein_coding,2,bonobo_chimp,6.59,6.25,NA
+DLGAP2,DLG associated protein 2,protein_coding,2,bonobo_chimp,10.65,7.1,NA
+DOCK8,dedicator of cytokinesis 8,protein_coding,2,bonobo_chimp,6.75,7.85,NA
+DPP6,dipeptidyl peptidase like 6,protein_coding,2,bonobo_chimp,6.94,6.14,NA
+ERC1,ELKS/RAB6-interacting/CAST family member 1,protein_coding,2,bonobo_chimp,6.01,6.8,NA
+EYS,protein eyes shut homolog,protein_coding,2,bonobo_chimp,6.16,7.42,NA
+GRM7,glutamate metabotropic receptor 7,protein_coding,2,chimp_human,NA,7.45,7.286289262
+HBE1,hemoglobin subunit epsilon 1,protein_coding,2,chimp_human,NA,6.94,8.391848747
+HLA-A,patr class I histocompatibility antigen%2C A-126 alpha chain,protein_coding,2,bonobo_chimp,8.41,10.29,NA
+HLA-B,major histocompatibility complex%2C class I%2C B,protein_coding,2,bonobo_chimp,7.42,7.95,NA
+HLA-C,major histocompatibility complex%2C class I%2C C,protein_coding,2,bonobo_chimp,9.12,10.87,NA
+KAZN,kazrin%2C periplakin interacting protein,protein_coding,2,bonobo_chimp,7.71,8.76,NA
+LILRA2,leukocyte immunoglobulin-like receptor%2C subfamily A (with TM domain)%2C member 2,protein_coding,2,bonobo_chimp,7.22,7.2,NA
+LILRB1,leukocyte immunoglobulin like receptor B1,protein_coding,2,bonobo_chimp,8,6.92,NA
+LILRB3,leukocyte immunoglobulin like receptor B3,protein_coding,2,bonobo_chimp,7,9.26,NA
+MMP26,matrix metallopeptidase 26,protein_coding,2,chimp_human,NA,7.18,6.431881836
+MYOM2,myomesin 2,protein_coding,2,bonobo_chimp,7.27,6.3,NA
+NXN,nucleoredoxin,protein_coding,2,bonobo_chimp,7.45,7.27,NA
+OR51M1,olfactory receptor family 51 subfamily M member 1,protein_coding,2,chimp_human,NA,6.55,7.400218893
+PRKN,parkin RBR E3 ubiquitin protein ligase,protein_coding,2,bonobo_chimp,6.4,6.31,NA
+PTPRD,protein tyrosine phosphatase receptor type D,protein_coding,2,bonobo_chimp,6.53,6.88,NA
+PTPRN2,protein tyrosine phosphatase receptor type N2,protein_coding,2,bonobo_chimp,7.8,8.29,NA
+SDK1,sidekick cell adhesion molecule 1,protein_coding,2,bonobo_chimp,7.18,6.51,NA
+SGCZ,sarcoglycan zeta,protein_coding,2,bonobo_chimp,6.17,8.65,NA
+SMYD3,SET and MYND domain containing 3,protein_coding,2,bonobo_chimp,10.08,6.81,NA
+SNTG1,syntrophin gamma 1,protein_coding,2,bonobo_chimp,7.56,7.52,NA
+SNTG2,syntrophin gamma 2,protein_coding,2,chimp_human,NA,7,7.286680507
+SSU72L2,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like,protein_coding,2,bonobo_chimp,11.7,6.99,NA
+TBC1D22A,TBC1 domain family member 22A,protein_coding,2,bonobo_chimp,9.79,8.01,NA
+TMEM132D,transmembrane protein 132D,protein_coding,2,bonobo_chimp,7.35,8.22,NA
+TRIM5,tripartite motif containing 5,protein_coding,2,bonobo_human,6.17,NA,9.984972875
+XKR4,XK related 4,protein_coding,2,bonobo_chimp,6.76,6.56,NA
+ZNF578,zinc finger protein 578,protein_coding,2,bonobo_chimp,6.53,6.88,NA
+ZNG1A,Zn regulated GTPase metalloprotein activator 1A,protein_coding,2,bonobo_chimp,7.07,6.93,NA
+ZSCAN5A,zinc finger and SCAN domain containing 5A,protein_coding,2,bonobo_chimp,6.77,8,NA
+A2MP1,NA,transcribed_unprocessed_pseudogene,1,human_only,NA,NA,6.834137074
+ABCA17P,ATP-binding cassette sub-family A member 17-like,protein_coding,1,bonobo_only,6.45,NA,NA
+ABO,NA,protein_coding,1,human_only,NA,NA,6.863297783
+ABR,ABR activator of RhoGEF and GTPase,protein_coding,1,bonobo_only,6.52,NA,NA
+ACR,acrosin,NA,1,chimp_only,NA,7.36,NA
+ADAMTS16,ADAM metallopeptidase with thrombospondin type 1 motif 16,NA,1,chimp_only,NA,6.11,NA
+ADAMTS17,ADAM metallopeptidase with thrombospondin type 1 motif 17,protein_coding,1,bonobo_only,6.27,NA,NA
+ADAMTS18,ADAM metallopeptidase with thrombospondin type 1 motif 18,protein_coding,1,bonobo_only,6.7,NA,NA
+ADAMTS7,A disintegrin and metalloproteinase with thrombospondin motifs 7-like,protein_coding,1,bonobo_only,8.16,NA,NA
+ADAMTSL1,ADAMTS like 1,NA,1,chimp_only,NA,8.41,NA
+ADGRD1,adhesion G protein-coupled receptor D1,protein_coding,1,bonobo_only,7.4,NA,NA
+ADGRE1,NA,protein_coding,1,human_only,NA,NA,7.143454692
+ADGRE4P,NA,transcribed_unprocessed_pseudogene,1,human_only,NA,NA,7.351532077
+ADGRL3,adhesion G protein-coupled receptor L3,protein_coding,1,bonobo_only,7.92,NA,NA
+ADPRHL1,ADP-ribosylhydrolase like 1,protein_coding,1,bonobo_only,8.87,NA,NA
+AGAP14P,arf-GAP with GTPase%2C ANK repeat and PH domain-containing protein 14-like,protein_coding,1,bonobo_only,7.77,NA,NA
+AGBL1,AGBL carboxypeptidase 1,protein_coding,1,bonobo_only,6.7,NA,NA
+AHRR,aryl hydrocarbon receptor repressor,protein_coding,1,bonobo_only,6.63,NA,NA
+AKR1C3,NA,protein_coding,1,human_only,NA,NA,6.996872313
+ALG1,chitobiosyldiphosphodolichol beta-mannosyltransferase-like,NA,1,chimp_only,NA,6.11,NA
+ALLC,allantoicase,NA,1,chimp_only,NA,20.01,NA
+AMTN,NA,protein_coding,1,human_only,NA,NA,6.766637501
+AMY2B,amylase alpha 2B,NA,1,chimp_only,NA,6.48,NA
+ANGPT2,angiopoietin 2,protein_coding,1,bonobo_only,6.99,NA,NA
+ANO3,NA,protein_coding,1,human_only,NA,NA,6.590571108
+ANTXRL,anthrax toxin receptor-like,protein_coding,1,bonobo_only,7.77,NA,NA
+ANXA10,annexin A10,protein_coding,1,bonobo_only,6.27,NA,NA
+APBA2,amyloid-beta A4 precursor protein-binding family A member 2-like,protein_coding,1,bonobo_only,6.4,NA,NA
+APOH,apolipoprotein H,protein_coding,1,bonobo_only,6.01,NA,NA
+APP,amyloid beta precursor protein,protein_coding,1,bonobo_only,6.36,NA,NA
+AQP12B,aquaporin-12B,protein_coding,1,bonobo_only,6.07,NA,NA
+ARID1B,AT-rich interaction domain 1B,protein_coding,1,bonobo_only,13.81,NA,NA
+ATP2C2,ATPase secretory pathway Ca2+ transporting 2,NA,1,chimp_only,NA,6.28,NA
+ATP9B,ATPase phospholipid transporting 9B (putative),protein_coding,1,bonobo_only,14.27,NA,NA
+B3GNTL1,UDP-GlcNAc:betaGal beta-1%2C3-N-acetylglucosaminyltransferase like 1,protein_coding,1,bonobo_only,6.03,NA,NA
+B4GALNT3,beta-1%2C4-N-acetyl-galactosaminyltransferase 3,protein_coding,1,bonobo_only,8.48,NA,NA
+BCL9L,B-cell CLL/lymphoma 9-like protein,protein_coding,1,bonobo_only,6.07,NA,NA
+BICRA,BRD4-interacting chromatin-remodeling complex-associated protein,protein_coding,1,bonobo_only,6.69,NA,NA
+BRSK2,BR serine/threonine kinase 2,protein_coding,1,bonobo_only,6.31,NA,NA
+BTNL8,butyrophilin like 8,NA,1,chimp_only,NA,7.88,NA
+C3H4orf50,chromosome 3 C4orf50 homolog,NA,1,chimp_only,NA,6.23,NA
+C3P1,putative protein C3P1,NA,1,chimp_only,NA,7.49,NA
+C6H7orf50,chromosome 6 C7orf50 homolog,protein_coding,1,bonobo_only,6.47,NA,NA
+C6H7orf78,chromosome 6 C7orf78 homolog,protein_coding,1,bonobo_only,6.54,NA,NA
+C6orf15,NA,protein_coding,1,human_only,NA,NA,6.625324666
+CACNA1A,calcium voltage-gated channel subunit alpha1 A,NA,1,chimp_only,NA,6.09,NA
+CACNA1B,calcium voltage-gated channel subunit alpha1 B,protein_coding,1,bonobo_only,6.02,NA,NA
+CACNA1C,calcium voltage-gated channel subunit alpha1 C,NA,1,chimp_only,NA,7.51,NA
+CAMK1D,calcium/calmodulin dependent protein kinase ID,NA,1,chimp_only,NA,6.1,NA
+CCDC187,coiled-coil domain containing 187,NA,1,chimp_only,NA,6.64,NA
+CCDC77,coiled-coil domain containing 77,protein_coding,1,bonobo_only,10.97,NA,NA
+CCHCR1,NA,protein_coding,1,human_only,NA,NA,8.082864621
+CDH12,cadherin 12,NA,1,chimp_only,NA,6.02,NA
+CDH13,cadherin 13,NA,1,chimp_only,NA,6.72,NA
+CDIN1,CDAN1 interacting nuclease 1,protein_coding,1,bonobo_only,6.4,NA,NA
+CDRT15,CMT1A duplicated region transcript 15 protein-like protein,protein_coding,1,bonobo_only,6.6,NA,NA
+CDSN,NA,protein_coding,1,human_only,NA,NA,9.381894869
+CELA3B,chymotrypsin-like elastase family member 3B,protein_coding,1,bonobo_only,6.93,NA,NA
+CENPQ,centromere protein Q,NA,1,chimp_only,NA,6.52,NA
+CEP104,centrosomal protein 104,NA,1,chimp_only,NA,6.5,NA
+CFAP54,cilia and flagella associated protein 54,protein_coding,1,bonobo_only,6.82,NA,NA
+CHL1,cell adhesion molecule L1 like,NA,1,chimp_only,NA,6.9,NA
+CIMAP1D,CIMAP1 family member D,protein_coding,1,bonobo_only,6.44,NA,NA
+CLASRP,CLK4-associating serine/arginine rich protein-like,protein_coding,1,bonobo_only,7.59,NA,NA
+CNTN4,contactin-4,protein_coding,1,bonobo_only,7.16,NA,NA
+CNTN5,NA,protein_coding,1,human_only,NA,NA,6.790940711
+CNTN6,contactin 6,NA,1,chimp_only,NA,6.37,NA
+COL4A2,collagen type IV alpha 2 chain,protein_coding,1,bonobo_only,9.56,NA,NA
+COLEC11,collectin subfamily member 11,protein_coding,1,bonobo_only,6.11,NA,NA
+CPE,NA,protein_coding,1,human_only,NA,NA,7.007675523
+CSGALNACT1,chondroitin sulfate N-acetylgalactosaminyltransferase 1,protein_coding,1,bonobo_only,6.29,NA,NA
+CSNK1G2,casein kinase 1 gamma 2,protein_coding,1,bonobo_only,7.17,NA,NA
+CTDP1,CTD phosphatase subunit 1,protein_coding,1,bonobo_only,10.7,NA,NA
+CTNNA3,NA,protein_coding,1,human_only,NA,NA,7.428194589
+DCLRE1C,protein artemis-like,protein_coding,1,bonobo_only,6.42,NA,NA
+DDI2,DNA damage inducible 1 homolog 2,NA,1,chimp_only,NA,7.11,NA
+DEAF1,DEAF1 transcription factor,protein_coding,1,bonobo_only,7.65,NA,NA
+DMBT1,NA,protein_coding,1,human_only,NA,NA,6.672583551
+DNAH17,dynein axonemal heavy chain 17,protein_coding,1,bonobo_only,6.26,NA,NA
+DNAH9,dynein axonemal heavy chain 9,NA,1,chimp_only,NA,6.07,NA
+DOK6,docking protein 6,protein_coding,1,bonobo_only,6.58,NA,NA
+DOK7,docking protein 7,NA,1,chimp_only,NA,6.23,NA
+DPEP1,dipeptidase 1,protein_coding,1,bonobo_only,6.27,NA,NA
+DPH7,diphthamide biosynthesis 7,protein_coding,1,bonobo_only,11.32,NA,NA
+DPP10,dipeptidyl peptidase like 10,NA,1,chimp_only,NA,6.58,NA
+DPP7,dipeptidyl peptidase 7,protein_coding,1,bonobo_only,9.48,NA,NA
+EDIL3,EGF like repeats and discoidin domains 3,NA,1,chimp_only,NA,6.22,NA
+EEF2KMT,protein-lysine N-methyltransferase EEF2KMT-like,protein_coding,1,bonobo_only,7.95,NA,NA
+EHMT1,euchromatic histone lysine methyltransferase 1,protein_coding,1,bonobo_only,10.6,NA,NA
+EIF5B,translation initiation factor IF-2,protein_coding,1,bonobo_only,8.05,NA,NA
+ENSG00000223786,NA,lncRNA,1,human_only,NA,NA,6.672848164
+ENSG00000225741,NA,unprocessed_pseudogene,1,human_only,NA,NA,7.09716474
+ENSG00000229618,NA,lncRNA,1,human_only,NA,NA,6.699370626
+ENSG00000229836,NA,unprocessed_pseudogene,1,human_only,NA,NA,7.74339638
+ENSG00000230087,NA,processed_pseudogene,1,human_only,NA,NA,7.769313635
+ENSG00000233183,NA,lncRNA,1,human_only,NA,NA,7.625443118
+ENSG00000235419,NA,lncRNA,1,human_only,NA,NA,7.248507529
+ENSG00000239920,NA,protein_coding,1,human_only,NA,NA,8.391848747
+ENSG00000240040,NA,lncRNA,1,human_only,NA,NA,7.207771084
+ENSG00000249036,NA,lncRNA,1,human_only,NA,NA,6.68882988
+ENSG00000249782,NA,lncRNA,1,human_only,NA,NA,7.565673229
+ENSG00000250264,NA,protein_coding,1,human_only,NA,NA,6.462226316
+ENSG00000251088,NA,lncRNA,1,human_only,NA,NA,7.574360602
+ENSG00000251339,NA,lncRNA,1,human_only,NA,NA,7.044617034
+ENSG00000255558,NA,lncRNA,1,human_only,NA,NA,6.721447626
+ENSG00000258464,NA,lncRNA,1,human_only,NA,NA,6.945594078
+ENSG00000259162,NA,transcribed_unprocessed_pseudogene,1,human_only,NA,NA,6.532952141
+ENSG00000260170,NA,protein_coding,1,human_only,NA,NA,6.964437807
+ENSG00000284837,NA,lncRNA,1,human_only,NA,NA,6.945413863
+ENSG00000285216,NA,lncRNA,1,human_only,NA,NA,6.777071565
+ENSG00000285471,NA,protein_coding,1,human_only,NA,NA,8.92865573
+ENSG00000287720,NA,lncRNA,1,human_only,NA,NA,6.627658409
+ENSG00000287801,NA,lncRNA,1,human_only,NA,NA,6.945772717
+ENSG00000289427,NA,lncRNA,1,human_only,NA,NA,6.591429461
+ENSG00000290427,NA,lncRNA,1,human_only,NA,NA,7.351532077
+ENSG00000290870,NA,lncRNA,1,human_only,NA,NA,9.633222557
+ENSG00000291038,NA,lncRNA,1,human_only,NA,NA,6.532952141
+ENSG00000291254,NA,lncRNA,1,human_only,NA,NA,6.834137074
+ENTREP2,NA,protein_coding,1,human_only,NA,NA,6.432664997
+ETV6,NA,protein_coding,1,human_only,NA,NA,6.470236531
+EVC2,NA,protein_coding,1,human_only,NA,NA,7.476685112
+FAHD1,acylpyruvase FAHD1%2C mitochondrial,protein_coding,1,bonobo_only,6.34,NA,NA
+FAM107B,family with sequence similarity 107 member B,NA,1,chimp_only,NA,7.27,NA
+FAM110A,family with sequence similarity 110 member A,protein_coding,1,bonobo_only,6.18,NA,NA
+FAM153A,protein FAM153A,protein_coding,1,bonobo_only,6.86,NA,NA
+FAM157A,putative protein FAM157A,protein_coding,1,bonobo_only,7.12,NA,NA
+FAM231C,FAM231A/C-like protein,protein_coding,1,bonobo_only,6,NA,NA
+FAM90A27P,protein FAM90A27P,protein_coding,1,bonobo_only,6.02,NA,NA
+FANCA,FA complementation group A,protein_coding,1,bonobo_only,8.37,NA,NA
+FARP2,FERM%2C ARH/RhoGEF and pleckstrin domain protein 2,NA,1,chimp_only,NA,6.19,NA
+FDFT1,farnesyl-diphosphate farnesyltransferase 1,protein_coding,1,bonobo_only,6.66,NA,NA
+FGF5,fibroblast growth factor 5,protein_coding,1,bonobo_only,7.57,NA,NA
+FHAD1,forkhead associated phosphopeptide binding domain 1,NA,1,chimp_only,NA,6.82,NA
+FMN2,formin 2,protein_coding,1,bonobo_only,8.77,NA,NA
+FN3K,fructosamine 3 kinase,NA,1,chimp_only,NA,7.96,NA
+FOXD4L1,forkhead box protein D4-like 1,protein_coding,1,bonobo_only,6.53,NA,NA
+FOXK2,forkhead box K2,NA,1,chimp_only,NA,10.68,NA
+FRMD4A,FERM domain containing 4A,NA,1,chimp_only,NA,6.35,NA
+FSD1,fibronectin type III and SPRY domain containing 1,protein_coding,1,bonobo_only,6.17,NA,NA
+GADL1,glutamate decarboxylase like 1,NA,1,chimp_only,NA,6.5,NA
+GALNT14,polypeptide N-acetylgalactosaminyltransferase 14,NA,1,chimp_only,NA,7.49,NA
+GFPT2,glutamine-fructose-6-phosphate transaminase 2,NA,1,chimp_only,NA,6.39,NA
+GLT1D1,glycosyltransferase 1 domain containing 1,NA,1,chimp_only,NA,6.66,NA
+GMDS,GDP-mannose 4%2C6-dehydratase,NA,1,chimp_only,NA,6.07,NA
+GNG7,G protein subunit gamma 7,NA,1,chimp_only,NA,7.39,NA
+GOLGA8B,golgin subfamily A member 8B,protein_coding,1,bonobo_only,9.08,NA,NA
+GOLGA8G,putative golgin subfamily A member 8G,NA,1,chimp_only,NA,6.77,NA
+GOLGA8IP,putative golgin subfamily A member 8I,protein_coding,1,bonobo_only,7.22,NA,NA
+GPR158,NA,protein_coding,1,human_only,NA,NA,6.38753961
+GRIN2A,NA,protein_coding,1,human_only,NA,NA,6.732447675
+GRK1,G protein-coupled receptor kinase 1,protein_coding,1,bonobo_only,10.5,NA,NA
+GRK3,G protein-coupled receptor kinase 3,protein_coding,1,bonobo_only,8.03,NA,NA
+GRM3,glutamate metabotropic receptor 3,NA,1,chimp_only,NA,6,NA
+HAGH,hydroxyacylglutathione hydrolase%2C mitochondrial,protein_coding,1,bonobo_only,6.55,NA,NA
+HBA3-like,hemoglobin subunit alpha-3-like,NA,1,chimp_only,NA,7.51,NA
+HBG2,NA,protein_coding,1,human_only,NA,NA,8.391848747
+HCG22,protein PBMUCL2,NA,1,chimp_only,NA,8.26,NA
+HDAC4,histone deacetylase 4,NA,1,chimp_only,NA,6.42,NA
+HDGFL1,HDGF like 1,protein_coding,1,bonobo_only,7.61,NA,NA
+HLA-DOA,NA,protein_coding,1,human_only,NA,NA,6.567130871
+HLA-DPA1,NA,protein_coding,1,human_only,NA,NA,17.12730003
+HLA-DQB3,NA,unprocessed_pseudogene,1,human_only,NA,NA,16.49803321
+HLA-DRA,NA,protein_coding,1,human_only,NA,NA,8.814333454
+HLA-DRB9,NA,transcribed_unprocessed_pseudogene,1,human_only,NA,NA,14.60154614
+HLA-F,major histocompatibility complex%2C class I%2C F,NA,1,chimp_only,NA,6.23,NA
+HNRNPCL2,heterogeneous nuclear ribonucleoprotein C-like 2,protein_coding,1,bonobo_only,6.91,NA,NA
+HNRNPCL3,heterogeneous nuclear ribonucleoprotein C-like 3,protein_coding,1,bonobo_only,6.39,NA,NA
+HS3ST2,heparan sulfate-glucosamine 3-sulfotransferase 2,NA,1,chimp_only,NA,6.55,NA
+IGFALS,insulin like growth factor binding protein acid labile subunit,protein_coding,1,bonobo_only,6.55,NA,NA
+IGFBP7,NA,protein_coding,1,human_only,NA,NA,6.380934377
+IGKJ1,NA,IG_J_gene,1,human_only,NA,NA,7.207771084
+IGKJ2,NA,IG_J_gene,1,human_only,NA,NA,7.207771084
+IGKJ3,NA,IG_J_gene,1,human_only,NA,NA,7.207771084
+IGLVI-56,NA,IG_V_pseudogene,1,human_only,NA,NA,6.613183987
+IGLVIV-59,NA,IG_V_pseudogene,1,human_only,NA,NA,7.413220006
+INPP4B,inositol polyphosphate-4-phosphatase type II B,protein_coding,1,bonobo_only,7.42,NA,NA
+INPP5A,inositol polyphosphate-5-phosphatase A,NA,1,chimp_only,NA,8.45,NA
+INSR,insulin receptor,NA,1,chimp_only,NA,6.02,NA
+IQCG,IQ motif containing G,protein_coding,1,bonobo_only,10.74,NA,NA
+IRF2,interferon regulatory factor 2,protein_coding,1,bonobo_only,7.3,NA,NA
+ITPR1,inositol 1%2C4%2C5-trisphosphate receptor type 1,protein_coding,1,bonobo_only,6.18,NA,NA
+JAKMIP1,janus kinase and microtubule interacting protein 1,NA,1,chimp_only,NA,6.07,NA
+JAKMIP3,Janus kinase and microtubule interacting protein 3,NA,1,chimp_only,NA,7.54,NA
+JPH3,junctophilin 3,NA,1,chimp_only,NA,6.06,NA
+KCNIP1,potassium voltage-gated channel interacting protein 1,protein_coding,1,bonobo_only,6.76,NA,NA
+KIF26B,kinesin family member 26B,NA,1,chimp_only,NA,11.96,NA
+KIR3DX1,killer cell immunoglobulin-like receptor%2C three domains%2C X1,NA,1,chimp_only,NA,6.21,NA
+KLRC4,killer cell lectin like receptor C4,NA,1,chimp_only,NA,6.25,NA
+KLRD1,killer cell lectin like receptor D1,NA,1,chimp_only,NA,6.29,NA
+KPRP,keratinocyte proline-rich protein-like,protein_coding,1,bonobo_only,6.56,NA,NA
+KRT128P,NA,unprocessed_pseudogene,1,human_only,NA,NA,6.821142305
+LGALS8,NA,protein_coding,1,human_only,NA,NA,7.267064541
+LHPP,phospholysine phosphohistidine inorganic pyrophosphate phosphatase,NA,1,chimp_only,NA,6.14,NA
+LILRB4,leukocyte immunoglobulin like receptor B4,NA,1,chimp_only,NA,6.46,NA
+LILRB5,leukocyte immunoglobulin like receptor B5,protein_coding,1,bonobo_only,7.09,NA,NA
+LINC00525,NA,lncRNA,1,human_only,NA,NA,6.597433794
+LINC00987,NA,lncRNA,1,human_only,NA,NA,6.834137074
+LINC01015,NA,lncRNA,1,human_only,NA,NA,6.70128271
+LINC01606,NA,lncRNA,1,human_only,NA,NA,6.406108043
+LINC02240,NA,lncRNA,1,human_only,NA,NA,6.820350319
+LINC02346,NA,lncRNA,1,human_only,NA,NA,7.327458632
+LINC02571,NA,lncRNA,1,human_only,NA,NA,18.338903
+LINC02646,NA,lncRNA,1,human_only,NA,NA,6.414583725
+LOC117976337,phospholipase A2-like,protein_coding,1,bonobo_only,8.6,NA,NA
+LOC129393016,protein CASP-like,protein_coding,1,bonobo_only,7.3,NA,NA
+LOC129393260,uncharacterized LOC129393260,protein_coding,1,bonobo_only,6.14,NA,NA
+LOXL2,NA,protein_coding,1,human_only,NA,NA,7.813549217
+LOXL2-AS1,NA,lncRNA,1,human_only,NA,NA,6.91201481
+LPCAT1,lysophosphatidylcholine acyltransferase 1,protein_coding,1,bonobo_only,6.19,NA,NA
+LRRTM3,NA,protein_coding,1,human_only,NA,NA,7.428194589
+LRRTM4,leucine rich repeat transmembrane neuronal 4,protein_coding,1,bonobo_only,8.56,NA,NA
+LUZP2,leucine zipper protein 2,protein_coding,1,bonobo_only,7.31,NA,NA
+LYRM4,LYR motif containing 4,protein_coding,1,bonobo_only,7.44,NA,NA
+MAD1L1,mitotic arrest deficient 1 like 1,protein_coding,1,bonobo_only,6.37,NA,NA
+MAPK8IP3,mitogen-activated protein kinase 8 interacting protein 3,NA,1,chimp_only,NA,6.76,NA
+MAS1L,MAS1 proto-oncogene like%2C G protein-coupled receptor,protein_coding,1,bonobo_only,6.02,NA,NA
+MBD3L3,putative methyl-CpG-binding domain protein 3-like 3,protein_coding,1,bonobo_only,6.04,NA,NA
+MBP,myelin basic protein,NA,1,chimp_only,NA,9.21,NA
+MCF2L,MCF.2 cell line derived transforming sequence like,protein_coding,1,bonobo_only,6.49,NA,NA
+MCPH1,microcephalin 1,protein_coding,1,bonobo_only,7.54,NA,NA
+MEIG1,meiosis expressed gene 1 protein homolog,protein_coding,1,bonobo_only,7.14,NA,NA
+MICB,MHC class I polypeptide-related sequence B-like,NA,1,chimp_only,NA,7.29,NA
+MIER2,MIER family member 2,protein_coding,1,bonobo_only,6.04,NA,NA
+MKI67,marker of proliferation Ki-67,NA,1,chimp_only,NA,6.03,NA
+MMD2,monocyte to macrophage differentiation associated 2,protein_coding,1,bonobo_only,7.36,NA,NA
+MRGPRG-AS1,NA,lncRNA,1,human_only,NA,NA,7.468363293
+MRPS35P3,NA,processed_pseudogene,1,human_only,NA,NA,8.570029907
+MSR1,macrophage scavenger receptor 1,protein_coding,1,bonobo_only,6.43,NA,NA
+MSRA,methionine sulfoxide reductase A,NA,1,chimp_only,NA,7.43,NA
+MTA1,metastasis associated 1,NA,1,chimp_only,NA,6.67,NA
+MUC2,mucin 2%2C oligomeric mucus/gel-forming,protein_coding,1,bonobo_only,7.02,NA,NA
+MUC22,NA,protein_coding,1,human_only,NA,NA,6.730587036
+MUC5B,mucin 5B%2C oligomeric mucus/gel-forming,protein_coding,1,bonobo_only,8.63,NA,NA
+MYLK2,myosin light chain kinase 2%2C skeletal/cardiac muscle-like,NA,1,chimp_only,NA,6.98,NA
+MYO3A,NA,protein_coding,1,human_only,NA,NA,6.568090108
+MYT1,myelin transcription factor 1,NA,1,chimp_only,NA,6.19,NA
+MYZAP,myocardial zonula adherens protein,protein_coding,1,bonobo_only,6.09,NA,NA
+NAV3,neuron navigator 3,NA,1,chimp_only,NA,6.39,NA
+NBPF15,neuroblastoma breakpoint family member 15-like,protein_coding,1,bonobo_only,7.09,NA,NA
+NBPF3,NBPF member 3,NA,1,chimp_only,NA,6.72,NA
+NCAM2,neural cell adhesion molecule 2,protein_coding,1,bonobo_only,6.83,NA,NA
+NINJ2,ninjurin 2,protein_coding,1,bonobo_only,7.38,NA,NA
+NKAIN2,sodium/potassium transporting ATPase interacting 2,NA,1,chimp_only,NA,7.06,NA
+NLRP11,NLR family pyrin domain containing 11,protein_coding,1,bonobo_only,6.89,NA,NA
+NLRP12,NLR family pyrin domain containing 12,protein_coding,1,bonobo_only,8.52,NA,NA
+NLRP4,NLR family pyrin domain containing 4,protein_coding,1,bonobo_only,6.71,NA,NA
+NLRP5,NLR family pyrin domain containing 5,NA,1,chimp_only,NA,6.21,NA
+NOM1,nucleolar protein with MIF4G domain 1,NA,1,chimp_only,NA,6.96,NA
+NOTCH4,NA,protein_coding,1,human_only,NA,NA,7.847021303
+NPIPA7,nuclear pore complex-interacting protein family member A7,protein_coding,1,bonobo_only,6.99,NA,NA
+NPIPB15,nuclear pore complex interacting protein family member B15,protein_coding,1,bonobo_only,6.97,NA,NA
+NPIPB8,nuclear pore complex-interacting protein family member B8-like,protein_coding,1,bonobo_only,6.94,NA,NA
+NPIPB9,nuclear pore complex-interacting protein family member B9-like,protein_coding,1,bonobo_only,6.29,NA,NA
+NRIP1,nuclear receptor interacting protein 1,protein_coding,1,bonobo_only,7.46,NA,NA
+NTM,neurotrimin,NA,1,chimp_only,NA,6.71,NA
+NXPH1,neurexophilin 1,NA,1,chimp_only,NA,6.52,NA
+OLFML1,olfactomedin like 1,protein_coding,1,bonobo_only,6.77,NA,NA
+OPCML,opioid binding protein/cell adhesion molecule like,protein_coding,1,bonobo_only,8.01,NA,NA
+OR10C1,olfactory receptor family 11 subfamily A member 1,NA,1,chimp_only,NA,6.34,NA
+OR11A1,olfactory receptor family 10 subfamily C member 1,NA,1,chimp_only,NA,6.34,NA
+OR11H6,NA,protein_coding,1,human_only,NA,NA,6.841630383
+OR1D2,olfactory receptor family 1 subfamily D member 2,NA,1,chimp_only,NA,6.52,NA
+OR1L4,olfactory receptor 1L4-like,NA,1,chimp_only,NA,7.27,NA
+OR2M4,olfactory receptor family 2 subfamily M member 4,NA,1,chimp_only,NA,6.67,NA
+OR2T12,olfactory receptor 2T12,protein_coding,1,bonobo_only,6.29,NA,NA
+OR51A1P,NA,transcribed_unprocessed_pseudogene,1,human_only,NA,NA,7.286087966
+OR51B6,NA,protein_coding,1,human_only,NA,NA,7.390968525
+OR51E2,olfactory receptor family 51 subfamily E member 2,NA,1,chimp_only,NA,6.46,NA
+OR51F1,NA,protein_coding,1,human_only,NA,NA,6.402693444
+OR51F3P,NA,unprocessed_pseudogene,1,human_only,NA,NA,6.431881836
+OR51I2,NA,protein_coding,1,human_only,NA,NA,7.61404098
+OR51J1,NA,unprocessed_pseudogene,1,human_only,NA,NA,8.391848747
+OR52A5,olfactory receptor 52A5,NA,1,chimp_only,NA,6.22,NA
+OR52H1,NA,protein_coding,1,human_only,NA,NA,6.713225943
+OR52N3P,NA,unprocessed_pseudogene,1,human_only,NA,NA,8.325220409
+OR52Z1P,NA,unprocessed_pseudogene,1,human_only,NA,NA,6.931480947
+OR5H6,olfactory receptor 5H6-like,NA,1,chimp_only,NA,6.14,NA
+OR6A2,olfactory receptor 6A2,protein_coding,1,bonobo_only,10.1,NA,NA
+OR6J1,NA,protein_coding,1,human_only,NA,NA,6.936405169
+OSBPL5,oxysterol binding protein like 5,protein_coding,1,bonobo_only,8.2,NA,NA
+P2RX5,purinergic receptor P2X 5,protein_coding,1,bonobo_only,8.81,NA,NA
+P3H2,prolyl 3-hydroxylase 2,protein_coding,1,bonobo_only,7.37,NA,NA
+PACRG,parkin coregulated,protein_coding,1,bonobo_only,6.27,NA,NA
+PAOX,polyamine oxidase,NA,1,chimp_only,NA,6.59,NA
+PARD6G,par-6 family cell polarity regulator gamma,protein_coding,1,bonobo_only,6.75,NA,NA
+PARP4,protein mono-ADP-ribosyltransferase PARP4-like,protein_coding,1,bonobo_only,7.34,NA,NA
+PCBP3,poly(rC) binding protein 3,NA,1,chimp_only,NA,7.27,NA
+PDCD6,programmed cell death 6,protein_coding,1,bonobo_only,6.07,NA,NA
+PDE10A,phosphodiesterase 10A,protein_coding,1,bonobo_only,8.29,NA,NA
+PDPR,pyruvate dehydrogenase phosphatase regulatory subunit%2C mitochondrial-like,protein_coding,1,bonobo_only,6.23,NA,NA
+PDZRN4,PDZ domain containing ring finger 4,NA,1,chimp_only,NA,6.05,NA
+PGM5,phosphoglucomutase-like protein 5,protein_coding,1,bonobo_only,11.14,NA,NA
+PIK3C2G,phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 gamma,NA,1,chimp_only,NA,6.4,NA
+PINX1,PIN2 (TERF1) interacting telomerase inhibitor 1,protein_coding,1,bonobo_only,7.11,NA,NA
+PKD1L1,NA,protein_coding,1,human_only,NA,NA,6.483717426
+PKD1L2,polycystin-1-like protein 2,protein_coding,1,bonobo_only,6.73,NA,NA
+PLCB1,phospholipase C beta 1,protein_coding,1,bonobo_only,6.58,NA,NA
+PMS2L1,putative postmeiotic segregation increased 2-like protein 1,protein_coding,1,bonobo_only,7.39,NA,NA
+POU5F1,NA,protein_coding,1,human_only,NA,NA,11.25822704
+PPP1R12C,protein phosphatase 1 regulatory subunit 12C,protein_coding,1,bonobo_only,6.19,NA,NA
+PPP2R2C,protein phosphatase 2 regulatory subunit Bgamma,NA,1,chimp_only,NA,6.29,NA
+PPP2R2D,protein phosphatase 2 regulatory subunit Bdelta,protein_coding,1,bonobo_only,8.15,NA,NA
+PRAMEF1,PRAME family member 1-like,protein_coding,1,bonobo_only,10.66,NA,NA
+PRAMEF11,PRAME family member 11-like,protein_coding,1,bonobo_only,9.67,NA,NA
+PRAMEF15,PRAME family member 15-like,protein_coding,1,bonobo_only,7.62,NA,NA
+PRAMEF8,PRAME family member 8,protein_coding,1,bonobo_only,7.39,NA,NA
+PRDM16,PR/SET domain 16,NA,1,chimp_only,NA,6.02,NA
+PRDM7,PR/SET domain 7,protein_coding,1,bonobo_only,6.27,NA,NA
+PRH1,proline-rich protein HaeIII subfamily 1,protein_coding,1,bonobo_only,6.77,NA,NA
+PRIM2,DNA primase subunit 2,NA,1,chimp_only,NA,6.19,NA
+PRKAR1B,protein kinase cAMP-dependent type I regulatory subunit beta,NA,1,chimp_only,NA,6.42,NA
+PRSS51,serine protease 51,NA,1,chimp_only,NA,7.43,NA
+PSD3,pleckstrin and Sec7 domain containing 3,NA,1,chimp_only,NA,7.12,NA
+PSORS1C1,NA,protein_coding,1,human_only,NA,NA,9.381894869
+PSORS1C2,NA,protein_coding,1,human_only,NA,NA,8.446679029
+PTPRE,protein tyrosine phosphatase receptor type E,NA,1,chimp_only,NA,6.03,NA
+PTPRH,protein tyrosine phosphatase receptor type H,NA,1,chimp_only,NA,6.13,NA
+PXDN,NA,protein_coding,1,human_only,NA,NA,6.571630418
+RAB11FIP3,RAB11 family interacting protein 3,NA,1,chimp_only,NA,8.92,NA
+RAB4A,RAB4A%2C member RAS oncogene family,protein_coding,1,bonobo_only,8.34,NA,NA
+RASA4,ras GTPase-activating protein 4-like,protein_coding,1,bonobo_only,7.19,NA,NA
+RASGEF1C,RasGEF domain family member 1C,NA,1,chimp_only,NA,8.38,NA
+RBFOX1,RNA binding fox-1 homolog 1,NA,1,chimp_only,NA,6.45,NA
+RBMXL2,RNA-binding motif protein%2C X-linked-like-2,protein_coding,1,bonobo_only,6.39,NA,NA
+RFPL4A,ret finger protein-like 4A,protein_coding,1,bonobo_only,10.48,NA,NA
+RH-like-IIR,RH-like protein IIR,NA,1,chimp_only,NA,6.37,NA
+RIC1,RIC1 homolog%2C RAB6A GEF complex partner 1,NA,1,chimp_only,NA,6.44,NA
+RNF39,ring finger protein 39,NA,1,chimp_only,NA,6.07,NA
+RPA1,replication protein A1,protein_coding,1,bonobo_only,15.34,NA,NA
+RPH3AL,rabphilin 3A like (without C2 domains),NA,1,chimp_only,NA,6.81,NA
+RSPH10B,radial spoke head 10 homolog B,protein_coding,1,bonobo_only,6.36,NA,NA
+SACS,NA,protein_coding,1,human_only,NA,NA,6.388253483
+SCARF1,scavenger receptor class F member 1,NA,1,chimp_only,NA,12.67,NA
+SCRT2,scratch family transcriptional repressor 2,protein_coding,1,bonobo_only,6.18,NA,NA
+SDHA,succinate dehydrogenase [ubiquinone] flavoprotein subunit%2C mitochondrial-like,protein_coding,1,bonobo_only,10.25,NA,NA
+SERPINB12,serpin family B member 12,NA,1,chimp_only,NA,6.17,NA
+SFMBT2,Scm like with four mbt domains 2,protein_coding,1,bonobo_only,6.69,NA,NA
+SFSWAP,splicing factor SWAP,NA,1,chimp_only,NA,7.66,NA
+SGCG,NA,protein_coding,1,human_only,NA,NA,6.688747036
+SHC2,SHC adaptor protein 2,protein_coding,1,bonobo_only,13.05,NA,NA
+SHISA5,protein shisa-5,protein_coding,1,bonobo_only,8.41,NA,NA
+SHISA6,shisa family member 6,protein_coding,1,bonobo_only,6.09,NA,NA
+SIMC1,SUMO-interacting motif-containing protein 1,NA,1,chimp_only,NA,6.86,NA
+SIRT3,sirtuin 3,NA,1,chimp_only,NA,7.08,NA
+SKI,SKI proto-oncogene,protein_coding,1,bonobo_only,6.34,NA,NA
+SLC25A37,NA,protein_coding,1,human_only,NA,NA,7.289052247
+SLC5A12,NA,protein_coding,1,human_only,NA,NA,6.401806422
+SORCS2,sortilin related VPS10 domain containing receptor 2,NA,1,chimp_only,NA,6.82,NA
+SORD,NA,protein_coding,1,human_only,NA,NA,8.124003345
+SOX1,SRY-box transcription factor 1,protein_coding,1,bonobo_only,9.5,NA,NA
+SPACA7,sperm acrosome associated 7,protein_coding,1,bonobo_only,7.64,NA,NA
+SPATA33,spermatogenesis associated 33,protein_coding,1,bonobo_only,17.67,NA,NA
+SPATA6L,spermatogenesis associated 6 like,protein_coding,1,bonobo_only,7.08,NA,NA
+SPDYE1,speedy protein E1-like,protein_coding,1,bonobo_only,6.22,NA,NA
+SPDYE12,speedy protein E12,protein_coding,1,bonobo_only,6.52,NA,NA
+SPDYE7P,putative speedy protein E7,protein_coding,1,bonobo_only,6.9,NA,NA
+SPHKAP,SPHK1 interactor%2C AKAP domain containing,protein_coding,1,bonobo_only,6.16,NA,NA
+SPRN,shadow of prion protein,protein_coding,1,bonobo_only,6.14,NA,NA
+SPTBN5,spectrin beta chain%2C non-erythrocytic 5-like,protein_coding,1,bonobo_only,7.12,NA,NA
+SQOR,NA,protein_coding,1,human_only,NA,NA,6.964437807
+SRGAP1,SLIT-ROBO Rho GTPase activating protein 1,NA,1,chimp_only,NA,6.07,NA
+SRP68,signal recognition particle subunit SRP68-like,protein_coding,1,bonobo_only,6.88,NA,NA
+SRRM1,serine/arginine repetitive matrix protein 1-like,protein_coding,1,bonobo_only,8.09,NA,NA
+SULT1B1,sulfotransferase family 1B member 1,NA,1,chimp_only,NA,6.18,NA
+SYNE3,NA,protein_coding,1,human_only,NA,NA,6.425920724
+SYT9,NA,protein_coding,1,human_only,NA,NA,7.23484073
+SYT9-AS1,NA,lncRNA,1,human_only,NA,NA,7.23484073
+TADA1,transcriptional adaptor 1,protein_coding,1,bonobo_only,6.04,NA,NA
+TAF11L2,TATA-box binding protein associated factor 11 like protein 2,protein_coding,1,bonobo_only,6.95,NA,NA
+TAFA5,TAFA chemokine like family member 5,protein_coding,1,bonobo_only,6.5,NA,NA
+TAP2,NA,protein_coding,1,human_only,NA,NA,6.462226316
+TBCD,tubulin folding cofactor D,protein_coding,1,bonobo_only,6.38,NA,NA
+TCERG1L,NA,protein_coding,1,human_only,NA,NA,6.467899333
+TDRD12,tudor domain containing 12,protein_coding,1,bonobo_only,8.02,NA,NA
+TECRL,trans-2%2C3-enoyl-CoA reductase like,NA,1,chimp_only,NA,6.39,NA
+TEKT1,tektin-1-like,protein_coding,1,bonobo_only,6.89,NA,NA
+TENM3,teneurin transmembrane protein 3,protein_coding,1,bonobo_only,7.26,NA,NA
+TENM4,teneurin transmembrane protein 4,NA,1,chimp_only,NA,7.11,NA
+TMC7,transmembrane channel like 7,NA,1,chimp_only,NA,6.41,NA
+TMX3,thioredoxin related transmembrane protein 3,protein_coding,1,bonobo_only,8.39,NA,NA
+TNXB,tenascin-X-like,protein_coding,1,bonobo_only,8.36,NA,NA
+TPD52L2,TPD52 like 2,protein_coding,1,bonobo_only,8.21,NA,NA
+TRAF3,TNF receptor associated factor 3,protein_coding,1,bonobo_only,8.68,NA,NA
+TRARG1,trafficking regulator of GLUT4 (SLC2A4) 1,NA,1,chimp_only,NA,6.25,NA
+TRAV37,NA,TR_V_pseudogene,1,human_only,NA,NA,7.864906165
+TRD-AS1,NA,lncRNA,1,human_only,NA,NA,8.345835947
+TRIM22,NA,protein_coding,1,human_only,NA,NA,9.984972875
+TRIM31,tripartite motif containing 31,NA,1,chimp_only,NA,7.21,NA
+TRIM58,tripartite motif containing 58,NA,1,chimp_only,NA,6.4,NA
+TSBP1,NA,protein_coding,1,human_only,NA,NA,9.806316398
+TSBP1-AS1,NA,lncRNA,1,human_only,NA,NA,9.806316398
+TSPEAR,NA,protein_coding,1,human_only,NA,NA,6.571421461
+TUBB8,tubulin beta-8 chain-like,protein_coding,1,bonobo_only,6.72,NA,NA
+TUBB8B,tubulin beta 8B-like,protein_coding,1,bonobo_only,11.57,NA,NA
+TUBGCP2,tubulin gamma complex component 2,NA,1,chimp_only,NA,6.12,NA
+TUSC3,tumor suppressor candidate 3,NA,1,chimp_only,NA,8.7,NA
+TYRP1,tyrosinase related protein 1,NA,1,chimp_only,NA,6.88,NA
+UGT2A1,UDP-glucuronosyltransferase 2A1,protein_coding,1,bonobo_only,6,NA,NA
+ULK4,NA,protein_coding,1,human_only,NA,NA,6.585489972
+UNC13C,NA,protein_coding,1,human_only,NA,NA,6.467382171
+UPF0607,putative UPF0607 protein ENSP00000383144,NA,1,chimp_only,NA,6.9,NA
+VAV1,vav guanine nucleotide exchange factor 1,protein_coding,1,bonobo_only,6.21,NA,NA
+VAV2,vav guanine nucleotide exchange factor 2,NA,1,chimp_only,NA,6.72,NA
+VPS53,VPS53 subunit of GARP complex,protein_coding,1,bonobo_only,7.42,NA,NA
+VSTM1,V-set and transmembrane domain containing 1,protein_coding,1,bonobo_only,6.07,NA,NA
+VSTM2B-DT,NA,lncRNA,1,human_only,NA,NA,6.501776917
+WASHC2A,WAS protein family homolog 2,protein_coding,1,bonobo_only,9.05,NA,NA
+WDR27,WD repeat domain 27,protein_coding,1,bonobo_only,7.31,NA,NA
+WRAP73,WD repeat containing%2C antisense to TP73,NA,1,chimp_only,NA,7.37,NA
+XIRP2,xin actin binding repeat containing 2,NA,1,chimp_only,NA,6.45,NA
+ZC3H3,zinc finger CCCH-type containing 3,protein_coding,1,bonobo_only,6.06,NA,NA
+ZDHHC11,palmitoyltransferase ZDHHC11,protein_coding,1,bonobo_only,6.89,NA,NA
+ZNF16,zinc finger protein 16,NA,1,chimp_only,NA,6.42,NA
+ZNF26,zinc finger protein 26,NA,1,chimp_only,NA,6.81,NA
+ZNF28,zinc finger protein 28,NA,1,chimp_only,NA,11.45,NA
+ZNF280A,NA,protein_coding,1,human_only,NA,NA,6.557988463
+ZNF407,zinc finger protein 407,protein_coding,1,bonobo_only,9.33,NA,NA
+ZNF440,zinc finger protein 440,protein_coding,1,bonobo_only,7.29,NA,NA
+ZNF469,zinc finger protein 469,protein_coding,1,bonobo_only,11.15,NA,NA
+ZNF544,zinc finger protein 544,protein_coding,1,bonobo_only,6.14,NA,NA
+ZNF69,zinc finger protein 69,protein_coding,1,bonobo_only,8.01,NA,NA
+ZNF696,zinc finger protein 696,protein_coding,1,bonobo_only,6.02,NA,NA
+ZNF766,zinc finger protein 766,NA,1,chimp_only,NA,7.28,NA
+ZNF83,zinc finger protein 83,NA,1,chimp_only,NA,6.16,NA
+ZNF845,zinc finger protein 845,NA,1,chimp_only,NA,8.77,NA
+ZNF888,zinc finger protein 888,NA,1,chimp_only,NA,8.45,NA
+ZNG1B,Zn regulated GTPase metalloprotein activator 1B,protein_coding,1,bonobo_only,6.67,NA,NA
+ZSCAN5B,zinc finger and SCAN domain containing 5B,NA,1,chimp_only,NA,6.3,NA
+ZSCAN5C,zinc finger and SCAN domain containing 5C,NA,1,chimp_only,NA,9.69,NA

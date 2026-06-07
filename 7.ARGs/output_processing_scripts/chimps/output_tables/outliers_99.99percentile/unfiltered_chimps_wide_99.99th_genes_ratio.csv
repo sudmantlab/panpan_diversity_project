@@ -1,0 +1,19 @@
+genes,descriptions,num_populations,is_shared,Central,Eastern,Western
+NA,,3,Yes,90942.64720029695,18737.010267792328,1909.951864650017
+LOC129138159,MAM and LDL-receptor class A domain-containing protein 1-like,2,Yes,25284.00726327904,19955.9970340797,NA
+LOC129137369,MAM and LDL-receptor class A domain-containing protein 1-like,2,Yes,18096.83861253424,2551.124318322746,NA
+LOC107969631,uncharacterized LOC107969631,1,No,39897.28532841172,NA,NA
+TPGS1,tubulin polyglutamylase complex subunit 1,1,No,33537.6354312571,NA,NA
+CIMAP1D,CIMAP1 family member D,1,No,32796.489788157494,NA,NA
+GZMM,granzyme M,1,No,31663.73309632,NA,NA
+CDC34,cell division cycle 34%2C ubiqiutin conjugating enzyme,1,No,24659.79110405892,NA,NA
+C2CD4C,C2 calcium dependent domain containing 4C,1,No,24195.47338560158,NA,NA
+LOC134808837,MAM and LDL-receptor class A domain-containing protein 1-like,1,No,23931.567919370216,NA,NA
+MADCAM1,mucosal vascular addressin cell adhesion molecule 1,1,No,22883.71933240356,NA,NA
+LOC129138429,MAM and LDL-receptor class A domain-containing protein 1-like,1,No,17152.906113725603,NA,NA
+LOC129143198,MAM and LDL-receptor class A domain-containing protein 1-like,1,No,NA,2800.877838300561,NA
+LOC129137368,uncharacterized LOC129137368,1,No,NA,2655.4261185287505,NA
+LOC129138155,MAM and LDL-receptor class A domain-containing protein 1-like,1,No,NA,2139.216117057309,NA
+LOC129143199,MAM and LDL-receptor class A domain-containing protein 1-like,1,No,NA,NA,1135.8276344776418
+LOC129135373,mitogen-activated protein kinase-binding protein 1-like,1,No,NA,NA,134.55210860336598
+LOC129144420,bifunctional peptidase and (3S)-lysyl hydroxylase JMJD7,1,No,NA,NA,119.31562406598636

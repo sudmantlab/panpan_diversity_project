@@ -1,0 +1,66 @@
+genomeName	SpeciesCode	CommonName	Assembly	Assembly2	NewName	Birth	cell	type	id	colors	sex	Observations
+PR00249	Ppan	Bonobo	hifiasm	hifiasm	PR00249(Bonobo)	captive	LCL	hap1	PR00249.hap1	#e9d7cb	female	
+PR00249	Ppan	Bonobo	hifiasm	hifiasm	PR00249(Bonobo)	captive	LCL	hap2	PR00249.hap2	#e9d7cb	female	
+PR00366	Ppan	Bonobo	hifiasm_hic	verkko	PR00366(Bonobo)	captive	LCL	hap1	PR00366.hap1	#e9d7cb	female	
+PR00366	Ppan	Bonobo	hifiasm_hic	verkko	PR00366(Bonobo)	captive	LCL	hap2	PR00366.hap2	#e9d7cb	female	
+PR00445	Ppan	Bonobo	hifiasm	hifiasm	PR00445(Bonobo)	captive	LCL	hap1	PR00445.hap1	#e9d7cb	female	
+PR00445	Ppan	Bonobo	hifiasm	hifiasm	PR00445(Bonobo)	captive	LCL	hap2	PR00445.hap2	#e9d7cb	female	
+PR00251	Ppan	Bonobo	hifiasm_hic	hifiasm_hic	PR00251(Bonobo)	captive	LCL	hap1	PR00251.hap1	#e9d7cb	male	this is mPanPan1
+PR00251	Ppan	Bonobo	hifiasm_hic	hifiasm_hic	PR00251(Bonobo)	captive	LCL	hap2	PR00251.hap2	#e9d7cb	male	this is mPanPan1
+mPanPan1	Ppan	Bonobo	verkko	verkko	mPanPan1(Bonobo T2T)	captive	LCL	primary	mPanPan1	#e9d7cb	male	this is PR00251
+mPanPan1	Ppan	Bonobo	verkko	verkko	mPanPan1(Bonobo T2T)	captive	LCL	hap1	mPanPan1.hap1	#e9d7cb	male	this is PR00251
+mPanPan1	Ppan	Bonobo	verkko	verkko	mPanPan1(Bonobo T2T)	captive	LCL	hap2	mPanPan1.hap2	#e9d7cb	male	this is PR00251
+PR00496A	Ptt	Central chimpanzee	hifiasm	hifiasm	PR00496(Central chimpanzee)	wild	LCL	hap1	PR00496A.hap1	#4c5d4c	male	
+PR00496A	Ptt	Central chimpanzee	hifiasm	hifiasm	PR00496(Central chimpanzee)	wild	LCL	hap2	PR00496A.hap2	#4c5d4c	male	
+PR00115	Ptt	Central chimpanzee	hifiasm	hifiasm	PR00115(Central chimpanzee)	captive	Fibroblast	hap1	PR00115.hap1	#4c5d4c	male	
+PR00115	Ptt	Central chimpanzee	hifiasm	hifiasm	PR00115(Central chimpanzee)	captive	Fibroblast	hap2	PR00115.hap2	#4c5d4c	male	
+PR00512	Ptv	Western chimpanzee	hifiasm	hifiasm	PR00512(Western chimpanzee)	wild	Fibroblast	hap1	PR00512.hap1	#9dced9	female	
+PR00512	Ptv	Western chimpanzee	hifiasm	hifiasm	PR00512(Western chimpanzee)	wild	Fibroblast	hap2	PR00512.hap2	#9dced9	female	
+PR00834	Ptv x Ptt	Western x Central hybrid	hifiasm_hic	hifiasm_hic	PR00834(hybrid western x central chimpanzee)	captive	LCL	hap1	PR00834.hap1	#bbc671	female	
+PR00834	Ptv x Ptt	Western x Central hybrid	hifiasm_hic	hifiasm_hic	PR00834(hybrid western x central chimpanzee)	captive	LCL	hap2	PR00834.hap2	#bbc671	female	
+PR00838	Ptv x Ptt	Western x Central hybrid	hifiasm	hifiasm	PR00838(hybrid western x central chimpanzee)	captive	LCL	hap1	PR00838.hap1	#bbc671	female	
+PR00838	Ptv x Ptt	Western x Central hybrid	hifiasm	hifiasm	PR00838(hybrid western x central chimpanzee)	captive	LCL	hap2	PR00838.hap2	#bbc671	female	
+PR01100	Ptv	Western chimpanzee	hifiasm	hifiasm	PR01100(Western chimpanzee)	captive	LCL	hap1	PR01100.hap1	#9dced9	male	
+PR01100	Ptv	Western chimpanzee	hifiasm	hifiasm	PR01100(Western chimpanzee)	captive	LCL	hap2	PR01100.hap2	#9dced9	male	
+PR01223	Ptv	Western chimpanzee	hifiasm	hifiasm	PR01223(Western chimpanzee)	wild	LCL	hap1	PR01223.hap1	#9dced9	male	
+PR01223	Ptv	Western chimpanzee	hifiasm	hifiasm	PR01223(Western chimpanzee)	wild	LCL	hap2	PR01223.hap2	#9dced9	male	
+PR01225	Ptv	Western chimpanzee	hifiasm	hifiasm	PR01225(Western chimpanzee)	wild	LCL	hap1	PR01225.hap1	#9dced9	male	
+PR01225	Ptv	Western chimpanzee	hifiasm	hifiasm	PR01225(Western chimpanzee)	wild	LCL	hap2	PR01225.hap2	#9dced9	male	
+PR01227	Ptv	Western chimpanzee	hifiasm_hic	verkko	PR01227(Western chimpanzee)	wild	LCL	hap1	PR01227.hap1	#9dced9	male	
+PR01227	Ptv	Western chimpanzee	hifiasm_hic	verkko	PR01227(Western chimpanzee)	wild	LCL	hap2	PR01227.hap2	#9dced9	male	
+PR01228	Ptv	Western chimpanzee	hifiasm	hifiasm	PR01228(Western chimpanzee)	wild	LCL	hap1	PR01228.hap1	#9dced9	male	
+PR01228	Ptv	Western chimpanzee	hifiasm	hifiasm	PR01228(Western chimpanzee)	wild	LCL	hap2	PR01228.hap2	#9dced9	male	
+PR01008	Pts	Eastern chimpanzee	hifiasm_hic	verkko	PR01008(Eastern chimpanzee)	wild	Fibroblast	hap1	PR01008.hap1	#ffb35a	female	
+PR01008	Pts	Eastern chimpanzee	hifiasm_hic	verkko	PR01008(Eastern chimpanzee)	wild	Fibroblast	hap2	PR01008.hap2	#ffb35a	female	
+PR01009	Pts	Eastern chimpanzee	hifiasm	hifiasm	PR01009(Eastern chimpanzee)	wild	Fibroblast	hap1	PR01009.hap1	#ffb35a	male	
+PR01009	Pts	Eastern chimpanzee	hifiasm	hifiasm	PR01009(Eastern chimpanzee)	wild	Fibroblast	hap2	PR01009.hap2	#ffb35a	male	
+PR01010	Pts	Eastern chimpanzee	hifiasm_hic	verkko	PR01010(Eastern chimpanzee)	captive	Fibroblast	hap1	PR01010.hap1	#ffb35a	female	
+PR01010	Pts	Eastern chimpanzee	hifiasm_hic	verkko	PR01010(Eastern chimpanzee)	captive	Fibroblast	hap2	PR01010.hap2	#ffb35a	female	
+AG05253_1	Ppan	Bonobo	hifiasm_hic	hifiasm_hic	AG05253_1(Bonobo)	unknown	Fibroblast	hap1	AG05253_1.hap1	#e9d7cb	male	
+AG05253_1	Ppan	Bonobo	hifiasm_hic	hifiasm_hic	AG05253_1(Bonobo)	unknown	Fibroblast	hap2	AG05253_1.hap2	#e9d7cb	male	
+AG18357_3	Ptv	Western chimpanzee	hifiasm_hic	hifiasm_hic	AG18357_3(Western chimpanzee)	unknown	LCL	hap1	AG18357_3.hap1	#9dced9	female	
+AG18357_3	Ptv	Western chimpanzee	hifiasm_hic	hifiasm_hic	AG18357_3(Western chimpanzee)	unknown	LCL	hap2	AG18357_3.hap2	#9dced9	female	
+AG18358_4	Ptv	Western chimpanzee	hifiasm_hic	hifiasm_hic	AG18358_4(Western chimpanzee)	unknown	LCL	hap1	AG18358_4.hap1	#9dced9	female	
+AG18358_4	Ptv	Western chimpanzee	hifiasm_hic	hifiasm_hic	AG18358_4(Western chimpanzee)	unknown	LCL	hap2	AG18358_4.hap2	#9dced9	female	
+AG18354_5	Ptv	Western chimpanzee	hifiasm_hic	hifiasm_hic	AG18354_5(Western chimpanzee)	unknown	LCL	hap1	AG18354_5.hap1	#9dced9	male	this is mPanTro3
+AG18354_5	Ptv	Western chimpanzee	hifiasm_hic	hifiasm_hic	AG18354_5(Western chimpanzee)	unknown	LCL	hap2	AG18354_5.hap2	#9dced9	male	this is mPanTro3
+mPanTro3	Ptv	Western chimpanzee	verkko	verkko	mPanTro3(Western chimpanzee)	unknown	LCL	primary	mPanTro3	#9dced9	male	this is AG18354_5
+mPanTro3	Ptv	Western chimpanzee	verkko	verkko	mPanTro3(Western chimpanzee)	unknown	LCL	hap1	mPanTro3.hap1	#9dced9	male	this is AG18354_5
+mPanTro3	Ptv	Western chimpanzee	verkko	verkko	mPanTro3(Western chimpanzee)	unknown	LCL	hap2	mPanTro3.hap2	#9dced9	male	this is AG18354_5
+AG18356_6	Ptv x Ptt	Western x Central hybrid	hifiasm_hic	hifiasm_hic	AG18356_6(hybrid western x central chimpanzee)	unknown	LCL	hap1	AG18356_6.hap1	#bbc671	female	
+AG18356_6	Ptv x Ptt	Western x Central hybrid	hifiasm_hic	hifiasm_hic	AG18356_6(hybrid western x central chimpanzee)	unknown	LCL	hap2	AG18356_6.hap2	#bbc671	female	
+AG18359_7	Ptv	Western chimpanzee	hifiasm_hic	hifiasm_hic	AG18359_7(Western chimpanzee)	unknown	LCL	hap1	AG18359_7.hap1	#9dced9	female	
+AG18359_7	Ptv	Western chimpanzee	hifiasm_hic	hifiasm_hic	AG18359_7(Western chimpanzee)	unknown	LCL	hap2	AG18359_7.hap2	#9dced9	female	
+AG18355_8	Ptv	Western chimpanzee	hifiasm_hic	hifiasm_hic	AG18355_8(Western chimpanzee)	unknown	LCL	hap1	AG18355_8.hap1	#9dced9	male	
+AG18355_8	Ptv	Western chimpanzee	hifiasm_hic	hifiasm_hic	AG18355_8(Western chimpanzee)	unknown	LCL	hap2	AG18355_8.hap2	#9dced9	male	
+AG18353_9	Ptv	Western chimpanzee	hifiasm_hic	hifiasm_hic	AG18353_9(Western chimpanzee)	unknown	LCL	hap1	AG18353_9.hap1	#9dced9	male	
+AG18353_9	Ptv	Western chimpanzee	hifiasm_hic	hifiasm_hic	AG18353_9(Western chimpanzee)	unknown	LCL	hap2	AG18353_9.hap2	#9dced9	male	
+AG18361_10	Ptv	Western chimpanzee	hifiasm_hic	hifiasm_hic	AG18361_10(Western chimpanzee)	unknown	LCL	hap1	AG18361_10.hap1	#9dced9	female	
+AG18361_10	Ptv	Western chimpanzee	hifiasm_hic	hifiasm_hic	AG18361_10(Western chimpanzee)	unknown	LCL	hap2	AG18361_10.hap2	#9dced9	female	
+AG18360_11	Ptv	Western chimpanzee	hifiasm_hic	hifiasm_hic	AG18360_11(Western chimpanzee)	unknown	LCL	hap1	AG18360_11.hap1	#9dced9	female	
+AG18360_11	Ptv	Western chimpanzee	hifiasm_hic	hifiasm_hic	AG18360_11(Western chimpanzee)	unknown	LCL	hap2	AG18360_11.hap2	#9dced9	female	
+AG16618_12	Ptv x Ptt	Western x Central hybrid	hifiasm_hic	hifiasm_hic	AG16618_12(Western chimpanzee)	unknown	LCL	hap1	AG16618_12.hap1	#bbc671	male	
+AG16618_12	Ptv x Ptt	Western x Central hybrid	hifiasm_hic	hifiasm_hic	AG16618_12(Western chimpanzee)	unknown	LCL	hap2	AG16618_12.hap2	#bbc671	male	
+AG06939_13	Ptv	Western chimpanzee	hifiasm_hic	hifiasm_hic	AG06939_13(Western chimpanzee)	unknown	Fibroblast	hap1	AG06939_13.hap1	#9dced9	male	
+AG06939_13	Ptv	Western chimpanzee	hifiasm_hic	hifiasm_hic	AG06939_13(Western chimpanzee)	unknown	Fibroblast	hap2	AG06939_13.hap2	#9dced9	male	
+ht2t	Hsa	CHM13-T2T-reference	verkko	verkko	CHM13-T2T-reference	na	na	primary	ht2t	black	male	

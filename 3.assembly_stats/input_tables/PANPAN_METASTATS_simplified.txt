@@ -1,0 +1,88 @@
+genomeName	type	Species	CommonName	PANPANpopulation	Sequencing	Birth	cell	sex	Reads	assembly method	NG50 (best assemblies)	QV from HiFi reads	K mer coverage from HiFi reads
+AG05253_1	hap1	Pan paniscus	Bonobo (AG05253)	Bonobo	Halpha	unknown	Fibroblast	male	HiFi+HiC	Hifiasm	55486558	69	68
+AG05253_1	hap2	Pan paniscus	Bonobo (AG05253)	Bonobo	Halpha	unknown	Fibroblast	male	HiFi+HiC	Hifiasm	55300310	70	68
+AG05253_1	primary	Pan paniscus	Bonobo (AG05253)	Bonobo	Halpha	unknown	Fibroblast	male	HiFi+HiC	Hifiasm		69	68
+AG06939_13	hap1	Pan troglodytes verus	Western chimpanzee (AG06939_13)	Western	Halpha	unknown	Fibroblast	male	HiFi+HiC	Hifiasm	77167767	70	65
+AG06939_13	hap2	Pan troglodytes verus	Western chimpanzee (AG06939_13)	Western	Halpha	unknown	Fibroblast	male	HiFi+HiC	Hifiasm	67439923	70	65
+AG06939_13	primary	Pan troglodytes verus	Western chimpanzee (AG06939_13)	Western	Halpha	unknown	Fibroblast	male	HiFi+HiC	Hifiasm		70	65
+AG16618_12	hap1	Pan troglodytes hybrid	Western x Central chimpanzee (AG16618_12)	Western x Central	Halpha	unknown	LCL	male	HiFi+HiC	Hifiasm	55109926	70	56
+AG16618_12	hap2	Pan troglodytes hybrid	Western x Central chimpanzee (AG16618_12)	Western x Central	Halpha	unknown	LCL	male	HiFi+HiC	Hifiasm	55002710	71	56
+AG16618_12	primary	Pan troglodytes hybrid	Western x Central chimpanzee (AG16618_12)	Western x Central	Halpha	unknown	LCL	male	HiFi+HiC	Hifiasm		71	56
+AG18353_9	hap1	Pan troglodytes verus	Western chimpanzee (AG18353_9)	Western	Halpha	unknown	LCL	male	HiFi+HiC	Hifiasm	56711145	68	65
+AG18353_9	hap2	Pan troglodytes verus	Western chimpanzee (AG18353_9)	Western	Halpha	unknown	LCL	male	HiFi+HiC	Hifiasm	60137523	69	65
+AG18353_9	primary	Pan troglodytes verus	Western chimpanzee (AG18353_9)	Western	Halpha	unknown	LCL	male	HiFi+HiC	Hifiasm		69	65
+AG18354_5	hap1	Pan troglodytes verus	"Western chimpanzee (AG18354_5, same individual as chimpanzee T2T)"	Western	Halpha	unknown	LCL	male	HiFi+HiC	Hifiasm	71741097	69	59
+AG18354_5	hap2	Pan troglodytes verus	"Western chimpanzee (AG18354_5, same individual as chimpanzee T2T)"	Western	Halpha	unknown	LCL	male	HiFi+HiC	Hifiasm	59565535	61	59
+AG18354_5	primary	Pan troglodytes verus	"Western chimpanzee (AG18354_5, same individual as chimpanzee T2T)"	Western	Halpha	unknown	LCL	male	HiFi+HiC	Hifiasm		69	59
+AG18355_8	hap1	Pan troglodytes verus	Western chimpanzee (AG18355_8)	Western	Halpha	unknown	LCL	male	HiFi+HiC	Hifiasm	52057677	69	55
+AG18355_8	hap2	Pan troglodytes verus	Western chimpanzee (AG18355_8)	Western	Halpha	unknown	LCL	male	HiFi+HiC	Hifiasm	58615459	69	55
+AG18355_8	primary	Pan troglodytes verus	Western chimpanzee (AG18355_8)	Western	Halpha	unknown	LCL	male	HiFi+HiC	Hifiasm		69	55
+AG18356_6	hap1	Pan troglodytes hybrid	Western x Central chimpanzee (AG18356_6)	Western x Central	Halpha	unknown	LCL	female	HiFi+HiC	Hifiasm	71163614	72	76
+AG18356_6	hap2	Pan troglodytes hybrid	Western x Central  chimpanzee (AG18356_6)	Western x Central	Halpha	unknown	LCL	female	HiFi+HiC	Hifiasm	85181065	73	76
+AG18356_6	primary	Pan troglodytes hybrid	Western x Central chimpanzee (AG18356_6)	Western x Central	Halpha	unknown	LCL	female	HiFi+HiC	Hifiasm		73	76
+AG18357_3	hap1	Pan troglodytes verus	Western chimpanzee (AG18357_3)	Western	Halpha	unknown	LCL	female	HiFi+HiC	Hifiasm	33752073	67	31
+AG18357_3	hap2	Pan troglodytes verus	Western chimpanzee (AG18357_3)	Western	Halpha	unknown	LCL	female	HiFi+HiC	Hifiasm	32320373	68	31
+AG18357_3	primary	Pan troglodytes verus	Western chimpanzee (AG18357_3)	Western	Halpha	unknown	LCL	female	HiFi+HiC	Hifiasm		67	31
+AG18358_4	hap1	Pan troglodytes verus	Western chimpanzee (AG18358_4)	Western	Halpha	unknown	LCL	female	HiFi+HiC	Hifiasm	73616032	68	60
+AG18358_4	hap2	Pan troglodytes verus	Western chimpanzee (AG18358_4)	Western	Halpha	unknown	LCL	female	HiFi+HiC	Hifiasm	75238511	69	60
+AG18358_4	primary	Pan troglodytes verus	Western chimpanzee (AG18358_4)	Western	Halpha	unknown	LCL	female	HiFi+HiC	Hifiasm		69	60
+AG18359_7	hap1	Pan troglodytes verus	Western chimpanzee (AG18359_7)	Western	Halpha	unknown	LCL	female	HiFi+HiC	Hifiasm	59242476	69	67
+AG18359_7	hap2	Pan troglodytes verus	Western chimpanzee (AG18359_7)	Western	Halpha	unknown	LCL	female	HiFi+HiC	Hifiasm	74793301	70	67
+AG18359_7	primary	Pan troglodytes verus	Western chimpanzee (AG18359_7)	Western	Halpha	unknown	LCL	female	HiFi+HiC	Hifiasm		69	67
+AG18360_11	hap1	Pan troglodytes verus	Western chimpanzee (AG18360_11)	Western	Halpha	unknown	LCL	female	HiFi+HiC	Hifiasm	71228463	70	74
+AG18360_11	hap2	Pan troglodytes verus	Western chimpanzee (AG18360_11)	Western	Halpha	unknown	LCL	female	HiFi+HiC	Hifiasm	74983275	70	74
+AG18360_11	primary	Pan troglodytes verus	Western chimpanzee (AG18360_11)	Western	Halpha	unknown	LCL	female	HiFi+HiC	Hifiasm		70	74
+AG18361_10	hap1	Pan troglodytes verus	Western chimpanzee (AG18361_10)	Western	Halpha	unknown	LCL	female	HiFi+HiC	Hifiasm	61451830	69	56
+AG18361_10	hap2	Pan troglodytes verus	Western chimpanzee (AG18361_10)	Western	Halpha	unknown	LCL	female	HiFi+HiC	Hifiasm	53078925	70	56
+AG18361_10	primary	Pan troglodytes verus	Western chimpanzee (AG18361_10)	Western	Halpha	unknown	LCL	female	HiFi+HiC	Hifiasm		70	56
+PR00115	hap1	Pan troglodytes troglodytes	Central chimpanzee (PR00115)	Central	Discovery	captive	Fibroblast	male	HiFi	Hifiasm	76162108	72	88
+PR00115	hap2	Pan troglodytes troglodytes	Central chimpanzee (PR00115)	Central	Discovery	captive	Fibroblast	male	HiFi	Hifiasm	48519627	72	88
+PR00115	primary	Pan troglodytes troglodytes	Central chimpanzee (PR00115)	Central	Discovery	captive	Fibroblast	male	HiFi	Hifiasm		72	88
+PR00249	hap1	Pan paniscus	Bonobo (PR00249)	Bonobo	Discovery	captive	LCL	female	HiFi	Hifiasm	32941344	69	44
+PR00249	hap2	Pan paniscus	Bonobo (PR00249)	Bonobo	Discovery	captive	LCL	female	HiFi	Hifiasm	29136165	70	44
+PR00249	primary	Pan paniscus	Bonobo (PR00249)	Bonobo	Discovery	captive	LCL	female	HiFi	Hifiasm		70	44
+PR00251	hap1	Pan paniscus	"Bonobo (PR00251,  same individual as bonobo T2T)"	Bonobo	Discovery	captive	LCL	male	HiFi+HiC	Hifiasm	51524173	71	69
+PR00251	hap2	Pan paniscus	"Bonobo (PR00251,  same individual as bonobo T2T)"	Bonobo	Discovery	captive	LCL	male	HiFi+HiC	Hifiasm	49600197	72	69
+PR00251	primary	Pan paniscus	"Bonobo (PR00251,  same individual as bonobo T2T)"	Bonobo	Discovery	captive	LCL	male	HiFi+HiC	Hifiasm		71	69
+PR00366	hap1	Pan paniscus	Bonobo (PR00366)	Bonobo	Discovery	captive	Fibroblast	female	HiFi+HiC+ONT	Verkko 2.2.1	149564093	70	56
+PR00366	hap2	Pan paniscus	Bonobo (PR00366)	Bonobo	Discovery	captive	Fibroblast	female	HiFi+HiC+ONT	Verkko 2.2.1	147804209	69	56
+PR00366	diploid	Pan paniscus	Bonobo (PR00445)	Bonobo	Discovery	captive	Fibroblast	female	HiFi+HiC+ONT	Verkko 2.2.1		70	56
+PR00445	hap1	Pan paniscus	Bonobo (PR00445)	Bonobo	Discovery	captive	LCL	female	HiFi	Hifiasm	25722510	68	33
+PR00445	hap2	Pan paniscus	Bonobo (PR00445)	Bonobo	Discovery	captive	LCL	female	HiFi	Hifiasm	16256052	68	33
+PR00445	primary	Pan paniscus	Bonobo (PR00445)	Bonobo	Discovery	captive	LCL	female	HiFi	Hifiasm		68	33
+PR00496A	hap1	Pan troglodytes troglodytes	Central chimpanzee (PR00496)	Central	Discovery	wild	LCL	male	HiFi	Hifiasm	15363180	68	33
+PR00496A	hap2	Pan troglodytes troglodytes	Central chimpanzee (PR00496)	Central	Discovery	wild	LCL	male	HiFi	Hifiasm	12210152	69	33
+PR00496A	primary	Pan troglodytes troglodytes	Central chimpanzee (PR00496)	Central	Discovery	wild	LCL	male	HiFi	Hifiasm		69	33
+PR00512	hap1	Pan troglodytes verus	Western chimpanzee (PR00512)	Western	Discovery	wild	Fibroblast	female	HiFi	Hifiasm	28982584	68	44
+PR00512	hap2	Pan troglodytes verus	Western chimpanzee (PR00512)	Western	Discovery	wild	Fibroblast	female	HiFi	Hifiasm	18540999	67	44
+PR00512	primary	Pan troglodytes verus	Western chimpanzee (PR00512)	Western	Discovery	wild	Fibroblast	female	HiFi	Hifiasm		67	44
+PR00834	hap1	Pan troglodytes hybrid	Western x Central chimpanzee (PR00834)	Western x Central	Discovery	captive	LCL	female	HiFi+HiC	Hifiasm	23342427	70	50
+PR00834	hap2	Pan troglodytes hybrid	Western x Central chimpanzee (PR00834)	Western x Central	Discovery	captive	LCL	female	HiFi+HiC	Hifiasm	27046963	72	50
+PR00834	primary	Pan troglodytes hybrid	Western x Central chimpanzee (PR00838)	Western x Central	Discovery	captive	LCL	female	HiFi+HiC	Hifiasm		71	50
+PR00838	hap1	Pan troglodytes hybrid	Western x Central chimpanzee (PR00838)	Western x Central	Discovery	captive	LCL	female	HiFi	Hifiasm	19167030	68	42
+PR00838	hap2	Pan troglodytes hybrid	Western x Central chimpanzee (PR00838)	Western x Central	Discovery	captive	LCL	female	HiFi	Hifiasm	18391163	68	42
+PR00838	primary	Pan troglodytes hybrid	Western x Central chimpanzee (PR00838)	Western x Central	Discovery	captive	LCL	female	HiFi	Hifiasm		68	42
+PR01008	hap1	Pan troglodytes schweinfurthii	Eastern chimpanzee (PR01008)	Eastern	Discovery	wild	Fibroblast	female	HiFi+HiC+ONT	Verkko 2.2.1	128255031	71	53
+PR01008	hap2	Pan troglodytes schweinfurthii	Eastern chimpanzee (PR01008)	Eastern	Discovery	wild	Fibroblast	female	HiFi+HiC+ONT	Verkko 2.2.1	144815186	71	53
+PR01008	diploid	Pan troglodytes schweinfurthii	Eastern chimpanzee (PR01008)	Eastern	Discovery	wild	Fibroblast	female	HiFi+HiC+ONT	Verkko 2.2.1		71	53
+PR01009	hap1	Pan troglodytes schweinfurthii	Eastern chimpanzee (PR01009)	Eastern	Discovery	wild	Fibroblast	male	HiFi	Hifiasm	12362508	67	33
+PR01009	hap2	Pan troglodytes schweinfurthii	Eastern chimpanzee (PR01009)	Eastern	Discovery	wild	Fibroblast	male	HiFi	Hifiasm	9518955	67	33
+PR01009	primary	Pan troglodytes schweinfurthii	Eastern chimpanzee (PR01009)	Eastern	Discovery	wild	Fibroblast	male	HiFi	Hifiasm		67	33
+PR01010	hap1	Pan troglodytes schweinfurthii	Eastern chimpanzee (PR01010)	Eastern	Discovery	captive	Fibroblast	female	HiFi+HiC+ONT	Verkko 2.2.1	141629544	69	54
+PR01010	hap2	Pan troglodytes schweinfurthii	Eastern chimpanzee (PR01010)	Eastern	Discovery	captive	Fibroblast	female	HiFi+HiC+ONT	Verkko 2.2.1	144103629	70	54
+PR01010	diploid	Pan troglodytes schweinfurthii	Eastern chimpanzee (PR01010)	Eastern	Discovery	captive	Fibroblast	female	HiFi+HiC+ONT	Verkko 2.2.1		70	54
+PR01100	hap1	Pan troglodytes verus	Western chimpanzee (PR01100)	Western	Discovery	captive	LCL	male	HiFi	Hifiasm	24071694	68	48
+PR01100	hap2	Pan troglodytes verus	Western chimpanzee (PR01100)	Western	Discovery	captive	LCL	male	HiFi	Hifiasm	20848707	69	48
+PR01100	primary	Pan troglodytes verus	Western chimpanzee (PR01223)	Western	Discovery	captive	LCL	male	HiFi	Hifiasm		68	48
+PR01223	hap1	Pan troglodytes verus	Western chimpanzee (PR01223)	Western	Discovery	wild	LCL	male	HiFi	Hifiasm	49245477	70	52
+PR01223	hap2	Pan troglodytes verus	Western chimpanzee (PR01223)	Western	Discovery	wild	LCL	male	HiFi	Hifiasm	32464309	70	52
+PR01223	primary	Pan troglodytes verus	Western chimpanzee (PR01225)	Western	Discovery	wild	LCL	male	HiFi	Hifiasm		70	52
+PR01225	hap1	Pan troglodytes verus	Western chimpanzee (PR01225)	Western	Discovery	wild	LCL	male	HiFi	Hifiasm	20089105	67	34
+PR01225	hap2	Pan troglodytes verus	Western chimpanzee (PR01225)	Western	Discovery	wild	LCL	male	HiFi	Hifiasm	10344246	67	34
+PR01225	primary	Pan troglodytes verus	Western chimpanzee (PR01227)	Western	Discovery	wild	LCL	male	HiFi	Hifiasm		67	34
+PR01227	hap1	Pan troglodytes verus	Western chimpanzee (PR01227)	Western	MtSinai	wild	LCL	male	HiFi+HiC+ONT	Verkko 2.2.1	136744986	69	59
+PR01227	hap2	Pan troglodytes verus	Western chimpanzee (PR01227)	Western	MtSinai	wild	LCL	male	HiFi+HiC+ONT	Verkko 2.2.1	145914638	69	59
+PR01227	diploid	Pan troglodytes verus	Western chimpanzee (PR01228)	Western	MtSinai	wild	LCL	male	HiFi+HiC+ONT	Verkko 2.2.1		69	59
+PR01228	hap1	Pan troglodytes verus	Western chimpanzee (PR01228)	Western	Discovery	wild	LCL	male	HiFi	Hifiasm	23152241	69	40
+PR01228	hap2	Pan troglodytes verus	Western chimpanzee (PR01228)	Western	Discovery	wild	LCL	male	HiFi	Hifiasm	14637678	69	40
+PR01228	primary	Pan troglodytes verus	Western chimpanzee (PR01228)	Western	Discovery	wild	LCL	male	HiFi	Hifiasm		69	40

@@ -1,0 +1,85 @@
+genes,genes_renamed,descriptions,num_populations,is_shared,Eastern,Western,Central
+ALLC,ALLC,allantoicase,3,Yes,20.93278291,20.8776174,20.74237465
+PATR-C,HLA-C,major histocompatibility complex%2C class I%2C C,3,Yes,13.97974674,11.75983593,20.06876256
+LOC129136883,LOC129136883,uncharacterized LOC129136883,3,Yes,14.696271,18.65412794,17.23278527
+LOC107971901,LOC107971901,uncharacterized LOC107971901,3,Yes,18.19704249,15.3256286,16.48840348
+LOC100610904,HLA-DPB1,HLA class II histocompatibility antigen%2C DP beta 1 chain-like,3,Yes,12.53644146,9.135152675,17.35836473
+LOC112209743,LOC112209743,uncharacterized LOC112209743,3,Yes,12.06845713,9.649492487,17.04236834
+LILRB3,LILRB3,leukocyte immunoglobulin like receptor B3,3,Yes,12.99903679,8.852540082,16.76486981
+LOC134810328,LOC134810328,uncharacterized LOC134810328,3,Yes,12.64128231,11.45533455,16.28124674
+SGCZ,SGCZ,sarcoglycan zeta,3,Yes,10.8649854,8.852806957,16.26271097
+TUSC3,TUSC3,tumor suppressor candidate 3,3,Yes,11.60951478,9.370026624,15.63364583
+PATR-A,HLA-A,patr class I histocompatibility antigen%2C A-126 alpha chain,3,Yes,14.93240902,10.93109785,15.39985908
+SCARF1,SCARF1,scavenger receptor class F member 1,3,Yes,14.76634639,12.71814587,15.25318275
+ZSCAN5C,ZSCAN5C,zinc finger and SCAN domain containing 5C,3,Yes,13.21705038,8.494154684,15.1135137
+KIF26B,KIF26B,kinesin family member 26B,3,Yes,13.75469751,11.91348617,12.42428007
+DOCK8,DOCK8,dedicator of cytokinesis 8,3,Yes,12.17747455,9.368138378,12.19952191
+BRF1,BRF1,BRF1 RNA polymerase III transcription initiation factor subunit,2,Yes,16.22426184,14.24882336,NA
+LOC462552,HCG22,protein PBMUCL2,2,Yes,10.76912007,NA,15.81037671
+ZNF28,ZNF28,zinc finger protein 28,2,Yes,15.13668603,12.39701537,NA
+KAZN,KAZN,kazrin%2C periplakin interacting protein,2,Yes,NA,9.472940496,14.87367078
+LOC457604,CFHR4,complement factor H-related protein 4,2,Yes,10.65518891,NA,14.3003813
+INPP5A,INPP5A,inositol polyphosphate-5-phosphatase A,2,Yes,13.87067742,9.737919755,NA
+GALNT14,GALNT14,polypeptide N-acetylgalactosaminyltransferase 14,2,Yes,10.59354608,NA,13.48976078
+LILRA2,LILRA2,leukocyte immunoglobulin-like receptor%2C subfamily A (with TM domain)%2C member 2,2,Yes,10.57326783,NA,13.4667052
+FOXK2,FOXK2,forkhead box K2,2,Yes,11.11962431,13.11667411,NA
+DLGAP2,DLGAP2,DLG associated protein 2,2,Yes,12.87276612,8.402475801,NA
+LOC104005939,LOC104005939,uncharacterized LOC104005939,2,Yes,12.5900622,NA,12.35193804
+CSMD1,CSMD1,CUB and Sushi multiple domains 1,2,Yes,12.07830767,8.797444011,NA
+ADARB2,ADARB2,adenosine deaminase RNA specific B2 (inactive),2,Yes,12.00956179,10.29291979,NA
+MBP,MBP,myelin basic protein,2,Yes,11.31123704,9.828833334,NA
+TBC1D22A,TBC1D22A,TBC1 domain family member 22A,2,Yes,11.03996547,8.526972512,NA
+RAB11FIP3,RAB11FIP3,RAB11 family interacting protein 3,2,Yes,10.87246341,8.669924552,NA
+SNTG1,SNTG1,syntrophin gamma 1,2,Yes,10.83545987,9.175585575,NA
+LAIR1,LAIR1,leukocyte associated immunoglobulin like receptor 1,2,Yes,10.82428459,8.360856762,NA
+PATR-B,HLA-B,major histocompatibility complex%2C class I%2C B,2,Yes,10.50844786,8.94280176,NA
+LILRB1,LILRB1,leukocyte immunoglobulin like receptor B1,2,Yes,10.44177012,8.838027261,NA
+ZNF888,ZNF888,zinc finger protein 888,2,Yes,10.43049037,10.19019179,NA
+LOC104006319,LOC104006319,uncharacterized LOC104006319,2,Yes,10.41930429,9.332236282,NA
+GYPB,GYPB,glycophorin B (MNS blood group),1,No,NA,NA,17.40441849
+LOC112205572,NEK4,serine/threonine-protein kinase Nek4-like,1,No,NA,NA,16.35137811
+NOM1,NOM1,nucleolar protein with MIF4G domain 1,1,No,NA,NA,13.8746788
+FN3K,FN3K,fructosamine 3 kinase,1,No,NA,NA,13.75048415
+LOC100609532,EYS,protein eyes shut homolog,1,No,NA,NA,13.56404232
+LOC100611617,UPF0607,putative UPF0607 protein ENSP00000383144,1,No,NA,NA,13.44786477
+TRIM31,TRIM31,tripartite motif containing 31,1,No,NA,NA,13.38847949
+LOC104006320,LOC104006320,uncharacterized LOC104006320,1,No,NA,NA,13.35729252
+LOC104007162,LOC104007162,uncharacterized LOC104007162,1,No,NA,NA,13.09069509
+DPP10,DPP10,dipeptidyl peptidase like 10,1,No,13.08440665,NA,NA
+LOC107966870,LOC107966870,uncharacterized LOC107966870,1,No,NA,NA,12.89619787
+LOC129144234,LOC129144234,uncharacterized LOC129144234,1,No,NA,NA,12.87871098
+NR2E3,NR2E3,nuclear receptor subfamily 2 group E member 3,1,No,NA,NA,12.6579534
+OR2M4,OR2M4,olfactory receptor family 2 subfamily M member 4,1,No,NA,NA,12.62680679
+TENM4,TENM4,teneurin transmembrane protein 4,1,No,NA,NA,12.51695143
+LOC129143475,LOC129143475,uncharacterized LOC129143475,1,No,NA,NA,12.46759421
+TECRL,TECRL,trans-2%2C3-enoyl-CoA reductase like,1,No,NA,NA,12.23396294
+ERC1,ERC1,ELKS/RAB6-interacting/CAST family member 1,1,No,NA,NA,12.21567735
+PTPRE,PTPRE,protein tyrosine phosphatase receptor type E,1,No,NA,NA,12.19458421
+OR1D2,OR1D2,olfactory receptor family 1 subfamily D member 2,1,No,11.33428527,NA,NA
+GNG7,GNG7,G protein subunit gamma 7,1,No,11.27644012,NA,NA
+LOC104006775,LOC104006775,uncharacterized LOC104006775,1,No,11.25640861,NA,NA
+LOC129143874,LOC129143874,uncharacterized LOC129143874,1,No,11.22246879,NA,NA
+LOC104008393,ACSM1,acyl-coenzyme A synthetase ACSM1%2C mitochondrial-like,1,No,10.98618007,NA,NA
+CDH13,CDH13,cadherin 13,1,No,10.79196757,NA,NA
+PRIM2,PRIM2,DNA primase subunit 2,1,No,10.75061095,NA,NA
+LOC104003467,LOC104003467,olfactory receptor 1L4-like,1,No,10.7393058,NA,NA
+UGT2A2,UGT2A2,UDP glucuronosyltransferase family 2 member A2,1,No,10.53614579,NA,NA
+JPH3,JPH3,junctophilin 3,1,No,10.45756455,NA,NA
+LOC468717,C3P1,putative protein C3P1,1,No,10.31935743,NA,NA
+LOC134810809,LOC134810809,uncharacterized LOC134810809,1,No,NA,10.11559307,NA
+HBE1,HBE1,hemoglobin subunit epsilon 1,1,No,NA,9.558579522,NA
+LOC134809706,LOC134809706,uncharacterized LOC134809706,1,No,NA,9.385963438,NA
+ZNF845,ZNF845,zinc finger protein 845,1,No,NA,9.30026983,NA
+LOC134808004,LOC134808004,uncharacterized LOC134808004,1,No,NA,9.258360439,NA
+RASGEF1C,RASGEF1C,RasGEF domain family member 1C,1,No,NA,9.212230684,NA
+LOC129137268,HBA3L,hemoglobin subunit alpha-3-like,1,No,NA,9.002494182,NA
+TMEM132D,TMEM132D,transmembrane protein 132D,1,No,NA,8.91073588,NA
+LOC100608180,LILRB3,leukocyte immunoglobulin-like receptor subfamily B member 3-like,1,No,NA,8.700097319,NA
+PTPRN2,PTPRN2,protein tyrosine phosphatase receptor type N2,1,No,NA,8.672024509,NA
+ZNF578,ZNF578,zinc finger protein 578,1,No,NA,8.600245097,NA
+PTPRD,PTPRD,protein tyrosine phosphatase receptor type D,1,No,NA,8.523727536,NA
+LOC104001134,ZNF83,zinc finger protein 83,1,No,NA,8.518593964,NA
+CACNA1C,CACNA1C,calcium voltage-gated channel subunit alpha1 C,1,No,NA,8.451746342,NA
+DPP6,DPP6,dipeptidyl peptidase like 6,1,No,NA,8.423891228,NA
+LOC134810287,LOC134810287,uncharacterized LOC134810287,1,No,NA,8.396662807,NA
+DOCK1,DOCK1,dedicator of cytokinesis 1,1,No,NA,8.395839711,NA

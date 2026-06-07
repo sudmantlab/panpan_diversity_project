@@ -1,0 +1,165 @@
+source,term_id,term_name,p_value,p_value_raw,fold_enrichment,term_size,intersection_size,intersection,passes_fdr,background_used
+GO_BP,Cellular Response to Mineralocorticoid Stimulus (GO:0071389),Cellular Response to Mineralocorticoid Stimulus (GO:0071389),0.11073440144791902,0.014911622845291095,51.85666666666667,5,1,SCNN1D,FALSE,enrichr_default
+GO_BP,Cellular Response to Vasopressin (GO:1904117),Cellular Response to Vasopressin (GO:1904117),0.11073440144791902,0.014911622845291095,51.85666666666667,5,1,SCNN1D,FALSE,enrichr_default
+GO_BP,Response to Vasopressin (GO:1904116),Response to Vasopressin (GO:1904116),0.11073440144791902,0.014911622845291095,51.85666666666667,5,1,SCNN1D,FALSE,enrichr_default
+GO_BP,Regulation of Neutrophil Extravasation (GO:2000389),Regulation of Neutrophil Extravasation (GO:2000389),0.11073440144791902,0.014911622845291095,51.85666666666667,5,1,RIPOR2,FALSE,enrichr_default
+GO_BP,"Mitochondrial Electron Transport, Succinate to Ubiquinone (GO:0006121)","Mitochondrial Electron Transport, Succinate to Ubiquinone (GO:0006121)",0.11073440144791902,0.014911622845291095,51.85666666666667,5,1,SDHA,FALSE,enrichr_default
+GO_BP,Negative Regulation of Macrophage Chemotaxis (GO:0010760),Negative Regulation of Macrophage Chemotaxis (GO:0010760),0.11073440144791902,0.014911622845291095,51.85666666666667,5,1,DDT,FALSE,enrichr_default
+GO_BP,Induction of Bacterial Agglutination (GO:0043152),Induction of Bacterial Agglutination (GO:0043152),0.11073440144791902,0.014911622845291095,51.85666666666667,5,1,DMBT1,FALSE,enrichr_default
+GO_BP,Cellular Response to Aldehyde (GO:0110096),Cellular Response to Aldehyde (GO:0110096),0.11073440144791902,0.014911622845291095,51.85666666666667,5,1,SCNN1D,FALSE,enrichr_default
+GO_BP,Positive Regulation of Neutrophil Extravasation (GO:2000391),Positive Regulation of Neutrophil Extravasation (GO:2000391),0.11073440144791902,0.014911622845291095,51.85666666666667,5,1,RIPOR2,FALSE,enrichr_default
+GO_BP,Striated Muscle Hypertrophy (GO:0014897),Striated Muscle Hypertrophy (GO:0014897),0.11073440144791902,0.017867613092024802,43.21388888888889,6,1,TTN,FALSE,enrichr_default
+GO_BP,Negative Regulation of T Cell Migration (GO:2000405),Negative Regulation of T Cell Migration (GO:2000405),0.11073440144791902,0.017867613092024802,43.21388888888889,6,1,RIPOR2,FALSE,enrichr_default
+GO_BP,Clearance of Foreign Intracellular DNA (GO:0044355),Clearance of Foreign Intracellular DNA (GO:0044355),0.11073440144791902,0.017867613092024802,43.21388888888889,6,1,APOBEC3A,FALSE,enrichr_default
+GO_BP,Clearance of Foreign Intracellular Nucleic Acids (GO:0099046),Clearance of Foreign Intracellular Nucleic Acids (GO:0099046),0.11073440144791902,0.017867613092024802,43.21388888888889,6,1,APOBEC3A,FALSE,enrichr_default
+GO_BP,Skeletal Muscle Thin Filament Assembly (GO:0030240),Skeletal Muscle Thin Filament Assembly (GO:0030240),0.11073440144791902,0.017867613092024802,43.21388888888889,6,1,TTN,FALSE,enrichr_default
+GO_BP,Regulation of Establishment of T Cell Polarity (GO:1903903),Regulation of Establishment of T Cell Polarity (GO:1903903),0.11073440144791902,0.017867613092024802,43.21388888888889,6,1,RIPOR2,FALSE,enrichr_default
+GO_BP,Amino-acid Betaine Transport (GO:0015838),Amino-acid Betaine Transport (GO:0015838),0.11073440144791902,0.02081488183698653,37.04047619047619,7,1,SLC6A12,FALSE,enrichr_default
+GO_BP,Detection of Muscle Stretch (GO:0035995),Detection of Muscle Stretch (GO:0035995),0.11073440144791902,0.02081488183698653,37.04047619047619,7,1,TTN,FALSE,enrichr_default
+GO_BP,Sensory Perception of Itch (GO:0160025),Sensory Perception of Itch (GO:0160025),0.11073440144791902,0.02081488183698653,37.04047619047619,7,1,MRGPRX1,FALSE,enrichr_default
+GO_BP,Internal Peptidyl-Lysine Acetylation (GO:0018393),Internal Peptidyl-Lysine Acetylation (GO:0018393),0.11073440144791902,0.02081488183698653,37.04047619047619,7,1,NAT8,FALSE,enrichr_default
+GO_BP,RNA Surveillance (GO:0071025),RNA Surveillance (GO:0071025),0.11073440144791902,0.023753454121096106,32.41041666666667,8,1,UPF3A,FALSE,enrichr_default
+GO_BP,Positive Regulation of Apoptotic Cell Clearance (GO:2000427),Positive Regulation of Apoptotic Cell Clearance (GO:2000427),0.11073440144791902,0.023753454121096106,32.41041666666667,8,1,C4A,FALSE,enrichr_default
+GO_BP,Gamma-aminobutyric Acid Transport (GO:0015812),Gamma-aminobutyric Acid Transport (GO:0015812),0.11073440144791902,0.023753454121096106,32.41041666666667,8,1,SLC6A12,FALSE,enrichr_default
+GO_BP,Regulation of Apoptotic Cell Clearance (GO:2000425),Regulation of Apoptotic Cell Clearance (GO:2000425),0.11073440144791902,0.023753454121096106,32.41041666666667,8,1,C4A,FALSE,enrichr_default
+GO_BP,Hepoxilin Biosynthetic Process (GO:0051122),Hepoxilin Biosynthetic Process (GO:0051122),0.11073440144791902,0.023753454121096106,32.41041666666667,8,1,GSTM1,FALSE,enrichr_default
+GO_BP,Negative Regulation of Macrophage Migration (GO:1905522),Negative Regulation of Macrophage Migration (GO:1905522),0.11073440144791902,0.023753454121096106,32.41041666666667,8,1,DDT,FALSE,enrichr_default
+GO_BP,Cardiac Muscle Hypertrophy (GO:0003300),Cardiac Muscle Hypertrophy (GO:0003300),0.11073440144791902,0.023753454121096106,32.41041666666667,8,1,TTN,FALSE,enrichr_default
+GO_BP,Skeletal Myofibril Assembly (GO:0014866),Skeletal Myofibril Assembly (GO:0014866),0.11073440144791902,0.023753454121096106,32.41041666666667,8,1,TTN,FALSE,enrichr_default
+GO_BP,Positive Regulation of Myoblast Fusion (GO:1901741),Positive Regulation of Myoblast Fusion (GO:1901741),0.11073440144791902,0.023753454121096106,32.41041666666667,8,1,RIPOR2,FALSE,enrichr_default
+GO_BP,Galactose Catabolic Process (GO:0019388),Galactose Catabolic Process (GO:0019388),0.11073440144791902,0.026683354994549647,28.809259259259257,9,1,GLB1L2,FALSE,enrichr_default
+GO_BP,"Complement Activation, Classical Pathway (GO:0006958)","Complement Activation, Classical Pathway (GO:0006958)",0.11073440144791902,0.026683354994549647,28.809259259259257,9,1,C4A,FALSE,enrichr_default
+GO_BP,DNA Cytosine Deamination (GO:0070383),DNA Cytosine Deamination (GO:0070383),0.11073440144791902,0.026683354994549647,28.809259259259257,9,1,APOBEC3A,FALSE,enrichr_default
+GO_BP,Sensory Perception of Sour Taste (GO:0050915),Sensory Perception of Sour Taste (GO:0050915),0.11073440144791902,0.026683354994549647,28.809259259259257,9,1,SCNN1D,FALSE,enrichr_default
+GO_BP,Negative Regulation of Nervous System Process (GO:0031645),Negative Regulation of Nervous System Process (GO:0031645),0.11073440144791902,0.026683354994549647,28.809259259259257,9,1,MRGPRX1,FALSE,enrichr_default
+GO_BP,Neg Reg Single Stranded Viral RNA Replication via Double Stranded DNA Intermediate (GO:0045869),Neg Reg Single Stranded Viral RNA Replication via Double Stranded DNA Intermediate (GO:0045869),0.11073440144791902,0.02960460947305564,25.928333333333335,10,1,APOBEC3A,FALSE,enrichr_default
+GO_BP,"Neg Reg Nuclear-Transcribed mRNA Catabolic Process, Nonsense-Mediated Decay (GO:2000623)","Neg Reg Nuclear-Transcribed mRNA Catabolic Process, Nonsense-Mediated Decay (GO:2000623)",0.11073440144791902,0.02960460947305564,25.928333333333335,10,1,UPF3A,FALSE,enrichr_default
+GO_BP,Galactose Metabolic Process (GO:0006012),Galactose Metabolic Process (GO:0006012),0.11073440144791902,0.03251724254582002,23.57121212121212,11,1,GLB1L2,FALSE,enrichr_default
+GO_BP,"Complement Activation, GZMK Pathway (GO:0160257)","Complement Activation, GZMK Pathway (GO:0160257)",0.11073440144791902,0.035421279144613474,21.606944444444444,12,1,C4A,FALSE,enrichr_default
+GO_BP,Cytidine to Uridine Editing (GO:0016554),Cytidine to Uridine Editing (GO:0016554),0.11073440144791902,0.035421279144613474,21.606944444444444,12,1,APOBEC3A,FALSE,enrichr_default
+GO_BP,Positive Regulation of Gene Expression via Chromosomal CpG Island Demethylation (GO:0044029),Positive Regulation of Gene Expression via Chromosomal CpG Island Demethylation (GO:0044029),0.11073440144791902,0.035421279144613474,21.606944444444444,12,1,APOBEC3A,FALSE,enrichr_default
+GO_BP,Negative Regulation of Leukocyte Chemotaxis (GO:0002689),Negative Regulation of Leukocyte Chemotaxis (GO:0002689),0.11073440144791902,0.035421279144613474,21.606944444444444,12,1,DDT,FALSE,enrichr_default
+GO_BP,Humoral Immune Response Mediated by Circulating Immunoglobulin (GO:0002455),Humoral Immune Response Mediated by Circulating Immunoglobulin (GO:0002455),0.11073440144791902,0.035421279144613474,21.606944444444444,12,1,C4A,FALSE,enrichr_default
+GO_BP,Negative Regulation of Lymphocyte Migration (GO:2000402),Negative Regulation of Lymphocyte Migration (GO:2000402),0.11073440144791902,0.035421279144613474,21.606944444444444,12,1,RIPOR2,FALSE,enrichr_default
+GO_BP,Positive Regulation of Cellular Extravasation (GO:0002693),Positive Regulation of Cellular Extravasation (GO:0002693),0.11073440144791902,0.03831674414072702,19.944871794871794,13,1,RIPOR2,FALSE,enrichr_default
+GO_BP,Glucan Catabolic Process (GO:0009251),Glucan Catabolic Process (GO:0009251),0.11073440144791902,0.03831674414072702,19.944871794871794,13,1,MGAM,FALSE,enrichr_default
+GO_BP,"Complement Activation, Lectin Pathway (GO:0001867)","Complement Activation, Lectin Pathway (GO:0001867)",0.11073440144791902,0.03831674414072702,19.944871794871794,13,1,C4A,FALSE,enrichr_default
+GO_BP,Respiratory Electron Transport Chain (GO:0022904),Respiratory Electron Transport Chain (GO:0022904),0.11073440144791902,0.03831674414072702,19.944871794871794,13,1,SDHA,FALSE,enrichr_default
+GO_BP,DNA Deamination (GO:0045006),DNA Deamination (GO:0045006),0.11073440144791902,0.03831674414072702,19.944871794871794,13,1,APOBEC3A,FALSE,enrichr_default
+GO_BP,Reg of Single Stranded Viral RNA Replication via Double Stranded DNA Intermediate (GO:0045091),Reg of Single Stranded Viral RNA Replication via Double Stranded DNA Intermediate (GO:0045091),0.11073440144791902,0.03831674414072702,19.944871794871794,13,1,APOBEC3A,FALSE,enrichr_default
+GO_BP,Positive Regulation of Syncytium Formation by Plasma Membrane Fusion (GO:0060143),Positive Regulation of Syncytium Formation by Plasma Membrane Fusion (GO:0060143),0.11073440144791902,0.0412036623612398,18.520238095238096,14,1,RIPOR2,FALSE,enrichr_default
+GO_BP,Peptidyl-L-cysteine S-palmitoylation (GO:0018230),Peptidyl-L-cysteine S-palmitoylation (GO:0018230),0.11073440144791902,0.0412036623612398,18.520238095238096,14,1,ZDHHC11,FALSE,enrichr_default
+GO_BP,Peptidyl-S-diacylglycerol-L-cysteine Biosynthetic Process From Peptidyl-Cysteine (GO:0018231),Peptidyl-S-diacylglycerol-L-cysteine Biosynthetic Process From Peptidyl-Cysteine (GO:0018231),0.11073440144791902,0.0412036623612398,18.520238095238096,14,1,ZDHHC11,FALSE,enrichr_default
+GO_BP,Cardiac Cell Development (GO:0055006),Cardiac Cell Development (GO:0055006),0.11073440144791902,0.0412036623612398,18.520238095238096,14,1,TTN,FALSE,enrichr_default
+GO_BP,Response to Chemokine (GO:1990868),Response to Chemokine (GO:1990868),0.11073440144791902,0.044082058563485634,17.285555555555558,15,1,RIPOR2,FALSE,enrichr_default
+GO_BP,Response to Muscle Stretch (GO:0035994),Response to Muscle Stretch (GO:0035994),0.11073440144791902,0.044082058563485634,17.285555555555558,15,1,TTN,FALSE,enrichr_default
+GO_BP,Cardiac Myofibril Assembly (GO:0055003),Cardiac Myofibril Assembly (GO:0055003),0.11073440144791902,0.044082058563485634,17.285555555555558,15,1,TTN,FALSE,enrichr_default
+GO_BP,Muscle Filament Sliding (GO:0030049),Muscle Filament Sliding (GO:0030049),0.11073440144791902,0.044082058563485634,17.285555555555558,15,1,TTN,FALSE,enrichr_default
+GO_BP,Positive Regulation of Opsonization (GO:1903028),Positive Regulation of Opsonization (GO:1903028),0.11073440144791902,0.046951957438519945,16.205208333333335,16,1,C4A,FALSE,enrichr_default
+GO_BP,Positive Regulation of cAMP/PKA Signal Transduction (GO:0141163),Positive Regulation of cAMP/PKA Signal Transduction (GO:0141163),0.11073440144791902,0.046951957438519945,16.205208333333335,16,1,TTN,FALSE,enrichr_default
+GO_BP,Dendritic Cell Chemotaxis (GO:0002407),Dendritic Cell Chemotaxis (GO:0002407),0.11073440144791902,0.046951957438519945,16.205208333333335,16,1,TRPM2,FALSE,enrichr_default
+GO_BP,Regulation of Establishment of Cell Polarity (GO:2000114),Regulation of Establishment of Cell Polarity (GO:2000114),0.11073440144791902,0.046951957438519945,16.205208333333335,16,1,RIPOR2,FALSE,enrichr_default
+GO_BP,Regulation of Sensory Perception of Pain (GO:0051930),Regulation of Sensory Perception of Pain (GO:0051930),0.11073440144791902,0.046951957438519945,16.205208333333335,16,1,MRGPRX1,FALSE,enrichr_default
+GO_BP,Immune Response-Inhibiting Signal Transduction (GO:0002765),Immune Response-Inhibiting Signal Transduction (GO:0002765),0.11073440144791902,0.0046677803481146585,15.251960784313724,34,2,LILRA6;KIR2DL1,FALSE,enrichr_default
+GO_BP,Actin-myosin Filament Sliding (GO:0033275),Actin-myosin Filament Sliding (GO:0033275),0.11073440144791902,0.04981338361381649,15.251960784313724,17,1,TTN,FALSE,enrichr_default
+GO_BP,Base Conversion or Substitution Editing (GO:0016553),Base Conversion or Substitution Editing (GO:0016553),0.11073440144791902,0.04981338361381649,15.251960784313724,17,1,APOBEC3A,FALSE,enrichr_default
+GO_BP,Mitotic Chromosome Condensation (GO:0007076),Mitotic Chromosome Condensation (GO:0007076),0.11073440144791902,0.04981338361381649,15.251960784313724,17,1,TTN,FALSE,enrichr_default
+GO_BP,Protein Localization to Cell-Cell Junction (GO:0150105),Protein Localization to Cell-Cell Junction (GO:0150105),0.11073440144791902,0.04981338361381649,15.251960784313724,17,1,MPP7,FALSE,enrichr_default
+GO_BP,Regulation of Establishment or Maintenance of Cell Polarity (GO:0032878),Regulation of Establishment or Maintenance of Cell Polarity (GO:0032878),0.11073440144791902,0.04981338361381649,15.251960784313724,17,1,RIPOR2,FALSE,enrichr_default
+GO_BP,Kinetochore Organization (GO:0051383),Kinetochore Organization (GO:0051383),0.11073440144791902,0.04981338361381649,15.251960784313724,17,1,H3Y2,FALSE,enrichr_default
+GO_BP,Negative Regulation of Rho Protein Signal Transduction (GO:0035024),Negative Regulation of Rho Protein Signal Transduction (GO:0035024),0.11073440144791902,0.05266636166425417,14.404629629629628,18,1,RIPOR2,FALSE,enrichr_default
+GO_BP,Hexose Catabolic Process (GO:0019320),Hexose Catabolic Process (GO:0019320),0.11073440144791902,0.05266636166425417,14.404629629629628,18,1,GLB1L2,FALSE,enrichr_default
+GO_BP,Regulation of Opsonization (GO:1903027),Regulation of Opsonization (GO:1903027),0.11073440144791902,0.05266636166425417,14.404629629629628,18,1,C4A,FALSE,enrichr_default
+GO_BP,Sensory Perception of Taste (GO:0050909),Sensory Perception of Taste (GO:0050909),0.11073440144791902,0.05266636166425417,14.404629629629628,18,1,SCNN1D,FALSE,enrichr_default
+GO_BP,Muscle Tissue Morphogenesis (GO:0060415),Muscle Tissue Morphogenesis (GO:0060415),0.11073440144791902,0.05266636166425417,14.404629629629628,18,1,TTN,FALSE,enrichr_default
+GO_BP,Immune Response-Inhibiting Cell Surface Receptor Signaling Pathway (GO:0002767),Immune Response-Inhibiting Cell Surface Receptor Signaling Pathway (GO:0002767),0.11073440144791902,0.005509570625696538,14.015315315315316,37,2,LILRA6;KIR2DL1,FALSE,enrichr_default
+GO_BP,Regulation of Filopodium Assembly (GO:0051489),Regulation of Filopodium Assembly (GO:0051489),0.11073440144791902,0.00641557592818846,12.964166666666667,40,2,RIPOR2;TRPM2,FALSE,enrichr_default
+GO_BP,Immune Response-Regulating Cell Surface Receptor Signaling Pathway (GO:0002768),Immune Response-Regulating Cell Surface Receptor Signaling Pathway (GO:0002768),0.11073440144791902,0.009136597521628502,10.803472222222222,48,2,LILRA6;KIR2DL1,FALSE,enrichr_default
+GO_BP,Transcription Initiation-Coupled Chromatin Remodeling (GO:0045815),Transcription Initiation-Coupled Chromatin Remodeling (GO:0045815),0.11073440144791902,0.011458377583512931,9.603086419753087,54,2,FAM47E;APOBEC3A,FALSE,enrichr_default
+GO_BP,Cellular Response to Chemokine (GO:1990869),Cellular Response to Chemokine (GO:1990869),0.11073440144791902,0.014011066845737868,8.642777777777779,60,2,RIPOR2;MRGPRX1,FALSE,enrichr_default
+GO_BP,"Regulation of Nuclear-Transcribed mRNA Catabolic Process, Nonsense-Mediated Decay (GO:2000622)","Regulation of Nuclear-Transcribed mRNA Catabolic Process, Nonsense-Mediated Decay (GO:2000622)",0.1123924720544454,0.0555109160756712,13.646491228070175,19,1,UPF3A,FALSE,enrichr_default
+GO_BP,Electron Transport Chain (GO:0022900),Electron Transport Chain (GO:0022900),0.1123924720544454,0.0555109160756712,13.646491228070175,19,1,SDHA,FALSE,enrichr_default
+GO_BP,Cellular Response to Acidic pH (GO:0071468),Cellular Response to Acidic pH (GO:0071468),0.1123924720544454,0.0555109160756712,13.646491228070175,19,1,SCNN1D,FALSE,enrichr_default
+GO_BP,Detection of Mechanical Stimulus (GO:0050982),Detection of Mechanical Stimulus (GO:0050982),0.11391571060077552,0.058347071283324045,12.964166666666667,20,1,TTN,FALSE,enrichr_default
+GO_BP,Protein Palmitoylation (GO:0018345),Protein Palmitoylation (GO:0018345),0.11391571060077552,0.058347071283324045,12.964166666666667,20,1,ZDHHC11,FALSE,enrichr_default
+GO_BP,Positive Regulation of Neutrophil Chemotaxis (GO:0090023),Positive Regulation of Neutrophil Chemotaxis (GO:0090023),0.11391571060077552,0.058347071283324045,12.964166666666667,20,1,RIPOR2,FALSE,enrichr_default
+GO_BP,Dendritic Cell Migration (GO:0036336),Dendritic Cell Migration (GO:0036336),0.11704063503092162,0.06117485166375804,12.346825396825396,21,1,TRPM2,FALSE,enrichr_default
+GO_BP,Maintenance of Gastrointestinal Epithelium (GO:0030277),Maintenance of Gastrointestinal Epithelium (GO:0030277),0.11704063503092162,0.06399428148789535,11.78560606060606,22,1,MUC4,FALSE,enrichr_default
+GO_BP,Regulation of Macrophage Chemotaxis (GO:0010758),Regulation of Macrophage Chemotaxis (GO:0010758),0.11704063503092162,0.06399428148789535,11.78560606060606,22,1,DDT,FALSE,enrichr_default
+GO_BP,Positive Regulation of Granulocyte Chemotaxis (GO:0071624),Positive Regulation of Granulocyte Chemotaxis (GO:0071624),0.11704063503092162,0.06399428148789535,11.78560606060606,22,1,RIPOR2,FALSE,enrichr_default
+GO_BP,Kinetochore Assembly (GO:0051382),Kinetochore Assembly (GO:0051382),0.11704063503092162,0.06399428148789535,11.78560606060606,22,1,H3Y2,FALSE,enrichr_default
+GO_BP,Response to Acidic pH (GO:0010447),Response to Acidic pH (GO:0010447),0.11704063503092162,0.06680538499740091,11.273188405797102,23,1,SCNN1D,FALSE,enrichr_default
+GO_BP,Prostanoid Metabolic Process (GO:0006692),Prostanoid Metabolic Process (GO:0006692),0.11704063503092162,0.06680538499740091,11.273188405797102,23,1,GSTM1,FALSE,enrichr_default
+GO_BP,Zinc Ion Transmembrane Transport (GO:0071577),Zinc Ion Transmembrane Transport (GO:0071577),0.11704063503092162,0.06960818636657555,10.803472222222222,24,1,TRPM2,FALSE,enrichr_default
+GO_BP,Regulation of Mitotic Spindle Assembly (GO:1901673),Regulation of Mitotic Spindle Assembly (GO:1901673),0.11704063503092162,0.07240270966977591,10.371333333333332,25,1,RIPOR2,FALSE,enrichr_default
+GO_BP,Response to Purine-Containing Compound (GO:0014074),Response to Purine-Containing Compound (GO:0014074),0.11704063503092162,0.07240270966977591,10.371333333333332,25,1,TRPM2,FALSE,enrichr_default
+GO_BP,Zinc Ion Transport (GO:0006829),Zinc Ion Transport (GO:0006829),0.11704063503092162,0.07240270966977591,10.371333333333332,25,1,TRPM2,FALSE,enrichr_default
+GO_BP,Calcium Ion Import Across Plasma Membrane (GO:0098703),Calcium Ion Import Across Plasma Membrane (GO:0098703),0.11704063503092162,0.07240270966977591,10.371333333333332,25,1,TRPM2,FALSE,enrichr_default
+GO_BP,Sodium Ion Import Across Plasma Membrane (GO:0098719),Sodium Ion Import Across Plasma Membrane (GO:0098719),0.11704063503092162,0.07240270966977591,10.371333333333332,25,1,SCNN1D,FALSE,enrichr_default
+GO_BP,Cellular Response to pH (GO:0071467),Cellular Response to pH (GO:0071467),0.11704063503092162,0.07518897894221435,9.972435897435897,26,1,SCNN1D,FALSE,enrichr_default
+GO_BP,Long-chain Fatty Acid Biosynthetic Process (GO:0042759),Long-chain Fatty Acid Biosynthetic Process (GO:0042759),0.11704063503092162,0.07518897894221435,9.972435897435897,26,1,GSTM1,FALSE,enrichr_default
+GO_BP,Positive Regulation of Filopodium Assembly (GO:0051491),Positive Regulation of Filopodium Assembly (GO:0051491),0.11704063503092162,0.07518897894221435,9.972435897435897,26,1,RIPOR2,FALSE,enrichr_default
+GO_BP,Calcium Ion Import Into Cytosol (GO:1902656),Calcium Ion Import Into Cytosol (GO:1902656),0.11704063503092162,0.07518897894221435,9.972435897435897,26,1,TRPM2,FALSE,enrichr_default
+GO_BP,Cardiac Muscle Cell Development (GO:0055013),Cardiac Muscle Cell Development (GO:0055013),0.11704063503092162,0.07518897894221435,9.972435897435897,26,1,TTN,FALSE,enrichr_default
+GO_BP,Skeletal Muscle Contraction (GO:0003009),Skeletal Muscle Contraction (GO:0003009),0.11704063503092162,0.07518897894221435,9.972435897435897,26,1,TTN,FALSE,enrichr_default
+GO_BP,Amyloid Fibril Formation (GO:1990000),Amyloid Fibril Formation (GO:1990000),0.11704063503092162,0.07796701814188411,9.603086419753087,27,1,NAT8,FALSE,enrichr_default
+GO_BP,Regulation of T Cell Migration (GO:2000404),Regulation of T Cell Migration (GO:2000404),0.11704063503092162,0.07796701814188411,9.603086419753087,27,1,RIPOR2,FALSE,enrichr_default
+GO_BP,Dendritic Cell Differentiation (GO:0097028),Dendritic Cell Differentiation (GO:0097028),0.11704063503092162,0.07796701814188411,9.603086419753087,27,1,TRPM2,FALSE,enrichr_default
+GO_BP,Regulation of Neutrophil Chemotaxis (GO:0090022),Regulation of Neutrophil Chemotaxis (GO:0090022),0.11704063503092162,0.07796701814188411,9.603086419753087,27,1,RIPOR2,FALSE,enrichr_default
+GO_BP,Positive Regulation of Neutrophil Migration (GO:1902624),Positive Regulation of Neutrophil Migration (GO:1902624),0.11704063503092162,0.07796701814188411,9.603086419753087,27,1,RIPOR2,FALSE,enrichr_default
+GO_BP,"Nuclear-transcribed mRNA Catabolic Process, Nonsense-Mediated Decay (GO:0000184)","Nuclear-transcribed mRNA Catabolic Process, Nonsense-Mediated Decay (GO:0000184)",0.11704063503092162,0.08073685115740073,9.260119047619048,28,1,UPF3A,FALSE,enrichr_default
+GO_BP,Prostaglandin Metabolic Process (GO:0006693),Prostaglandin Metabolic Process (GO:0006693),0.11704063503092162,0.08073685115740073,9.260119047619048,28,1,GSTM1,FALSE,enrichr_default
+GO_BP,Cardiac Muscle Cell Differentiation (GO:0055007),Cardiac Muscle Cell Differentiation (GO:0055007),0.11704063503092162,0.08073685115740073,9.260119047619048,28,1,TTN,FALSE,enrichr_default
+GO_BP,Intracellular Sodium Ion Homeostasis (GO:0006883),Intracellular Sodium Ion Homeostasis (GO:0006883),0.11704063503092162,0.08073685115740073,9.260119047619048,28,1,SCNN1D,FALSE,enrichr_default
+GO_BP,Epithelial Structure Maintenance (GO:0010669),Epithelial Structure Maintenance (GO:0010669),0.11704063503092162,0.08073685115740073,9.260119047619048,28,1,MUC4,FALSE,enrichr_default
+GO_BP,Tricarboxylic Acid Cycle (GO:0006099),Tricarboxylic Acid Cycle (GO:0006099),0.11704063503092162,0.08349850182084043,8.940804597701149,29,1,SDHA,FALSE,enrichr_default
+GO_BP,Positive Regulation of Defense Response to Virus by Host (GO:0002230),Positive Regulation of Defense Response to Virus by Host (GO:0002230),0.11704063503092162,0.08349850182084043,8.940804597701149,29,1,ZDHHC11,FALSE,enrichr_default
+GO_BP,Bicellular Tight Junction Assembly (GO:0070830),Bicellular Tight Junction Assembly (GO:0070830),0.11704063503092162,0.08349850182084043,8.940804597701149,29,1,MPP7,FALSE,enrichr_default
+GO_BP,Striated Muscle Cell Development (GO:0055002),Striated Muscle Cell Development (GO:0055002),0.11704063503092162,0.08349850182084043,8.940804597701149,29,1,TTN,FALSE,enrichr_default
+GO_BP,Transposable Element Silencing (GO:0010526),Transposable Element Silencing (GO:0010526),0.11987565250526369,0.08625199387573851,8.642777777777779,30,1,APOBEC3A,FALSE,enrichr_default
+GO_BP,Xenobiotic Catabolic Process (GO:0042178),Xenobiotic Catabolic Process (GO:0042178),0.12265181148035043,0.0889973510131811,8.363978494623655,31,1,GSTM1,FALSE,enrichr_default
+GO_BP,Cardiac Muscle Tissue Morphogenesis (GO:0055008),Cardiac Muscle Tissue Morphogenesis (GO:0055008),0.1253706157320077,0.0917345968770788,8.102604166666667,32,1,TTN,FALSE,enrichr_default
+GO_BP,Calcium Ion Import (GO:0070509),Calcium Ion Import (GO:0070509),0.127506521707048,0.09446375498836009,7.857070707070707,33,1,TRPM2,FALSE,enrichr_default
+GO_BP,Regulation of Spindle Assembly (GO:0090169),Regulation of Spindle Assembly (GO:0090169),0.127506521707048,0.09718484886207925,7.625980392156862,34,1,RIPOR2,FALSE,enrichr_default
+GO_BP,Chromosome Condensation (GO:0030261),Chromosome Condensation (GO:0030261),0.127506521707048,0.09718484886207925,7.625980392156862,34,1,TTN,FALSE,enrichr_default
+GO_BP,Protein Localization to Chromatin (GO:0071168),Protein Localization to Chromatin (GO:0071168),0.127506521707048,0.09718484886207925,7.625980392156862,34,1,FAM47E,FALSE,enrichr_default
+GO_BP,Sodium Ion Homeostasis (GO:0055078),Sodium Ion Homeostasis (GO:0055078),0.127506521707048,0.09718484886207925,7.625980392156862,34,1,SCNN1D,FALSE,enrichr_default
+GO_BP,Cardiac Muscle Contraction (GO:0060048),Cardiac Muscle Contraction (GO:0060048),0.13002584057028393,0.0998979019015596,7.408095238095238,35,1,TTN,FALSE,enrichr_default
+GO_BP,Cellular Response to Hydrogen Peroxide (GO:0070301),Cellular Response to Hydrogen Peroxide (GO:0070301),0.13146001365444404,0.10260293748639536,7.202314814814814,36,1,TRPM2,FALSE,enrichr_default
+GO_BP,Sarcomere Organization (GO:0045214),Sarcomere Organization (GO:0045214),0.13146001365444404,0.10260293748639536,7.202314814814814,36,1,TTN,FALSE,enrichr_default
+GO_BP,Sulfur Compound Biosynthetic Process (GO:0044272),Sulfur Compound Biosynthetic Process (GO:0044272),0.13386974058647927,0.10529997887595016,7.007657657657658,37,1,GSTM1,FALSE,enrichr_default
+GO_BP,Apical Junction Assembly (GO:0043297),Apical Junction Assembly (GO:0043297),0.13416821278347357,0.1079890493135275,6.823245614035088,38,1,MPP7,FALSE,enrichr_default
+GO_BP,Calcium Ion Transmembrane Import Into Cytosol (GO:0097553),Calcium Ion Transmembrane Import Into Cytosol (GO:0097553),0.13416821278347357,0.1079890493135275,6.823245614035088,38,1,TRPM2,FALSE,enrichr_default
+GO_BP,Regulation of Defense Response to Virus by Host (GO:0050691),Regulation of Defense Response to Virus by Host (GO:0050691),0.13416821278347357,0.1079890493135275,6.823245614035088,38,1,ZDHHC11,FALSE,enrichr_default
+GO_BP,Tight Junction Assembly (GO:0120192),Tight Junction Assembly (GO:0120192),0.13646547517276572,0.11067017193888928,6.648290598290599,39,1,MPP7,FALSE,enrichr_default
+GO_BP,Negative Regulation of T Cell Proliferation (GO:0042130),Negative Regulation of T Cell Proliferation (GO:0042130),0.13871875116879576,0.11334336985743068,6.482083333333334,40,1,RIPOR2,FALSE,enrichr_default
+GO_BP,Carboxylic Acid Transport (GO:0046942),Carboxylic Acid Transport (GO:0046942),0.14000890437870256,0.11600866609252916,6.323983739837398,41,1,SLC6A12,FALSE,enrichr_default
+GO_BP,Positive Regulation of Stem Cell Population Maintenance (GO:1902459),Positive Regulation of Stem Cell Population Maintenance (GO:1902459),0.14000890437870256,0.1186660835892662,6.173412698412698,42,1,BRD9,FALSE,enrichr_default
+GO_BP,Glutathione Metabolic Process (GO:0006749),Glutathione Metabolic Process (GO:0006749),0.14000890437870256,0.1186660835892662,6.173412698412698,42,1,GSTM1,FALSE,enrichr_default
+GO_BP,Heart Contraction (GO:0060047),Heart Contraction (GO:0060047),0.14000890437870256,0.1186660835892662,6.173412698412698,42,1,TTN,FALSE,enrichr_default
+GO_BP,Positive Regulation of Myoblast Differentiation (GO:0045663),Positive Regulation of Myoblast Differentiation (GO:0045663),0.14000890437870256,0.1186660835892662,6.173412698412698,42,1,RIPOR2,FALSE,enrichr_default
+GO_BP,Response to Hydrogen Peroxide (GO:0042542),Response to Hydrogen Peroxide (GO:0042542),0.14211261302312098,0.12131564526363985,6.029844961240309,43,1,TRPM2,FALSE,enrichr_default
+GO_BP,Regulation of Mitotic Spindle Organization (GO:0060236),Regulation of Mitotic Spindle Organization (GO:0060236),0.1431620375092409,0.12395737394092808,5.89280303030303,44,1,RIPOR2,FALSE,enrichr_default
+GO_BP,Negative Regulation of Lymphocyte Proliferation (GO:0050672),Negative Regulation of Lymphocyte Proliferation (GO:0050672),0.1431620375092409,0.12395737394092808,5.89280303030303,44,1,RIPOR2,FALSE,enrichr_default
+GO_BP,"Positive Regulation of Gene Expression, Epigenetic (GO:0141137)","Positive Regulation of Gene Expression, Epigenetic (GO:0141137)",0.1471642875847363,0.1292174232451343,5.636594202898551,46,1,FAM47E,FALSE,enrichr_default
+GO_BP,Regulation of cAMP/PKA Signal Transduction (GO:0141161),Regulation of cAMP/PKA Signal Transduction (GO:0141161),0.1471642875847363,0.1292174232451343,5.636594202898551,46,1,TTN,FALSE,enrichr_default
+GO_BP,Negative Regulation of Viral Genome Replication (GO:0045071),Negative Regulation of Viral Genome Replication (GO:0045071),0.15102199799639218,0.1344464128504467,5.401736111111111,48,1,APOBEC3A,FALSE,enrichr_default
+GO_BP,Blood Circulation (GO:0008015),Blood Circulation (GO:0008015),0.15102199799639218,0.1344464128504467,5.401736111111111,48,1,LPA,FALSE,enrichr_default
+GO_BP,Negative Regulation of Small GTPase Mediated Signal Transduction (GO:0051058),Negative Regulation of Small GTPase Mediated Signal Transduction (GO:0051058),0.15289855734870947,0.13704931664792863,5.291496598639456,49,1,RIPOR2,FALSE,enrichr_default
+GO_BP,Positive Regulation of Immune System Process (GO:0002684),Positive Regulation of Immune System Process (GO:0002684),0.1547412282484072,0.13964452305344063,5.185666666666666,50,1,C4A,FALSE,enrichr_default
+GO_BP,Cellular Response to Ketone (GO:1901655),Cellular Response to Ketone (GO:1901655),0.1565507176473488,0.14223205444789616,5.083986928104575,51,1,SCNN1D,FALSE,enrichr_default
+GO_BP,Amino Acid Transport (GO:0006865),Amino Acid Transport (GO:0006865),0.15832771354339886,0.14481193311896237,4.9862179487179485,52,1,SLC6A12,FALSE,enrichr_default
+GO_BP,Cardiac Muscle Tissue Development (GO:0048738),Cardiac Muscle Tissue Development (GO:0048738),0.1600728857040559,0.1473841813494661,4.892138364779875,53,1,TTN,FALSE,enrichr_default
+GO_BP,Negative Regulation of mRNA Catabolic Process (GO:1902373),Negative Regulation of mRNA Catabolic Process (GO:1902373),0.16072945552832657,0.14994882131606077,4.801543209876543,54,1,UPF3A,FALSE,enrichr_default
+GO_BP,Myofibril Assembly (GO:0030239),Myofibril Assembly (GO:0030239),0.16072945552832657,0.14994882131606077,4.801543209876543,54,1,TTN,FALSE,enrichr_default
+GO_BP,Negative Regulation of T Cell Activation (GO:0050868),Negative Regulation of T Cell Activation (GO:0050868),0.1646239442764209,0.1575973125085249,4.548830409356725,57,1,RIPOR2,FALSE,enrichr_default
+GO_BP,Regulation of Myoblast Fusion (GO:1901739),Regulation of Myoblast Fusion (GO:1901739),0.1646239442764209,0.1575973125085249,4.548830409356725,57,1,RIPOR2,FALSE,enrichr_default
+GO_BP,Positive Regulation of Immune Effector Process (GO:0002699),Positive Regulation of Immune Effector Process (GO:0002699),0.1646239442764209,0.1575973125085249,4.548830409356725,57,1,C4A,FALSE,enrichr_default
+GO_BP,Mononuclear Cell Differentiation (GO:1903131),Mononuclear Cell Differentiation (GO:1903131),0.1646239442764209,0.1575973125085249,4.548830409356725,57,1,TRPM2,FALSE,enrichr_default
+GO_BP,Heart Morphogenesis (GO:0003007),Heart Morphogenesis (GO:0003007),0.16516732930324154,0.16013173999521588,4.4704022988505745,58,1,TTN,FALSE,enrichr_default
+GO_BP,Dicarboxylic Acid Metabolic Process (GO:0043648),Dicarboxylic Acid Metabolic Process (GO:0043648),0.16516732930324154,0.16013173999521588,4.4704022988505745,58,1,SDHA,FALSE,enrichr_default
+GO_BP,Chemokine-mediated Signaling Pathway (GO:0070098),Chemokine-mediated Signaling Pathway (GO:0070098),0.1651781219201507,0.16265866920323777,4.394632768361582,59,1,MRGPRX1,FALSE,enrichr_default
+GO_BP,Regulation of Myoblast Differentiation (GO:0045661),Regulation of Myoblast Differentiation (GO:0045661),0.1651781219201507,0.16265866920323777,4.394632768361582,59,1,RIPOR2,FALSE,enrichr_default
+GO_BP,Renal System Development (GO:0072001),Renal System Development (GO:0072001),0.1651781219201507,0.1651781219201507,4.321388888888889,60,1,ZNG1A,FALSE,enrichr_default
+GO_BP,Protein Localization to Chromosome (GO:0034502),Protein Localization to Chromosome (GO:0034502),0.1651781219201507,0.1651781219201507,4.321388888888889,60,1,FAM47E,FALSE,enrichr_default
+GO_BP,Cellular Response to Calcium Ion (GO:0071277),Cellular Response to Calcium Ion (GO:0071277),0.1651781219201507,0.1651781219201507,4.321388888888889,60,1,TRPM2,FALSE,enrichr_default

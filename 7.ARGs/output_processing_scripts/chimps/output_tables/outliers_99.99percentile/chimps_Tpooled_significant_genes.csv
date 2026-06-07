@@ -1,0 +1,140 @@
+chromosome,start,end,population,T_within_myr,Tpooled_Twithin_ratio,genes,gene_biotypes,descriptions,tr_overlap_percent,SRA_overlap_percent
+chr12_hap1_hsa2a,119177000,119178000,Eastern,20.93278291,0.955899702,ALLC,protein_coding,allantoicase,0,22.9
+chr12_hap1_hsa2a,119177000,119178000,Western,20.8776174,0.958425502,ALLC,protein_coding,allantoicase,0,22.9
+chr12_hap1_hsa2a,119177000,119178000,Central,20.74237465,0.964674551,ALLC,protein_coding,allantoicase,0,22.9
+chr5_hap1_hsa6,37158000,37159000,Central,20.06876256,0.524985349,PATR-C,protein_coding,major histocompatibility complex%2C class I%2C C,3.4,71.7
+chr5_hap1_hsa6,37156000,37157000,Central,19.84778304,0.536450455,NA,,,1.5,83.5
+chr14_hap1_hsa13,119821000,119822000,Western,18.65412794,0.976992974,LOC129136883,lncRNA,uncharacterized LOC129136883,1.9,50.4
+chr12_hap1_hsa2a,122144000,122145000,Eastern,18.19704249,0.901577668,LOC107971901,lncRNA,uncharacterized LOC107971901,0,45.2
+chr5_hap1_hsa6,180472000,180473000,Eastern,17.62524544,0.820729097,NA,,,0,23.6
+chr3_hap1_hsa4,145551000,145552000,Central,17.40441849,0.287245473,GYPB,protein_coding,glycophorin B (MNS blood group),1.9,45.7
+chr5_hap1_hsa6,38996000,38997000,Central,17.35836473,0.510990225,LOC100610904,protein_coding,HLA class II histocompatibility antigen%2C DP beta 1 chain-like,0,100
+chr14_hap1_hsa13,119821000,119822000,Central,17.23278527,1.057574365,LOC129136883,lncRNA,uncharacterized LOC129136883,1.9,50.4
+chr6_hap1_hsa7,9089000,9090000,Central,17.04236834,0.537548897,LOC112209743,lncRNA,uncharacterized LOC112209743,0,94.8
+chr20_hap1_hsa19,57039000,57040000,Central,16.76486981,0.552115194,LILRB3,protein_coding,leukocyte immunoglobulin like receptor B3,3.3,20.1
+chr12_hap1_hsa2a,122144000,122145000,Central,16.48840348,0.995005196,LOC107971901,lncRNA,uncharacterized LOC107971901,0,45.2
+chr16_hap1_hsa15,11037000,11038000,Central,16.35137811,0.250118351,LOC112205572,protein_coding,serine/threonine-protein kinase Nek4-like,2,69.3
+chr5_hap1_hsa6,37201000,37202000,Central,16.28124674,0.246294867,LOC134810328,protein_coding,uncharacterized LOC134810328,0,100
+chr7_hap1_hsa8,22927000,22928000,Central,16.26271097,0.531912932,SGCZ,protein_coding,sarcoglycan zeta,1.8,32.4
+chr15_hap1_hsa14,103314000,103315000,Eastern,16.22426184,0.691777801,BRF1,protein_coding,BRF1 RNA polymerase III transcription initiation factor subunit,0,21.2
+chr5_hap1_hsa6,36937000,36938000,Central,15.81037671,0.522669043,LOC462552,protein_coding,protein PBMUCL2,3,99.4
+chr7_hap1_hsa8,23866000,23867000,Central,15.63364583,0.556387048,TUSC3,protein_coding,tumor suppressor candidate 3,0,100
+chr5_hap1_hsa6,35850000,35851000,Central,15.39985908,0.507256987,PATR-A,protein_coding,patr class I histocompatibility antigen%2C A-126 alpha chain,3.6,37.1
+chr12_hap1_hsa2a,122144000,122145000,Western,15.3256286,1.070497502,LOC107971901,lncRNA,uncharacterized LOC107971901,0,45.2
+chr19_hap1_hsa17,12122000,12123000,Central,15.25318275,0.830530519,SCARF1,protein_coding,scavenger receptor class F member 1,2.9,26
+chr20_hap1_hsa19,55681000,55682000,Eastern,15.13668603,0.75673517,ZNF28,protein_coding,zinc finger protein 28,0,46
+chr5_hap1_hsa6,180472000,180473000,Western,15.12996129,0.956086503,NA,,,0,23.6
+chr20_hap1_hsa19,59150000,59151000,Central,15.1135137,0.641410667,ZSCAN5C,protein_coding,zinc finger and SCAN domain containing 5C,2.1,34.3
+chr5_hap1_hsa6,35852000,35853000,Eastern,14.93240902,0.688774681,PATR-A,protein_coding,patr class I histocompatibility antigen%2C A-126 alpha chain,3.1,24.7
+chr1_hap1_hsa1,216406000,216407000,Central,14.87367078,0.568053383,KAZN,protein_coding,kazrin%2C periplakin interacting protein,2.5,54.7
+chr19_hap1_hsa17,12122000,12123000,Eastern,14.76634639,0.857912543,SCARF1,protein_coding,scavenger receptor class F member 1,2.9,26
+chr14_hap1_hsa13,119821000,119822000,Eastern,14.696271,1.240107231,LOC129136883,lncRNA,uncharacterized LOC129136883,1.9,50.4
+chr1_hap1_hsa1,52229000,52230000,Central,14.3003813,0.288625357,LOC457604,protein_coding,complement factor H-related protein 4,2.6,77.5
+chr15_hap1_hsa14,103314000,103315000,Western,14.24882336,0.787684982,BRF1,protein_coding,BRF1 RNA polymerase III transcription initiation factor subunit,0,21.2
+chr5_hap1_hsa6,37159000,37160000,Eastern,13.97974674,0.777265986,PATR-C,protein_coding,major histocompatibility complex%2C class I%2C C,0,45.2
+chr6_hap1_hsa7,172006000,172007000,Central,13.8746788,0.501468011,NOM1,protein_coding,nucleolar protein with MIF4G domain 1,1.3,31.6
+chr8_hap1_hsa10,144937000,144938000,Eastern,13.87067742,0.609140858,INPP5A,protein_coding,inositol polyphosphate-5-phosphatase A,1.9,27.8
+chr1_hap1_hsa1,3705000,3706000,Eastern,13.75469751,0.869862192,KIF26B,protein_coding,kinesin family member 26B,4.5,42.9
+chr19_hap1_hsa17,96111000,96112000,Central,13.75048415,0.523605682,FN3K,protein_coding,fructosamine 3 kinase,3.3,30.9
+chr5_hap1_hsa6,70739000,70740000,Central,13.56404232,0.547106171,LOC100609532,protein_coding,protein eyes shut homolog,1.6,22.2
+chr12_hap1_hsa2a,91928000,91929000,Central,13.48976078,0.55532638,GALNT14,protein_coding,polypeptide N-acetylgalactosaminyltransferase 14,1.6,92.9
+chr20_hap1_hsa19,57405000,57406000,Central,13.4667052,0.53474455,LILRA2,protein_coding,leukocyte immunoglobulin-like receptor%2C subfamily A (with TM domain)%2C member 2,4.8,86.5
+chr14_hap1_hsa13,83339000,83340000,Central,13.44786477,0.513434064,LOC100611617,protein_coding,putative UPF0607 protein ENSP00000383144,0,23.1
+chr5_hap1_hsa6,36034000,36035000,Central,13.38847949,0.538884206,TRIM31,protein_coding,tripartite motif containing 31,0,100
+chr4_hap1_hsa5,2685000,2686000,Central,13.35729252,0.550371111,LOC104006320,lncRNA,uncharacterized LOC104006320,0,72.2
+chr20_hap1_hsa19,59150000,59151000,Eastern,13.21705038,0.733444196,ZSCAN5C,protein_coding,zinc finger and SCAN domain containing 5C,2.1,34.3
+chr19_hap1_hsa17,95903000,95904000,Western,13.11667411,0.814194758,FOXK2,protein_coding,forkhead box K2,0,30.5
+chr6_hap1_hsa7,44125000,44126000,Central,13.09069509,0.496458982,LOC104007162,lncRNA,uncharacterized LOC104007162,1.9,94.4
+chr13_hap1_hsa2b,16069000,16070000,Eastern,13.08440665,0.393119292,DPP10,protein_coding,dipeptidyl peptidase like 10,1.1,29.2
+chr20_hap1_hsa19,57039000,57040000,Eastern,12.99903679,0.712063477,LILRB3,protein_coding,leukocyte immunoglobulin like receptor B3,3.3,20.1
+chr1_hap1_hsa1,170226000,170227000,Central,12.89619787,0.322111206,LOC107966870,protein_coding,uncharacterized LOC107966870,1.5,51.4
+chr5_hap1_hsa6,38776000,38777000,Central,12.87871098,0.540903558,LOC129144234,lncRNA,uncharacterized LOC129144234,4.9,65.4
+chr7_hap1_hsa8,8112000,8113000,Eastern,12.87276612,0.408202139,DLGAP2,protein_coding,DLG associated protein 2,0,72.6
+chr19_hap1_hsa17,12122000,12123000,Western,12.71814587,0.996075521,SCARF1,protein_coding,scavenger receptor class F member 1,2.9,26
+chr16_hap1_hsa15,63800000,63801000,Central,12.6579534,0.415554146,NR2E3,protein_coding,nuclear receptor subfamily 2 group E member 3,2.3,70.1
+chr5_hap1_hsa6,37194000,37195000,Eastern,12.64128231,0.716661834,LOC134810328,protein_coding,uncharacterized LOC134810328,0,75.7
+chr1_hap1_hsa1,878000,879000,Central,12.62680679,0.528413226,OR2M4,protein_coding,olfactory receptor family 2 subfamily M member 4,1.8,100
+chr2_hap1_hsa3,201291000,201292000,Eastern,12.5900622,0.525768061,LOC104005939,protein_coding,uncharacterized LOC104005939,1.6,42.1
+chr5_hap1_hsa6,38996000,38997000,Eastern,12.53644146,0.707533692,LOC100610904,protein_coding,HLA class II histocompatibility antigen%2C DP beta 1 chain-like,0,100
+chr9_hap1_hsa11,82149000,82150000,Central,12.51695143,0.56765466,TENM4,protein_coding,teneurin transmembrane protein 4,1.2,99.9
+chr2_hap1_hsa3,10360000,10361000,Central,12.46759421,0.57473596,LOC129143475,lncRNA,uncharacterized LOC129143475,1.2,26
+chr1_hap1_hsa1,3785000,3786000,Central,12.42428007,0.449337737,KIF26B,protein_coding,kinesin family member 26B,1.4,21.5
+chr20_hap1_hsa19,55681000,55682000,Western,12.39701537,0.923969385,ZNF28,protein_coding,zinc finger protein 28,0,46
+chr2_hap1_hsa3,201291000,201292000,Central,12.35193804,0.535903966,LOC104005939,protein_coding,uncharacterized LOC104005939,1.6,42.1
+chr3_hap1_hsa4,65578000,65579000,Central,12.23396294,0.522522588,TECRL,protein_coding,trans-2%2C3-enoyl-CoA reductase like,0,59.9
+chr10_hap1_hsa12,8607000,8608000,Central,12.21567735,0.556294492,ERC1,protein_coding,ELKS/RAB6-interacting/CAST family member 1,2,98.1
+chr11_hap1_hsa9,115597000,115598000,Central,12.19952191,0.643251872,DOCK8,protein_coding,dedicator of cytokinesis 8,3.8,87.4
+chr8_hap1_hsa10,140179000,140180000,Central,12.19458421,0.494192647,PTPRE,protein_coding,protein tyrosine phosphatase receptor type E,0,48.1
+chr11_hap1_hsa9,115597000,115598000,Eastern,12.17747455,0.644416481,DOCK8,protein_coding,dedicator of cytokinesis 8,3.8,87.4
+chr7_hap1_hsa8,10417000,10418000,Eastern,12.07830767,0.444766616,CSMD1,protein_coding,CUB and Sushi multiple domains 1,3.3,99.9
+chr6_hap1_hsa7,9089000,9090000,Eastern,12.06845713,0.759095069,LOC112209743,lncRNA,uncharacterized LOC112209743,0,94.8
+chr8_hap1_hsa10,14256000,14257000,Eastern,12.00956179,0.737190132,ADARB2,protein_coding,adenosine deaminase RNA specific B2 (inactive),1.5,34.7
+chr1_hap1_hsa1,3705000,3706000,Western,11.91348617,1.004298083,KIF26B,protein_coding,kinesin family member 26B,4.5,42.9
+chr5_hap1_hsa6,37159000,37160000,Western,11.75983593,0.923990921,PATR-C,protein_coding,major histocompatibility complex%2C class I%2C C,0,45.2
+chr7_hap1_hsa8,23866000,23867000,Eastern,11.60951478,0.749243894,TUSC3,protein_coding,tumor suppressor candidate 3,0,100
+chr5_hap1_hsa6,37194000,37195000,Western,11.45533455,0.790856394,LOC134810328,protein_coding,uncharacterized LOC134810328,0,75.7
+chr19_hap1_hsa17,13589000,13590000,Eastern,11.33428527,0.575251054,OR1D2,protein_coding,olfactory receptor family 1 subfamily D member 2,0,99.9
+chr17_hap1_hsa18,87050000,87051000,Eastern,11.31123704,0.814129186,MBP,protein_coding,myelin basic protein,2.1,71.1
+chr20_hap1_hsa19,4977000,4978000,Eastern,11.27644012,0.655516435,GNG7,protein_coding,G protein subunit gamma 7,2.6,49.5
+chr5_hap1_hsa6,35856000,35857000,Eastern,11.25640861,0.53298386,LOC104006775,protein_coding,uncharacterized LOC104006775,0,46.8
+chr3_hap1_hsa4,173184000,173185000,Eastern,11.22246879,0.689542105,LOC129143874,lncRNA,uncharacterized LOC129143874,2.2,99.5
+chr19_hap1_hsa17,95903000,95904000,Eastern,11.11962431,0.960421595,FOXK2,protein_coding,forkhead box K2,0,30.5
+chr23_hap1_hsa22,49125000,49126000,Eastern,11.03996547,0.620608002,TBC1D22A,protein_coding,TBC1 domain family member 22A,2.4,68.8
+chr9_hap1_hsa11,7603000,7604000,Eastern,10.98618007,0.399139273,LOC104008393,protein_coding,acyl-coenzyme A synthetase ACSM1%2C mitochondrial-like,0,77.3
+chr5_hap1_hsa6,35852000,35853000,Western,10.93109785,0.940899569,PATR-A,protein_coding,patr class I histocompatibility antigen%2C A-126 alpha chain,3.1,24.7
+chr18_hap1_hsa16,2784000,2785000,Eastern,10.87246341,0.820009552,RAB11FIP3,protein_coding,RAB11 family interacting protein 3,3.2,53.2
+chr7_hap1_hsa8,22927000,22928000,Eastern,10.8649854,0.796167317,SGCZ,protein_coding,sarcoglycan zeta,1.8,32.4
+chr7_hap1_hsa8,59049000,59050000,Eastern,10.83545987,0.694336697,SNTG1,protein_coding,syntrophin gamma 1,0,53.9
+chr20_hap1_hsa19,57196000,57197000,Eastern,10.82428459,0.523273673,LAIR1,protein_coding,leukocyte associated immunoglobulin like receptor 1,1.1,20.4
+chr18_hap1_hsa16,81860000,81861000,Eastern,10.79196757,0.616092834,CDH13,protein_coding,cadherin 13,0,100
+chr5_hap1_hsa6,36937000,36938000,Eastern,10.76912007,0.76734166,LOC462552,protein_coding,protein PBMUCL2,3,99.4
+chr5_hap1_hsa6,63297000,63298000,Eastern,10.75061095,0.575408542,PRIM2,protein_coding,DNA primase subunit 2,4.3,41.1
+chr20_hap1_hsa19,59663000,59664000,Eastern,10.7393058,0.461549611,LOC104003467,protein_coding,olfactory receptor 1L4-like,2.4,82.3
+chr1_hap1_hsa1,52229000,52230000,Eastern,10.65518891,0.387365507,LOC457604,protein_coding,complement factor H-related protein 4,2.6,77.5
+chr12_hap1_hsa2a,91928000,91929000,Eastern,10.59354608,0.707149425,GALNT14,protein_coding,polypeptide N-acetylgalactosaminyltransferase 14,1.6,92.9
+chr20_hap1_hsa19,57405000,57406000,Eastern,10.57326783,0.681080564,LILRA2,protein_coding,leukocyte immunoglobulin-like receptor%2C subfamily A (with TM domain)%2C member 2,4.8,86.5
+chr3_hap1_hsa4,60560000,60561000,Eastern,10.53614579,0.470954577,UGT2A2,protein_coding,UDP glucuronosyltransferase family 2 member A2,0,54.6
+chr5_hap1_hsa6,37246000,37247000,Eastern,10.50844786,0.614666,PATR-B,protein_coding,major histocompatibility complex%2C class I%2C B,0,100
+chr18_hap1_hsa16,85800000,85801000,Eastern,10.45756455,0.579651851,JPH3,protein_coding,junctophilin 3,1.5,90.8
+chr20_hap1_hsa19,57454000,57455000,Eastern,10.44177012,0.663101566,LILRB1,protein_coding,leukocyte immunoglobulin like receptor B1,2.8,81.7
+chr20_hap1_hsa19,55778000,55779000,Eastern,10.43049037,0.810310947,ZNF888,protein_coding,zinc finger protein 888,1.4,46.5
+chr4_hap1_hsa5,2382000,2383000,Eastern,10.41930429,0.740180086,LOC104006319,lncRNA,uncharacterized LOC104006319,0,28.1
+chr20_hap1_hsa19,12788000,12789000,Eastern,10.31935743,0.725400802,LOC468717,protein_coding,putative protein C3P1,1.4,50.6
+chr8_hap1_hsa10,14260000,14261000,Western,10.29291979,0.856799133,ADARB2,protein_coding,adenosine deaminase RNA specific B2 (inactive),0,32.7
+chr20_hap1_hsa19,55778000,55779000,Western,10.19019179,0.829419181,ZNF888,protein_coding,zinc finger protein 888,1.4,46.5
+chr7_hap1_hsa8,14190000,14191000,Western,10.11559307,0.75641379,LOC134810809,lncRNA,uncharacterized LOC134810809,3.7,38.5
+chr17_hap1_hsa18,87050000,87051000,Western,9.828833334,0.936917729,MBP,protein_coding,myelin basic protein,2.1,71.1
+chr8_hap1_hsa10,144937000,144938000,Western,9.737919755,0.86765927,INPP5A,protein_coding,inositol polyphosphate-5-phosphatase A,1.9,27.8
+chr6_hap1_hsa7,9089000,9090000,Western,9.649492487,0.949387371,LOC112209743,lncRNA,uncharacterized LOC112209743,0,94.8
+chr9_hap1_hsa11,9603000,9604000,Western,9.558579522,0.659532466,HBE1,protein_coding,hemoglobin subunit epsilon 1,4.4,57.1
+chr1_hap1_hsa1,217111000,217112000,Western,9.472940496,0.924392716,KAZN,protein_coding,kazrin%2C periplakin interacting protein,0,100
+chr23_hap1_hsa22,49928000,49929000,Western,9.385963438,0.892169149,LOC134809706,lncRNA,uncharacterized LOC134809706,1.9,93.3
+chr7_hap1_hsa8,23866000,23867000,Western,9.370026624,0.928317326,TUSC3,protein_coding,tumor suppressor candidate 3,0,100
+chr11_hap1_hsa9,115550000,115551000,Western,9.368138378,0.654382479,DOCK8,protein_coding,dedicator of cytokinesis 8,2.7,87.7
+chr4_hap1_hsa5,2382000,2383000,Western,9.332236282,0.826400159,LOC104006319,lncRNA,uncharacterized LOC104006319,0,28.1
+chr20_hap1_hsa19,56170000,56171000,Western,9.30026983,0.943099775,ZNF845,protein_coding,zinc finger protein 845,3.4,29.5
+chr13_hap1_hsa2b,111028000,111029000,Western,9.258360439,0.971731181,LOC134808004,lncRNA,uncharacterized LOC134808004,0,31.5
+chr4_hap1_hsa5,177595000,177596000,Western,9.212230684,0.909752921,RASGEF1C,protein_coding,RasGEF domain family member 1C,0,27.8
+chr7_hap1_hsa8,59049000,59050000,Western,9.175585575,0.819943028,SNTG1,protein_coding,syntrophin gamma 1,0,53.9
+chr5_hap1_hsa6,38996000,38997000,Western,9.135152675,0.970969509,LOC100610904,protein_coding,HLA class II histocompatibility antigen%2C DP beta 1 chain-like,0,100
+chr18_hap1_hsa16,2513000,2514000,Western,9.002494182,0.834450844,LOC129137268,protein_coding,hemoglobin subunit alpha-3-like,0,27.8
+chr5_hap1_hsa6,37245000,37246000,Western,8.94280176,0.888917804,PATR-B,protein_coding,major histocompatibility complex%2C class I%2C B,1.5,49.3
+chr10_hap1_hsa12,136657000,136658000,Western,8.91073588,0.922251493,TMEM132D,protein_coding,transmembrane protein 132D,1.2,48.5
+chr7_hap1_hsa8,22633000,22634000,Western,8.852806957,0.902313804,SGCZ,protein_coding,sarcoglycan zeta,0,99.8
+chr20_hap1_hsa19,57039000,57040000,Western,8.852540082,1.04559135,LILRB3,protein_coding,leukocyte immunoglobulin like receptor B3,3.3,20.1
+chr20_hap1_hsa19,57454000,57455000,Western,8.838027261,0.783427558,LILRB1,protein_coding,leukocyte immunoglobulin like receptor B1,2.8,81.7
+chr7_hap1_hsa8,11667000,11668000,Western,8.797444011,0.721475447,CSMD1,protein_coding,CUB and Sushi multiple domains 1,0,99.9
+chr20_hap1_hsa19,57549000,57550000,Western,8.700097319,0.767494447,LOC100608180,protein_coding,leukocyte immunoglobulin-like receptor subfamily B member 3-like,2.1,86.7
+chr6_hap1_hsa7,173146000,173147000,Western,8.672024509,0.956144419,PTPRN2,protein_coding,protein tyrosine phosphatase receptor type N2,0,43.2
+chr18_hap1_hsa16,2784000,2785000,Western,8.669924552,1.028327731,RAB11FIP3,protein_coding,RAB11 family interacting protein 3,3.2,53.2
+chr20_hap1_hsa19,55368000,55369000,Western,8.600245097,0.800447264,ZNF578,protein_coding,zinc finger protein 578,3.2,33.2
+chr23_hap1_hsa22,48857000,48858000,Western,8.526972512,0.939178191,TBC1D22A,protein_coding,TBC1 domain family member 22A,1.2,33.3
+chr11_hap1_hsa9,106274000,106275000,Western,8.523727536,0.807567389,PTPRD,protein_coding,protein tyrosine phosphatase receptor type D,1.4,44.9
+chr20_hap1_hsa19,55570000,55571000,Western,8.518593964,0.722779852,LOC104001134,protein_coding,zinc finger protein 83,0,47.3
+chr20_hap1_hsa19,59141000,59142000,Western,8.494154684,0.741469739,ZSCAN5C,protein_coding,zinc finger and SCAN domain containing 5C,0.4,40.4
+chr10_hap1_hsa12,9611000,9612000,Western,8.451746342,0.888066559,CACNA1C,protein_coding,calcium voltage-gated channel subunit alpha1 C,3.9,79.2
+chr6_hap1_hsa7,169780000,169781000,Western,8.423891228,0.729352825,DPP6,protein_coding,dipeptidyl peptidase like 6,0,36.7
+chr7_hap1_hsa8,8247000,8248000,Western,8.402475801,0.845057085,DLGAP2,protein_coding,DLG associated protein 2,0,44.9
+chr5_hap1_hsa6,38294000,38295000,Western,8.396662807,0.887019107,LOC134810287,lncRNA,uncharacterized LOC134810287,2.5,43.9
+chr8_hap1_hsa10,139431000,139432000,Western,8.395839711,0.934789068,DOCK1,protein_coding,dedicator of cytokinesis 1,2.5,75.6
+chr20_hap1_hsa19,57196000,57197000,Western,8.360856762,0.677450089,LAIR1,protein_coding,leukocyte associated immunoglobulin like receptor 1,1.1,20.4

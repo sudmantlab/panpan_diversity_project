@@ -1,0 +1,58 @@
+genes,genes_renamed,descriptions,num_populations,is_shared,Central,Eastern,Western
+TPGS1,TPGS1,tubulin polyglutamylase complex subunit 1,1,No,33537.63543,NA,NA
+CIMAP1D,CIMAP1D,CIMAP1 family member D,1,No,32796.48979,NA,NA
+CDC34,CDC34,cell division cycle 34%2C ubiqiutin conjugating enzyme,1,No,24659.7911,NA,NA
+C2CD4C,C2CD4C,C2 calcium dependent domain containing 4C,1,No,24195.47339,NA,NA
+GZMM,GZMM,granzyme M,1,No,20324.40226,NA,NA
+MADCAM1,MADCAM1,mucosal vascular addressin cell adhesion molecule 1,1,No,15818.74697,NA,NA
+LOC134808285,,uncharacterized LOC134808285,1,No,12633.71694,NA,NA
+LOC104002008,,uncharacterized LOC104002008,1,No,11515.60738,NA,NA
+CUX1,CUX1,cut like homeobox 1,1,No,9719.091682,NA,NA
+LOC129136972,,uncharacterized LOC129136972,1,No,9422.701299,NA,NA
+PDXK,PDXK,pyridoxal kinase,1,No,9405.619467,NA,NA
+PRKRIP1,PRKRIP1,PRKR interacting protein 1,1,No,9348.379043,NA,NA
+LOC129137059,,uncharacterized LOC129137059,1,No,8503.272718,NA,NA
+COL26A1,COL26A1,collagen type XXVI alpha 1 chain,1,No,8492.801829,NA,NA
+LOC129137058,,uncharacterized LOC129137058,1,No,8256.995668,NA,NA
+SLC25A21,SLC25A21,solute carrier family 25 member 21,1,No,8243.395735,NA,NA
+LOC129144502,PMS2,putative postmeiotic segregation increased 2-like protein 2,1,No,7623.253133,NA,NA
+RRP1,RRP1,ribosomal RNA processing 1,1,No,7424.922517,NA,NA
+AGPAT3,AGPAT3,1-acylglycerol-3-phosphate O-acyltransferase 3,1,No,7266.394629,NA,NA
+LOC742087,RASA4,ras GTPase-activating protein 4,1,No,7201.147549,NA,NA
+SLC35F5,SLC35F5,solute carrier family 35 member F5,1,No,6718.773047,NA,NA
+RABL2A,RABL2A,RAB%2C member of RAS oncogene family like 2A,1,No,6624.535141,NA,NA
+LOC134806971,IGHV4-30-4,immunoglobulin heavy variable 4-30-4-like,1,No,NA,1185.464692,NA
+DBNDD1,DBNDD1,dysbindin domain containing 1,1,No,NA,822.827161,NA
+LOC104002732,AFG3L1 ,AFG3-like protein 1,1,No,NA,751.2923489,NA
+TCF25,TCF25,transcription factor 25,1,No,NA,709.1442701,NA
+SPIRE2,SPIRE2,spire type actin nucleation factor 2,1,No,NA,634.7265992,NA
+DEF8,DEF8,differentially expressed in FDCP 8 homolog,1,No,NA,604.9797036,NA
+LOC749440,IGHV4-34,immunoglobulin heavy variable 4-34-like,1,No,NA,588.4191708,NA
+LOC129144371,EYS,protein eyes shut homolog,1,No,NA,424.7220532,NA
+SNTG1,SNTG1,syntrophin gamma 1,1,No,NA,403.6439821,NA
+VPS9D1,VPS9D1,VPS9 domain containing 1,1,No,NA,396.195394,NA
+LOC134808397,,uncharacterized LOC134808397,1,No,NA,378.1114972,NA
+ZNF276,ZNF276,zinc finger protein 276,1,No,NA,366.1651144,NA
+LOC134808778,AFG3L1,AFG3-like protein 1,1,No,NA,352.2128099,NA
+LOC129138080,HRES-1,putative HTLV-1-related endogenous sequence,1,No,NA,324.9936561,NA
+FANCA,FANCA,FA complementation group A,1,No,NA,312.3883692,NA
+CDK10,CDK10,cyclin dependent kinase 10,1,No,NA,290.9415353,NA
+PLPP2,PLPP2,phospholipid phosphatase 2,1,No,NA,285.0971772,NA
+LOC744594,IGHV4-38-2,immunoglobulin heavy variable 4-38-2-like,1,No,NA,270.6198431,NA
+GAS8,GAS8,growth arrest specific 8,1,No,NA,252.3669676,NA
+SPATA2L,SPATA2L,spermatogenesis associated 2 like,1,No,NA,238.9374436,NA
+SPATA33,SPATA33,spermatogenesis associated 33,1,No,NA,237.0203885,NA
+TUBB3,TUBB3,tubulin beta 3 class III,1,No,NA,235.9101064,NA
+RASA3,RASA3,RAS p21 protein activator 3,1,No,NA,NA,4.321484006
+B3GNTL1,B3GNTL1,UDP-GlcNAc:betaGal beta-1%2C3-N-acetylglucosaminyltransferase like 1,1,No,NA,NA,3.548374514
+DISC1,DISC1,DISC1 scaffold protein,1,No,NA,NA,3.260217451
+LOC104006793,HLA-DRB3,HLA class II histocompatibility antigen%2C DR beta 3 chain,1,No,NA,NA,3.154965579
+PATJ,PATJ,PATJ crumbs cell polarity complex component,1,No,NA,NA,2.999659892
+LOC100614746,,uncharacterized LOC100614746,1,No,NA,NA,2.940806931
+AGA-DT,AGA-DT,AGA divergent transcript,1,No,NA,NA,2.874499358
+FHIP2A,FHIP2A,FHF complex subunit HOOK interacting protein 2A,1,No,NA,NA,2.542219264
+LOC134809569,,uncharacterized LOC134809569,1,No,NA,NA,2.503103542
+SMIM31,SMIM31,small integral membrane protein 31,1,No,NA,NA,2.492033368
+EXD3,EXD3,exonuclease 3'-5' domain containing 3,1,No,NA,NA,2.478643537
+SORCS2,SORCS2,sortilin related VPS10 domain containing receptor 2,1,No,NA,NA,2.457890331
+LY9,LY9,lymphocyte antigen 9,1,No,NA,NA,2.437296984

@@ -1,0 +1,777 @@
+genes,descriptions,num_populations,is_shared,Central,Western,Eastern
+LOC129136883,uncharacterized LOC129136883,3,Yes,32.38735479,31.68471502,19.26749968
+NA,,3,Yes,28.03015322,29.88059706,27.13019107
+ALLC,allantoicase,3,Yes,29.70786227,24.35938365,20.93278291
+GMDS,GDP-mannose 4%2C6-dehydratase,3,Yes,28.3218104,23.21423825,23.0291582
+LOC107976215,uncharacterized LOC107976215,3,Yes,27.04184147,24.35764711,21.9849777
+DLGAP2,DLG associated protein 2,3,Yes,26.27397625,23.45186952,26.46837961
+PIWIL1,piwi like RNA-mediated gene silencing 1,3,Yes,18.76862586,26.45114629,21.1722783
+BOP1,BOP1 ribosomal biogenesis factor,3,Yes,26.16517708,24.55345428,26.39797013
+INPP5A,inositol polyphosphate-5-phosphatase A,3,Yes,24.32935059,20.6929235,26.11480833
+LOC129138021,ret finger protein-like 4A,3,Yes,26.05554915,12.23613547,18.02796185
+SMYD3,SET and MYND domain containing 3,3,Yes,19.88435305,20.18611656,25.95287578
+ADARB1,adenosine deaminase RNA specific B1,3,Yes,25.80992588,20.55247124,22.46384857
+KCNG2,potassium voltage-gated channel modifier subfamily G member 2,3,Yes,25.55792965,17.57293617,22.13069148
+CFAP46,cilia and flagella associated protein 46,3,Yes,25.20296934,7.661946969,15.41065262
+TALDO1,transaldolase 1,3,Yes,24.8649852,20.55321297,21.19750048
+PTPRN2,protein tyrosine phosphatase receptor type N2,3,Yes,24.69589233,19.31481779,17.06446313
+KIR3DL5,killer cell immunoglobulin-like receptor,3,Yes,24.63672584,18.19922896,16.19546096
+NLRP4,NLR family pyrin domain containing 4,3,Yes,24.28172782,20.73612086,16.12027471
+SFSWAP,splicing factor SWAP,3,Yes,24.2700617,12.88630975,13.02531479
+LOC134809635,uncharacterized LOC134809635,3,Yes,15.80033181,21.79383814,23.28322024
+LOC112207721,MAM and LDL-receptor class A domain-containing protein 2-like,3,Yes,23.17506313,15.61685844,21.04980858
+ERC1,ELKS/RAB6-interacting/CAST family member 1,3,Yes,21.33483392,23.10082864,16.03827377
+MBP,myelin basic protein,3,Yes,21.66054668,20.73237387,22.99974639
+GOLGA3,golgin A3,3,Yes,20.8509454,20.16911637,22.7477493
+IGSF9B,immunoglobulin superfamily member 9B,3,Yes,22.42762907,18.89528886,20.57556505
+IQCG,IQ motif containing G,3,Yes,22.29514562,16.91047951,21.4921055
+MAD1L1,mitotic arrest deficient 1 like 1,3,Yes,17.45337094,20.06766699,22.21172379
+MTSS2,MTSS I-BAR domain containing 2,3,Yes,21.87594585,17.20819293,15.72112158
+KIF26B,kinesin family member 26B,3,Yes,19.17778983,21.86970207,19.69595327
+NLRP9,NLR family pyrin domain containing 9,3,Yes,11.3174818,16.12979391,21.35093838
+LOC104004850,uncharacterized LOC104004850,3,Yes,21.18164602,8.679944102,9.229262991
+LOC112205572,serine/threonine-protein kinase Nek4-like,3,Yes,20.42234659,10.52469286,15.57135288
+ABR,ABR activator of RhoGEF and GTPase,3,Yes,20.24588045,14.4856784,15.05808658
+PATR-C,major histocompatibility complex%2C class I%2C C,3,Yes,20.06876256,11.75983593,13.97974674
+SMOC2,SPARC related modular calcium binding 2,3,Yes,20.05358171,17.70840508,14.52869764
+LOC134810929,uncharacterized LOC134810929,3,Yes,20.04719423,16.52012401,12.47621367
+LOC104006320,uncharacterized LOC104006320,3,Yes,18.44217724,11.07062379,20.0335028
+WDR86,WD repeat domain 86,3,Yes,14.31558287,15.63843735,19.85439795
+RPH3AL,rabphilin 3A like (without C2 domains),3,Yes,19.77574132,13.24494891,15.30671838
+LOC129135345,ret finger protein-like 4A,3,Yes,18.83291169,14.09782437,19.70874671
+CCDC57,coiled-coil domain containing 57,3,Yes,16.98330359,14.98097823,19.50237018
+LOC747774,meteorin-like protein,3,Yes,19.18720693,8.774639175,13.3918867
+WDR37,WD repeat domain 37,3,Yes,17.756208,13.67645791,19.08639957
+LOC100608180,leukocyte immunoglobulin-like receptor subfamily B member 3-like,3,Yes,17.03620771,18.96121487,10.71158499
+TRAPPC9,trafficking protein particle complex subunit 9,3,Yes,18.9533759,8.394838633,11.02705289
+ADARB2,adenosine deaminase RNA specific B2 (inactive),3,Yes,12.18153462,18.78573302,18.19147119
+PXMP2,peroxisomal membrane protein 2,3,Yes,18.77795261,10.82176675,16.57401192
+PCGF3,polycomb group ring finger 3,3,Yes,18.4006766,17.23275196,17.34060114
+DOCK8,dedicator of cytokinesis 8,3,Yes,18.28259234,13.29322955,17.30643154
+FOXK2,forkhead box K2,3,Yes,16.68942203,18.2122305,16.60672632
+LOC107971901,uncharacterized LOC107971901,3,Yes,16.48840348,15.3256286,18.19704249
+ZMYND19,zinc finger MYND-type containing 19,3,Yes,17.98166851,16.99407936,13.62374716
+LOC112204168,uncharacterized LOC112204168,3,Yes,17.89455257,14.04740883,9.168795108
+LOC107968934,uncharacterized LOC107968934,3,Yes,17.74736596,9.311250577,9.045426142
+LOC134807527,uncharacterized LOC134807527,3,Yes,17.55422936,10.68139052,12.32463318
+LOC100610904,HLA class II histocompatibility antigen%2C DP beta 1 chain-like,3,Yes,17.35836473,9.135152675,12.53644146
+RNF212,ring finger protein 212,3,Yes,10.10989786,15.95227631,17.35700445
+DPH7,diphthamide biosynthesis 7,3,Yes,16.60602916,17.29537433,15.68790625
+FAM120B,family with sequence similarity 120 member B,3,Yes,12.99105023,15.79446041,17.11007073
+ESYT2,extended synaptotagmin 2,3,Yes,13.49879734,12.67507161,17.04978885
+LOC112209743,uncharacterized LOC112209743,3,Yes,17.04236834,9.649492487,12.06845713
+MYOM2,myomesin 2,3,Yes,17.00557378,10.3418394,13.15469404
+LOC104007162,uncharacterized LOC104007162,3,Yes,16.86512168,10.16301426,12.03898511
+GLB1L2,galactosidase beta 1 like 2,3,Yes,16.80224096,14.87617961,13.48440198
+LILRB3,leukocyte immunoglobulin like receptor B3,3,Yes,16.76486981,10.6290996,12.99903679
+DCP1B,decapping mRNA 1B,3,Yes,16.75268382,14.79516178,16.33261173
+CACNA1H,calcium voltage-gated channel subunit alpha1 H,3,Yes,16.66541347,11.56225047,16.21441244
+LOC112205050,uncharacterized LOC112205050,3,Yes,16.6541999,9.759466284,12.27363237
+LOC129137552,uncharacterized LOC129137552,3,Yes,16.61895687,10.67702153,12.60785907
+TBCD,tubulin folding cofactor D,3,Yes,14.57749615,12.58307199,16.59558991
+MPG,N-methylpurine DNA glycosylase,3,Yes,10.77631692,16.54766398,15.43430255
+PLEKHG4B,pleckstrin homology and RhoGEF domain containing G4B,3,Yes,16.32621622,10.76147557,16.49906774
+SGCZ,sarcoglycan zeta,3,Yes,16.44053408,9.359585379,10.8649854
+LOC129144370,protein eyes shut homolog,3,Yes,16.30055273,8.173443289,12.48756037
+RASGEF1C,RasGEF domain family member 1C,3,Yes,16.29991629,10.38847072,13.60003032
+DIP2C,disco interacting protein 2 homolog C,3,Yes,16.12826712,13.21532316,16.28425098
+LOC134810328,uncharacterized LOC134810328,3,Yes,16.28124674,11.45533455,12.64128231
+VPS53,VPS53 subunit of GARP complex,3,Yes,16.25786547,11.52054605,14.6793862
+BRF1,BRF1 RNA polymerase III transcription initiation factor subunit,3,Yes,10.7295394,14.24882336,16.22426184
+LOC107967993,uncharacterized LOC107967993,3,Yes,16.19147752,15.46673051,13.6180201
+ZBED4,zinc finger BED-type containing 4,3,Yes,16.17105882,11.73412532,13.45306827
+LOC112207799,uncharacterized LOC112207799,3,Yes,16.12838801,11.50417418,14.03514677
+DYNC2I1,dynein 2 intermediate chain 1,3,Yes,15.9670005,14.03481967,16.03790889
+RNF168,ring finger protein 168,3,Yes,16.00489797,13.5109287,11.00986892
+ADGRG7,adhesion G protein-coupled receptor G7,3,Yes,15.92611791,13.33954389,15.603076
+LOC104003467,olfactory receptor 1L4-like,3,Yes,15.80438035,15.19941128,14.53432198
+GPR35,G protein-coupled receptor 35,3,Yes,14.36758865,13.03382072,15.78740394
+MUC4,mucin 4%2C cell surface associated,3,Yes,15.64479512,10.44499927,13.38391063
+TUSC3,tumor suppressor candidate 3,3,Yes,15.63364583,9.370026624,11.60951478
+DOC2B,double C2 domain beta,3,Yes,15.47809018,12.31094773,12.06955744
+PATR-A,patr class I histocompatibility antigen%2C A-126 alpha chain,3,Yes,15.39985908,10.93109785,14.93240902
+SCARF1,scavenger receptor class F member 1,3,Yes,15.25318275,12.71814587,14.76634639
+LOC100609532,protein eyes shut homolog,3,Yes,13.56404232,9.260586902,15.1730447
+TSNARE1,t-SNARE domain containing 1,3,Yes,15.14243336,10.85314923,14.61292036
+ZSCAN5C,zinc finger and SCAN domain containing 5C,3,Yes,15.1135137,8.494154684,13.21705038
+C6H7orf50,chromosome 6 C7orf50 homolog,3,Yes,15.04545047,8.595489189,12.42169715
+ADAMTS2,ADAM metallopeptidase with thrombospondin type 1 motif 2,3,Yes,13.21442325,15.02820507,15.001743
+MORN1,MORN repeat containing 1,3,Yes,11.74103049,14.27975732,15.02484726
+LOC129137451,nuclear pore complex-interacting protein family member B15-like,3,Yes,14.97633058,7.942508838,10.23519007
+GRK1,G protein-coupled receptor kinase 1,3,Yes,14.92069482,8.832782109,12.54147811
+KAZN,kazrin%2C periplakin interacting protein,3,Yes,14.87367078,9.502062102,13.67307162
+HDAC4,histone deacetylase 4,3,Yes,14.83860935,12.82493994,10.77264529
+LOC134807289,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like,3,Yes,14.7933459,11.58771045,12.63622795
+PRDM16,PR/SET domain 16,3,Yes,14.68147043,12.16605441,9.051798791
+LOC129137555,uncharacterized LOC129137555,3,Yes,14.47617608,9.812383587,11.37905727
+CAMSAP1,calmodulin regulated spectrin associated protein 1,3,Yes,14.41874176,11.47853071,11.91372196
+LOC129136305,MAM and LDL-receptor class A domain-containing protein 1-like,3,Yes,14.3522968,9.312640561,11.20304913
+PCSK6,proprotein convertase subtilisin/kexin type 6,3,Yes,12.03986049,12.01232216,14.33705693
+LOC112204800,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like,3,Yes,13.73726864,13.55286117,14.30664506
+KIF25,kinesin family member 25,3,Yes,14.16931919,13.14860043,14.29731248
+C1H1orf174,chromosome 1 C1orf174 homolog,3,Yes,14.24356148,11.15754364,12.51761635
+SNTG2,syntrophin gamma 2,3,Yes,11.18777431,13.77357738,14.20307307
+DEAF1,DEAF1 transcription factor,3,Yes,14.19901337,10.30765835,13.21135391
+GET4,guided entry of tail-anchored proteins factor 4,3,Yes,14.17985948,12.60567155,12.04851358
+ANKLE2,ankyrin repeat and LEM domain containing 2,3,Yes,11.44899424,13.96398885,11.23499437
+LOC104003034,uncharacterized LOC104003034,3,Yes,13.90821134,12.02589692,13.63696471
+LOC112208398,uncharacterized LOC112208398,3,Yes,13.86337504,7.609241191,9.816209729
+RAB11FIP3,RAB11 family interacting protein 3,3,Yes,13.79001887,8.669924552,10.87246341
+ADAMTS17,ADAM metallopeptidase with thrombospondin type 1 motif 17,3,Yes,10.94427816,10.37412468,13.61771904
+LOC129137558,uncharacterized LOC129137558,3,Yes,13.58772134,7.799731076,11.91070811
+LOC749132,PRAME family member 1,3,Yes,13.54688726,8.13100505,9.426747266
+PCNT,pericentrin,3,Yes,13.53522346,13.06687128,10.39086149
+LSS,lanosterol synthase,3,Yes,13.52072186,10.26956965,12.44335972
+GALNT14,polypeptide N-acetylgalactosaminyltransferase 14,3,Yes,13.48976078,8.045155278,10.59354608
+LOC104006775,uncharacterized LOC104006775,3,Yes,13.42010153,8.739408656,13.09614476
+EXOC2,exocyst complex component 2,3,Yes,13.40367968,11.82034554,13.30035817
+DUSP22,dual specificity phosphatase 22,3,Yes,13.36833767,9.060232403,9.414796288
+IQCA1,IQ motif containing with AAA domain 1,3,Yes,10.99500047,7.96880858,13.31266151
+CSNK1D,casein kinase 1 delta,3,Yes,13.18744525,9.916614535,10.73227929
+LOC107972969,uncharacterized LOC107972969,3,Yes,11.47993732,9.771255772,13.11691344
+LOC104004287,phosphoglucomutase-like protein 5,3,Yes,13.11420426,13.10951947,11.57867456
+SGSM2,small G protein signaling modulator 2,3,Yes,12.98366623,9.708317967,11.54210833
+LOC129136701,uncharacterized LOC129136701,3,Yes,12.97273647,10.64883458,10.34104554
+LOC134807116,uncharacterized LOC134807116,3,Yes,12.88553008,12.06705862,12.30786257
+LOC134807381,uncharacterized LOC134807381,3,Yes,12.78990963,9.143836356,11.58587621
+LMF1,lipase maturation factor 1,3,Yes,12.77765101,8.507434092,11.45287584
+LOC112207546,neuroblastoma breakpoint family member 15-like,3,Yes,12.77222362,8.990260407,10.58245778
+LOC134808911,uncharacterized LOC134808911,3,Yes,12.75276083,10.22627817,10.1317505
+JAKMIP3,Janus kinase and microtubule interacting protein 3,3,Yes,12.61437967,8.282649744,11.4889633
+GALNT9,polypeptide N-acetylgalactosaminyltransferase 9,3,Yes,11.91812276,12.59836327,12.56106867
+MYT1,myelin transcription factor 1,3,Yes,10.26497115,10.31747524,12.58853132
+LOC129136527,neuroblastoma breakpoint family member 15-like,3,Yes,12.5209182,9.445920774,9.450103455
+TENM4,teneurin transmembrane protein 4,3,Yes,12.51695143,7.545085788,9.106701462
+LOC104004085,uncharacterized LOC104004085,3,Yes,12.48623337,8.210003519,11.53808792
+ATP11A,ATPase phospholipid transporting 11A,3,Yes,11.41330248,12.23217909,12.43452413
+ACTR3B,actin related protein 3B,3,Yes,12.39633969,9.689619254,10.21446616
+LOC112208420,uncharacterized LOC112208420,3,Yes,12.37557016,11.31074991,10.45704067
+BPHL,biphenyl hydrolase like,3,Yes,10.89609445,7.836475442,12.36081569
+SORCS2,sortilin related VPS10 domain containing receptor 2,3,Yes,12.32409884,8.584179737,9.724378012
+DPP6,dipeptidyl peptidase like 6,3,Yes,12.25890883,8.423891228,8.963802607
+GNG7,G protein subunit gamma 7,3,Yes,10.4992597,8.308180047,12.25501492
+LOC129144375,protein eyes shut homolog,3,Yes,12.25309186,7.614781987,8.989380201
+PNPLA7,patatin like phospholipase domain containing 7,3,Yes,12.25303815,11.23235902,10.73326621
+NETO1,neuropilin and tolloid like 1,3,Yes,12.20266974,9.456776067,11.76721178
+CACNA1C,calcium voltage-gated channel subunit alpha1 C,3,Yes,12.19267949,9.20094696,9.10178755
+HBE1,hemoglobin subunit epsilon 1,3,Yes,12.17753948,9.558579522,9.845422421
+RPA1,replication protein A1,3,Yes,12.11929194,8.634167858,10.91250979
+DNAAF5,dynein axonemal assembly factor 5,3,Yes,12.10847689,9.700295863,11.52542202
+CSMD1,CUB and Sushi multiple domains 1,3,Yes,10.75861043,8.797444011,12.07830767
+LOC738663,tubulin beta-8 chain-like,3,Yes,12.04265811,8.991409504,11.45330369
+LOC129137562,uncharacterized LOC129137562,3,Yes,12.03178984,10.31557198,9.472026575
+COL5A1,collagen type V alpha 1 chain,3,Yes,11.79778292,12.01945899,11.02106133
+B4GALNT3,beta-1%2C4-N-acetyl-galactosaminyltransferase 3,3,Yes,10.63695598,12.00466289,11.4392208
+LINS1,lines homolog 1,3,Yes,11.96263854,11.76990429,9.091196417
+CDH13,cadherin 13,3,Yes,11.88934656,8.251813804,10.79196757
+HCN2,hyperpolarization activated cyclic nucleotide gated potassium and sodium channel 2,3,Yes,11.8820724,8.691293223,11.16888457
+LOC129138184,uncharacterized LOC129138184,3,Yes,11.65758507,11.85598686,11.02497213
+ZNF16,zinc finger protein 16,3,Yes,11.85458837,9.617982041,10.97117711
+CAPN15,calpain 15,3,Yes,11.83199879,10.25955171,11.42615367
+NLRP12,NLR family pyrin domain containing 12,3,Yes,10.26085259,9.046211949,11.81022636
+LOC739761,putative COBW domain-containing protein 7,3,Yes,11.79809837,10.16961068,10.44629766
+RUNX3,RUNX family transcription factor 3,3,Yes,10.9558578,11.78348896,9.27000098
+PCBP3,poly(rC) binding protein 3,3,Yes,11.73514336,9.649904811,10.76001805
+ADPRHL1,ADP-ribosylhydrolase like 1,3,Yes,11.70016009,11.16937463,11.54111031
+TNK2,tyrosine kinase non receptor 2,3,Yes,11.6456358,9.075711549,10.44078909
+ACR,acrosin,3,Yes,10.47136667,10.58868536,11.63834511
+CDH4,cadherin 4,3,Yes,11.55344991,8.434689808,10.65604883
+PTPRD,protein tyrosine phosphatase receptor type D,3,Yes,11.55140287,8.523727536,9.896500038
+INPP4B,inositol polyphosphate-4-phosphatase type II B,3,Yes,11.54133197,8.899636865,9.280919043
+LOC129143355,PRAME family member 8-like,3,Yes,11.53950765,8.917548774,10.59673795
+TXNL4A,thioredoxin like 4A,3,Yes,10.36419417,9.911783348,11.51110269
+TRNAE-UUC,transfer RNA glutamic acid (anticodon UUC),3,Yes,11.43396979,8.013074651,9.524831027
+CHSY1,chondroitin sulfate synthase 1,3,Yes,11.27993763,8.823911229,11.3757421
+B3GNTL1,UDP-GlcNAc:betaGal beta-1%2C3-N-acetylglucosaminyltransferase like 1,3,Yes,11.32629111,7.733080699,10.86615138
+TRARG1,trafficking regulator of GLUT4 (SLC2A4) 1,3,Yes,11.23420418,7.93028904,11.11506587
+ATP9B,ATPase phospholipid transporting 9B (putative),3,Yes,10.95687373,9.218168602,11.16301471
+LOC104007081,SUMO-interacting motif-containing protein 1,3,Yes,11.15487238,7.554358063,9.856504368
+LOC112204803,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2,3,Yes,11.14372627,10.89630795,10.54129364
+VIPR2,vasoactive intestinal peptide receptor 2,3,Yes,10.87080659,8.68369323,10.93093811
+LOC107971522,uncharacterized LOC107971522,3,Yes,10.20626493,9.110761583,10.92942445
+LOC112205253,MAM and LDL-receptor class A domain-containing protein 1-like,3,Yes,10.90262847,10.22849433,9.445263074
+LOC134808912,uncharacterized LOC134808912,3,Yes,10.64365697,8.876791016,9.791797281
+TRIM58,tripartite motif containing 58,3,Yes,10.55724036,9.939629681,9.127821982
+LOC104007095,uncharacterized LOC104007095,3,Yes,10.53865169,8.745939263,9.278510213
+LOC134809706,uncharacterized LOC134809706,3,Yes,10.53861738,9.385963438,10.13124459
+LOC134807121,uncharacterized LOC134807121,3,Yes,10.47070254,8.051505015,8.965837267
+JPH3,junctophilin 3,3,Yes,10.06530268,7.718087191,10.45756455
+NINJ2,ninjurin 2,3,Yes,10.43032276,7.668770746,10.11363102
+MMP26,matrix metallopeptidase 26,3,Yes,10.21180795,8.21930461,9.855968549
+LOC129135418,meteorin-like protein,2,Yes,26.24796886,15.70503725,NA
+LOC129138019,ret finger protein-like 4A,2,Yes,22.33552349,10.33825812,NA
+KIR2DL1,killer cell immunoglobulin-like receptor,2,Yes,21.60345095,NA,14.40963293
+LOC129138006,ret finger protein-like 4A,2,Yes,NA,15.09472422,20.45136786
+TRAPPC12,trafficking protein particle complex subunit 12,2,Yes,NA,14.73392872,18.96547866
+LOC112206412,uncharacterized LOC112206412,2,Yes,12.14268662,18.70435147,NA
+LOC129138022,ret finger protein-like 4A,2,Yes,18.50056319,NA,13.67072634
+CLPTM1L,CLPTM1 like,2,Yes,18.3562531,13.40304656,NA
+IFT140,intraflagellar transport 140,2,Yes,17.78874259,11.94587596,NA
+LOC104007508,uncharacterized LOC104007508,2,Yes,NA,15.47007952,17.78642946
+PASK,PAS domain containing serine/threonine kinase,2,Yes,NA,9.091652359,17.40549471
+TWIST2,twist family bHLH transcription factor 2,2,Yes,NA,10.12553444,17.39272615
+LOC134806971,immunoglobulin heavy variable 4-30-4-like,2,Yes,17.36144001,9.72193555,NA
+LOC129141848,MAM and LDL-receptor class A domain-containing protein 1-like,2,Yes,16.88166439,NA,10.7256864
+KIF1A,kinesin family member 1A,2,Yes,16.82056853,NA,9.934467459
+DBNDD1,dysbindin domain containing 1,2,Yes,16.6851589,14.99982848,NA
+LOC129138028,ret finger protein-like 4A,2,Yes,NA,10.16868055,16.57867159
+UNC5A,unc-5 netrin receptor A,2,Yes,16.54711866,10.69610428,NA
+PLEKHG1,pleckstrin homology and RhoGEF domain containing G1,2,Yes,NA,12.61174308,16.36031884
+LOC107974514,uncharacterized LOC107974514,2,Yes,NA,9.901712344,16.35140141
+LOC129143150,PRAME family member 1-like,2,Yes,16.30089313,NA,9.255956162
+LOC100611617,putative UPF0607 protein ENSP00000383144,2,Yes,16.0016597,NA,10.97830346
+LOC462552,protein PBMUCL2,2,Yes,15.81037671,NA,10.76912007
+SLC6A12,solute carrier family 6 member 12,2,Yes,NA,15.52776541,12.86033982
+ACOT7,acyl-CoA thioesterase 7,2,Yes,NA,11.0376968,15.42297582
+ADAMTS3,ADAM metallopeptidase with thrombospondin type 1 motif 3,2,Yes,NA,10.68549165,15.36859045
+ZNF28,zinc finger protein 28,2,Yes,NA,12.39701537,15.13668603
+AJAP1,adherens junctions associated protein 1,2,Yes,15.08467999,13.64694787,NA
+LOC129138016,ret finger protein-like 4A,2,Yes,NA,8.019938839,15.0393538
+CACNA1B,calcium voltage-gated channel subunit alpha1 B,2,Yes,15.01457305,11.58966891,NA
+COL4A1,collagen type IV alpha 1 chain,2,Yes,NA,10.96562084,14.92088104
+LOC129143198,MAM and LDL-receptor class A domain-containing protein 1-like,2,Yes,14.87906891,10.17940723,NA
+TAFA5,TAFA chemokine like family member 5,2,Yes,NA,10.32202913,14.83043726
+PRAP1,proline rich acidic protein 1,2,Yes,10.40185132,NA,14.72882408
+LOC129138027,ret finger protein-like 4A,2,Yes,NA,14.62179127,14.12148896
+ACSF3,acyl-CoA synthetase family member 3,2,Yes,NA,10.35958815,14.58603818
+LOC129137561,uncharacterized LOC129137561,2,Yes,14.42770425,8.953130548,NA
+PRAG1,PEAK1 related%2C kinase-activating pseudokinase 1,2,Yes,NA,14.39784277,10.43995557
+AP2A2,adaptor related protein complex 2 subunit alpha 2,2,Yes,NA,10.63277807,14.38683672
+LOC457604,complement factor H-related protein 4,2,Yes,14.3003813,NA,10.65518891
+TTLL8,tubulin tyrosine ligase like 8,2,Yes,NA,14.25729426,13.02434514
+LILRB1,leukocyte immunoglobulin like receptor B1,2,Yes,NA,11.0143708,14.13479173
+MTA1,metastasis associated 1,2,Yes,NA,11.80902799,14.07428283
+LOC134809945,uncharacterized LOC134809945,2,Yes,13.9602889,9.880061156,NA
+NOM1,nucleolar protein with MIF4G domain 1,2,Yes,13.8746788,NA,9.713184301
+FN3K,fructosamine 3 kinase,2,Yes,13.75048415,7.516369012,NA
+SNX8,sorting nexin 8,2,Yes,NA,8.75095547,13.67606249
+LOC104006679,uncharacterized LOC104006679,2,Yes,NA,13.64017439,9.918079924
+C14H14orf180,chromosome 14 C14orf180 homolog,2,Yes,NA,13.61395664,11.87874041
+LOC107972867,spectrin beta chain%2C non-erythrocytic 5-like,2,Yes,13.48862635,NA,8.961388211
+LILRA2,leukocyte immunoglobulin-like receptor%2C subfamily A (with TM domain)%2C member 2,2,Yes,13.4667052,NA,10.57326783
+LOC748182,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like,2,Yes,NA,12.47576344,13.41452506
+LOC134808165,uncharacterized LOC134808165,2,Yes,13.39347503,NA,10.4646581
+LOC129143384,uncharacterized LOC129143384,2,Yes,13.3900483,11.65719452,NA
+TRIM31,tripartite motif containing 31,2,Yes,13.38847949,NA,9.245170685
+LOC107976907,endogenous retrovirus group K member 16 Rec protein,2,Yes,NA,9.180778921,13.31931351
+INTS11,integrator complex subunit 11,2,Yes,NA,9.057361713,13.31527954
+CNST,consortin%2C connexin sorting protein,2,Yes,NA,8.346818076,13.30551804
+LPCAT1,lysophosphatidylcholine acyltransferase 1,2,Yes,13.268392,11.18180444,NA
+PTPRE,protein tyrosine phosphatase receptor type E,2,Yes,13.15339243,7.87903994,NA
+DPP10,dipeptidyl peptidase like 10,2,Yes,11.40582767,NA,13.08440665
+LOC738574,radial spoke head 10 homolog B,2,Yes,12.88912132,NA,9.831531284
+LOC129144234,uncharacterized LOC129144234,2,Yes,12.87871098,NA,9.276492988
+LOC129137951,PRAME family member 11-like,2,Yes,NA,10.17855495,12.87752958
+LOC129138029,ret finger protein-like 4A,2,Yes,NA,12.17914348,12.86352359
+THOP1,thimet oligopeptidase 1,2,Yes,NA,8.754591211,12.8606214
+PTDSS2,phosphatidylserine synthase 2,2,Yes,NA,10.89573777,12.84996492
+SHC2,SHC adaptor protein 2,2,Yes,NA,11.99827543,12.78626118
+LOC107973745,uncharacterized LOC107973745,2,Yes,12.72745536,9.212584888,NA
+LOC461041,rod cGMP-specific 3'%2C5'-cyclic phosphodiesterase subunit beta,2,Yes,12.70795951,7.569094975,NA
+ZNG1A,Zn regulated GTPase metalloprotein activator 1A,2,Yes,12.69456801,12.53260625,NA
+RIMBP2,RIMS binding protein 2,2,Yes,NA,11.65846493,12.67573145
+SKI,SKI proto-oncogene,2,Yes,NA,8.027982411,12.67020584
+LOC134808114,uncharacterized LOC134808114,2,Yes,12.65288746,NA,10.24821431
+C6H6orf15,chromosome 6 C6orf15 homolog,2,Yes,12.6442635,NA,9.371718133
+LOC104005939,uncharacterized LOC104005939,2,Yes,12.35193804,NA,12.5900622
+WDR19,WD repeat domain 19,2,Yes,12.53724733,NA,10.83844175
+LOC742626,radial spoke head 10 homolog B,2,Yes,12.47887022,NA,9.328312559
+ANO9,anoctamin 9,2,Yes,12.45117715,9.188013154,NA
+LOC129135556,spectrin beta chain%2C non-erythrocytic 5-like,2,Yes,12.31369856,8.745941121,NA
+NKAIN2,sodium/potassium transporting ATPase interacting 2,2,Yes,NA,9.714649933,12.25714811
+SLC34A1,solute carrier family 34 member 1,2,Yes,NA,12.07419335,12.24899546
+CEP170B,centrosomal protein 170B,2,Yes,11.37979685,12.22291589,NA
+EXD3,exonuclease 3'-5' domain containing 3,2,Yes,12.20703186,9.744903865,NA
+ZBTB46,zinc finger and BTB domain containing 46,2,Yes,NA,11.75676804,12.18073849
+TMEM44,transmembrane protein 44,2,Yes,NA,9.828564194,12.13562444
+LOC129144202,tubulin beta-8 chain-like,2,Yes,NA,12.11680648,10.8767984
+NBPF3,NBPF member 3,2,Yes,12.07498704,8.275228422,NA
+MUC5B,mucin 5B%2C oligomeric mucus/gel-forming,2,Yes,12.06319428,NA,10.55141053
+PPARGC1A,PPARG coactivator 1 alpha,2,Yes,NA,12.01422582,11.64720762
+COL23A1,collagen type XXIII alpha 1 chain,2,Yes,12.008599,8.150313727,NA
+LOC129144171,uncharacterized LOC129144171,2,Yes,11.9333843,NA,9.041973076
+LOC112208034,protein eyes shut homolog,2,Yes,11.92899619,NA,10.00841686
+LOC749565,prothymosin alpha-like,2,Yes,NA,11.9010493,10.02723425
+TRAF7,TNF receptor associated factor 7,2,Yes,NA,11.89575737,10.02133767
+LOC129138281,uncharacterized LOC129138281,2,Yes,11.82624295,7.736938747,NA
+UPF3A,UPF3A regulator of nonsense mediated mRNA decay,2,Yes,10.79919058,11.81021161,NA
+TYRP1,tyrosinase related protein 1,2,Yes,11.8017754,7.81038344,NA
+ZNF26,zinc finger protein 26,2,Yes,NA,7.946041592,11.79823558
+LRRC38,leucine rich repeat containing 38,2,Yes,11.79673224,7.502464113,NA
+LOC129137554,uncharacterized LOC129137554,2,Yes,NA,8.387606078,11.79234874
+SHANK3,SH3 and multiple ankyrin repeat domains 3,2,Yes,NA,8.617757928,11.77328242
+SLC9A3,solute carrier family 9 member A3,2,Yes,NA,9.173503603,11.70671489
+CEP104,centrosomal protein 104,2,Yes,11.67158483,11.29590774,NA
+NXN,nucleoredoxin,2,Yes,NA,8.826590085,11.65643772
+LOC112204802,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like,2,Yes,NA,7.806215175,11.54965316
+NRIP1,nuclear receptor interacting protein 1,2,Yes,NA,7.895165275,11.52174786
+NFATC1,nuclear factor of activated T cells 1,2,Yes,10.31972008,NA,11.46178407
+ZNF454,zinc finger protein 454,2,Yes,11.45169934,NA,9.345359578
+OR1D2,olfactory receptor family 1 subfamily D member 2,2,Yes,11.4463272,NA,11.33428527
+LOC112204429,uncharacterized LOC112204429,2,Yes,11.41718679,NA,9.540837605
+LOC134807845,uncharacterized LOC134807845,2,Yes,NA,8.85047641,11.38540706
+LOC104003432,zinc finger protein 813,2,Yes,NA,11.34328566,10.37453036
+PCDH15,protocadherin related 15,2,Yes,11.32390145,NA,10.41763861
+TPPP,tubulin polymerization promoting protein,2,Yes,NA,7.524446132,11.31819996
+C21H21orf58,chromosome 21 C21orf58 homolog,2,Yes,NA,10.33213539,11.29442635
+FAM20C,FAM20C golgi associated secretory pathway kinase,2,Yes,11.27465971,8.838468588,NA
+CCR6,C-C motif chemokine receptor 6,2,Yes,NA,11.2503783,10.86990578
+LOC129143874,uncharacterized LOC129143874,2,Yes,NA,7.972967431,11.22246879
+XKR6,XK related 6,2,Yes,11.20543899,8.939078624,NA
+ZNG1B,Zn regulated GTPase metalloprotein activator 1B,2,Yes,NA,11.09556997,11.13371237
+CTDP1,CTD phosphatase subunit 1,2,Yes,10.41940986,11.13077627,NA
+LOC112209258,uncharacterized LOC112209258,2,Yes,NA,10.53442266,11.11508453
+LOC751032,uncharacterized LOC751032,2,Yes,11.10049787,NA,10.23671327
+TBC1D22A,TBC1 domain family member 22A,2,Yes,NA,9.590853124,11.03996547
+SPHKAP,SPHK1 interactor%2C AKAP domain containing,2,Yes,11.0357378,NA,9.663326107
+LOC107966570,WASH complex subunit 2A-like,2,Yes,11.02013342,7.511627968,NA
+PARD6G,par-6 family cell polarity regulator gamma,2,Yes,NA,10.77580638,10.98175344
+LOC107972857,bifunctional peptidase and (3S)-lysyl hydroxylase JMJD7,2,Yes,10.97555526,8.644993911,NA
+SBNO2,strawberry notch homolog 2,2,Yes,10.97166011,NA,8.978349394
+SNTG1,syntrophin gamma 1,2,Yes,NA,9.28984685,10.95456875
+MEGF6,multiple EGF like domains 6,2,Yes,10.89801185,8.121472597,NA
+TRPM5,transient receptor potential cation channel subfamily M member 5,2,Yes,NA,7.552956419,10.83952547
+KANK1,KN motif and ankyrin repeat domains 1,2,Yes,NA,9.104573408,10.8377426
+SDK1,sidekick cell adhesion molecule 1,2,Yes,10.82642623,8.885602406,NA
+LAIR1,leukocyte associated immunoglobulin like receptor 1,2,Yes,NA,8.360856762,10.82428459
+LOC104008369,uncharacterized LOC104008369,2,Yes,10.80144336,7.763909259,NA
+LOC100610781,zinc finger protein 665-like,2,Yes,NA,8.145156622,10.79550544
+LOC134808563,uncharacterized LOC134808563,2,Yes,NA,10.78157961,10.07176388
+RASSF7,Ras association domain family member 7,2,Yes,NA,8.102293852,10.75095989
+CHL1,cell adhesion molecule L1 like,2,Yes,10.72794359,8.213211509,NA
+LOC129135354,E3 ubiquitin-protein ligase TRIM52,2,Yes,NA,10.71516361,9.791182302
+RGS12,regulator of G protein signaling 12,2,Yes,NA,10.71440242,10.63412289
+RETREG1,reticulophagy regulator 1,2,Yes,NA,9.708751016,10.66798869
+LOC134808389,immunoglobulin gamma-1 heavy chain-like,2,Yes,NA,9.548652451,10.63273172
+LOC107973006,cytosolic phospholipase A2 beta,2,Yes,NA,8.349038868,10.61238392
+LOC134807112,MAM and LDL-receptor class A domain-containing protein 1-like,2,Yes,10.59215884,NA,10.50211487
+MLPH,melanophilin,2,Yes,10.57878301,NA,9.026084811
+MYT1L,myelin transcription factor 1 like,2,Yes,NA,10.25579183,10.57313414
+LOC134807676,uncharacterized LOC134807676,2,Yes,NA,8.428298111,10.56613694
+TUBGCP3,tubulin gamma complex component 3,2,Yes,NA,10.53858506,10.52414676
+PATR-B,major histocompatibility complex%2C class I%2C B,2,Yes,NA,8.94280176,10.50844786
+ZNF888,zinc finger protein 888,2,Yes,NA,10.19019179,10.43049037
+LOC104006319,uncharacterized LOC104006319,2,Yes,NA,9.332236282,10.41930429
+SIRPG,signal regulatory protein gamma,2,Yes,10.39273259,NA,10.41844454
+DMBT1,deleted in malignant brain tumors 1,2,Yes,NA,7.991098259,10.41204219
+ANKRD11,ankyrin repeat domain containing 11,2,Yes,NA,8.192745329,10.3940326
+LOC112208690,myosin light chain kinase 2%2C skeletal/cardiac muscle-like,2,Yes,10.38853419,9.937794893,NA
+DACT2,dishevelled binding antagonist of beta catenin 2,2,Yes,NA,7.596416895,10.38146307
+LOC134809069,proline-rich protein 23D1-like,2,Yes,NA,7.945620996,10.35604823
+LOC468717,putative protein C3P1,2,Yes,NA,7.995029278,10.31935743
+ZSCAN5A,zinc finger and SCAN domain containing 5A,2,Yes,NA,9.371341736,10.27179949
+LOC134808486,uncharacterized LOC134808486,2,Yes,NA,8.103572166,10.2660034
+LOC134809972,uncharacterized LOC134809972,2,Yes,NA,7.916619294,10.26197776
+USH2A,usherin,2,Yes,10.25706761,NA,9.742504373
+LOC129143146,uncharacterized LOC129143146,2,Yes,NA,8.781175935,10.23699416
+TERT,telomerase reverse transcriptase,2,Yes,10.23259383,8.110451723,NA
+GRM7,glutamate metabotropic receptor 7,2,Yes,10.23055831,7.528195059,NA
+C10H10orf90,chromosome 10 C10orf90 homolog,2,Yes,10.19461173,7.929009186,NA
+LOC129144186,TATA-box-binding protein-associated factor 11-like protein 5,2,Yes,10.19138386,8.728448656,NA
+C11H11orf40,chromosome 11 C11orf40 homolog,2,Yes,NA,9.121084042,10.18955104
+ART1,ADP-ribosyltransferase 1,2,Yes,10.18672351,7.715414362,NA
+LOC134807598,uncharacterized LOC134807598,2,Yes,10.17272544,NA,10.06984212
+SPMAP2,sperm microtubule associated protein 2,2,Yes,NA,10.17172951,9.264532042
+LOC134810809,uncharacterized LOC134810809,2,Yes,NA,10.11559307,9.266358807
+MUC16,mucin 16%2C cell surface associated,2,Yes,10.11510738,NA,9.025421074
+ZNF695,zinc finger protein 695,2,Yes,NA,9.853672088,10.09174408
+LOC134810227,uncharacterized LOC134810227,2,Yes,NA,8.085022829,10.06231839
+SLC13A3,solute carrier family 13 member 3,2,Yes,10.0492348,7.610060776,NA
+SPATA19,spermatogenesis associated 19,2,Yes,NA,7.782896186,10.03225269
+LOC736783,chymotrypsinogen B,2,Yes,NA,7.580638498,10.02655844
+MCF2L,MCF.2 cell line derived transforming sequence like,2,Yes,NA,9.267307992,10.00659819
+BET1L,Bet1 golgi vesicular membrane trafficking protein like,2,Yes,NA,8.504784376,9.963552759
+FAM107B,family with sequence similarity 107 member B,2,Yes,NA,7.785202965,9.934565435
+PPP6R2,protein phosphatase 6 regulatory subunit 2,2,Yes,NA,8.662309103,9.916303828
+CFAP74,cilia and flagella associated protein 74,2,Yes,NA,8.109884053,9.881815054
+LOC107973995,uncharacterized LOC107973995,2,Yes,NA,8.087652121,9.861509592
+CNDP2,carnosine dipeptidase 2,2,Yes,NA,7.824337731,9.775355707
+ZNF578,zinc finger protein 578,2,Yes,NA,8.600245097,9.77255644
+RNF150,ring finger protein 150,2,Yes,NA,7.620363599,9.709590743
+ADAMTSL1,ADAMTS like 1,2,Yes,NA,8.04011672,9.608360832
+TPD52L2,TPD52 like 2,2,Yes,NA,8.666430985,9.592017717
+ZNF517,zinc finger protein 517,2,Yes,NA,8.754521723,9.559849568
+LOC750524,spectrin beta chain%2C non-erythrocytic 5-like,2,Yes,NA,8.203682881,9.543729823
+FTCD,formimidoyltransferase cyclodeaminase,2,Yes,NA,8.154258113,9.52562227
+EDIL3,EGF like repeats and discoidin domains 3,2,Yes,NA,7.542991453,9.508328734
+LOC129143170,PRAME family member 15,2,Yes,NA,9.053049817,9.48644811
+LOC134810183,MHC class I polypeptide-related sequence B-like,2,Yes,NA,8.033151486,9.388608833
+LOC750356,mucin-20,2,Yes,NA,8.674389657,9.34943969
+GRHL3,grainyhead like transcription factor 3,2,Yes,NA,7.668144148,9.346698897
+ATP13A3,ATPase 13A3,2,Yes,NA,8.008045063,9.346232175
+LOC112206647,uncharacterized LOC112206647,2,Yes,NA,7.654295819,9.342416648
+DOCK1,dedicator of cytokinesis 1,2,Yes,NA,8.395839711,9.272093427
+LOC129143336,PRAME family member 15-like,2,Yes,NA,9.164159266,9.248472222
+GFPT2,glutamine-fructose-6-phosphate transaminase 2,2,Yes,NA,8.406924974,9.207011192
+PANK4,pantothenate kinase 4 (inactive),2,Yes,NA,7.60175814,9.177894637
+TMEM132D,transmembrane protein 132D,2,Yes,NA,8.91073588,9.126447497
+NPHP4,nephrocystin 4,2,Yes,NA,7.552768015,9.074416442
+OPCML,opioid binding protein/cell adhesion molecule like,2,Yes,NA,8.074750053,9.070576385
+AGPAT3,1-acylglycerol-3-phosphate O-acyltransferase 3,2,Yes,NA,8.551952561,9.048704367
+AHRR,aryl hydrocarbon receptor repressor,2,Yes,NA,8.280686672,9.03773545
+NTM,neurotrimin,2,Yes,NA,7.694661023,8.98974518
+LOC101059730,kinesin-like protein KIF28P,2,Yes,NA,7.89888247,8.95707353
+LOC129138017,ret finger protein-like 4A,1,No,22.58997762,NA,NA
+LOC129138020,ret finger protein-like 4A,1,No,21.68056783,NA,NA
+LOC100610718,ret finger protein-like 4A,1,No,18.41222128,NA,NA
+GYPB,glycophorin B (MNS blood group),1,No,17.40441849,NA,NA
+LOC129144382,cytosolic phospholipase A2 beta-like,1,No,17.15103787,NA,NA
+LOC100615916,uncharacterized LOC100615916,1,No,16.87061369,NA,NA
+LOC100615558,immunoglobulin heavy variable 4-30-4-like,1,No,16.29236785,NA,NA
+LOC129138024,ret finger protein-like 4A,1,No,NA,NA,15.57453589
+PPP1R12C,protein phosphatase 1 regulatory subunit 12C,1,No,NA,NA,15.3426403
+LOC129144376,protein eyes shut homolog,1,No,14.91864905,NA,NA
+SMG6,SMG6 nonsense mediated mRNA decay factor,1,No,13.60088648,NA,NA
+DPEP1,dipeptidase 1,1,No,13.44108432,NA,NA
+LOC134810508,MAM and LDL-receptor class A domain-containing protein 1-like,1,No,13.18556756,NA,NA
+LOC129143374,PRAME family member 1-like,1,No,13.15687776,NA,NA
+LOC750374,PRAME family member 15,1,No,13.13640188,NA,NA
+LOC134808837,MAM and LDL-receptor class A domain-containing protein 1-like,1,No,NA,NA,13.12803744
+LOC134810606,putative uncharacterized protein FLJ44672,1,No,12.9485317,NA,NA
+LOC129136381,uncharacterized LOC129136381,1,No,12.94521439,NA,NA
+LOC107966870,uncharacterized LOC107966870,1,No,12.89619787,NA,NA
+NR2E3,nuclear receptor subfamily 2 group E member 3,1,No,12.81135904,NA,NA
+CFHR4,complement factor H related 4,1,No,12.80478441,NA,NA
+LOC129138023,ret finger protein-like 4A,1,No,NA,NA,12.74412045
+LOC129138211,PRAME family member 11-like,1,No,NA,12.66253064,NA
+LOC134807488,putative solute carrier organic anion transporter family member 1B7,1,No,12.64343709,NA,NA
+OR2M4,olfactory receptor family 2 subfamily M member 4,1,No,12.62680679,NA,NA
+LOC129143475,uncharacterized LOC129143475,1,No,12.46759421,NA,NA
+LOC129138018,ret finger protein-like 4A,1,No,12.46417907,NA,NA
+WDR45B,WD repeat domain 45B,1,No,NA,NA,12.42986731
+DIP2A,disco interacting protein 2 homolog A,1,No,12.42147003,NA,NA
+LOC129135373,mitogen-activated protein kinase-binding protein 1-like,1,No,12.38505963,NA,NA
+TECRL,trans-2%2C3-enoyl-CoA reductase like,1,No,12.23396294,NA,NA
+PDE6B,phosphodiesterase 6B,1,No,12.16122073,NA,NA
+LOC129137559,eukaryotic initiation factor 4A-III-like,1,No,12.05206373,NA,NA
+LOC104005712,uncharacterized LOC104005712,1,No,12.02418928,NA,NA
+LOC134810701,uncharacterized LOC134810701,1,No,NA,12.00167807,NA
+PRAMEF7,PRAME family member 7,1,No,11.99718458,NA,NA
+LOC129143363,PRAME family member 15-like,1,No,11.96001953,NA,NA
+LOC129143704,uncharacterized LOC129143704,1,No,11.87041926,NA,NA
+LOC129137369,MAM and LDL-receptor class A domain-containing protein 1-like,1,No,NA,NA,11.86012255
+P2RX5,purinergic receptor P2X 5,1,No,11.79032478,NA,NA
+CRACD,capping protein inhibiting regulator of actin dynamics,1,No,11.68297919,NA,NA
+LOC134807945,uncharacterized LOC134807945,1,No,11.63068412,NA,NA
+CPQ,carboxypeptidase Q,1,No,11.6296586,NA,NA
+XKR4,XK related 4,1,No,11.59275936,NA,NA
+LOC134809653,phosphoglucomutase-like protein 5,1,No,NA,NA,11.57952121
+LOC134806927,uncharacterized LOC134806927,1,No,11.56250433,NA,NA
+LOC107967703,uncharacterized LOC107967703,1,No,11.51804634,NA,NA
+LOC134808663,putative protein FAM157B,1,No,11.51715784,NA,NA
+NXPH1,neurexophilin 1,1,No,11.51538201,NA,NA
+PATR-DPB1,major histocompatibility complex%2C class II%2C DP beta 1,1,No,11.49076509,NA,NA
+PRKG1,protein kinase cGMP-dependent 1,1,No,11.48806397,NA,NA
+LOC104005668,uncharacterized LOC104005668,1,No,11.4251955,NA,NA
+AMY2B,amylase alpha 2B,1,No,11.42397083,NA,NA
+LOC745955,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like,1,No,NA,11.38087707,NA
+LOC129137991,MAM and LDL-receptor class A domain-containing protein 1-like,1,No,NA,NA,11.3704429
+LOC104001824,uncharacterized LOC104001824,1,No,11.33085204,NA,NA
+DOT1L,DOT1 like histone lysine methyltransferase,1,No,NA,11.30122742,NA
+LOC134808146,uncharacterized LOC134808146,1,No,11.28924339,NA,NA
+LOC107969247,uncharacterized LOC107969247,1,No,11.27600585,NA,NA
+LOC134809638,protein MOST-1,1,No,NA,11.25054142,NA
+LOC112207414,nuclear pore complex-interacting protein family member B4,1,No,11.24561543,NA,NA
+LOC129138495,U6 spliceosomal RNA,1,No,11.24555027,NA,NA
+LOC129143350,PRAME family member 1-like,1,No,11.22278396,NA,NA
+SNTB1,syntrophin beta 1,1,No,11.20182275,NA,NA
+LOC129144420,bifunctional peptidase and (3S)-lysyl hydroxylase JMJD7,1,No,11.17632992,NA,NA
+GCAWKR,gastric cancer associated WDR5 and KAT2A binding lncRNA,1,No,11.17632491,NA,NA
+LEPR,leptin receptor,1,No,11.15928246,NA,NA
+LOC104007069,uncharacterized LOC104007069,1,No,11.15310353,NA,NA
+MYO3B,myosin IIIB,1,No,11.13464585,NA,NA
+PIK3C2G,phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 gamma,1,No,11.1303535,NA,NA
+LOC129143542,uncharacterized LOC129143542,1,No,11.12468537,NA,NA
+CAMK1D,calcium/calmodulin dependent protein kinase ID,1,No,11.12215493,NA,NA
+LOC456645,rhesus-like protein,1,No,11.11884043,NA,NA
+NEDD4L,NEDD4 like E3 ubiquitin protein ligase,1,No,11.11764169,NA,NA
+LOC129143988,uncharacterized LOC129143988,1,No,11.0839234,NA,NA
+LOC134808481,uncharacterized LOC134808481,1,No,11.07907167,NA,NA
+LOC466370,olfactory receptor 52A5,1,No,11.07491536,NA,NA
+PRKN,parkin RBR E3 ubiquitin protein ligase,1,No,11.0742214,NA,NA
+LOC748623,T cell receptor alpha variable 14/delta variable 4-like,1,No,11.06186856,NA,NA
+LOC746419,PRAME family member 15,1,No,NA,NA,11.04686272
+ADAMTS16,ADAM metallopeptidase with thrombospondin type 1 motif 16,1,No,11.0347995,NA,NA
+PSD3,pleckstrin and Sec7 domain containing 3,1,No,11.0323545,NA,NA
+KLRD1,killer cell lectin like receptor D1,1,No,11.02243704,NA,NA
+LOC104008393,acyl-coenzyme A synthetase ACSM1%2C mitochondrial-like,1,No,NA,NA,10.98618007
+LOC129143377,heterogeneous nuclear ribonucleoprotein C-like 3,1,No,10.97079619,NA,NA
+LOC129137437,nuclear pore complex-interacting protein family member B15-like,1,No,10.96910481,NA,NA
+LOC104001710,uncharacterized LOC104001710,1,No,10.96383539,NA,NA
+LOC129135632,uncharacterized LOC129135632,1,No,10.96175686,NA,NA
+PDYN,prodynorphin,1,No,10.95859873,NA,NA
+LOC107969093,spectrin beta chain%2C non-erythrocytic 5-like,1,No,NA,NA,10.94014646
+NAV3,neuron navigator 3,1,No,10.92788061,NA,NA
+F11,coagulation factor XI,1,No,10.90739187,NA,NA
+TMC7,transmembrane channel like 7,1,No,10.90453724,NA,NA
+PPP2R2C,protein phosphatase 2 regulatory subunit Bgamma,1,No,10.88960341,NA,NA
+LOC134806951,TAFA chemokine like family member 1,1,No,10.84407116,NA,NA
+LOC112205353,immunoglobulin heavy constant alpha 1-like,1,No,NA,NA,10.83864228
+BTBD9,BTB domain containing 9,1,No,10.81896422,NA,NA
+UGT2A2,UDP glucuronosyltransferase family 2 member A2,1,No,NA,NA,10.80999826
+LOC107974243,uncharacterized LOC107974243,1,No,10.78814169,NA,NA
+LOC134810390,uncharacterized LOC134810390,1,No,NA,NA,10.78616372
+PDZRN4,PDZ domain containing ring finger 4,1,No,10.78375604,NA,NA
+LRRTM4,leucine rich repeat transmembrane neuronal 4,1,No,10.77051905,NA,NA
+PRIM2,DNA primase subunit 2,1,No,NA,NA,10.75061095
+LOC107976252,uncharacterized LOC107976252,1,No,10.72681849,NA,NA
+TOLLIP,toll interacting protein,1,No,10.71951228,NA,NA
+LOC112207701,U6 spliceosomal RNA,1,No,10.7117224,NA,NA
+RAP1GAP2,RAP1 GTPase activating protein 2,1,No,10.70726296,NA,NA
+LOC104007515,uncharacterized LOC104007515,1,No,NA,10.69392749,NA
+LOC129137367,uncharacterized LOC129137367,1,No,10.69032063,NA,NA
+LOC134810163,serine/threonine-protein kinase Nek4-like,1,No,10.68371943,NA,NA
+LOC104005436,uncharacterized LOC104005436,1,No,10.67945429,NA,NA
+LOC134810549,uncharacterized LOC134810549,1,No,10.67585655,NA,NA
+RBFOX1,RNA binding fox-1 homolog 1,1,No,10.67117418,NA,NA
+LOC129138555,MAM and LDL-receptor class A domain-containing protein 1-like,1,No,10.65342599,NA,NA
+ARHGEF10,Rho guanine nucleotide exchange factor 10,1,No,10.6477602,NA,NA
+GAS2,growth arrest specific 2,1,No,10.64005892,NA,NA
+LOC100616520,HLA class II histocompatibility antigen%2C DQ beta 1 chain,1,No,10.62227222,NA,NA
+LOC129135766,uncharacterized LOC129135766,1,No,10.59982393,NA,NA
+LOC134810063,uncharacterized LOC134810063,1,No,10.59517416,NA,NA
+SVOPL,SVOP like,1,No,10.58926609,NA,NA
+LOC104005445,uncharacterized LOC104005445,1,No,10.56847664,NA,NA
+LOC134809951,uncharacterized LOC134809951,1,No,10.54785629,NA,NA
+FARP2,FERM%2C ARH/RhoGEF and pleckstrin domain protein 2,1,No,10.54456372,NA,NA
+LOC129137546,uncharacterized LOC129137546,1,No,10.53721437,NA,NA
+AGAP6,ArfGAP with GTPase domain%2C ankyrin repeat and PH domain 6,1,No,NA,NA,10.5265591
+ABCA13,ATP binding cassette subfamily A member 13,1,No,10.52488947,NA,NA
+LOC749440,immunoglobulin heavy variable 4-34-like,1,No,10.50950416,NA,NA
+CCDC77,coiled-coil domain containing 77,1,No,NA,10.48797958,NA
+LOC134808290,uncharacterized LOC134808290,1,No,10.47902869,NA,NA
+LHFPL6,LHFPL tetraspan subfamily member 6,1,No,10.47634705,NA,NA
+LOC107975046,uncharacterized LOC107975046,1,No,10.45896627,NA,NA
+SLC19A3,solute carrier family 19 member 3,1,No,10.45302233,NA,NA
+KCNIP4,potassium voltage-gated channel interacting protein 4,1,No,10.44493019,NA,NA
+PATR-DPA1,major histocompatibility complex%2C class II%2C DP alpha 1,1,No,10.4259662,NA,NA
+LOC134808004,uncharacterized LOC134808004,1,No,NA,10.42253277,NA
+SYNE1,spectrin repeat containing nuclear envelope protein 1,1,No,10.41882038,NA,NA
+PRKCZ,protein kinase C zeta,1,No,NA,NA,10.4179703
+WDR7,WD repeat domain 7,1,No,10.40352369,NA,NA
+CCDC102B,coiled-coil domain containing 102B,1,No,10.40285376,NA,NA
+ITGA8,integrin subunit alpha 8,1,No,10.40162458,NA,NA
+RIPK1,receptor interacting serine/threonine kinase 1,1,No,NA,NA,10.38776062
+TMEM51,transmembrane protein 51,1,No,10.3737855,NA,NA
+LOC129138202,spectrin beta chain%2C non-erythrocytic 5-like,1,No,10.35511715,NA,NA
+LOC104008434,uncharacterized LOC104008434,1,No,10.35449307,NA,NA
+LOC129137435,nuclear pore complex-interacting protein family member B15-like,1,No,10.3515706,NA,NA
+DOK7,docking protein 7,1,No,10.32422779,NA,NA
+SDK2,sidekick cell adhesion molecule 2,1,No,10.32284769,NA,NA
+LOC134807092,putative uncharacterized protein FLJ44672,1,No,NA,NA,10.31072064
+LOC112209443,RH-like protein IIR,1,No,NA,NA,10.30906653
+LOC107967526,uncharacterized LOC107967526,1,No,10.30670861,NA,NA
+BACH1,BTB domain and CNC homolog 1,1,No,10.30536083,NA,NA
+EVC2,EvC ciliary complex subunit 2,1,No,10.30123047,NA,NA
+LOC107974195,uncharacterized LOC107974195,1,No,10.28959422,NA,NA
+AXIN1,axin 1,1,No,NA,10.27323382,NA
+RADIL,Rap associating with DIL domain,1,No,10.26621886,NA,NA
+ABHD2,abhydrolase domain containing 2%2C acylglycerol lipase,1,No,10.26364494,NA,NA
+LOC112206437,zinc finger protein 20-like,1,No,10.25372067,NA,NA
+GOLGA6L7,golgin A6 family like 7,1,No,NA,NA,10.23861769
+LOC129143179,PRAME family member 15-like,1,No,NA,NA,10.2364852
+LOC134807968,uncharacterized LOC134807968,1,No,10.21305229,NA,NA
+PSMB8,proteasome 20S subunit beta 8,1,No,10.20405707,NA,NA
+LOC107967178,uncharacterized LOC107967178,1,No,10.19275441,NA,NA
+GRK3,G protein-coupled receptor kinase 3,1,No,10.1915439,NA,NA
+LOC129138036,putative methyl-CpG-binding domain protein 3-like 3,1,No,10.19140874,NA,NA
+TRIM16,tripartite motif containing 16,1,No,10.18250476,NA,NA
+RARB,retinoic acid receptor beta,1,No,10.17551009,NA,NA
+LOC134810642,uncharacterized LOC134810642,1,No,10.17371043,NA,NA
+LOC134810773,exonuclease GOR-like,1,No,10.17274218,NA,NA
+OCA2,OCA2 melanosomal transmembrane protein,1,No,10.16644449,NA,NA
+LOC462525,olfactory receptor 2H1-like,1,No,10.16540166,NA,NA
+LOC107967248,uncharacterized LOC107967248,1,No,10.16131488,NA,NA
+LOC112209447,small ribosomal subunit protein uS8-like,1,No,10.15420735,NA,NA
+MCCC1,methylcrotonyl-CoA carboxylase subunit 1,1,No,10.13355961,NA,NA
+RER1,retention in endoplasmic reticulum sorting receptor 1,1,No,10.13190144,NA,NA
+PRKAG2,protein kinase AMP-activated non-catalytic subunit gamma 2,1,No,10.11347486,NA,NA
+LOC134808782,uncharacterized LOC134808782,1,No,10.11220814,NA,NA
+GSDMC,gasdermin C,1,No,10.11005349,NA,NA
+LOC134810521,uncharacterized LOC134810521,1,No,10.10752314,NA,NA
+LOC747817,tubulin beta-8 chain-like,1,No,NA,10.10694191,NA
+LOC129143154,heterogeneous nuclear ribonucleoprotein C-like 1,1,No,10.1033578,NA,NA
+HS3ST2,heparan sulfate-glucosamine 3-sulfotransferase 2,1,No,10.09864526,NA,NA
+TMEM132C,transmembrane protein 132C,1,No,10.09012083,NA,NA
+HBA1,hemoglobin subunit alpha 1,1,No,10.08654443,NA,NA
+LOC134807808,breast carcinoma-amplified sequence 4-like,1,No,10.08548127,NA,NA
+PLB1,phospholipase B1,1,No,10.07524877,NA,NA
+CCHCR1,coiled-coil alpha-helical rod protein 1,1,No,10.072895,NA,NA
+IL1R1,interleukin 1 receptor type 1,1,No,10.07225768,NA,NA
+LOC129138045,putative methyl-CpG-binding domain protein 3-like 3,1,No,10.06473283,NA,NA
+CNTNAP2,contactin associated protein 2,1,No,NA,NA,10.06150192
+IRS2,insulin receptor substrate 2,1,No,NA,NA,10.03060053
+LOC134810145,TATA-box-binding protein-associated factor 11-like protein 5,1,No,NA,10.00966255,NA
+LOC134809886,uncharacterized LOC134809886,1,No,NA,NA,9.941289969
+LOC469819,PRAME family member 10-like,1,No,NA,NA,9.912598205
+LOC129143147,PRAME family member 10,1,No,NA,NA,9.902321021
+C8H8orf33,chromosome 8 C8orf33 homolog,1,No,NA,NA,9.87293657
+ACACA,acetyl-CoA carboxylase alpha,1,No,NA,NA,9.842929404
+DNAH11,dynein axonemal heavy chain 11,1,No,NA,NA,9.840411124
+PRKAR1B,protein kinase cAMP-dependent type I regulatory subunit beta,1,No,NA,NA,9.830335746
+LOC129138158,MAM and LDL-receptor class A domain-containing protein 1-like,1,No,NA,NA,9.80041817
+LOC134807326,uncharacterized LOC134807326,1,No,NA,NA,9.796799842
+LOC129135355,collagen alpha-2(IV) chain-like,1,No,NA,NA,9.754079939
+RNF144A,ring finger protein 144A,1,No,NA,NA,9.742830362
+LOC104006326,uncharacterized LOC104006326,1,No,NA,NA,9.738220129
+LRRC27,leucine rich repeat containing 27,1,No,NA,9.726121219,NA
+LOC107969320,uncharacterized LOC107969320,1,No,NA,NA,9.706674464
+LOC134810622,DNA mismatch repair protein MutL-like,1,No,NA,NA,9.703002928
+MTNR1A,melatonin receptor 1A,1,No,NA,9.695835517,NA
+TMEM88B,transmembrane protein 88B,1,No,NA,NA,9.673951714
+LOC129141188,transcription factor NF-E4-like,1,No,NA,NA,9.666259617
+LOC100614081,uncharacterized LOC100614081,1,No,NA,NA,9.627784384
+TCERG1L,transcription elongation regulator 1 like,1,No,NA,NA,9.62686984
+LUZP2,leucine zipper protein 2,1,No,NA,NA,9.603933268
+LRCH3,leucine rich repeats and calponin homology domain containing 3,1,No,NA,NA,9.601044261
+LOC750420,nuclear pore complex-interacting protein family member B15,1,No,NA,NA,9.600068751
+JAM3,junctional adhesion molecule 3,1,No,NA,NA,9.588685988
+LOC104003354,putative olfactory receptor 10J6,1,No,NA,NA,9.568788196
+LOC742579,mismatch repair endonuclease PMS2,1,No,NA,NA,9.520581329
+LOC134810143,TATA-box-binding protein-associated factor 11-like protein 13,1,No,NA,9.505503981,NA
+VAV2,vav guanine nucleotide exchange factor 2,1,No,NA,NA,9.475323427
+PTP4A3,protein tyrosine phosphatase 4A3,1,No,NA,9.474183763,NA
+LOC129143469,uncharacterized LOC129143469,1,No,NA,NA,9.457100909
+LOC468692,putative methyl-CpG-binding domain protein 3-like 3,1,No,NA,NA,9.414872362
+LOC129144149,TATA-box-binding protein-associated factor 11-like protein 5,1,No,NA,NA,9.401698587
+LOC134810002,TATA-box-binding protein-associated factor 11-like protein 5,1,No,NA,NA,9.40061987
+LOC107966502,protein CASP,1,No,NA,NA,9.40026181
+CARD11,caspase recruitment domain family member 11,1,No,NA,NA,9.383615946
+SIRT3,sirtuin 3,1,No,NA,NA,9.357397448
+SLC24A2,solute carrier family 24 member 2,1,No,NA,NA,9.346853277
+LOC107972962,bifunctional peptidase and (3S)-lysyl hydroxylase JMJD7-like,1,No,NA,NA,9.324502069
+LOC112207544,neuroblastoma breakpoint family member 15-like,1,No,NA,9.318024625,NA
+SORBS2,sorbin and SH3 domain containing 2,1,No,NA,NA,9.31488963
+LOC107970553,uncharacterized LOC107970553,1,No,NA,NA,9.310279705
+NOS3,nitric oxide synthase 3,1,No,NA,NA,9.307506741
+LOC100608599,heat shock protein HSP 90-alpha,1,No,NA,NA,9.306140351
+ZNF845,zinc finger protein 845,1,No,NA,9.30026983,NA
+LOC107966473,PRAME family member 1-like,1,No,NA,NA,9.288677691
+LOC134810312,uncharacterized LOC134810312,1,No,NA,NA,9.284043552
+HAGH,hydroxyacylglutathione hydrolase,1,No,NA,NA,9.281007934
+MYO7B,myosin VIIB,1,No,NA,NA,9.272557462
+UCMA,upper zone of growth plate and cartilage matrix associated,1,No,NA,NA,9.266470563
+GLT1D1,glycosyltransferase 1 domain containing 1,1,No,NA,NA,9.25851591
+CARD14,caspase recruitment domain family member 14,1,No,NA,9.246913153,NA
+CSNK1G2,casein kinase 1 gamma 2,1,No,NA,9.240399856,NA
+LOC107971361,RH-like protein IC,1,No,NA,9.230419141,NA
+TMEM132B,transmembrane protein 132B,1,No,NA,NA,9.224052848
+LOC129143930,TATA-box-binding protein-associated factor 11-like protein 5,1,No,NA,NA,9.213476441
+LOC472696,large ribosomal subunit protein eL19,1,No,NA,NA,9.212427489
+ADGRD1,adhesion G protein-coupled receptor D1,1,No,NA,9.197340588,NA
+LOC107974580,E3 ubiquitin-protein ligase TRIM52,1,No,NA,9.165090927,NA
+PRSS51,serine protease 51,1,No,NA,NA,9.139634832
+LOC134808661,uncharacterized LOC134808661,1,No,NA,9.112155592,NA
+ADGRB1,adhesion G protein-coupled receptor B1,1,No,NA,NA,9.109265711
+CACNA2D4,calcium voltage-gated channel auxiliary subunit alpha2delta 4,1,No,NA,NA,9.105371313
+ZNF544,zinc finger protein 544,1,No,NA,NA,9.104199341
+LOC104001782,putative coiled-coil domain-containing protein 144B,1,No,NA,NA,9.098127641
+LOC129144373,protein eyes shut homolog,1,No,NA,NA,9.091043144
+LOC134810287,uncharacterized LOC134810287,1,No,NA,9.089845234,NA
+MMP17,matrix metallopeptidase 17,1,No,NA,9.068858843,NA
+AGBL1,AGBL carboxypeptidase 1,1,No,NA,NA,9.066859299
+LOC104004422,bifunctional peptidase and (3S)-lysyl hydroxylase JMJD7,1,No,NA,9.065910284,NA
+LOC134810006,TATA-box-binding protein-associated factor 11-like protein 5,1,No,NA,NA,9.064427337
+LOC107967700,uncharacterized LOC107967700,1,No,NA,NA,9.064146533
+LOC112204540,uncharacterized LOC112204540,1,No,NA,9.0616631,NA
+SUCLG2,succinate-CoA ligase GDP-forming subunit beta,1,No,NA,NA,9.051075352
+SLCO4A1,solute carrier organic anion transporter family member 4A1,1,No,NA,NA,9.039367416
+ZNF761,zinc finger protein 761,1,No,NA,9.022772553,NA
+LOC748741,zinc finger protein 765-like,1,No,NA,NA,9.013233622
+LOC112207536,BCL-6 corepressor-like protein 1,1,No,NA,9.005756599,NA
+LOC129137268,hemoglobin subunit alpha-3-like,1,No,NA,9.002494182,NA
+AQP12B,aquaporin 12B,1,No,NA,NA,9.002101705
+LOC134808386,immunoglobulin alpha-2 heavy chain-like,1,No,NA,NA,9.001838452
+LOC129143986,uncharacterized LOC129143986,1,No,NA,NA,8.983415327
+FANCA,FA complementation group A,1,No,NA,8.932135345,NA
+LOC104006792,uncharacterized LOC104006792,1,No,NA,8.915801674,NA
+CERS3,ceramide synthase 3,1,No,NA,8.90038136,NA
+LOC112204801,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like,1,No,NA,8.894798824,NA
+SMCO1,single-pass membrane protein with coiled-coil domains 1,1,No,NA,8.833219108,NA
+LOC107972995,immunoglobulin heavy constant gamma 1-like,1,No,NA,8.815116276,NA
+MRNIP,MRN complex interacting protein,1,No,NA,8.79003075,NA
+OSBPL5,oxysterol binding protein like 5,1,No,NA,8.781416957,NA
+CLCN7,chloride voltage-gated channel 7,1,No,NA,8.771288632,NA
+LOC750856,succinate dehydrogenase [ubiquinone] flavoprotein subunit%2C mitochondrial,1,No,NA,8.756214839,NA
+LOC134810509,uncharacterized LOC134810509,1,No,NA,8.669950407,NA
+ARHGAP39,Rho GTPase activating protein 39,1,No,NA,8.629009041,NA
+LOC107970891,succinate dehydrogenase [ubiquinone] flavoprotein subunit%2C mitochondrial,1,No,NA,8.565142768,NA
+PDE9A,phosphodiesterase 9A,1,No,NA,8.550297738,NA
+LOC129136397,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like,1,No,NA,8.528283007,NA
+DDI2,DNA damage inducible 1 homolog 2,1,No,NA,8.522643582,NA
+LOC104001134,zinc finger protein 83,1,No,NA,8.518593964,NA
+CHMP1A,charged multivesicular body protein 1A,1,No,NA,8.503026081,NA
+DYNLT2B,dynein light chain Tctex-type 2B,1,No,NA,8.446393144,NA
+SPATA22,spermatogenesis associated 22,1,No,NA,8.439038322,NA
+ARID1B,AT-rich interaction domain 1B,1,No,NA,8.436173419,NA
+LOC134810146,TATA-box-binding protein-associated factor 11-like protein 13,1,No,NA,8.435227447,NA
+LOC104008153,putative protein FAM157A,1,No,NA,8.411073582,NA
+LOC134810144,TATA-box-binding protein-associated factor 11-like protein 5,1,No,NA,8.389393713,NA
+BPIFB2,BPI fold containing family B member 2,1,No,NA,8.371728699,NA
+LOC134810806,uncharacterized LOC134810806,1,No,NA,8.362054247,NA
+SGTA,small glutamine rich tetratricopeptide repeat co-chaperone alpha,1,No,NA,8.351208119,NA
+LOC112206249,putative uncharacterized protein FLJ46235,1,No,NA,8.259924098,NA
+LYRM4,LYR motif containing 4,1,No,NA,8.246133903,NA
+XIRP2,xin actin binding repeat containing 2,1,No,NA,8.226520495,NA
+ZNF766,zinc finger protein 766,1,No,NA,8.2156403,NA
+FN3KRP,fructosamine 3 kinase related protein,1,No,NA,8.209377566,NA
+MYO18B,myosin XVIIIB,1,No,NA,8.17710539,NA
+FAM53A,family with sequence similarity 53 member A,1,No,NA,8.136562906,NA
+LAIR2,leukocyte associated immunoglobulin like receptor 2,1,No,NA,8.128808603,NA
+PDCD2,programmed cell death 2,1,No,NA,8.119715244,NA
+MUC2,mucin 2%2C oligomeric mucus/gel-forming,1,No,NA,8.119484276,NA
+LOC129144049,uncharacterized LOC129144049,1,No,NA,8.10418279,NA
+AHCTF1,AT-hook containing transcription factor 1,1,No,NA,8.091117452,NA
+LOC100613395,uncharacterized LOC100613395,1,No,NA,8.082895792,NA
+CADM2,cell adhesion molecule 2,1,No,NA,8.079204499,NA
+MSRA,methionine sulfoxide reductase A,1,No,NA,8.066107271,NA
+SCUBE1,signal peptide%2C CUB domain and EGF like domain containing 1,1,No,NA,8.057848202,NA
+CROCC2,ciliary rootlet coiled-coil%2C rootletin family member 2,1,No,NA,8.05768838,NA
+HSF2BP,heat shock transcription factor 2 binding protein,1,No,NA,8.051311191,NA
+TRAPPC10,trafficking protein particle complex subunit 10,1,No,NA,8.048167384,NA
+TPO,thyroid peroxidase,1,No,NA,8.039426686,NA
+MGAM,maltase-glucoamylase,1,No,NA,8.030958241,NA
+UMAD1,UBAP1-MVB12-associated (UMA) domain containing 1,1,No,NA,7.982408672,NA
+TSPAN9,tetraspanin 9,1,No,NA,7.945789276,NA
+ZNF468,zinc finger protein 468,1,No,NA,7.937390955,NA
+LOC744965,S-adenosyl-L-methionine-dependent tRNA 4-demethylwyosine synthase TYW1,1,No,NA,7.933102682,NA
+LOC467592,immunoglobulin heavy variable 3-74-like,1,No,NA,7.92451899,NA
+LOC100613625,putative golgin subfamily A member 8G,1,No,NA,7.917750977,NA
+MIR373,microRNA mir-373,1,No,NA,7.903876304,NA
+LOC743528,dual specificity protein phosphatase CDC14C-like,1,No,NA,7.899088863,NA
+BTNL8,butyrophilin like 8,1,No,NA,7.893615284,NA
+LOC134807286,uncharacterized LOC134807286,1,No,NA,7.855367128,NA
+RPS6KA2,ribosomal protein S6 kinase A2,1,No,NA,7.833898361,NA
+GOLGA6L2,golgin A6 family like 2,1,No,NA,7.827892797,NA
+LOC129135413,RANBP2-like and GRIP domain-containing protein 5/6,1,No,NA,7.80192454,NA
+FAM53B,family with sequence similarity 53 member B,1,No,NA,7.790003006,NA
+LOC129143463,MAM and LDL-receptor class A domain-containing protein 1-like,1,No,NA,7.787672928,NA
+ASPG,asparaginase,1,No,NA,7.779444942,NA
+KLHDC4,kelch domain containing 4,1,No,NA,7.774363474,NA
+LOC112205857,bifunctional peptidase and (3S)-lysyl hydroxylase JMJD7-like,1,No,NA,7.757215821,NA
+STMN3,stathmin 3,1,No,NA,7.750728416,NA
+LOC107970279,uncharacterized LOC107970279,1,No,NA,7.742496967,NA
+WRAP73,WD repeat containing%2C antisense to TP73,1,No,NA,7.736431152,NA
+SUMF1,sulfatase modifying factor 1,1,No,NA,7.729429252,NA
+PDXK,pyridoxal kinase,1,No,NA,7.722173514,NA
+SUN1,Sad1 and UNC84 domain containing 1,1,No,NA,7.71226037,NA
+CDK5R2,cyclin dependent kinase 5 regulatory subunit 2,1,No,NA,7.710280322,NA
+LOC134807806,uncharacterized LOC134807806,1,No,NA,7.706527398,NA
+CEP72,centrosomal protein 72,1,No,NA,7.698183632,NA
+LOC134807290,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like,1,No,NA,7.697765112,NA
+LOC134810088,uncharacterized LOC134810088,1,No,NA,7.656396578,NA
+PARVB,parvin beta,1,No,NA,7.65000147,NA
+LOC469825,PRAME family member,1,No,NA,7.637072914,NA
+HERC2,HECT and RLD domain containing E3 ubiquitin protein ligase 2,1,No,NA,7.609596384,NA
+SCRIB,scribble planar cell polarity protein,1,No,NA,7.602997393,NA
+PMPCA,peptidase%2C mitochondrial processing subunit alpha,1,No,NA,7.593636981,NA
+COL18A1,collagen type XVIII alpha 1 chain,1,No,NA,7.589371485,NA
+C1H1orf159,chromosome 1 C1orf159 homolog,1,No,NA,7.58311319,NA
+SPIRE2,spire type actin nucleation factor 2,1,No,NA,7.576026223,NA
+LOC112208025,mitogen-activated protein kinase-binding protein 1,1,No,NA,7.548638768,NA
+FAT1,FAT atypical cadherin 1,1,No,NA,7.531578525,NA
+LOC134807288,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like,1,No,NA,7.525379428,NA
+KDM4C,lysine demethylase 4C,1,No,NA,7.523075544,NA
+C3,complement C3,1,No,NA,7.522611683,NA
+LOC129141462,PRAME family member 10-like,1,No,NA,7.505067674,NA
+LOC129137954,protein FAM90A27P-like,1,No,NA,7.50199579,NA

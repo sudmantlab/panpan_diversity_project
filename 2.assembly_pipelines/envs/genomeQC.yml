@@ -1,0 +1,19 @@
+name: genomeQC
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - merqury
+  - htslib
+  - meryl
+  - genomescope2
+  - kmc
+  - kmer-jellyfish
+  - assembly-stats
+  - busco
+  - purge_dups
+  - r-base
+  - r-essentials
+
+

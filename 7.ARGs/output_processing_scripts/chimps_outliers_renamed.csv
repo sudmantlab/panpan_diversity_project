@@ -1,0 +1,205 @@
+﻿genes,genes_renamed,descriptions
+LOC455557,ABHD17A,alpha/beta hydrolase domain-containing protein 17A
+LOC104008393,ACSM1,acyl-coenzyme A synthetase ACSM1%2C mitochondrial-like
+LOC743568,ADAMTS7,A disintegrin and metalloproteinase with thrombospondin motifs 7
+LOC134808778,AFG3L1,AFG3-like protein 1
+LOC104002732,AFG3L1 ,AFG3-like protein 1
+LOC750576,ALG1,chitobiosyldiphosphodolichol beta-mannosyltransferase-like
+LOC741694,ANKRD36B,ankyrin repeat domain-containing protein 36B
+LOC134807808,BCAS1,breast carcinoma-amplified sequence 4-like
+LOC112207536,BCORL1,BCL-6 corepressor-like protein 1
+LOC468717,C3P1,putative protein C3P1
+LOC462577,C4A,complement C4-A
+LOC743191,CASC2,protein CASC2%2C isoforms 1/2
+LOC107966502,CASP,protein CASP
+LOC104001782,CCDC144B,putative coiled-coil domain-containing protein 144B
+LOC743528,CDC14C,dual specificity protein phosphatase CDC14C-like
+LOC457604,CFHR4,complement factor H-related protein 4
+LOC742704,COL6A4,collagen alpha-4(VI) chain-like
+LOC736783,CTRB1,chymotrypsinogen B
+LOC451825,DDX11,ATP-dependent DNA helicase DDX11-like
+LOC112208018,EIF4A-III,eukaryotic initiation factor 4A-III
+LOC129135262,EIF4A-III-like,eukaryotic initiation factor 4A-III-like
+LOC129137559,EIF4A-III-like,eukaryotic initiation factor 4A-III-like
+LOC107976907,ERVK-16,endogenous retrovirus group K member 16 Rec protein
+LOC107976907,ERVK-16,endogenous retrovirus group K member 16 Rec protein
+LOC134809608,ESRG,embryonic stem cell-related gene protein-like
+LOC100609532,EYS,protein eyes shut homolog
+LOC129144371,EYS,protein eyes shut homolog
+LOC104008153,FAM157A,putative protein FAM157A
+LOC129137954,FAM90A27P,protein FAM90A27P-like
+LOC461139,GBA3,cytosolic beta-glucosidase
+LOC100613625,GOLGA8G,putative golgin subfamily A member 8G
+LOC129137183,GOLGA8IP,putative golgin subfamily A member 8I
+LOC129144293,GVQW1,protein GVQW1-like
+LOC461520,GYPx_A-like,glycophorin A-like protein
+LOC100609966,GYPx_B-like,glycophorin B (MNS blood group)
+LOC134806961,GYPx_B-like,glycophorin-B
+LOC129137268,HBA3-like,hemoglobin subunit alpha-3-like
+LOC129137268,HBA3-like,hemoglobin subunit alpha-3-like
+LOC462552,HCG22,protein PBMUCL2
+LOC453251,HERC2P3 ,putative HERC2-like protein 3
+LOC471948,HLA-A,HLA class I histocompatibility antigen%2C A alpha chain
+PATR-A,HLA-A,patr class I histocompatibility antigen%2C A-126 alpha chain
+PATR-B,HLA-B,major histocompatibility complex%2C class I%2C B
+PATR-C,HLA-C,major histocompatibility complex%2C class I%2C C
+PATR-DPA1,HLA-DPA1,major histocompatibility complex%2C class II%2C DP alpha 1
+LOC100610904,HLA-DPB1,HLA class II histocompatibility antigen%2C DP beta 1 chain-like
+PATR-DPB1,HLA-DPB1,major histocompatibility complex%2C class II%2C DP beta 1
+PATR-DQA1,HLA-DQA1,major histocompatibility complex%2C class II%2C DQ alpha 1
+PATR-DQA2,HLA-DQA2,major histocompatibility complex%2C class II%2C DQ alpha 2
+LOC100616520,HLA-DQB1,HLA class II histocompatibility antigen%2C DQ beta 1 chain
+PATR-DQB1,HLA-DQB1,major histocompatibility complex%2C class II%2C DQ beta 1
+PATR-DRA,HLA-DRA,major histocompatibility complex%2C class II%2C DR alpha
+LOC104006793,HLA-DRB3,HLA class II histocompatibility antigen%2C DR beta 3 chain
+PATR-F,HLA-F,major histocompatibility complex%2C class I%2C F
+LOC129143379,HNRNPCL2,heterogeneous nuclear ribonucleoprotein C-like 2
+LOC129138080,HRES-1,putative HTLV-1-related endogenous sequence
+LOC100608599,HSP90AA1,heat shock protein HSP 90-alpha
+LOC461056,IDUA,alpha-L-iduronidase
+LOC112209536,IFITM3,interferon-induced transmembrane protein 3-like
+LOC107972995,IGHG1,immunoglobulin heavy constant gamma 1-like
+LOC134808389,IGHG1,immunoglobulin gamma-1 heavy chain-like
+LOC134808389,IGHG1,immunoglobulin gamma-1 heavy chain-like
+LOC467592,IGHV4-3-74,immunoglobulin heavy variable 3-74-like
+LOC134806971,IGHV4-30-4,immunoglobulin heavy variable 4-30-4-like
+LOC134806971,IGHV4-30-4,immunoglobulin heavy variable 4-30-4-like
+LOC749440,IGHV4-30-4,immunoglobulin heavy variable 4-30-4-like
+LOC749440,IGHV4-34,immunoglobulin heavy variable 4-34-like
+LOC744594,IGHV4-38-2,immunoglobulin heavy variable 4-38-2-like
+LOC101058482,IGHV5-51,immunoglobulin heavy variable 5-51-like
+LOC100612450,IGSF1,immunoglobulin superfamily member 1
+LOC104001142,IL-9R,interleukin-9 receptor-like
+LOC112205857,JMJD7,bifunctional peptidase and (3S)-lysyl hydroxylase JMJD7-like
+LOC104004422,JMJD7,bifunctional peptidase and (3S)-lysyl hydroxylase JMJD7
+LOC107972857,JMJD7,bifunctional peptidase and (3S)-lysyl hydroxylase JMJD7
+LOC101059730,KIF28P,kinesin-like protein KIF28P
+LOC100608180,LILRB3,leukocyte immunoglobulin-like receptor subfamily B member 3-like
+LOC112205253,MALRD1,MAM and LDL-receptor class A domain-containing protein 1-like
+LOC129136305,MALRD1,MAM and LDL-receptor class A domain-containing protein 1-like
+LOC129137991,MALRD1,MAM and LDL-receptor class A domain-containing protein 1-like
+LOC129143198,MALRD1,MAM and LDL-receptor class A domain-containing protein 1-like
+LOC134810508,MALRD1,MAM and LDL-receptor class A domain-containing protein 1-like
+LOC112207721,MALRD2,MAM and LDL-receptor class A domain-containing protein 2-like
+LOC129135418,METRNL,meteorin-like protein
+LOC129135418,METRNL ,meteorin-like protein
+LOC134810183,MICB,MHC class I polypeptide-related sequence B-like
+LOC134809638,MOST-1,protein MOST-1
+LOC107972039,MUC17,mucin-17
+LOC750356,MUC20,mucin-20
+LOC134810622,MUTL,DNA mismatch repair protein MutL-like
+LOC745916,MUTL,DNA mismatch repair protein MutL
+LOC112208690,MYLK2,myosin light chain kinase 2%2C skeletal/cardiac muscle-like
+LOC112208690,MYLK2,myosin light chain kinase 2%2C skeletal/cardiac muscle-like
+LOC129136527,NBPF15,neuroblastoma breakpoint family member 15-like
+LOC112205572,NEK4,serine/threonine-protein kinase Nek4-like
+LOC112205572,NEK4,serine/threonine-protein kinase Nek4-like
+LOC129141188,NFE4,transcription factor NF-E4-like
+LOC129137435,NPIPB15,nuclear pore complex-interacting protein family member B15-like
+LOC129137451,NPIPB15,nuclear pore complex-interacting protein family member B15-like
+LOC750420,NPIPB15,nuclear pore complex-interacting protein family member B15
+LOC129137424,NPIPB8,nuclear pore complex-interacting protein family member B8-like
+LOC129136401,OLFM4,olfactomedin-4-like
+LOC104003354,OR10J6P,putative olfactory receptor 10J6
+LOC104003467,OR1L4,olfactory receptor 1L4-like
+LOC104003467,OR1L4,olfactory receptor 1L4-like
+LOC462525,OR2H1,olfactory receptor 2H1-like
+LOC129137914,OR4F3,olfactory receptor 4F3/4F16/4F29
+LOC104008398,OR51F2,olfactory receptor 51F2
+LOC100611224,OR51S1,olfactory receptor 51S1
+LOC466370,OR52A5,olfactory receptor 52A5
+LOC738646,OR5H6,olfactory receptor 5H6-like
+LOC466561,OR8U9,olfactory receptor 8U9-like
+LOC129136901,PARP4,protein mono-ADP-ribosyltransferase PARP4-like
+LOC461041,PDE6B,rod cGMP-specific 3'%2C5'-cyclic phosphodiesterase subunit beta
+LOC104004287,PGM5,phosphoglucomutase-like protein 5
+LOC454266,PKD1L2 ,polycystin-1-like protein 2
+LOC750524,PLA2G4A,cytosolic phospholipase A2 beta
+LOC129144382,PLA2G4B,cytosolic phospholipase A2 beta-like
+LOC129144502,PMS2,putative postmeiotic segregation increased 2-like protein 2
+LOC742579,PMS2,mismatch repair endonuclease PMS2
+LOC749132,PRAMEF1,PRAME family member 1
+LOC129138211,PRAMEF11,PRAME family member 11-like
+LOC129143170,PRAMEF15,PRAME family member 15
+LOC129143370,PRAMEF2,PRAME family member 2
+LOC129143355,PRAMEF8,PRAME family member 8-like
+LOC739542,PRH1,salivary acidic proline-rich phosphoprotein 1/2
+LOC134809069,PRR23D1,proline-rich protein 23D1-like
+LOC107969555,PSG11,pregnancy-specific beta-1-glycoprotein 11
+LOC749565,PTMA,prothymosin alpha-like
+LOC129135413,RANBP2,RANBP2-like and GRIP domain-containing protein 5/6
+LOC736102,RANBP2,E3 SUMO-protein ligase RanBP2-like
+LOC742087,RASA4,ras GTPase-activating protein 4
+LOC100610718,RFPL4A,ret finger protein-like 4A
+LOC129135345,RFPL4A,ret finger protein-like 4A
+LOC129135345,RFPL4A,ret finger protein-like 4A
+LOC129138006,RFPL4A,ret finger protein-like 4A
+LOC129138007,RFPL4A,ret finger protein-like 4A
+LOC129138008,RFPL4A,ret finger protein-like 4A
+LOC129138011,RFPL4A,ret finger protein-like 4A
+LOC129138013,RFPL4A,ret finger protein-like 4A
+LOC129138013,RFPL4A,ret finger protein-like 4A
+LOC129138017,RFPL4A,ret finger protein-like 4A
+LOC129138018,RFPL4A,ret finger protein-like 4A
+LOC129138019,RFPL4A,ret finger protein-like 4A
+LOC129138020,RFPL4A,ret finger protein-like 4A
+LOC129138021,RFPL4A,ret finger protein-like 4A
+LOC129138022,RFPL4A,ret finger protein-like 4A
+LOC129138023,RFPL4A,ret finger protein-like 4A
+LOC129138024,RFPL4A,ret finger protein-like 4A
+LOC129138025,RFPL4A,ret finger protein-like 4A
+LOC129138026,RFPL4A,ret finger protein-like 4A
+LOC129138027,RFPL4A,ret finger protein-like 4A
+LOC129138028,RFPL4A,ret finger protein-like 4A
+LOC129138029,RFPL4A,ret finger protein-like 4A
+LOC456315,RFPL4A,ret finger protein-like 4A
+LOC107971361,RH-like-IC,RH-like protein IC
+LOC112209443,RH-like-IIR,RH-like protein IIR
+LOC112206467,RNU6-1,U6 spliceosomal RNA
+LOC472696,RPL19,large ribosomal subunit protein eL19
+LOC107974590,RPL8,large ribosomal subunit protein uL2
+LOC112209447,RPS15A,small ribosomal subunit protein uS8-like
+LOC107972351,RRN3P2,putative RRN3-like protein RRN3P2
+LOC738574,RSPH10B,radial spoke head 10 homolog B
+LOC107966728,RSU1 ,ras suppressor protein 1-like
+LOC129143853,SAV1,protein salvador homolog 1-like
+LOC107970891,SDHA,succinate dehydrogenase [ubiquinone] flavoprotein subunit%2C mitochondrial
+LOC750856,SDHA ,succinate dehydrogenase [ubiquinone] flavoprotein subunit%2C mitochondrial
+LOC104007081,SIMC1,SUMO-interacting motif-containing protein 1
+LOC104007081,SIMC1,SUMO-interacting motif-containing protein 1
+LOC134807488,SLCO1B7,putative solute carrier organic anion transporter family member 1B7
+LOC134807488,SLCO1B7,putative solute carrier organic anion transporter family member 1B7
+LOC112206452,SNORD13,small nucleolar RNA U13
+LOC742265,SPDYE1,speedy protein E1
+LOC750803,SPDYE18,speedy protein E18
+LOC129135556,SPTBN5,spectrin beta chain%2C non-erythrocytic 5-like
+LOC112204800,SSU72L2,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC112204800,SSU72L2,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC129136397,SSU72L2,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like
+LOC134810146,TAF13,TATA-box-binding protein-associated factor 11-like protein 13
+LOC134806951,TAFA1,TAFA chemokine like family member 1
+LOC134806951,TAFA1,TAFA chemokine like family member 1
+LOC134810145,TAFA5,TATA-box-binding protein-associated factor 11-like protein 5
+LOC100609864,TAS2R14,taste receptor type 2 member 30-like
+LOC134808242,TBX1,T-box transcription factor TBX1-like
+LOC463170,TCP10L,putative T-complex protein 10A homolog
+LOC748623,TRAV14DV4,T cell receptor alpha variable 14/delta variable 4-like
+LOC743567,TRAV8-6,T cell receptor alpha variable 8-6-like
+LOC101059405,TRBV7-6,T cell receptor beta variable 7-6-like
+LOC107974580,TRIM52,E3 ubiquitin-protein ligase TRIM52
+LOC129135354,TRIM52,E3 ubiquitin-protein ligase TRIM52
+LOC747817,TUBA8,tubulin beta-8 chain-like
+LOC100608468,TUBB-like,tubulin beta chain-like
+LOC129144202,TUBB8,tubulin beta-8 chain-like
+LOC738663,TUBB8,tubulin beta-8 chain-like
+LOC744965,TYW1,S-adenosyl-L-methionine-dependent tRNA 4-demethylwyosine synthase TYW1
+LOC461289,UGT2B15,UDP-glucuronosyltransferase 2B15
+LOC100611617,UPF0607,putative UPF0607 protein ENSP00000383144
+LOC107966570,WASHC2A,WASH complex subunit 2A-like
+LOC129143853,WW45,protein salvador homolog 1-like
+LOC104001091,ZNF321,putative protein ZNF321
+LOC100610781,ZNF665,zinc finger protein 665-like
+LOC456264,ZNF701,zinc finger protein 701
+LOC104003432,ZNF813,zinc finger protein 813
+LOC104001134,ZNF83,zinc finger protein 83
+LOC739761,ZNG1F,putative COBW domain-containing protein 7

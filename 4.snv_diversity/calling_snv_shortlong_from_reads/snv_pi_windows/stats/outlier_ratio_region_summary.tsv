@@ -1,0 +1,16 @@
+pop	region	N	total	pct
+Central	Centromere	110	2686	4.1
+Central	Telomere	2	2686	0.07
+Central	CenSat	1680	2686	62.55
+Central	SegDup	500	2686	18.62
+Central	Other	394	2686	14.67
+Eastern	Centromere	129	2685	4.8
+Eastern	Telomere	2	2685	0.07
+Eastern	CenSat	1665	2685	62.01
+Eastern	SegDup	481	2685	17.91
+Eastern	Other	408	2685	15.2
+Western	Centromere	112	2683	4.17
+Western	Telomere	1	2683	0.04
+Western	CenSat	1593	2683	59.37
+Western	SegDup	552	2683	20.57
+Western	Other	425	2683	15.84

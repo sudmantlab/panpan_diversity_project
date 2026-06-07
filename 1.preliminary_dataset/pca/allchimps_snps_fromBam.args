@@ -1,0 +1,7 @@
+PCAngsd v.1.10
+Time: 13/06/2022 09:38:40
+Directory: /global/scratch/users/joana_rocha/PANPAN/CHIMPS_lowcov/PCA
+Options:
+	-beagle allchimps_snps_fromBam.beagle.gz
+	-threads 24
+	-out allchimps_snps_fromBam

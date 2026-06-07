@@ -1,0 +1,1532 @@
+species,id,chrom,gaps,gapless_status
+bonobo,AG05253_1.hap1,chr1_pat_hsa1,11,with gaps
+bonobo,AG05253_1.hap1,chr2_mat_hsa3,5,with gaps
+bonobo,AG05253_1.hap1,chr3_pat_hsa4,3,with gaps
+bonobo,AG05253_1.hap1,chr4_mat_hsa5,4,with gaps
+bonobo,AG05253_1.hap1,chr5_pat_hsa6,17,with gaps
+bonobo,AG05253_1.hap1,chr6_mat_hsa7,21,with gaps
+bonobo,AG05253_1.hap1,chr7_pat_hsa8,8,with gaps
+bonobo,AG05253_1.hap1,chr8_mat_hsa10,6,with gaps
+bonobo,AG05253_1.hap1,chr9_pat_hsa11,1,with gaps
+bonobo,AG05253_1.hap1,chr10_mat_hsa12,5,with gaps
+bonobo,AG05253_1.hap1,chr11_mat_hsa9,28,with gaps
+bonobo,AG05253_1.hap1,chr12_mat_hsa2a,14,with gaps
+bonobo,AG05253_1.hap1,chr13_mat_hsa2b,4,with gaps
+bonobo,AG05253_1.hap1,chr14_pat_hsa13,17,with gaps
+bonobo,AG05253_1.hap1,chr15_mat_hsa14,12,with gaps
+bonobo,AG05253_1.hap1,chr16_pat_hsa15,13,with gaps
+bonobo,AG05253_1.hap1,chr17_mat_hsa18,9,with gaps
+bonobo,AG05253_1.hap1,chr18_pat_hsa16,29,with gaps
+bonobo,AG05253_1.hap1,chr19_pat_hsa17,20,with gaps
+bonobo,AG05253_1.hap1,chr20_pat_hsa19,16,with gaps
+bonobo,AG05253_1.hap1,chr21_mat_hsa20,5,with gaps
+bonobo,AG05253_1.hap1,chr22_pat_hsa21,8,with gaps
+bonobo,AG05253_1.hap1,chr23_pat_hsa22,40,with gaps
+bonobo,AG05253_1.hap1,chrX_mat_hsaX,8,with gaps
+bonobo,AG05253_1.hap1,chrY_pat_hsaY,33,with gaps
+bonobo,AG05253_1.hap2,chr1_pat_hsa1,12,with gaps
+bonobo,AG05253_1.hap2,chr2_mat_hsa3,2,with gaps
+bonobo,AG05253_1.hap2,chr3_pat_hsa4,3,with gaps
+bonobo,AG05253_1.hap2,chr4_mat_hsa5,5,with gaps
+bonobo,AG05253_1.hap2,chr5_pat_hsa6,11,with gaps
+bonobo,AG05253_1.hap2,chr6_mat_hsa7,18,with gaps
+bonobo,AG05253_1.hap2,chr7_pat_hsa8,25,with gaps
+bonobo,AG05253_1.hap2,chr8_mat_hsa10,8,with gaps
+bonobo,AG05253_1.hap2,chr9_pat_hsa11,4,with gaps
+bonobo,AG05253_1.hap2,chr10_mat_hsa12,7,with gaps
+bonobo,AG05253_1.hap2,chr11_mat_hsa9,22,with gaps
+bonobo,AG05253_1.hap2,chr12_mat_hsa2a,18,with gaps
+bonobo,AG05253_1.hap2,chr13_mat_hsa2b,3,with gaps
+bonobo,AG05253_1.hap2,chr14_pat_hsa13,7,with gaps
+bonobo,AG05253_1.hap2,chr15_mat_hsa14,15,with gaps
+bonobo,AG05253_1.hap2,chr16_pat_hsa15,9,with gaps
+bonobo,AG05253_1.hap2,chr17_mat_hsa18,7,with gaps
+bonobo,AG05253_1.hap2,chr18_pat_hsa16,22,with gaps
+bonobo,AG05253_1.hap2,chr19_pat_hsa17,36,with gaps
+bonobo,AG05253_1.hap2,chr20_pat_hsa19,32,with gaps
+bonobo,AG05253_1.hap2,chr21_mat_hsa20,10,with gaps
+bonobo,AG05253_1.hap2,chr22_pat_hsa21,5,with gaps
+bonobo,AG05253_1.hap2,chr23_pat_hsa22,46,with gaps
+bonobo,AG05253_1.hap2,chrX_mat_hsaX,20,with gaps
+bonobo,AG05253_1.hap2,chrY_pat_hsaY,14,with gaps
+bonobo,mPanPan1.hap1,chr1_pat_hsa1,0,gapless
+bonobo,mPanPan1.hap1,chr2_mat_hsa3,0,gapless
+bonobo,mPanPan1.hap1,chr3_pat_hsa4,0,gapless
+bonobo,mPanPan1.hap1,chr4_mat_hsa5,0,gapless
+bonobo,mPanPan1.hap1,chr5_pat_hsa6,0,gapless
+bonobo,mPanPan1.hap1,chr6_mat_hsa7,0,gapless
+bonobo,mPanPan1.hap1,chr7_pat_hsa8,0,gapless
+bonobo,mPanPan1.hap1,chr8_mat_hsa10,0,gapless
+bonobo,mPanPan1.hap1,chr9_pat_hsa11,0,gapless
+bonobo,mPanPan1.hap1,chr10_mat_hsa12,0,gapless
+bonobo,mPanPan1.hap1,chr11_mat_hsa9,0,gapless
+bonobo,mPanPan1.hap1,chr12_mat_hsa2a,0,gapless
+bonobo,mPanPan1.hap1,chr13_mat_hsa2b,0,gapless
+bonobo,mPanPan1.hap1,chr14_pat_hsa13,1,with gaps
+bonobo,mPanPan1.hap1,chr15_mat_hsa14,2,with gaps
+bonobo,mPanPan1.hap1,chr16_pat_hsa15,0,gapless
+bonobo,mPanPan1.hap1,chr17_mat_hsa18,1,with gaps
+bonobo,mPanPan1.hap1,chr18_pat_hsa16,0,gapless
+bonobo,mPanPan1.hap1,chr19_pat_hsa17,0,gapless
+bonobo,mPanPan1.hap1,chr20_pat_hsa19,0,gapless
+bonobo,mPanPan1.hap1,chr21_mat_hsa20,0,gapless
+bonobo,mPanPan1.hap1,chr22_pat_hsa21,2,with gaps
+bonobo,mPanPan1.hap1,chr23_pat_hsa22,1,with gaps
+bonobo,mPanPan1.hap1,chrY_pat_hsaY,0,gapless
+bonobo,mPanPan1.hap2,chr1_pat_hsa1,0,gapless
+bonobo,mPanPan1.hap2,chr2_mat_hsa3,0,gapless
+bonobo,mPanPan1.hap2,chr3_pat_hsa4,0,gapless
+bonobo,mPanPan1.hap2,chr4_mat_hsa5,0,gapless
+bonobo,mPanPan1.hap2,chr5_pat_hsa6,0,gapless
+bonobo,mPanPan1.hap2,chr6_mat_hsa7,0,gapless
+bonobo,mPanPan1.hap2,chr7_pat_hsa8,0,gapless
+bonobo,mPanPan1.hap2,chr8_mat_hsa10,0,gapless
+bonobo,mPanPan1.hap2,chr9_pat_hsa11,0,gapless
+bonobo,mPanPan1.hap2,chr10_mat_hsa12,0,gapless
+bonobo,mPanPan1.hap2,chr11_mat_hsa9,0,gapless
+bonobo,mPanPan1.hap2,chr12_mat_hsa2a,0,gapless
+bonobo,mPanPan1.hap2,chr13_mat_hsa2b,0,gapless
+bonobo,mPanPan1.hap2,chr14_pat_hsa13,2,with gaps
+bonobo,mPanPan1.hap2,chr15_mat_hsa14,1,with gaps
+bonobo,mPanPan1.hap2,chr16_pat_hsa15,0,gapless
+bonobo,mPanPan1.hap2,chr17_mat_hsa18,1,with gaps
+bonobo,mPanPan1.hap2,chr18_pat_hsa16,0,gapless
+bonobo,mPanPan1.hap2,chr19_pat_hsa17,0,gapless
+bonobo,mPanPan1.hap2,chr20_pat_hsa19,0,gapless
+bonobo,mPanPan1.hap2,chr21_mat_hsa20,0,gapless
+bonobo,mPanPan1.hap2,chr22_pat_hsa21,0,gapless
+bonobo,mPanPan1.hap2,chr23_pat_hsa22,1,with gaps
+bonobo,mPanPan1.hap2,chrX_mat_hsaX,0,gapless
+bonobo,PR00249.hap1,chr1_pat_hsa1,10,with gaps
+bonobo,PR00249.hap1,chr2_mat_hsa3,14,with gaps
+bonobo,PR00249.hap1,chr3_pat_hsa4,12,with gaps
+bonobo,PR00249.hap1,chr4_mat_hsa5,9,with gaps
+bonobo,PR00249.hap1,chr5_pat_hsa6,17,with gaps
+bonobo,PR00249.hap1,chr6_mat_hsa7,9,with gaps
+bonobo,PR00249.hap1,chr7_pat_hsa8,5,with gaps
+bonobo,PR00249.hap1,chr8_mat_hsa10,10,with gaps
+bonobo,PR00249.hap1,chr9_pat_hsa11,4,with gaps
+bonobo,PR00249.hap1,chr10_mat_hsa12,6,with gaps
+bonobo,PR00249.hap1,chr11_mat_hsa9,8,with gaps
+bonobo,PR00249.hap1,chr12_mat_hsa2a,22,with gaps
+bonobo,PR00249.hap1,chr13_mat_hsa2b,5,with gaps
+bonobo,PR00249.hap1,chr14_pat_hsa13,10,with gaps
+bonobo,PR00249.hap1,chr15_mat_hsa14,6,with gaps
+bonobo,PR00249.hap1,chr16_pat_hsa15,9,with gaps
+bonobo,PR00249.hap1,chr17_mat_hsa18,12,with gaps
+bonobo,PR00249.hap1,chr18_pat_hsa16,10,with gaps
+bonobo,PR00249.hap1,chr19_pat_hsa17,10,with gaps
+bonobo,PR00249.hap1,chr20_pat_hsa19,5,with gaps
+bonobo,PR00249.hap1,chr21_mat_hsa20,8,with gaps
+bonobo,PR00249.hap1,chr22_pat_hsa21,9,with gaps
+bonobo,PR00249.hap1,chr23_pat_hsa22,11,with gaps
+bonobo,PR00249.hap1,chrX_mat_hsaX,25,with gaps
+bonobo,PR00249.hap1,chrY_pat_hsaY,0,gapless
+bonobo,PR00249.hap2,chr1_pat_hsa1,11,with gaps
+bonobo,PR00249.hap2,chr2_mat_hsa3,5,with gaps
+bonobo,PR00249.hap2,chr3_pat_hsa4,13,with gaps
+bonobo,PR00249.hap2,chr4_mat_hsa5,11,with gaps
+bonobo,PR00249.hap2,chr5_pat_hsa6,14,with gaps
+bonobo,PR00249.hap2,chr6_mat_hsa7,8,with gaps
+bonobo,PR00249.hap2,chr7_pat_hsa8,15,with gaps
+bonobo,PR00249.hap2,chr8_mat_hsa10,8,with gaps
+bonobo,PR00249.hap2,chr9_pat_hsa11,0,gapless
+bonobo,PR00249.hap2,chr10_mat_hsa12,17,with gaps
+bonobo,PR00249.hap2,chr11_mat_hsa9,3,with gaps
+bonobo,PR00249.hap2,chr12_mat_hsa2a,13,with gaps
+bonobo,PR00249.hap2,chr13_mat_hsa2b,12,with gaps
+bonobo,PR00249.hap2,chr14_pat_hsa13,26,with gaps
+bonobo,PR00249.hap2,chr15_mat_hsa14,22,with gaps
+bonobo,PR00249.hap2,chr16_pat_hsa15,11,with gaps
+bonobo,PR00249.hap2,chr17_mat_hsa18,5,with gaps
+bonobo,PR00249.hap2,chr18_pat_hsa16,7,with gaps
+bonobo,PR00249.hap2,chr19_pat_hsa17,10,with gaps
+bonobo,PR00249.hap2,chr20_pat_hsa19,21,with gaps
+bonobo,PR00249.hap2,chr21_mat_hsa20,11,with gaps
+bonobo,PR00249.hap2,chr22_pat_hsa21,3,with gaps
+bonobo,PR00249.hap2,chr23_pat_hsa22,11,with gaps
+bonobo,PR00249.hap2,chrX_mat_hsaX,32,with gaps
+bonobo,PR00249.hap2,chrY_pat_hsaY,0,gapless
+bonobo,PR00251.hap1,chr1_pat_hsa1,7,with gaps
+bonobo,PR00251.hap1,chr2_mat_hsa3,5,with gaps
+bonobo,PR00251.hap1,chr3_pat_hsa4,5,with gaps
+bonobo,PR00251.hap1,chr4_mat_hsa5,5,with gaps
+bonobo,PR00251.hap1,chr5_pat_hsa6,8,with gaps
+bonobo,PR00251.hap1,chr6_mat_hsa7,13,with gaps
+bonobo,PR00251.hap1,chr7_pat_hsa8,11,with gaps
+bonobo,PR00251.hap1,chr8_mat_hsa10,3,with gaps
+bonobo,PR00251.hap1,chr9_pat_hsa11,4,with gaps
+bonobo,PR00251.hap1,chr10_mat_hsa12,10,with gaps
+bonobo,PR00251.hap1,chr11_mat_hsa9,5,with gaps
+bonobo,PR00251.hap1,chr12_mat_hsa2a,9,with gaps
+bonobo,PR00251.hap1,chr13_mat_hsa2b,6,with gaps
+bonobo,PR00251.hap1,chr14_pat_hsa13,11,with gaps
+bonobo,PR00251.hap1,chr15_mat_hsa14,8,with gaps
+bonobo,PR00251.hap1,chr16_pat_hsa15,4,with gaps
+bonobo,PR00251.hap1,chr17_mat_hsa18,6,with gaps
+bonobo,PR00251.hap1,chr18_pat_hsa16,12,with gaps
+bonobo,PR00251.hap1,chr19_pat_hsa17,11,with gaps
+bonobo,PR00251.hap1,chr20_pat_hsa19,10,with gaps
+bonobo,PR00251.hap1,chr21_mat_hsa20,3,with gaps
+bonobo,PR00251.hap1,chr22_pat_hsa21,4,with gaps
+bonobo,PR00251.hap1,chr23_pat_hsa22,11,with gaps
+bonobo,PR00251.hap1,chrX_mat_hsaX,7,with gaps
+bonobo,PR00251.hap1,chrY_pat_hsaY,7,with gaps
+bonobo,PR00251.hap2,chr1_pat_hsa1,4,with gaps
+bonobo,PR00251.hap2,chr2_mat_hsa3,3,with gaps
+bonobo,PR00251.hap2,chr3_pat_hsa4,5,with gaps
+bonobo,PR00251.hap2,chr4_mat_hsa5,7,with gaps
+bonobo,PR00251.hap2,chr5_pat_hsa6,13,with gaps
+bonobo,PR00251.hap2,chr6_mat_hsa7,9,with gaps
+bonobo,PR00251.hap2,chr7_pat_hsa8,15,with gaps
+bonobo,PR00251.hap2,chr8_mat_hsa10,8,with gaps
+bonobo,PR00251.hap2,chr9_pat_hsa11,0,gapless
+bonobo,PR00251.hap2,chr10_mat_hsa12,4,with gaps
+bonobo,PR00251.hap2,chr11_mat_hsa9,3,with gaps
+bonobo,PR00251.hap2,chr12_mat_hsa2a,9,with gaps
+bonobo,PR00251.hap2,chr13_mat_hsa2b,9,with gaps
+bonobo,PR00251.hap2,chr14_pat_hsa13,8,with gaps
+bonobo,PR00251.hap2,chr15_mat_hsa14,8,with gaps
+bonobo,PR00251.hap2,chr16_pat_hsa15,5,with gaps
+bonobo,PR00251.hap2,chr17_mat_hsa18,6,with gaps
+bonobo,PR00251.hap2,chr18_pat_hsa16,4,with gaps
+bonobo,PR00251.hap2,chr19_pat_hsa17,15,with gaps
+bonobo,PR00251.hap2,chr20_pat_hsa19,9,with gaps
+bonobo,PR00251.hap2,chr21_mat_hsa20,4,with gaps
+bonobo,PR00251.hap2,chr22_pat_hsa21,7,with gaps
+bonobo,PR00251.hap2,chr23_pat_hsa22,13,with gaps
+bonobo,PR00251.hap2,chrX_mat_hsaX,19,with gaps
+bonobo,PR00251.hap2,chrY_pat_hsaY,5,with gaps
+bonobo,PR00366.hap1,chr1_pat_hsa1,1,with gaps
+bonobo,PR00366.hap1,chr2_mat_hsa3,2,with gaps
+bonobo,PR00366.hap1,chr3_pat_hsa4,2,with gaps
+bonobo,PR00366.hap1,chr4_mat_hsa5,0,gapless
+bonobo,PR00366.hap1,chr5_pat_hsa6,6,with gaps
+bonobo,PR00366.hap1,chr6_mat_hsa7,1,with gaps
+bonobo,PR00366.hap1,chr7_pat_hsa8,1,with gaps
+bonobo,PR00366.hap1,chr8_mat_hsa10,0,gapless
+bonobo,PR00366.hap1,chr9_pat_hsa11,0,gapless
+bonobo,PR00366.hap1,chr10_mat_hsa12,0,gapless
+bonobo,PR00366.hap1,chr11_mat_hsa9,9,with gaps
+bonobo,PR00366.hap1,chr12_mat_hsa2a,0,gapless
+bonobo,PR00366.hap1,chr13_mat_hsa2b,1,with gaps
+bonobo,PR00366.hap1,chr14_pat_hsa13,4,with gaps
+bonobo,PR00366.hap1,chr15_mat_hsa14,2,with gaps
+bonobo,PR00366.hap1,chr16_pat_hsa15,0,gapless
+bonobo,PR00366.hap1,chr17_mat_hsa18,3,with gaps
+bonobo,PR00366.hap1,chr18_pat_hsa16,0,gapless
+bonobo,PR00366.hap1,chr19_pat_hsa17,1,with gaps
+bonobo,PR00366.hap1,chr20_pat_hsa19,3,with gaps
+bonobo,PR00366.hap1,chr21_mat_hsa20,1,with gaps
+bonobo,PR00366.hap1,chr22_pat_hsa21,0,gapless
+bonobo,PR00366.hap1,chr23_pat_hsa22,4,with gaps
+bonobo,PR00366.hap1,chrX_mat_hsaX,4,with gaps
+bonobo,PR00366.hap2,chr1_pat_hsa1,1,with gaps
+bonobo,PR00366.hap2,chr2_mat_hsa3,1,with gaps
+bonobo,PR00366.hap2,chr3_pat_hsa4,1,with gaps
+bonobo,PR00366.hap2,chr4_mat_hsa5,0,gapless
+bonobo,PR00366.hap2,chr5_pat_hsa6,11,with gaps
+bonobo,PR00366.hap2,chr6_mat_hsa7,0,gapless
+bonobo,PR00366.hap2,chr7_pat_hsa8,0,gapless
+bonobo,PR00366.hap2,chr8_mat_hsa10,1,with gaps
+bonobo,PR00366.hap2,chr9_pat_hsa11,0,gapless
+bonobo,PR00366.hap2,chr10_mat_hsa12,3,with gaps
+bonobo,PR00366.hap2,chr11_mat_hsa9,0,gapless
+bonobo,PR00366.hap2,chr12_mat_hsa2a,2,with gaps
+bonobo,PR00366.hap2,chr13_mat_hsa2b,1,with gaps
+bonobo,PR00366.hap2,chr14_pat_hsa13,3,with gaps
+bonobo,PR00366.hap2,chr15_mat_hsa14,3,with gaps
+bonobo,PR00366.hap2,chr16_pat_hsa15,0,gapless
+bonobo,PR00366.hap2,chr17_mat_hsa18,4,with gaps
+bonobo,PR00366.hap2,chr18_pat_hsa16,1,with gaps
+bonobo,PR00366.hap2,chr19_pat_hsa17,2,with gaps
+bonobo,PR00366.hap2,chr20_pat_hsa19,1,with gaps
+bonobo,PR00366.hap2,chr21_mat_hsa20,2,with gaps
+bonobo,PR00366.hap2,chr22_pat_hsa21,0,gapless
+bonobo,PR00366.hap2,chr23_pat_hsa22,2,with gaps
+bonobo,PR00366.hap2,chrX_mat_hsaX,3,with gaps
+bonobo,PR00366.hap2,chrY_pat_hsaY,0,gapless
+bonobo,PR00445.hap1,chr1_pat_hsa1,37,with gaps
+bonobo,PR00445.hap1,chr2_mat_hsa3,17,with gaps
+bonobo,PR00445.hap1,chr3_pat_hsa4,21,with gaps
+bonobo,PR00445.hap1,chr4_mat_hsa5,21,with gaps
+bonobo,PR00445.hap1,chr5_pat_hsa6,23,with gaps
+bonobo,PR00445.hap1,chr6_mat_hsa7,18,with gaps
+bonobo,PR00445.hap1,chr7_pat_hsa8,11,with gaps
+bonobo,PR00445.hap1,chr8_mat_hsa10,18,with gaps
+bonobo,PR00445.hap1,chr9_pat_hsa11,10,with gaps
+bonobo,PR00445.hap1,chr10_mat_hsa12,16,with gaps
+bonobo,PR00445.hap1,chr11_mat_hsa9,16,with gaps
+bonobo,PR00445.hap1,chr12_mat_hsa2a,15,with gaps
+bonobo,PR00445.hap1,chr13_mat_hsa2b,9,with gaps
+bonobo,PR00445.hap1,chr14_pat_hsa13,25,with gaps
+bonobo,PR00445.hap1,chr15_mat_hsa14,24,with gaps
+bonobo,PR00445.hap1,chr16_pat_hsa15,17,with gaps
+bonobo,PR00445.hap1,chr17_mat_hsa18,15,with gaps
+bonobo,PR00445.hap1,chr18_pat_hsa16,20,with gaps
+bonobo,PR00445.hap1,chr19_pat_hsa17,32,with gaps
+bonobo,PR00445.hap1,chr20_pat_hsa19,28,with gaps
+bonobo,PR00445.hap1,chr21_mat_hsa20,21,with gaps
+bonobo,PR00445.hap1,chr22_pat_hsa21,15,with gaps
+bonobo,PR00445.hap1,chr23_pat_hsa22,33,with gaps
+bonobo,PR00445.hap1,chrX_mat_hsaX,34,with gaps
+bonobo,PR00445.hap1,chrY_pat_hsaY,1,with gaps
+bonobo,PR00445.hap2,chr1_pat_hsa1,22,with gaps
+bonobo,PR00445.hap2,chr2_mat_hsa3,13,with gaps
+bonobo,PR00445.hap2,chr3_pat_hsa4,19,with gaps
+bonobo,PR00445.hap2,chr4_mat_hsa5,6,with gaps
+bonobo,PR00445.hap2,chr5_pat_hsa6,24,with gaps
+bonobo,PR00445.hap2,chr6_mat_hsa7,35,with gaps
+bonobo,PR00445.hap2,chr7_pat_hsa8,23,with gaps
+bonobo,PR00445.hap2,chr8_mat_hsa10,15,with gaps
+bonobo,PR00445.hap2,chr9_pat_hsa11,11,with gaps
+bonobo,PR00445.hap2,chr10_mat_hsa12,28,with gaps
+bonobo,PR00445.hap2,chr11_mat_hsa9,22,with gaps
+bonobo,PR00445.hap2,chr12_mat_hsa2a,35,with gaps
+bonobo,PR00445.hap2,chr13_mat_hsa2b,5,with gaps
+bonobo,PR00445.hap2,chr14_pat_hsa13,19,with gaps
+bonobo,PR00445.hap2,chr15_mat_hsa14,12,with gaps
+bonobo,PR00445.hap2,chr16_pat_hsa15,7,with gaps
+bonobo,PR00445.hap2,chr17_mat_hsa18,23,with gaps
+bonobo,PR00445.hap2,chr18_pat_hsa16,26,with gaps
+bonobo,PR00445.hap2,chr19_pat_hsa17,34,with gaps
+bonobo,PR00445.hap2,chr20_pat_hsa19,42,with gaps
+bonobo,PR00445.hap2,chr21_mat_hsa20,19,with gaps
+bonobo,PR00445.hap2,chr22_pat_hsa21,16,with gaps
+bonobo,PR00445.hap2,chr23_pat_hsa22,26,with gaps
+bonobo,PR00445.hap2,chrX_mat_hsaX,33,with gaps
+bonobo,PR00445.hap2,chrY_pat_hsaY,3,with gaps
+chimpanzee,AG06939_13.hap1,chr1_hap1_hsa1,10,with gaps
+chimpanzee,AG06939_13.hap1,chr2_hap1_hsa3,4,with gaps
+chimpanzee,AG06939_13.hap1,chr3_hap1_hsa4,4,with gaps
+chimpanzee,AG06939_13.hap1,chr4_hap1_hsa5,4,with gaps
+chimpanzee,AG06939_13.hap1,chr5_hap1_hsa6,6,with gaps
+chimpanzee,AG06939_13.hap1,chr6_hap1_hsa7,13,with gaps
+chimpanzee,AG06939_13.hap1,chr7_hap1_hsa8,10,with gaps
+chimpanzee,AG06939_13.hap1,chr8_hap1_hsa10,15,with gaps
+chimpanzee,AG06939_13.hap1,chr9_hap1_hsa11,5,with gaps
+chimpanzee,AG06939_13.hap1,chr10_hap1_hsa12,6,with gaps
+chimpanzee,AG06939_13.hap1,chr11_hap1_hsa9,10,with gaps
+chimpanzee,AG06939_13.hap1,chr12_hap1_hsa2a,13,with gaps
+chimpanzee,AG06939_13.hap1,chr13_hap1_hsa2b,7,with gaps
+chimpanzee,AG06939_13.hap1,chr14_hap1_hsa13,7,with gaps
+chimpanzee,AG06939_13.hap1,chr15_hap1_hsa14,4,with gaps
+chimpanzee,AG06939_13.hap1,chr16_hap1_hsa15,7,with gaps
+chimpanzee,AG06939_13.hap1,chr17_hap1_hsa18,5,with gaps
+chimpanzee,AG06939_13.hap1,chr18_hap1_hsa16,13,with gaps
+chimpanzee,AG06939_13.hap1,chr19_hap1_hsa17,7,with gaps
+chimpanzee,AG06939_13.hap1,chr20_hap1_hsa19,25,with gaps
+chimpanzee,AG06939_13.hap1,chr21_hap1_hsa20,10,with gaps
+chimpanzee,AG06939_13.hap1,chr22_hap1_hsa21,12,with gaps
+chimpanzee,AG06939_13.hap1,chr23_hap1_hsa22,8,with gaps
+chimpanzee,AG06939_13.hap1,chrX_hap1_hsaX,11,with gaps
+chimpanzee,AG06939_13.hap1,chrY_hap2_hsaY,4,with gaps
+chimpanzee,AG06939_13.hap2,chr1_hap1_hsa1,6,with gaps
+chimpanzee,AG06939_13.hap2,chr2_hap1_hsa3,5,with gaps
+chimpanzee,AG06939_13.hap2,chr3_hap1_hsa4,2,with gaps
+chimpanzee,AG06939_13.hap2,chr4_hap1_hsa5,7,with gaps
+chimpanzee,AG06939_13.hap2,chr5_hap1_hsa6,3,with gaps
+chimpanzee,AG06939_13.hap2,chr6_hap1_hsa7,11,with gaps
+chimpanzee,AG06939_13.hap2,chr7_hap1_hsa8,3,with gaps
+chimpanzee,AG06939_13.hap2,chr8_hap1_hsa10,7,with gaps
+chimpanzee,AG06939_13.hap2,chr9_hap1_hsa11,0,gapless
+chimpanzee,AG06939_13.hap2,chr10_hap1_hsa12,5,with gaps
+chimpanzee,AG06939_13.hap2,chr11_hap1_hsa9,7,with gaps
+chimpanzee,AG06939_13.hap2,chr12_hap1_hsa2a,11,with gaps
+chimpanzee,AG06939_13.hap2,chr13_hap1_hsa2b,2,with gaps
+chimpanzee,AG06939_13.hap2,chr14_hap1_hsa13,9,with gaps
+chimpanzee,AG06939_13.hap2,chr15_hap1_hsa14,3,with gaps
+chimpanzee,AG06939_13.hap2,chr16_hap1_hsa15,7,with gaps
+chimpanzee,AG06939_13.hap2,chr17_hap1_hsa18,6,with gaps
+chimpanzee,AG06939_13.hap2,chr18_hap1_hsa16,14,with gaps
+chimpanzee,AG06939_13.hap2,chr19_hap1_hsa17,2,with gaps
+chimpanzee,AG06939_13.hap2,chr20_hap1_hsa19,11,with gaps
+chimpanzee,AG06939_13.hap2,chr21_hap1_hsa20,3,with gaps
+chimpanzee,AG06939_13.hap2,chr22_hap1_hsa21,7,with gaps
+chimpanzee,AG06939_13.hap2,chr23_hap1_hsa22,4,with gaps
+chimpanzee,AG06939_13.hap2,chrX_hap1_hsaX,9,with gaps
+chimpanzee,AG06939_13.hap2,chrY_hap2_hsaY,2,with gaps
+chimpanzee,AG16618_12.hap1,chr1_hap1_hsa1,13,with gaps
+chimpanzee,AG16618_12.hap1,chr2_hap1_hsa3,7,with gaps
+chimpanzee,AG16618_12.hap1,chr3_hap1_hsa4,15,with gaps
+chimpanzee,AG16618_12.hap1,chr4_hap1_hsa5,2,with gaps
+chimpanzee,AG16618_12.hap1,chr5_hap1_hsa6,6,with gaps
+chimpanzee,AG16618_12.hap1,chr6_hap1_hsa7,15,with gaps
+chimpanzee,AG16618_12.hap1,chr7_hap1_hsa8,9,with gaps
+chimpanzee,AG16618_12.hap1,chr8_hap1_hsa10,15,with gaps
+chimpanzee,AG16618_12.hap1,chr9_hap1_hsa11,6,with gaps
+chimpanzee,AG16618_12.hap1,chr10_hap1_hsa12,6,with gaps
+chimpanzee,AG16618_12.hap1,chr11_hap1_hsa9,14,with gaps
+chimpanzee,AG16618_12.hap1,chr12_hap1_hsa2a,6,with gaps
+chimpanzee,AG16618_12.hap1,chr13_hap1_hsa2b,21,with gaps
+chimpanzee,AG16618_12.hap1,chr14_hap1_hsa13,11,with gaps
+chimpanzee,AG16618_12.hap1,chr15_hap1_hsa14,7,with gaps
+chimpanzee,AG16618_12.hap1,chr16_hap1_hsa15,9,with gaps
+chimpanzee,AG16618_12.hap1,chr17_hap1_hsa18,8,with gaps
+chimpanzee,AG16618_12.hap1,chr18_hap1_hsa16,13,with gaps
+chimpanzee,AG16618_12.hap1,chr19_hap1_hsa17,14,with gaps
+chimpanzee,AG16618_12.hap1,chr20_hap1_hsa19,10,with gaps
+chimpanzee,AG16618_12.hap1,chr21_hap1_hsa20,15,with gaps
+chimpanzee,AG16618_12.hap1,chr22_hap1_hsa21,10,with gaps
+chimpanzee,AG16618_12.hap1,chr23_hap1_hsa22,14,with gaps
+chimpanzee,AG16618_12.hap1,chrX_hap1_hsaX,7,with gaps
+chimpanzee,AG16618_12.hap1,chrY_hap2_hsaY,6,with gaps
+chimpanzee,AG16618_12.hap2,chr1_hap1_hsa1,10,with gaps
+chimpanzee,AG16618_12.hap2,chr2_hap1_hsa3,9,with gaps
+chimpanzee,AG16618_12.hap2,chr3_hap1_hsa4,9,with gaps
+chimpanzee,AG16618_12.hap2,chr4_hap1_hsa5,2,with gaps
+chimpanzee,AG16618_12.hap2,chr5_hap1_hsa6,9,with gaps
+chimpanzee,AG16618_12.hap2,chr6_hap1_hsa7,15,with gaps
+chimpanzee,AG16618_12.hap2,chr7_hap1_hsa8,13,with gaps
+chimpanzee,AG16618_12.hap2,chr8_hap1_hsa10,7,with gaps
+chimpanzee,AG16618_12.hap2,chr9_hap1_hsa11,8,with gaps
+chimpanzee,AG16618_12.hap2,chr10_hap1_hsa12,3,with gaps
+chimpanzee,AG16618_12.hap2,chr11_hap1_hsa9,11,with gaps
+chimpanzee,AG16618_12.hap2,chr12_hap1_hsa2a,7,with gaps
+chimpanzee,AG16618_12.hap2,chr13_hap1_hsa2b,14,with gaps
+chimpanzee,AG16618_12.hap2,chr14_hap1_hsa13,18,with gaps
+chimpanzee,AG16618_12.hap2,chr15_hap1_hsa14,4,with gaps
+chimpanzee,AG16618_12.hap2,chr16_hap1_hsa15,10,with gaps
+chimpanzee,AG16618_12.hap2,chr17_hap1_hsa18,5,with gaps
+chimpanzee,AG16618_12.hap2,chr18_hap1_hsa16,17,with gaps
+chimpanzee,AG16618_12.hap2,chr19_hap1_hsa17,13,with gaps
+chimpanzee,AG16618_12.hap2,chr20_hap1_hsa19,23,with gaps
+chimpanzee,AG16618_12.hap2,chr21_hap1_hsa20,9,with gaps
+chimpanzee,AG16618_12.hap2,chr22_hap1_hsa21,9,with gaps
+chimpanzee,AG16618_12.hap2,chr23_hap1_hsa22,12,with gaps
+chimpanzee,AG16618_12.hap2,chrX_hap1_hsaX,15,with gaps
+chimpanzee,AG16618_12.hap2,chrY_hap2_hsaY,5,with gaps
+chimpanzee,AG18353_9.hap1,chr1_hap1_hsa1,5,with gaps
+chimpanzee,AG18353_9.hap1,chr2_hap1_hsa3,5,with gaps
+chimpanzee,AG18353_9.hap1,chr3_hap1_hsa4,6,with gaps
+chimpanzee,AG18353_9.hap1,chr4_hap1_hsa5,6,with gaps
+chimpanzee,AG18353_9.hap1,chr5_hap1_hsa6,7,with gaps
+chimpanzee,AG18353_9.hap1,chr6_hap1_hsa7,14,with gaps
+chimpanzee,AG18353_9.hap1,chr7_hap1_hsa8,10,with gaps
+chimpanzee,AG18353_9.hap1,chr8_hap1_hsa10,12,with gaps
+chimpanzee,AG18353_9.hap1,chr9_hap1_hsa11,6,with gaps
+chimpanzee,AG18353_9.hap1,chr10_hap1_hsa12,4,with gaps
+chimpanzee,AG18353_9.hap1,chr11_hap1_hsa9,6,with gaps
+chimpanzee,AG18353_9.hap1,chr12_hap1_hsa2a,13,with gaps
+chimpanzee,AG18353_9.hap1,chr13_hap1_hsa2b,6,with gaps
+chimpanzee,AG18353_9.hap1,chr14_hap1_hsa13,16,with gaps
+chimpanzee,AG18353_9.hap1,chr15_hap1_hsa14,9,with gaps
+chimpanzee,AG18353_9.hap1,chr16_hap1_hsa15,12,with gaps
+chimpanzee,AG18353_9.hap1,chr17_hap1_hsa18,4,with gaps
+chimpanzee,AG18353_9.hap1,chr18_hap1_hsa16,15,with gaps
+chimpanzee,AG18353_9.hap1,chr19_hap1_hsa17,8,with gaps
+chimpanzee,AG18353_9.hap1,chr20_hap1_hsa19,12,with gaps
+chimpanzee,AG18353_9.hap1,chr21_hap1_hsa20,11,with gaps
+chimpanzee,AG18353_9.hap1,chr22_hap1_hsa21,6,with gaps
+chimpanzee,AG18353_9.hap1,chr23_hap1_hsa22,6,with gaps
+chimpanzee,AG18353_9.hap1,chrX_hap1_hsaX,7,with gaps
+chimpanzee,AG18353_9.hap1,chrY_hap2_hsaY,6,with gaps
+chimpanzee,AG18353_9.hap2,chr1_hap1_hsa1,4,with gaps
+chimpanzee,AG18353_9.hap2,chr2_hap1_hsa3,6,with gaps
+chimpanzee,AG18353_9.hap2,chr3_hap1_hsa4,0,gapless
+chimpanzee,AG18353_9.hap2,chr4_hap1_hsa5,2,with gaps
+chimpanzee,AG18353_9.hap2,chr5_hap1_hsa6,6,with gaps
+chimpanzee,AG18353_9.hap2,chr6_hap1_hsa7,11,with gaps
+chimpanzee,AG18353_9.hap2,chr7_hap1_hsa8,12,with gaps
+chimpanzee,AG18353_9.hap2,chr8_hap1_hsa10,8,with gaps
+chimpanzee,AG18353_9.hap2,chr9_hap1_hsa11,1,with gaps
+chimpanzee,AG18353_9.hap2,chr10_hap1_hsa12,2,with gaps
+chimpanzee,AG18353_9.hap2,chr11_hap1_hsa9,8,with gaps
+chimpanzee,AG18353_9.hap2,chr12_hap1_hsa2a,16,with gaps
+chimpanzee,AG18353_9.hap2,chr13_hap1_hsa2b,3,with gaps
+chimpanzee,AG18353_9.hap2,chr14_hap1_hsa13,16,with gaps
+chimpanzee,AG18353_9.hap2,chr15_hap1_hsa14,27,with gaps
+chimpanzee,AG18353_9.hap2,chr16_hap1_hsa15,6,with gaps
+chimpanzee,AG18353_9.hap2,chr17_hap1_hsa18,7,with gaps
+chimpanzee,AG18353_9.hap2,chr18_hap1_hsa16,9,with gaps
+chimpanzee,AG18353_9.hap2,chr19_hap1_hsa17,20,with gaps
+chimpanzee,AG18353_9.hap2,chr20_hap1_hsa19,12,with gaps
+chimpanzee,AG18353_9.hap2,chr21_hap1_hsa20,11,with gaps
+chimpanzee,AG18353_9.hap2,chr22_hap1_hsa21,8,with gaps
+chimpanzee,AG18353_9.hap2,chr23_hap1_hsa22,12,with gaps
+chimpanzee,AG18353_9.hap2,chrX_hap1_hsaX,12,with gaps
+chimpanzee,AG18353_9.hap2,chrY_hap2_hsaY,9,with gaps
+chimpanzee,AG18354_5.hap1,chr1_hap1_hsa1,3,with gaps
+chimpanzee,AG18354_5.hap1,chr2_hap1_hsa3,3,with gaps
+chimpanzee,AG18354_5.hap1,chr3_hap1_hsa4,1,with gaps
+chimpanzee,AG18354_5.hap1,chr4_hap1_hsa5,4,with gaps
+chimpanzee,AG18354_5.hap1,chr5_hap1_hsa6,2,with gaps
+chimpanzee,AG18354_5.hap1,chr6_hap1_hsa7,22,with gaps
+chimpanzee,AG18354_5.hap1,chr7_hap1_hsa8,9,with gaps
+chimpanzee,AG18354_5.hap1,chr8_hap1_hsa10,3,with gaps
+chimpanzee,AG18354_5.hap1,chr9_hap1_hsa11,4,with gaps
+chimpanzee,AG18354_5.hap1,chr10_hap1_hsa12,5,with gaps
+chimpanzee,AG18354_5.hap1,chr11_hap1_hsa9,8,with gaps
+chimpanzee,AG18354_5.hap1,chr12_hap1_hsa2a,12,with gaps
+chimpanzee,AG18354_5.hap1,chr13_hap1_hsa2b,1,with gaps
+chimpanzee,AG18354_5.hap1,chr14_hap1_hsa13,18,with gaps
+chimpanzee,AG18354_5.hap1,chr15_hap1_hsa14,8,with gaps
+chimpanzee,AG18354_5.hap1,chr16_hap1_hsa15,25,with gaps
+chimpanzee,AG18354_5.hap1,chr17_hap1_hsa18,14,with gaps
+chimpanzee,AG18354_5.hap1,chr18_hap1_hsa16,15,with gaps
+chimpanzee,AG18354_5.hap1,chr19_hap1_hsa17,13,with gaps
+chimpanzee,AG18354_5.hap1,chr20_hap1_hsa19,9,with gaps
+chimpanzee,AG18354_5.hap1,chr21_hap1_hsa20,9,with gaps
+chimpanzee,AG18354_5.hap1,chr22_hap1_hsa21,14,with gaps
+chimpanzee,AG18354_5.hap1,chr23_hap1_hsa22,9,with gaps
+chimpanzee,AG18354_5.hap1,chrX_hap1_hsaX,5,with gaps
+chimpanzee,AG18354_5.hap1,chrY_hap2_hsaY,20,with gaps
+chimpanzee,AG18354_5.hap2,chr1_hap1_hsa1,7,with gaps
+chimpanzee,AG18354_5.hap2,chr2_hap1_hsa3,7,with gaps
+chimpanzee,AG18354_5.hap2,chr3_hap1_hsa4,2,with gaps
+chimpanzee,AG18354_5.hap2,chr4_hap1_hsa5,4,with gaps
+chimpanzee,AG18354_5.hap2,chr5_hap1_hsa6,3,with gaps
+chimpanzee,AG18354_5.hap2,chr6_hap1_hsa7,11,with gaps
+chimpanzee,AG18354_5.hap2,chr7_hap1_hsa8,7,with gaps
+chimpanzee,AG18354_5.hap2,chr8_hap1_hsa10,4,with gaps
+chimpanzee,AG18354_5.hap2,chr9_hap1_hsa11,3,with gaps
+chimpanzee,AG18354_5.hap2,chr10_hap1_hsa12,5,with gaps
+chimpanzee,AG18354_5.hap2,chr11_hap1_hsa9,14,with gaps
+chimpanzee,AG18354_5.hap2,chr12_hap1_hsa2a,10,with gaps
+chimpanzee,AG18354_5.hap2,chr13_hap1_hsa2b,3,with gaps
+chimpanzee,AG18354_5.hap2,chr14_hap1_hsa13,20,with gaps
+chimpanzee,AG18354_5.hap2,chr15_hap1_hsa14,10,with gaps
+chimpanzee,AG18354_5.hap2,chr16_hap1_hsa15,12,with gaps
+chimpanzee,AG18354_5.hap2,chr17_hap1_hsa18,8,with gaps
+chimpanzee,AG18354_5.hap2,chr18_hap1_hsa16,12,with gaps
+chimpanzee,AG18354_5.hap2,chr19_hap1_hsa17,9,with gaps
+chimpanzee,AG18354_5.hap2,chr20_hap1_hsa19,12,with gaps
+chimpanzee,AG18354_5.hap2,chr21_hap1_hsa20,8,with gaps
+chimpanzee,AG18354_5.hap2,chr22_hap1_hsa21,9,with gaps
+chimpanzee,AG18354_5.hap2,chr23_hap1_hsa22,9,with gaps
+chimpanzee,AG18354_5.hap2,chrX_hap1_hsaX,9,with gaps
+chimpanzee,AG18354_5.hap2,chrY_hap2_hsaY,8,with gaps
+chimpanzee,AG18355_8.hap1,chr1_hap1_hsa1,14,with gaps
+chimpanzee,AG18355_8.hap1,chr2_hap1_hsa3,5,with gaps
+chimpanzee,AG18355_8.hap1,chr3_hap1_hsa4,3,with gaps
+chimpanzee,AG18355_8.hap1,chr4_hap1_hsa5,7,with gaps
+chimpanzee,AG18355_8.hap1,chr5_hap1_hsa6,6,with gaps
+chimpanzee,AG18355_8.hap1,chr6_hap1_hsa7,9,with gaps
+chimpanzee,AG18355_8.hap1,chr7_hap1_hsa8,8,with gaps
+chimpanzee,AG18355_8.hap1,chr8_hap1_hsa10,10,with gaps
+chimpanzee,AG18355_8.hap1,chr9_hap1_hsa11,3,with gaps
+chimpanzee,AG18355_8.hap1,chr10_hap1_hsa12,2,with gaps
+chimpanzee,AG18355_8.hap1,chr11_hap1_hsa9,11,with gaps
+chimpanzee,AG18355_8.hap1,chr12_hap1_hsa2a,11,with gaps
+chimpanzee,AG18355_8.hap1,chr13_hap1_hsa2b,5,with gaps
+chimpanzee,AG18355_8.hap1,chr14_hap1_hsa13,20,with gaps
+chimpanzee,AG18355_8.hap1,chr15_hap1_hsa14,13,with gaps
+chimpanzee,AG18355_8.hap1,chr16_hap1_hsa15,16,with gaps
+chimpanzee,AG18355_8.hap1,chr17_hap1_hsa18,14,with gaps
+chimpanzee,AG18355_8.hap1,chr18_hap1_hsa16,16,with gaps
+chimpanzee,AG18355_8.hap1,chr19_hap1_hsa17,11,with gaps
+chimpanzee,AG18355_8.hap1,chr20_hap1_hsa19,10,with gaps
+chimpanzee,AG18355_8.hap1,chr21_hap1_hsa20,7,with gaps
+chimpanzee,AG18355_8.hap1,chr22_hap1_hsa21,17,with gaps
+chimpanzee,AG18355_8.hap1,chr23_hap1_hsa22,3,with gaps
+chimpanzee,AG18355_8.hap1,chrX_hap1_hsaX,9,with gaps
+chimpanzee,AG18355_8.hap1,chrY_hap2_hsaY,12,with gaps
+chimpanzee,AG18355_8.hap2,chr1_hap1_hsa1,6,with gaps
+chimpanzee,AG18355_8.hap2,chr2_hap1_hsa3,1,with gaps
+chimpanzee,AG18355_8.hap2,chr3_hap1_hsa4,2,with gaps
+chimpanzee,AG18355_8.hap2,chr4_hap1_hsa5,5,with gaps
+chimpanzee,AG18355_8.hap2,chr5_hap1_hsa6,4,with gaps
+chimpanzee,AG18355_8.hap2,chr6_hap1_hsa7,7,with gaps
+chimpanzee,AG18355_8.hap2,chr7_hap1_hsa8,7,with gaps
+chimpanzee,AG18355_8.hap2,chr8_hap1_hsa10,9,with gaps
+chimpanzee,AG18355_8.hap2,chr9_hap1_hsa11,3,with gaps
+chimpanzee,AG18355_8.hap2,chr10_hap1_hsa12,3,with gaps
+chimpanzee,AG18355_8.hap2,chr11_hap1_hsa9,16,with gaps
+chimpanzee,AG18355_8.hap2,chr12_hap1_hsa2a,10,with gaps
+chimpanzee,AG18355_8.hap2,chr13_hap1_hsa2b,4,with gaps
+chimpanzee,AG18355_8.hap2,chr14_hap1_hsa13,17,with gaps
+chimpanzee,AG18355_8.hap2,chr15_hap1_hsa14,16,with gaps
+chimpanzee,AG18355_8.hap2,chr16_hap1_hsa15,17,with gaps
+chimpanzee,AG18355_8.hap2,chr17_hap1_hsa18,14,with gaps
+chimpanzee,AG18355_8.hap2,chr18_hap1_hsa16,11,with gaps
+chimpanzee,AG18355_8.hap2,chr19_hap1_hsa17,23,with gaps
+chimpanzee,AG18355_8.hap2,chr20_hap1_hsa19,24,with gaps
+chimpanzee,AG18355_8.hap2,chr21_hap1_hsa20,12,with gaps
+chimpanzee,AG18355_8.hap2,chr22_hap1_hsa21,18,with gaps
+chimpanzee,AG18355_8.hap2,chr23_hap1_hsa22,7,with gaps
+chimpanzee,AG18355_8.hap2,chrX_hap1_hsaX,3,with gaps
+chimpanzee,AG18355_8.hap2,chrY_hap2_hsaY,10,with gaps
+chimpanzee,AG18356_6.hap1,chr1_hap1_hsa1,11,with gaps
+chimpanzee,AG18356_6.hap1,chr2_hap1_hsa3,17,with gaps
+chimpanzee,AG18356_6.hap1,chr3_hap1_hsa4,7,with gaps
+chimpanzee,AG18356_6.hap1,chr4_hap1_hsa5,18,with gaps
+chimpanzee,AG18356_6.hap1,chr5_hap1_hsa6,4,with gaps
+chimpanzee,AG18356_6.hap1,chr6_hap1_hsa7,22,with gaps
+chimpanzee,AG18356_6.hap1,chr7_hap1_hsa8,24,with gaps
+chimpanzee,AG18356_6.hap1,chr8_hap1_hsa10,8,with gaps
+chimpanzee,AG18356_6.hap1,chr9_hap1_hsa11,3,with gaps
+chimpanzee,AG18356_6.hap1,chr10_hap1_hsa12,6,with gaps
+chimpanzee,AG18356_6.hap1,chr11_hap1_hsa9,9,with gaps
+chimpanzee,AG18356_6.hap1,chr12_hap1_hsa2a,15,with gaps
+chimpanzee,AG18356_6.hap1,chr13_hap1_hsa2b,11,with gaps
+chimpanzee,AG18356_6.hap1,chr14_hap1_hsa13,11,with gaps
+chimpanzee,AG18356_6.hap1,chr15_hap1_hsa14,5,with gaps
+chimpanzee,AG18356_6.hap1,chr16_hap1_hsa15,13,with gaps
+chimpanzee,AG18356_6.hap1,chr17_hap1_hsa18,5,with gaps
+chimpanzee,AG18356_6.hap1,chr18_hap1_hsa16,12,with gaps
+chimpanzee,AG18356_6.hap1,chr19_hap1_hsa17,5,with gaps
+chimpanzee,AG18356_6.hap1,chr20_hap1_hsa19,14,with gaps
+chimpanzee,AG18356_6.hap1,chr21_hap1_hsa20,14,with gaps
+chimpanzee,AG18356_6.hap1,chr22_hap1_hsa21,10,with gaps
+chimpanzee,AG18356_6.hap1,chr23_hap1_hsa22,15,with gaps
+chimpanzee,AG18356_6.hap1,chrX_hap1_hsaX,6,with gaps
+chimpanzee,AG18356_6.hap2,chr1_hap1_hsa1,6,with gaps
+chimpanzee,AG18356_6.hap2,chr2_hap1_hsa3,7,with gaps
+chimpanzee,AG18356_6.hap2,chr3_hap1_hsa4,10,with gaps
+chimpanzee,AG18356_6.hap2,chr4_hap1_hsa5,2,with gaps
+chimpanzee,AG18356_6.hap2,chr5_hap1_hsa6,6,with gaps
+chimpanzee,AG18356_6.hap2,chr6_hap1_hsa7,9,with gaps
+chimpanzee,AG18356_6.hap2,chr7_hap1_hsa8,5,with gaps
+chimpanzee,AG18356_6.hap2,chr8_hap1_hsa10,8,with gaps
+chimpanzee,AG18356_6.hap2,chr9_hap1_hsa11,1,with gaps
+chimpanzee,AG18356_6.hap2,chr10_hap1_hsa12,7,with gaps
+chimpanzee,AG18356_6.hap2,chr11_hap1_hsa9,4,with gaps
+chimpanzee,AG18356_6.hap2,chr12_hap1_hsa2a,14,with gaps
+chimpanzee,AG18356_6.hap2,chr13_hap1_hsa2b,6,with gaps
+chimpanzee,AG18356_6.hap2,chr14_hap1_hsa13,6,with gaps
+chimpanzee,AG18356_6.hap2,chr15_hap1_hsa14,7,with gaps
+chimpanzee,AG18356_6.hap2,chr16_hap1_hsa15,8,with gaps
+chimpanzee,AG18356_6.hap2,chr17_hap1_hsa18,8,with gaps
+chimpanzee,AG18356_6.hap2,chr18_hap1_hsa16,7,with gaps
+chimpanzee,AG18356_6.hap2,chr19_hap1_hsa17,6,with gaps
+chimpanzee,AG18356_6.hap2,chr20_hap1_hsa19,10,with gaps
+chimpanzee,AG18356_6.hap2,chr21_hap1_hsa20,5,with gaps
+chimpanzee,AG18356_6.hap2,chr22_hap1_hsa21,10,with gaps
+chimpanzee,AG18356_6.hap2,chr23_hap1_hsa22,17,with gaps
+chimpanzee,AG18356_6.hap2,chrX_hap1_hsaX,5,with gaps
+chimpanzee,AG18357_3.hap1,chr1_hap1_hsa1,28,with gaps
+chimpanzee,AG18357_3.hap1,chr2_hap1_hsa3,7,with gaps
+chimpanzee,AG18357_3.hap1,chr3_hap1_hsa4,10,with gaps
+chimpanzee,AG18357_3.hap1,chr4_hap1_hsa5,10,with gaps
+chimpanzee,AG18357_3.hap1,chr5_hap1_hsa6,6,with gaps
+chimpanzee,AG18357_3.hap1,chr6_hap1_hsa7,31,with gaps
+chimpanzee,AG18357_3.hap1,chr7_hap1_hsa8,16,with gaps
+chimpanzee,AG18357_3.hap1,chr8_hap1_hsa10,17,with gaps
+chimpanzee,AG18357_3.hap1,chr9_hap1_hsa11,15,with gaps
+chimpanzee,AG18357_3.hap1,chr10_hap1_hsa12,11,with gaps
+chimpanzee,AG18357_3.hap1,chr11_hap1_hsa9,24,with gaps
+chimpanzee,AG18357_3.hap1,chr12_hap1_hsa2a,11,with gaps
+chimpanzee,AG18357_3.hap1,chr13_hap1_hsa2b,11,with gaps
+chimpanzee,AG18357_3.hap1,chr14_hap1_hsa13,25,with gaps
+chimpanzee,AG18357_3.hap1,chr15_hap1_hsa14,18,with gaps
+chimpanzee,AG18357_3.hap1,chr16_hap1_hsa15,17,with gaps
+chimpanzee,AG18357_3.hap1,chr17_hap1_hsa18,16,with gaps
+chimpanzee,AG18357_3.hap1,chr18_hap1_hsa16,21,with gaps
+chimpanzee,AG18357_3.hap1,chr19_hap1_hsa17,22,with gaps
+chimpanzee,AG18357_3.hap1,chr20_hap1_hsa19,28,with gaps
+chimpanzee,AG18357_3.hap1,chr21_hap1_hsa20,18,with gaps
+chimpanzee,AG18357_3.hap1,chr22_hap1_hsa21,15,with gaps
+chimpanzee,AG18357_3.hap1,chr23_hap1_hsa22,21,with gaps
+chimpanzee,AG18357_3.hap1,chrX_hap1_hsaX,21,with gaps
+chimpanzee,AG18357_3.hap1,chrY_hap2_hsaY,0,gapless
+chimpanzee,AG18357_3.hap2,chr1_hap1_hsa1,17,with gaps
+chimpanzee,AG18357_3.hap2,chr2_hap1_hsa3,9,with gaps
+chimpanzee,AG18357_3.hap2,chr3_hap1_hsa4,11,with gaps
+chimpanzee,AG18357_3.hap2,chr4_hap1_hsa5,9,with gaps
+chimpanzee,AG18357_3.hap2,chr5_hap1_hsa6,12,with gaps
+chimpanzee,AG18357_3.hap2,chr6_hap1_hsa7,28,with gaps
+chimpanzee,AG18357_3.hap2,chr7_hap1_hsa8,24,with gaps
+chimpanzee,AG18357_3.hap2,chr8_hap1_hsa10,12,with gaps
+chimpanzee,AG18357_3.hap2,chr9_hap1_hsa11,11,with gaps
+chimpanzee,AG18357_3.hap2,chr10_hap1_hsa12,13,with gaps
+chimpanzee,AG18357_3.hap2,chr11_hap1_hsa9,26,with gaps
+chimpanzee,AG18357_3.hap2,chr12_hap1_hsa2a,11,with gaps
+chimpanzee,AG18357_3.hap2,chr13_hap1_hsa2b,13,with gaps
+chimpanzee,AG18357_3.hap2,chr14_hap1_hsa13,25,with gaps
+chimpanzee,AG18357_3.hap2,chr15_hap1_hsa14,21,with gaps
+chimpanzee,AG18357_3.hap2,chr16_hap1_hsa15,15,with gaps
+chimpanzee,AG18357_3.hap2,chr17_hap1_hsa18,12,with gaps
+chimpanzee,AG18357_3.hap2,chr18_hap1_hsa16,28,with gaps
+chimpanzee,AG18357_3.hap2,chr19_hap1_hsa17,27,with gaps
+chimpanzee,AG18357_3.hap2,chr20_hap1_hsa19,24,with gaps
+chimpanzee,AG18357_3.hap2,chr21_hap1_hsa20,13,with gaps
+chimpanzee,AG18357_3.hap2,chr22_hap1_hsa21,17,with gaps
+chimpanzee,AG18357_3.hap2,chr23_hap1_hsa22,21,with gaps
+chimpanzee,AG18357_3.hap2,chrX_hap1_hsaX,17,with gaps
+chimpanzee,AG18357_3.hap2,chrY_hap2_hsaY,0,gapless
+chimpanzee,AG18358_4.hap1,chr1_hap1_hsa1,6,with gaps
+chimpanzee,AG18358_4.hap1,chr2_hap1_hsa3,2,with gaps
+chimpanzee,AG18358_4.hap1,chr3_hap1_hsa4,5,with gaps
+chimpanzee,AG18358_4.hap1,chr4_hap1_hsa5,2,with gaps
+chimpanzee,AG18358_4.hap1,chr5_hap1_hsa6,4,with gaps
+chimpanzee,AG18358_4.hap1,chr6_hap1_hsa7,13,with gaps
+chimpanzee,AG18358_4.hap1,chr7_hap1_hsa8,6,with gaps
+chimpanzee,AG18358_4.hap1,chr8_hap1_hsa10,11,with gaps
+chimpanzee,AG18358_4.hap1,chr9_hap1_hsa11,2,with gaps
+chimpanzee,AG18358_4.hap1,chr10_hap1_hsa12,8,with gaps
+chimpanzee,AG18358_4.hap1,chr11_hap1_hsa9,8,with gaps
+chimpanzee,AG18358_4.hap1,chr12_hap1_hsa2a,6,with gaps
+chimpanzee,AG18358_4.hap1,chr13_hap1_hsa2b,6,with gaps
+chimpanzee,AG18358_4.hap1,chr14_hap1_hsa13,15,with gaps
+chimpanzee,AG18358_4.hap1,chr15_hap1_hsa14,8,with gaps
+chimpanzee,AG18358_4.hap1,chr16_hap1_hsa15,18,with gaps
+chimpanzee,AG18358_4.hap1,chr17_hap1_hsa18,18,with gaps
+chimpanzee,AG18358_4.hap1,chr18_hap1_hsa16,12,with gaps
+chimpanzee,AG18358_4.hap1,chr19_hap1_hsa17,13,with gaps
+chimpanzee,AG18358_4.hap1,chr20_hap1_hsa19,8,with gaps
+chimpanzee,AG18358_4.hap1,chr21_hap1_hsa20,13,with gaps
+chimpanzee,AG18358_4.hap1,chr22_hap1_hsa21,9,with gaps
+chimpanzee,AG18358_4.hap1,chr23_hap1_hsa22,11,with gaps
+chimpanzee,AG18358_4.hap1,chrX_hap1_hsaX,5,with gaps
+chimpanzee,AG18358_4.hap1,chrY_hap2_hsaY,1,with gaps
+chimpanzee,AG18358_4.hap2,chr1_hap1_hsa1,3,with gaps
+chimpanzee,AG18358_4.hap2,chr2_hap1_hsa3,4,with gaps
+chimpanzee,AG18358_4.hap2,chr3_hap1_hsa4,3,with gaps
+chimpanzee,AG18358_4.hap2,chr4_hap1_hsa5,2,with gaps
+chimpanzee,AG18358_4.hap2,chr5_hap1_hsa6,4,with gaps
+chimpanzee,AG18358_4.hap2,chr6_hap1_hsa7,9,with gaps
+chimpanzee,AG18358_4.hap2,chr7_hap1_hsa8,8,with gaps
+chimpanzee,AG18358_4.hap2,chr8_hap1_hsa10,10,with gaps
+chimpanzee,AG18358_4.hap2,chr9_hap1_hsa11,4,with gaps
+chimpanzee,AG18358_4.hap2,chr10_hap1_hsa12,8,with gaps
+chimpanzee,AG18358_4.hap2,chr11_hap1_hsa9,16,with gaps
+chimpanzee,AG18358_4.hap2,chr12_hap1_hsa2a,6,with gaps
+chimpanzee,AG18358_4.hap2,chr13_hap1_hsa2b,11,with gaps
+chimpanzee,AG18358_4.hap2,chr14_hap1_hsa13,8,with gaps
+chimpanzee,AG18358_4.hap2,chr15_hap1_hsa14,5,with gaps
+chimpanzee,AG18358_4.hap2,chr16_hap1_hsa15,10,with gaps
+chimpanzee,AG18358_4.hap2,chr17_hap1_hsa18,10,with gaps
+chimpanzee,AG18358_4.hap2,chr18_hap1_hsa16,6,with gaps
+chimpanzee,AG18358_4.hap2,chr19_hap1_hsa17,11,with gaps
+chimpanzee,AG18358_4.hap2,chr20_hap1_hsa19,11,with gaps
+chimpanzee,AG18358_4.hap2,chr21_hap1_hsa20,10,with gaps
+chimpanzee,AG18358_4.hap2,chr22_hap1_hsa21,9,with gaps
+chimpanzee,AG18358_4.hap2,chr23_hap1_hsa22,9,with gaps
+chimpanzee,AG18358_4.hap2,chrX_hap1_hsaX,4,with gaps
+chimpanzee,AG18359_7.hap1,chr1_hap1_hsa1,5,with gaps
+chimpanzee,AG18359_7.hap1,chr2_hap1_hsa3,7,with gaps
+chimpanzee,AG18359_7.hap1,chr3_hap1_hsa4,5,with gaps
+chimpanzee,AG18359_7.hap1,chr4_hap1_hsa5,5,with gaps
+chimpanzee,AG18359_7.hap1,chr5_hap1_hsa6,4,with gaps
+chimpanzee,AG18359_7.hap1,chr6_hap1_hsa7,15,with gaps
+chimpanzee,AG18359_7.hap1,chr7_hap1_hsa8,9,with gaps
+chimpanzee,AG18359_7.hap1,chr8_hap1_hsa10,19,with gaps
+chimpanzee,AG18359_7.hap1,chr9_hap1_hsa11,9,with gaps
+chimpanzee,AG18359_7.hap1,chr10_hap1_hsa12,6,with gaps
+chimpanzee,AG18359_7.hap1,chr11_hap1_hsa9,13,with gaps
+chimpanzee,AG18359_7.hap1,chr12_hap1_hsa2a,10,with gaps
+chimpanzee,AG18359_7.hap1,chr13_hap1_hsa2b,20,with gaps
+chimpanzee,AG18359_7.hap1,chr14_hap1_hsa13,13,with gaps
+chimpanzee,AG18359_7.hap1,chr15_hap1_hsa14,7,with gaps
+chimpanzee,AG18359_7.hap1,chr16_hap1_hsa15,13,with gaps
+chimpanzee,AG18359_7.hap1,chr17_hap1_hsa18,12,with gaps
+chimpanzee,AG18359_7.hap1,chr18_hap1_hsa16,17,with gaps
+chimpanzee,AG18359_7.hap1,chr19_hap1_hsa17,16,with gaps
+chimpanzee,AG18359_7.hap1,chr20_hap1_hsa19,13,with gaps
+chimpanzee,AG18359_7.hap1,chr21_hap1_hsa20,13,with gaps
+chimpanzee,AG18359_7.hap1,chr22_hap1_hsa21,21,with gaps
+chimpanzee,AG18359_7.hap1,chr23_hap1_hsa22,10,with gaps
+chimpanzee,AG18359_7.hap1,chrX_hap1_hsaX,12,with gaps
+chimpanzee,AG18359_7.hap2,chr1_hap1_hsa1,5,with gaps
+chimpanzee,AG18359_7.hap2,chr2_hap1_hsa3,4,with gaps
+chimpanzee,AG18359_7.hap2,chr3_hap1_hsa4,1,with gaps
+chimpanzee,AG18359_7.hap2,chr4_hap1_hsa5,7,with gaps
+chimpanzee,AG18359_7.hap2,chr5_hap1_hsa6,4,with gaps
+chimpanzee,AG18359_7.hap2,chr6_hap1_hsa7,13,with gaps
+chimpanzee,AG18359_7.hap2,chr7_hap1_hsa8,10,with gaps
+chimpanzee,AG18359_7.hap2,chr8_hap1_hsa10,13,with gaps
+chimpanzee,AG18359_7.hap2,chr9_hap1_hsa11,5,with gaps
+chimpanzee,AG18359_7.hap2,chr10_hap1_hsa12,2,with gaps
+chimpanzee,AG18359_7.hap2,chr11_hap1_hsa9,13,with gaps
+chimpanzee,AG18359_7.hap2,chr12_hap1_hsa2a,6,with gaps
+chimpanzee,AG18359_7.hap2,chr13_hap1_hsa2b,11,with gaps
+chimpanzee,AG18359_7.hap2,chr14_hap1_hsa13,15,with gaps
+chimpanzee,AG18359_7.hap2,chr15_hap1_hsa14,6,with gaps
+chimpanzee,AG18359_7.hap2,chr16_hap1_hsa15,6,with gaps
+chimpanzee,AG18359_7.hap2,chr17_hap1_hsa18,14,with gaps
+chimpanzee,AG18359_7.hap2,chr18_hap1_hsa16,14,with gaps
+chimpanzee,AG18359_7.hap2,chr19_hap1_hsa17,7,with gaps
+chimpanzee,AG18359_7.hap2,chr20_hap1_hsa19,11,with gaps
+chimpanzee,AG18359_7.hap2,chr21_hap1_hsa20,10,with gaps
+chimpanzee,AG18359_7.hap2,chr22_hap1_hsa21,14,with gaps
+chimpanzee,AG18359_7.hap2,chr23_hap1_hsa22,12,with gaps
+chimpanzee,AG18359_7.hap2,chrX_hap1_hsaX,11,with gaps
+chimpanzee,AG18359_7.hap2,chrY_hap2_hsaY,0,gapless
+chimpanzee,AG18360_11.hap1,chr1_hap1_hsa1,6,with gaps
+chimpanzee,AG18360_11.hap1,chr2_hap1_hsa3,5,with gaps
+chimpanzee,AG18360_11.hap1,chr3_hap1_hsa4,5,with gaps
+chimpanzee,AG18360_11.hap1,chr4_hap1_hsa5,1,with gaps
+chimpanzee,AG18360_11.hap1,chr5_hap1_hsa6,6,with gaps
+chimpanzee,AG18360_11.hap1,chr6_hap1_hsa7,11,with gaps
+chimpanzee,AG18360_11.hap1,chr7_hap1_hsa8,5,with gaps
+chimpanzee,AG18360_11.hap1,chr8_hap1_hsa10,7,with gaps
+chimpanzee,AG18360_11.hap1,chr9_hap1_hsa11,4,with gaps
+chimpanzee,AG18360_11.hap1,chr10_hap1_hsa12,4,with gaps
+chimpanzee,AG18360_11.hap1,chr11_hap1_hsa9,10,with gaps
+chimpanzee,AG18360_11.hap1,chr12_hap1_hsa2a,5,with gaps
+chimpanzee,AG18360_11.hap1,chr13_hap1_hsa2b,6,with gaps
+chimpanzee,AG18360_11.hap1,chr14_hap1_hsa13,6,with gaps
+chimpanzee,AG18360_11.hap1,chr15_hap1_hsa14,9,with gaps
+chimpanzee,AG18360_11.hap1,chr16_hap1_hsa15,8,with gaps
+chimpanzee,AG18360_11.hap1,chr17_hap1_hsa18,6,with gaps
+chimpanzee,AG18360_11.hap1,chr18_hap1_hsa16,7,with gaps
+chimpanzee,AG18360_11.hap1,chr19_hap1_hsa17,7,with gaps
+chimpanzee,AG18360_11.hap1,chr20_hap1_hsa19,10,with gaps
+chimpanzee,AG18360_11.hap1,chr21_hap1_hsa20,5,with gaps
+chimpanzee,AG18360_11.hap1,chr22_hap1_hsa21,19,with gaps
+chimpanzee,AG18360_11.hap1,chr23_hap1_hsa22,4,with gaps
+chimpanzee,AG18360_11.hap1,chrX_hap1_hsaX,14,with gaps
+chimpanzee,AG18360_11.hap2,chr1_hap1_hsa1,8,with gaps
+chimpanzee,AG18360_11.hap2,chr2_hap1_hsa3,0,gapless
+chimpanzee,AG18360_11.hap2,chr3_hap1_hsa4,2,with gaps
+chimpanzee,AG18360_11.hap2,chr4_hap1_hsa5,0,gapless
+chimpanzee,AG18360_11.hap2,chr5_hap1_hsa6,7,with gaps
+chimpanzee,AG18360_11.hap2,chr6_hap1_hsa7,14,with gaps
+chimpanzee,AG18360_11.hap2,chr7_hap1_hsa8,10,with gaps
+chimpanzee,AG18360_11.hap2,chr8_hap1_hsa10,7,with gaps
+chimpanzee,AG18360_11.hap2,chr9_hap1_hsa11,1,with gaps
+chimpanzee,AG18360_11.hap2,chr10_hap1_hsa12,5,with gaps
+chimpanzee,AG18360_11.hap2,chr11_hap1_hsa9,10,with gaps
+chimpanzee,AG18360_11.hap2,chr12_hap1_hsa2a,8,with gaps
+chimpanzee,AG18360_11.hap2,chr13_hap1_hsa2b,3,with gaps
+chimpanzee,AG18360_11.hap2,chr14_hap1_hsa13,6,with gaps
+chimpanzee,AG18360_11.hap2,chr15_hap1_hsa14,6,with gaps
+chimpanzee,AG18360_11.hap2,chr16_hap1_hsa15,5,with gaps
+chimpanzee,AG18360_11.hap2,chr17_hap1_hsa18,3,with gaps
+chimpanzee,AG18360_11.hap2,chr18_hap1_hsa16,5,with gaps
+chimpanzee,AG18360_11.hap2,chr19_hap1_hsa17,11,with gaps
+chimpanzee,AG18360_11.hap2,chr20_hap1_hsa19,19,with gaps
+chimpanzee,AG18360_11.hap2,chr21_hap1_hsa20,13,with gaps
+chimpanzee,AG18360_11.hap2,chr22_hap1_hsa21,14,with gaps
+chimpanzee,AG18360_11.hap2,chr23_hap1_hsa22,6,with gaps
+chimpanzee,AG18360_11.hap2,chrX_hap1_hsaX,10,with gaps
+chimpanzee,AG18360_11.hap2,chrY_hap2_hsaY,0,gapless
+chimpanzee,AG18361_10.hap1,chr1_hap1_hsa1,5,with gaps
+chimpanzee,AG18361_10.hap1,chr2_hap1_hsa3,7,with gaps
+chimpanzee,AG18361_10.hap1,chr3_hap1_hsa4,4,with gaps
+chimpanzee,AG18361_10.hap1,chr4_hap1_hsa5,5,with gaps
+chimpanzee,AG18361_10.hap1,chr5_hap1_hsa6,4,with gaps
+chimpanzee,AG18361_10.hap1,chr6_hap1_hsa7,20,with gaps
+chimpanzee,AG18361_10.hap1,chr7_hap1_hsa8,6,with gaps
+chimpanzee,AG18361_10.hap1,chr8_hap1_hsa10,14,with gaps
+chimpanzee,AG18361_10.hap1,chr9_hap1_hsa11,4,with gaps
+chimpanzee,AG18361_10.hap1,chr10_hap1_hsa12,6,with gaps
+chimpanzee,AG18361_10.hap1,chr11_hap1_hsa9,14,with gaps
+chimpanzee,AG18361_10.hap1,chr12_hap1_hsa2a,15,with gaps
+chimpanzee,AG18361_10.hap1,chr13_hap1_hsa2b,4,with gaps
+chimpanzee,AG18361_10.hap1,chr14_hap1_hsa13,14,with gaps
+chimpanzee,AG18361_10.hap1,chr15_hap1_hsa14,5,with gaps
+chimpanzee,AG18361_10.hap1,chr16_hap1_hsa15,16,with gaps
+chimpanzee,AG18361_10.hap1,chr17_hap1_hsa18,11,with gaps
+chimpanzee,AG18361_10.hap1,chr18_hap1_hsa16,15,with gaps
+chimpanzee,AG18361_10.hap1,chr19_hap1_hsa17,17,with gaps
+chimpanzee,AG18361_10.hap1,chr20_hap1_hsa19,24,with gaps
+chimpanzee,AG18361_10.hap1,chr21_hap1_hsa20,11,with gaps
+chimpanzee,AG18361_10.hap1,chr22_hap1_hsa21,10,with gaps
+chimpanzee,AG18361_10.hap1,chr23_hap1_hsa22,16,with gaps
+chimpanzee,AG18361_10.hap1,chrX_hap1_hsaX,11,with gaps
+chimpanzee,AG18361_10.hap1,chrY_hap2_hsaY,0,gapless
+chimpanzee,AG18361_10.hap2,chr1_hap1_hsa1,10,with gaps
+chimpanzee,AG18361_10.hap2,chr2_hap1_hsa3,3,with gaps
+chimpanzee,AG18361_10.hap2,chr3_hap1_hsa4,3,with gaps
+chimpanzee,AG18361_10.hap2,chr4_hap1_hsa5,7,with gaps
+chimpanzee,AG18361_10.hap2,chr5_hap1_hsa6,6,with gaps
+chimpanzee,AG18361_10.hap2,chr6_hap1_hsa7,12,with gaps
+chimpanzee,AG18361_10.hap2,chr7_hap1_hsa8,12,with gaps
+chimpanzee,AG18361_10.hap2,chr8_hap1_hsa10,14,with gaps
+chimpanzee,AG18361_10.hap2,chr9_hap1_hsa11,13,with gaps
+chimpanzee,AG18361_10.hap2,chr10_hap1_hsa12,5,with gaps
+chimpanzee,AG18361_10.hap2,chr11_hap1_hsa9,11,with gaps
+chimpanzee,AG18361_10.hap2,chr12_hap1_hsa2a,11,with gaps
+chimpanzee,AG18361_10.hap2,chr13_hap1_hsa2b,10,with gaps
+chimpanzee,AG18361_10.hap2,chr14_hap1_hsa13,13,with gaps
+chimpanzee,AG18361_10.hap2,chr15_hap1_hsa14,8,with gaps
+chimpanzee,AG18361_10.hap2,chr16_hap1_hsa15,13,with gaps
+chimpanzee,AG18361_10.hap2,chr17_hap1_hsa18,9,with gaps
+chimpanzee,AG18361_10.hap2,chr18_hap1_hsa16,26,with gaps
+chimpanzee,AG18361_10.hap2,chr19_hap1_hsa17,15,with gaps
+chimpanzee,AG18361_10.hap2,chr20_hap1_hsa19,25,with gaps
+chimpanzee,AG18361_10.hap2,chr21_hap1_hsa20,16,with gaps
+chimpanzee,AG18361_10.hap2,chr22_hap1_hsa21,12,with gaps
+chimpanzee,AG18361_10.hap2,chr23_hap1_hsa22,14,with gaps
+chimpanzee,AG18361_10.hap2,chrX_hap1_hsaX,12,with gaps
+chimpanzee,mPanTro3.hap1,chr1_hap1_hsa1,0,gapless
+chimpanzee,mPanTro3.hap1,chr2_hap1_hsa3,0,gapless
+chimpanzee,mPanTro3.hap1,chr3_hap1_hsa4,0,gapless
+chimpanzee,mPanTro3.hap1,chr4_hap1_hsa5,0,gapless
+chimpanzee,mPanTro3.hap1,chr5_hap1_hsa6,0,gapless
+chimpanzee,mPanTro3.hap1,chr6_hap1_hsa7,0,gapless
+chimpanzee,mPanTro3.hap1,chr7_hap1_hsa8,0,gapless
+chimpanzee,mPanTro3.hap1,chr8_hap1_hsa10,0,gapless
+chimpanzee,mPanTro3.hap1,chr9_hap1_hsa11,0,gapless
+chimpanzee,mPanTro3.hap1,chr10_hap1_hsa12,0,gapless
+chimpanzee,mPanTro3.hap1,chr11_hap1_hsa9,0,gapless
+chimpanzee,mPanTro3.hap1,chr12_hap1_hsa2a,0,gapless
+chimpanzee,mPanTro3.hap1,chr13_hap1_hsa2b,0,gapless
+chimpanzee,mPanTro3.hap1,chr14_hap1_hsa13,1,with gaps
+chimpanzee,mPanTro3.hap1,chr15_hap1_hsa14,1,with gaps
+chimpanzee,mPanTro3.hap1,chr16_hap1_hsa15,0,gapless
+chimpanzee,mPanTro3.hap1,chr17_hap1_hsa18,1,with gaps
+chimpanzee,mPanTro3.hap1,chr18_hap1_hsa16,0,gapless
+chimpanzee,mPanTro3.hap1,chr19_hap1_hsa17,0,gapless
+chimpanzee,mPanTro3.hap1,chr20_hap1_hsa19,0,gapless
+chimpanzee,mPanTro3.hap1,chr21_hap1_hsa20,0,gapless
+chimpanzee,mPanTro3.hap1,chr22_hap1_hsa21,1,with gaps
+chimpanzee,mPanTro3.hap1,chr23_hap1_hsa22,1,with gaps
+chimpanzee,mPanTro3.hap1,chrX_hap1_hsaX,0,gapless
+chimpanzee,mPanTro3.hap2,chr1_hap1_hsa1,0,gapless
+chimpanzee,mPanTro3.hap2,chr2_hap1_hsa3,0,gapless
+chimpanzee,mPanTro3.hap2,chr3_hap1_hsa4,0,gapless
+chimpanzee,mPanTro3.hap2,chr4_hap1_hsa5,0,gapless
+chimpanzee,mPanTro3.hap2,chr5_hap1_hsa6,0,gapless
+chimpanzee,mPanTro3.hap2,chr6_hap1_hsa7,0,gapless
+chimpanzee,mPanTro3.hap2,chr7_hap1_hsa8,0,gapless
+chimpanzee,mPanTro3.hap2,chr8_hap1_hsa10,0,gapless
+chimpanzee,mPanTro3.hap2,chr9_hap1_hsa11,0,gapless
+chimpanzee,mPanTro3.hap2,chr10_hap1_hsa12,0,gapless
+chimpanzee,mPanTro3.hap2,chr11_hap1_hsa9,0,gapless
+chimpanzee,mPanTro3.hap2,chr12_hap1_hsa2a,0,gapless
+chimpanzee,mPanTro3.hap2,chr13_hap1_hsa2b,0,gapless
+chimpanzee,mPanTro3.hap2,chr14_hap1_hsa13,1,with gaps
+chimpanzee,mPanTro3.hap2,chr15_hap1_hsa14,1,with gaps
+chimpanzee,mPanTro3.hap2,chr16_hap1_hsa15,0,gapless
+chimpanzee,mPanTro3.hap2,chr17_hap1_hsa18,1,with gaps
+chimpanzee,mPanTro3.hap2,chr18_hap1_hsa16,0,gapless
+chimpanzee,mPanTro3.hap2,chr19_hap1_hsa17,0,gapless
+chimpanzee,mPanTro3.hap2,chr20_hap1_hsa19,0,gapless
+chimpanzee,mPanTro3.hap2,chr21_hap1_hsa20,0,gapless
+chimpanzee,mPanTro3.hap2,chr22_hap1_hsa21,1,with gaps
+chimpanzee,mPanTro3.hap2,chr23_hap1_hsa22,1,with gaps
+chimpanzee,mPanTro3.hap2,chrY_hap2_hsaY,0,gapless
+chimpanzee,PR00115.hap1,chr1_hap1_hsa1,22,with gaps
+chimpanzee,PR00115.hap1,chr2_hap1_hsa3,4,with gaps
+chimpanzee,PR00115.hap1,chr3_hap1_hsa4,38,with gaps
+chimpanzee,PR00115.hap1,chr4_hap1_hsa5,2,with gaps
+chimpanzee,PR00115.hap1,chr5_hap1_hsa6,15,with gaps
+chimpanzee,PR00115.hap1,chr6_hap1_hsa7,15,with gaps
+chimpanzee,PR00115.hap1,chr7_hap1_hsa8,24,with gaps
+chimpanzee,PR00115.hap1,chr8_hap1_hsa10,7,with gaps
+chimpanzee,PR00115.hap1,chr9_hap1_hsa11,12,with gaps
+chimpanzee,PR00115.hap1,chr10_hap1_hsa12,27,with gaps
+chimpanzee,PR00115.hap1,chr11_hap1_hsa9,12,with gaps
+chimpanzee,PR00115.hap1,chr12_hap1_hsa2a,12,with gaps
+chimpanzee,PR00115.hap1,chr13_hap1_hsa2b,12,with gaps
+chimpanzee,PR00115.hap1,chr14_hap1_hsa13,8,with gaps
+chimpanzee,PR00115.hap1,chr15_hap1_hsa14,5,with gaps
+chimpanzee,PR00115.hap1,chr16_hap1_hsa15,15,with gaps
+chimpanzee,PR00115.hap1,chr17_hap1_hsa18,8,with gaps
+chimpanzee,PR00115.hap1,chr18_hap1_hsa16,20,with gaps
+chimpanzee,PR00115.hap1,chr19_hap1_hsa17,14,with gaps
+chimpanzee,PR00115.hap1,chr20_hap1_hsa19,5,with gaps
+chimpanzee,PR00115.hap1,chr21_hap1_hsa20,11,with gaps
+chimpanzee,PR00115.hap1,chr22_hap1_hsa21,9,with gaps
+chimpanzee,PR00115.hap1,chr23_hap1_hsa22,6,with gaps
+chimpanzee,PR00115.hap1,chrX_hap1_hsaX,11,with gaps
+chimpanzee,PR00115.hap1,chrY_hap2_hsaY,4,with gaps
+chimpanzee,PR00115.hap2,chr1_hap1_hsa1,20,with gaps
+chimpanzee,PR00115.hap2,chr2_hap1_hsa3,7,with gaps
+chimpanzee,PR00115.hap2,chr3_hap1_hsa4,14,with gaps
+chimpanzee,PR00115.hap2,chr4_hap1_hsa5,18,with gaps
+chimpanzee,PR00115.hap2,chr5_hap1_hsa6,9,with gaps
+chimpanzee,PR00115.hap2,chr6_hap1_hsa7,15,with gaps
+chimpanzee,PR00115.hap2,chr7_hap1_hsa8,15,with gaps
+chimpanzee,PR00115.hap2,chr8_hap1_hsa10,8,with gaps
+chimpanzee,PR00115.hap2,chr9_hap1_hsa11,11,with gaps
+chimpanzee,PR00115.hap2,chr10_hap1_hsa12,19,with gaps
+chimpanzee,PR00115.hap2,chr11_hap1_hsa9,22,with gaps
+chimpanzee,PR00115.hap2,chr12_hap1_hsa2a,4,with gaps
+chimpanzee,PR00115.hap2,chr13_hap1_hsa2b,11,with gaps
+chimpanzee,PR00115.hap2,chr14_hap1_hsa13,9,with gaps
+chimpanzee,PR00115.hap2,chr15_hap1_hsa14,10,with gaps
+chimpanzee,PR00115.hap2,chr16_hap1_hsa15,5,with gaps
+chimpanzee,PR00115.hap2,chr17_hap1_hsa18,1,with gaps
+chimpanzee,PR00115.hap2,chr18_hap1_hsa16,9,with gaps
+chimpanzee,PR00115.hap2,chr19_hap1_hsa17,13,with gaps
+chimpanzee,PR00115.hap2,chr20_hap1_hsa19,3,with gaps
+chimpanzee,PR00115.hap2,chr21_hap1_hsa20,7,with gaps
+chimpanzee,PR00115.hap2,chr22_hap1_hsa21,16,with gaps
+chimpanzee,PR00115.hap2,chr23_hap1_hsa22,3,with gaps
+chimpanzee,PR00115.hap2,chrX_hap1_hsaX,65,with gaps
+chimpanzee,PR00115.hap2,chrY_hap2_hsaY,19,with gaps
+chimpanzee,PR00496A.hap1,chr1_hap1_hsa1,17,with gaps
+chimpanzee,PR00496A.hap1,chr2_hap1_hsa3,23,with gaps
+chimpanzee,PR00496A.hap1,chr3_hap1_hsa4,18,with gaps
+chimpanzee,PR00496A.hap1,chr4_hap1_hsa5,21,with gaps
+chimpanzee,PR00496A.hap1,chr5_hap1_hsa6,18,with gaps
+chimpanzee,PR00496A.hap1,chr6_hap1_hsa7,22,with gaps
+chimpanzee,PR00496A.hap1,chr7_hap1_hsa8,23,with gaps
+chimpanzee,PR00496A.hap1,chr8_hap1_hsa10,20,with gaps
+chimpanzee,PR00496A.hap1,chr9_hap1_hsa11,18,with gaps
+chimpanzee,PR00496A.hap1,chr10_hap1_hsa12,18,with gaps
+chimpanzee,PR00496A.hap1,chr11_hap1_hsa9,16,with gaps
+chimpanzee,PR00496A.hap1,chr12_hap1_hsa2a,22,with gaps
+chimpanzee,PR00496A.hap1,chr13_hap1_hsa2b,18,with gaps
+chimpanzee,PR00496A.hap1,chr14_hap1_hsa13,33,with gaps
+chimpanzee,PR00496A.hap1,chr15_hap1_hsa14,19,with gaps
+chimpanzee,PR00496A.hap1,chr16_hap1_hsa15,10,with gaps
+chimpanzee,PR00496A.hap1,chr17_hap1_hsa18,11,with gaps
+chimpanzee,PR00496A.hap1,chr18_hap1_hsa16,15,with gaps
+chimpanzee,PR00496A.hap1,chr19_hap1_hsa17,26,with gaps
+chimpanzee,PR00496A.hap1,chr20_hap1_hsa19,29,with gaps
+chimpanzee,PR00496A.hap1,chr21_hap1_hsa20,9,with gaps
+chimpanzee,PR00496A.hap1,chr22_hap1_hsa21,18,with gaps
+chimpanzee,PR00496A.hap1,chr23_hap1_hsa22,16,with gaps
+chimpanzee,PR00496A.hap1,chrX_hap1_hsaX,41,with gaps
+chimpanzee,PR00496A.hap1,chrY_hap2_hsaY,2,with gaps
+chimpanzee,PR00496A.hap2,chr1_hap1_hsa1,29,with gaps
+chimpanzee,PR00496A.hap2,chr2_hap1_hsa3,18,with gaps
+chimpanzee,PR00496A.hap2,chr3_hap1_hsa4,33,with gaps
+chimpanzee,PR00496A.hap2,chr4_hap1_hsa5,25,with gaps
+chimpanzee,PR00496A.hap2,chr5_hap1_hsa6,21,with gaps
+chimpanzee,PR00496A.hap2,chr6_hap1_hsa7,26,with gaps
+chimpanzee,PR00496A.hap2,chr7_hap1_hsa8,16,with gaps
+chimpanzee,PR00496A.hap2,chr8_hap1_hsa10,27,with gaps
+chimpanzee,PR00496A.hap2,chr9_hap1_hsa11,18,with gaps
+chimpanzee,PR00496A.hap2,chr10_hap1_hsa12,21,with gaps
+chimpanzee,PR00496A.hap2,chr11_hap1_hsa9,10,with gaps
+chimpanzee,PR00496A.hap2,chr12_hap1_hsa2a,20,with gaps
+chimpanzee,PR00496A.hap2,chr13_hap1_hsa2b,25,with gaps
+chimpanzee,PR00496A.hap2,chr14_hap1_hsa13,30,with gaps
+chimpanzee,PR00496A.hap2,chr15_hap1_hsa14,21,with gaps
+chimpanzee,PR00496A.hap2,chr16_hap1_hsa15,16,with gaps
+chimpanzee,PR00496A.hap2,chr17_hap1_hsa18,12,with gaps
+chimpanzee,PR00496A.hap2,chr18_hap1_hsa16,13,with gaps
+chimpanzee,PR00496A.hap2,chr19_hap1_hsa17,23,with gaps
+chimpanzee,PR00496A.hap2,chr20_hap1_hsa19,17,with gaps
+chimpanzee,PR00496A.hap2,chr21_hap1_hsa20,15,with gaps
+chimpanzee,PR00496A.hap2,chr22_hap1_hsa21,15,with gaps
+chimpanzee,PR00496A.hap2,chr23_hap1_hsa22,14,with gaps
+chimpanzee,PR00496A.hap2,chrX_hap1_hsaX,39,with gaps
+chimpanzee,PR00496A.hap2,chrY_hap2_hsaY,2,with gaps
+chimpanzee,PR00512.hap1,chr1_hap1_hsa1,43,with gaps
+chimpanzee,PR00512.hap1,chr2_hap1_hsa3,27,with gaps
+chimpanzee,PR00512.hap1,chr3_hap1_hsa4,25,with gaps
+chimpanzee,PR00512.hap1,chr4_hap1_hsa5,16,with gaps
+chimpanzee,PR00512.hap1,chr5_hap1_hsa6,20,with gaps
+chimpanzee,PR00512.hap1,chr6_hap1_hsa7,42,with gaps
+chimpanzee,PR00512.hap1,chr7_hap1_hsa8,25,with gaps
+chimpanzee,PR00512.hap1,chr8_hap1_hsa10,33,with gaps
+chimpanzee,PR00512.hap1,chr9_hap1_hsa11,24,with gaps
+chimpanzee,PR00512.hap1,chr10_hap1_hsa12,21,with gaps
+chimpanzee,PR00512.hap1,chr11_hap1_hsa9,17,with gaps
+chimpanzee,PR00512.hap1,chr12_hap1_hsa2a,24,with gaps
+chimpanzee,PR00512.hap1,chr13_hap1_hsa2b,24,with gaps
+chimpanzee,PR00512.hap1,chr14_hap1_hsa13,27,with gaps
+chimpanzee,PR00512.hap1,chr15_hap1_hsa14,40,with gaps
+chimpanzee,PR00512.hap1,chr16_hap1_hsa15,30,with gaps
+chimpanzee,PR00512.hap1,chr17_hap1_hsa18,23,with gaps
+chimpanzee,PR00512.hap1,chr18_hap1_hsa16,32,with gaps
+chimpanzee,PR00512.hap1,chr19_hap1_hsa17,35,with gaps
+chimpanzee,PR00512.hap1,chr20_hap1_hsa19,35,with gaps
+chimpanzee,PR00512.hap1,chr21_hap1_hsa20,32,with gaps
+chimpanzee,PR00512.hap1,chr22_hap1_hsa21,27,with gaps
+chimpanzee,PR00512.hap1,chr23_hap1_hsa22,33,with gaps
+chimpanzee,PR00512.hap1,chrX_hap1_hsaX,29,with gaps
+chimpanzee,PR00512.hap2,chr1_hap1_hsa1,23,with gaps
+chimpanzee,PR00512.hap2,chr2_hap1_hsa3,17,with gaps
+chimpanzee,PR00512.hap2,chr3_hap1_hsa4,19,with gaps
+chimpanzee,PR00512.hap2,chr4_hap1_hsa5,13,with gaps
+chimpanzee,PR00512.hap2,chr5_hap1_hsa6,19,with gaps
+chimpanzee,PR00512.hap2,chr6_hap1_hsa7,33,with gaps
+chimpanzee,PR00512.hap2,chr7_hap1_hsa8,36,with gaps
+chimpanzee,PR00512.hap2,chr8_hap1_hsa10,49,with gaps
+chimpanzee,PR00512.hap2,chr9_hap1_hsa11,21,with gaps
+chimpanzee,PR00512.hap2,chr10_hap1_hsa12,49,with gaps
+chimpanzee,PR00512.hap2,chr11_hap1_hsa9,37,with gaps
+chimpanzee,PR00512.hap2,chr12_hap1_hsa2a,25,with gaps
+chimpanzee,PR00512.hap2,chr13_hap1_hsa2b,39,with gaps
+chimpanzee,PR00512.hap2,chr14_hap1_hsa13,49,with gaps
+chimpanzee,PR00512.hap2,chr15_hap1_hsa14,26,with gaps
+chimpanzee,PR00512.hap2,chr16_hap1_hsa15,36,with gaps
+chimpanzee,PR00512.hap2,chr17_hap1_hsa18,18,with gaps
+chimpanzee,PR00512.hap2,chr18_hap1_hsa16,20,with gaps
+chimpanzee,PR00512.hap2,chr19_hap1_hsa17,61,with gaps
+chimpanzee,PR00512.hap2,chr20_hap1_hsa19,47,with gaps
+chimpanzee,PR00512.hap2,chr21_hap1_hsa20,23,with gaps
+chimpanzee,PR00512.hap2,chr22_hap1_hsa21,35,with gaps
+chimpanzee,PR00512.hap2,chr23_hap1_hsa22,29,with gaps
+chimpanzee,PR00512.hap2,chrX_hap1_hsaX,33,with gaps
+chimpanzee,PR00512.hap2,chrY_hap2_hsaY,0,gapless
+chimpanzee,PR00834.hap1,chr1_hap1_hsa1,11,with gaps
+chimpanzee,PR00834.hap1,chr2_hap1_hsa3,13,with gaps
+chimpanzee,PR00834.hap1,chr3_hap1_hsa4,15,with gaps
+chimpanzee,PR00834.hap1,chr4_hap1_hsa5,9,with gaps
+chimpanzee,PR00834.hap1,chr5_hap1_hsa6,9,with gaps
+chimpanzee,PR00834.hap1,chr6_hap1_hsa7,16,with gaps
+chimpanzee,PR00834.hap1,chr7_hap1_hsa8,9,with gaps
+chimpanzee,PR00834.hap1,chr8_hap1_hsa10,16,with gaps
+chimpanzee,PR00834.hap1,chr9_hap1_hsa11,6,with gaps
+chimpanzee,PR00834.hap1,chr10_hap1_hsa12,15,with gaps
+chimpanzee,PR00834.hap1,chr11_hap1_hsa9,13,with gaps
+chimpanzee,PR00834.hap1,chr12_hap1_hsa2a,13,with gaps
+chimpanzee,PR00834.hap1,chr13_hap1_hsa2b,13,with gaps
+chimpanzee,PR00834.hap1,chr14_hap1_hsa13,15,with gaps
+chimpanzee,PR00834.hap1,chr15_hap1_hsa14,4,with gaps
+chimpanzee,PR00834.hap1,chr16_hap1_hsa15,12,with gaps
+chimpanzee,PR00834.hap1,chr17_hap1_hsa18,8,with gaps
+chimpanzee,PR00834.hap1,chr18_hap1_hsa16,15,with gaps
+chimpanzee,PR00834.hap1,chr19_hap1_hsa17,15,with gaps
+chimpanzee,PR00834.hap1,chr20_hap1_hsa19,15,with gaps
+chimpanzee,PR00834.hap1,chr21_hap1_hsa20,10,with gaps
+chimpanzee,PR00834.hap1,chr22_hap1_hsa21,8,with gaps
+chimpanzee,PR00834.hap1,chr23_hap1_hsa22,13,with gaps
+chimpanzee,PR00834.hap1,chrX_hap1_hsaX,26,with gaps
+chimpanzee,PR00834.hap2,chr1_hap1_hsa1,9,with gaps
+chimpanzee,PR00834.hap2,chr2_hap1_hsa3,11,with gaps
+chimpanzee,PR00834.hap2,chr3_hap1_hsa4,19,with gaps
+chimpanzee,PR00834.hap2,chr4_hap1_hsa5,8,with gaps
+chimpanzee,PR00834.hap2,chr5_hap1_hsa6,11,with gaps
+chimpanzee,PR00834.hap2,chr6_hap1_hsa7,11,with gaps
+chimpanzee,PR00834.hap2,chr7_hap1_hsa8,13,with gaps
+chimpanzee,PR00834.hap2,chr8_hap1_hsa10,10,with gaps
+chimpanzee,PR00834.hap2,chr9_hap1_hsa11,5,with gaps
+chimpanzee,PR00834.hap2,chr10_hap1_hsa12,10,with gaps
+chimpanzee,PR00834.hap2,chr11_hap1_hsa9,7,with gaps
+chimpanzee,PR00834.hap2,chr12_hap1_hsa2a,16,with gaps
+chimpanzee,PR00834.hap2,chr13_hap1_hsa2b,10,with gaps
+chimpanzee,PR00834.hap2,chr14_hap1_hsa13,14,with gaps
+chimpanzee,PR00834.hap2,chr15_hap1_hsa14,12,with gaps
+chimpanzee,PR00834.hap2,chr16_hap1_hsa15,8,with gaps
+chimpanzee,PR00834.hap2,chr17_hap1_hsa18,11,with gaps
+chimpanzee,PR00834.hap2,chr18_hap1_hsa16,8,with gaps
+chimpanzee,PR00834.hap2,chr19_hap1_hsa17,13,with gaps
+chimpanzee,PR00834.hap2,chr20_hap1_hsa19,16,with gaps
+chimpanzee,PR00834.hap2,chr21_hap1_hsa20,8,with gaps
+chimpanzee,PR00834.hap2,chr22_hap1_hsa21,4,with gaps
+chimpanzee,PR00834.hap2,chr23_hap1_hsa22,19,with gaps
+chimpanzee,PR00834.hap2,chrX_hap1_hsaX,31,with gaps
+chimpanzee,PR00834.hap2,chrY_hap2_hsaY,0,gapless
+chimpanzee,PR00838.hap1,chr1_hap1_hsa1,47,with gaps
+chimpanzee,PR00838.hap1,chr2_hap1_hsa3,8,with gaps
+chimpanzee,PR00838.hap1,chr3_hap1_hsa4,32,with gaps
+chimpanzee,PR00838.hap1,chr4_hap1_hsa5,8,with gaps
+chimpanzee,PR00838.hap1,chr5_hap1_hsa6,11,with gaps
+chimpanzee,PR00838.hap1,chr6_hap1_hsa7,43,with gaps
+chimpanzee,PR00838.hap1,chr7_hap1_hsa8,20,with gaps
+chimpanzee,PR00838.hap1,chr8_hap1_hsa10,20,with gaps
+chimpanzee,PR00838.hap1,chr9_hap1_hsa11,16,with gaps
+chimpanzee,PR00838.hap1,chr10_hap1_hsa12,15,with gaps
+chimpanzee,PR00838.hap1,chr11_hap1_hsa9,11,with gaps
+chimpanzee,PR00838.hap1,chr12_hap1_hsa2a,12,with gaps
+chimpanzee,PR00838.hap1,chr13_hap1_hsa2b,17,with gaps
+chimpanzee,PR00838.hap1,chr14_hap1_hsa13,27,with gaps
+chimpanzee,PR00838.hap1,chr15_hap1_hsa14,15,with gaps
+chimpanzee,PR00838.hap1,chr16_hap1_hsa15,23,with gaps
+chimpanzee,PR00838.hap1,chr17_hap1_hsa18,14,with gaps
+chimpanzee,PR00838.hap1,chr18_hap1_hsa16,14,with gaps
+chimpanzee,PR00838.hap1,chr19_hap1_hsa17,24,with gaps
+chimpanzee,PR00838.hap1,chr20_hap1_hsa19,24,with gaps
+chimpanzee,PR00838.hap1,chr21_hap1_hsa20,18,with gaps
+chimpanzee,PR00838.hap1,chr22_hap1_hsa21,10,with gaps
+chimpanzee,PR00838.hap1,chr23_hap1_hsa22,17,with gaps
+chimpanzee,PR00838.hap1,chrX_hap1_hsaX,40,with gaps
+chimpanzee,PR00838.hap1,chrY_hap2_hsaY,0,gapless
+chimpanzee,PR00838.hap2,chr1_hap1_hsa1,21,with gaps
+chimpanzee,PR00838.hap2,chr2_hap1_hsa3,28,with gaps
+chimpanzee,PR00838.hap2,chr3_hap1_hsa4,18,with gaps
+chimpanzee,PR00838.hap2,chr4_hap1_hsa5,14,with gaps
+chimpanzee,PR00838.hap2,chr5_hap1_hsa6,24,with gaps
+chimpanzee,PR00838.hap2,chr6_hap1_hsa7,32,with gaps
+chimpanzee,PR00838.hap2,chr7_hap1_hsa8,17,with gaps
+chimpanzee,PR00838.hap2,chr8_hap1_hsa10,34,with gaps
+chimpanzee,PR00838.hap2,chr9_hap1_hsa11,11,with gaps
+chimpanzee,PR00838.hap2,chr10_hap1_hsa12,21,with gaps
+chimpanzee,PR00838.hap2,chr11_hap1_hsa9,13,with gaps
+chimpanzee,PR00838.hap2,chr12_hap1_hsa2a,27,with gaps
+chimpanzee,PR00838.hap2,chr13_hap1_hsa2b,10,with gaps
+chimpanzee,PR00838.hap2,chr14_hap1_hsa13,15,with gaps
+chimpanzee,PR00838.hap2,chr15_hap1_hsa14,15,with gaps
+chimpanzee,PR00838.hap2,chr16_hap1_hsa15,19,with gaps
+chimpanzee,PR00838.hap2,chr17_hap1_hsa18,13,with gaps
+chimpanzee,PR00838.hap2,chr18_hap1_hsa16,28,with gaps
+chimpanzee,PR00838.hap2,chr19_hap1_hsa17,25,with gaps
+chimpanzee,PR00838.hap2,chr20_hap1_hsa19,30,with gaps
+chimpanzee,PR00838.hap2,chr21_hap1_hsa20,25,with gaps
+chimpanzee,PR00838.hap2,chr22_hap1_hsa21,13,with gaps
+chimpanzee,PR00838.hap2,chr23_hap1_hsa22,13,with gaps
+chimpanzee,PR00838.hap2,chrX_hap1_hsaX,42,with gaps
+chimpanzee,PR01008.hap1,chr1_hap1_hsa1,1,with gaps
+chimpanzee,PR01008.hap1,chr2_hap1_hsa3,0,gapless
+chimpanzee,PR01008.hap1,chr3_hap1_hsa4,0,gapless
+chimpanzee,PR01008.hap1,chr4_hap1_hsa5,0,gapless
+chimpanzee,PR01008.hap1,chr5_hap1_hsa6,2,with gaps
+chimpanzee,PR01008.hap1,chr6_hap1_hsa7,8,with gaps
+chimpanzee,PR01008.hap1,chr7_hap1_hsa8,3,with gaps
+chimpanzee,PR01008.hap1,chr8_hap1_hsa10,1,with gaps
+chimpanzee,PR01008.hap1,chr9_hap1_hsa11,2,with gaps
+chimpanzee,PR01008.hap1,chr10_hap1_hsa12,5,with gaps
+chimpanzee,PR01008.hap1,chr11_hap1_hsa9,1,with gaps
+chimpanzee,PR01008.hap1,chr12_hap1_hsa2a,2,with gaps
+chimpanzee,PR01008.hap1,chr13_hap1_hsa2b,5,with gaps
+chimpanzee,PR01008.hap1,chr14_hap1_hsa13,2,with gaps
+chimpanzee,PR01008.hap1,chr15_hap1_hsa14,5,with gaps
+chimpanzee,PR01008.hap1,chr16_hap1_hsa15,0,gapless
+chimpanzee,PR01008.hap1,chr17_hap1_hsa18,0,gapless
+chimpanzee,PR01008.hap1,chr18_hap1_hsa16,0,gapless
+chimpanzee,PR01008.hap1,chr19_hap1_hsa17,0,gapless
+chimpanzee,PR01008.hap1,chr20_hap1_hsa19,5,with gaps
+chimpanzee,PR01008.hap1,chr21_hap1_hsa20,2,with gaps
+chimpanzee,PR01008.hap1,chr22_hap1_hsa21,1,with gaps
+chimpanzee,PR01008.hap1,chr23_hap1_hsa22,0,gapless
+chimpanzee,PR01008.hap1,chrX_hap1_hsaX,5,with gaps
+chimpanzee,PR01008.hap2,chr1_hap1_hsa1,0,gapless
+chimpanzee,PR01008.hap2,chr2_hap1_hsa3,0,gapless
+chimpanzee,PR01008.hap2,chr3_hap1_hsa4,1,with gaps
+chimpanzee,PR01008.hap2,chr4_hap1_hsa5,2,with gaps
+chimpanzee,PR01008.hap2,chr5_hap1_hsa6,2,with gaps
+chimpanzee,PR01008.hap2,chr6_hap1_hsa7,8,with gaps
+chimpanzee,PR01008.hap2,chr7_hap1_hsa8,1,with gaps
+chimpanzee,PR01008.hap2,chr8_hap1_hsa10,0,gapless
+chimpanzee,PR01008.hap2,chr9_hap1_hsa11,2,with gaps
+chimpanzee,PR01008.hap2,chr10_hap1_hsa12,3,with gaps
+chimpanzee,PR01008.hap2,chr11_hap1_hsa9,0,gapless
+chimpanzee,PR01008.hap2,chr12_hap1_hsa2a,0,gapless
+chimpanzee,PR01008.hap2,chr13_hap1_hsa2b,3,with gaps
+chimpanzee,PR01008.hap2,chr14_hap1_hsa13,3,with gaps
+chimpanzee,PR01008.hap2,chr15_hap1_hsa14,2,with gaps
+chimpanzee,PR01008.hap2,chr16_hap1_hsa15,0,gapless
+chimpanzee,PR01008.hap2,chr17_hap1_hsa18,1,with gaps
+chimpanzee,PR01008.hap2,chr18_hap1_hsa16,1,with gaps
+chimpanzee,PR01008.hap2,chr19_hap1_hsa17,2,with gaps
+chimpanzee,PR01008.hap2,chr20_hap1_hsa19,3,with gaps
+chimpanzee,PR01008.hap2,chr21_hap1_hsa20,0,gapless
+chimpanzee,PR01008.hap2,chr22_hap1_hsa21,1,with gaps
+chimpanzee,PR01008.hap2,chr23_hap1_hsa22,0,gapless
+chimpanzee,PR01008.hap2,chrX_hap1_hsaX,2,with gaps
+chimpanzee,PR01009.hap1,chr1_hap1_hsa1,30,with gaps
+chimpanzee,PR01009.hap1,chr2_hap1_hsa3,27,with gaps
+chimpanzee,PR01009.hap1,chr3_hap1_hsa4,48,with gaps
+chimpanzee,PR01009.hap1,chr4_hap1_hsa5,26,with gaps
+chimpanzee,PR01009.hap1,chr5_hap1_hsa6,28,with gaps
+chimpanzee,PR01009.hap1,chr6_hap1_hsa7,28,with gaps
+chimpanzee,PR01009.hap1,chr7_hap1_hsa8,27,with gaps
+chimpanzee,PR01009.hap1,chr8_hap1_hsa10,34,with gaps
+chimpanzee,PR01009.hap1,chr9_hap1_hsa11,22,with gaps
+chimpanzee,PR01009.hap1,chr10_hap1_hsa12,20,with gaps
+chimpanzee,PR01009.hap1,chr11_hap1_hsa9,27,with gaps
+chimpanzee,PR01009.hap1,chr12_hap1_hsa2a,26,with gaps
+chimpanzee,PR01009.hap1,chr13_hap1_hsa2b,29,with gaps
+chimpanzee,PR01009.hap1,chr14_hap1_hsa13,41,with gaps
+chimpanzee,PR01009.hap1,chr15_hap1_hsa14,18,with gaps
+chimpanzee,PR01009.hap1,chr16_hap1_hsa15,23,with gaps
+chimpanzee,PR01009.hap1,chr17_hap1_hsa18,10,with gaps
+chimpanzee,PR01009.hap1,chr18_hap1_hsa16,23,with gaps
+chimpanzee,PR01009.hap1,chr19_hap1_hsa17,43,with gaps
+chimpanzee,PR01009.hap1,chr20_hap1_hsa19,55,with gaps
+chimpanzee,PR01009.hap1,chr21_hap1_hsa20,25,with gaps
+chimpanzee,PR01009.hap1,chr22_hap1_hsa21,18,with gaps
+chimpanzee,PR01009.hap1,chr23_hap1_hsa22,36,with gaps
+chimpanzee,PR01009.hap1,chrX_hap1_hsaX,60,with gaps
+chimpanzee,PR01009.hap1,chrY_hap2_hsaY,4,with gaps
+chimpanzee,PR01009.hap2,chr1_hap1_hsa1,33,with gaps
+chimpanzee,PR01009.hap2,chr2_hap1_hsa3,34,with gaps
+chimpanzee,PR01009.hap2,chr3_hap1_hsa4,44,with gaps
+chimpanzee,PR01009.hap2,chr4_hap1_hsa5,40,with gaps
+chimpanzee,PR01009.hap2,chr5_hap1_hsa6,25,with gaps
+chimpanzee,PR01009.hap2,chr6_hap1_hsa7,39,with gaps
+chimpanzee,PR01009.hap2,chr7_hap1_hsa8,56,with gaps
+chimpanzee,PR01009.hap2,chr8_hap1_hsa10,38,with gaps
+chimpanzee,PR01009.hap2,chr9_hap1_hsa11,66,with gaps
+chimpanzee,PR01009.hap2,chr10_hap1_hsa12,29,with gaps
+chimpanzee,PR01009.hap2,chr11_hap1_hsa9,22,with gaps
+chimpanzee,PR01009.hap2,chr12_hap1_hsa2a,18,with gaps
+chimpanzee,PR01009.hap2,chr13_hap1_hsa2b,26,with gaps
+chimpanzee,PR01009.hap2,chr14_hap1_hsa13,25,with gaps
+chimpanzee,PR01009.hap2,chr15_hap1_hsa14,25,with gaps
+chimpanzee,PR01009.hap2,chr16_hap1_hsa15,15,with gaps
+chimpanzee,PR01009.hap2,chr17_hap1_hsa18,28,with gaps
+chimpanzee,PR01009.hap2,chr18_hap1_hsa16,31,with gaps
+chimpanzee,PR01009.hap2,chr19_hap1_hsa17,25,with gaps
+chimpanzee,PR01009.hap2,chr20_hap1_hsa19,33,with gaps
+chimpanzee,PR01009.hap2,chr21_hap1_hsa20,25,with gaps
+chimpanzee,PR01009.hap2,chr22_hap1_hsa21,19,with gaps
+chimpanzee,PR01009.hap2,chr23_hap1_hsa22,18,with gaps
+chimpanzee,PR01009.hap2,chrX_hap1_hsaX,59,with gaps
+chimpanzee,PR01009.hap2,chrY_hap2_hsaY,10,with gaps
+chimpanzee,PR01010.hap1,chr1_hap1_hsa1,0,gapless
+chimpanzee,PR01010.hap1,chr2_hap1_hsa3,0,gapless
+chimpanzee,PR01010.hap1,chr3_hap1_hsa4,2,with gaps
+chimpanzee,PR01010.hap1,chr4_hap1_hsa5,1,with gaps
+chimpanzee,PR01010.hap1,chr5_hap1_hsa6,1,with gaps
+chimpanzee,PR01010.hap1,chr6_hap1_hsa7,0,gapless
+chimpanzee,PR01010.hap1,chr7_hap1_hsa8,2,with gaps
+chimpanzee,PR01010.hap1,chr8_hap1_hsa10,3,with gaps
+chimpanzee,PR01010.hap1,chr9_hap1_hsa11,0,gapless
+chimpanzee,PR01010.hap1,chr10_hap1_hsa12,0,gapless
+chimpanzee,PR01010.hap1,chr11_hap1_hsa9,0,gapless
+chimpanzee,PR01010.hap1,chr12_hap1_hsa2a,0,gapless
+chimpanzee,PR01010.hap1,chr13_hap1_hsa2b,0,gapless
+chimpanzee,PR01010.hap1,chr14_hap1_hsa13,1,with gaps
+chimpanzee,PR01010.hap1,chr15_hap1_hsa14,1,with gaps
+chimpanzee,PR01010.hap1,chr16_hap1_hsa15,1,with gaps
+chimpanzee,PR01010.hap1,chr17_hap1_hsa18,0,gapless
+chimpanzee,PR01010.hap1,chr18_hap1_hsa16,0,gapless
+chimpanzee,PR01010.hap1,chr19_hap1_hsa17,1,with gaps
+chimpanzee,PR01010.hap1,chr20_hap1_hsa19,0,gapless
+chimpanzee,PR01010.hap1,chr21_hap1_hsa20,0,gapless
+chimpanzee,PR01010.hap1,chr22_hap1_hsa21,0,gapless
+chimpanzee,PR01010.hap1,chr23_hap1_hsa22,0,gapless
+chimpanzee,PR01010.hap1,chrX_hap1_hsaX,4,with gaps
+chimpanzee,PR01010.hap2,chr1_hap1_hsa1,0,gapless
+chimpanzee,PR01010.hap2,chr2_hap1_hsa3,6,with gaps
+chimpanzee,PR01010.hap2,chr3_hap1_hsa4,3,with gaps
+chimpanzee,PR01010.hap2,chr4_hap1_hsa5,2,with gaps
+chimpanzee,PR01010.hap2,chr5_hap1_hsa6,3,with gaps
+chimpanzee,PR01010.hap2,chr6_hap1_hsa7,2,with gaps
+chimpanzee,PR01010.hap2,chr7_hap1_hsa8,3,with gaps
+chimpanzee,PR01010.hap2,chr8_hap1_hsa10,0,gapless
+chimpanzee,PR01010.hap2,chr9_hap1_hsa11,0,gapless
+chimpanzee,PR01010.hap2,chr10_hap1_hsa12,1,with gaps
+chimpanzee,PR01010.hap2,chr11_hap1_hsa9,0,gapless
+chimpanzee,PR01010.hap2,chr12_hap1_hsa2a,0,gapless
+chimpanzee,PR01010.hap2,chr13_hap1_hsa2b,0,gapless
+chimpanzee,PR01010.hap2,chr14_hap1_hsa13,1,with gaps
+chimpanzee,PR01010.hap2,chr15_hap1_hsa14,2,with gaps
+chimpanzee,PR01010.hap2,chr16_hap1_hsa15,0,gapless
+chimpanzee,PR01010.hap2,chr17_hap1_hsa18,4,with gaps
+chimpanzee,PR01010.hap2,chr18_hap1_hsa16,1,with gaps
+chimpanzee,PR01010.hap2,chr19_hap1_hsa17,1,with gaps
+chimpanzee,PR01010.hap2,chr20_hap1_hsa19,1,with gaps
+chimpanzee,PR01010.hap2,chr21_hap1_hsa20,0,gapless
+chimpanzee,PR01010.hap2,chr22_hap1_hsa21,0,gapless
+chimpanzee,PR01010.hap2,chr23_hap1_hsa22,1,with gaps
+chimpanzee,PR01010.hap2,chrX_hap1_hsaX,2,with gaps
+chimpanzee,PR01100.hap1,chr1_hap1_hsa1,14,with gaps
+chimpanzee,PR01100.hap1,chr2_hap1_hsa3,26,with gaps
+chimpanzee,PR01100.hap1,chr3_hap1_hsa4,12,with gaps
+chimpanzee,PR01100.hap1,chr4_hap1_hsa5,19,with gaps
+chimpanzee,PR01100.hap1,chr5_hap1_hsa6,19,with gaps
+chimpanzee,PR01100.hap1,chr6_hap1_hsa7,19,with gaps
+chimpanzee,PR01100.hap1,chr7_hap1_hsa8,24,with gaps
+chimpanzee,PR01100.hap1,chr8_hap1_hsa10,39,with gaps
+chimpanzee,PR01100.hap1,chr9_hap1_hsa11,7,with gaps
+chimpanzee,PR01100.hap1,chr10_hap1_hsa12,9,with gaps
+chimpanzee,PR01100.hap1,chr11_hap1_hsa9,20,with gaps
+chimpanzee,PR01100.hap1,chr12_hap1_hsa2a,10,with gaps
+chimpanzee,PR01100.hap1,chr13_hap1_hsa2b,3,with gaps
+chimpanzee,PR01100.hap1,chr14_hap1_hsa13,23,with gaps
+chimpanzee,PR01100.hap1,chr15_hap1_hsa14,12,with gaps
+chimpanzee,PR01100.hap1,chr16_hap1_hsa15,10,with gaps
+chimpanzee,PR01100.hap1,chr17_hap1_hsa18,7,with gaps
+chimpanzee,PR01100.hap1,chr18_hap1_hsa16,33,with gaps
+chimpanzee,PR01100.hap1,chr19_hap1_hsa17,28,with gaps
+chimpanzee,PR01100.hap1,chr20_hap1_hsa19,30,with gaps
+chimpanzee,PR01100.hap1,chr21_hap1_hsa20,16,with gaps
+chimpanzee,PR01100.hap1,chr22_hap1_hsa21,9,with gaps
+chimpanzee,PR01100.hap1,chr23_hap1_hsa22,34,with gaps
+chimpanzee,PR01100.hap1,chrX_hap1_hsaX,20,with gaps
+chimpanzee,PR01100.hap1,chrY_hap2_hsaY,8,with gaps
+chimpanzee,PR01100.hap2,chr1_hap1_hsa1,48,with gaps
+chimpanzee,PR01100.hap2,chr2_hap1_hsa3,8,with gaps
+chimpanzee,PR01100.hap2,chr3_hap1_hsa4,26,with gaps
+chimpanzee,PR01100.hap2,chr4_hap1_hsa5,14,with gaps
+chimpanzee,PR01100.hap2,chr5_hap1_hsa6,14,with gaps
+chimpanzee,PR01100.hap2,chr6_hap1_hsa7,32,with gaps
+chimpanzee,PR01100.hap2,chr7_hap1_hsa8,19,with gaps
+chimpanzee,PR01100.hap2,chr8_hap1_hsa10,19,with gaps
+chimpanzee,PR01100.hap2,chr9_hap1_hsa11,1,with gaps
+chimpanzee,PR01100.hap2,chr10_hap1_hsa12,17,with gaps
+chimpanzee,PR01100.hap2,chr11_hap1_hsa9,11,with gaps
+chimpanzee,PR01100.hap2,chr12_hap1_hsa2a,14,with gaps
+chimpanzee,PR01100.hap2,chr13_hap1_hsa2b,9,with gaps
+chimpanzee,PR01100.hap2,chr14_hap1_hsa13,39,with gaps
+chimpanzee,PR01100.hap2,chr15_hap1_hsa14,4,with gaps
+chimpanzee,PR01100.hap2,chr16_hap1_hsa15,18,with gaps
+chimpanzee,PR01100.hap2,chr17_hap1_hsa18,23,with gaps
+chimpanzee,PR01100.hap2,chr18_hap1_hsa16,8,with gaps
+chimpanzee,PR01100.hap2,chr19_hap1_hsa17,30,with gaps
+chimpanzee,PR01100.hap2,chr20_hap1_hsa19,25,with gaps
+chimpanzee,PR01100.hap2,chr21_hap1_hsa20,13,with gaps
+chimpanzee,PR01100.hap2,chr22_hap1_hsa21,8,with gaps
+chimpanzee,PR01100.hap2,chr23_hap1_hsa22,22,with gaps
+chimpanzee,PR01100.hap2,chrX_hap1_hsaX,20,with gaps
+chimpanzee,PR01100.hap2,chrY_hap2_hsaY,8,with gaps
+chimpanzee,PR01223.hap1,chr1_hap1_hsa1,19,with gaps
+chimpanzee,PR01223.hap1,chr2_hap1_hsa3,10,with gaps
+chimpanzee,PR01223.hap1,chr3_hap1_hsa4,8,with gaps
+chimpanzee,PR01223.hap1,chr4_hap1_hsa5,7,with gaps
+chimpanzee,PR01223.hap1,chr5_hap1_hsa6,4,with gaps
+chimpanzee,PR01223.hap1,chr6_hap1_hsa7,34,with gaps
+chimpanzee,PR01223.hap1,chr7_hap1_hsa8,13,with gaps
+chimpanzee,PR01223.hap1,chr8_hap1_hsa10,19,with gaps
+chimpanzee,PR01223.hap1,chr9_hap1_hsa11,6,with gaps
+chimpanzee,PR01223.hap1,chr10_hap1_hsa12,6,with gaps
+chimpanzee,PR01223.hap1,chr11_hap1_hsa9,8,with gaps
+chimpanzee,PR01223.hap1,chr12_hap1_hsa2a,23,with gaps
+chimpanzee,PR01223.hap1,chr13_hap1_hsa2b,7,with gaps
+chimpanzee,PR01223.hap1,chr14_hap1_hsa13,10,with gaps
+chimpanzee,PR01223.hap1,chr15_hap1_hsa14,10,with gaps
+chimpanzee,PR01223.hap1,chr16_hap1_hsa15,9,with gaps
+chimpanzee,PR01223.hap1,chr17_hap1_hsa18,7,with gaps
+chimpanzee,PR01223.hap1,chr18_hap1_hsa16,18,with gaps
+chimpanzee,PR01223.hap1,chr19_hap1_hsa17,44,with gaps
+chimpanzee,PR01223.hap1,chr20_hap1_hsa19,26,with gaps
+chimpanzee,PR01223.hap1,chr21_hap1_hsa20,18,with gaps
+chimpanzee,PR01223.hap1,chr22_hap1_hsa21,12,with gaps
+chimpanzee,PR01223.hap1,chr23_hap1_hsa22,16,with gaps
+chimpanzee,PR01223.hap1,chrX_hap1_hsaX,30,with gaps
+chimpanzee,PR01223.hap1,chrY_hap2_hsaY,6,with gaps
+chimpanzee,PR01223.hap2,chr1_hap1_hsa1,6,with gaps
+chimpanzee,PR01223.hap2,chr2_hap1_hsa3,15,with gaps
+chimpanzee,PR01223.hap2,chr3_hap1_hsa4,24,with gaps
+chimpanzee,PR01223.hap2,chr4_hap1_hsa5,11,with gaps
+chimpanzee,PR01223.hap2,chr5_hap1_hsa6,8,with gaps
+chimpanzee,PR01223.hap2,chr6_hap1_hsa7,11,with gaps
+chimpanzee,PR01223.hap2,chr7_hap1_hsa8,24,with gaps
+chimpanzee,PR01223.hap2,chr8_hap1_hsa10,7,with gaps
+chimpanzee,PR01223.hap2,chr9_hap1_hsa11,6,with gaps
+chimpanzee,PR01223.hap2,chr10_hap1_hsa12,12,with gaps
+chimpanzee,PR01223.hap2,chr11_hap1_hsa9,14,with gaps
+chimpanzee,PR01223.hap2,chr12_hap1_hsa2a,24,with gaps
+chimpanzee,PR01223.hap2,chr13_hap1_hsa2b,9,with gaps
+chimpanzee,PR01223.hap2,chr14_hap1_hsa13,13,with gaps
+chimpanzee,PR01223.hap2,chr15_hap1_hsa14,3,with gaps
+chimpanzee,PR01223.hap2,chr16_hap1_hsa15,19,with gaps
+chimpanzee,PR01223.hap2,chr17_hap1_hsa18,8,with gaps
+chimpanzee,PR01223.hap2,chr18_hap1_hsa16,16,with gaps
+chimpanzee,PR01223.hap2,chr19_hap1_hsa17,26,with gaps
+chimpanzee,PR01223.hap2,chr20_hap1_hsa19,16,with gaps
+chimpanzee,PR01223.hap2,chr21_hap1_hsa20,6,with gaps
+chimpanzee,PR01223.hap2,chr22_hap1_hsa21,13,with gaps
+chimpanzee,PR01223.hap2,chr23_hap1_hsa22,29,with gaps
+chimpanzee,PR01223.hap2,chrX_hap1_hsaX,32,with gaps
+chimpanzee,PR01223.hap2,chrY_hap2_hsaY,6,with gaps
+chimpanzee,PR01225.hap1,chr1_hap1_hsa1,23,with gaps
+chimpanzee,PR01225.hap1,chr2_hap1_hsa3,16,with gaps
+chimpanzee,PR01225.hap1,chr3_hap1_hsa4,25,with gaps
+chimpanzee,PR01225.hap1,chr4_hap1_hsa5,19,with gaps
+chimpanzee,PR01225.hap1,chr5_hap1_hsa6,14,with gaps
+chimpanzee,PR01225.hap1,chr6_hap1_hsa7,25,with gaps
+chimpanzee,PR01225.hap1,chr7_hap1_hsa8,29,with gaps
+chimpanzee,PR01225.hap1,chr8_hap1_hsa10,55,with gaps
+chimpanzee,PR01225.hap1,chr9_hap1_hsa11,15,with gaps
+chimpanzee,PR01225.hap1,chr10_hap1_hsa12,21,with gaps
+chimpanzee,PR01225.hap1,chr11_hap1_hsa9,20,with gaps
+chimpanzee,PR01225.hap1,chr12_hap1_hsa2a,48,with gaps
+chimpanzee,PR01225.hap1,chr13_hap1_hsa2b,20,with gaps
+chimpanzee,PR01225.hap1,chr14_hap1_hsa13,41,with gaps
+chimpanzee,PR01225.hap1,chr15_hap1_hsa14,35,with gaps
+chimpanzee,PR01225.hap1,chr16_hap1_hsa15,47,with gaps
+chimpanzee,PR01225.hap1,chr17_hap1_hsa18,18,with gaps
+chimpanzee,PR01225.hap1,chr18_hap1_hsa16,21,with gaps
+chimpanzee,PR01225.hap1,chr19_hap1_hsa17,28,with gaps
+chimpanzee,PR01225.hap1,chr20_hap1_hsa19,59,with gaps
+chimpanzee,PR01225.hap1,chr21_hap1_hsa20,38,with gaps
+chimpanzee,PR01225.hap1,chr22_hap1_hsa21,20,with gaps
+chimpanzee,PR01225.hap1,chr23_hap1_hsa22,24,with gaps
+chimpanzee,PR01225.hap1,chrX_hap1_hsaX,34,with gaps
+chimpanzee,PR01225.hap1,chrY_hap2_hsaY,13,with gaps
+chimpanzee,PR01225.hap2,chr1_hap1_hsa1,55,with gaps
+chimpanzee,PR01225.hap2,chr2_hap1_hsa3,35,with gaps
+chimpanzee,PR01225.hap2,chr3_hap1_hsa4,42,with gaps
+chimpanzee,PR01225.hap2,chr4_hap1_hsa5,27,with gaps
+chimpanzee,PR01225.hap2,chr5_hap1_hsa6,31,with gaps
+chimpanzee,PR01225.hap2,chr6_hap1_hsa7,72,with gaps
+chimpanzee,PR01225.hap2,chr7_hap1_hsa8,43,with gaps
+chimpanzee,PR01225.hap2,chr8_hap1_hsa10,55,with gaps
+chimpanzee,PR01225.hap2,chr9_hap1_hsa11,20,with gaps
+chimpanzee,PR01225.hap2,chr10_hap1_hsa12,36,with gaps
+chimpanzee,PR01225.hap2,chr11_hap1_hsa9,26,with gaps
+chimpanzee,PR01225.hap2,chr12_hap1_hsa2a,35,with gaps
+chimpanzee,PR01225.hap2,chr13_hap1_hsa2b,62,with gaps
+chimpanzee,PR01225.hap2,chr14_hap1_hsa13,28,with gaps
+chimpanzee,PR01225.hap2,chr15_hap1_hsa14,33,with gaps
+chimpanzee,PR01225.hap2,chr16_hap1_hsa15,30,with gaps
+chimpanzee,PR01225.hap2,chr17_hap1_hsa18,15,with gaps
+chimpanzee,PR01225.hap2,chr18_hap1_hsa16,48,with gaps
+chimpanzee,PR01225.hap2,chr19_hap1_hsa17,36,with gaps
+chimpanzee,PR01225.hap2,chr20_hap1_hsa19,64,with gaps
+chimpanzee,PR01225.hap2,chr21_hap1_hsa20,28,with gaps
+chimpanzee,PR01225.hap2,chr22_hap1_hsa21,27,with gaps
+chimpanzee,PR01225.hap2,chr23_hap1_hsa22,30,with gaps
+chimpanzee,PR01225.hap2,chrX_hap1_hsaX,35,with gaps
+chimpanzee,PR01225.hap2,chrY_hap2_hsaY,10,with gaps
+chimpanzee,PR01227.hap1,chr1_hap1_hsa1,2,with gaps
+chimpanzee,PR01227.hap1,chr2_hap1_hsa3,3,with gaps
+chimpanzee,PR01227.hap1,chr3_hap1_hsa4,1,with gaps
+chimpanzee,PR01227.hap1,chr4_hap1_hsa5,1,with gaps
+chimpanzee,PR01227.hap1,chr5_hap1_hsa6,0,gapless
+chimpanzee,PR01227.hap1,chr6_hap1_hsa7,2,with gaps
+chimpanzee,PR01227.hap1,chr7_hap1_hsa8,0,gapless
+chimpanzee,PR01227.hap1,chr8_hap1_hsa10,1,with gaps
+chimpanzee,PR01227.hap1,chr9_hap1_hsa11,0,gapless
+chimpanzee,PR01227.hap1,chr10_hap1_hsa12,2,with gaps
+chimpanzee,PR01227.hap1,chr11_hap1_hsa9,0,gapless
+chimpanzee,PR01227.hap1,chr12_hap1_hsa2a,0,gapless
+chimpanzee,PR01227.hap1,chr13_hap1_hsa2b,0,gapless
+chimpanzee,PR01227.hap1,chr14_hap1_hsa13,1,with gaps
+chimpanzee,PR01227.hap1,chr15_hap1_hsa14,5,with gaps
+chimpanzee,PR01227.hap1,chr16_hap1_hsa15,3,with gaps
+chimpanzee,PR01227.hap1,chr17_hap1_hsa18,5,with gaps
+chimpanzee,PR01227.hap1,chr18_hap1_hsa16,8,with gaps
+chimpanzee,PR01227.hap1,chr19_hap1_hsa17,4,with gaps
+chimpanzee,PR01227.hap1,chr20_hap1_hsa19,2,with gaps
+chimpanzee,PR01227.hap1,chr21_hap1_hsa20,0,gapless
+chimpanzee,PR01227.hap1,chr22_hap1_hsa21,5,with gaps
+chimpanzee,PR01227.hap1,chr23_hap1_hsa22,1,with gaps
+chimpanzee,PR01227.hap1,chrY_hap2_hsaY,1,with gaps
+chimpanzee,PR01227.hap2,chr1_hap1_hsa1,2,with gaps
+chimpanzee,PR01227.hap2,chr2_hap1_hsa3,2,with gaps
+chimpanzee,PR01227.hap2,chr3_hap1_hsa4,1,with gaps
+chimpanzee,PR01227.hap2,chr4_hap1_hsa5,1,with gaps
+chimpanzee,PR01227.hap2,chr5_hap1_hsa6,0,gapless
+chimpanzee,PR01227.hap2,chr6_hap1_hsa7,2,with gaps
+chimpanzee,PR01227.hap2,chr7_hap1_hsa8,0,gapless
+chimpanzee,PR01227.hap2,chr8_hap1_hsa10,2,with gaps
+chimpanzee,PR01227.hap2,chr9_hap1_hsa11,0,gapless
+chimpanzee,PR01227.hap2,chr10_hap1_hsa12,1,with gaps
+chimpanzee,PR01227.hap2,chr11_hap1_hsa9,1,with gaps
+chimpanzee,PR01227.hap2,chr12_hap1_hsa2a,1,with gaps
+chimpanzee,PR01227.hap2,chr13_hap1_hsa2b,0,gapless
+chimpanzee,PR01227.hap2,chr14_hap1_hsa13,6,with gaps
+chimpanzee,PR01227.hap2,chr15_hap1_hsa14,1,with gaps
+chimpanzee,PR01227.hap2,chr16_hap1_hsa15,0,gapless
+chimpanzee,PR01227.hap2,chr17_hap1_hsa18,8,with gaps
+chimpanzee,PR01227.hap2,chr18_hap1_hsa16,5,with gaps
+chimpanzee,PR01227.hap2,chr19_hap1_hsa17,0,gapless
+chimpanzee,PR01227.hap2,chr20_hap1_hsa19,1,with gaps
+chimpanzee,PR01227.hap2,chr21_hap1_hsa20,2,with gaps
+chimpanzee,PR01227.hap2,chr22_hap1_hsa21,8,with gaps
+chimpanzee,PR01227.hap2,chr23_hap1_hsa22,4,with gaps
+chimpanzee,PR01227.hap2,chrX_hap1_hsaX,0,gapless
+chimpanzee,PR01227.hap2,chrY_hap2_hsaY,2,with gaps
+chimpanzee,PR01228.hap1,chr1_hap1_hsa1,17,with gaps
+chimpanzee,PR01228.hap1,chr2_hap1_hsa3,22,with gaps
+chimpanzee,PR01228.hap1,chr3_hap1_hsa4,17,with gaps
+chimpanzee,PR01228.hap1,chr4_hap1_hsa5,7,with gaps
+chimpanzee,PR01228.hap1,chr5_hap1_hsa6,20,with gaps
+chimpanzee,PR01228.hap1,chr6_hap1_hsa7,26,with gaps
+chimpanzee,PR01228.hap1,chr7_hap1_hsa8,36,with gaps
+chimpanzee,PR01228.hap1,chr8_hap1_hsa10,33,with gaps
+chimpanzee,PR01228.hap1,chr9_hap1_hsa11,8,with gaps
+chimpanzee,PR01228.hap1,chr10_hap1_hsa12,11,with gaps
+chimpanzee,PR01228.hap1,chr11_hap1_hsa9,16,with gaps
+chimpanzee,PR01228.hap1,chr12_hap1_hsa2a,26,with gaps
+chimpanzee,PR01228.hap1,chr13_hap1_hsa2b,14,with gaps
+chimpanzee,PR01228.hap1,chr14_hap1_hsa13,17,with gaps
+chimpanzee,PR01228.hap1,chr15_hap1_hsa14,3,with gaps
+chimpanzee,PR01228.hap1,chr16_hap1_hsa15,13,with gaps
+chimpanzee,PR01228.hap1,chr17_hap1_hsa18,21,with gaps
+chimpanzee,PR01228.hap1,chr18_hap1_hsa16,31,with gaps
+chimpanzee,PR01228.hap1,chr19_hap1_hsa17,27,with gaps
+chimpanzee,PR01228.hap1,chr20_hap1_hsa19,46,with gaps
+chimpanzee,PR01228.hap1,chr21_hap1_hsa20,21,with gaps
+chimpanzee,PR01228.hap1,chr22_hap1_hsa21,25,with gaps
+chimpanzee,PR01228.hap1,chr23_hap1_hsa22,16,with gaps
+chimpanzee,PR01228.hap1,chrX_hap1_hsaX,28,with gaps
+chimpanzee,PR01228.hap1,chrY_hap2_hsaY,4,with gaps
+chimpanzee,PR01228.hap2,chr1_hap1_hsa1,39,with gaps
+chimpanzee,PR01228.hap2,chr2_hap1_hsa3,41,with gaps
+chimpanzee,PR01228.hap2,chr3_hap1_hsa4,22,with gaps
+chimpanzee,PR01228.hap2,chr4_hap1_hsa5,22,with gaps
+chimpanzee,PR01228.hap2,chr5_hap1_hsa6,17,with gaps
+chimpanzee,PR01228.hap2,chr6_hap1_hsa7,21,with gaps
+chimpanzee,PR01228.hap2,chr7_hap1_hsa8,25,with gaps
+chimpanzee,PR01228.hap2,chr8_hap1_hsa10,39,with gaps
+chimpanzee,PR01228.hap2,chr9_hap1_hsa11,19,with gaps
+chimpanzee,PR01228.hap2,chr10_hap1_hsa12,20,with gaps
+chimpanzee,PR01228.hap2,chr11_hap1_hsa9,32,with gaps
+chimpanzee,PR01228.hap2,chr12_hap1_hsa2a,24,with gaps
+chimpanzee,PR01228.hap2,chr13_hap1_hsa2b,30,with gaps
+chimpanzee,PR01228.hap2,chr14_hap1_hsa13,31,with gaps
+chimpanzee,PR01228.hap2,chr15_hap1_hsa14,15,with gaps
+chimpanzee,PR01228.hap2,chr16_hap1_hsa15,30,with gaps
+chimpanzee,PR01228.hap2,chr17_hap1_hsa18,21,with gaps
+chimpanzee,PR01228.hap2,chr18_hap1_hsa16,22,with gaps
+chimpanzee,PR01228.hap2,chr19_hap1_hsa17,30,with gaps
+chimpanzee,PR01228.hap2,chr20_hap1_hsa19,32,with gaps
+chimpanzee,PR01228.hap2,chr21_hap1_hsa20,17,with gaps
+chimpanzee,PR01228.hap2,chr22_hap1_hsa21,21,with gaps
+chimpanzee,PR01228.hap2,chr23_hap1_hsa22,13,with gaps
+chimpanzee,PR01228.hap2,chrX_hap1_hsaX,30,with gaps
+chimpanzee,PR01228.hap2,chrY_hap2_hsaY,4,with gaps

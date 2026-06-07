@@ -1,0 +1,1172 @@
+source,term_id,term_name,p_value,p_value_raw,fold_enrichment,term_size,intersection_size,intersection,passes_fdr,background_used
+DisGeNET,Laryngitis,Laryngitis,2.54046260231299e-4,2.169481300011093e-7,64.68148148148148,18,4,MUC16;MUC19;MUC4;MUC5AC,TRUE,enrichr_default
+DisGeNET,Cooley's anemia,Cooley's anemia,0.033881514963881275,5.786766005786725e-5,16.632380952380952,70,4,GSTM1;HBA2;LPA;PRH1,TRUE,enrichr_default
+DisGeNET,Porencephaly,Porencephaly,0.1130500639385758,4.783621231294804e-4,52.92121212121212,11,2,LPA;PRH1,FALSE,enrichr_default
+DisGeNET,"Thrombophilia, hereditary","Thrombophilia, hereditary",0.1130500639385758,5.729274139905555e-4,48.51111111111111,12,2,LPA;PRH1,FALSE,enrichr_default
+DisGeNET,Chondrodysplasia Punctata,Chondrodysplasia Punctata,0.1130500639385758,6.757903053544242e-4,44.779487179487184,13,2,ARSH;LPA,FALSE,enrichr_default
+DisGeNET,Keratoconjunctivitis,Keratoconjunctivitis,0.1130500639385758,6.757903053544242e-4,44.779487179487184,13,2,MUC16;MUC5AC,FALSE,enrichr_default
+DisGeNET,Caries (morphologic abnormality),Caries (morphologic abnormality),0.1130500639385758,6.354209557577358e-4,15.592857142857143,56,3,DMBT1;MUC19;PRH1,FALSE,enrichr_default
+DisGeNET,Prothrombin G20210A mutation,Prothrombin G20210A mutation,0.12447110252528601,0.0010336760126706044,36.38333333333333,16,2,LPA;PRH1,FALSE,enrichr_default
+DisGeNET,Biliary Tract Neoplasm,Biliary Tract Neoplasm,0.12447110252528601,0.0011692417829019181,34.24313725490196,17,2,MUC4;MUC5AC,FALSE,enrichr_default
+DisGeNET,"Carcinoma, Large Cell","Carcinoma, Large Cell",0.12447110252528601,0.00111985555442621,12.841176470588236,68,3,GSTM1;MUC16;MUC4,FALSE,enrichr_default
+DisGeNET,Sjogren's Syndrome,Sjogren's Syndrome,0.12447110252528601,0.001089287953746261,5.597435897435897,260,5,GSTM1;MUC19;GRAP;MUC4;MUC5AC,FALSE,enrichr_default
+DisGeNET,Venoocclusive disease,Venoocclusive disease,0.13191675802118727,0.0014644900548893547,30.63859649122807,19,2,GSTM1;PRH1,FALSE,enrichr_default
+DisGeNET,Legg-Calve-Perthes Disease,Legg-Calve-Perthes Disease,0.13191675802118727,0.0014644900548893547,30.63859649122807,19,2,LPA;PRH1,FALSE,enrichr_default
+DisGeNET,Raynaud Phenomenon,Raynaud Phenomenon,0.14985249691023872,0.0017915755394904715,27.720634920634918,21,2,GSTM1;PRH1,FALSE,enrichr_default
+DisGeNET,Liver calculus,Liver calculus,0.15355233980068259,0.001966938596934448,26.46060606060606,22,2,DMBT1;MUC5AC,FALSE,enrichr_default
+DisGeNET,Ulcer,Ulcer,0.1656103069514412,0.0022628222982263527,6.327536231884058,184,4,GSTM1;DMBT1;LPA;MUC5AC,FALSE,enrichr_default
+DisGeNET,Lupus anticoagulant disorder,Lupus anticoagulant disorder,0.17494357442975322,0.002539744462259441,23.285333333333334,25,2,LPA;PRH1,FALSE,enrichr_default
+DisGeNET,Mucinous neoplasm,Mucinous neoplasm,0.17598336134574055,0.0029600792027524164,21.560493827160492,27,2,MUC4;MUC5AC,FALSE,enrichr_default
+DisGeNET,Protein S Deficiency,Protein S Deficiency,0.17598336134574055,0.0029600792027524164,21.560493827160492,27,2,LPA;PRH1,FALSE,enrichr_default
+DisGeNET,Hypertrophic Cardiomyopathy,Hypertrophic Cardiomyopathy,0.17598336134574055,0.0030056936182022297,4.436991869918699,328,5,MGAM;MUC16;SDHA;PRH1;TTN,FALSE,enrichr_default
+DisGeNET,Acute Chest Syndrome,Acute Chest Syndrome,0.2033833942654966,0.003647353782728803,19.404444444444444,30,2,GSTM1;HBA2,FALSE,enrichr_default
+DisGeNET,Protein C Deficiency,Protein C Deficiency,0.20712869834384842,0.003891401676827212,18.778494623655916,31,2,LPA;PRH1,FALSE,enrichr_default
+DisGeNET,Thalassemia Intermedia,Thalassemia Intermedia,0.2186388315056906,0.004401659958467019,17.64040404040404,33,2,GSTM1;HBA2,FALSE,enrichr_default
+DisGeNET,Secondary malignant neoplasm of pancreas,Secondary malignant neoplasm of pancreas,0.2186388315056906,0.0046677803481146585,17.12156862745098,34,2,MUC16;MUC4,FALSE,enrichr_default
+DisGeNET,Left ventricular noncompaction cardiomyopathy,Left ventricular noncompaction cardiomyopathy,0.2186388315056906,0.0046677803481146585,17.12156862745098,34,2,SDHA;TTN,FALSE,enrichr_default
+DisGeNET,Limb defects,Limb defects,0.22254263030461713,0.004941168563552558,16.632380952380952,35,2,LPA;PRH1,FALSE,enrichr_default
+DisGeNET,delta-Thalassemia,delta-Thalassemia,0.23198010798093124,0.014911622845291095,58.21333333333333,5,1,HBA2,FALSE,enrichr_default
+DisGeNET,Beta thalassemia minor,Beta thalassemia minor,0.23198010798093124,0.017867613092024802,48.51111111111111,6,1,HBA2,FALSE,enrichr_default
+DisGeNET,"Color Blindness, Red","Color Blindness, Red",0.23198010798093124,0.017867613092024802,48.51111111111111,6,1,TEX28,FALSE,enrichr_default
+DisGeNET,Melanoma-Associated Retinopathy,Melanoma-Associated Retinopathy,0.23198010798093124,0.017867613092024802,48.51111111111111,6,1,TTN,FALSE,enrichr_default
+DisGeNET,Bile Reflux,Bile Reflux,0.23198010798093124,0.017867613092024802,48.51111111111111,6,1,MUC4,FALSE,enrichr_default
+DisGeNET,Biliary papillomatosis,Biliary papillomatosis,0.23198010798093124,0.017867613092024802,48.51111111111111,6,1,DMBT1,FALSE,enrichr_default
+DisGeNET,Carcinomatous ascites,Carcinomatous ascites,0.23198010798093124,0.017867613092024802,48.51111111111111,6,1,MUC16,FALSE,enrichr_default
+DisGeNET,"Neoplasms, Fibrous Tissue","Neoplasms, Fibrous Tissue",0.23198010798093124,0.017867613092024802,48.51111111111111,6,1,AHRR,FALSE,enrichr_default
+DisGeNET,Hemoglobin E disease,Hemoglobin E disease,0.23198010798093124,0.017867613092024802,48.51111111111111,6,1,HBA2,FALSE,enrichr_default
+DisGeNET,Hereditary Ovarian Carcinoma,Hereditary Ovarian Carcinoma,0.23198010798093124,0.017867613092024802,48.51111111111111,6,1,MUC16,FALSE,enrichr_default
+DisGeNET,Superficial thrombophlebitis,Superficial thrombophlebitis,0.23198010798093124,0.017867613092024802,48.51111111111111,6,1,PRH1,FALSE,enrichr_default
+DisGeNET,Chronic respiratory failure,Chronic respiratory failure,0.23198010798093124,0.017867613092024802,48.51111111111111,6,1,MGAM,FALSE,enrichr_default
+DisGeNET,Chronic stable plaque psoriasis,Chronic stable plaque psoriasis,0.23198010798093124,0.017867613092024802,48.51111111111111,6,1,GSTM1,FALSE,enrichr_default
+DisGeNET,SYSTEMIC LUPUS ERYTHEMATOSUS 16,SYSTEMIC LUPUS ERYTHEMATOSUS 16,0.23198010798093124,0.017867613092024802,48.51111111111111,6,1,C4A,FALSE,enrichr_default
+DisGeNET,Ossifying fibromyxoid tumor,Ossifying fibromyxoid tumor,0.23198010798093124,0.017867613092024802,48.51111111111111,6,1,MUC4,FALSE,enrichr_default
+DisGeNET,Pneumonia in children,Pneumonia in children,0.23198010798093124,0.017867613092024802,48.51111111111111,6,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Acute respiratory disease,Acute respiratory disease,0.23198010798093124,0.017867613092024802,48.51111111111111,6,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Intestinal obstruction co-occurrent and due to decreased peristalsis,Intestinal obstruction co-occurrent and due to decreased peristalsis,0.23198010798093124,0.017867613092024802,48.51111111111111,6,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Alcohol-Induced Disorders,Alcohol-Induced Disorders,0.23198010798093124,0.017867613092024802,48.51111111111111,6,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Dominant beta-thalassemia,Dominant beta-thalassemia,0.23198010798093124,0.017867613092024802,48.51111111111111,6,1,HBA2,FALSE,enrichr_default
+DisGeNET,Familial restrictive cardiomyopathy (disorder),Familial restrictive cardiomyopathy (disorder),0.23198010798093124,0.02081488183698653,41.580952380952375,7,1,TTN,FALSE,enrichr_default
+DisGeNET,Bladder Squamous Cell Carcinoma,Bladder Squamous Cell Carcinoma,0.23198010798093124,0.02081488183698653,41.580952380952375,7,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Mitochondrial Complex II Deficiency,Mitochondrial Complex II Deficiency,0.23198010798093124,0.02081488183698653,41.580952380952375,7,1,SDHA,FALSE,enrichr_default
+DisGeNET,"Myopathy, Centronuclear, Autosomal Recessive","Myopathy, Centronuclear, Autosomal Recessive",0.23198010798093124,0.02081488183698653,41.580952380952375,7,1,TTN,FALSE,enrichr_default
+DisGeNET,"Nemaline Myopathy, Autosomal Recessive","Nemaline Myopathy, Autosomal Recessive",0.23198010798093124,0.02081488183698653,41.580952380952375,7,1,TTN,FALSE,enrichr_default
+DisGeNET,Hemoglobin M Disease,Hemoglobin M Disease,0.23198010798093124,0.02081488183698653,41.580952380952375,7,1,HBA2,FALSE,enrichr_default
+DisGeNET,Hemolytic disorder,Hemolytic disorder,0.23198010798093124,0.02081488183698653,41.580952380952375,7,1,HBA2,FALSE,enrichr_default
+DisGeNET,Chronic osteomyelitis,Chronic osteomyelitis,0.23198010798093124,0.02081488183698653,41.580952380952375,7,1,ACYP2,FALSE,enrichr_default
+DisGeNET,Temporomandibular Joint Dysfunction Syndrome,Temporomandibular Joint Dysfunction Syndrome,0.23198010798093124,0.02081488183698653,41.580952380952375,7,1,TTN,FALSE,enrichr_default
+DisGeNET,Toxic multinodular goiter,Toxic multinodular goiter,0.23198010798093124,0.02081488183698653,41.580952380952375,7,1,TTN,FALSE,enrichr_default
+DisGeNET,Ventricular dilatation (disorder),Ventricular dilatation (disorder),0.23198010798093124,0.02081488183698653,41.580952380952375,7,1,TTN,FALSE,enrichr_default
+DisGeNET,Welander Distal Myopathy,Welander Distal Myopathy,0.23198010798093124,0.02081488183698653,41.580952380952375,7,1,TTN,FALSE,enrichr_default
+DisGeNET,Adnexal mass,Adnexal mass,0.23198010798093124,0.02081488183698653,41.580952380952375,7,1,MUC16,FALSE,enrichr_default
+DisGeNET,Alpha-thalassemia/mental retardation syndrome (301040) is an allelic disorder,Alpha-thalassemia/mental retardation syndrome (301040) is an allelic disorder,0.23198010798093124,0.02081488183698653,41.580952380952375,7,1,HBA2,FALSE,enrichr_default
+DisGeNET,Progressive leukoencephalopathy,Progressive leukoencephalopathy,0.23198010798093124,0.02081488183698653,41.580952380952375,7,1,SDHA,FALSE,enrichr_default
+DisGeNET,Proximal lower limb amyotrophy,Proximal lower limb amyotrophy,0.23198010798093124,0.02081488183698653,41.580952380952375,7,1,TTN,FALSE,enrichr_default
+DisGeNET,Environmental Carcinogenesis,Environmental Carcinogenesis,0.23198010798093124,0.023753454121096106,36.38333333333333,8,1,GSTM1,FALSE,enrichr_default
+DisGeNET,"CARDIOMYOPATHY, DILATED, 1S","CARDIOMYOPATHY, DILATED, 1S",0.23198010798093124,0.023753454121096106,36.38333333333333,8,1,TTN,FALSE,enrichr_default
+DisGeNET,Multiple Sulfatase Deficiency Disease,Multiple Sulfatase Deficiency Disease,0.23198010798093124,0.023753454121096106,36.38333333333333,8,1,ARSH,FALSE,enrichr_default
+DisGeNET,Glucocorticoid-remediable aldosteronism,Glucocorticoid-remediable aldosteronism,0.23198010798093124,0.023753454121096106,36.38333333333333,8,1,LPA,FALSE,enrichr_default
+DisGeNET,"Neoplasms, Therapy-Associated","Neoplasms, Therapy-Associated",0.23198010798093124,0.023753454121096106,36.38333333333333,8,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Chronic rhinosinusitis with nasal polyps,Chronic rhinosinusitis with nasal polyps,0.23198010798093124,0.023753454121096106,36.38333333333333,8,1,MUC4,FALSE,enrichr_default
+DisGeNET,COMPLEMENT COMPONENT 2 DEFICIENCY,COMPLEMENT COMPONENT 2 DEFICIENCY,0.23198010798093124,0.023753454121096106,36.38333333333333,8,1,C4A,FALSE,enrichr_default
+DisGeNET,Abdominal symptom,Abdominal symptom,0.23198010798093124,0.023753454121096106,36.38333333333333,8,1,MUC16,FALSE,enrichr_default
+DisGeNET,Treatment related secondary malignancy,Treatment related secondary malignancy,0.23198010798093124,0.023753454121096106,36.38333333333333,8,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Peritoneal Mesothelioma,Peritoneal Mesothelioma,0.23198010798093124,0.023753454121096106,36.38333333333333,8,1,MUC16,FALSE,enrichr_default
+DisGeNET,Pharyngeal Neoplasms,Pharyngeal Neoplasms,0.23198010798093124,0.023753454121096106,36.38333333333333,8,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Cystadenocarcinoma,Cystadenocarcinoma,0.23198010798093124,0.023753454121096106,36.38333333333333,8,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Intramucosal Adenocarcinoma,Intramucosal Adenocarcinoma,0.23198010798093124,0.023753454121096106,36.38333333333333,8,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,delta beta^0^ Thalassemia,delta beta^0^ Thalassemia,0.23198010798093124,0.023753454121096106,36.38333333333333,8,1,HBA2,FALSE,enrichr_default
+DisGeNET,Diaphragmatic paresis,Diaphragmatic paresis,0.23198010798093124,0.023753454121096106,36.38333333333333,8,1,TTN,FALSE,enrichr_default
+DisGeNET,Diminished diaphragmatic motion,Diminished diaphragmatic motion,0.23198010798093124,0.023753454121096106,36.38333333333333,8,1,TTN,FALSE,enrichr_default
+DisGeNET,"DIARRHEA 5, WITH TUFTING ENTEROPATHY, CONGENITAL","DIARRHEA 5, WITH TUFTING ENTEROPATHY, CONGENITAL",0.23198010798093124,0.026683354994549647,32.34074074074074,9,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Sclerosing Epithelioid Fibrosarcoma,Sclerosing Epithelioid Fibrosarcoma,0.23198010798093124,0.026683354994549647,32.34074074074074,9,1,MUC4,FALSE,enrichr_default
+DisGeNET,Capillary Leak Syndrome,Capillary Leak Syndrome,0.23198010798093124,0.026683354994549647,32.34074074074074,9,1,C4A,FALSE,enrichr_default
+DisGeNET,"PHEOCHROMOCYTOMA, SUSCEPTIBILITY TO","PHEOCHROMOCYTOMA, SUSCEPTIBILITY TO",0.23198010798093124,0.026683354994549647,32.34074074074074,9,1,DMBT1,FALSE,enrichr_default
+DisGeNET,Thalassemia trait,Thalassemia trait,0.23198010798093124,0.026683354994549647,32.34074074074074,9,1,HBA2,FALSE,enrichr_default
+DisGeNET,"TIBIAL MUSCULAR DYSTROPHY, TARDIVE","TIBIAL MUSCULAR DYSTROPHY, TARDIVE",0.23198010798093124,0.026683354994549647,32.34074074074074,9,1,TTN,FALSE,enrichr_default
+DisGeNET,Congenital porencephaly,Congenital porencephaly,0.23198010798093124,0.026683354994549647,32.34074074074074,9,1,LPA,FALSE,enrichr_default
+DisGeNET,Coronary artery atheroma,Coronary artery atheroma,0.23198010798093124,0.026683354994549647,32.34074074074074,9,1,PRH1,FALSE,enrichr_default
+DisGeNET,Acquired porencephaly,Acquired porencephaly,0.23198010798093124,0.026683354994549647,32.34074074074074,9,1,LPA,FALSE,enrichr_default
+DisGeNET,Disturbance in mood,Disturbance in mood,0.23198010798093124,0.026683354994549647,32.34074074074074,9,1,TRPM2,FALSE,enrichr_default
+DisGeNET,Atopic rhinitis,Atopic rhinitis,0.23198010798093124,0.02960460947305564,29.106666666666666,10,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,"Color Blindness, Red-Green","Color Blindness, Red-Green",0.23198010798093124,0.02960460947305564,29.106666666666666,10,1,TEX28,FALSE,enrichr_default
+DisGeNET,Biliary Intraepithelial Neoplasia,Biliary Intraepithelial Neoplasia,0.23198010798093124,0.02960460947305564,29.106666666666666,10,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Severe beta thalassemia,Severe beta thalassemia,0.23198010798093124,0.02960460947305564,29.106666666666666,10,1,HBA2,FALSE,enrichr_default
+DisGeNET,Neck flexor weakness,Neck flexor weakness,0.23198010798093124,0.02960460947305564,29.106666666666666,10,1,TTN,FALSE,enrichr_default
+DisGeNET,Hyperlipoproteinemia Type IV,Hyperlipoproteinemia Type IV,0.23198010798093124,0.02960460947305564,29.106666666666666,10,1,LPA,FALSE,enrichr_default
+DisGeNET,Hypochromic anemia,Hypochromic anemia,0.23198010798093124,0.02960460947305564,29.106666666666666,10,1,HBA2,FALSE,enrichr_default
+DisGeNET,Abnormal hemoglobin finding,Abnormal hemoglobin finding,0.23198010798093124,0.02960460947305564,29.106666666666666,10,1,HBA2,FALSE,enrichr_default
+DisGeNET,Polygenic hypercholesterolemia,Polygenic hypercholesterolemia,0.23198010798093124,0.02960460947305564,29.106666666666666,10,1,LPA,FALSE,enrichr_default
+DisGeNET,Primary hypercholesterolemia,Primary hypercholesterolemia,0.23198010798093124,0.02960460947305564,29.106666666666666,10,1,LPA,FALSE,enrichr_default
+DisGeNET,Dysfibrinogenemia,Dysfibrinogenemia,0.23198010798093124,0.02960460947305564,29.106666666666666,10,1,PRH1,FALSE,enrichr_default
+DisGeNET,Low-grade fibromyxoid sarcoma,Low-grade fibromyxoid sarcoma,0.23198010798093124,0.02960460947305564,29.106666666666666,10,1,MUC4,FALSE,enrichr_default
+DisGeNET,"Arteriosclerotic cardiovascular disease, NOS","Arteriosclerotic cardiovascular disease, NOS",0.23198010798093124,0.03251724254582002,26.46060606060606,11,1,LPA,FALSE,enrichr_default
+DisGeNET,Malignant neoplasm of fallopian tube,Malignant neoplasm of fallopian tube,0.23198010798093124,0.03251724254582002,26.46060606060606,11,1,MUC16,FALSE,enrichr_default
+DisGeNET,Carney Triad,Carney Triad,0.23198010798093124,0.03251724254582002,26.46060606060606,11,1,SDHA,FALSE,enrichr_default
+DisGeNET,"Mixed Tumor, Mullerian","Mixed Tumor, Mullerian",0.23198010798093124,0.03251724254582002,26.46060606060606,11,1,MUC16,FALSE,enrichr_default
+DisGeNET,Splanchnic vein thrombosis,Splanchnic vein thrombosis,0.23198010798093124,0.03251724254582002,26.46060606060606,11,1,PRH1,FALSE,enrichr_default
+DisGeNET,Chromosome Breaks,Chromosome Breaks,0.23198010798093124,0.03251724254582002,26.46060606060606,11,1,GSTM1,FALSE,enrichr_default
+DisGeNET,"Synovial sarcoma, biphasic","Synovial sarcoma, biphasic",0.23198010798093124,0.03251724254582002,26.46060606060606,11,1,MUC4,FALSE,enrichr_default
+DisGeNET,Cutaneous hypersensitivity,Cutaneous hypersensitivity,0.23198010798093124,0.03251724254582002,26.46060606060606,11,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Insulin Sensitivity Measurement,Insulin Sensitivity Measurement,0.23198010798093124,0.03251724254582002,26.46060606060606,11,1,SLC6A12,FALSE,enrichr_default
+DisGeNET,Limbal stem cell deficiency,Limbal stem cell deficiency,0.23198010798093124,0.03251724254582002,26.46060606060606,11,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Malignant neoplasm of anus,Malignant neoplasm of anus,0.23198010798093124,0.035421279144613474,24.255555555555556,12,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Mucopolysaccharidosis II,Mucopolysaccharidosis II,0.23198010798093124,0.035421279144613474,24.255555555555556,12,1,ARSH,FALSE,enrichr_default
+DisGeNET,"Pancreatic Intraductal Papillary Mucinous Neoplasm, Gastric-Type","Pancreatic Intraductal Papillary Mucinous Neoplasm, Gastric-Type",0.23198010798093124,0.035421279144613474,24.255555555555556,12,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Abdominal Neoplasms,Abdominal Neoplasms,0.23198010798093124,0.035421279144613474,24.255555555555556,12,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Delta-Beta Thalassemia,Delta-Beta Thalassemia,0.23198010798093124,0.035421279144613474,24.255555555555556,12,1,HBA2,FALSE,enrichr_default
+DisGeNET,Adult Brain Neoplasm,Adult Brain Neoplasm,0.23198010798093124,0.035421279144613474,24.255555555555556,12,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Progressive multiple sclerosis,Progressive multiple sclerosis,0.23198010798093124,0.035421279144613474,24.255555555555556,12,1,DDT,FALSE,enrichr_default
+DisGeNET,Aplasia/Hypoplasia of the earlobes,Aplasia/Hypoplasia of the earlobes,0.23198010798093124,0.035421279144613474,24.255555555555556,12,1,HBA2,FALSE,enrichr_default
+DisGeNET,Raynaud Disease,Raynaud Disease,0.23198010798093124,0.035421279144613474,24.255555555555556,12,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Episodic paroxysmal anxiety,Episodic paroxysmal anxiety,0.23198010798093124,0.03831674414072702,22.389743589743592,13,1,SDHA,FALSE,enrichr_default
+DisGeNET,Malignant Mixed Mesodermal (Mullerian) Tumor,Malignant Mixed Mesodermal (Mullerian) Tumor,0.23198010798093124,0.03831674414072702,22.389743589743592,13,1,MUC16,FALSE,enrichr_default
+DisGeNET,"Cystadenoma, Mucinous","Cystadenoma, Mucinous",0.23198010798093124,0.03831674414072702,22.389743589743592,13,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Metabolic myopathy,Metabolic myopathy,0.23198010798093124,0.03831674414072702,22.389743589743592,13,1,MGAM,FALSE,enrichr_default
+DisGeNET,"Hypoalphalipoproteinemia, Familial","Hypoalphalipoproteinemia, Familial",0.23198010798093124,0.03831674414072702,22.389743589743592,13,1,LPA,FALSE,enrichr_default
+DisGeNET,Neoplastic Processes,Neoplastic Processes,0.23198010798093124,0.03831674414072702,22.389743589743592,13,1,APOBEC3A,FALSE,enrichr_default
+DisGeNET,Nonspherocytic hemolytic anemia,Nonspherocytic hemolytic anemia,0.23198010798093124,0.03831674414072702,22.389743589743592,13,1,HBA2,FALSE,enrichr_default
+DisGeNET,"Vertigo, Paroxysmal","Vertigo, Paroxysmal",0.23198010798093124,0.03831674414072702,22.389743589743592,13,1,SDHA,FALSE,enrichr_default
+DisGeNET,Polymorphous light eruption,Polymorphous light eruption,0.23198010798093124,0.03831674414072702,22.389743589743592,13,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Positive regitine blocking test,Positive regitine blocking test,0.23198010798093124,0.03831674414072702,22.389743589743592,13,1,SDHA,FALSE,enrichr_default
+DisGeNET,Prelingual sensorineural hearing impairment,Prelingual sensorineural hearing impairment,0.23198010798093124,0.03831674414072702,22.389743589743592,13,1,RIPOR2,FALSE,enrichr_default
+DisGeNET,Lentivirus Infections,Lentivirus Infections,0.23198010798093124,0.03831674414072702,22.389743589743592,13,1,APOBEC3A,FALSE,enrichr_default
+DisGeNET,Elevated urinary epinephrine,Elevated urinary epinephrine,0.23198010798093124,0.03831674414072702,22.389743589743592,13,1,SDHA,FALSE,enrichr_default
+DisGeNET,Elevated urinary norepinephrine,Elevated urinary norepinephrine,0.23198010798093124,0.03831674414072702,22.389743589743592,13,1,SDHA,FALSE,enrichr_default
+DisGeNET,Recurrent paroxysmal headache,Recurrent paroxysmal headache,0.23198010798093124,0.0412036623612398,20.790476190476188,14,1,SDHA,FALSE,enrichr_default
+DisGeNET,Atherosclerotic occlusive disease,Atherosclerotic occlusive disease,0.23198010798093124,0.0412036623612398,20.790476190476188,14,1,LPA,FALSE,enrichr_default
+DisGeNET,Familial hypobetalipoproteinemia,Familial hypobetalipoproteinemia,0.23198010798093124,0.0412036623612398,20.790476190476188,14,1,LPA,FALSE,enrichr_default
+DisGeNET,Central retinal vein occlusion,Central retinal vein occlusion,0.23198010798093124,0.0412036623612398,20.790476190476188,14,1,LPA,FALSE,enrichr_default
+DisGeNET,Takotsubo Cardiomyopathy,Takotsubo Cardiomyopathy,0.23198010798093124,0.0412036623612398,20.790476190476188,14,1,LPA,FALSE,enrichr_default
+DisGeNET,Homocysteinemia,Homocysteinemia,0.23198010798093124,0.0412036623612398,20.790476190476188,14,1,LPA,FALSE,enrichr_default
+DisGeNET,Hypertensive Retinopathy,Hypertensive Retinopathy,0.23198010798093124,0.0412036623612398,20.790476190476188,14,1,SDHA,FALSE,enrichr_default
+DisGeNET,Coronary Occlusion,Coronary Occlusion,0.23198010798093124,0.0412036623612398,20.790476190476188,14,1,LPA,FALSE,enrichr_default
+DisGeNET,Adenocarcinoma of small intestine,Adenocarcinoma of small intestine,0.23198010798093124,0.0412036623612398,20.790476190476188,14,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Purpura Fulminans,Purpura Fulminans,0.23198010798093124,0.0412036623612398,20.790476190476188,14,1,PRH1,FALSE,enrichr_default
+DisGeNET,Elevated urinary dopamine,Elevated urinary dopamine,0.23198010798093124,0.0412036623612398,20.790476190476188,14,1,SDHA,FALSE,enrichr_default
+DisGeNET,"Autosomal recessive, childhood type, muscular dystrophy resembling Duchenne or Becker muscular dystrophy","Autosomal recessive, childhood type, muscular dystrophy resembling Duchenne or Becker muscular dystrophy",0.23198010798093124,0.044082058563485634,19.404444444444444,15,1,TTN,FALSE,enrichr_default
+DisGeNET,Benign scapuloperoneal muscular dystrophy with early contractures [Emery-Dreifuss],Benign scapuloperoneal muscular dystrophy with early contractures [Emery-Dreifuss],0.23198010798093124,0.044082058563485634,19.404444444444444,15,1,TTN,FALSE,enrichr_default
+DisGeNET,Fast acetylator due to N-acetyltransferase enzyme variant,Fast acetylator due to N-acetyltransferase enzyme variant,0.23198010798093124,0.044082058563485634,19.404444444444444,15,1,GSTM1,FALSE,enrichr_default
+DisGeNET,"Heart Failure, Diastolic","Heart Failure, Diastolic",0.23198010798093124,0.044082058563485634,19.404444444444444,15,1,TTN,FALSE,enrichr_default
+DisGeNET,Budd-Chiari Syndrome,Budd-Chiari Syndrome,0.23198010798093124,0.044082058563485634,19.404444444444444,15,1,PRH1,FALSE,enrichr_default
+DisGeNET,Smoker's lung,Smoker's lung,0.23198010798093124,0.044082058563485634,19.404444444444444,15,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Group B streptococcal pneumonia,Group B streptococcal pneumonia,0.23198010798093124,0.044082058563485634,19.404444444444444,15,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Hemoglobin H Disease,Hemoglobin H Disease,0.23198010798093124,0.044082058563485634,19.404444444444444,15,1,HBA2,FALSE,enrichr_default
+DisGeNET,Hepatic Vein Thrombosis,Hepatic Vein Thrombosis,0.23198010798093124,0.044082058563485634,19.404444444444444,15,1,PRH1,FALSE,enrichr_default
+DisGeNET,Hereditary Paraganglioma,Hereditary Paraganglioma,0.23198010798093124,0.044082058563485634,19.404444444444444,15,1,SDHA,FALSE,enrichr_default
+DisGeNET,Thalassemia Minor,Thalassemia Minor,0.23198010798093124,0.044082058563485634,19.404444444444444,15,1,HBA2,FALSE,enrichr_default
+DisGeNET,Congenital muscular dystrophy with specific morphological abnormalities of the muscle fiber,Congenital muscular dystrophy with specific morphological abnormalities of the muscle fiber,0.23198010798093124,0.044082058563485634,19.404444444444444,15,1,TTN,FALSE,enrichr_default
+DisGeNET,Immunologic hypersensitivity,Immunologic hypersensitivity,0.23198010798093124,0.044082058563485634,19.404444444444444,15,1,C4A,FALSE,enrichr_default
+DisGeNET,Limb-girdle muscular dystrophy type 2A,Limb-girdle muscular dystrophy type 2A,0.23198010798093124,0.044082058563485634,19.404444444444444,15,1,TTN,FALSE,enrichr_default
+DisGeNET,Pulsatile Tinnitus,Pulsatile Tinnitus,0.23198010798093124,0.044082058563485634,19.404444444444444,15,1,SDHA,FALSE,enrichr_default
+DisGeNET,Meconium ileus,Meconium ileus,0.23198010798093124,0.046951957438519945,18.191666666666666,16,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Severe [Duchenne] muscular dystrophy,Severe [Duchenne] muscular dystrophy,0.23198010798093124,0.046951957438519945,18.191666666666666,16,1,TTN,FALSE,enrichr_default
+DisGeNET,Severe chronic obstructive pulmonary disease,Severe chronic obstructive pulmonary disease,0.23198010798093124,0.046951957438519945,18.191666666666666,16,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Gastrointestinal carcinoma,Gastrointestinal carcinoma,0.23198010798093124,0.046951957438519945,18.191666666666666,16,1,LPA,FALSE,enrichr_default
+DisGeNET,Skin Manifestations,Skin Manifestations,0.23198010798093124,0.046951957438519945,18.191666666666666,16,1,GSTM1,FALSE,enrichr_default
+DisGeNET,"Necrotizing encephalopathy, infantile subacute, of Leigh","Necrotizing encephalopathy, infantile subacute, of Leigh",0.23198010798093124,0.046951957438519945,18.191666666666666,16,1,SDHA,FALSE,enrichr_default
+DisGeNET,Hereditary persistence of fetal hemoglobin thalassemia,Hereditary persistence of fetal hemoglobin thalassemia,0.23198010798093124,0.046951957438519945,18.191666666666666,16,1,HBA2,FALSE,enrichr_default
+DisGeNET,Ocular muscular dystrophy,Ocular muscular dystrophy,0.23198010798093124,0.046951957438519945,18.191666666666666,16,1,TTN,FALSE,enrichr_default
+DisGeNET,Homozygous alpha thalassemia,Homozygous alpha thalassemia,0.23198010798093124,0.046951957438519945,18.191666666666666,16,1,HBA2,FALSE,enrichr_default
+DisGeNET,Paraganglioma of head and neck,Paraganglioma of head and neck,0.23198010798093124,0.046951957438519945,18.191666666666666,16,1,SDHA,FALSE,enrichr_default
+DisGeNET,Cortical cataract,Cortical cataract,0.23198010798093124,0.046951957438519945,18.191666666666666,16,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Vitamin K Deficiency,Vitamin K Deficiency,0.23198010798093124,0.046951957438519945,18.191666666666666,16,1,PRH1,FALSE,enrichr_default
+DisGeNET,Preleukemia,Preleukemia,0.23198010798093124,0.046951957438519945,18.191666666666666,16,1,HBA2,FALSE,enrichr_default
+DisGeNET,premalignant lesion,premalignant lesion,0.23198010798093124,0.046951957438519945,18.191666666666666,16,1,MUC4,FALSE,enrichr_default
+DisGeNET,Juvenile polyp,Juvenile polyp,0.23198010798093124,0.046951957438519945,18.191666666666666,16,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Disease caused by Shigella dysenteriae,Disease caused by Shigella dysenteriae,0.23198010798093124,0.046951957438519945,18.191666666666666,16,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Disorder of skeletal muscle,Disorder of skeletal muscle,0.23198010798093124,0.046951957438519945,18.191666666666666,16,1,TTN,FALSE,enrichr_default
+DisGeNET,alpha^0^ Thalassemia,alpha^0^ Thalassemia,0.23198010798093124,0.046951957438519945,18.191666666666666,16,1,HBA2,FALSE,enrichr_default
+DisGeNET,Leigh Syndrome Due To Mitochondrial Complex II Deficiency,Leigh Syndrome Due To Mitochondrial Complex II Deficiency,0.23198010798093124,0.046951957438519945,18.191666666666666,16,1,SDHA,FALSE,enrichr_default
+DisGeNET,Leigh Syndrome due to Mitochondrial Complex V Deficiency,Leigh Syndrome due to Mitochondrial Complex V Deficiency,0.23198010798093124,0.046951957438519945,18.191666666666666,16,1,SDHA,FALSE,enrichr_default
+DisGeNET,Lepidic Predominant Adenocarcinoma,Lepidic Predominant Adenocarcinoma,0.23198010798093124,0.046951957438519945,18.191666666666666,16,1,LPA,FALSE,enrichr_default
+DisGeNET,psychological distress,psychological distress,0.23198010798093124,0.046951957438519945,18.191666666666666,16,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Malignant Female Reproductive System Neoplasm,Malignant Female Reproductive System Neoplasm,0.23198010798093124,0.04981338361381649,17.12156862745098,17,1,MUC16,FALSE,enrichr_default
+DisGeNET,Autosome Abnormalities,Autosome Abnormalities,0.23198010798093124,0.04981338361381649,17.12156862745098,17,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Rhinosinusitis,Rhinosinusitis,0.23198010798093124,0.04981338361381649,17.12156862745098,17,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Sinus Tachycardia,Sinus Tachycardia,0.23198010798093124,0.04981338361381649,17.12156862745098,17,1,SDHA,FALSE,enrichr_default
+DisGeNET,Chromosome Aberrations,Chromosome Aberrations,0.23198010798093124,0.04981338361381649,17.12156862745098,17,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Hyperkeratosis lenticularis perstans,Hyperkeratosis lenticularis perstans,0.23198010798093124,0.04981338361381649,17.12156862745098,17,1,LPA,FALSE,enrichr_default
+DisGeNET,Complement deficiency disease,Complement deficiency disease,0.23198010798093124,0.04981338361381649,17.12156862745098,17,1,C4A,FALSE,enrichr_default
+DisGeNET,Ileus,Ileus,0.23198010798093124,0.04981338361381649,17.12156862745098,17,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Portal vein thrombosis,Portal vein thrombosis,0.23198010798093124,0.04981338361381649,17.12156862745098,17,1,PRH1,FALSE,enrichr_default
+DisGeNET,Distal arthrogryposis syndrome,Distal arthrogryposis syndrome,0.23198010798093124,0.04981338361381649,17.12156862745098,17,1,PRH1,FALSE,enrichr_default
+DisGeNET,Anal carcinoma,Anal carcinoma,0.23198010798093124,0.04981338361381649,17.12156862745098,17,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Leigh Syndrome due to Mitochondrial Complex III Deficiency,Leigh Syndrome due to Mitochondrial Complex III Deficiency,0.23198010798093124,0.04981338361381649,17.12156862745098,17,1,SDHA,FALSE,enrichr_default
+DisGeNET,Leigh Syndrome due to Mitochondrial Complex IV Deficiency,Leigh Syndrome due to Mitochondrial Complex IV Deficiency,0.23198010798093124,0.04981338361381649,17.12156862745098,17,1,SDHA,FALSE,enrichr_default
+DisGeNET,Lipoprotein (a) measurement,Lipoprotein (a) measurement,0.23198010798093124,0.04981338361381649,17.12156862745098,17,1,LPA,FALSE,enrichr_default
+DisGeNET,"Adenoma, Villous","Adenoma, Villous",0.23198010798093124,0.05266636166425417,16.17037037037037,18,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Episodic hyperhidrosis,Episodic hyperhidrosis,0.23198010798093124,0.05266636166425417,16.17037037037037,18,1,SDHA,FALSE,enrichr_default
+DisGeNET,Erythroid hyperplasia,Erythroid hyperplasia,0.23198010798093124,0.05266636166425417,16.17037037037037,18,1,HBA2,FALSE,enrichr_default
+DisGeNET,Autosomal Recessive Centronuclear Myopathy,Autosomal Recessive Centronuclear Myopathy,0.23198010798093124,0.05266636166425417,16.17037037037037,18,1,TTN,FALSE,enrichr_default
+DisGeNET,Retinal ischemia,Retinal ischemia,0.23198010798093124,0.05266636166425417,16.17037037037037,18,1,LPA,FALSE,enrichr_default
+DisGeNET,Rimmed vacuoles on biopsy,Rimmed vacuoles on biopsy,0.23198010798093124,0.05266636166425417,16.17037037037037,18,1,TTN,FALSE,enrichr_default
+DisGeNET,Meningococcemia,Meningococcemia,0.23198010798093124,0.05266636166425417,16.17037037037037,18,1,PRH1,FALSE,enrichr_default
+DisGeNET,Centrally nucleated skeletal muscle fibers,Centrally nucleated skeletal muscle fibers,0.23198010798093124,0.05266636166425417,16.17037037037037,18,1,TTN,FALSE,enrichr_default
+DisGeNET,Hartnup Disease,Hartnup Disease,0.23198010798093124,0.05266636166425417,16.17037037037037,18,1,HBA2,FALSE,enrichr_default
+DisGeNET,Heart murmur,Heart murmur,0.23198010798093124,0.05266636166425417,16.17037037037037,18,1,TTN,FALSE,enrichr_default
+DisGeNET,Congenital bilateral aplasia of vas deferens,Congenital bilateral aplasia of vas deferens,0.23198010798093124,0.05266636166425417,16.17037037037037,18,1,MGAM,FALSE,enrichr_default
+DisGeNET,Pancreatic carcinoma resectable,Pancreatic carcinoma resectable,0.23198010798093124,0.05266636166425417,16.17037037037037,18,1,MUC4,FALSE,enrichr_default
+DisGeNET,Sessile Serrated Adenoma/Polyp,Sessile Serrated Adenoma/Polyp,0.23198010798093124,0.005509570625696538,15.733333333333333,37,2,HBA2;MUC5AC,FALSE,enrichr_default
+DisGeNET,Sweet Syndrome,Sweet Syndrome,0.23198010798093124,0.006106512377680683,14.926495726495725,39,2,HBA2;PRH1,FALSE,enrichr_default
+DisGeNET,"stage, ovarian epithelial cancer","stage, ovarian epithelial cancer",0.23198010798093124,0.00641557592818846,14.553333333333333,40,2,GSTM1;MUC16,FALSE,enrichr_default
+DisGeNET,Chloracne,Chloracne,0.23198010798093124,0.007384615257601338,13.53798449612403,43,2,GSTM1;HBA2,FALSE,enrichr_default
+DisGeNET,Pyruvate Carboxylase Deficiency Disease,Pyruvate Carboxylase Deficiency Disease,0.23198010798093124,0.007384615257601338,13.53798449612403,43,2,GSTM1;PRH1,FALSE,enrichr_default
+DisGeNET,Endometriosis of uterus,Endometriosis of uterus,0.23198010798093124,0.007721434028447584,13.23030303030303,44,2,GSTM1;MUC16,FALSE,enrichr_default
+DisGeNET,"Carcinoma, Pancreatic Ductal","Carcinoma, Pancreatic Ductal",0.23198010798093124,0.008772708224375435,12.38581560283688,47,2,MUC4;MUC5AC,FALSE,enrichr_default
+DisGeNET,Hemoglobinopathies,Hemoglobinopathies,0.23198010798093124,0.008772708224375435,12.38581560283688,47,2,GSTM1;HBA2,FALSE,enrichr_default
+DisGeNET,Barrett Epithelium,Barrett Epithelium,0.23198010798093124,0.009136597521628502,12.127777777777778,48,2,GSTM1;DMBT1,FALSE,enrichr_default
+DisGeNET,Malignant ascites,Malignant ascites,0.23198010798093124,0.010658357503266928,11.194871794871796,52,2,LPA;TNFRSF10D,FALSE,enrichr_default
+DisGeNET,Atherogenesis,Atherogenesis,0.23198010798093124,0.011868028526351855,10.584242424242424,55,2,GSTM1;LPA,FALSE,enrichr_default
+DisGeNET,Nausea,Nausea,0.23198010798093124,0.013135056264290922,10.036781609195403,58,2,GSTM1;SDHA,FALSE,enrichr_default
+DisGeNET,Factor V Leiden mutation,Factor V Leiden mutation,0.23198010798093124,0.014011066845737868,9.702222222222222,60,2,LPA;PRH1,FALSE,enrichr_default
+DisGeNET,Oropharyngeal Carcinoma,Oropharyngeal Carcinoma,0.23198010798093124,0.014011066845737868,9.702222222222222,60,2,GSTM1;APOBEC3A,FALSE,enrichr_default
+DisGeNET,Gastrointestinal Hemorrhage,Gastrointestinal Hemorrhage,0.23198010798093124,0.01445834959779443,9.543169398907104,61,2,C4A;SDHA,FALSE,enrichr_default
+DisGeNET,Polyp of large intestine,Polyp of large intestine,0.23198010798093124,0.015836831801711724,9.095833333333333,64,2,GSTM1;MUC5AC,FALSE,enrichr_default
+DisGeNET,"Bronchitis, Chronic","Bronchitis, Chronic",0.23198010798093124,0.016785955154459613,8.82020202020202,66,2,GSTM1;MUC5AC,FALSE,enrichr_default
+DisGeNET,Arteriopathic disease,Arteriopathic disease,0.23198010798093124,0.01726944038528993,8.688557213930348,67,2,LPA;PRH1,FALSE,enrichr_default
+DisGeNET,"Glaucoma, Open-Angle","Glaucoma, Open-Angle",0.23198010798093124,0.018755126914627634,8.316190476190476,70,2,GSTM1;MPP7,FALSE,enrichr_default
+DisGeNET,"Cardiomyopathy, Hypertrophic, Familial","Cardiomyopathy, Hypertrophic, Familial",0.23198010798093124,0.020292856876402476,7.974429223744292,73,2,PRH1;TTN,FALSE,enrichr_default
+DisGeNET,Familial dilated cardiomyopathy,Familial dilated cardiomyopathy,0.23198010798093124,0.021881609496014625,7.659649122807018,76,2,SDHA;TTN,FALSE,enrichr_default
+DisGeNET,Sicca Syndrome,Sicca Syndrome,0.23198010798093124,0.02296862590360908,7.4632478632478625,78,2,HBA2;PRH1,FALSE,enrichr_default
+DisGeNET,Pulmonary Embolism,Pulmonary Embolism,0.23198010798093124,0.02296862590360908,7.4632478632478625,78,2,LPA;PRH1,FALSE,enrichr_default
+DisGeNET,Conduction disorder of the heart,Conduction disorder of the heart,0.23198010798093124,0.023520377596358256,7.368776371308017,79,2,SDHA;TTN,FALSE,enrichr_default
+DisGeNET,Hay fever,Hay fever,0.23198010798093124,0.02578148793539426,7.013654618473896,83,2,GSTM1;MUC5AC,FALSE,enrichr_default
+DisGeNET,Thrombophilia,Thrombophilia,0.23198010798093124,0.02636011025327426,6.9301587301587295,84,2,LPA;PRH1,FALSE,enrichr_default
+DisGeNET,Wheezing,Wheezing,0.23198010798093124,0.02933150092933636,6.5408239700374535,89,2,GSTM1;MUC5AC,FALSE,enrichr_default
+DisGeNET,Venous Thrombosis,Venous Thrombosis,0.23198010798093124,0.029941187456111545,6.468148148148148,90,2,C4A;LPA,FALSE,enrichr_default
+DisGeNET,"Hamartoma Syndrome, Multiple","Hamartoma Syndrome, Multiple",0.23198010798093124,0.008256856091962146,6.327536231884059,138,3,DMBT1;MUC4;MUC5AC,FALSE,enrichr_default
+DisGeNET,Mucinous Adenocarcinoma,Mucinous Adenocarcinoma,0.23198010798093124,0.03180043473842672,6.259498207885304,93,2,MUC4;MUC5AC,FALSE,enrichr_default
+DisGeNET,"Muscular Dystrophies, Limb-Girdle","Muscular Dystrophies, Limb-Girdle",0.23198010798093124,0.03180043473842672,6.259498207885304,93,2,RIPOR2;TTN,FALSE,enrichr_default
+DisGeNET,Otitis Media,Otitis Media,0.23198010798093124,0.03697376981365279,5.763696369636964,101,2,MUC4;MUC5AC,FALSE,enrichr_default
+DisGeNET,Carotid Atherosclerosis,Carotid Atherosclerosis,0.23198010798093124,0.03967385648205092,5.544126984126984,105,2,GSTM1;LPA,FALSE,enrichr_default
+DisGeNET,Deep Vein Thrombosis,Deep Vein Thrombosis,0.23198010798093124,0.04315109890681596,5.292121212121212,110,2,LPA;PRH1,FALSE,enrichr_default
+DisGeNET,Dental caries,Dental caries,0.23198010798093124,0.014490144527211552,5.136470588235294,170,3,DMBT1;MUC19;PRH1,FALSE,enrichr_default
+DisGeNET,Lymphocyte Count measurement,Lymphocyte Count measurement,0.23198010798093124,0.04601209383794209,5.106432748538012,114,2,RIPOR2;SIGLEC5,FALSE,enrichr_default
+DisGeNET,"Carcinoma, Endometrioid","Carcinoma, Endometrioid",0.23198010798093124,0.04601209383794209,5.106432748538012,114,2,MUC16;MUC5AC,FALSE,enrichr_default
+DisGeNET,Pancreatic intraepithelial neoplasia,Pancreatic intraepithelial neoplasia,0.23198010798093124,0.04673807920585811,5.062028985507246,115,2,MUC4;MUC5AC,FALSE,enrichr_default
+DisGeNET,Hyperhomocysteinemia,Hyperhomocysteinemia,0.23198010798093124,0.04820271557307312,4.975498575498576,117,2,LPA;PRH1,FALSE,enrichr_default
+DisGeNET,Intrahepatic Cholangiocarcinoma,Intrahepatic Cholangiocarcinoma,0.23198010798093124,0.016127559180622808,4.933333333333334,177,3,DMBT1;MUC4;MUC5AC,FALSE,enrichr_default
+DisGeNET,Nephrotic Syndrome,Nephrotic Syndrome,0.23198010798093124,0.017358454694090347,4.797802197802198,182,3,GSTM1;MUC16;LPA,FALSE,enrichr_default
+DisGeNET,oligodendroglioma,oligodendroglioma,0.23198010798093124,0.01761078700565804,4.771584699453553,183,3,GSTM1;DMBT1;ATAD3B,FALSE,enrichr_default
+DisGeNET,Gastrointestinal Neoplasms,Gastrointestinal Neoplasms,0.23198010798093124,0.05193675391394109,4.771584699453552,122,2,HBA2;MUC5AC,FALSE,enrichr_default
+DisGeNET,Hyperplasia,Hyperplasia,0.23198010798093124,0.05269573759430205,4.732791327913279,123,2,MUC5AC;TNFRSF10D,FALSE,enrichr_default
+DisGeNET,Respiratory Failure,Respiratory Failure,0.23198010798093124,0.018121616132261327,4.720000000000001,185,3,MGAM;SDHA;TTN,FALSE,enrichr_default
+DisGeNET,Malignant neoplasm of gastrointestinal tract,Malignant neoplasm of gastrointestinal tract,0.23198010798093124,0.008008395712717945,4.426869455006337,263,4,GSTM1;DMBT1;LPA;PRH1,FALSE,enrichr_default
+DisGeNET,synovial sarcoma,synovial sarcoma,0.23198010798093124,0.027417421263907785,4.023963133640553,217,3,HBA2;MUC4;PRH1,FALSE,enrichr_default
+DisGeNET,"Anemia, Sickle Cell","Anemia, Sickle Cell",0.23198010798093124,0.032148702622780224,3.78008658008658,231,3,GSTM1;HBA2;MUC4,FALSE,enrichr_default
+DisGeNET,Periodontitis,Periodontitis,0.23198010798093124,0.034299376549996,3.684388185654009,237,3,GSTM1;MUC4;SIGLEC5,FALSE,enrichr_default
+DisGeNET,Primary biliary cirrhosis,Primary biliary cirrhosis,0.23198010798093124,0.017036132681902027,3.5388044579533946,329,4,C4A;GSTM1;DMBT1;LPA,FALSE,enrichr_default
+DisGeNET,Acute myocardial infarction,Acute myocardial infarction,0.23198010798093124,0.038046547318064186,3.5352226720647777,247,3,C4A;GSTM1;LPA,FALSE,enrichr_default
+DisGeNET,"Infant, Premature","Infant, Premature",0.23198010798093124,0.05093295961506233,3.1410071942446045,278,3,GSTM1;HBA2;PRH1,FALSE,enrichr_default
+DisGeNET,Gastric Adenocarcinoma,Gastric Adenocarcinoma,0.23198010798093124,0.027866265160736616,3.0398607484769364,383,4,GSTM1;LPA;MUC4;TTN,FALSE,enrichr_default
+DisGeNET,"Cardiomyopathy, Familial Idiopathic","Cardiomyopathy, Familial Idiopathic",0.23198010798093124,0.029036742799259854,3.0006872852233677,388,4,SDHA;MUC5AC;PRH1;TTN,FALSE,enrichr_default
+DisGeNET,Myopathy,Myopathy,0.23198010798093124,0.03586171745511123,2.8054618473895583,415,4,RIPOR2;MGAM;PRH1;TTN,FALSE,enrichr_default
+DisGeNET,Cystic Fibrosis,Cystic Fibrosis,0.23198010798093124,0.03253993327716752,2.4500561167227835,594,5,GSTM1;MRGPRX1;HBA2;MUC4;MUC5AC,FALSE,enrichr_default
+DisGeNET,Endometriosis,Endometriosis,0.23198010798093124,0.024403056414085814,2.331642189586115,749,6,GSTM1;MUC16;AHRR;KIR2DL1;LPA;MUC4,FALSE,enrichr_default
+DisGeNET,Inflammatory Bowel Diseases,Inflammatory Bowel Diseases,0.23198010798093124,0.01882288054531568,2.2365166483717527,911,7,GSTM1;DMBT1;MRGPRX1;MUC19;MUC4;MUC5AC;PRH1,FALSE,enrichr_default
+DisGeNET,Chronic Obstructive Airway Disease,Chronic Obstructive Airway Disease,0.23198010798093124,0.049939585274488565,2.1753861484803187,669,5,C4A;GSTM1;MUC19;MUC4;MUC5AC,FALSE,enrichr_default
+DisGeNET,Fallopian Tube Carcinoma,Fallopian Tube Carcinoma,0.234922239735605,0.0555109160756712,15.319298245614036,19,1,MUC16,FALSE,enrichr_default
+DisGeNET,"Encephalopathy, Subacute Necrotizing, Infantile","Encephalopathy, Subacute Necrotizing, Infantile",0.234922239735605,0.0555109160756712,15.319298245614036,19,1,SDHA,FALSE,enrichr_default
+DisGeNET,"Encephalopathy, Subacute Necrotizing, Juvenile","Encephalopathy, Subacute Necrotizing, Juvenile",0.234922239735605,0.0555109160756712,15.319298245614036,19,1,SDHA,FALSE,enrichr_default
+DisGeNET,CADASIL Syndrome,CADASIL Syndrome,0.234922239735605,0.0555109160756712,15.319298245614036,19,1,LPA,FALSE,enrichr_default
+DisGeNET,Gastric Cardia Carcinoma,Gastric Cardia Carcinoma,0.234922239735605,0.0555109160756712,15.319298245614036,19,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Carcinoma of extrahepatic bile duct,Carcinoma of extrahepatic bile duct,0.234922239735605,0.0555109160756712,15.319298245614036,19,1,MUC4,FALSE,enrichr_default
+DisGeNET,Thromboembolism,Thromboembolism,0.234922239735605,0.0555109160756712,15.319298245614036,19,1,LPA,FALSE,enrichr_default
+DisGeNET,Thrombosis of cerebral veins,Thrombosis of cerebral veins,0.234922239735605,0.0555109160756712,15.319298245614036,19,1,PRH1,FALSE,enrichr_default
+DisGeNET,Inflammatory disease of mucous membrane,Inflammatory disease of mucous membrane,0.234922239735605,0.0555109160756712,15.319298245614036,19,1,MUC4,FALSE,enrichr_default
+DisGeNET,Renal glomerular fibrosis,Renal glomerular fibrosis,0.234922239735605,0.058347071283324045,14.553333333333333,20,1,SDHA,FALSE,enrichr_default
+DisGeNET,"ATAXIA, EARLY-ONSET, WITH OCULOMOTOR APRAXIA AND HYPOALBUMINEMIA","ATAXIA, EARLY-ONSET, WITH OCULOMOTOR APRAXIA AND HYPOALBUMINEMIA",0.234922239735605,0.058347071283324045,14.553333333333333,20,1,SDHA,FALSE,enrichr_default
+DisGeNET,Beta thalassemia intermedia,Beta thalassemia intermedia,0.234922239735605,0.058347071283324045,14.553333333333333,20,1,HBA2,FALSE,enrichr_default
+DisGeNET,Calf muscle hypertrophy,Calf muscle hypertrophy,0.234922239735605,0.058347071283324045,14.553333333333333,20,1,TTN,FALSE,enrichr_default
+DisGeNET,Cholesteryl Ester Transfer Protein Deficiency,Cholesteryl Ester Transfer Protein Deficiency,0.234922239735605,0.058347071283324045,14.553333333333333,20,1,LPA,FALSE,enrichr_default
+DisGeNET,Idiopathic Nephrotic Syndrome,Idiopathic Nephrotic Syndrome,0.234922239735605,0.058347071283324045,14.553333333333333,20,1,LPA,FALSE,enrichr_default
+DisGeNET,Asthma chronic,Asthma chronic,0.234922239735605,0.06117485166375804,13.860317460317459,21,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Erythema Chronicum Migrans,Erythema Chronicum Migrans,0.234922239735605,0.06117485166375804,13.860317460317459,21,1,PRH1,FALSE,enrichr_default
+DisGeNET,Microcytic hypochromic anemia (disorder),Microcytic hypochromic anemia (disorder),0.234922239735605,0.06117485166375804,13.860317460317459,21,1,HBA2,FALSE,enrichr_default
+DisGeNET,Slow acetylator due to N-acetyltransferase enzyme variant,Slow acetylator due to N-acetyltransferase enzyme variant,0.234922239735605,0.06117485166375804,13.860317460317459,21,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Sudden Cardiac Arrest,Sudden Cardiac Arrest,0.234922239735605,0.06117485166375804,13.860317460317459,21,1,ACYP2,FALSE,enrichr_default
+DisGeNET,Otitis Media with Effusion,Otitis Media with Effusion,0.234922239735605,0.06117485166375804,13.860317460317459,21,1,MUC4,FALSE,enrichr_default
+DisGeNET,Hypoalphalipoproteinemias,Hypoalphalipoproteinemias,0.234922239735605,0.06117485166375804,13.860317460317459,21,1,LPA,FALSE,enrichr_default
+DisGeNET,Xanthoma,Xanthoma,0.234922239735605,0.06117485166375804,13.860317460317459,21,1,LPA,FALSE,enrichr_default
+DisGeNET,LEIGH SYNDROME DUE TO MITOCHONDRIAL COMPLEX I DEFICIENCY,LEIGH SYNDROME DUE TO MITOCHONDRIAL COMPLEX I DEFICIENCY,0.234922239735605,0.06117485166375804,13.860317460317459,21,1,SDHA,FALSE,enrichr_default
+DisGeNET,Pseudomyxoma Peritonei,Pseudomyxoma Peritonei,0.234922239735605,0.06117485166375804,13.860317460317459,21,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Malignant Adrenal Medulla Neoplasm,Malignant Adrenal Medulla Neoplasm,0.234922239735605,0.06399428148789535,13.23030303030303,22,1,SDHA,FALSE,enrichr_default
+DisGeNET,Malignant neoplasm of aortic body and other paraganglia,Malignant neoplasm of aortic body and other paraganglia,0.234922239735605,0.06399428148789535,13.23030303030303,22,1,SDHA,FALSE,enrichr_default
+DisGeNET,Restrictive cardiomyopathy,Restrictive cardiomyopathy,0.234922239735605,0.06399428148789535,13.23030303030303,22,1,TTN,FALSE,enrichr_default
+DisGeNET,Benign neoplasm of aortic body and other paraganglia,Benign neoplasm of aortic body and other paraganglia,0.234922239735605,0.06399428148789535,13.23030303030303,22,1,SDHA,FALSE,enrichr_default
+DisGeNET,Spastic syndrome,Spastic syndrome,0.234922239735605,0.06399428148789535,13.23030303030303,22,1,HBA2,FALSE,enrichr_default
+DisGeNET,Hemoglobin F Disease,Hemoglobin F Disease,0.234922239735605,0.06399428148789535,13.23030303030303,22,1,HBA2,FALSE,enrichr_default
+DisGeNET,Sudden death,Sudden death,0.234922239735605,0.06399428148789535,13.23030303030303,22,1,TTN,FALSE,enrichr_default
+DisGeNET,Infiltrating duct carcinoma of female breast,Infiltrating duct carcinoma of female breast,0.234922239735605,0.06399428148789535,13.23030303030303,22,1,TTN,FALSE,enrichr_default
+DisGeNET,response to statin,response to statin,0.234922239735605,0.06680538499740091,12.655072463768116,23,1,LPA,FALSE,enrichr_default
+DisGeNET,Benign neoplasm of adrenal gland,Benign neoplasm of adrenal gland,0.234922239735605,0.06680538499740091,12.655072463768116,23,1,SDHA,FALSE,enrichr_default
+DisGeNET,beta^0^ Thalassemia,beta^0^ Thalassemia,0.234922239735605,0.06680538499740091,12.655072463768116,23,1,HBA2,FALSE,enrichr_default
+DisGeNET,"Neoplasms, Second Primary","Neoplasms, Second Primary",0.234922239735605,0.06680538499740091,12.655072463768116,23,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Childhood Non-Hodgkin Lymphoma,Childhood Non-Hodgkin Lymphoma,0.234922239735605,0.06680538499740091,12.655072463768116,23,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Squamous Cell Neoplasms,Squamous Cell Neoplasms,0.234922239735605,0.06680538499740091,12.655072463768116,23,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Hepatocellular necrosis,Hepatocellular necrosis,0.234922239735605,0.06680538499740091,12.655072463768116,23,1,SDHA,FALSE,enrichr_default
+DisGeNET,Chronic glomerulonephritis,Chronic glomerulonephritis,0.234922239735605,0.06680538499740091,12.655072463768116,23,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Hypobetalipoproteinemias,Hypobetalipoproteinemias,0.234922239735605,0.06680538499740091,12.655072463768116,23,1,LPA,FALSE,enrichr_default
+DisGeNET,Hypoxic-Ischemic Encephalopathy,Hypoxic-Ischemic Encephalopathy,0.234922239735605,0.06680538499740091,12.655072463768116,23,1,TRPM2,FALSE,enrichr_default
+DisGeNET,Varicocele,Varicocele,0.234922239735605,0.06680538499740091,12.655072463768116,23,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Increased gastric cancer,Increased gastric cancer,0.234922239735605,0.06680538499740091,12.655072463768116,23,1,SDHA,FALSE,enrichr_default
+DisGeNET,Porphyria Cutanea Tarda,Porphyria Cutanea Tarda,0.234922239735605,0.06680538499740091,12.655072463768116,23,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Antibody Deficiency Syndrome,Antibody Deficiency Syndrome,0.234922239735605,0.06680538499740091,12.655072463768116,23,1,C4A,FALSE,enrichr_default
+DisGeNET,Antithrombin III Deficiency,Antithrombin III Deficiency,0.234922239735605,0.06680538499740091,12.655072463768116,23,1,PRH1,FALSE,enrichr_default
+DisGeNET,Renal glomerular disease,Renal glomerular disease,0.234922239735605,0.05577125819992354,4.583727034120735,127,2,HBA2;MUC5AC,FALSE,enrichr_default
+DisGeNET,Sarcomatoid Renal Cell Carcinoma,Sarcomatoid Renal Cell Carcinoma,0.234922239735605,0.05654988660291618,4.547916666666667,128,2,GSTM1;MUC4,FALSE,enrichr_default
+DisGeNET,Hereditary Nonpolyposis Colorectal Cancer,Hereditary Nonpolyposis Colorectal Cancer,0.234922239735605,0.05654988660291618,4.547916666666667,128,2,GSTM1;MUC16,FALSE,enrichr_default
+DisGeNET,"Hepatitis, Autoimmune","Hepatitis, Autoimmune",0.234922239735605,0.05733235548852796,4.5126614987080105,129,2,C4A;GSTM1,FALSE,enrichr_default
+DisGeNET,early pregnancy,early pregnancy,0.234922239735605,0.05733235548852796,4.5126614987080105,129,2,GSTM1;TTN,FALSE,enrichr_default
+DisGeNET,Aortic Valve Stenosis,Aortic Valve Stenosis,0.234922239735605,0.05811863569646687,4.477948717948718,130,2,MUC16;LPA,FALSE,enrichr_default
+DisGeNET,Nausea and vomiting,Nausea and vomiting,0.234922239735605,0.05970251409896296,4.41010101010101,132,2,C4A;SDHA,FALSE,enrichr_default
+DisGeNET,Flexion contractures of joints,Flexion contractures of joints,0.234922239735605,0.06210619518058933,4.312098765432099,135,2,SDHA;TTN,FALSE,enrichr_default
+DisGeNET,Flexion contracture,Flexion contracture,0.234922239735605,0.06291473835163897,4.280392156862745,136,2,SDHA;TTN,FALSE,enrichr_default
+DisGeNET,Cholelithiasis,Cholelithiasis,0.234922239735605,0.06291473835163897,4.280392156862745,136,2,HBA2;MUC5AC,FALSE,enrichr_default
+DisGeNET,Spontaneous abortion,Spontaneous abortion,0.234922239735605,0.06454262931928326,4.218357487922706,138,2,KIR2DL1;MUC4,FALSE,enrichr_default
+DisGeNET,Collecting Duct Carcinoma of the Kidney,Collecting Duct Carcinoma of the Kidney,0.234922239735605,0.06454262931928326,4.218357487922706,138,2,GSTM1;MUC4,FALSE,enrichr_default
+DisGeNET,Contracture of joint,Contracture of joint,0.234922239735605,0.0661847397731125,4.158095238095238,140,2,SDHA;TTN,FALSE,enrichr_default
+DisGeNET,Adenocarcinoma of large intestine,Adenocarcinoma of large intestine,0.234922239735605,0.05975312021953167,2.9400673400673405,297,3,GSTM1;DDT;TTN,FALSE,enrichr_default
+DisGeNET,Epithelioma,Epithelioma,0.234922239735605,0.06023617329909042,2.930201342281879,298,3,MUC16;MUC4;TTN,FALSE,enrichr_default
+DisGeNET,"Pancreatitis, Chronic","Pancreatitis, Chronic",0.234922239735605,0.062186915257468174,2.891390728476821,302,3,MUC4;MUC5AC;TNFRSF10D,FALSE,enrichr_default
+DisGeNET,Malignant neoplasm of skin,Malignant neoplasm of skin,0.234922239735605,0.06466673468568063,2.844299674267101,307,3,GSTM1;DMBT1;APOBEC3A,FALSE,enrichr_default
+DisGeNET,Cardiomyopathies,Cardiomyopathies,0.234922239735605,0.0558227920134864,2.4255555555555555,480,4,TRPM2;MGAM;PRH1;TTN,FALSE,enrichr_default
+DisGeNET,ovarian neoplasm,ovarian neoplasm,0.234922239735605,0.061420053159713536,1.8618336886993603,938,6,GSTM1;MUC16;LPA;MUC4;MUC5AC;APOBEC3A,FALSE,enrichr_default
+DisGeNET,Lymphatic Metastasis,Lymphatic Metastasis,0.2378491989598169,0.06784084752568646,4.0995305164319245,142,2,MUC4;MUC5AC,FALSE,enrichr_default
+DisGeNET,"Glossitis, Benign Migratory","Glossitis, Benign Migratory",0.2383368018574853,0.06960818636657555,12.127777777777778,24,1,PRH1,FALSE,enrichr_default
+DisGeNET,Bronchitis,Bronchitis,0.2383368018574853,0.06960818636657555,12.127777777777778,24,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Norrie disease,Norrie disease,0.2383368018574853,0.06960818636657555,12.127777777777778,24,1,KIR2DL1,FALSE,enrichr_default
+DisGeNET,"Signs and Symptoms, Respiratory","Signs and Symptoms, Respiratory",0.2383368018574853,0.06960818636657555,12.127777777777778,24,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Orchitis,Orchitis,0.2383368018574853,0.06960818636657555,12.127777777777778,24,1,C4A,FALSE,enrichr_default
+DisGeNET,Ovarian Diseases,Ovarian Diseases,0.2383368018574853,0.06960818636657555,12.127777777777778,24,1,MUC16,FALSE,enrichr_default
+DisGeNET,POLYCYSTIC KIDNEY DISEASE 1,POLYCYSTIC KIDNEY DISEASE 1,0.2383368018574853,0.06960818636657555,12.127777777777778,24,1,HBA2,FALSE,enrichr_default
+DisGeNET,Leprosy,Leprosy,0.2383368018574853,0.06867408151817071,4.070862470862471,143,2,GSTM1;SIGLEC5,FALSE,enrichr_default
+DisGeNET,Astrocytoma,Astrocytoma,0.24239485476156453,0.07100037163383145,1.9640125955915428,741,5,GSTM1;DMBT1;SLC6A12;ATAD3B;LPA,FALSE,enrichr_default
+DisGeNET,Familial erythrocytosis,Familial erythrocytosis,0.24363095696352757,0.07240270966977591,11.642666666666667,25,1,HBA2,FALSE,enrichr_default
+DisGeNET,Cervix Diseases,Cervix Diseases,0.24363095696352757,0.07240270966977591,11.642666666666667,25,1,MUC4,FALSE,enrichr_default
+DisGeNET,Temporomandibular Joint Disorders,Temporomandibular Joint Disorders,0.24363095696352757,0.07240270966977591,11.642666666666667,25,1,TTN,FALSE,enrichr_default
+DisGeNET,Increased intramyocellular lipid droplets,Increased intramyocellular lipid droplets,0.24363095696352757,0.07240270966977591,11.642666666666667,25,1,SDHA,FALSE,enrichr_default
+DisGeNET,"Glaucoma, Primary Open Angle","Glaucoma, Primary Open Angle",0.24363095696352757,0.07204091560683747,3.9600907029478463,147,2,GSTM1;MPP7,FALSE,enrichr_default
+DisGeNET,Chromophobe Renal Cell Carcinoma,Chromophobe Renal Cell Carcinoma,0.2474342927757841,0.07374429391865811,3.9069351230425053,149,2,GSTM1;MUC4,FALSE,enrichr_default
+DisGeNET,Heart Diseases,Heart Diseases,0.24747289875532386,0.07396713455539142,2.6867692307692312,325,3,LPA;PRH1;TTN,FALSE,enrichr_default
+DisGeNET,Juvenile arthritis,Juvenile arthritis,0.24854763839467015,0.07450061577841949,2.6785276073619633,326,3,C4A;KIR2DL1;APOBEC3A,FALSE,enrichr_default
+DisGeNET,Beta thalassemia trait,Beta thalassemia trait,0.2487183455969859,0.07518897894221435,11.194871794871796,26,1,HBA2,FALSE,enrichr_default
+DisGeNET,Abnormal pattern of respiration,Abnormal pattern of respiration,0.2487183455969859,0.07518897894221435,11.194871794871796,26,1,SDHA,FALSE,enrichr_default
+DisGeNET,Drug Eruptions,Drug Eruptions,0.2487183455969859,0.07518897894221435,11.194871794871796,26,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Episodic abdominal pain,Episodic abdominal pain,0.2504311946085509,0.07796701814188411,10.780246913580246,27,1,SDHA,FALSE,enrichr_default
+DisGeNET,Cervical dysplasia,Cervical dysplasia,0.2504311946085509,0.07796701814188411,10.780246913580246,27,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Homocystinuria,Homocystinuria,0.2504311946085509,0.07796701814188411,10.780246913580246,27,1,PRH1,FALSE,enrichr_default
+DisGeNET,Intermittent abdominal pain,Intermittent abdominal pain,0.2504311946085509,0.07796701814188411,10.780246913580246,27,1,SDHA,FALSE,enrichr_default
+DisGeNET,Premenopausal breast cancer,Premenopausal breast cancer,0.2504311946085509,0.07796701814188411,10.780246913580246,27,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Leg Ulcer,Leg Ulcer,0.2504311946085509,0.07796701814188411,10.780246913580246,27,1,HBA2,FALSE,enrichr_default
+DisGeNET,Appendicitis,Appendicitis,0.2504311946085509,0.07796701814188411,10.780246913580246,27,1,DMBT1,FALSE,enrichr_default
+DisGeNET,Sezary Syndrome,Sezary Syndrome,0.2504311946085509,0.07718990808691337,3.80479302832244,153,2,BRD9;KIR2DL1,FALSE,enrichr_default
+DisGeNET,Hyperlipoproteinemia Type IIa,Hyperlipoproteinemia Type IIa,0.2504311946085509,0.07718990808691337,3.80479302832244,153,2,LPA;PRH1,FALSE,enrichr_default
+DisGeNET,"Hypercholesterolemia, Familial","Hypercholesterolemia, Familial",0.2504311946085509,0.07805925365680708,3.7800865800865804,154,2,LPA;TNFRSF10D,FALSE,enrichr_default
+DisGeNET,Fatigue,Fatigue,0.2504311946085509,0.07665187446332672,2.646060606060606,330,3,C4A;HBA2;SDHA,FALSE,enrichr_default
+DisGeNET,Malignant Mesothelioma of Peritoneum,Malignant Mesothelioma of Peritoneum,0.2527883762174231,0.08073685115740073,10.395238095238094,28,1,MUC16,FALSE,enrichr_default
+DisGeNET,"Creutzfeldt-Jakob Disease, Sporadic","Creutzfeldt-Jakob Disease, Sporadic",0.2527883762174231,0.08073685115740073,10.395238095238094,28,1,HBA2,FALSE,enrichr_default
+DisGeNET,"GASTRIC CANCER, INTESTINAL","GASTRIC CANCER, INTESTINAL",0.2527883762174231,0.08073685115740073,10.395238095238094,28,1,GSTM1,FALSE,enrichr_default
+DisGeNET,"Lung Diseases, Obstructive","Lung Diseases, Obstructive",0.2527883762174231,0.08073685115740073,10.395238095238094,28,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Centronuclear myopathy,Centronuclear myopathy,0.2527883762174231,0.08073685115740073,10.395238095238094,28,1,TTN,FALSE,enrichr_default
+DisGeNET,Condylomata Acuminata,Condylomata Acuminata,0.2527883762174231,0.08073685115740073,10.395238095238094,28,1,APOBEC3A,FALSE,enrichr_default
+DisGeNET,Ovarian epithelial cancer recurrent,Ovarian epithelial cancer recurrent,0.2527883762174231,0.08073685115740073,10.395238095238094,28,1,MUC16,FALSE,enrichr_default
+DisGeNET,Aphthous Stomatitis,Aphthous Stomatitis,0.2527883762174231,0.08073685115740073,10.395238095238094,28,1,C4A,FALSE,enrichr_default
+DisGeNET,Hypertriglyceridemia,Hypertriglyceridemia,0.2527883762174231,0.0806859356224209,3.707855626326964,157,2,GSTM1;LPA,FALSE,enrichr_default
+DisGeNET,Breast cancer recurrent,Breast cancer recurrent,0.2539655730706601,0.08349850182084043,10.036781609195403,29,1,MUC16,FALSE,enrichr_default
+DisGeNET,Generalized glycogen storage disease of infants,Generalized glycogen storage disease of infants,0.2539655730706601,0.08349850182084043,10.036781609195403,29,1,MGAM,FALSE,enrichr_default
+DisGeNET,Childhood Brain Neoplasm,Childhood Brain Neoplasm,0.2539655730706601,0.08349850182084043,10.036781609195403,29,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Chronic Kidney Insufficiency,Chronic Kidney Insufficiency,0.2539655730706601,0.08349850182084043,10.036781609195403,29,1,LPA,FALSE,enrichr_default
+DisGeNET,Paget Disease Extramammary,Paget Disease Extramammary,0.2539655730706601,0.08349850182084043,10.036781609195403,29,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Contiguous gene syndrome,Contiguous gene syndrome,0.2539655730706601,0.08349850182084043,10.036781609195403,29,1,HBA2,FALSE,enrichr_default
+DisGeNET,Intermittent Claudication,Intermittent Claudication,0.2539655730706601,0.08349850182084043,10.036781609195403,29,1,LPA,FALSE,enrichr_default
+DisGeNET,Primary peritoneal carcinoma,Primary peritoneal carcinoma,0.2539655730706601,0.08349850182084043,10.036781609195403,29,1,MUC16,FALSE,enrichr_default
+DisGeNET,Left ventricular noncompaction,Left ventricular noncompaction,0.2539655730706601,0.08349850182084043,10.036781609195403,29,1,SDHA,FALSE,enrichr_default
+DisGeNET,Angiofibroma,Angiofibroma,0.2539655730706601,0.08349850182084043,10.036781609195403,29,1,AHRR,FALSE,enrichr_default
+DisGeNET,Muscle Weakness,Muscle Weakness,0.2539655730706601,0.08159234882809234,2.5758112094395282,339,3,MGAM;SDHA;TTN,FALSE,enrichr_default
+DisGeNET,Recurrent aphthous ulcer,Recurrent aphthous ulcer,0.254410793018866,0.08625199387573851,9.702222222222222,30,1,C4A,FALSE,enrichr_default
+DisGeNET,"Carcinoma, Signet Ring Cell","Carcinoma, Signet Ring Cell",0.254410793018866,0.08625199387573851,9.702222222222222,30,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Brain hemorrhage,Brain hemorrhage,0.254410793018866,0.08625199387573851,9.702222222222222,30,1,SDHA,FALSE,enrichr_default
+DisGeNET,"Hemorrhagic Fevers, Viral","Hemorrhagic Fevers, Viral",0.254410793018866,0.08625199387573851,9.702222222222222,30,1,MGAM,FALSE,enrichr_default
+DisGeNET,"Optic Atrophy, Autosomal Dominant","Optic Atrophy, Autosomal Dominant",0.254410793018866,0.08625199387573851,9.702222222222222,30,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Stomach Diseases,Stomach Diseases,0.254410793018866,0.08625199387573851,9.702222222222222,30,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,"Pheochromocytoma, Extra-Adrenal","Pheochromocytoma, Extra-Adrenal",0.254410793018866,0.08625199387573851,9.702222222222222,30,1,SDHA,FALSE,enrichr_default
+DisGeNET,Tendinopathy,Tendinopathy,0.254410793018866,0.08625199387573851,9.702222222222222,30,1,MPP7,FALSE,enrichr_default
+DisGeNET,Overlap syndrome,Overlap syndrome,0.254410793018866,0.08625199387573851,9.702222222222222,30,1,TTN,FALSE,enrichr_default
+DisGeNET,Abnormal mitochondria in muscle tissue,Abnormal mitochondria in muscle tissue,0.254410793018866,0.08625199387573851,9.702222222222222,30,1,SDHA,FALSE,enrichr_default
+DisGeNET,X-Linked Emery-Dreifuss Muscular Dystrophy,X-Linked Emery-Dreifuss Muscular Dystrophy,0.254410793018866,0.08625199387573851,9.702222222222222,30,1,TTN,FALSE,enrichr_default
+DisGeNET,Dysequilibrium syndrome,Dysequilibrium syndrome,0.254410793018866,0.08625199387573851,9.702222222222222,30,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Encephalomyelitis,Encephalomyelitis,0.2549975500515192,0.08666868054697235,2.5091954022988507,348,3,TRPM2;LPA;TTN,FALSE,enrichr_default
+DisGeNET,Glycogen Storage Disease,Glycogen Storage Disease,0.25760482720158095,0.0889973510131811,9.389247311827958,31,1,MGAM,FALSE,enrichr_default
+DisGeNET,Chronic interstitial cystitis,Chronic interstitial cystitis,0.25760482720158095,0.0889973510131811,9.389247311827958,31,1,TRPM2,FALSE,enrichr_default
+DisGeNET,Oral Ulcer,Oral Ulcer,0.25760482720158095,0.0889973510131811,9.389247311827958,31,1,C4A,FALSE,enrichr_default
+DisGeNET,21-hydroxylase deficiency,21-hydroxylase deficiency,0.25760482720158095,0.0889973510131811,9.389247311827958,31,1,C4A,FALSE,enrichr_default
+DisGeNET,Activated Protein C Resistance,Activated Protein C Resistance,0.25760482720158095,0.0889973510131811,9.389247311827958,31,1,PRH1,FALSE,enrichr_default
+DisGeNET,Cardiovascular morbidity,Cardiovascular morbidity,0.25760482720158095,0.0917345968770788,9.095833333333333,32,1,LPA,FALSE,enrichr_default
+DisGeNET,Intestinal Obstruction,Intestinal Obstruction,0.25760482720158095,0.0917345968770788,9.095833333333333,32,1,SDHA,FALSE,enrichr_default
+DisGeNET,Zellweger Syndrome,Zellweger Syndrome,0.25760482720158095,0.0917345968770788,9.095833333333333,32,1,LPA,FALSE,enrichr_default
+DisGeNET,Iron deficiency anemia,Iron deficiency anemia,0.25760482720158095,0.0917345968770788,9.095833333333333,32,1,HBA2,FALSE,enrichr_default
+DisGeNET,Juvenile polyposis syndrome,Juvenile polyposis syndrome,0.25760482720158095,0.0917345968770788,9.095833333333333,32,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Dysphonia,Dysphonia,0.25760482720158095,0.0917345968770788,9.095833333333333,32,1,SDHA,FALSE,enrichr_default
+DisGeNET,Lipid Metabolism Disorders,Lipid Metabolism Disorders,0.25760482720158095,0.0917345968770788,9.095833333333333,32,1,LPA,FALSE,enrichr_default
+DisGeNET,Pulmonary Alveolar Proteinosis,Pulmonary Alveolar Proteinosis,0.25760482720158095,0.0917345968770788,9.095833333333333,32,1,DMBT1,FALSE,enrichr_default
+DisGeNET,Aortic valve calcification,Aortic valve calcification,0.25760482720158095,0.0917345968770788,9.095833333333333,32,1,LPA,FALSE,enrichr_default
+DisGeNET,Contracture,Contracture,0.25760482720158095,0.0887278326738941,3.506827309236948,166,2,SDHA;TTN,FALSE,enrichr_default
+DisGeNET,Progressive Neoplastic Disease,Progressive Neoplastic Disease,0.25760482720158095,0.0896358205828702,3.485828343313373,167,2,MUC16;DDT,FALSE,enrichr_default
+DisGeNET,Papillary Renal Cell Carcinoma,Papillary Renal Cell Carcinoma,0.25760482720158095,0.09146016758434966,3.4445759368836293,169,2,GSTM1;MUC4,FALSE,enrichr_default
+DisGeNET,Progressive cGVHD,Progressive cGVHD,0.25760482720158095,0.09146016758434966,3.4445759368836293,169,2,MUC16;DDT,FALSE,enrichr_default
+DisGeNET,Adenocarcinoma of pancreas,Adenocarcinoma of pancreas,0.25760482720158095,0.09012664028936183,2.466666666666667,354,3,GSTM1;MUC16;MUC4,FALSE,enrichr_default
+DisGeNET,Blood Coagulation Disorders,Blood Coagulation Disorders,0.26136135891545403,0.09329551496725856,3.4042884990253413,171,2,LPA;PRH1,FALSE,enrichr_default
+DisGeNET,Taste bitter,Taste bitter,0.2621257277046674,0.09446375498836009,8.82020202020202,33,1,MRGPRX1,FALSE,enrichr_default
+DisGeNET,Congenital adrenal hyperplasia due to 21 hydroxylase deficiency,Congenital adrenal hyperplasia due to 21 hydroxylase deficiency,0.2621257277046674,0.09446375498836009,8.82020202020202,33,1,C4A,FALSE,enrichr_default
+DisGeNET,Ventricular hypertrophy,Ventricular hypertrophy,0.2621257277046674,0.09446375498836009,8.82020202020202,33,1,PRH1,FALSE,enrichr_default
+DisGeNET,Iron-Refractory Iron Deficiency Anemia,Iron-Refractory Iron Deficiency Anemia,0.2621257277046674,0.09446375498836009,8.82020202020202,33,1,HBA2,FALSE,enrichr_default
+DisGeNET,Malignant neoplasm of endometrium,Malignant neoplasm of endometrium,0.2622044403711692,0.0947160361033344,2.017793183131138,577,4,GSTM1;MUC16;DDT;MUC4,FALSE,enrichr_default
+DisGeNET,Fever,Fever,0.26276154861026807,0.0951416708887734,3.364932562620424,173,2,C4A;APOBEC3A,FALSE,enrichr_default
+DisGeNET,Uterine Corpus Cancer,Uterine Corpus Cancer,0.2634811916505263,0.09562724718315428,2.010823258491652,579,4,GSTM1;MUC16;DDT;MUC4,FALSE,enrichr_default
+DisGeNET,Malignant neoplasm of vulva,Malignant neoplasm of vulva,0.2640451462122849,0.09718484886207925,8.56078431372549,34,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Metastatic Carcinoma,Metastatic Carcinoma,0.2640451462122849,0.09718484886207925,8.56078431372549,34,1,TNFRSF10D,FALSE,enrichr_default
+DisGeNET,Broad-based gait,Broad-based gait,0.2640451462122849,0.09718484886207925,8.56078431372549,34,1,TTN,FALSE,enrichr_default
+DisGeNET,Cleft Lip with or without Cleft Palate,Cleft Lip with or without Cleft Palate,0.2640451462122849,0.09718484886207925,8.56078431372549,34,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Wolff-Parkinson-White Syndrome,Wolff-Parkinson-White Syndrome,0.2640451462122849,0.09718484886207925,8.56078431372549,34,1,TTN,FALSE,enrichr_default
+DisGeNET,Heart failure,Heart failure,0.2640451462122849,0.09707357222951028,1.785685071574642,815,5,MUC16;HBA2;LPA;PRH1;TTN,FALSE,enrichr_default
+DisGeNET,Mucosa-Associated Lymphoid Tissue Lymphoma,Mucosa-Associated Lymphoid Tissue Lymphoma,0.2654558214484404,0.09793075564963812,3.3075757575757576,176,2,GSTM1;TNFRSF10D,FALSE,enrichr_default
+DisGeNET,"COLORBLINDNESS, PARTIAL, DEUTAN SERIES","COLORBLINDNESS, PARTIAL, DEUTAN SERIES",0.2676898012053233,0.0998979019015596,8.316190476190476,35,1,TEX28,FALSE,enrichr_default
+DisGeNET,"Gait, Drop Foot","Gait, Drop Foot",0.2676898012053233,0.0998979019015596,8.316190476190476,35,1,TTN,FALSE,enrichr_default
+DisGeNET,Neonatal Jaundice,Neonatal Jaundice,0.2676898012053233,0.0998979019015596,8.316190476190476,35,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Juvenile Myoclonic Epilepsy,Juvenile Myoclonic Epilepsy,0.2676898012053233,0.0998979019015596,8.316190476190476,35,1,TRPM2,FALSE,enrichr_default
+DisGeNET,Cerebrovascular Disorders,Cerebrovascular Disorders,0.2676898012053233,0.09980310564400072,3.2704119850187268,178,2,LPA;PRH1,FALSE,enrichr_default
+DisGeNET,"Benign neoplasm of brain, unspecified","Benign neoplasm of brain, unspecified",0.27202462584999504,0.10260293748639536,8.085185185185185,36,1,DMBT1,FALSE,enrichr_default
+DisGeNET,"DEAFNESS, AUTOSOMAL RECESSIVE (disorder)","DEAFNESS, AUTOSOMAL RECESSIVE (disorder)",0.27202462584999504,0.10260293748639536,8.085185185185185,36,1,RIPOR2,FALSE,enrichr_default
+DisGeNET,Ovarian Mucinous Adenocarcinoma,Ovarian Mucinous Adenocarcinoma,0.27202462584999504,0.10260293748639536,8.085185185185185,36,1,TTN,FALSE,enrichr_default
+DisGeNET,5q-syndrome,5q-syndrome,0.27202462584999504,0.10260293748639536,8.085185185185185,36,1,TTN,FALSE,enrichr_default
+DisGeNET,Calcification of coronary artery,Calcification of coronary artery,0.27202462584999504,0.10267710044893066,2.3285333333333336,375,3,NAT8;ANKRD30A;LPA,FALSE,enrichr_default
+DisGeNET,Malignant neoplasm of oropharynx,Malignant neoplasm of oropharynx,0.275708633996121,0.10529997887595016,7.866666666666666,37,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Malignant neoplasm of pharynx,Malignant neoplasm of pharynx,0.275708633996121,0.10529997887595016,7.866666666666666,37,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Obstructive azoospermia,Obstructive azoospermia,0.275708633996121,0.10529997887595016,7.866666666666666,37,1,MGAM,FALSE,enrichr_default
+DisGeNET,Oculocerebrorenal Syndrome,Oculocerebrorenal Syndrome,0.275708633996121,0.10529997887595016,7.866666666666666,37,1,ARSH,FALSE,enrichr_default
+DisGeNET,Proteinuria,Proteinuria,0.275708633996121,0.10548033136657747,3.163768115942029,184,2,MUC16;SDHA,FALSE,enrichr_default
+DisGeNET,Stomach Neoplasms,Stomach Neoplasms,0.275708633996121,0.10486691380701188,1.7429141716566867,835,5,FCGBP;GSTM1;SDHA;MUC4;MUC5AC,FALSE,enrichr_default
+DisGeNET,Chronic Kidney Diseases,Chronic Kidney Diseases,0.2758354142003304,0.1057643902441916,2.2978947368421054,380,3,GSTM1;NAT8;LPA,FALSE,enrichr_default
+DisGeNET,Gross motor development delay,Gross motor development delay,0.27792346537613344,0.1079890493135275,7.659649122807018,38,1,TTN,FALSE,enrichr_default
+DisGeNET,"Nephritis, Tubulointerstitial","Nephritis, Tubulointerstitial",0.27792346537613344,0.1079890493135275,7.659649122807018,38,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Idiopathic Membranous Glomerulonephritis,Idiopathic Membranous Glomerulonephritis,0.27792346537613344,0.1079890493135275,7.659649122807018,38,1,C4A,FALSE,enrichr_default
+DisGeNET,Keratosis,Keratosis,0.27792346537613344,0.1079890493135275,7.659649122807018,38,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Disorder of the optic nerve,Disorder of the optic nerve,0.27792346537613344,0.1079890493135275,7.659649122807018,38,1,GSTM1,FALSE,enrichr_default
+DisGeNET,DOWN SYNDROME CRITICAL REGION,DOWN SYNDROME CRITICAL REGION,0.27792346537613344,0.1079890493135275,7.659649122807018,38,1,TNFRSF10D,FALSE,enrichr_default
+DisGeNET,Benign Ovarian Neoplasm,Benign Ovarian Neoplasm,0.2817277637835638,0.11067017193888928,7.4632478632478625,39,1,MUC16,FALSE,enrichr_default
+DisGeNET,Short toe,Short toe,0.2817277637835638,0.11067017193888928,7.4632478632478625,39,1,HBA2,FALSE,enrichr_default
+DisGeNET,Myofibrillar Myopathy,Myofibrillar Myopathy,0.2817277637835638,0.11067017193888928,7.4632478632478625,39,1,TTN,FALSE,enrichr_default
+DisGeNET,Gowers sign present,Gowers sign present,0.2817277637835638,0.11067017193888928,7.4632478632478625,39,1,TTN,FALSE,enrichr_default
+DisGeNET,heavy drinking,heavy drinking,0.2817277637835638,0.11067017193888928,7.4632478632478625,39,1,GSTM1,FALSE,enrichr_default
+DisGeNET,"Anemia, severe","Anemia, severe",0.285430292694734,0.11334336985743068,7.276666666666666,40,1,HBA2,FALSE,enrichr_default
+DisGeNET,"Degenerative Diseases, Spinal Cord","Degenerative Diseases, Spinal Cord",0.285430292694734,0.11334336985743068,7.276666666666666,40,1,GSTM1,FALSE,enrichr_default
+DisGeNET,"Muscular Dystrophy, Oculopharyngeal","Muscular Dystrophy, Oculopharyngeal",0.285430292694734,0.11334336985743068,7.276666666666666,40,1,TTN,FALSE,enrichr_default
+DisGeNET,Palpitations,Palpitations,0.285430292694734,0.11334336985743068,7.276666666666666,40,1,SDHA,FALSE,enrichr_default
+DisGeNET,Acute Myeloid Leukemia Arising from Previous Myelodysplastic Syndrome,Acute Myeloid Leukemia Arising from Previous Myelodysplastic Syndrome,0.285430292694734,0.11334336985743068,7.276666666666666,40,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Breaking out,Breaking out,0.28563959888835777,0.11600866609252916,7.099186991869919,41,1,C4A,FALSE,enrichr_default
+DisGeNET,Genitourinary Cancer,Genitourinary Cancer,0.28563959888835777,0.11600866609252916,7.099186991869919,41,1,MRGPRX1,FALSE,enrichr_default
+DisGeNET,Chikungunya Fever,Chikungunya Fever,0.28563959888835777,0.11600866609252916,7.099186991869919,41,1,KIR2DL1,FALSE,enrichr_default
+DisGeNET,"Nephrotic Syndrome, Minimal Change","Nephrotic Syndrome, Minimal Change",0.28563959888835777,0.11600866609252916,7.099186991869919,41,1,LPA,FALSE,enrichr_default
+DisGeNET,"Pancreatitis, Alcoholic","Pancreatitis, Alcoholic",0.28563959888835777,0.11600866609252916,7.099186991869919,41,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Chronic viral hepatitis,Chronic viral hepatitis,0.28563959888835777,0.11600866609252916,7.099186991869919,41,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,AIDS related complex,AIDS related complex,0.28563959888835777,0.11600866609252916,7.099186991869919,41,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Alcohol withdrawal syndrome,Alcohol withdrawal syndrome,0.28563959888835777,0.11600866609252916,7.099186991869919,41,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Laryngeal neoplasm,Laryngeal neoplasm,0.28563959888835777,0.11600866609252916,7.099186991869919,41,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Disseminated Malignant Neoplasm,Disseminated Malignant Neoplasm,0.28563959888835777,0.11610969177699255,2.985299145299145,195,2,MUC4;TTN,FALSE,enrichr_default
+DisGeNET,Anxiety Disorders,Anxiety Disorders,0.28563959888835777,0.11588752920330478,2.205050505050505,396,3,TRPM2;GSTM1;TTN,FALSE,enrichr_default
+DisGeNET,"Degenerative Diseases, Central Nervous System","Degenerative Diseases, Central Nervous System",0.2876976891988214,0.1186660835892662,6.9301587301587295,42,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Optic Neuritis,Optic Neuritis,0.2876976891988214,0.1186660835892662,6.9301587301587295,42,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Disease due to Parvoviridae,Disease due to Parvoviridae,0.2876976891988214,0.1186660835892662,6.9301587301587295,42,1,PRH1,FALSE,enrichr_default
+DisGeNET,Drug Allergy,Drug Allergy,0.2876976891988214,0.1186660835892662,6.9301587301587295,42,1,GSTM1,FALSE,enrichr_default
+DisGeNET,EMG: myopathic abnormalities,EMG: myopathic abnormalities,0.2876976891988214,0.1186660835892662,6.9301587301587295,42,1,TTN,FALSE,enrichr_default
+DisGeNET,Ragged-red muscle fibers,Ragged-red muscle fibers,0.2876976891988214,0.1186660835892662,6.9301587301587295,42,1,SDHA,FALSE,enrichr_default
+DisGeNET,Arrhythmogenic Right Ventricular Dysplasia,Arrhythmogenic Right Ventricular Dysplasia,0.2876976891988214,0.1186660835892662,6.9301587301587295,42,1,TTN,FALSE,enrichr_default
+DisGeNET,Becker Muscular Dystrophy,Becker Muscular Dystrophy,0.28991963388514747,0.12131564526363985,6.768992248062015,43,1,TTN,FALSE,enrichr_default
+DisGeNET,Flushing,Flushing,0.28991963388514747,0.12131564526363985,6.768992248062015,43,1,SDHA,FALSE,enrichr_default
+DisGeNET,Hyperlipoproteinemias,Hyperlipoproteinemias,0.28991963388514747,0.12131564526363985,6.768992248062015,43,1,LPA,FALSE,enrichr_default
+DisGeNET,Triploidy syndrome,Triploidy syndrome,0.28991963388514747,0.12131564526363985,6.768992248062015,43,1,MUC16,FALSE,enrichr_default
+DisGeNET,Peroxisomal Disorders,Peroxisomal Disorders,0.28991963388514747,0.12131564526363985,6.768992248062015,43,1,LPA,FALSE,enrichr_default
+DisGeNET,Dropped beats - heart,Dropped beats - heart,0.28991963388514747,0.12131564526363985,6.768992248062015,43,1,SDHA,FALSE,enrichr_default
+DisGeNET,Pulmonary Cystic Fibrosis,Pulmonary Cystic Fibrosis,0.28991963388514747,0.12131564526363985,6.768992248062015,43,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Sickle Cell Trait,Sickle Cell Trait,0.29100423841453743,0.12395737394092808,6.615151515151515,44,1,HBA2,FALSE,enrichr_default
+DisGeNET,CARCINOMA OF VULVA,CARCINOMA OF VULVA,0.29100423841453743,0.12395737394092808,6.615151515151515,44,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Muscular stiffness,Muscular stiffness,0.29100423841453743,0.12395737394092808,6.615151515151515,44,1,TTN,FALSE,enrichr_default
+DisGeNET,Chromosome Breakage,Chromosome Breakage,0.29100423841453743,0.12395737394092808,6.615151515151515,44,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Confusion,Confusion,0.29100423841453743,0.12395737394092808,6.615151515151515,44,1,C4A,FALSE,enrichr_default
+DisGeNET,Acquired aplastic anemia,Acquired aplastic anemia,0.29100423841453743,0.12395737394092808,6.615151515151515,44,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Pneumococcal Infections,Pneumococcal Infections,0.29100423841453743,0.12395737394092808,6.615151515151515,44,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Cardiac Arrest,Cardiac Arrest,0.29100423841453743,0.12201959898390612,2.896185737976783,201,2,GSTM1;HBA2,FALSE,enrichr_default
+DisGeNET,Muscular Dystrophy,Muscular Dystrophy,0.29100423841453743,0.12400607597681824,2.8676518883415434,203,2,MGAM;TTN,FALSE,enrichr_default
+DisGeNET,Malignant Central Nervous System Neoplasm,Malignant Central Nervous System Neoplasm,0.2912345842012562,0.12659129236416686,6.468148148148148,45,1,GOLGA3,FALSE,enrichr_default
+DisGeNET,Mammary adenocarcinoma,Mammary adenocarcinoma,0.2912345842012562,0.12659129236416686,6.468148148148148,45,1,MUC4,FALSE,enrichr_default
+DisGeNET,Bronchogenic Carcinoma,Bronchogenic Carcinoma,0.2912345842012562,0.12659129236416686,6.468148148148148,45,1,GSTM1,FALSE,enrichr_default
+DisGeNET,gallbladder neoplasm,gallbladder neoplasm,0.2912345842012562,0.12659129236416686,6.468148148148148,45,1,GSTM1,FALSE,enrichr_default
+DisGeNET,"Leukemia, Plasma Cell","Leukemia, Plasma Cell",0.2912345842012562,0.12659129236416686,6.468148148148148,45,1,MUC16,FALSE,enrichr_default
+DisGeNET,Infectious Otitis Media,Infectious Otitis Media,0.2912345842012562,0.12659129236416686,6.468148148148148,45,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Age-related cataract,Age-related cataract,0.2912345842012562,0.12659129236416686,6.468148148148148,45,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Distal Muscular Dystrophies,Distal Muscular Dystrophies,0.2912345842012562,0.12659129236416686,6.468148148148148,45,1,TTN,FALSE,enrichr_default
+DisGeNET,Purpura,Purpura,0.2912345842012562,0.12659129236416686,6.468148148148148,45,1,C4A,FALSE,enrichr_default
+DisGeNET,Papilloma,Papilloma,0.2912345842012562,0.12500231676893,2.85359477124183,204,2,GSTM1;APOBEC3A,FALSE,enrichr_default
+DisGeNET,Basal Cell Nevus Syndrome,Basal Cell Nevus Syndrome,0.2949582897077042,0.1292174232451343,6.327536231884058,46,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Foot-drop,Foot-drop,0.2949582897077042,0.1292174232451343,6.327536231884058,46,1,TTN,FALSE,enrichr_default
+DisGeNET,Nodular Sclerosis Classical Hodgkin Lymphoma,Nodular Sclerosis Classical Hodgkin Lymphoma,0.2949582897077042,0.1292174232451343,6.327536231884058,46,1,UPF3A,FALSE,enrichr_default
+DisGeNET,Disseminated Intravascular Coagulation,Disseminated Intravascular Coagulation,0.2949582897077042,0.1292174232451343,6.327536231884058,46,1,PRH1,FALSE,enrichr_default
+DisGeNET,Trisomy,Trisomy,0.2961963216691704,0.13001273214171957,2.7853269537480063,209,2,GSTM1;HBA2,FALSE,enrichr_default
+DisGeNET,"Cardiomyopathy, Dilated","Cardiomyopathy, Dilated",0.2979917007297701,0.13105527401864356,2.0840095465393795,419,3,SDHA;PRH1;TTN,FALSE,enrichr_default
+DisGeNET,Foot dorsiflexor weakness,Foot dorsiflexor weakness,0.2980303265827854,0.13183578921424666,6.19290780141844,47,1,TTN,FALSE,enrichr_default
+DisGeNET,Diabetic Foot,Diabetic Foot,0.2980303265827854,0.13183578921424666,6.19290780141844,47,1,LPA,FALSE,enrichr_default
+DisGeNET,Antiphospholipid Syndrome,Antiphospholipid Syndrome,0.2980303265827854,0.13183578921424666,6.19290780141844,47,1,PRH1,FALSE,enrichr_default
+DisGeNET,Manic Disorder,Manic Disorder,0.3021818607444781,0.1344464128504467,6.063888888888889,48,1,TRPM2,FALSE,enrichr_default
+DisGeNET,Fabry Disease,Fabry Disease,0.3021818607444781,0.1344464128504467,6.063888888888889,48,1,MGAM,FALSE,enrichr_default
+DisGeNET,Corneal Neovascularization,Corneal Neovascularization,0.3021818607444781,0.1344464128504467,6.063888888888889,48,1,MUC4,FALSE,enrichr_default
+DisGeNET,cardiac event,cardiac event,0.3045251419254733,0.13704931664792863,5.940136054421768,49,1,LPA,FALSE,enrichr_default
+DisGeNET,Central nervous system demyelination,Central nervous system demyelination,0.3045251419254733,0.13704931664792863,5.940136054421768,49,1,SDHA,FALSE,enrichr_default
+DisGeNET,Airway Obstruction,Airway Obstruction,0.3045251419254733,0.13704931664792863,5.940136054421768,49,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Dryness of eye,Dryness of eye,0.3045251419254733,0.13704931664792863,5.940136054421768,49,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Aortic coarctation,Aortic coarctation,0.3045251419254733,0.13704931664792863,5.940136054421768,49,1,TRPM2,FALSE,enrichr_default
+DisGeNET,Restenosis,Restenosis,0.3045251419254733,0.13608686256301242,2.707596899224806,215,2,MRGPRX1;LPA,FALSE,enrichr_default
+DisGeNET,Inflammation,Inflammation,0.30517251071011375,0.1378618771696415,2.0354312354312354,429,3,C4A;DMBT1;DDT,FALSE,enrichr_default
+DisGeNET,Crohn Disease,Crohn Disease,0.30517251071011375,0.13766308992234366,1.5957602339181285,912,5,GSTM1;DMBT1;MUC19;MUC4;MUC5AC,FALSE,enrichr_default
+DisGeNET,Atypical Ductal Breast Hyperplasia,Atypical Ductal Breast Hyperplasia,0.3062242256471517,0.13964452305344063,5.8213333333333335,50,1,LPA,FALSE,enrichr_default
+DisGeNET,Cervical Squamous Intraepithelial Neoplasia,Cervical Squamous Intraepithelial Neoplasia,0.3062242256471517,0.13964452305344063,5.8213333333333335,50,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Childhood onset,Childhood onset,0.3062242256471517,0.13964452305344063,5.8213333333333335,50,1,TTN,FALSE,enrichr_default
+DisGeNET,Hypertrichosis,Hypertrichosis,0.3062242256471517,0.13964452305344063,5.8213333333333335,50,1,SDHA,FALSE,enrichr_default
+DisGeNET,Turcot syndrome (disorder),Turcot syndrome (disorder),0.3062242256471517,0.13964452305344063,5.8213333333333335,50,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Nasal Polyps,Nasal Polyps,0.3068056774096078,0.1401716801145518,2.6581430745814307,219,2,MUC4;MUC5AC,FALSE,enrichr_default
+DisGeNET,Nonorganic psychosis,Nonorganic psychosis,0.3084735882275817,0.14119713346710827,2.646060606060606,220,2,TRPM2;APOBEC3A,FALSE,enrichr_default
+DisGeNET,Metaplasia,Metaplasia,0.3090050756187132,0.14223205444789616,5.70718954248366,51,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Premature coronary artery disease,Premature coronary artery disease,0.3090050756187132,0.14223205444789616,5.70718954248366,51,1,LPA,FALSE,enrichr_default
+DisGeNET,Albinism,Albinism,0.3090050756187132,0.14223205444789616,5.70718954248366,51,1,MRGPRX1,FALSE,enrichr_default
+DisGeNET,Acute Erythroblastic Leukemia,Acute Erythroblastic Leukemia,0.31511908903905284,0.14531537837838474,2.5988095238095235,224,2,HBA2;LPA,FALSE,enrichr_default
+DisGeNET,Exanthema,Exanthema,0.31677380011307876,0.14634895462098685,2.5872592592592594,225,2,HBA2;TTN,FALSE,enrichr_default
+DisGeNET,Interstitial Cystitis,Interstitial Cystitis,0.31842597114432625,0.1473841813494661,5.491823899371069,53,1,TRPM2,FALSE,enrichr_default
+DisGeNET,Malignant neoplasm of nasopharynx,Malignant neoplasm of nasopharynx,0.32159353436100213,0.14994882131606077,5.390123456790123,54,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Severe muscular hypotonia,Severe muscular hypotonia,0.32159353436100213,0.14994882131606077,5.390123456790123,54,1,TTN,FALSE,enrichr_default
+DisGeNET,"Hemophilia, NOS","Hemophilia, NOS",0.32159353436100213,0.14994882131606077,5.390123456790123,54,1,PRH1,FALSE,enrichr_default
+DisGeNET,"Xeroderma Pigmentosum, Complementation Group D","Xeroderma Pigmentosum, Complementation Group D",0.32159353436100213,0.14994882131606077,5.390123456790123,54,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Drug abuse,Drug abuse,0.32218292295451906,0.15049876930497175,2.5420669577874815,229,2,GSTM1;MPP7,FALSE,enrichr_default
+DisGeNET,Myocardial Ischemia,Myocardial Ischemia,0.3229271214840436,0.1511221712837369,1.949107142857143,448,3,GSTM1;LPA;TTN,FALSE,enrichr_default
+DisGeNET,Immunoglobulin A deficiency (disorder),Immunoglobulin A deficiency (disorder),0.32529030926403824,0.1525058751374526,5.292121212121212,55,1,C4A,FALSE,enrichr_default
+DisGeNET,Familial Mediterranean Fever,Familial Mediterranean Fever,0.3265644465176303,0.15505536487088167,5.197619047619047,56,1,HBA2,FALSE,enrichr_default
+DisGeNET,Carotid Stenosis,Carotid Stenosis,0.3265644465176303,0.15505536487088167,5.197619047619047,56,1,LPA,FALSE,enrichr_default
+DisGeNET,Hyperandrogenism,Hyperandrogenism,0.3265644465176303,0.15505536487088167,5.197619047619047,56,1,LPA,FALSE,enrichr_default
+DisGeNET,Treatment related acute myeloid leukaemia,Treatment related acute myeloid leukaemia,0.3265644465176303,0.15505536487088167,5.197619047619047,56,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Cystitis,Cystitis,0.3265644465176303,0.15505536487088167,5.197619047619047,56,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Adult Cholangiocarcinoma,Adult Cholangiocarcinoma,0.3265644465176303,0.15505536487088167,5.197619047619047,56,1,MUC4,FALSE,enrichr_default
+DisGeNET,Hyperlipidemia,Hyperlipidemia,0.3265644465176303,0.15362690966162432,2.5091954022988507,232,2,LPA;PRH1,FALSE,enrichr_default
+DisGeNET,Encephalopathies,Encephalopathies,0.3273745630373648,0.15571958293066798,2.487749287749288,234,2,GSTM1;SDHA,FALSE,enrichr_default
+DisGeNET,Cholangiocarcinoma,Cholangiocarcinoma,0.32760678499229984,0.1561098087324537,1.9191208791208791,455,3,DMBT1;MUC4;MUC5AC,FALSE,enrichr_default
+DisGeNET,Carotid Artery Diseases,Carotid Artery Diseases,0.32895980917554846,0.1575973125085249,5.106432748538012,57,1,LPA,FALSE,enrichr_default
+DisGeNET,Pallor,Pallor,0.32895980917554846,0.1575973125085249,5.106432748538012,57,1,HBA2,FALSE,enrichr_default
+DisGeNET,Pneumocystis jiroveci pneumonia,Pneumocystis jiroveci pneumonia,0.32895980917554846,0.1575973125085249,5.106432748538012,57,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Respiratory Tract Diseases,Respiratory Tract Diseases,0.32955055805693817,0.16013173999521588,5.0183908045977015,58,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,"Carcinoma, Lobular","Carcinoma, Lobular",0.32955055805693817,0.16013173999521588,5.0183908045977015,58,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Maternal oligohydramnios,Maternal oligohydramnios,0.32955055805693817,0.16013173999521588,5.0183908045977015,58,1,HBA2,FALSE,enrichr_default
+DisGeNET,Silicosis,Silicosis,0.32955055805693817,0.16013173999521588,5.0183908045977015,58,1,C4A,FALSE,enrichr_default
+DisGeNET,Mycoplasma Infections,Mycoplasma Infections,0.32955055805693817,0.16013173999521588,5.0183908045977015,58,1,LPA,FALSE,enrichr_default
+DisGeNET,Congenital defects,Congenital defects,0.32955055805693817,0.16013173999521588,5.0183908045977015,58,1,PRH1,FALSE,enrichr_default
+DisGeNET,Large cell carcinoma of lung,Large cell carcinoma of lung,0.32955055805693817,0.16013173999521588,5.0183908045977015,58,1,TTN,FALSE,enrichr_default
+DisGeNET,"Hepatitis B, Chronic","Hepatitis B, Chronic",0.32955055805693817,0.15992168904488355,2.44593837535014,238,2,GSTM1;KIR2DL1,FALSE,enrichr_default
+DisGeNET,Chronic lung disease,Chronic lung disease,0.33125791589041986,0.16265866920323777,4.933333333333333,59,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Acne,Acne,0.33125791589041986,0.16265866920323777,4.933333333333333,59,1,C4A,FALSE,enrichr_default
+DisGeNET,Waddling gait,Waddling gait,0.33125791589041986,0.16265866920323777,4.933333333333333,59,1,TTN,FALSE,enrichr_default
+DisGeNET,Well Differentiated Pancreatic Endocrine Tumor,Well Differentiated Pancreatic Endocrine Tumor,0.33125791589041986,0.16265866920323777,4.933333333333333,59,1,MRGPRX1,FALSE,enrichr_default
+DisGeNET,Angina Pectoris,Angina Pectoris,0.33125791589041986,0.16265866920323777,4.933333333333333,59,1,LPA,FALSE,enrichr_default
+DisGeNET,Anxiety,Anxiety,0.33125791589041986,0.16259879237100042,1.8818965517241382,464,3,TRPM2;GSTM1;TTN,FALSE,enrichr_default
+DisGeNET,Gastrointestinal Stromal Sarcoma,Gastrointestinal Stromal Sarcoma,0.3350940792025534,0.1651781219201507,4.851111111111111,60,1,SDHA,FALSE,enrichr_default
+DisGeNET,Dry Eye Syndromes,Dry Eye Syndromes,0.3350940792025534,0.1651781219201507,4.851111111111111,60,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,"Cholestasis, Extrahepatic","Cholestasis, Extrahepatic",0.3350940792025534,0.16769011990836574,4.771584699453552,61,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,"Depression, Bipolar","Depression, Bipolar",0.3350940792025534,0.16769011990836574,4.771584699453552,61,1,TRPM2,FALSE,enrichr_default
+DisGeNET,Ganglioglioma,Ganglioglioma,0.3350940792025534,0.16769011990836574,4.771584699453552,61,1,DMBT1,FALSE,enrichr_default
+DisGeNET,Sinusitis,Sinusitis,0.3350940792025534,0.16769011990836574,4.771584699453552,61,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,"MYELOPROLIFERATIVE SYNDROME, TRANSIENT","MYELOPROLIFERATIVE SYNDROME, TRANSIENT",0.3350940792025534,0.16769011990836574,4.771584699453552,61,1,TTN,FALSE,enrichr_default
+DisGeNET,Hemiparesis,Hemiparesis,0.3350940792025534,0.16769011990836574,4.771584699453552,61,1,C4A,FALSE,enrichr_default
+DisGeNET,Increased CSF lactate,Increased CSF lactate,0.3350940792025534,0.16769011990836574,4.771584699453552,61,1,SDHA,FALSE,enrichr_default
+DisGeNET,Leukoplakia,Leukoplakia,0.3350940792025534,0.16769011990836574,4.771584699453552,61,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Malaria,Malaria,0.3350940792025534,0.16623953648957737,1.8618336886993603,469,3,GSTM1;DDT;HBA2,FALSE,enrichr_default
+DisGeNET,Gastroesophageal reflux disease,Gastroesophageal reflux disease,0.33591759449526687,0.16838909305612437,2.3663956639566397,246,2,SCNN1D;MUC4,FALSE,enrichr_default
+DisGeNET,Lip and Oral Cavity Carcinoma,Lip and Oral Cavity Carcinoma,0.33690133965322616,0.16916992973193595,1.8460887949260043,473,3,GSTM1;APOBEC3A;TNFRSF10D,FALSE,enrichr_default
+DisGeNET,Cancer of Nasopharynx,Cancer of Nasopharynx,0.3383666824423454,0.17019468484930952,4.694623655913979,62,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Acute Promyelocytic Leukemia,Acute Promyelocytic Leukemia,0.3386788810620513,0.17064093921999168,1.8383157894736843,475,3,GSTM1;LPA;TNFRSF10D,FALSE,enrichr_default
+DisGeNET,Neutrophilia (disorder),Neutrophilia (disorder),0.3404413177282743,0.1726918383694235,4.62010582010582,63,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Papule,Papule,0.3404413177282743,0.1726918383694235,4.62010582010582,63,1,C4A,FALSE,enrichr_default
+DisGeNET,Iron deficiency,Iron deficiency,0.3404413177282743,0.1726918383694235,4.62010582010582,63,1,HBA2,FALSE,enrichr_default
+DisGeNET,Brain Diseases,Brain Diseases,0.3404413177282743,0.1726522429609845,2.328533333333333,250,2,GSTM1;SDHA,FALSE,enrichr_default
+DisGeNET,"Adenocarcinoma, Endometrioid","Adenocarcinoma, Endometrioid",0.342466871396708,0.17518160202103167,4.547916666666667,64,1,MUC16,FALSE,enrichr_default
+DisGeNET,Retinopathy of Prematurity,Retinopathy of Prematurity,0.342466871396708,0.17518160202103167,4.547916666666667,64,1,LPA,FALSE,enrichr_default
+DisGeNET,Muscle biopsy shows dystrophic changes,Muscle biopsy shows dystrophic changes,0.342466871396708,0.17518160202103167,4.547916666666667,64,1,TTN,FALSE,enrichr_default
+DisGeNET,High-Grade Squamous Intraepithelial Lesions,High-Grade Squamous Intraepithelial Lesions,0.342466871396708,0.17518160202103167,4.547916666666667,64,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Oligohydramnios,Oligohydramnios,0.342466871396708,0.17518160202103167,4.547916666666667,64,1,HBA2,FALSE,enrichr_default
+DisGeNET,Glomerular filtration rate finding,Glomerular filtration rate finding,0.34558893831673315,0.17766399732423002,4.477948717948718,65,1,NAT8,FALSE,enrichr_default
+DisGeNET,"Multiple, subcutaneous nodules","Multiple, subcutaneous nodules",0.34558893831673315,0.17766399732423002,4.477948717948718,65,1,C4A,FALSE,enrichr_default
+DisGeNET,Subcutaneous nodule,Subcutaneous nodule,0.34558893831673315,0.17766399732423002,4.477948717948718,65,1,C4A,FALSE,enrichr_default
+DisGeNET,Pain,Pain,0.3457700417778701,0.17805237847314745,1.8004123711340208,485,3,MRGPRX1;HBA2;LPA,FALSE,enrichr_default
+DisGeNET,Bronchiolitis,Bronchiolitis,0.34656811327186526,0.18013904565852595,4.41010101010101,66,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Glycogen storage disease type II,Glycogen storage disease type II,0.34656811327186526,0.18013904565852595,4.41010101010101,66,1,MGAM,FALSE,enrichr_default
+DisGeNET,Diffuse Astrocytoma,Diffuse Astrocytoma,0.34656811327186526,0.18013904565852595,4.41010101010101,66,1,DMBT1,FALSE,enrichr_default
+DisGeNET,Meningococcal Infections,Meningococcal Infections,0.34656811327186526,0.18260676847885643,4.344278606965174,67,1,PRH1,FALSE,enrichr_default
+DisGeNET,Bipolar I disorder,Bipolar I disorder,0.34656811327186526,0.18260676847885643,4.344278606965174,67,1,TRPM2,FALSE,enrichr_default
+DisGeNET,Schistosomiasis,Schistosomiasis,0.34656811327186526,0.18260676847885643,4.344278606965174,67,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Skin blisters,Skin blisters,0.34656811327186526,0.18260676847885643,4.344278606965174,67,1,C4A,FALSE,enrichr_default
+DisGeNET,Cerebral Hemorrhage,Cerebral Hemorrhage,0.34656811327186526,0.18260676847885643,4.344278606965174,67,1,SDHA,FALSE,enrichr_default
+DisGeNET,Cervical Adenocarcinoma,Cervical Adenocarcinoma,0.34656811327186526,0.18260676847885643,4.344278606965174,67,1,MUC16,FALSE,enrichr_default
+DisGeNET,Abnormal blistering of the skin,Abnormal blistering of the skin,0.34656811327186526,0.18260676847885643,4.344278606965174,67,1,C4A,FALSE,enrichr_default
+DisGeNET,Congenital muscular dystrophy (disorder),Congenital muscular dystrophy (disorder),0.34656811327186526,0.18260676847885643,4.344278606965174,67,1,TTN,FALSE,enrichr_default
+DisGeNET,Neuroendocrine Tumors,Neuroendocrine Tumors,0.34656811327186526,0.1801560221183525,2.2651102464332036,257,2,MRGPRX1;MUC4,FALSE,enrichr_default
+DisGeNET,Behcet Syndrome,Behcet Syndrome,0.34656811327186526,0.1812322318552527,2.2563307493540052,258,2,C4A;GSTM1,FALSE,enrichr_default
+DisGeNET,Adenoma of large intestine,Adenoma of large intestine,0.34656811327186526,0.1812322318552527,2.2563307493540052,258,2,GSTM1;MUC5AC,FALSE,enrichr_default
+DisGeNET,Malignant neoplasm of mouth,Malignant neoplasm of mouth,0.3467489349049483,0.18329427045786764,1.7747967479674798,492,3,GSTM1;APOBEC3A;TNFRSF10D,FALSE,enrichr_default
+DisGeNET,Infection,Infection,0.3467489349049483,0.18329427045786764,1.7747967479674798,492,3,C4A;KIR2DL1;TNFRSF10D,FALSE,enrichr_default
+DisGeNET,Hepatitis A,Hepatitis A,0.3484043822412338,0.1844668804351537,2.230395913154534,261,2,GSTM1;DMBT1,FALSE,enrichr_default
+DisGeNET,Skin bullae,Skin bullae,0.34841427016747,0.1850671870573581,4.280392156862745,68,1,C4A,FALSE,enrichr_default
+DisGeNET,Human papilloma virus infection,Human papilloma virus infection,0.34841427016747,0.1850671870573581,4.280392156862745,68,1,APOBEC3A,FALSE,enrichr_default
+DisGeNET,"Creatinine measurement, serum (procedure)","Creatinine measurement, serum (procedure)",0.349103812057808,0.1875203226168755,4.218357487922706,69,1,NAT8,FALSE,enrichr_default
+DisGeNET,Mucoepidermoid Carcinoma,Mucoepidermoid Carcinoma,0.349103812057808,0.1875203226168755,4.218357487922706,69,1,MUC4,FALSE,enrichr_default
+DisGeNET,Chronic otitis media,Chronic otitis media,0.349103812057808,0.1875203226168755,4.218357487922706,69,1,MUC4,FALSE,enrichr_default
+DisGeNET,Adenomatous Polyps,Adenomatous Polyps,0.349103812057808,0.1875203226168755,4.218357487922706,69,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Progressive supranuclear palsy,Progressive supranuclear palsy,0.349103812057808,0.1875203226168755,4.218357487922706,69,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Male infertility,Male infertility,0.349103812057808,0.1866281759482022,2.2134347275031687,263,2,GSTM1;AHRR,FALSE,enrichr_default
+DisGeNET,Pneumonia,Pneumonia,0.349103812057808,0.18706446358519263,1.7569416498993964,497,3,GSTM1;LPA;MUC5AC,FALSE,enrichr_default
+DisGeNET,Respiratory Tract Infections,Respiratory Tract Infections,0.35086816406781496,0.18996619642954285,4.158095238095238,70,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Benign Neoplasm,Benign Neoplasm,0.35086816406781496,0.18996619642954285,4.158095238095238,70,1,APOBEC3A,FALSE,enrichr_default
+DisGeNET,"Leukoplakia, Oral","Leukoplakia, Oral",0.35086816406781496,0.18996619642954285,4.158095238095238,70,1,GSTM1,FALSE,enrichr_default
+DisGeNET,alpha-Thalassemia,alpha-Thalassemia,0.35086816406781496,0.18996619642954285,4.158095238095238,70,1,HBA2,FALSE,enrichr_default
+DisGeNET,Renal carcinoma,Renal carcinoma,0.35086816406781496,0.18933665205922548,1.7464,500,3,GSTM1;DDT;SDHA,FALSE,enrichr_default
+DisGeNET,Memory impairment,Memory impairment,0.35215177747740567,0.19096189470380237,2.1802746566791513,267,2,TRPM2;GSTM1,FALSE,enrichr_default
+DisGeNET,Tracheal Diseases,Tracheal Diseases,0.3531442874949039,0.19240482956596813,4.0995305164319245,71,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Proximal muscle weakness,Proximal muscle weakness,0.3531442874949039,0.19240482956596813,4.0995305164319245,71,1,TTN,FALSE,enrichr_default
+DisGeNET,Proximal neurogenic muscle weakness,Proximal neurogenic muscle weakness,0.3531442874949039,0.19240482956596813,4.0995305164319245,71,1,TTN,FALSE,enrichr_default
+DisGeNET,Pancreatitis,Pancreatitis,0.3539280239941815,0.1931340797030589,2.164064436183395,269,2,GSTM1;MUC16,FALSE,enrichr_default
+DisGeNET,secondary acute myeloid leukemia,secondary acute myeloid leukemia,0.3548261907885798,0.19483624310594091,4.042592592592593,72,1,GSTM1,FALSE,enrichr_default
+DisGeNET,alpha^+^ Thalassemia,alpha^+^ Thalassemia,0.3548261907885798,0.19483624310594091,4.042592592592593,72,1,HBA2,FALSE,enrichr_default
+DisGeNET,Rectal Neoplasms,Rectal Neoplasms,0.3548261907885798,0.19483624310594091,4.042592592592593,72,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Cytomegalovirus Infections,Cytomegalovirus Infections,0.3548261907885798,0.19422145214295536,2.1560493827160494,270,2,LILRA6;KIR2DL1,FALSE,enrichr_default
+DisGeNET,Photosensitivity of skin,Photosensitivity of skin,0.35702008722868683,0.1972604581015887,3.987214611872146,73,1,C4A,FALSE,enrichr_default
+DisGeNET,Infertility,Infertility,0.35702008722868683,0.1972604581015887,3.987214611872146,73,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Dysplastic Nevus,Dysplastic Nevus,0.35702008722868683,0.1972604581015887,3.987214611872146,73,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Long QT Syndrome,Long QT Syndrome,0.35702008722868683,0.1972604581015887,3.987214611872146,73,1,DMBT1,FALSE,enrichr_default
+DisGeNET,Cerebrovascular accident,Cerebrovascular accident,0.35854098045630917,0.1984069644198876,1.5159722222222223,768,4,GSTM1;HBA2;LPA;PRH1,FALSE,enrichr_default
+DisGeNET,Breast Fibrocystic Disease,Breast Fibrocystic Disease,0.36350893603953566,0.2020873760561381,3.880888888888889,75,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Shy-Drager Syndrome,Shy-Drager Syndrome,0.36350893603953566,0.2020873760561381,3.880888888888889,75,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Impaired exercise tolerance,Impaired exercise tolerance,0.36350893603953566,0.2020873760561381,3.880888888888889,75,1,SDHA,FALSE,enrichr_default
+DisGeNET,Respiration Disorders,Respiration Disorders,0.3641264979975851,0.20449012079438483,3.829824561403509,76,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Chest Pain,Chest Pain,0.3641264979975851,0.20449012079438483,3.829824561403509,76,1,SDHA,FALSE,enrichr_default
+DisGeNET,Congenital pectus carinatum,Congenital pectus carinatum,0.3641264979975851,0.20449012079438483,3.829824561403509,76,1,HBA2,FALSE,enrichr_default
+DisGeNET,Amphetamine-Related Disorders,Amphetamine-Related Disorders,0.3641264979975851,0.20449012079438483,3.829824561403509,76,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Amphetamine Abuse,Amphetamine Abuse,0.3641264979975851,0.20449012079438483,3.829824561403509,76,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Essential Hypertension,Essential Hypertension,0.3641264979975851,0.2029492453997601,2.0940047961630692,278,2,GSTM1;LPA,FALSE,enrichr_default
+DisGeNET,Colonic Neoplasms,Colonic Neoplasms,0.3641264979975851,0.20460737462204187,1.4964867180805483,778,4,GSTM1;DMBT1;LPA;MUC5AC,FALSE,enrichr_default
+DisGeNET,Pheochromocytoma,Pheochromocytoma,0.36451804492009543,0.20513867771335856,2.079047619047619,280,2,DMBT1;SDHA,FALSE,enrichr_default
+DisGeNET,"Neoplastic Syndromes, Hereditary","Neoplastic Syndromes, Hereditary",0.36651015687730587,0.20688575038078497,3.7800865800865804,77,1,SDHA,FALSE,enrichr_default
+DisGeNET,Amphetamine Addiction,Amphetamine Addiction,0.36651015687730587,0.20688575038078497,3.7800865800865804,77,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Marinesco-Sjogren syndrome,Marinesco-Sjogren syndrome,0.3668565694748699,0.2092742855757584,3.7316239316239312,78,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Cerebral arterial aneurysm,Cerebral arterial aneurysm,0.3668565694748699,0.2092742855757584,3.7316239316239312,78,1,LPA,FALSE,enrichr_default
+DisGeNET,"Pleural Effusion, Malignant","Pleural Effusion, Malignant",0.3668565694748699,0.2092742855757584,3.7316239316239312,78,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Sudden infant death syndrome,Sudden infant death syndrome,0.3668565694748699,0.2092742855757584,3.7316239316239312,78,1,DMBT1,FALSE,enrichr_default
+DisGeNET,Peripheral Vascular Diseases,Peripheral Vascular Diseases,0.3668565694748699,0.2092742855757584,3.7316239316239312,78,1,LPA,FALSE,enrichr_default
+DisGeNET,Pulmonary Edema,Pulmonary Edema,0.3668565694748699,0.2092742855757584,3.7316239316239312,78,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Squamous cell carcinoma of lung,Squamous cell carcinoma of lung,0.3668565694748699,0.2084279869769821,2.057008244994111,283,2,GSTM1;TTN,FALSE,enrichr_default
+DisGeNET,Lysosomal Storage Diseases,Lysosomal Storage Diseases,0.36937239901904945,0.21165574700408385,3.6843881856540084,79,1,MGAM,FALSE,enrichr_default
+DisGeNET,Gliosis,Gliosis,0.36937239901904945,0.21165574700408385,3.6843881856540084,79,1,SDHA,FALSE,enrichr_default
+DisGeNET,"Polyendocrinopathies, Autoimmune","Polyendocrinopathies, Autoimmune",0.36937239901904945,0.21165574700408385,3.6843881856540084,79,1,C4A,FALSE,enrichr_default
+DisGeNET,"Dementia, Vascular","Dementia, Vascular",0.3724061097179122,0.21403015528621255,3.638333333333333,80,1,LPA,FALSE,enrichr_default
+DisGeNET,Intestinal Diseases,Intestinal Diseases,0.3724061097179122,0.21403015528621255,3.638333333333333,80,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Vascular lesions,Vascular lesions,0.37485430281091414,0.2163975309139009,3.5934156378600823,81,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Fanconi Anemia,Fanconi Anemia,0.37485430281091414,0.2161252288298552,2.0073563218390804,290,2,GSTM1;PRH1,FALSE,enrichr_default
+DisGeNET,Migraine Disorders,Migraine Disorders,0.37485430281091414,0.2161252288298552,2.0073563218390804,290,2,C4A;GSTM1,FALSE,enrichr_default
+DisGeNET,Salivary Gland Neoplasms,Salivary Gland Neoplasms,0.3772687693191657,0.218757894421617,3.5495934959349595,82,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,"Hyperlipidemia, Familial Combined","Hyperlipidemia, Familial Combined",0.3772687693191657,0.218757894421617,3.5495934959349595,82,1,LPA,FALSE,enrichr_default
+DisGeNET,Thalassemia,Thalassemia,0.3772687693191657,0.218757894421617,3.5495934959349595,82,1,HBA2,FALSE,enrichr_default
+DisGeNET,"Carcinoma, Neuroendocrine","Carcinoma, Neuroendocrine",0.37798728855886554,0.2211112661510016,3.506827309236948,83,1,SDHA,FALSE,enrichr_default
+DisGeNET,"Lymphoma, Large-Cell, Follicular","Lymphoma, Large-Cell, Follicular",0.37798728855886554,0.2211112661510016,3.506827309236948,83,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Testicular Neoplasms,Testicular Neoplasms,0.37798728855886554,0.2211112661510016,3.506827309236948,83,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Paraganglioma,Paraganglioma,0.37798728855886554,0.2211112661510016,3.506827309236948,83,1,SDHA,FALSE,enrichr_default
+DisGeNET,Protein Deficiency,Protein Deficiency,0.37798728855886554,0.2211112661510016,3.506827309236948,83,1,C4A,FALSE,enrichr_default
+DisGeNET,Pituitary Adenoma,Pituitary Adenoma,0.37798728855886554,0.2205362375840552,1.9800453514739231,294,2,GSTM1;SDHA,FALSE,enrichr_default
+DisGeNET,Soft Tissue Neoplasms,Soft Tissue Neoplasms,0.38088635739907634,0.2234576665526605,3.4650793650793648,84,1,MUC4,FALSE,enrichr_default
+DisGeNET,Distal muscle weakness,Distal muscle weakness,0.38088635739907634,0.2234576665526605,3.4650793650793648,84,1,TTN,FALSE,enrichr_default
+DisGeNET,Increased tendency to bruise,Increased tendency to bruise,0.3837567818741851,0.2257971158935214,3.4243137254901956,85,1,HBA2,FALSE,enrichr_default
+DisGeNET,Alcoholic Liver Diseases,Alcoholic Liver Diseases,0.3837567818741851,0.2257971158935214,3.4243137254901956,85,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Chronic gastritis,Chronic gastritis,0.3854831195585223,0.22812963437579503,3.3844961240310076,86,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Diabetic Neuropathies,Diabetic Neuropathies,0.3854831195585223,0.22812963437579503,3.3844961240310076,86,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Distal limb muscle weakness due to peripheral neuropathy,Distal limb muscle weakness due to peripheral neuropathy,0.3854831195585223,0.22812963437579503,3.3844961240310076,86,1,TTN,FALSE,enrichr_default
+DisGeNET,Leukoencephalopathies,Leukoencephalopathies,0.3854831195585223,0.22812963437579503,3.3844961240310076,86,1,SDHA,FALSE,enrichr_default
+DisGeNET,Generalized muscle weakness,Generalized muscle weakness,0.38662333617328193,0.2304552422279682,3.345593869731801,87,1,TTN,FALSE,enrichr_default
+DisGeNET,Multiple tumors,Multiple tumors,0.38662333617328193,0.2304552422279682,3.345593869731801,87,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Actinic keratosis,Actinic keratosis,0.38662333617328193,0.2304552422279682,3.345593869731801,87,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Adult type dermatomyositis,Adult type dermatomyositis,0.38662333617328193,0.2304552422279682,3.345593869731801,87,1,TTN,FALSE,enrichr_default
+DisGeNET,Psoriasis,Psoriasis,0.38662333617328193,0.2299719449213551,1.4233088834555827,818,4,C4A;GSTM1;MUC16;LPA,FALSE,enrichr_default
+DisGeNET,Lupus Erythematosus,Lupus Erythematosus,0.3879838168342629,0.23159751320849684,1.9149122807017545,304,2,C4A;PRH1,FALSE,enrichr_default
+DisGeNET,Facial muscle weakness of muscles innervated by CN VII,Facial muscle weakness of muscles innervated by CN VII,0.38884209225734245,0.23277395958360125,3.3075757575757576,88,1,TTN,FALSE,enrichr_default
+DisGeNET,Iron Overload,Iron Overload,0.38884209225734245,0.23277395958360125,3.3075757575757576,88,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Hemophilia A,Hemophilia A,0.3909769764398782,0.23508580645925276,3.2704119850187268,89,1,PRH1,FALSE,enrichr_default
+DisGeNET,Osteoarthrosis Deformans,Osteoarthrosis Deformans,0.3909769764398782,0.23508580645925276,3.2704119850187268,89,1,SDHA,FALSE,enrichr_default
+DisGeNET,Skin carcinoma,Skin carcinoma,0.3909769764398782,0.2373908029451353,3.234074074074074,90,1,GSTM1,FALSE,enrichr_default
+DisGeNET,"Periodontitis, Juvenile","Periodontitis, Juvenile",0.3909769764398782,0.2373908029451353,3.234074074074074,90,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Degenerative disorder,Degenerative disorder,0.3909769764398782,0.2373908029451353,3.234074074074074,90,1,MRGPRX1,FALSE,enrichr_default
+DisGeNET,Dehydration,Dehydration,0.3909769764398782,0.2373908029451353,3.234074074074074,90,1,HBA2,FALSE,enrichr_default
+DisGeNET,Arthrogryposis,Arthrogryposis,0.3909769764398782,0.2349239262595396,1.8961997828447341,307,2,PRH1;TTN,FALSE,enrichr_default
+DisGeNET,Infection caused by Helicobacter pylori,Infection caused by Helicobacter pylori,0.3909769764398782,0.2360334411397089,1.8900432900432902,308,2,GSTM1;MUC5AC,FALSE,enrichr_default
+DisGeNET,"Lupus Erythematosus, Discoid","Lupus Erythematosus, Discoid",0.3909769764398782,0.23714329152313396,1.8839266450916936,309,2,C4A;PRH1,FALSE,enrichr_default
+DisGeNET,Diabetic Nephropathy,Diabetic Nephropathy,0.3909769764398782,0.23694076531728164,1.5565062388591802,561,3,GSTM1;GRAP;LPA,FALSE,enrichr_default
+DisGeNET,Fibroid Tumor,Fibroid Tumor,0.39184664085474474,0.23825346566061337,1.8778494623655915,310,2,GSTM1;MUC16,FALSE,enrichr_default
+DisGeNET,Meningitis,Meningitis,0.39201068511461157,0.23968896895883185,3.1985347985347983,91,1,C4A,FALSE,enrichr_default
+DisGeNET,Acute Cerebrovascular Accidents,Acute Cerebrovascular Accidents,0.39201068511461157,0.23968896895883185,3.1985347985347983,91,1,LPA,FALSE,enrichr_default
+DisGeNET,Prolactinoma,Prolactinoma,0.39201068511461157,0.23968896895883185,3.1985347985347983,91,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Amyloidosis,Amyloidosis,0.39201068511461157,0.23969227202567195,1.3976790716286516,833,4,TRPM2;NAT8;LPA;PRH1,FALSE,enrichr_default
+DisGeNET,Bell Palsy,Bell Palsy,0.39465036189075725,0.24198032437025083,3.163768115942029,92,1,TTN,FALSE,enrichr_default
+DisGeNET,Facial Paresis,Facial Paresis,0.39465036189075725,0.24198032437025083,3.163768115942029,92,1,TTN,FALSE,enrichr_default
+DisGeNET,Manic,Manic,0.39507484127281917,0.2442648890533912,3.129749103942652,93,1,TRPM2,FALSE,enrichr_default
+DisGeNET,"Liver Cirrhosis, Alcoholic","Liver Cirrhosis, Alcoholic",0.39507484127281917,0.2442648890533912,3.129749103942652,93,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Speech Disorders,Speech Disorders,0.39507484127281917,0.2442648890533912,3.129749103942652,93,1,HBA2,FALSE,enrichr_default
+DisGeNET,"PARKINSON DISEASE, LATE-ONSET","PARKINSON DISEASE, LATE-ONSET",0.39507484127281917,0.2442648890533912,3.129749103942652,93,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Intraepithelial Neoplasia,Intraepithelial Neoplasia,0.39507484127281917,0.2442648890533912,3.129749103942652,93,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Endometrial Carcinoma,Endometrial Carcinoma,0.39507484127281917,0.2442631736718655,1.386031746031746,840,4,GSTM1;MUC16;DDT;MUC4,FALSE,enrichr_default
+DisGeNET,Traditional Serrated Adenoma,Traditional Serrated Adenoma,0.3965679692256842,0.24654268283202227,3.09645390070922,94,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,airway disease,airway disease,0.3965679692256842,0.24654268283202227,3.09645390070922,94,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Hepatitis,Hepatitis,0.3965679692256842,0.2460327738737915,1.8363827549947425,317,2,GSTM1;DMBT1,FALSE,enrichr_default
+DisGeNET,Psychotic Disorders,Psychotic Disorders,0.3965679692256842,0.2460327738737915,1.8363827549947425,317,2,TRPM2;APOBEC3A,FALSE,enrichr_default
+DisGeNET,Gastric ulcer,Gastric ulcer,0.39857848478461394,0.2488137253437684,3.063859649122807,95,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Intermittent migraine headaches,Intermittent migraine headaches,0.39857848478461394,0.2488137253437684,3.063859649122807,95,1,C4A,FALSE,enrichr_default
+DisGeNET,Limb ischemia,Limb ischemia,0.39857848478461394,0.2488137253437684,3.063859649122807,95,1,PRH1,FALSE,enrichr_default
+DisGeNET,Broad forehead,Broad forehead,0.40110829539384885,0.2510780363139976,3.0319444444444446,96,1,HBA2,FALSE,enrichr_default
+DisGeNET,IMMUNE SUPPRESSION,IMMUNE SUPPRESSION,0.40110829539384885,0.2510780363139976,3.0319444444444446,96,1,SIGLEC5,FALSE,enrichr_default
+DisGeNET,Ovarian Serous Adenocarcinoma,Ovarian Serous Adenocarcinoma,0.40281539804860106,0.2533356353700229,3.0006872852233677,97,1,TTN,FALSE,enrichr_default
+DisGeNET,Ductal Breast Carcinoma,Ductal Breast Carcinoma,0.40281539804860106,0.2533356353700229,3.0006872852233677,97,1,MUC4,FALSE,enrichr_default
+DisGeNET,Central Serous Chorioretinopathy,Central Serous Chorioretinopathy,0.40281539804860106,0.25558654205816445,2.970068027210884,98,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Hypercalcemia,Hypercalcemia,0.40281539804860106,0.25558654205816445,2.970068027210884,98,1,SDHA,FALSE,enrichr_default
+DisGeNET,Thrombosis,Thrombosis,0.40281539804860106,0.25558654205816445,2.970068027210884,98,1,LPA,FALSE,enrichr_default
+DisGeNET,Barrett Esophagus,Barrett Esophagus,0.40281539804860106,0.2527099512808135,1.8022703818369452,323,2,MUC4;MUC5AC,FALSE,enrichr_default
+DisGeNET,"Hepatitis, Toxic","Hepatitis, Toxic",0.40281539804860106,0.25493711954825865,1.7911794871794873,325,2,GSTM1;HBA2,FALSE,enrichr_default
+DisGeNET,Chemical and Drug Induced Liver Injury,Chemical and Drug Induced Liver Injury,0.40281539804860106,0.25493711954825865,1.7911794871794873,325,2,GSTM1;HBA2,FALSE,enrichr_default
+DisGeNET,Chemically-Induced Liver Toxicity,Chemically-Induced Liver Toxicity,0.40281539804860106,0.25493711954825865,1.7911794871794873,325,2,GSTM1;HBA2,FALSE,enrichr_default
+DisGeNET,Drug-Induced Acute Liver Injury,Drug-Induced Acute Liver Injury,0.40281539804860106,0.25493711954825865,1.7911794871794873,325,2,GSTM1;HBA2,FALSE,enrichr_default
+DisGeNET,Leigh Disease,Leigh Disease,0.40283074760506876,0.25783077585673003,2.94006734006734,99,1,SDHA,FALSE,enrichr_default
+DisGeNET,Rhinitis,Rhinitis,0.40283074760506876,0.26006835626766184,2.9106666666666667,100,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Mood swings,Mood swings,0.40283074760506876,0.26006835626766184,2.9106666666666667,100,1,SDHA,FALSE,enrichr_default
+DisGeNET,Myalgia,Myalgia,0.40283074760506876,0.26006835626766184,2.9106666666666667,100,1,C4A,FALSE,enrichr_default
+DisGeNET,Childhood Neuroblastoma,Childhood Neuroblastoma,0.40283074760506876,0.26006835626766184,2.9106666666666667,100,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Neuralgia,Neuralgia,0.40283074760506876,0.26006835626766184,2.9106666666666667,100,1,LPA,FALSE,enrichr_default
+DisGeNET,Oral Cavity Carcinoma,Oral Cavity Carcinoma,0.40283074760506876,0.26006835626766184,2.9106666666666667,100,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Abnormal heart beat,Abnormal heart beat,0.40283074760506876,0.26006835626766184,2.9106666666666667,100,1,TTN,FALSE,enrichr_default
+DisGeNET,ECG abnormality,ECG abnormality,0.40283074760506876,0.26006835626766184,2.9106666666666667,100,1,TTN,FALSE,enrichr_default
+DisGeNET,Rash and Dermatitis Adverse Event Associated with Chemoradiation,Rash and Dermatitis Adverse Event Associated with Chemoradiation,0.40283074760506876,0.26006835626766184,2.9106666666666667,100,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Impaired glucose tolerance,Impaired glucose tolerance,0.40283074760506876,0.25605092525641093,1.785685071574642,326,2,GSTM1;HBA2,FALSE,enrichr_default
+DisGeNET,"Hepatitis, Drug-Induced","Hepatitis, Drug-Induced",0.40283074760506876,0.2593931004713121,1.7694022289766973,329,2,GSTM1;HBA2,FALSE,enrichr_default
+DisGeNET,Influenza,Influenza,0.40283074760506876,0.2594932733533552,1.4825127334465196,589,3,DMBT1;KIR2DL1;MUC5AC,FALSE,enrichr_default
+DisGeNET,Neuromuscular Diseases,Neuromuscular Diseases,0.40521435798163163,0.262299302604677,2.881848184818482,101,1,TTN,FALSE,enrichr_default
+DisGeNET,Xeroderma Pigmentosum,Xeroderma Pigmentosum,0.40521435798163163,0.262299302604677,2.881848184818482,101,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Cardiac conduction abnormality,Cardiac conduction abnormality,0.4070396527505787,0.264523634281119,2.85359477124183,102,1,TTN,FALSE,enrichr_default
+DisGeNET,Childhood Acute Myeloid Leukemia,Childhood Acute Myeloid Leukemia,0.4070396527505787,0.264523634281119,2.85359477124183,102,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Adult Acute Myeloblastic Leukemia,Adult Acute Myeloblastic Leukemia,0.4070396527505787,0.264523634281119,2.85359477124183,102,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Severe Sepsis,Severe Sepsis,0.4077730351486062,0.26674137055835384,2.8258899676375404,103,1,PRH1,FALSE,enrichr_default
+DisGeNET,Hydrops Fetalis,Hydrops Fetalis,0.4077730351486062,0.26674137055835384,2.8258899676375404,103,1,HBA2,FALSE,enrichr_default
+DisGeNET,Electrocardiogram abnormal,Electrocardiogram abnormal,0.4077730351486062,0.26674137055835384,2.8258899676375404,103,1,TTN,FALSE,enrichr_default
+DisGeNET,Malignant mesothelioma,Malignant mesothelioma,0.4077730351486062,0.26607991763749983,1.7377114427860696,335,2,GSTM1;MUC16,FALSE,enrichr_default
+DisGeNET,Graves Disease,Graves Disease,0.4077730351486062,0.26607991763749983,1.7377114427860696,335,2,C4A;GSTM1,FALSE,enrichr_default
+DisGeNET,Virus Diseases,Virus Diseases,0.40826661342988096,0.2674128885574028,1.330590476190476,875,4,GSTM1;SLC6A12;MUC5AC;PRH1,FALSE,enrichr_default
+DisGeNET,Acute pancreatitis,Acute pancreatitis,0.4084869174479528,0.2689525306168844,2.798717948717949,104,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Xerosis,Xerosis,0.4084869174479528,0.2689525306168844,2.798717948717949,104,1,MGAM,FALSE,enrichr_default
+DisGeNET,Electrocardiographic changes,Electrocardiographic changes,0.4084869174479528,0.2689525306168844,2.798717948717949,104,1,TTN,FALSE,enrichr_default
+DisGeNET,Blepharoptosis,Blepharoptosis,0.4084869174479528,0.26830928484845246,1.727398615232443,337,2,SDHA;TTN,FALSE,enrichr_default
+DisGeNET,Pneumonitis,Pneumonitis,0.4103638006288865,0.27053873107216087,1.7172074729596853,339,2,GSTM1;MUC5AC,FALSE,enrichr_default
+DisGeNET,Atrial Premature Complexes,Atrial Premature Complexes,0.41262128871570425,0.2733551988363283,2.7459119496855346,106,1,DMBT1,FALSE,enrichr_default
+DisGeNET,Liver diseases,Liver diseases,0.41262128871570425,0.2733354792956824,1.440924092409241,606,3,GSTM1;DMBT1;MUC4,FALSE,enrichr_default
+DisGeNET,Malignant tumor of cervix,Malignant tumor of cervix,0.41262128871570425,0.27343648167667506,1.3170437405731523,884,4,GSTM1;DDT;SDHA;TNFRSF10D,FALSE,enrichr_default
+DisGeNET,Congestive heart failure,Congestive heart failure,0.41262128871570425,0.27343648167667506,1.3170437405731523,884,4,HBA2;LPA;PRH1;TTN,FALSE,enrichr_default
+DisGeNET,Head and Neck Neoplasms,Head and Neck Neoplasms,0.4147368104511609,0.27554674511614274,2.7202492211838005,107,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Pleural effusion disorder,Pleural effusion disorder,0.4147368104511609,0.27554674511614274,2.7202492211838005,107,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Severe myopia,Severe myopia,0.4174889961092294,0.277731791604688,2.6950617283950615,108,1,TEX28,FALSE,enrichr_default
+DisGeNET,Recurrent tumor,Recurrent tumor,0.4195418675797664,0.2794557273375045,1.6776176753121996,347,2,DMBT1;TNFRSF10D,FALSE,enrichr_default
+DisGeNET,Oligospermia,Oligospermia,0.41968633587718446,0.2799103572332033,2.670336391437309,109,1,GSTM1,FALSE,enrichr_default
+DisGeNET,"Abortion, Tubal","Abortion, Tubal",0.4202526228901858,0.2820824607956328,2.646060606060606,110,1,MUC4,FALSE,enrichr_default
+DisGeNET,Bone Density,Bone Density,0.4202526228901858,0.2820824607956328,2.646060606060606,110,1,MPP7,FALSE,enrichr_default
+DisGeNET,Hyperplastic Polyp,Hyperplastic Polyp,0.4202526228901858,0.2820824607956328,2.646060606060606,110,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Congenital myopathy (disorder),Congenital myopathy (disorder),0.4202526228901858,0.2820824607956328,2.646060606060606,110,1,TTN,FALSE,enrichr_default
+DisGeNET,Uterine Fibroids,Uterine Fibroids,0.4202526228901858,0.28168439248073124,1.6680038204393506,349,2,GSTM1;MUC16,FALSE,enrichr_default
+DisGeNET,Multiple Endocrine Neoplasia Type 1,Multiple Endocrine Neoplasia Type 1,0.42294097844636674,0.28424812129572213,2.6222222222222222,111,1,SDHA,FALSE,enrichr_default
+DisGeNET,Bilateral cataracts (disorder),Bilateral cataracts (disorder),0.42346340345299854,0.28640735741654555,2.5988095238095235,112,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Glomerulosclerosis (disorder),Glomerulosclerosis (disorder),0.42346340345299854,0.28640735741654555,2.5988095238095235,112,1,SDHA,FALSE,enrichr_default
+DisGeNET,"Muscular Dystrophy, Facioscapulohumeral","Muscular Dystrophy, Facioscapulohumeral",0.42346340345299854,0.28640735741654555,2.5988095238095235,112,1,TTN,FALSE,enrichr_default
+DisGeNET,Neonatal Hypotonia,Neonatal Hypotonia,0.42346340345299854,0.28640735741654555,2.5988095238095235,112,1,SDHA,FALSE,enrichr_default
+DisGeNET,Cleft Palate,Cleft Palate,0.42346340345299854,0.28640735741654555,2.5988095238095235,112,1,GSTM1,FALSE,enrichr_default
+DisGeNET,"Adenocarcinoma, Clear Cell","Adenocarcinoma, Clear Cell",0.4255717632705682,0.28856018790506505,2.575811209439528,113,1,MUC16,FALSE,enrichr_default
+DisGeNET,Paresis,Paresis,0.4255717632705682,0.28856018790506505,2.575811209439528,113,1,MGAM,FALSE,enrichr_default
+DisGeNET,Testicular Germ Cell Tumor,Testicular Germ Cell Tumor,0.4265883025476105,0.2907066314543067,2.553216374269006,114,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Urticaria,Urticaria,0.4265883025476105,0.2907066314543067,2.553216374269006,114,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Intracranial Aneurysm,Intracranial Aneurysm,0.4265883025476105,0.2907066314543067,2.553216374269006,114,1,LPA,FALSE,enrichr_default
+DisGeNET,Dermatomyositis,Dermatomyositis,0.4265883025476105,0.2907066314543067,2.553216374269006,114,1,TTN,FALSE,enrichr_default
+DisGeNET,Respiratory Syncytial Virus Infections,Respiratory Syncytial Virus Infections,0.42962946039341,0.29498043224278536,2.5091954022988507,116,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Familial (FPAH),Familial (FPAH),0.42962946039341,0.29498043224278536,2.5091954022988507,116,1,MUC16,FALSE,enrichr_default
+DisGeNET,"Organic Mental Disorders, Substance-Induced","Organic Mental Disorders, Substance-Induced",0.42962946039341,0.29498043224278536,2.5091954022988507,116,1,MPP7,FALSE,enrichr_default
+DisGeNET,Pancytopenia,Pancytopenia,0.42962946039341,0.29498043224278536,2.5091954022988507,116,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Ischemic cardiomyopathy,Ischemic cardiomyopathy,0.42962946039341,0.29498043224278536,2.5091954022988507,116,1,LPA,FALSE,enrichr_default
+DisGeNET,Prescription Drug Abuse,Prescription Drug Abuse,0.42962946039341,0.29498043224278536,2.5091954022988507,116,1,MPP7,FALSE,enrichr_default
+DisGeNET,Presenile dementia,Presenile dementia,0.430808797476542,0.29615805462734096,1.6081031307550644,362,2,TRPM2;LPA,FALSE,enrichr_default
+DisGeNET,"Carcinoma, Small Cell","Carcinoma, Small Cell",0.43165417483492186,0.29710782657296925,2.487749287749288,117,1,GSTM1,FALSE,enrichr_default
+DisGeNET,"Anemia, Hemolytic","Anemia, Hemolytic",0.4341970897454846,0.29922890813373704,2.4666666666666663,118,1,HBA2,FALSE,enrichr_default
+DisGeNET,Retrognathia,Retrognathia,0.43510908418797445,0.30134369536844346,2.44593837535014,119,1,HBA2,FALSE,enrichr_default
+DisGeNET,Increased serum lactate,Increased serum lactate,0.43510908418797445,0.30134369536844346,2.44593837535014,119,1,SDHA,FALSE,enrichr_default
+DisGeNET,Von Hippel-Lindau Syndrome,Von Hippel-Lindau Syndrome,0.43510908418797445,0.30134369536844346,2.44593837535014,119,1,SDHA,FALSE,enrichr_default
+DisGeNET,Drug Use Disorders,Drug Use Disorders,0.43510908418797445,0.30134369536844346,2.44593837535014,119,1,MPP7,FALSE,enrichr_default
+DisGeNET,Precursor B-cell lymphoblastic leukemia,Precursor B-cell lymphoblastic leukemia,0.4351106062397187,0.3017163213207955,1.5861943687556768,367,2,GSTM1;AHRR,FALSE,enrichr_default
+DisGeNET,Neurologic Symptoms,Neurologic Symptoms,0.4370756875890564,0.3034522066694303,2.4255555555555555,120,1,UPF3A,FALSE,enrichr_default
+DisGeNET,Nephroblastoma,Nephroblastoma,0.438834813473053,0.3050482819530872,1.5733333333333335,370,2,APOBEC3A;TTN,FALSE,enrichr_default
+DisGeNET,Polyhydramnios,Polyhydramnios,0.4390236478488717,0.30555446028764344,2.4055096418732784,121,1,HBA2,FALSE,enrichr_default
+DisGeNET,Brain Neoplasms,Brain Neoplasms,0.43941901987519816,0.30620488490022346,1.351702786377709,646,3,GSTM1;DMBT1;ACYP2,FALSE,enrichr_default
+DisGeNET,Spasmodic movement,Spasmodic movement,0.44286428978498504,0.3097402675780553,2.3663956639566397,123,1,SDHA,FALSE,enrichr_default
+DisGeNET,Substance-Related Disorders,Substance-Related Disorders,0.44286428978498504,0.3097402675780553,2.3663956639566397,123,1,MPP7,FALSE,enrichr_default
+DisGeNET,Involuntary jerking movements,Involuntary jerking movements,0.44286428978498504,0.3097402675780553,2.3663956639566397,123,1,SDHA,FALSE,enrichr_default
+DisGeNET,Hyperthyroidism,Hyperthyroidism,0.44475729255994906,0.3118238575505706,2.3473118279569896,124,1,LPA,FALSE,enrichr_default
+DisGeNET,Uterine Cervical Neoplasm,Uterine Cervical Neoplasm,0.44475729255994906,0.3118238575505706,2.3473118279569896,124,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Drug-Induced Liver Disease,Drug-Induced Liver Disease,0.4456248469937175,0.3128126594610041,1.5441202475685234,377,2,GSTM1;HBA2,FALSE,enrichr_default
+DisGeNET,Tetralogy of Fallot,Tetralogy of Fallot,0.4460902652089496,0.3139012626235478,2.328533333333333,125,1,TTN,FALSE,enrichr_default
+DisGeNET,Peripheral Arterial Diseases,Peripheral Arterial Diseases,0.4460902652089496,0.3139012626235478,2.328533333333333,125,1,LPA,FALSE,enrichr_default
+DisGeNET,Laryngeal Squamous Cell Carcinoma,Laryngeal Squamous Cell Carcinoma,0.44815116231839963,0.3159725007922475,2.31005291005291,126,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Sarcoma,Sarcoma,0.44815116231839963,0.31611687453031434,1.327051671732523,658,3,AHRR;SDHA;MUC4,FALSE,enrichr_default
+DisGeNET,"Gastritis, Atrophic","Gastritis, Atrophic",0.4496268653471332,0.31803759008331906,2.2918635170603676,127,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Childhood asthma,Childhood asthma,0.4496268653471332,0.31803759008331906,2.2918635170603676,127,1,GSTM1,FALSE,enrichr_default
+DisGeNET,beta^+^ Thalassemia,beta^+^ Thalassemia,0.4496268653471332,0.3200965484447327,2.2739583333333333,128,1,HBA2,FALSE,enrichr_default
+DisGeNET,Biliary Tract Cancer,Biliary Tract Cancer,0.4496268653471332,0.3200965484447327,2.2739583333333333,128,1,MUC4,FALSE,enrichr_default
+DisGeNET,Arthralgia,Arthralgia,0.4496268653471332,0.3200965484447327,2.2739583333333333,128,1,C4A,FALSE,enrichr_default
+DisGeNET,Malignant neoplasm of larynx,Malignant neoplasm of larynx,0.4496268653471332,0.32214939370302714,2.2563307493540052,129,1,GSTM1,FALSE,enrichr_default
+DisGeNET,"Cleft palate, isolated","Cleft palate, isolated",0.4496268653471332,0.32214939370302714,2.2563307493540052,129,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Chronic liver disease,Chronic liver disease,0.4496268653471332,0.32214939370302714,2.2563307493540052,129,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Endometrial adenocarcinoma,Endometrial adenocarcinoma,0.4496268653471332,0.32214939370302714,2.2563307493540052,129,1,MUC4,FALSE,enrichr_default
+DisGeNET,Age related macular degeneration,Age related macular degeneration,0.4496268653471332,0.3183486984370209,1.5239092495636997,382,2,C4A;GSTM1,FALSE,enrichr_default
+DisGeNET,Mesothelioma,Mesothelioma,0.4496268653471332,0.3194548098999066,1.5199303742384682,383,2,GSTM1;MUC16,FALSE,enrichr_default
+DisGeNET,Mitochondrial Diseases,Mitochondrial Diseases,0.4496268653471332,0.320560538026685,1.5159722222222223,384,2,ATAD3B;SDHA,FALSE,enrichr_default
+DisGeNET,Invasive carcinoma of breast,Invasive carcinoma of breast,0.4496268653471332,0.3216658752451139,1.5120346320346318,385,2,ANKRD30A;LPA,FALSE,enrichr_default
+DisGeNET,Lyme Disease,Lyme Disease,0.45194486235842185,0.3241961437925486,2.238974358974359,130,1,PRH1,FALSE,enrichr_default
+DisGeNET,Disorder of eye,Disorder of eye,0.4542347590762344,0.32623681643701347,2.221882951653944,131,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Mouth Neoplasms,Mouth Neoplasms,0.4542347590762344,0.3282714294480748,2.205050505050505,132,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Cardiac Arrhythmia,Cardiac Arrhythmia,0.4542347590762344,0.3282714294480748,2.205050505050505,132,1,TTN,FALSE,enrichr_default
+DisGeNET,precancerous lesions,precancerous lesions,0.4542347590762344,0.3282714294480748,2.205050505050505,132,1,GSTM1,FALSE,enrichr_default
+DisGeNET,beta Thalassemia,beta Thalassemia,0.4542347590762344,0.3303000004487687,2.1884711779448622,133,1,HBA2,FALSE,enrichr_default
+DisGeNET,PACHYONYCHIA CONGENITA 3,PACHYONYCHIA CONGENITA 3,0.4542347590762344,0.3303000004487687,2.1884711779448622,133,1,RIPOR2,FALSE,enrichr_default
+DisGeNET,Adenomatous Polyposis Coli,Adenomatous Polyposis Coli,0.4542347590762344,0.32939166465565334,1.485034013605442,392,2,GSTM1;DMBT1,FALSE,enrichr_default
+DisGeNET,Lung diseases,Lung diseases,0.4542347590762344,0.3304936077992756,1.4812553011026293,393,2,GSTM1;MUC5AC,FALSE,enrichr_default
+DisGeNET,Malignant neoplasm of esophagus,Malignant neoplasm of esophagus,0.4542347590762344,0.32852163433131937,1.2974739970282319,673,3,GSTM1;DMBT1;MUC4,FALSE,enrichr_default
+DisGeNET,Small cell carcinoma of lung,Small cell carcinoma of lung,0.4542347590762344,0.32852163433131937,1.2974739970282319,673,3,GSTM1;DMBT1;TTN,FALSE,enrichr_default
+DisGeNET,cervical cancer,cervical cancer,0.4542347590762344,0.3285693507425051,1.2064939550949914,965,4,GSTM1;DDT;SDHA;TNFRSF10D,FALSE,enrichr_default
+DisGeNET,Myocardial Infarction,Myocardial Infarction,0.4542347590762344,0.32925732132085367,1.2052449965493444,966,4,GSTM1;LPA;PRH1;TTN,FALSE,enrichr_default
+DisGeNET,High forehead,High forehead,0.4551458510648151,0.3323225471053945,2.172139303482587,134,1,HBA2,FALSE,enrichr_default
+DisGeNET,Thyroid Gland Follicular Adenoma,Thyroid Gland Follicular Adenoma,0.4551458510648151,0.3323225471053945,2.172139303482587,134,1,FCGBP,FALSE,enrichr_default
+DisGeNET,Ischemic stroke,Ischemic stroke,0.4551458510648151,0.33159509400035697,1.4774957698815567,394,2,LPA;PRH1,FALSE,enrichr_default
+DisGeNET,Ataxia Telangiectasia,Ataxia Telangiectasia,0.4566307213005551,0.33379666732132807,1.47003367003367,396,2,MUC4;MUC5AC,FALSE,enrichr_default
+DisGeNET,Vasculitis,Vasculitis,0.45912281649751985,0.3363496376750035,2.1401960784313725,136,1,C4A,FALSE,enrichr_default
+DisGeNET,MYELODYSPLASTIC SYNDROME,MYELODYSPLASTIC SYNDROME,0.45912281649751985,0.3367946194460884,1.2784773060029282,683,3,GSTM1;ARSH;HBA2,FALSE,enrichr_default
+DisGeNET,Liver Cirrhosis,Liver Cirrhosis,0.45912281649751985,0.3367946194460884,1.2784773060029282,683,3,GSTM1;DMBT1;PRH1,FALSE,enrichr_default
+DisGeNET,Esophageal carcinoma,Esophageal carcinoma,0.4608417547442767,0.3384491110846097,1.2747445255474452,685,3,GSTM1;ACYP2;MUC4,FALSE,enrichr_default
+DisGeNET,Measles,Measles,0.46128839942183864,0.3403528412471977,2.109178743961353,138,1,PRH1,FALSE,enrichr_default
+DisGeNET,Abdominal discomfort,Abdominal discomfort,0.46128839942183864,0.3403528412471977,2.109178743961353,138,1,C4A,FALSE,enrichr_default
+DisGeNET,Drug habituation,Drug habituation,0.46128839942183864,0.3403528412471977,2.109178743961353,138,1,MPP7,FALSE,enrichr_default
+DisGeNET,Vascular Diseases,Vascular Diseases,0.46128839942183864,0.3392921125348065,1.4517040731504571,401,2,LPA;PRH1,FALSE,enrichr_default
+DisGeNET,Gastrointestinal pain,Gastrointestinal pain,0.465604064642039,0.34433229716482133,2.079047619047619,140,1,C4A,FALSE,enrichr_default
+DisGeNET,Substance Dependence,Substance Dependence,0.465604064642039,0.34433229716482133,2.079047619047619,140,1,MPP7,FALSE,enrichr_default
+DisGeNET,Myositis,Myositis,0.47252447900150074,0.3502572568516675,2.0354312354312354,143,1,PRH1,FALSE,enrichr_default
+DisGeNET,Substance Use Disorders,Substance Use Disorders,0.47252447900150074,0.3502572568516675,2.0354312354312354,143,1,MPP7,FALSE,enrichr_default
+DisGeNET,Pancreatic Ductal Adenocarcinoma,Pancreatic Ductal Adenocarcinoma,0.47389637640674104,0.3516788651558138,1.24564907275321,701,3,MUC16;MUC4;MUC5AC,FALSE,enrichr_default
+DisGeNET,Ophthalmoplegia,Ophthalmoplegia,0.4740807217231527,0.3522205191282176,2.0212962962962964,144,1,SDHA,FALSE,enrichr_default
+DisGeNET,Adenoma,Adenoma,0.4741817953894484,0.3527005497730227,1.1642666666666666,1000,4,GSTM1;DMBT1;MUC4;MUC5AC,FALSE,enrichr_default
+DisGeNET,Babinski Reflex,Babinski Reflex,0.4756219917800906,0.3541779477645081,2.0073563218390804,145,1,SDHA,FALSE,enrichr_default
+DisGeNET,Chronic Periodontitis,Chronic Periodontitis,0.48180346954805664,0.36001540209611405,1.9666666666666666,148,1,C4A,FALSE,enrichr_default
+DisGeNET,Lactic acidemia,Lactic acidemia,0.48180346954805664,0.36001540209611405,1.9666666666666666,148,1,SDHA,FALSE,enrichr_default
+DisGeNET,Dystonic disease,Dystonic disease,0.48180346954805664,0.36001540209611405,1.9666666666666666,148,1,SDHA,FALSE,enrichr_default
+DisGeNET,"Low-set, posteriorly rotated ears","Low-set, posteriorly rotated ears",0.48201510213197446,0.3619496661320128,1.9534675615212527,149,1,HBA2,FALSE,enrichr_default
+DisGeNET,Adrenoleukodystrophy,Adrenoleukodystrophy,0.48201510213197446,0.3619496661320128,1.9534675615212527,149,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Mental deterioration in childhood,Mental deterioration in childhood,0.48201510213197446,0.3638781812849406,1.9404444444444444,150,1,SDHA,FALSE,enrichr_default
+DisGeNET,Neurodevelopmental regression,Neurodevelopmental regression,0.48201510213197446,0.3638781812849406,1.9404444444444444,150,1,SDHA,FALSE,enrichr_default
+DisGeNET,"Psychomotor regression, progressive","Psychomotor regression, progressive",0.48201510213197446,0.3638781812849406,1.9404444444444444,150,1,SDHA,FALSE,enrichr_default
+DisGeNET,Psychomotor regression,Psychomotor regression,0.48201510213197446,0.3638781812849406,1.9404444444444444,150,1,SDHA,FALSE,enrichr_default
+DisGeNET,Psychomotor regression beginning in infancy,Psychomotor regression beginning in infancy,0.48201510213197446,0.3638781812849406,1.9404444444444444,150,1,SDHA,FALSE,enrichr_default
+DisGeNET,Loss of developmental milestones,Loss of developmental milestones,0.48201510213197446,0.3638781812849406,1.9404444444444444,150,1,SDHA,FALSE,enrichr_default
+DisGeNET,Malignant neoplasm of kidney,Malignant neoplasm of kidney,0.48201510213197446,0.361137591337436,1.3827395091053047,421,2,GSTM1;DDT,FALSE,enrichr_default
+DisGeNET,Malignant Squamous Cell Neoplasm,Malignant Squamous Cell Neoplasm,0.48292325729853425,0.36580096432433806,1.9275938189845474,151,1,GSTM1,FALSE,enrichr_default
+DisGeNET,"Lung Diseases, Interstitial","Lung Diseases, Interstitial",0.48292325729853425,0.36580096432433806,1.9275938189845474,151,1,PRH1,FALSE,enrichr_default
+DisGeNET,Primary Sj??gren's syndrome,Primary Sj??gren's syndrome,0.48292325729853425,0.36580096432433806,1.9275938189845474,151,1,C4A,FALSE,enrichr_default
+DisGeNET,Pre-Eclampsia,Pre-Eclampsia,0.48469880015645833,0.3677180319583893,1.9149122807017545,152,1,HBA2,FALSE,enrichr_default
+DisGeNET,Familial lichen amyloidosis,Familial lichen amyloidosis,0.48469880015645833,0.3696294009732855,1.90239651416122,153,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Cervical Squamous Cell Carcinoma,Cervical Squamous Cell Carcinoma,0.48469880015645833,0.3696294009732855,1.90239651416122,153,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Abdominal Pain,Abdominal Pain,0.48469880015645833,0.3696294009732855,1.90239651416122,153,1,C4A,FALSE,enrichr_default
+DisGeNET,Psychomotor regression in infants,Psychomotor regression in infants,0.48469880015645833,0.3696294009732855,1.90239651416122,153,1,SDHA,FALSE,enrichr_default
+DisGeNET,Thyroid carcinoma,Thyroid carcinoma,0.48469880015645833,0.3681845189684145,1.211095700416089,721,3,FCGBP;GSTM1;LPA,FALSE,enrichr_default
+DisGeNET,Myoclonus,Myoclonus,0.48610903686100304,0.37153508795098017,1.8900432900432902,154,1,SDHA,FALSE,enrichr_default
+DisGeNET,Developmental regression,Developmental regression,0.48610903686100304,0.37153508795098017,1.8900432900432902,154,1,SDHA,FALSE,enrichr_default
+DisGeNET,Substance abuse problem,Substance abuse problem,0.4864210381758049,0.37343510958159576,1.8778494623655915,155,1,MPP7,FALSE,enrichr_default
+DisGeNET,Other specified transient cerebral ischemias,Other specified transient cerebral ischemias,0.4864210381758049,0.37343510958159576,1.8778494623655915,155,1,TRPM2,FALSE,enrichr_default
+DisGeNET,Abnormality of metabolism/homeostasis,Abnormality of metabolism/homeostasis,0.4864210381758049,0.37343510958159576,1.8778494623655915,155,1,HBA2,FALSE,enrichr_default
+DisGeNET,Aplastic Anemia,Aplastic Anemia,0.4864210381758049,0.37343510958159576,1.8778494623655915,155,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Cirrhosis,Cirrhosis,0.48677864151064,0.3741253436033954,1.3444187836797536,433,2,GSTM1;DMBT1,FALSE,enrichr_default
+DisGeNET,Elevated creatine kinase,Elevated creatine kinase,0.487803356050673,0.37532948232421554,1.8658119658119656,156,1,TTN,FALSE,enrichr_default
+DisGeNET,Dementia,Dementia,0.4898943852664179,0.3773567339968479,1.3351681957186545,436,2,TRPM2;LPA,FALSE,enrichr_default
+DisGeNET,"Kidney Failure, Chronic","Kidney Failure, Chronic",0.49074680806964915,0.3784324233022145,1.3321128909229594,437,2,GSTM1;LPA,FALSE,enrichr_default
+DisGeNET,Intestinal Neoplasms,Intestinal Neoplasms,0.49107043989197435,0.379101347277835,1.8421940928270042,158,1,MUC4,FALSE,enrichr_default
+DisGeNET,Sporadic Breast Carcinoma,Sporadic Breast Carcinoma,0.4924130900075963,0.3809788723713768,1.8306079664570232,159,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Creatine phosphokinase serum increased,Creatine phosphokinase serum increased,0.4924130900075963,0.3809788723713768,1.8306079664570232,159,1,TTN,FALSE,enrichr_default
+DisGeNET,Malar flattening,Malar flattening,0.49319945394467285,0.3828508143772055,1.8191666666666666,160,1,HBA2,FALSE,enrichr_default
+DisGeNET,Turner Syndrome,Turner Syndrome,0.49319945394467285,0.3828508143772055,1.8191666666666666,160,1,LPA,FALSE,enrichr_default
+DisGeNET,Hypotrophic malar bone,Hypotrophic malar bone,0.49319945394467285,0.3828508143772055,1.8191666666666666,160,1,HBA2,FALSE,enrichr_default
+DisGeNET,"Polycystic Kidney, Autosomal Dominant","Polycystic Kidney, Autosomal Dominant",0.49362980360977454,0.38471718962492224,1.8078674948240168,161,1,HBA2,FALSE,enrichr_default
+DisGeNET,Weight decreased,Weight decreased,0.49362980360977454,0.38471718962492224,1.8078674948240168,161,1,SDHA,FALSE,enrichr_default
+DisGeNET,Juvenile psoriatic arthritis,Juvenile psoriatic arthritis,0.49362980360977454,0.38471718962492224,1.8078674948240168,161,1,APOBEC3A,FALSE,enrichr_default
+DisGeNET,Childhood Acute Lymphoblastic Leukemia,Childhood Acute Lymphoblastic Leukemia,0.49362980360977454,0.3848710595181248,1.3140707298720844,443,2,GSTM1;KIR2DL1,FALSE,enrichr_default
+DisGeNET,Allergic rhinitis (disorder),Allergic rhinitis (disorder),0.49765361044771544,0.38843330482426297,1.785685071574642,163,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Atrial Septal Defects,Atrial Septal Defects,0.5009059076744943,0.3921273477011743,1.7640404040404039,165,1,TTN,FALSE,enrichr_default
+DisGeNET,TARSAL-CARPAL COALITION SYNDROME,TARSAL-CARPAL COALITION SYNDROME,0.5009059076744943,0.3921273477011743,1.7640404040404039,165,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Malignant neoplasm of brain,Malignant neoplasm of brain,0.5009059076744943,0.3939661323383512,1.753413654618474,166,1,DMBT1,FALSE,enrichr_default
+DisGeNET,VITILIGO-ASSOCIATED MULTIPLE AUTOIMMUNE DISEASE SUSCEPTIBILITY 1 (finding),VITILIGO-ASSOCIATED MULTIPLE AUTOIMMUNE DISEASE SUSCEPTIBILITY 1 (finding),0.5009059076744943,0.3939661323383512,1.753413654618474,166,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Acute GVH disease,Acute GVH disease,0.5009059076744943,0.3939661323383512,1.753413654618474,166,1,KIR2DL1,FALSE,enrichr_default
+DisGeNET,invasive cancer,invasive cancer,0.5009059076744943,0.3939661323383512,1.753413654618474,166,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Anaplastic astrocytoma,Anaplastic astrocytoma,0.5009059076744943,0.3939661323383512,1.753413654618474,166,1,DMBT1,FALSE,enrichr_default
+DisGeNET,Follicular thyroid carcinoma,Follicular thyroid carcinoma,0.5021464274804609,0.3957994471088518,1.7429141716566865,167,1,FCGBP,FALSE,enrichr_default
+DisGeNET,Transitional cell carcinoma of bladder,Transitional cell carcinoma of bladder,0.5021464274804609,0.3957994471088518,1.7429141716566865,167,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Breast adenocarcinoma,Breast adenocarcinoma,0.5028310775163108,0.39762730809573343,1.7325396825396824,168,1,DDT,FALSE,enrichr_default
+DisGeNET,Childhood Leukemia,Childhood Leukemia,0.5028310775163108,0.39762730809573343,1.7325396825396824,168,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Juvenile-Onset Still Disease,Juvenile-Onset Still Disease,0.5028310775163108,0.39762730809573343,1.7325396825396824,168,1,APOBEC3A,FALSE,enrichr_default
+DisGeNET,Fibrosis,Fibrosis,0.5035044512423138,0.3994497311734497,1.7222879684418146,169,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Movement Disorders,Movement Disorders,0.5035044512423138,0.3994497311734497,1.7222879684418146,169,1,PRH1,FALSE,enrichr_default
+DisGeNET,Cleft upper lip,Cleft upper lip,0.5035044512423138,0.3994497311734497,1.7222879684418146,169,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Coronary Arteriosclerosis,Coronary Arteriosclerosis,0.5038752010457578,0.4001741562532492,1.1489473684210527,760,3,GSTM1;LPA;TTN,FALSE,enrichr_default
+DisGeNET,Complete atrioventricular block,Complete atrioventricular block,0.5047082099873551,0.4012667322785889,1.7121568627450978,170,1,KIR2DL1,FALSE,enrichr_default
+DisGeNET,Azoospermia,Azoospermia,0.5132307469711184,0.408480833626885,1.6727969348659004,174,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Drug Dependence,Drug Dependence,0.5144107655239396,0.41027096185292,1.6632380952380952,175,1,MPP7,FALSE,enrichr_default
+DisGeNET,Mammary Tumorigenesis,Mammary Tumorigenesis,0.5144107655239396,0.4120557626485528,1.6537878787878788,176,1,LPA,FALSE,enrichr_default
+DisGeNET,Multiple malignancy,Multiple malignancy,0.5144107655239396,0.4120557626485528,1.6537878787878788,176,1,LPA,FALSE,enrichr_default
+DisGeNET,Carcinomatosis,Carcinomatosis,0.5144107655239396,0.4120557626485528,1.6537878787878788,176,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Well Differentiated Oligodendroglioma,Well Differentiated Oligodendroglioma,0.5144107655239396,0.4120557626485528,1.6537878787878788,176,1,DMBT1,FALSE,enrichr_default
+DisGeNET,Septicemia,Septicemia,0.5144107655239396,0.4113920939853936,1.243874643874644,468,2,DDT;PRH1,FALSE,enrichr_default
+DisGeNET,Refractory cancer,Refractory cancer,0.5144385132930266,0.413835251513263,1.6444444444444444,177,1,MUC16,FALSE,enrichr_default
+DisGeNET,Carcinoma of larynx,Carcinoma of larynx,0.5144385132930266,0.413835251513263,1.6444444444444444,177,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Hemoglobin low,Hemoglobin low,0.5144385132930266,0.413835251513263,1.6444444444444444,177,1,HBA2,FALSE,enrichr_default
+DisGeNET,Dengue Fever,Dengue Fever,0.5144385132930266,0.413835251513263,1.6444444444444444,177,1,PRH1,FALSE,enrichr_default
+DisGeNET,Retinal Dystrophies,Retinal Dystrophies,0.5150038719063201,0.4156094440234608,1.6352059925093634,178,1,MRGPRX1,FALSE,enrichr_default
+DisGeNET,Neutropenia,Neutropenia,0.5150038719063201,0.4156094440234608,1.6352059925093634,178,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Dyschezia,Dyschezia,0.5150038719063201,0.4156094440234608,1.6352059925093634,178,1,SDHA,FALSE,enrichr_default
+DisGeNET,Scleroderma,Scleroderma,0.5161035421488109,0.4173783556062544,1.626070763500931,179,1,TTN,FALSE,enrichr_default
+DisGeNET,Myasthenia Gravis,Myasthenia Gravis,0.5161035421488109,0.4173783556062544,1.626070763500931,179,1,TTN,FALSE,enrichr_default
+DisGeNET,Penile hypospadias,Penile hypospadias,0.5177376415200832,0.4191420018454644,1.617037037037037,180,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Gastritis,Gastritis,0.5188151222175021,0.42090039804152607,1.6081031307550644,181,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Photodysphoria,Photodysphoria,0.5188151222175021,0.42090039804152607,1.6081031307550644,181,1,C4A,FALSE,enrichr_default
+DisGeNET,Mental impairment,Mental impairment,0.5204283052178357,0.4226535595748606,1.5992673992673991,182,1,SDHA,FALSE,enrichr_default
+DisGeNET,"Acidosis, Lactic","Acidosis, Lactic",0.5214839019644015,0.4244015017694916,1.590528233151184,183,1,SDHA,FALSE,enrichr_default
+DisGeNET,Neoplasm Invasiveness,Neoplasm Invasiveness,0.5214839019644015,0.4244015017694916,1.590528233151184,183,1,SLC6A12,FALSE,enrichr_default
+DisGeNET,Vomiting,Vomiting,0.5294557218658007,0.4313413822886199,1.5565062388591802,187,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Photophobia,Photophobia,0.5302652300818014,0.43306345613115366,1.54822695035461,188,1,C4A,FALSE,enrichr_default
+DisGeNET,Dyspnea,Dyspnea,0.5302652300818014,0.43306345613115366,1.54822695035461,188,1,GSTM1,FALSE,enrichr_default
+DisGeNET,"Liver Cirrhosis, Experimental","Liver Cirrhosis, Experimental",0.5302652300818014,0.43335937249212975,1.0901373283395754,801,3,GSTM1;NAT8;SIGLEC5,FALSE,enrichr_default
+DisGeNET,"Muscular Dystrophy, Duchenne","Muscular Dystrophy, Duchenne",0.532984781970135,0.43649223391064,1.5319298245614035,190,1,TTN,FALSE,enrichr_default
+DisGeNET,Acute leukemia,Acute leukemia,0.532984781970135,0.436338456758168,1.1831978319783198,492,2,GSTM1;KIR2DL1,FALSE,enrichr_default
+DisGeNET,Transient Ischemic Attack,Transient Ischemic Attack,0.5339552458391313,0.4381989677637961,1.5239092495636997,191,1,TRPM2,FALSE,enrichr_default
+DisGeNET,Deglutition Disorders,Deglutition Disorders,0.5339552458391313,0.4381989677637961,1.5239092495636997,191,1,SDHA,FALSE,enrichr_default
+DisGeNET,Congenital chromosomal disease,Congenital chromosomal disease,0.5373782511008436,0.44146701755679896,1.1712944332662643,497,2,GSTM1;TNFRSF10D,FALSE,enrichr_default
+DisGeNET,Gait abnormality,Gait abnormality,0.5405248755543066,0.44497521779193133,1.4926495726495725,195,1,C4A,FALSE,enrichr_default
+DisGeNET,Hypospadias,Hypospadias,0.5405248755543066,0.44497521779193133,1.4926495726495725,195,1,GSTM1,FALSE,enrichr_default
+DisGeNET,"Carcinoma, Papillary","Carcinoma, Papillary",0.541444074334983,0.4466566830124624,1.485034013605442,196,1,MUC16,FALSE,enrichr_default
+DisGeNET,Spinal Muscular Atrophy,Spinal Muscular Atrophy,0.541444074334983,0.4466566830124624,1.485034013605442,196,1,TTN,FALSE,enrichr_default
+DisGeNET,Allergic asthma,Allergic asthma,0.5429142766884064,0.4483331388195465,1.4774957698815567,197,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Congenital clubfoot,Congenital clubfoot,0.5438136083561973,0.4500045999121735,1.47003367003367,198,1,HBA2,FALSE,enrichr_default
+DisGeNET,Malignant neoplasm of thyroid,Malignant neoplasm of thyroid,0.5438136083561973,0.4496212398486321,1.1527392739273927,505,2,GSTM1;LPA,FALSE,enrichr_default
+DisGeNET,Tumor Angiogenesis,Tumor Angiogenesis,0.5501218799457334,0.4556944692974905,1.1392041748206132,511,2,RIPOR2;MRGPRX1,FALSE,enrichr_default
+DisGeNET,Renal fibrosis,Renal fibrosis,0.5506965637762216,0.4566407885795996,1.440924092409241,202,1,LPA,FALSE,enrichr_default
+DisGeNET,Malignant neoplasm of gallbladder,Malignant neoplasm of gallbladder,0.5521138437650459,0.4582874945684241,1.4338259441707717,203,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Short neck,Short neck,0.5529540061631365,0.4599292929145131,1.426797385620915,204,1,HBA2,FALSE,enrichr_default
+DisGeNET,Leukodystrophy,Leukodystrophy,0.5529540061631365,0.4599292929145131,1.426797385620915,204,1,SDHA,FALSE,enrichr_default
+DisGeNET,Cervical Intraepithelial Neoplasia,Cervical Intraepithelial Neoplasia,0.553784854355086,0.4615661979936498,1.4198373983739836,205,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Thymoma,Thymoma,0.553784854355086,0.4615661979936498,1.4198373983739836,205,1,TTN,FALSE,enrichr_default
+DisGeNET,Cytopenia,Cytopenia,0.5550300662645229,0.4631982242551198,1.4129449838187702,206,1,HBA2,FALSE,enrichr_default
+DisGeNET,Hepatitis B,Hepatitis B,0.5550300662645229,0.4635520109365529,1.0407628128724673,839,3,GSTM1;DMBT1;PRH1,FALSE,enrichr_default
+DisGeNET,Polycythemia Vera,Polycythemia Vera,0.555986237945413,0.46482538595094736,1.4061191626409018,207,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Colorectal cancer metastatic,Colorectal cancer metastatic,0.5562222540604648,0.4664476972565128,1.3993589743589745,208,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Congenital anemia,Congenital anemia,0.5562222540604648,0.4664476972565128,1.3993589743589745,208,1,HBA2,FALSE,enrichr_default
+DisGeNET,Constipation,Constipation,0.5562222540604648,0.4664476972565128,1.3993589743589745,208,1,SDHA,FALSE,enrichr_default
+DisGeNET,Smoking Behaviors,Smoking Behaviors,0.5564510831783651,0.4680651724429458,1.3926634768740032,209,1,MUC4,FALSE,enrichr_default
+DisGeNET,Myxoid cyst,Myxoid cyst,0.5564510831783651,0.4680651724429458,1.3926634768740032,209,1,MRGPRX1,FALSE,enrichr_default
+DisGeNET,Nonalcoholic Steatohepatitis,Nonalcoholic Steatohepatitis,0.5564510831783651,0.4680651724429458,1.3926634768740032,209,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Glomerulonephritis,Glomerulonephritis,0.5578019613453948,0.46967782569304806,1.386031746031746,210,1,C4A,FALSE,enrichr_default
+DisGeNET,Polycystic Ovary Syndrome,Polycystic Ovary Syndrome,0.5584659444446168,0.47071382337048406,1.1067173637515844,526,2,GSTM1;MUC5AC,FALSE,enrichr_default
+DisGeNET,Sepsis,Sepsis,0.5608592985537506,0.4736890232874973,1.100441083805923,529,2,DDT;PRH1,FALSE,enrichr_default
+DisGeNET,Undergrowth,Undergrowth,0.5608592985537506,0.4736890232874973,1.100441083805923,529,2,HBA2;SDHA,FALSE,enrichr_default
+DisGeNET,Glioblastoma Multiforme,Glioblastoma Multiforme,0.562188419444441,0.4752916611870167,1.0224824355971898,854,3,GSTM1;DMBT1;LPA,FALSE,enrichr_default
+DisGeNET,Craniosynostosis,Craniosynostosis,0.5625532462872267,0.4760805013412824,1.3601246105919003,214,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Respiratory syncytial virus (RSV) infection in conditions classified elsewhere and of unspecified site,Respiratory syncytial virus (RSV) infection in conditions classified elsewhere and of unspecified site,0.5651617146252389,0.47925327294864406,1.3475308641975308,216,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Dyslipidemias,Dyslipidemias,0.5651617146252389,0.47925327294864406,1.3475308641975308,216,1,LPA,FALSE,enrichr_default
+DisGeNET,Invasive Ductal Breast Carcinoma,Invasive Ductal Breast Carcinoma,0.5683086233356058,0.4824071490995664,1.3351681957186545,218,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Failure to gain weight,Failure to gain weight,0.5684943581960438,0.4835357649558152,1.0800247371675942,539,2,HBA2;SDHA,FALSE,enrichr_default
+DisGeNET,"Lymphoma, Non-Hodgkin","Lymphoma, Non-Hodgkin",0.5684943581960438,0.4835357649558152,1.0800247371675942,539,2,GSTM1;MUC16,FALSE,enrichr_default
+DisGeNET,"Neoplasm, Residual","Neoplasm, Residual",0.5702808058643639,0.4855422403473705,1.323030303030303,220,1,KIR2DL1,FALSE,enrichr_default
+DisGeNET,Pediatric failure to thrive,Pediatric failure to thrive,0.5719404222469113,0.48744367327277327,1.0720687538367095,543,2,HBA2;SDHA,FALSE,enrichr_default
+DisGeNET,Downward slant of palpebral fissure,Downward slant of palpebral fissure,0.5727920790558825,0.4886586566838827,1.3111111111111111,222,1,HBA2,FALSE,enrichr_default
+DisGeNET,Metabolic Syndrome X,Metabolic Syndrome X,0.5764873929833766,0.4923034952889638,1.062287104622871,548,2,GSTM1;PRH1,FALSE,enrichr_default
+DisGeNET,Malnutrition,Malnutrition,0.5770754737291562,0.4932985048700986,1.2936296296296297,225,1,LPA,FALSE,enrichr_default
+DisGeNET,Graft-vs-Host Disease,Graft-vs-Host Disease,0.5782962482561517,0.49483590158212126,1.287905604719764,226,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Ki-1+ Anaplastic Large Cell Lymphoma,Ki-1+ Anaplastic Large Cell Lymphoma,0.5812934445233015,0.4978969469315725,1.276608187134503,228,1,PRH1,FALSE,enrichr_default
+DisGeNET,Endometrioma,Endometrioma,0.581911989014188,0.49942062251004177,1.2710334788937407,229,1,MUC16,FALSE,enrichr_default
+DisGeNET,No development of motor milestones,No development of motor milestones,0.581911989014188,0.49942062251004177,1.2710334788937407,229,1,TTN,FALSE,enrichr_default
+DisGeNET,Ductal Carcinoma,Ductal Carcinoma,0.5831018375741017,0.5009397511524734,1.2655072463768116,230,1,ANKRD30A,FALSE,enrichr_default
+DisGeNET,Motor delay,Motor delay,0.5860400566181615,0.5039644210200586,1.2545977011494254,232,1,TTN,FALSE,enrichr_default
+DisGeNET,Gallbladder Carcinoma,Gallbladder Carcinoma,0.5863819876606816,0.5054699888191683,1.2492131616595135,233,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Chronic myeloproliferative disorder,Chronic myeloproliferative disorder,0.5863819876606816,0.5054699888191683,1.2492131616595135,233,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Systemic Scleroderma,Systemic Scleroderma,0.5863819876606816,0.5057607237722361,1.0358244365361802,562,2,GSTM1;TTN,FALSE,enrichr_default
+DisGeNET,Epstein-Barr Virus Infections,Epstein-Barr Virus Infections,0.5872038719969391,0.5069710628427886,1.243874643874644,234,1,TTN,FALSE,enrichr_default
+DisGeNET,Sarcoidosis,Sarcoidosis,0.5894994126363411,0.5099597822379278,1.2333333333333332,236,1,KIR2DL1,FALSE,enrichr_default
+DisGeNET,Uveal melanoma,Uveal melanoma,0.5894994126363411,0.5099597822379278,1.2333333333333332,236,1,MRGPRX1,FALSE,enrichr_default
+DisGeNET,Undifferentiated carcinoma,Undifferentiated carcinoma,0.5900541561911523,0.5114474539146197,1.2281293952180028,237,1,MUC16,FALSE,enrichr_default
+DisGeNET,IGA Glomerulonephritis,IGA Glomerulonephritis,0.5900541561911523,0.5114474539146197,1.2281293952180028,237,1,LPA,FALSE,enrichr_default
+DisGeNET,Overweight,Overweight,0.5911829048074315,0.51293068427357,1.22296918767507,238,1,LPA,FALSE,enrichr_default
+DisGeNET,Hypercholesterolemia,Hypercholesterolemia,0.5934184829439043,0.5158838733022156,1.2127777777777777,240,1,LPA,FALSE,enrichr_default
+DisGeNET,Acute lymphocytic leukemia,Acute lymphocytic leukemia,0.5934184829439043,0.5158362894314186,0.9627342888643882,907,3,GSTM1;KIR2DL1;LPA,FALSE,enrichr_default
+DisGeNET,"Meningioma, benign, no ICD-O subtype","Meningioma, benign, no ICD-O subtype",0.5939425173537969,0.5173538579853739,1.2077455048409407,241,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Chondrosarcoma,Chondrosarcoma,0.5939425173537969,0.5173538579853739,1.2077455048409407,241,1,MUC16,FALSE,enrichr_default
+DisGeNET,Vitiligo,Vitiligo,0.5961865780646548,0.5202806720951924,1.1978052126200274,243,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Coronary heart disease,Coronary heart disease,0.5961865780646548,0.5203267999846944,0.956407447973713,913,3,GSTM1;LPA;PRH1,FALSE,enrichr_default
+DisGeNET,Ulcerative Colitis,Ulcerative Colitis,0.5973117463790533,0.5218188868879347,0.9543169398907104,915,3,GSTM1;DMBT1;MUC4,FALSE,enrichr_default
+DisGeNET,Leukopenia,Leukopenia,0.5999524706803308,0.524638198101331,1.1831978319783198,246,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Splenomegaly,Splenomegaly,0.6004308653839401,0.5260820391835376,1.1784075573549257,247,1,HBA2,FALSE,enrichr_default
+DisGeNET,Diabetic Retinopathy,Diabetic Retinopathy,0.6004308653839401,0.5260820391835376,1.1784075573549257,247,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Immune System Diseases,Immune System Diseases,0.6047556383520433,0.5303877374786921,1.1642666666666666,250,1,C4A,FALSE,enrichr_default
+DisGeNET,Visual Impairment,Visual Impairment,0.6048205256652466,0.5318144040404412,1.1596281540504647,251,1,SDHA,FALSE,enrichr_default
+DisGeNET,Dystonia,Dystonia,0.6048205256652466,0.5318144040404412,1.1596281540504647,251,1,SDHA,FALSE,enrichr_default
+DisGeNET,Medulloblastoma,Medulloblastoma,0.6048205256652466,0.5319941429848027,0.9866666666666666,590,2,GSTM1;DMBT1,FALSE,enrichr_default
+DisGeNET,"Alzheimer Disease, Late Onset","Alzheimer Disease, Late Onset",0.6066675986330514,0.5346549630993246,1.1504611330698287,253,1,LPA,FALSE,enrichr_default
+DisGeNET,Hydrocephalus,Hydrocephalus,0.6066675986330514,0.5346549630993246,1.1504611330698287,253,1,HBA2,FALSE,enrichr_default
+DisGeNET,Congenital Epicanthus,Congenital Epicanthus,0.6086918854695424,0.5374785735059837,1.141437908496732,255,1,HBA2,FALSE,enrichr_default
+DisGeNET,Acute Coronary Syndrome,Acute Coronary Syndrome,0.6086918854695424,0.5374785735059837,1.141437908496732,255,1,LPA,FALSE,enrichr_default
+DisGeNET,Skin Neoplasms,Skin Neoplasms,0.6096939394683224,0.5388840540988161,1.1369791666666667,256,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Urothelial Carcinoma,Urothelial Carcinoma,0.6106893116942125,0.540285334684205,1.1325551232166018,257,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Tuberculosis,Tuberculosis,0.6131122356359632,0.5429525092694225,0.966998892580288,602,2,GSTM1;KIR2DL1,FALSE,enrichr_default
+DisGeNET,Malignant Pleural Mesothelioma,Malignant Pleural Mesothelioma,0.6142268413909289,0.544464100225264,1.1194871794871795,260,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Low Vision,Low Vision,0.6151961815084778,0.5458487041736195,1.115197956577267,261,1,SDHA,FALSE,enrichr_default
+DisGeNET,Endothelial dysfunction,Endothelial dysfunction,0.6158349946223283,0.5472291694907137,1.110941475826972,262,1,LPA,FALSE,enrichr_default
+DisGeNET,Congenital Abnormality,Congenital Abnormality,0.6158349946223283,0.5474673180203619,0.9590334980779791,607,2,GSTM1;PRH1,FALSE,enrichr_default
+DisGeNET,Renal Insufficiency,Renal Insufficiency,0.6165230809245985,0.5486055083889254,1.1067173637515844,263,1,LPA,FALSE,enrichr_default
+DisGeNET,Myeloproliferative disease,Myeloproliferative disease,0.6174726033989515,0.5499777330017988,1.1025252525252525,264,1,HBA2,FALSE,enrichr_default
+DisGeNET,"Diabetes Mellitus, Insulin-Dependent","Diabetes Mellitus, Insulin-Dependent",0.618996554041242,0.5518637082997921,0.9133891213389123,956,3,C4A;GSTM1;LPA,FALSE,enrichr_default
+DisGeNET,Refractory anemias,Refractory anemias,0.6193524195091193,0.5527098876063448,1.0942355889724311,266,1,MUC4,FALSE,enrichr_default
+DisGeNET,Adenocarcinoma of colon,Adenocarcinoma of colon,0.620282776888101,0.5540698416950928,1.0901373283395757,267,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Hypothyroidism,Hypothyroidism,0.6212068093210937,0.5554257295979378,1.0860696517412936,268,1,LPA,FALSE,enrichr_default
+DisGeNET,Myopia,Myopia,0.6221069881325728,0.5567775633324363,1.0820322180916975,269,1,TEX28,FALSE,enrichr_default
+DisGeNET,Precursor Cell Lymphoblastic Leukemia Lymphoma,Precursor Cell Lymphoblastic Leukemia Lymphoma,0.6221069881325728,0.5572931089249094,0.9419633225458468,618,2,GSTM1;KIR2DL1,FALSE,enrichr_default
+DisGeNET,Uranostaphyloschisis,Uranostaphyloschisis,0.6284102745037181,0.5634763349520957,1.062287104622871,274,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Rectal Carcinoma,Rectal Carcinoma,0.6307666469233619,0.5661278786647765,1.0545893719806765,276,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Congenital Heart Defects,Congenital Heart Defects,0.631476605907414,0.5674477049346812,1.0507821901323706,277,1,TTN,FALSE,enrichr_default
+DisGeNET,Arthritis,Arthritis,0.631476605907414,0.5678436088988102,0.9240211640211641,630,2,C4A;MUC5AC,FALSE,enrichr_default
+DisGeNET,Conventional (Clear Cell) Renal Cell Carcinoma,Conventional (Clear Cell) Renal Cell Carcinoma,0.6318454254867767,0.5687148407028716,0.9225567881669308,631,2,GSTM1;MUC4,FALSE,enrichr_default
+DisGeNET,Coronary Artery Disease,Coronary Artery Disease,0.6322876268683814,0.5696528149838961,0.8901121304791031,981,3,GSTM1;LPA;PRH1,FALSE,enrichr_default
+DisGeNET,Byzanthine arch palate,Byzanthine arch palate,0.6336080745413669,0.5713835411747937,1.0395238095238095,280,1,HBA2,FALSE,enrichr_default
+DisGeNET,Experimental Organism Basal Cell Carcinoma,Experimental Organism Basal Cell Carcinoma,0.6351563353896847,0.5739878454853202,1.0321513002364067,282,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Dysarthria,Dysarthria,0.6351563353896847,0.5739878454853202,1.0321513002364067,282,1,SDHA,FALSE,enrichr_default
+DisGeNET,Anaplasia,Anaplasia,0.6351563353896847,0.5752841562484478,1.0285041224970555,283,1,LPA,FALSE,enrichr_default
+DisGeNET,Low density lipoprotein cholesterol measurement,Low density lipoprotein cholesterol measurement,0.6351563353896847,0.5752841562484478,1.0285041224970555,283,1,LPA,FALSE,enrichr_default
+DisGeNET,Lupus Vulgaris,Lupus Vulgaris,0.6351563353896847,0.5765765879754354,1.0248826291079811,284,1,C4A,FALSE,enrichr_default
+DisGeNET,Neuropathy,Neuropathy,0.6351563353896847,0.5765765879754354,1.0248826291079811,284,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Kidney Diseases,Kidney Diseases,0.6351563353896847,0.5756403640675123,0.9110067814293167,639,2,GSTM1;LPA,FALSE,enrichr_default
+DisGeNET,polyps,polyps,0.6359775310944573,0.5778651520789945,1.0212865497076022,285,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Atrial Fibrillation,Atrial Fibrillation,0.6390054205158472,0.5817077525789011,1.0106481481481482,288,1,TTN,FALSE,enrichr_default
+DisGeNET,"Aortic Aneurysm, Abdominal","Aortic Aneurysm, Abdominal",0.6390054205158472,0.5817077525789011,1.0106481481481482,288,1,LPA,FALSE,enrichr_default
+DisGeNET,Pituitary Neoplasms,Pituitary Neoplasms,0.6494685659636262,0.5917873269711266,0.9833333333333333,296,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Kidney Failure,Kidney Failure,0.6500676558069869,0.5930303580724188,0.9800224466891134,297,1,LPA,FALSE,enrichr_default
+DisGeNET,Amyotrophic Lateral Sclerosis,Amyotrophic Lateral Sclerosis,0.6500676558069869,0.5934434876666687,0.8820202020202019,660,2,TRPM2;MGAM,FALSE,enrichr_default
+DisGeNET,Charcot-Marie-Tooth Disease,Charcot-Marie-Tooth Disease,0.6503642804428018,0.5942696670143449,0.9767337807606263,298,1,TTN,FALSE,enrichr_default
+DisGeNET,Adenocarcinoma Of Esophagus,Adenocarcinoma Of Esophagus,0.6511079971602031,0.5955052646956256,0.9734671125975474,299,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Hereditary Diffuse Gastric Cancer,Hereditary Diffuse Gastric Cancer,0.6513650679980677,0.5967371619202828,0.9702222222222222,300,1,FCGBP,FALSE,enrichr_default
+DisGeNET,Hyperreflexia,Hyperreflexia,0.6513650679980677,0.597965369853051,0.966998892580288,301,1,SDHA,FALSE,enrichr_default
+DisGeNET,Cutaneous Melanoma,Cutaneous Melanoma,0.6513650679980677,0.597965369853051,0.966998892580288,301,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Pancreatic Neoplasm,Pancreatic Neoplasm,0.6513650679980677,0.5976017289474559,0.8753884711779448,665,2,MUC4;MUC5AC,FALSE,enrichr_default
+DisGeNET,Serum total cholesterol measurement,Serum total cholesterol measurement,0.6586959285735218,0.6052577447866007,0.9480998914223671,307,1,LPA,FALSE,enrichr_default
+DisGeNET,Body Height,Body Height,0.6671560293284945,0.6136012327812029,0.926963906581741,314,1,RIPOR2,FALSE,enrichr_default
+DisGeNET,Cholestasis,Cholestasis,0.6678164278859219,0.6147789148258103,0.9240211640211641,315,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Gastrointestinal Stromal Tumors,Gastrointestinal Stromal Tumors,0.6766581972952014,0.6240741700075298,0.9011351909184726,323,1,SDHA,FALSE,enrichr_default
+DisGeNET,Kaposi Sarcoma,Kaposi Sarcoma,0.6766581972952014,0.6240741700075298,0.9011351909184726,323,1,LPA,FALSE,enrichr_default
+DisGeNET,High density lipoprotein measurement,High density lipoprotein measurement,0.6772739631804079,0.6252204561895994,0.8983539094650206,324,1,LPA,FALSE,enrichr_default
+DisGeNET,Broad flat nasal bridge,Broad flat nasal bridge,0.6840137244065871,0.6320263448402453,0.8820202020202019,330,1,HBA2,FALSE,enrichr_default
+DisGeNET,Hyperactive behavior,Hyperactive behavior,0.6842779407182423,0.6328548333030372,0.8210625293841091,709,2,LPA;MUC5AC,FALSE,enrichr_default
+DisGeNET,Nasal bridge wide,Nasal bridge wide,0.6863783724192491,0.6353835659286644,0.874074074074074,333,1,HBA2,FALSE,enrichr_default
+DisGeNET,Non-alcoholic Fatty Liver Disease,Non-alcoholic Fatty Liver Disease,0.6869463010561291,0.6364959322339027,0.8714570858283432,334,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Mood Disorders,Mood Disorders,0.688068248786031,0.6387106630490313,0.8662698412698412,336,1,TRPM2,FALSE,enrichr_default
+DisGeNET,Triglycerides measurement,Triglycerides measurement,0.688068248786031,0.6387106630490313,0.8662698412698412,336,1,LPA,FALSE,enrichr_default
+DisGeNET,Thrombocytopenia,Thrombocytopenia,0.6933327442701908,0.6441896035576153,0.8535679374389051,341,1,MUC4,FALSE,enrichr_default
+DisGeNET,Ankylosing spondylitis,Ankylosing spondylitis,0.7007968240969648,0.6517230926059732,0.8363984674329502,348,1,KIR2DL1,FALSE,enrichr_default
+DisGeNET,Muscle Spasticity,Muscle Spasticity,0.7058314280452448,0.657007904841432,0.8245514636449481,353,1,SDHA,FALSE,enrichr_default
+DisGeNET,Neurodegenerative Disorders,Neurodegenerative Disorders,0.7083060128693959,0.6599161913240913,0.7813870246085012,745,2,TRPM2;GSTM1,FALSE,enrichr_default
+DisGeNET,"Lymphoma, Follicular","Lymphoma, Follicular",0.7109019734358357,0.6632456646389274,0.8107706592386258,359,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Short stature,Short stature,0.7109019734358357,0.6635489811830644,0.7761777777777777,750,2,HBA2;SDHA,FALSE,enrichr_default
+DisGeNET,Optic Atrophy,Optic Atrophy,0.7143122022527447,0.6673420574419323,0.8018365472910928,363,1,SDHA,FALSE,enrichr_default
+DisGeNET,Orbital separation excessive,Orbital separation excessive,0.719062117163098,0.6723936962370557,0.7909420289855073,368,1,HBA2,FALSE,enrichr_default
+DisGeNET,Hepatomegaly,Hepatomegaly,0.7237227475011054,0.677369881521103,0.7803395889186774,373,1,HBA2,FALSE,enrichr_default
+DisGeNET,Idiopathic Pulmonary Fibrosis,Idiopathic Pulmonary Fibrosis,0.7293326003019941,0.6832432643307323,0.767985927880387,379,1,LPA,FALSE,enrichr_default
+DisGeNET,Glaucoma,Glaucoma,0.7307312962604547,0.6851775946148414,0.7639545056867892,381,1,GSTM1,FALSE,enrichr_default
+DisGeNET,"Hepatitis C, Chronic","Hepatitis C, Chronic",0.7341714766495174,0.6899627470298336,0.7540587219343696,386,1,PRH1,FALSE,enrichr_default
+DisGeNET,Erythrocyte Mean Corpuscular Hemoglobin Test,Erythrocyte Mean Corpuscular Hemoglobin Test,0.7341714766495174,0.6909111590672657,0.7521102497846684,387,1,RIPOR2,FALSE,enrichr_default
+DisGeNET,Finding of Mean Corpuscular Hemoglobin,Finding of Mean Corpuscular Hemoglobin,0.7341714766495174,0.6909111590672657,0.7521102497846684,387,1,RIPOR2,FALSE,enrichr_default
+DisGeNET,Cardiovascular Diseases,Cardiovascular Diseases,0.7341714766495174,0.689491220999255,0.739686573485811,787,2,GSTM1;LPA,FALSE,enrichr_default
+DisGeNET,Chronic kidney disease stage 5,Chronic kidney disease stage 5,0.7345097160873512,0.6918567180566596,0.7501718213058419,388,1,LPA,FALSE,enrichr_default
+DisGeNET,Retrusion of lower jaw,Retrusion of lower jaw,0.7387734824893598,0.6983964518494631,0.7368776371308017,395,1,HBA2,FALSE,enrichr_default
+DisGeNET,Hypoplastic mandible condyle,Hypoplastic mandible condyle,0.7387734824893598,0.6983964518494631,0.7368776371308017,395,1,HBA2,FALSE,enrichr_default
+DisGeNET,Decreased projection of lower jaw,Decreased projection of lower jaw,0.7387734824893598,0.6983964518494631,0.7368776371308017,395,1,HBA2,FALSE,enrichr_default
+DisGeNET,Decreased projection of mandible,Decreased projection of mandible,0.7387734824893598,0.6983964518494631,0.7368776371308017,395,1,HBA2,FALSE,enrichr_default
+DisGeNET,Rhabdomyosarcoma,Rhabdomyosarcoma,0.7393875053982247,0.7002397467861924,0.7331654072208228,397,1,TTN,FALSE,enrichr_default
+DisGeNET,Aplasia/Hypoplasia of the mandible,Aplasia/Hypoplasia of the mandible,0.7393875053982247,0.7002397467861924,0.7331654072208228,397,1,HBA2,FALSE,enrichr_default
+DisGeNET,"Carcinoma, Transitional Cell","Carcinoma, Transitional Cell",0.7394334016404398,0.7020719627862557,0.7294903926482873,399,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Malignant neoplasm of liver,Malignant neoplasm of liver,0.7394334016404398,0.7015204774126524,0.7231469979296066,805,2,GSTM1;APOBEC3A,FALSE,enrichr_default
+DisGeNET,HIV Infections,HIV Infections,0.7394334016404398,0.7021775769634236,0.7222497932175351,806,2,HBA2;LPA,FALSE,enrichr_default
+DisGeNET,Micrognathism,Micrognathism,0.739617421200618,0.7029839366321843,0.7276666666666667,400,1,HBA2,FALSE,enrichr_default
+DisGeNET,Strabismus,Strabismus,0.7427592671344043,0.7066044607922515,0.7204620462046205,404,1,SDHA,FALSE,enrichr_default
+DisGeNET,Dermatologic disorders,Dermatologic disorders,0.7439771676521111,0.7083984132639657,0.7169129720853858,406,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Curvature of spine,Curvature of spine,0.7451815665510794,0.7101815783697732,0.7133986928104575,408,1,TTN,FALSE,enrichr_default
+DisGeNET,Retinitis Pigmentosa,Retinitis Pigmentosa,0.7463725669572447,0.7119540198900448,0.7099186991869918,410,1,SDHA,FALSE,enrichr_default
+DisGeNET,Cryptorchidism,Cryptorchidism,0.7493844721286473,0.7154669853457111,0.7030595813204509,414,1,HBA2,FALSE,enrichr_default
+DisGeNET,Metastatic melanoma,Metastatic melanoma,0.7514429738718414,0.7180740288322721,0.6980015987210232,417,1,TTN,FALSE,enrichr_default
+DisGeNET,Acquired scoliosis,Acquired scoliosis,0.7516751591420112,0.7189378123305317,0.6963317384370016,418,1,TTN,FALSE,enrichr_default
+DisGeNET,Benign Prostatic Hyperplasia,Benign Prostatic Hyperplasia,0.7528010933558658,0.7206575795490398,0.693015873015873,420,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Bipolar Disorder,Bipolar Disorder,0.7528304383799852,0.721971462255101,0.6954998008761449,837,2,TRPM2;GSTM1,FALSE,enrichr_default
+DisGeNET,Metabolic Diseases,Metabolic Diseases,0.7528304383799852,0.7215135785382855,0.6913697545526524,421,1,LPA,FALSE,enrichr_default
+DisGeNET,Solid Neoplasm,Solid Neoplasm,0.7536723885682617,0.7238283759077146,0.693015873015873,840,2,MUC16;MUC4,FALSE,enrichr_default
+DisGeNET,"Alcoholic Intoxication, Chronic","Alcoholic Intoxication, Chronic",0.7536723885682617,0.724066129068569,0.6864779874213837,424,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Pulmonary Fibrosis,Pulmonary Fibrosis,0.7599654708169971,0.7307609907258229,0.6737654320987654,432,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Meningioma,Meningioma,0.7643991522073459,0.7356770662149265,0.6645357686453577,438,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Precancerous Conditions,Precancerous Conditions,0.7703838293599783,0.7420947562067084,0.6526158445440957,446,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Eczema,Eczema,0.7761989162740776,0.748359160096869,0.6411160058737152,454,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Muscle hypotonia,Muscle hypotonia,0.7802787908819361,0.7529590381695882,0.6327536231884058,460,1,HBA2,FALSE,enrichr_default
+DisGeNET,Epileptic encephalopathy,Epileptic encephalopathy,0.7858060267039935,0.7589638054673071,0.621937321937322,468,1,SDHA,FALSE,enrichr_default
+DisGeNET,Malignant Head and Neck Neoplasm,Malignant Head and Neck Neoplasm,0.7866414173861308,0.7604424291042698,0.6192907801418439,470,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Sensorineural Hearing Loss (disorder),Sensorineural Hearing Loss (disorder),0.7867077648746954,0.761178392487643,0.6179759377211607,471,1,SDHA,FALSE,enrichr_default
+DisGeNET,Down Syndrome,Down Syndrome,0.7883891396236957,0.7641000775068595,0.6127719298245614,475,1,TTN,FALSE,enrichr_default
+DisGeNET,"Mammary Neoplasms, Human","Mammary Neoplasms, Human",0.7883891396236957,0.7648249894214504,0.611484593837535,476,1,APOBEC3A,FALSE,enrichr_default
+DisGeNET,Thyroid Neoplasm,Thyroid Neoplasm,0.7883891396236957,0.7648249894214504,0.611484593837535,476,1,GSTM1,FALSE,enrichr_default
+DisGeNET,"Dermatitis, Atopic","Dermatitis, Atopic",0.793587798473242,0.7705459665790574,0.6013774104683196,484,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Anemia,Anemia,0.7972129678410609,0.7747466758352922,0.5940136054421769,490,1,HBA2,FALSE,enrichr_default
+DisGeNET,Dull intelligence,Dull intelligence,0.8027660126039046,0.783616628569547,0.6147131291798663,947,2,HBA2;SDHA,FALSE,enrichr_default
+DisGeNET,Low intelligence,Low intelligence,0.8027660126039046,0.783616628569547,0.6147131291798663,947,2,HBA2;SDHA,FALSE,enrichr_default
+DisGeNET,Nystagmus,Nystagmus,0.8027660126039046,0.7815804178020295,0.5821333333333333,500,1,SDHA,FALSE,enrichr_default
+DisGeNET,Adult T-Cell Lymphoma/Leukemia,Adult T-Cell Lymphoma/Leukemia,0.8027660126039046,0.7815804178020295,0.5821333333333333,500,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Herpes Simplex Infections,Herpes Simplex Infections,0.8027660126039046,0.7835904900461217,0.5786613651424785,503,1,MUC4,FALSE,enrichr_default
+DisGeNET,Malignant Glioma,Malignant Glioma,0.8027660126039046,0.7842564632099632,0.5775132275132275,504,1,DMBT1,FALSE,enrichr_default
+DisGeNET,"Genetic Diseases, Inborn","Genetic Diseases, Inborn",0.8040664976838482,0.7862423142589349,0.5740959894806048,507,1,TTN,FALSE,enrichr_default
+DisGeNET,Secondary malignant neoplasm of liver,Secondary malignant neoplasm of liver,0.8040664976838482,0.7869002616103246,0.5729658792650919,508,1,MUC5AC,FALSE,enrichr_default
+DisGeNET,Cataract,Cataract,0.8106214700800047,0.7940075373029593,0.5608220937700706,519,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Degenerative polyarthritis,Degenerative polyarthritis,0.8137621813167005,0.7977788079859712,0.596448087431694,976,2,MRGPRX1;SDHA,FALSE,enrichr_default
+DisGeNET,Hepatocarcinogenesis,Hepatocarcinogenesis,0.8143286301063615,0.7990295439728518,0.5523086654016446,527,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Poor school performance,Poor school performance,0.8166532887311124,0.8020079265933214,0.5909983079526226,985,2,HBA2;SDHA,FALSE,enrichr_default
+DisGeNET,Cerebellar Ataxia,Cerebellar Ataxia,0.8355578318512229,0.8212869892918511,0.5151622418879056,565,1,SDHA,FALSE,enrichr_default
+DisGeNET,Small head,Small head,0.8376196450633356,0.8240288907881833,0.5106432748538011,570,1,HBA2,FALSE,enrichr_default
+DisGeNET,Mental Depression,Mental Depression,0.8389082710716763,0.8267294148733684,0.5062028985507246,575,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Diffuse Large B-Cell Lymphoma,Diffuse Large B-Cell Lymphoma,0.8389082710716763,0.8267294148733684,0.5062028985507246,575,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Hodgkin Disease,Hodgkin Disease,0.8471854355744325,0.8356098873513831,0.49166666666666664,592,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Liver and Intrahepatic Biliary Tract Carcinoma,Liver and Intrahepatic Biliary Tract Carcinoma,0.85376565415349,0.8430728673666759,0.47951674903898955,607,1,APOBEC3A,FALSE,enrichr_default
+DisGeNET,Colitis,Colitis,0.85376565415349,0.8435583790397848,0.4787280701754386,608,1,DMBT1,FALSE,enrichr_default
+DisGeNET,Triple Negative Breast Neoplasms,Triple Negative Breast Neoplasms,0.864082199859297,0.8547775080293825,0.46054852320675105,632,1,MUC16,FALSE,enrichr_default
+DisGeNET,Generalized hypotonia,Generalized hypotonia,0.864082199859297,0.8552273865387917,0.4598209583991575,633,1,SDHA,FALSE,enrichr_default
+DisGeNET,Esophageal Neoplasms,Esophageal Neoplasms,0.8651400860930926,0.8570132364372224,0.4569335426478284,637,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Immunologic Deficiency Syndromes,Immunologic Deficiency Syndromes,0.8661742962705938,0.8587774192742609,0.4540821632865314,641,1,C4A,FALSE,enrichr_default
+DisGeNET,Impaired cognition,Impaired cognition,0.8780925415671873,0.8713437517515557,0.43378042722305016,671,1,SDHA,FALSE,enrichr_default
+DisGeNET,Autistic Disorder,Autistic Disorder,0.8797318346051487,0.873721711055327,0.4299359921221073,677,1,GSTM1,FALSE,enrichr_default
+DisGeNET,B-Cell Lymphomas,B-Cell Lymphomas,0.8975332417394577,0.8929344377681198,0.3987214611872146,730,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Leukemogenesis,Leukemogenesis,0.8975332417394577,0.8929344377681198,0.3987214611872146,730,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Depressive disorder,Depressive disorder,0.9003902847708583,0.896545748969104,0.3928025191183086,741,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Nasopharyngeal carcinoma,Nasopharyngeal carcinoma,0.9116007344882628,0.9089811311004508,0.3722080136402387,782,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Hepatitis C,Hepatitis C,0.9116007344882628,0.909265292811521,0.3717326521924223,783,1,GSTM1,FALSE,enrichr_default
+DisGeNET,"Myeloid Leukemia, Chronic","Myeloid Leukemia, Chronic",0.9338041459262953,0.932209262671084,0.33226788432267884,876,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Squamous cell carcinoma of the head and neck,Squamous cell carcinoma of the head and neck,0.9443255218659683,0.9435190952887984,0.3116345467523198,934,1,GSTM1,FALSE,enrichr_default
+DisGeNET,Cognitive delay,Cognitive delay,0.948941977348634,0.948941977348634,0.3013112491373361,966,1,SDHA,FALSE,enrichr_default

@@ -1,0 +1,421 @@
+chromosome,start,end,population,avg_pairwise_myr,genes,gene_biotypes,descriptions,feature_annotation
+chr19_pat_hsa17,8611000,8612000,Bonobo,6.52,ABR,protein_coding,ABR activator of RhoGEF and GTPase,"AluSx#SINE/Alu,L2a#LINE/L2,TR"
+chr6_mat_hsa7,189907000,189908000,Bonobo,8.64,ACTR3B,protein_coding,actin related protein 3B,TR
+chr16_pat_hsa15,89693000,89694000,Bonobo,6.27,ADAMTS17,protein_coding,ADAM metallopeptidase with thrombospondin type 1 motif 17,"AluSx#SINE/Alu,L2b#LINE/L2,L2d2#LINE/L2,TR"
+chr18_pat_hsa16,87054000,87055000,Bonobo,6.70,ADAMTS18,protein_coding,ADAM metallopeptidase with thrombospondin type 1 motif 18,"(TA)n#Simple_repeat,L1MA3#LINE/L1,TR"
+chr4_mat_hsa5,174075000,174076000,Bonobo,7.64,ADAMTS2,protein_coding,ADAM metallopeptidase with thrombospondin type 1 motif 2,TR
+chr8_mat_hsa10,13939000,13940000,Bonobo,19.32,ADARB2,protein_coding,adenosine deaminase RNA specific B2 (inactive),.
+chr10_mat_hsa12,139199000,139200000,Bonobo,7.40,ADGRD1,protein_coding,adhesion G protein-coupled receptor D1,"L1ME3A#LINE/L1,TR"
+chr3_pat_hsa4,67936000,67937000,Bonobo,7.92,ADGRL3,protein_coding,adhesion G protein-coupled receptor L3,TR
+chr14_pat_hsa13,114942000,114943000,Bonobo,8.87,ADPRHL1,protein_coding,ADP-ribosylhydrolase like 1,L1ME1#LINE/L1
+chr16_pat_hsa15,76169000,76170000,Bonobo,6.70,AGBL1,protein_coding,AGBL carboxypeptidase 1,L2c#LINE/L2
+chr4_mat_hsa5,566000,567000,Bonobo,6.63,AHRR,protein_coding,aryl hydrocarbon receptor repressor,TR
+chr3_pat_hsa4,165919000,165920000,Bonobo,6.27,ANXA10,protein_coding,annexin A10,.
+chr19_pat_hsa17,82288000,82289000,Bonobo,6.01,APOH,protein_coding,apolipoprotein H,"AluSq#SINE/Alu,AluSx1#SINE/Alu,AluY#SINE/Alu,L1ME4b#LINE/L1,MER4B#LTR/ERV1,TR"
+chr22_pat_hsa21,22337000,22338000,Bonobo,6.36,APP,protein_coding,amyloid beta precursor protein,.
+chr5_pat_hsa6,177162000,177163000,Bonobo,13.81,ARID1B,protein_coding,AT-rich interaction domain 1B,TR
+chr2_mat_hsa3,192413000,192414000,Bonobo,7.53,ATP13A3,protein_coding,ATPase 13A3,.
+chr17_mat_hsa18,96889000,96890000,Bonobo,14.27,ATP9B,protein_coding,ATPase phospholipid transporting 9B (putative),L1MA4#LINE/L1
+chr19_pat_hsa17,99690000,99691000,Bonobo,6.03,B3GNTL1,protein_coding,UDP-GlcNAc:betaGal beta-1%2C3-N-acetylglucosaminyltransferase like 1,"L1ME3A#LINE/L1,TR"
+chr10_mat_hsa12,6000000,6001000,Bonobo,8.48,B4GALNT3,protein_coding,beta-1%2C4-N-acetyl-galactosaminyltransferase 3,"(ACCTTCC)n#Simple_repeat,L1MB8#LINE/L1,L1MC3#LINE/L1"
+chr15_mat_hsa14,106401000,106402000,Bonobo,9.32,BRF1,protein_coding,BRF1 RNA polymerase III transcription initiation factor subunit,"AluJb#SINE/Alu,AluY#SINE/Alu,L1MD1#LINE/L1,L1ME1#LINE/L1"
+chr9_pat_hsa11,3855000,3856000,Bonobo,6.31,BRSK2,protein_coding,BR serine/threonine kinase 2,.
+chr5_pat_hsa6,46937000,46938000,Bonobo,6.60,BTNL2,protein_coding,butyrophilin like 2,TR
+chr6_mat_hsa7,6053000,6054000,Bonobo,6.47,C6H7orf50,protein_coding,chromosome 6 C7orf50 homolog,TR
+chr6_mat_hsa7,17373000,17374000,Bonobo,6.54,C6H7orf78,protein_coding,chromosome 6 C7orf78 homolog,TR
+chr11_mat_hsa9,1424000,1425000,Bonobo,6.02,CACNA1B,protein_coding,calcium voltage-gated channel subunit alpha1 B,"L1MD1#LINE/L1,L2#LINE/L2,TR"
+chr2_mat_hsa3,62544000,62545000,Bonobo,6.35,CADPS,protein_coding,calcium dependent secretion activator,TR
+chr10_mat_hsa12,5908000,5909000,Bonobo,10.97,CCDC77,protein_coding,coiled-coil domain containing 77,L1MB2#LINE/L1
+chr16_pat_hsa15,25944000,25945000,Bonobo,6.40,CDIN1,protein_coding,CDAN1 interacting nuclease 1,"L1ME1#LINE/L1,L1PA6#LINE/L1,TR"
+chr10_mat_hsa12,104899000,104900000,Bonobo,6.82,CFAP54,protein_coding,cilia and flagella associated protein 54,(TATATAT)n#Simple_repeat
+chr20_pat_hsa19,4811000,4812000,Bonobo,6.44,CIMAP1D,protein_coding,CIMAP1 family member D,TR
+chr14_pat_hsa13,111880000,111881000,Bonobo,9.56,COL4A2,protein_coding,collagen type IV alpha 2 chain,.
+chr12_mat_hsa2a,122905000,122906000,Bonobo,6.11,COLEC11,protein_coding,collectin subfamily member 11,"AluYm1#SINE/Alu,L1MC5a#LINE/L1,L2b#LINE/L2,MIR1_Amn#SINE/MIR,MIRb#SINE/MIR,TR"
+chr7_pat_hsa8,38106000,38107000,Bonobo,6.29,CSGALNACT1,protein_coding,chondroitin sulfate N-acetylgalactosaminyltransferase 1,TR
+chr7_pat_hsa8,18535000,18536000,Bonobo,11.59,CSMD1,protein_coding,CUB and Sushi multiple domains 1,.
+chr20_pat_hsa19,6339000,6340000,Bonobo,7.17,CSNK1G2,protein_coding,casein kinase 1 gamma 2,.
+chr17_mat_hsa18,97365000,97366000,Bonobo,10.70,CTDP1,protein_coding,CTD phosphatase subunit 1,L1M4b#LINE/L1
+chr9_pat_hsa11,3025000,3026000,Bonobo,7.65,DEAF1,protein_coding,DEAF1 transcription factor,.
+chr8_mat_hsa10,12924000,12925000,Bonobo,6.59,DIP2C,protein_coding,disco interacting protein 2 homolog C,TR
+chr7_pat_hsa8,15880000,15881000,Bonobo,10.65,DLGAP2,protein_coding,DLG associated protein 2,.
+chr19_pat_hsa17,94623000,94624000,Bonobo,6.26,DNAH17,protein_coding,dynein axonemal heavy chain 17,"AluJr#SINE/Alu,AluY#SINE/Alu,L1M4#LINE/L1,L1MB3#LINE/L1"
+chr8_mat_hsa10,139269000,139270000,Bonobo,12.76,DOCK1,protein_coding,dedicator of cytokinesis 1,.
+chr11_mat_hsa9,124241000,124242000,Bonobo,6.75,DOCK8,protein_coding,dedicator of cytokinesis 8,AluSx#SINE/Alu
+chr17_mat_hsa18,87039000,87040000,Bonobo,6.58,DOK6,protein_coding,docking protein 6,"AluY#SINE/Alu,L1ME1#LINE/L1,TR"
+chr18_pat_hsa16,99422000,99423000,Bonobo,6.27,DPEP1,protein_coding,dipeptidase 1,.
+chr11_mat_hsa9,1811000,1812000,Bonobo,11.32,DPH7,protein_coding,diphthamide biosynthesis 7,.
+chr6_mat_hsa7,190510000,190511000,Bonobo,6.94,DPP6,protein_coding,dipeptidyl peptidase like 6,SEDEF_SD
+chr6_mat_hsa7,190354000,190355000,Bonobo,6.80,DPP6,protein_coding,dipeptidyl peptidase like 6,TR
+chr11_mat_hsa9,2280000,2281000,Bonobo,9.48,DPP7,protein_coding,dipeptidyl peptidase 7,"AluSx#SINE/Alu,AluSx1#SINE/Alu,L1MB4#LINE/L1,LTR13#LTR/ERVK,TR"
+chr11_mat_hsa9,1565000,1566000,Bonobo,10.60,EHMT1,protein_coding,euchromatic histone lysine methyltransferase 1,.
+chr10_mat_hsa12,6536000,6537000,Bonobo,6.01,ERC1,protein_coding,ELKS/RAB6-interacting/CAST family member 1,"AluSx#SINE/Alu,AluY#SINE/Alu,TR"
+chr21_mat_hsa20,1766000,1767000,Bonobo,6.18,"FAM110A,SCRT2",protein_coding;protein_coding,family with sequence similarity 110 member A;scratch family transcriptional repressor 2,TR
+chr18_pat_hsa16,99603000,99604000,Bonobo,8.37,FANCA,protein_coding,FA complementation group A,"AluSx#SINE/Alu,L1MB5#LINE/L1,Tigger3a#DNA/TcMar-Tigger"
+chr7_pat_hsa8,28278000,28279000,Bonobo,6.66,FDFT1,protein_coding,farnesyl-diphosphate farnesyltransferase 1,TR
+chr3_pat_hsa4,49207000,49208000,Bonobo,7.57,FGF5,protein_coding,fibroblast growth factor 5,.
+chr1_pat_hsa1,8959000,8960000,Bonobo,8.77,FMN2,protein_coding,formin 2,TR
+chr20_pat_hsa19,8718000,8719000,Bonobo,6.17,FSD1,protein_coding,fibronectin type III and SPRY domain containing 1,.
+chr14_pat_hsa13,115191000,115192000,Bonobo,10.50,GRK1,protein_coding,G protein-coupled receptor kinase 1,.
+chr23_pat_hsa22,35550000,35551000,Bonobo,8.03,GRK3,protein_coding,G protein-coupled receptor kinase 3,TR
+chr5_pat_hsa6,37100000,37101000,Bonobo,7.61,HDGFL1,protein_coding,HDGF like 1,TR
+chr18_pat_hsa16,2075000,2076000,Bonobo,6.55,"IGFALS,LOC100992459",protein_coding;protein_coding,insulin like growth factor binding protein acid labile subunit;hydroxyacylglutathione hydrolase%2C mitochondrial,"AluYk3#SINE/Alu,L1M4#LINE/L1,L1M5#LINE/L1,L1MD#LINE/L1,L1ME2#LINE/L1,L1ME4b#LINE/L1,SEDEF_SD"
+chr3_pat_hsa4,140517000,140518000,Bonobo,7.42,INPP4B,protein_coding,inositol polyphosphate-4-phosphatase type II B,.
+chr2_mat_hsa3,195856000,195857000,Bonobo,10.74,IQCG,protein_coding,IQ motif containing G,.
+chr3_pat_hsa4,182149000,182150000,Bonobo,7.30,IRF2,protein_coding,interferon regulatory factor 2,TR
+chr2_mat_hsa3,4711000,4712000,Bonobo,6.18,ITPR1,protein_coding,inositol 1%2C4%2C5-trisphosphate receptor type 1,.
+chr1_pat_hsa1,212796000,212797000,Bonobo,7.71,KAZN,protein_coding,kazrin%2C periplakin interacting protein,TR
+chr4_mat_hsa5,165619000,165620000,Bonobo,6.76,KCNIP1,protein_coding,potassium voltage-gated channel interacting protein 1,TR
+chr20_pat_hsa19,60265000,60266000,Bonobo,7.09,LILRB5,protein_coding,leukocyte immunoglobulin like receptor B5,TR
+chr8_mat_hsa10,59157000,59158000,Bonobo,7.77,LOC100969124,protein_coding,anthrax toxin receptor-like,SEDEF_SD
+chr8_mat_hsa10,59157000,59158000,Bonobo,7.77,LOC129393065,protein_coding,arf-GAP with GTPase%2C ANK repeat and PH domain-containing protein 14-like,SEDEF_SD
+chr3_pat_hsa4,60489000,60490000,Bonobo,6.00,LOC100973813,protein_coding,UDP-glucuronosyltransferase 2A1,TR
+chr5_pat_hsa6,79326000,79327000,Bonobo,6.16,LOC100974207,protein_coding,eyes shut homolog,SEDEF_SD
+chr9_pat_hsa11,9243000,9244000,Bonobo,10.10,LOC100974335,protein_coding,olfactory receptor 6A2,.
+chr20_pat_hsa19,59308000,59309000,Bonobo,6.02,LOC100974478,protein_coding,protein FAM90A27P,"SEDEF_SD,TR"
+chr1_pat_hsa1,756000,757000,Bonobo,6.29,LOC100974640,protein_coding,olfactory receptor 2T12,"L1PA3#LINE/L1,L1PA4#LINE/L1,SEDEF_SD"
+chr2_mat_hsa3,195525000,195526000,Bonobo,10.25,LOC100975254,protein_coding,succinate dehydrogenase [ubiquinone] flavoprotein subunit%2C mitochondrial-like,"SEDEF_SD,TR"
+chr2_mat_hsa3,195522000,195523000,Bonobo,9.51,LOC100975254,protein_coding,succinate dehydrogenase [ubiquinone] flavoprotein subunit%2C mitochondrial-like,"SEDEF_SD,TR"
+chr6_mat_hsa7,10868000,10869000,Bonobo,6.36,LOC100977127,protein_coding,radial spoke head 10 homolog B,"SEDEF_SD,TR"
+chr18_pat_hsa16,2913000,2914000,Bonobo,6.45,LOC100978837,protein_coding,ATP-binding cassette sub-family A member 17-like,"AluY#SINE/Alu,L1MB7#LINE/L1,L1ME3G#LINE/L1,L1PREC2#LINE/L1,L2c#LINE/L2,TR"
+chr2_mat_hsa3,193573000,193574000,Bonobo,6.03,LOC100979967,protein_coding,succinate dehydrogenase [ubiquinone] flavoprotein subunit%2C mitochondrial,"SEDEF_SD,TR"
+chr9_pat_hsa11,6483000,6484000,Bonobo,8.00,LOC100981745,protein_coding,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2,"SEDEF_SD,TR"
+chr5_pat_hsa6,45838000,45839000,Bonobo,9.12,LOC100982294,protein_coding,class I histocompatibility antigen%2C Gogo-C*0202 alpha chain,"SEDEF_SD,TR"
+chr5_pat_hsa6,45925000,45926000,Bonobo,7.42,LOC100982859,protein_coding,class I histocompatibility antigen%2C Gogo-B*0101 alpha chain,"SEDEF_SD,TR"
+chr20_pat_hsa19,16810000,16811000,Bonobo,8.01,LOC100986646,protein_coding,zinc finger protein 69,.
+chr18_pat_hsa16,90905000,90906000,Bonobo,6.73,LOC100988147,protein_coding,polycystin-1-like protein 2,"L1MA3#LINE/L1,LTR16A#LTR/ERVL,MIRb#SINE/MIR,MIRc#SINE/MIR"
+chr18_pat_hsa16,90906000,90907000,Bonobo,6.02,LOC100988147,protein_coding,polycystin-1-like protein 2,"AluSz#SINE/Alu,L1MA3#LINE/L1,TR"
+chr20_pat_hsa19,62062000,62063000,Bonobo,7.37,LOC100989536,protein_coding,ret finger protein-like 4A,SEDEF_SD
+chr2_mat_hsa3,2582000,2583000,Bonobo,7.16,LOC100989577,protein_coding,contactin-4,.
+chr7_pat_hsa8,24691000,24692000,Bonobo,7.95,LOC100989933,protein_coding,protein-lysine N-methyltransferase EEF2KMT-like,SEDEF_SD
+chr7_pat_hsa8,24693000,24694000,Bonobo,6.04,LOC100989933,protein_coding,protein-lysine N-methyltransferase EEF2KMT-like,"SEDEF_SD,TR"
+chr20_pat_hsa19,60221000,60222000,Bonobo,7.00,LOC100991256,protein_coding,leukocyte immunoglobulin-like receptor subfamily B member 3,TR
+chr18_pat_hsa16,2076000,2077000,Bonobo,6.17,LOC100992459,protein_coding,hydroxyacylglutathione hydrolase%2C mitochondrial,"AluJb#SINE/Alu,L1M4#LINE/L1,L1M5#LINE/L1,L1MD#LINE/L1,L1ME2#LINE/L1,L1ME4b#LINE/L1,SEDEF_SD"
+chr18_pat_hsa16,2093000,2094000,Bonobo,6.34,"LOC100992459,LOC100975679",protein_coding;protein_coding,hydroxyacylglutathione hydrolase%2C mitochondrial;acylpyruvase FAHD1%2C mitochondrial,"(CCGCGC)n#Simple_repeat,(GCCCC)n#Simple_repeat,SEDEF_SD,TR"
+chr5_pat_hsa6,47559000,47560000,Bonobo,6.27,LOC100995226,protein_coding,HLA class II histocompatibility antigen%2C DP beta 1 chain,TR
+chr18_pat_hsa16,79800000,79801000,Bonobo,6.23,LOC103783443,protein_coding,pyruvate dehydrogenase phosphatase regulatory subunit%2C mitochondrial-like,"AluSz#SINE/Alu,L1MB3#LINE/L1,L1MC5a#LINE/L1,MARNA#DNA/TcMar-Mariner,SEDEF_SD,TR"
+chr5_pat_hsa6,44548000,44549000,Bonobo,6.65,LOC103783493,protein_coding,protein shisa-5,.
+chr5_pat_hsa6,44547000,44548000,Bonobo,6.34,LOC103783493,protein_coding,protein shisa-5,TR
+chr5_pat_hsa6,44549000,44550000,Bonobo,6.96,"LOC103783493,LOC134730491",protein_coding;lncRNA,protein shisa-5;uncharacterized LOC134730491,.
+chr5_pat_hsa6,44550000,44551000,Bonobo,6.84,"LOC103783493,LOC134730491",protein_coding;lncRNA,protein shisa-5;uncharacterized LOC134730491,.
+chr5_pat_hsa6,44534000,44535000,Bonobo,8.41,"LOC103783493,Papa-A",protein_coding;protein_coding,protein shisa-5;patr class I histocompatibility antigen%2C A-2 alpha chain-like,TR
+chr5_pat_hsa6,44535000,44536000,Bonobo,6.92,"LOC103783493,Papa-A",protein_coding;protein_coding,protein shisa-5;patr class I histocompatibility antigen%2C A-2 alpha chain-like,.
+chr9_pat_hsa11,9899000,9900000,Bonobo,6.77,"LOC103786176,OLFML1",protein_coding;protein_coding,proline-rich protein HaeIII subfamily 1;olfactomedin like 1,.
+chr5_pat_hsa6,46478000,46479000,Bonobo,8.36,LOC112440090,protein_coding,tenascin-X-like,"SEDEF_SD,TR"
+chr9_pat_hsa11,4026000,4027000,Bonobo,7.59,LOC112441154,protein_coding,CLK4-associating serine/arginine rich protein-like,.
+chr9_pat_hsa11,4023000,4024000,Bonobo,7.07,LOC112441154,protein_coding,CLK4-associating serine/arginine rich protein-like,TR
+chr9_pat_hsa11,4027000,4028000,Bonobo,6.94,LOC112441154,protein_coding,CLK4-associating serine/arginine rich protein-like,TR
+chr9_pat_hsa11,4024000,4025000,Bonobo,6.41,LOC112441154,protein_coding,CLK4-associating serine/arginine rich protein-like,TR
+chr20_pat_hsa19,60306000,60307000,Bonobo,7.22,LOC117974252,protein_coding,leukocyte immunoglobulin-like receptor subfamily A member 2,SEDEF_SD
+chr9_pat_hsa11,5889000,5890000,Bonobo,8.05,LOC117974836,protein_coding,translation initiation factor IF-2,"SEDEF_SD,TR"
+chr9_pat_hsa11,5890000,5891000,Bonobo,7.16,LOC117974836,protein_coding,translation initiation factor IF-2,"SEDEF_SD,TR"
+chr14_pat_hsa13,19035000,19036000,Bonobo,7.34,LOC117975669,protein_coding,protein mono-ADP-ribosyltransferase PARP4-like,"AluY#SINE/Alu,L1MA10#LINE/L1,L1MA4#LINE/L1,L1ME4b#LINE/L1,SEDEF_SD,TR"
+chr14_pat_hsa13,19036000,19037000,Bonobo,7.32,LOC117975669,protein_coding,protein mono-ADP-ribosyltransferase PARP4-like,"Charlie10a#DNA/hAT-Charlie,L1MA10#LINE/L1,L1MA4#LINE/L1,L1ME4b#LINE/L1,SEDEF_SD"
+chr14_pat_hsa13,19034000,19035000,Bonobo,6.14,LOC117975669,protein_coding,protein mono-ADP-ribosyltransferase PARP4-like,"AluJb#SINE/Alu,AluSx#SINE/Alu,L1MA10#LINE/L1,L1MA4#LINE/L1,L1ME4b#LINE/L1,MIR3#SINE/MIR,SEDEF_SD,TR"
+chr16_pat_hsa15,23758000,23759000,Bonobo,9.08,LOC117975990,protein_coding,golgin subfamily A member 8B,"(T)n#Simple_repeat,Alu#SINE/Alu,L1ME3E#LINE/L1,L1MEd#LINE/L1,SEDEF_SD,TR"
+chr16_pat_hsa15,23755000,23756000,Bonobo,8.56,LOC117975990,protein_coding,golgin subfamily A member 8B,"L1MEd#LINE/L1,L2#LINE/L2,L2b#LINE/L2,L2c#LINE/L2,MIRb#SINE/MIR,SEDEF_SD,Tigger17#DNA/TcMar-Tigger,Tigger17b#DNA/TcMar-Tigger"
+chr16_pat_hsa15,23769000,23770000,Bonobo,8.27,LOC117975990,protein_coding,golgin subfamily A member 8B,"AluSz#SINE/Alu,HAL1ME#LINE/L1,L1MB3#LINE/L1,L1ME3B#LINE/L1,SEDEF_SD,TR"
+chr16_pat_hsa15,23757000,23758000,Bonobo,8.11,LOC117975990,protein_coding,golgin subfamily A member 8B,"L1ME3E#LINE/L1,L1MEd#LINE/L1,L2b#LINE/L2,SEDEF_SD"
+chr16_pat_hsa15,23756000,23757000,Bonobo,7.91,LOC117975990,protein_coding,golgin subfamily A member 8B,"FLAM_A#SINE/Alu,L1MEd#LINE/L1,L2#LINE/L2,L2b#LINE/L2,L2c#LINE/L2,SEDEF_SD,Tigger17b#DNA/TcMar-Tigger,TR"
+chr16_pat_hsa15,23760000,23761000,Bonobo,7.90,LOC117975990,protein_coding,golgin subfamily A member 8B,"AluJb#SINE/Alu,L1ME3E#LINE/L1,L1MEd#LINE/L1,L3#LINE/CR1,SEDEF_SD,TR"
+chr16_pat_hsa15,23768000,23769000,Bonobo,7.88,LOC117975990,protein_coding,golgin subfamily A member 8B,"AluSz6#SINE/Alu,HAL1ME#LINE/L1,L1ME3B#LINE/L1,SEDEF_SD,TR"
+chr16_pat_hsa15,23759000,23760000,Bonobo,7.77,LOC117975990,protein_coding,golgin subfamily A member 8B,"AluJb#SINE/Alu,L1ME3E#LINE/L1,L1MEd#LINE/L1,L3#LINE/CR1,SEDEF_SD,TR"
+chr16_pat_hsa15,23761000,23762000,Bonobo,7.77,LOC117975990,protein_coding,golgin subfamily A member 8B,"(AACAA)n#Simple_repeat,L1ME3E#LINE/L1,L1MEd#LINE/L1,L3#LINE/CR1,MIR#SINE/MIR,SEDEF_SD"
+chr16_pat_hsa15,23763000,23764000,Bonobo,7.66,LOC117975990,protein_coding,golgin subfamily A member 8B,"AluSx#SINE/Alu,L1ME3E#LINE/L1,L3#LINE/CR1,SEDEF_SD,TR"
+chr16_pat_hsa15,23770000,23771000,Bonobo,7.60,LOC117975990,protein_coding,golgin subfamily A member 8B,"L1MB3#LINE/L1,L1ME3B#LINE/L1,SEDEF_SD"
+chr16_pat_hsa15,23762000,23763000,Bonobo,7.57,LOC117975990,protein_coding,golgin subfamily A member 8B,"L1ME3E#LINE/L1,L3#LINE/CR1,SEDEF_SD"
+chr16_pat_hsa15,23754000,23755000,Bonobo,7.52,LOC117975990,protein_coding,golgin subfamily A member 8B,"(ATTTTTA)n#Simple_repeat,(TTTTAA)n#Simple_repeat,AluSx1#SINE/Alu,L2#LINE/L2,L2b#LINE/L2,L2c#LINE/L2,MIRb#SINE/MIR,SEDEF_SD,Tigger17#DNA/TcMar-Tigger,TR"
+chr16_pat_hsa15,23767000,23768000,Bonobo,7.48,LOC117975990,protein_coding,golgin subfamily A member 8B,"AluJr#SINE/Alu,HAL1ME#LINE/L1,L1ME3B#LINE/L1,MIRb#SINE/MIR,SEDEF_SD"
+chr16_pat_hsa15,23764000,23765000,Bonobo,7.33,LOC117975990,protein_coding,golgin subfamily A member 8B,"L1ME3B#LINE/L1,MER106A#DNA/hAT-Charlie,SEDEF_SD,TR"
+chr16_pat_hsa15,23766000,23767000,Bonobo,7.31,LOC117975990,protein_coding,golgin subfamily A member 8B,"HAL1ME#LINE/L1,L1ME3B#LINE/L1,MIRb#SINE/MIR,SEDEF_SD"
+chr16_pat_hsa15,23777000,23778000,Bonobo,6.99,LOC117975990,protein_coding,golgin subfamily A member 8B,"HAL1#LINE/L1,L1MB3#LINE/L1,L1ME3G#LINE/L1,SEDEF_SD"
+chr16_pat_hsa15,23775000,23776000,Bonobo,6.48,LOC117975990,protein_coding,golgin subfamily A member 8B,"AluSx1#SINE/Alu,L1MB3#LINE/L1,L1ME3G#LINE/L1,SEDEF_SD,TR"
+chr16_pat_hsa15,23753000,23754000,Bonobo,6.16,LOC117975990,protein_coding,golgin subfamily A member 8B,"(TG)n#Simple_repeat,(TTTTAA)n#Simple_repeat,AluSx#SINE/Alu,L1ME4b#LINE/L1,L2#LINE/L2,L2c#LINE/L2,SEDEF_SD,Tigger17#DNA/TcMar-Tigger,TR"
+chr16_pat_hsa15,23776000,23777000,Bonobo,6.13,LOC117975990,protein_coding,golgin subfamily A member 8B,"(AG)n#Simple_repeat,L1MB3#LINE/L1,L1ME3G#LINE/L1,MSTB#LTR/ERVL-MaLR,SEDEF_SD,TR"
+chr16_pat_hsa15,23773000,23774000,Bonobo,6.40,"LOC117975990,LOC134729169",protein_coding;protein_coding,golgin subfamily A member 8B;amyloid-beta A4 precursor protein-binding family A member 2-like,"L1MB3#LINE/L1,L1ME3G#LINE/L1,SEDEF_SD,TR"
+chr16_pat_hsa15,6892000,6893000,Bonobo,7.22,LOC117976132,protein_coding,putative golgin subfamily A member 8I,"L1MA9#LINE/L1,L1ME4b#LINE/L1,L1MEd#LINE/L1,L2a#LINE/L2,MIRb#SINE/MIR,SEDEF_SD"
+chr18_pat_hsa16,99928000,99929000,Bonobo,6.53,LOC117976330,protein_coding,forkhead box protein D4-like 1,"L1MC3#LINE/L1,L2b#LINE/L2,SEDEF_SD,TR"
+chr18_pat_hsa16,2168000,2169000,Bonobo,8.60,LOC117976337,protein_coding,phospholipase A2-like,"AluSx1#SINE/Alu,AluYh9#SINE/Alu,FLAM_C#SINE/Alu,MER57-int#LTR/ERV1,SEDEF_SD,TR"
+chr18_pat_hsa16,2170000,2171000,Bonobo,6.72,LOC117976337,protein_coding,phospholipase A2-like,"AluSg#SINE/Alu,AluSg7#SINE/Alu,AluSx#SINE/Alu,LTR7B#LTR/ERV1,MER57-int#LTR/ERV1,SEDEF_SD,TR"
+chr18_pat_hsa16,2172000,2173000,Bonobo,6.52,LOC117976337,protein_coding,phospholipase A2-like,"AluJb#SINE/Alu,AluSq10#SINE/Alu,L2a#LINE/L2,MIR#SINE/MIR,SEDEF_SD"
+chr18_pat_hsa16,2145000,2146000,Bonobo,6.38,LOC117976342,protein_coding,nuclear pore complex-interacting protein family member A7,"L1ME2#LINE/L1,L1MEg#LINE/L1,LTR48#LTR/ERV1,SEDEF_SD"
+chr18_pat_hsa16,2152000,2153000,Bonobo,6.99,"LOC117976342,LOC117976337",protein_coding;protein_coding,nuclear pore complex-interacting protein family member A7;phospholipase A2-like,"AluSc8#SINE/Alu,L1MB2#LINE/L1,SEDEF_SD,TR"
+chr19_pat_hsa17,59514000,59515000,Bonobo,6.60,LOC117976541,protein_coding,CMT1A duplicated region transcript 15 protein-like protein,"L1MA8#LINE/L1,MER89-int#LTR/ERV1,SEDEF_SD"
+chr20_pat_hsa19,16737000,16738000,Bonobo,7.29,LOC117976962,protein_coding,zinc finger protein 440,TR
+chr20_pat_hsa19,60289000,60290000,Bonobo,8.00,LOC117977086,protein_coding,leukocyte immunoglobulin-like receptor subfamily B member 1,"SEDEF_SD,TR"
+chr21_mat_hsa20,1159000,1160000,Bonobo,9.05,"LOC117978042,LOC129394901",protein_coding;lncRNA,WAS protein family homolog 2;uncharacterized LOC129394901,"SEDEF_SD,TR"
+chr19_pat_hsa17,55690000,55691000,Bonobo,6.88,LOC117978079,protein_coding,signal recognition particle subunit SRP68-like,"AluSg#SINE/Alu,AluY#SINE/Alu,SEDEF_SD,TR,Zaphod2#DNA/hAT-Tip100"
+chr1_pat_hsa1,214827000,214828000,Bonobo,7.39,LOC117978273,protein_coding,PRAME family member 8,"SEDEF_SD,TR"
+chr1_pat_hsa1,214826000,214827000,Bonobo,6.11,LOC117978273,protein_coding,PRAME family member 8,SEDEF_SD
+chr16_pat_hsa15,4885000,4886000,Bonobo,6.89,LOC117978353,protein_coding,tektin-1-like,"AluJb#SINE/Alu,MER5A#DNA/hAT-Charlie,MER65A#LTR/ERV1,TR"
+chr9_pat_hsa11,6608000,6609000,Bonobo,11.03,LOC117978393,protein_coding,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like,SEDEF_SD
+chr9_pat_hsa11,6610000,6611000,Bonobo,9.80,LOC117978393,protein_coding,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like,"SEDEF_SD,TR"
+chr9_pat_hsa11,6609000,6610000,Bonobo,8.99,LOC117978393,protein_coding,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like,SEDEF_SD
+chr1_pat_hsa1,227554000,227555000,Bonobo,6.72,LOC117978671,protein_coding,tubulin beta-8 chain-like,"SEDEF_SD,TR"
+chr13_mat_hsa2b,143377000,143378000,Bonobo,6.07,LOC117979297,protein_coding,aquaporin-12B,"SEDEF_SD,TR"
+chr8_mat_hsa10,27657000,27658000,Bonobo,6.39,LOC117979556,protein_coding,RNA-binding motif protein%2C X-linked-like-2,SEDEF_SD
+chr8_mat_hsa10,27658000,27659000,Bonobo,6.12,LOC117979556,protein_coding,RNA-binding motif protein%2C X-linked-like-2,SEDEF_SD
+chr2_mat_hsa3,195531000,195532000,Bonobo,6.69,LOC117979566,protein_coding,BRD4-interacting chromatin-remodeling complex-associated protein,"SEDEF_SD,TR"
+chr1_pat_hsa1,204961000,204962000,Bonobo,6.93,LOC117979827,protein_coding,chymotrypsin-like elastase family member 3B,"AluJb#SINE/Alu,AluSg#SINE/Alu,L1M5#LINE/L1,MamTip2#DNA/hAT-Tip100,MIR#SINE/MIR,MIR3#SINE/MIR,SEDEF_SD,TR"
+chr2_mat_hsa3,193549000,193550000,Bonobo,6.56,LOC117979851,protein_coding,keratinocyte proline-rich protein-like,"SEDEF_SD,TR"
+chr4_mat_hsa5,172857000,172858000,Bonobo,6.86,LOC117980444,protein_coding,protein FAM153A,"SEDEF_SD,TR"
+chr6_mat_hsa7,83913000,83914000,Bonobo,7.19,LOC117981014,protein_coding,ras GTPase-activating protein 4-like,"SEDEF_SD,TR"
+chr6_mat_hsa7,94909000,94910000,Bonobo,6.22,LOC117981018,protein_coding,speedy protein E1-like,"SEDEF_SD,TR"
+chr6_mat_hsa7,89808000,89809000,Bonobo,6.52,LOC117981049,protein_coding,speedy protein E12,SEDEF_SD
+chr6_mat_hsa7,4821000,4822000,Bonobo,7.12,LOC117981174,protein_coding,spectrin beta chain%2C non-erythrocytic 5-like,SEDEF_SD
+chr6_mat_hsa7,4829000,4830000,Bonobo,6.66,LOC117981174,protein_coding,spectrin beta chain%2C non-erythrocytic 5-like,SEDEF_SD
+chr6_mat_hsa7,4838000,4839000,Bonobo,6.58,LOC117981174,protein_coding,spectrin beta chain%2C non-erythrocytic 5-like,"SEDEF_SD,TR"
+chr6_mat_hsa7,4822000,4823000,Bonobo,6.52,LOC117981174,protein_coding,spectrin beta chain%2C non-erythrocytic 5-like,SEDEF_SD
+chr7_pat_hsa8,22151000,22152000,Bonobo,6.42,LOC117981307,protein_coding,protein artemis-like,"SEDEF_SD,TR"
+chr7_pat_hsa8,22088000,22089000,Bonobo,7.14,LOC117981308,protein_coding,meiosis expressed gene 1 protein homolog,SEDEF_SD
+chr1_pat_hsa1,103836000,103837000,Bonobo,7.09,LOC117981372,protein_coding,neuroblastoma breakpoint family member 15-like,"AluSq2#SINE/Alu,L1MB7#LINE/L1,L2a#LINE/L2,L2b#LINE/L2,SEDEF_SD,TR"
+chr1_pat_hsa1,213601000,213602000,Bonobo,9.10,LOC129392992,protein_coding,PRAME family member 11-like,SEDEF_SD
+chr1_pat_hsa1,213599000,213600000,Bonobo,8.68,LOC129392992,protein_coding,PRAME family member 11-like,SEDEF_SD
+chr1_pat_hsa1,213597000,213598000,Bonobo,8.41,LOC129392992,protein_coding,PRAME family member 11-like,SEDEF_SD
+chr1_pat_hsa1,213600000,213601000,Bonobo,7.53,LOC129392992,protein_coding,PRAME family member 11-like,SEDEF_SD
+chr1_pat_hsa1,213598000,213599000,Bonobo,6.94,LOC129392992,protein_coding,PRAME family member 11-like,SEDEF_SD
+chr6_mat_hsa7,88988000,88989000,Bonobo,6.15,LOC129392994,protein_coding,ras GTPase-activating protein 4-like,"SEDEF_SD,TR"
+chr6_mat_hsa7,88990000,88991000,Bonobo,6.10,LOC129392994,protein_coding,ras GTPase-activating protein 4-like,"SEDEF_SD,TR"
+chr6_mat_hsa7,84109000,84110000,Bonobo,7.30,LOC129393016,protein_coding,protein CASP-like,"SEDEF_SD,TR"
+chr6_mat_hsa7,84111000,84112000,Bonobo,6.16,LOC129393016,protein_coding,protein CASP-like,"SEDEF_SD,TR"
+chr6_mat_hsa7,84105000,84106000,Bonobo,6.90,"LOC129393016,LOC117981012",protein_coding;protein_coding,protein CASP-like;putative speedy protein E7,SEDEF_SD
+chr9_pat_hsa11,6802000,6803000,Bonobo,8.51,LOC129393320,protein_coding,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like,SEDEF_SD
+chr9_pat_hsa11,6801000,6802000,Bonobo,6.87,LOC129393320,protein_coding,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like,"SEDEF_SD,TR"
+chr9_pat_hsa11,6829000,6830000,Bonobo,10.59,LOC129393322,protein_coding,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like,SEDEF_SD
+chr9_pat_hsa11,6828000,6829000,Bonobo,8.91,LOC129393322,protein_coding,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like,SEDEF_SD
+chr9_pat_hsa11,6766000,6767000,Bonobo,11.42,LOC129393325,protein_coding,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like,SEDEF_SD
+chr9_pat_hsa11,6582000,6583000,Bonobo,11.70,LOC129393326,protein_coding,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2,"SEDEF_SD,TR"
+chr9_pat_hsa11,6583000,6584000,Bonobo,11.31,LOC129393326,protein_coding,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2,SEDEF_SD
+chr9_pat_hsa11,6827000,6828000,Bonobo,6.45,LOC129393358,protein_coding,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like,"SEDEF_SD,TR"
+chr9_pat_hsa11,6826000,6827000,Bonobo,6.26,LOC129393358,protein_coding,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like,SEDEF_SD
+chr9_pat_hsa11,6792000,6793000,Bonobo,10.94,LOC129393404,protein_coding,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like,SEDEF_SD
+chr9_pat_hsa11,6793000,6794000,Bonobo,10.07,LOC129393404,protein_coding,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like,SEDEF_SD
+chr1_pat_hsa1,205622000,205623000,Bonobo,6.00,LOC129393675,protein_coding,FAM231A/C-like protein,"L1P1#LINE/L1,MER49#LTR/ERV1,SEDEF_SD,TR"
+chr1_pat_hsa1,214834000,214835000,Bonobo,10.66,LOC129393906,protein_coding,PRAME family member 1-like,SEDEF_SD
+chr1_pat_hsa1,214833000,214834000,Bonobo,8.74,LOC129393906,protein_coding,PRAME family member 1-like,SEDEF_SD
+chr1_pat_hsa1,214780000,214781000,Bonobo,9.67,LOC129393928,protein_coding,PRAME family member 11-like,"SEDEF_SD,TR"
+chr1_pat_hsa1,214778000,214779000,Bonobo,6.18,LOC129393928,protein_coding,PRAME family member 11-like,SEDEF_SD
+chr18_pat_hsa16,31665000,31666000,Bonobo,6.29,LOC129394197,protein_coding,nuclear pore complex-interacting protein family member B9-like,"(TG)n#Simple_repeat,AluSg7#SINE/Alu,AluSp#SINE/Alu,L1MB2#LINE/L1,L1ME2z#LINE/L1,L1MEg#LINE/L1,L2c#LINE/L2,SEDEF_SD,TR"
+chr18_pat_hsa16,32884000,32885000,Bonobo,6.94,LOC129394198,protein_coding,nuclear pore complex-interacting protein family member B8-like,"AluSg7#SINE/Alu,AluSp#SINE/Alu,L1MB2#LINE/L1,L1ME2#LINE/L1,L1MEg#LINE/L1,L2c#LINE/L2,SEDEF_SD"
+chr18_pat_hsa16,32885000,32886000,Bonobo,6.94,LOC129394198,protein_coding,nuclear pore complex-interacting protein family member B8-like,"AluSc#SINE/Alu,AluSp#SINE/Alu,AluSx1#SINE/Alu,L1MB2#LINE/L1,L1ME2#LINE/L1,L1MEg#LINE/L1,L2c#LINE/L2,SEDEF_SD,TR"
+chr18_pat_hsa16,32876000,32877000,Bonobo,6.69,LOC129394198,protein_coding,nuclear pore complex-interacting protein family member B8-like,"(TATT)n#Simple_repeat,AluJb#SINE/Alu,AluSx3#SINE/Alu,SEDEF_SD,TR"
+chr18_pat_hsa16,32886000,32887000,Bonobo,6.59,LOC129394198,protein_coding,nuclear pore complex-interacting protein family member B8-like,"AluSx#SINE/Alu,AluSx1#SINE/Alu,L1ME2#LINE/L1,L1MEg#LINE/L1,LTR48#LTR/ERV1,SEDEF_SD,TR"
+chr18_pat_hsa16,32882000,32883000,Bonobo,6.37,LOC129394198,protein_coding,nuclear pore complex-interacting protein family member B8-like,"AluSx#SINE/Alu,L1MB2#LINE/L1,L1MEg#LINE/L1,L2c#LINE/L2,SEDEF_SD"
+chr18_pat_hsa16,32883000,32884000,Bonobo,6.22,LOC129394198,protein_coding,nuclear pore complex-interacting protein family member B8-like,"AluSx#SINE/Alu,AluSx4#SINE/Alu,L1MB2#LINE/L1,L1MEg#LINE/L1,L2c#LINE/L2,SEDEF_SD,TR"
+chr18_pat_hsa16,32887000,32888000,Bonobo,6.03,LOC129394198,protein_coding,nuclear pore complex-interacting protein family member B8-like,"AluSz6#SINE/Alu,L1ME2#LINE/L1,L1MEg#LINE/L1,LTR48#LTR/ERV1,SEDEF_SD"
+chr17_mat_hsa18,97986000,97987000,Bonobo,11.57,LOC129394588,protein_coding,tubulin beta 8B-like,"L1ME4b#LINE/L1,PRIMA41-int#LTR/ERV1,SEDEF_SD"
+chr20_pat_hsa19,61914000,61915000,Bonobo,7.39,LOC129394797,protein_coding,ret finger protein-like 4A,"SEDEF_SD,TR"
+chr20_pat_hsa19,61913000,61914000,Bonobo,6.49,LOC129394797,protein_coding,ret finger protein-like 4A,SEDEF_SD
+chr20_pat_hsa19,61960000,61961000,Bonobo,8.25,LOC129394802,protein_coding,ret finger protein-like 4A,"SEDEF_SD,TR"
+chr20_pat_hsa19,61959000,61960000,Bonobo,7.12,LOC129394802,protein_coding,ret finger protein-like 4A,SEDEF_SD
+chr20_pat_hsa19,62034000,62035000,Bonobo,6.45,LOC129394808,protein_coding,ret finger protein-like 4A,"SEDEF_SD,TR"
+chr20_pat_hsa19,62033000,62034000,Bonobo,6.08,LOC129394808,protein_coding,ret finger protein-like 4A,SEDEF_SD
+chr20_pat_hsa19,62037000,62038000,Bonobo,10.48,LOC129394818,protein_coding,ret finger protein-like 4A,SEDEF_SD
+chr20_pat_hsa19,62038000,62039000,Bonobo,9.71,LOC129394818,protein_coding,ret finger protein-like 4A,"SEDEF_SD,TR"
+chr20_pat_hsa19,62039000,62040000,Bonobo,6.13,LOC129394818,protein_coding,ret finger protein-like 4A,"SEDEF_SD,TR"
+chr21_mat_hsa20,104000,105000,Bonobo,6.90,LOC129394896,protein_coding,phosphoglucomutase-like protein 5,"SEDEF_SD,TR"
+chr21_mat_hsa20,103000,104000,Bonobo,6.35,LOC129394896,protein_coding,phosphoglucomutase-like protein 5,"SEDEF_SD,TR"
+chr21_mat_hsa20,865000,866000,Bonobo,11.14,LOC129394899,protein_coding,phosphoglucomutase-like protein 5,"SEDEF_SD,TR"
+chr21_mat_hsa20,863000,864000,Bonobo,8.13,LOC129394899,protein_coding,phosphoglucomutase-like protein 5,SEDEF_SD
+chr21_mat_hsa20,854000,855000,Bonobo,7.42,LOC129394899,protein_coding,phosphoglucomutase-like protein 5,"SEDEF_SD,TR"
+chr21_mat_hsa20,855000,856000,Bonobo,6.25,LOC129394899,protein_coding,phosphoglucomutase-like protein 5,"SEDEF_SD,TR"
+chr1_pat_hsa1,214796000,214797000,Bonobo,6.39,LOC129395003,protein_coding,heterogeneous nuclear ribonucleoprotein C-like 3,"SEDEF_SD,TR"
+chr1_pat_hsa1,214897000,214898000,Bonobo,6.31,LOC129395023,protein_coding,heterogeneous nuclear ribonucleoprotein C-like 3,"SEDEF_SD,TR"
+chr6_mat_hsa7,89681000,89682000,Bonobo,6.25,LOC129398253,protein_coding,putative postmeiotic segregation increased 2-like protein 1,SEDEF_SD
+chr6_mat_hsa7,89731000,89732000,Bonobo,7.39,LOC129398257,protein_coding,putative postmeiotic segregation increased 2-like protein 1,"SEDEF_SD,TR"
+chr6_mat_hsa7,89746000,89747000,Bonobo,7.32,LOC129398257,protein_coding,putative postmeiotic segregation increased 2-like protein 1,"SEDEF_SD,TR"
+chr6_mat_hsa7,89733000,89734000,Bonobo,6.63,LOC129398257,protein_coding,putative postmeiotic segregation increased 2-like protein 1,"SEDEF_SD,TR"
+chr6_mat_hsa7,89730000,89731000,Bonobo,6.03,LOC129398257,protein_coding,putative postmeiotic segregation increased 2-like protein 1,SEDEF_SD
+chr6_mat_hsa7,88980000,88981000,Bonobo,6.82,LOC129398328,protein_coding,ras GTPase-activating protein 4-like,SEDEF_SD
+chr6_mat_hsa7,195921000,195922000,Bonobo,7.07,LOC129398376,protein_coding,zinc-regulated GTPase metalloprotein activator 1A-like,SEDEF_SD
+chr6_mat_hsa7,195924000,195925000,Bonobo,6.24,LOC129398376,protein_coding,zinc-regulated GTPase metalloprotein activator 1A-like,"SEDEF_SD,TR"
+chr6_mat_hsa7,4959000,4960000,Bonobo,7.12,LOC129398391,protein_coding,putative protein FAM157A,"SEDEF_SD,TR"
+chr6_mat_hsa7,4956000,4957000,Bonobo,6.82,LOC129398391,protein_coding,putative protein FAM157A,"SEDEF_SD,TR"
+chr6_mat_hsa7,4960000,4961000,Bonobo,6.01,LOC129398391,protein_coding,putative protein FAM157A,"SEDEF_SD,TR"
+chr1_pat_hsa1,213958000,213959000,Bonobo,8.78,LOC134728940,protein_coding,PRAME family member 11-like,"SEDEF_SD,TR"
+chr1_pat_hsa1,214694000,214695000,Bonobo,7.62,LOC134728967,protein_coding,PRAME family member 15-like,"SEDEF_SD,TR"
+chr1_pat_hsa1,214693000,214694000,Bonobo,6.60,LOC134728967,protein_coding,PRAME family member 15-like,SEDEF_SD
+chr1_pat_hsa1,214695000,214696000,Bonobo,6.37,LOC134728967,protein_coding,PRAME family member 15-like,SEDEF_SD
+chr16_pat_hsa15,74619000,74620000,Bonobo,8.16,LOC134729059,protein_coding,A disintegrin and metalloproteinase with thrombospondin motifs 7-like,"HERVIP10B3-int#LTR/ERV1,L1MC5#LINE/L1,SEDEF_SD"
+chr16_pat_hsa15,74618000,74619000,Bonobo,7.96,LOC134729059,protein_coding,A disintegrin and metalloproteinase with thrombospondin motifs 7-like,"HERVIP10B3-int#LTR/ERV1,L1MC5#LINE/L1,SEDEF_SD"
+chr16_pat_hsa15,74616000,74617000,Bonobo,7.80,LOC134729059,protein_coding,A disintegrin and metalloproteinase with thrombospondin motifs 7-like,"HERVIP10B3-int#LTR/ERV1,L1MC5#LINE/L1,SEDEF_SD"
+chr16_pat_hsa15,74621000,74622000,Bonobo,7.76,LOC134729059,protein_coding,A disintegrin and metalloproteinase with thrombospondin motifs 7-like,"Charlie19a#DNA/hAT-Charlie,HERVIP10B3-int#LTR/ERV1,L1MB7#LINE/L1,L1MB8#LINE/L1,L1MC5#LINE/L1,SEDEF_SD,UCON73#DNA/hAT"
+chr16_pat_hsa15,74620000,74621000,Bonobo,7.72,LOC134729059,protein_coding,A disintegrin and metalloproteinase with thrombospondin motifs 7-like,"HERVIP10B3-int#LTR/ERV1,L1MB7#LINE/L1,L1MC5#LINE/L1,SEDEF_SD,TR"
+chr16_pat_hsa15,74617000,74618000,Bonobo,7.69,LOC134729059,protein_coding,A disintegrin and metalloproteinase with thrombospondin motifs 7-like,"HERVIP10B3-int#LTR/ERV1,L1MC5#LINE/L1,SEDEF_SD"
+chr16_pat_hsa15,74615000,74616000,Bonobo,7.24,LOC134729059,protein_coding,A disintegrin and metalloproteinase with thrombospondin motifs 7-like,"HERVIP10B3-int#LTR/ERV1,L1MC5#LINE/L1,SEDEF_SD,TR"
+chr16_pat_hsa15,74614000,74615000,Bonobo,6.36,LOC134729059,protein_coding,A disintegrin and metalloproteinase with thrombospondin motifs 7-like,"HERVIP10B3-int#LTR/ERV1,SEDEF_SD"
+chr16_pat_hsa15,74622000,74623000,Bonobo,6.19,LOC134729059,protein_coding,A disintegrin and metalloproteinase with thrombospondin motifs 7-like,"AluJb#SINE/Alu,L1MB7#LINE/L1,L1MB8#LINE/L1,L1MC5#LINE/L1,SEDEF_SD,TR"
+chr18_pat_hsa16,84107000,84108000,Bonobo,8.09,LOC134729312,protein_coding,serine/arginine repetitive matrix protein 1-like,"L2b#LINE/L2,SEDEF_SD"
+chr18_pat_hsa16,84105000,84106000,Bonobo,7.99,LOC134729312,protein_coding,serine/arginine repetitive matrix protein 1-like,SEDEF_SD
+chr20_pat_hsa19,61963000,61964000,Bonobo,7.98,LOC134729581,protein_coding,ret finger protein-like 4A,"SEDEF_SD,TR"
+chr20_pat_hsa19,11624000,11625000,Bonobo,6.04,LOC134729663,protein_coding,putative methyl-CpG-binding domain protein 3-like 3,SEDEF_SD
+chr1_pat_hsa1,213971000,213972000,Bonobo,6.91,LOC134729805,protein_coding,heterogeneous nuclear ribonucleoprotein C-like 2,"SEDEF_SD,TR"
+chr4_mat_hsa5,948000,949000,Bonobo,6.85,LOC134730354,protein_coding,palmitoyltransferase ZDHHC11-like,"SEDEF_SD,TR"
+chr4_mat_hsa5,949000,950000,Bonobo,6.61,LOC134730354,protein_coding,palmitoyltransferase ZDHHC11-like,"SEDEF_SD,TR"
+chr4_mat_hsa5,941000,942000,Bonobo,6.19,LOC134730354,protein_coding,palmitoyltransferase ZDHHC11-like,"SEDEF_SD,TR"
+chr4_mat_hsa5,950000,951000,Bonobo,6.10,LOC134730354,protein_coding,palmitoyltransferase ZDHHC11-like,"SEDEF_SD,TR"
+chr4_mat_hsa5,947000,948000,Bonobo,6.07,LOC134730354,protein_coding,palmitoyltransferase ZDHHC11-like,SEDEF_SD
+chr4_mat_hsa5,1082000,1083000,Bonobo,6.89,LOC134730359,protein_coding,palmitoyltransferase ZDHHC11,SEDEF_SD
+chr4_mat_hsa5,17732000,17733000,Bonobo,6.95,LOC134730419,protein_coding,TATA-box binding protein associated factor 11 like protein 2,SEDEF_SD
+chr4_mat_hsa5,1747000,1748000,Bonobo,6.19,LPCAT1,protein_coding,lysophosphatidylcholine acyltransferase 1,TR
+chr12_mat_hsa2a,49391000,49392000,Bonobo,8.56,LRRTM4,protein_coding,leucine rich repeat transmembrane neuronal 4,L1PA2#LINE/L1
+chr12_mat_hsa2a,49390000,49391000,Bonobo,8.09,LRRTM4,protein_coding,leucine rich repeat transmembrane neuronal 4,L1PA2#LINE/L1
+chr12_mat_hsa2a,49389000,49390000,Bonobo,7.87,LRRTM4,protein_coding,leucine rich repeat transmembrane neuronal 4,"L1MC#LINE/L1,L1PA2#LINE/L1"
+chr12_mat_hsa2a,49388000,49389000,Bonobo,6.96,LRRTM4,protein_coding,leucine rich repeat transmembrane neuronal 4,"L1MC#LINE/L1,L1PA2#LINE/L1"
+chr12_mat_hsa2a,49392000,49393000,Bonobo,6.31,LRRTM4,protein_coding,leucine rich repeat transmembrane neuronal 4,L1PA2#LINE/L1
+chr9_pat_hsa11,27071000,27072000,Bonobo,7.31,LUZP2,protein_coding,leucine zipper protein 2,TR
+chr9_pat_hsa11,27072000,27073000,Bonobo,6.72,LUZP2,protein_coding,leucine zipper protein 2,TR
+chr5_pat_hsa6,19737000,19738000,Bonobo,7.44,LYRM4,protein_coding,LYR motif containing 4,.
+chr5_pat_hsa6,19738000,19739000,Bonobo,6.76,LYRM4,protein_coding,LYR motif containing 4,.
+chr5_pat_hsa6,19739000,19740000,Bonobo,6.59,LYRM4,protein_coding,LYR motif containing 4,TR
+chr6_mat_hsa7,6786000,6787000,Bonobo,6.37,MAD1L1,protein_coding,mitotic arrest deficient 1 like 1,.
+chr5_pat_hsa6,44118000,44119000,Bonobo,6.02,MAS1L,protein_coding,MAS1 proto-oncogene like%2C G protein-coupled receptor,TR
+chr14_pat_hsa13,114492000,114493000,Bonobo,6.49,MCF2L,protein_coding,MCF.2 cell line derived transforming sequence like,"MER1B#DNA/hAT-Charlie,TR"
+chr7_pat_hsa8,21293000,21294000,Bonobo,7.54,MCPH1,protein_coding,microcephalin 1,.
+chr7_pat_hsa8,21292000,21293000,Bonobo,7.38,MCPH1,protein_coding,microcephalin 1,TR
+chr7_pat_hsa8,21291000,21292000,Bonobo,6.23,MCPH1,protein_coding,microcephalin 1,TR
+chr7_pat_hsa8,21301000,21302000,Bonobo,6.99,"MCPH1,ANGPT2",protein_coding;protein_coding,microcephalin 1;angiopoietin 2,TR
+chr7_pat_hsa8,21296000,21297000,Bonobo,6.05,"MCPH1,ANGPT2",protein_coding;protein_coding,microcephalin 1;angiopoietin 2,.
+chr20_pat_hsa19,4609000,4610000,Bonobo,6.04,MIER2,protein_coding,MIER family member 2,.
+chr6_mat_hsa7,9897000,9898000,Bonobo,7.36,MMD2,protein_coding,monocyte to macrophage differentiation associated 2,TR
+chr7_pat_hsa8,34660000,34661000,Bonobo,6.43,MSR1,protein_coding,macrophage scavenger receptor 1,TR
+chr9_pat_hsa11,3511000,3512000,Bonobo,7.02,MUC2,protein_coding,mucin 2%2C oligomeric mucus/gel-forming,.
+chr9_pat_hsa11,3509000,3510000,Bonobo,6.92,MUC2,protein_coding,mucin 2%2C oligomeric mucus/gel-forming,.
+chr9_pat_hsa11,3510000,3511000,Bonobo,6.40,MUC2,protein_coding,mucin 2%2C oligomeric mucus/gel-forming,.
+chr9_pat_hsa11,3664000,3665000,Bonobo,8.63,MUC5B,protein_coding,mucin 5B%2C oligomeric mucus/gel-forming,SEDEF_SD
+chr7_pat_hsa8,16799000,16800000,Bonobo,7.27,MYOM2,protein_coding,myomesin 2,.
+chr16_pat_hsa15,46861000,46862000,Bonobo,6.09,MYZAP,protein_coding,myocardial zonula adherens protein,"(T)n#Simple_repeat,L1MC4#LINE/L1,L2d2#LINE/L2,L3#LINE/CR1,MIR#SINE/MIR,TR"
+chr22_pat_hsa21,17908000,17909000,Bonobo,6.83,NCAM2,protein_coding,neural cell adhesion molecule 2,TR
+chr10_mat_hsa12,6133000,6134000,Bonobo,7.38,NINJ2,protein_coding,ninjurin 2,"AluSp#SINE/Alu,AluSx#SINE/Alu,AluSx1#SINE/Alu,L1MB4#LINE/L1,L1ME3G#LINE/L1,L2d#LINE/L2,TR"
+chr10_mat_hsa12,6132000,6133000,Bonobo,6.42,NINJ2,protein_coding,ninjurin 2,"AluSx#SINE/Alu,FLAM_C#SINE/Alu,L1MB4#LINE/L1,L1ME3G#LINE/L1,L2d#LINE/L2,TR"
+chr20_pat_hsa19,62104000,62105000,Bonobo,6.89,NLRP11,protein_coding,NLR family pyrin domain containing 11,.
+chr20_pat_hsa19,62103000,62104000,Bonobo,6.68,NLRP11,protein_coding,NLR family pyrin domain containing 11,TR
+chr20_pat_hsa19,59834000,59835000,Bonobo,8.52,NLRP12,protein_coding,NLR family pyrin domain containing 12,TR
+chr20_pat_hsa19,62135000,62136000,Bonobo,6.71,NLRP4,protein_coding,NLR family pyrin domain containing 4,.
+chr18_pat_hsa16,84095000,84096000,Bonobo,6.97,NPIPB15,protein_coding,nuclear pore complex interacting protein family member B15,SEDEF_SD
+chr22_pat_hsa21,11224000,11225000,Bonobo,7.46,NRIP1,protein_coding,nuclear receptor interacting protein 1,TR
+chr22_pat_hsa21,11223000,11224000,Bonobo,7.00,NRIP1,protein_coding,nuclear receptor interacting protein 1,TR
+chr19_pat_hsa17,8393000,8394000,Bonobo,7.45,NXN,protein_coding,nucleoredoxin,.
+chr9_pat_hsa11,134230000,134231000,Bonobo,8.01,OPCML,protein_coding,opioid binding protein/cell adhesion molecule like,.
+chr9_pat_hsa11,134229000,134230000,Bonobo,7.83,OPCML,protein_coding,opioid binding protein/cell adhesion molecule like,TR
+chr9_pat_hsa11,134231000,134232000,Bonobo,7.71,OPCML,protein_coding,opioid binding protein/cell adhesion molecule like,.
+chr9_pat_hsa11,134228000,134229000,Bonobo,6.43,OPCML,protein_coding,opioid binding protein/cell adhesion molecule like,.
+chr9_pat_hsa11,5494000,5495000,Bonobo,8.20,OSBPL5,protein_coding,oxysterol binding protein like 5,.
+chr9_pat_hsa11,5495000,5496000,Bonobo,6.17,OSBPL5,protein_coding,oxysterol binding protein like 5,.
+chr19_pat_hsa17,11292000,11293000,Bonobo,8.81,P2RX5,protein_coding,purinergic receptor P2X 5,.
+chr19_pat_hsa17,11293000,11294000,Bonobo,7.06,P2RX5,protein_coding,purinergic receptor P2X 5,.
+chr2_mat_hsa3,187831000,187832000,Bonobo,7.37,P3H2,protein_coding,prolyl 3-hydroxylase 2,TR
+chr5_pat_hsa6,183030000,183031000,Bonobo,6.27,PACRG,protein_coding,parkin coregulated,TR
+chr17_mat_hsa18,97812000,97813000,Bonobo,6.75,PARD6G,protein_coding,par-6 family cell polarity regulator gamma,.
+chr8_mat_hsa10,67383000,67384000,Bonobo,10.03,PCDH15,protein_coding,protocadherin related 15,TR
+chr8_mat_hsa10,67382000,67383000,Bonobo,9.48,PCDH15,protein_coding,protocadherin related 15,TR
+chr8_mat_hsa10,67389000,67390000,Bonobo,9.00,PCDH15,protein_coding,protocadherin related 15,TR
+chr8_mat_hsa10,67390000,67391000,Bonobo,8.95,PCDH15,protein_coding,protocadherin related 15,TR
+chr8_mat_hsa10,67388000,67389000,Bonobo,8.83,PCDH15,protein_coding,protocadherin related 15,.
+chr8_mat_hsa10,67387000,67388000,Bonobo,8.75,PCDH15,protein_coding,protocadherin related 15,.
+chr8_mat_hsa10,67396000,67397000,Bonobo,8.28,PCDH15,protein_coding,protocadherin related 15,TR
+chr8_mat_hsa10,67395000,67396000,Bonobo,8.17,PCDH15,protein_coding,protocadherin related 15,.
+chr8_mat_hsa10,67386000,67387000,Bonobo,8.11,PCDH15,protein_coding,protocadherin related 15,.
+chr8_mat_hsa10,67385000,67386000,Bonobo,7.43,PCDH15,protein_coding,protocadherin related 15,.
+chr8_mat_hsa10,67393000,67394000,Bonobo,7.22,PCDH15,protein_coding,protocadherin related 15,TR
+chr8_mat_hsa10,66320000,66321000,Bonobo,7.21,PCDH15,protein_coding,protocadherin related 15,TR
+chr8_mat_hsa10,67394000,67395000,Bonobo,7.16,PCDH15,protein_coding,protocadherin related 15,.
+chr8_mat_hsa10,67397000,67398000,Bonobo,6.35,PCDH15,protein_coding,protocadherin related 15,TR
+chr8_mat_hsa10,66731000,66732000,Bonobo,6.10,PCDH15,protein_coding,protocadherin related 15,.
+chr8_mat_hsa10,67372000,67373000,Bonobo,6.10,PCDH15,protein_coding,protocadherin related 15,.
+chr4_mat_hsa5,517000,518000,Bonobo,6.07,"PDCD6,LOC134730344",protein_coding;protein_coding,programmed cell death 6;B-cell CLL/lymphoma 9-like protein,SEDEF_SD
+chr5_pat_hsa6,185799000,185800000,Bonobo,8.29,PDE10A,protein_coding,phosphodiesterase 10A,.
+chr5_pat_hsa6,185801000,185802000,Bonobo,7.83,PDE10A,protein_coding,phosphodiesterase 10A,TR
+chr5_pat_hsa6,185815000,185816000,Bonobo,7.79,PDE10A,protein_coding,phosphodiesterase 10A,.
+chr5_pat_hsa6,185814000,185815000,Bonobo,7.75,PDE10A,protein_coding,phosphodiesterase 10A,TR
+chr5_pat_hsa6,185798000,185799000,Bonobo,7.45,PDE10A,protein_coding,phosphodiesterase 10A,TR
+chr5_pat_hsa6,185816000,185817000,Bonobo,7.36,PDE10A,protein_coding,phosphodiesterase 10A,.
+chr5_pat_hsa6,185800000,185801000,Bonobo,7.27,PDE10A,protein_coding,phosphodiesterase 10A,.
+chr5_pat_hsa6,185804000,185805000,Bonobo,6.98,PDE10A,protein_coding,phosphodiesterase 10A,TR
+chr5_pat_hsa6,185884000,185885000,Bonobo,6.92,PDE10A,protein_coding,phosphodiesterase 10A,.
+chr5_pat_hsa6,185883000,185884000,Bonobo,6.81,PDE10A,protein_coding,phosphodiesterase 10A,TR
+chr5_pat_hsa6,185802000,185803000,Bonobo,6.76,PDE10A,protein_coding,phosphodiesterase 10A,TR
+chr5_pat_hsa6,185803000,185804000,Bonobo,6.60,PDE10A,protein_coding,phosphodiesterase 10A,TR
+chr7_pat_hsa8,27245000,27246000,Bonobo,7.11,PINX1,protein_coding,PIN2 (TERF1) interacting telomerase inhibitor 1,.
+chr7_pat_hsa8,27239000,27240000,Bonobo,6.77,PINX1,protein_coding,PIN2 (TERF1) interacting telomerase inhibitor 1,TR
+chr7_pat_hsa8,27244000,27245000,Bonobo,6.76,PINX1,protein_coding,PIN2 (TERF1) interacting telomerase inhibitor 1,TR
+chr7_pat_hsa8,27221000,27222000,Bonobo,6.66,PINX1,protein_coding,PIN2 (TERF1) interacting telomerase inhibitor 1,TR
+chr7_pat_hsa8,27246000,27247000,Bonobo,6.53,PINX1,protein_coding,PIN2 (TERF1) interacting telomerase inhibitor 1,TR
+chr7_pat_hsa8,27247000,27248000,Bonobo,6.16,PINX1,protein_coding,PIN2 (TERF1) interacting telomerase inhibitor 1,TR
+chr7_pat_hsa8,27240000,27241000,Bonobo,6.10,PINX1,protein_coding,PIN2 (TERF1) interacting telomerase inhibitor 1,.
+chr21_mat_hsa20,9502000,9503000,Bonobo,6.58,PLCB1,protein_coding,phospholipase C beta 1,TR
+chr20_pat_hsa19,61231000,61232000,Bonobo,6.19,PPP1R12C,protein_coding,protein phosphatase 1 regulatory subunit 12C,.
+chr8_mat_hsa10,143905000,143906000,Bonobo,8.15,PPP2R2D,protein_coding,protein phosphatase 2 regulatory subunit Bdelta,.
+chr8_mat_hsa10,143904000,143905000,Bonobo,6.93,PPP2R2D,protein_coding,protein phosphatase 2 regulatory subunit Bdelta,.
+chr18_pat_hsa16,99909000,99910000,Bonobo,6.27,PRDM7,protein_coding,PR/SET domain 7,"L2b#LINE/L2,L2d#LINE/L2,SEDEF_SD"
+chr5_pat_hsa6,182050000,182051000,Bonobo,6.40,PRKN,protein_coding,parkin RBR E3 ubiquitin protein ligase,TR
+chr11_mat_hsa9,114644000,114645000,Bonobo,6.53,PTPRD,protein_coding,protein tyrosine phosphatase receptor type D,"L1PA2#LINE/L1,TR"
+chr6_mat_hsa7,194994000,194995000,Bonobo,7.80,PTPRN2,protein_coding,protein tyrosine phosphatase receptor type N2,.
+chr6_mat_hsa7,194289000,194290000,Bonobo,6.57,PTPRN2,protein_coding,protein tyrosine phosphatase receptor type N2,TR
+chr1_pat_hsa1,19924000,19925000,Bonobo,8.34,RAB4A,protein_coding,RAB4A%2C member RAS oncogene family,"L1PA3#LINE/L1,TR"
+chr19_pat_hsa17,9457000,9458000,Bonobo,15.34,RPA1,protein_coding,replication protein A1,.
+chr19_pat_hsa17,9450000,9451000,Bonobo,12.80,RPA1,protein_coding,replication protein A1,.
+chr19_pat_hsa17,9456000,9457000,Bonobo,11.81,RPA1,protein_coding,replication protein A1,.
+chr19_pat_hsa17,9449000,9450000,Bonobo,10.81,RPA1,protein_coding,replication protein A1,TR
+chr19_pat_hsa17,9444000,9445000,Bonobo,9.10,RPA1,protein_coding,replication protein A1,"AluJb#SINE/Alu,L1MB3#LINE/L1,L2a#LINE/L2,TR"
+chr19_pat_hsa17,9448000,9449000,Bonobo,8.12,RPA1,protein_coding,replication protein A1,"AluSx1#SINE/Alu,TR"
+chr19_pat_hsa17,9451000,9452000,Bonobo,7.69,RPA1,protein_coding,replication protein A1,.
+chr19_pat_hsa17,9433000,9434000,Bonobo,7.45,RPA1,protein_coding,replication protein A1,"(ATTA)n#Simple_repeat,(TTTAT)n#Simple_repeat,AluJb#SINE/Alu,AluSx1#SINE/Alu,AluSx3#SINE/Alu,HAL1#LINE/L1,TR"
+chr19_pat_hsa17,9437000,9438000,Bonobo,7.35,RPA1,protein_coding,replication protein A1,"AluJb#SINE/Alu,L1ME4b#LINE/L1,TR,X4b_DNA#DNA/TcMar-Tigger"
+chr19_pat_hsa17,9436000,9437000,Bonobo,7.25,RPA1,protein_coding,replication protein A1,"AluSx1#SINE/Alu,AluSz#SINE/Alu,L1ME4b#LINE/L1,TR"
+chr19_pat_hsa17,9438000,9439000,Bonobo,7.07,RPA1,protein_coding,replication protein A1,"AluJb#SINE/Alu,AluSx#SINE/Alu,L1ME4b#LINE/L1,TR"
+chr19_pat_hsa17,9445000,9446000,Bonobo,6.90,RPA1,protein_coding,replication protein A1,"L1MB3#LINE/L1,TR"
+chr19_pat_hsa17,9443000,9444000,Bonobo,6.68,RPA1,protein_coding,replication protein A1,"(AC)n#Simple_repeat,(CTCT)n#Simple_repeat,AluSx#SINE/Alu,L1MB3#LINE/L1,L2a#LINE/L2,TR"
+chr19_pat_hsa17,9434000,9435000,Bonobo,6.34,RPA1,protein_coding,replication protein A1,"(ATTA)n#Simple_repeat,AluJb#SINE/Alu,AluSq2#SINE/Alu,AluSx3#SINE/Alu,HAL1#LINE/L1,TR"
+chr19_pat_hsa17,9435000,9436000,Bonobo,6.20,RPA1,protein_coding,replication protein A1,"AluJb#SINE/Alu,FLAM_C#SINE/Alu,L1ME4b#LINE/L1,MIR3#SINE/MIR,TR"
+chr19_pat_hsa17,9447000,9448000,Bonobo,6.14,RPA1,protein_coding,replication protein A1,AluSx1#SINE/Alu
+chr6_mat_hsa7,8845000,8846000,Bonobo,7.18,SDK1,protein_coding,sidekick cell adhesion molecule 1,TR
+chr8_mat_hsa10,19907000,19908000,Bonobo,6.69,SFMBT2,protein_coding,Scm like with four mbt domains 2,.
+chr7_pat_hsa8,33121000,33122000,Bonobo,6.17,SGCZ,protein_coding,sarcoglycan zeta,TR
+chr20_pat_hsa19,4742000,4743000,Bonobo,13.05,SHC2,protein_coding,SHC adaptor protein 2,.
+chr20_pat_hsa19,4747000,4748000,Bonobo,12.68,SHC2,protein_coding,SHC adaptor protein 2,.
+chr20_pat_hsa19,4745000,4746000,Bonobo,12.66,SHC2,protein_coding,SHC adaptor protein 2,TR
+chr20_pat_hsa19,4750000,4751000,Bonobo,12.59,SHC2,protein_coding,SHC adaptor protein 2,.
+chr20_pat_hsa19,4748000,4749000,Bonobo,12.16,SHC2,protein_coding,SHC adaptor protein 2,.
+chr20_pat_hsa19,4749000,4750000,Bonobo,11.70,SHC2,protein_coding,SHC adaptor protein 2,.
+chr20_pat_hsa19,4746000,4747000,Bonobo,11.35,SHC2,protein_coding,SHC adaptor protein 2,TR
+chr20_pat_hsa19,4751000,4752000,Bonobo,11.06,SHC2,protein_coding,SHC adaptor protein 2,.
+chr20_pat_hsa19,4743000,4744000,Bonobo,10.23,SHC2,protein_coding,SHC adaptor protein 2,TR
+chr20_pat_hsa19,4744000,4745000,Bonobo,9.91,SHC2,protein_coding,SHC adaptor protein 2,.
+chr20_pat_hsa19,4740000,4741000,Bonobo,9.74,SHC2,protein_coding,SHC adaptor protein 2,TR
+chr20_pat_hsa19,4738000,4739000,Bonobo,7.72,SHC2,protein_coding,SHC adaptor protein 2,.
+chr20_pat_hsa19,4752000,4753000,Bonobo,6.22,SHC2,protein_coding,SHC adaptor protein 2,TR
+chr19_pat_hsa17,62321000,62322000,Bonobo,6.09,SHISA6,protein_coding,shisa family member 6,"AluY#SINE/Alu,L1ME3Cz#LINE/L1,L2d2#LINE/L2,MIR3#SINE/MIR,MLT1K#LTR/ERVL-MaLR,TR"
+chr1_pat_hsa1,226001000,226002000,Bonobo,6.34,SKI,protein_coding,SKI proto-oncogene,TR
+chr1_pat_hsa1,2801000,2802000,Bonobo,10.08,SMYD3,protein_coding,SET and MYND domain containing 3,.
+chr7_pat_hsa8,66090000,66091000,Bonobo,7.56,SNTG1,protein_coding,syntrophin gamma 1,TR
+chr14_pat_hsa13,113207000,113208000,Bonobo,9.50,SOX1,protein_coding,SRY-box transcription factor 1,.
+chr14_pat_hsa13,113888000,113889000,Bonobo,7.64,SPACA7,protein_coding,sperm acrosome associated 7,"MER81#DNA/hAT-Blackjack,MIRb#SINE/MIR,SEDEF_SD"
+chr18_pat_hsa16,99475000,99476000,Bonobo,17.67,SPATA33,protein_coding,spermatogenesis associated 33,"Alu#SINE/Alu,AluYg6#SINE/Alu"
+chr11_mat_hsa9,119952000,119953000,Bonobo,7.08,SPATA6L,protein_coding,spermatogenesis associated 6 like,"L1PA2#LINE/L1,L2b#LINE/L2,L2c#LINE/L2,TR"
+chr13_mat_hsa2b,130705000,130706000,Bonobo,6.16,SPHKAP,protein_coding,SPHK1 interactor%2C AKAP domain containing,"(ACATGCATAC)n#Simple_repeat,(TA)n#Simple_repeat,L1M4b#LINE/L1,L1MB8#LINE/L1,L1PA4#LINE/L1,L1PB#LINE/L1,L1PB1#LINE/L1,MER4-int#LTR/ERV1,TR"
+chr8_mat_hsa10,145553000,145554000,Bonobo,6.14,"SPRN,LOC129393260",protein_coding;protein_coding,shadow of prion protein;uncharacterized LOC129393260,"SEDEF_SD,TR"
+chr1_pat_hsa1,82910000,82911000,Bonobo,6.04,TADA1,protein_coding,transcriptional adaptor 1,SVA_D#Retroposon/SVA
+chr23_pat_hsa22,58450000,58451000,Bonobo,6.50,TAFA5,protein_coding,TAFA chemokine like family member 5,TR
+chr23_pat_hsa22,56703000,56704000,Bonobo,9.79,TBC1D22A,protein_coding,TBC1 domain family member 22A,.
+chr19_pat_hsa17,99334000,99335000,Bonobo,6.38,TBCD,protein_coding,tubulin folding cofactor D,"L1MB7#LINE/L1,TR"
+chr20_pat_hsa19,38719000,38720000,Bonobo,8.02,TDRD12,protein_coding,tudor domain containing 12,.
+chr3_pat_hsa4,180531000,180532000,Bonobo,7.26,TENM3,protein_coding,teneurin transmembrane protein 3,TR
+chr10_mat_hsa12,137919000,137920000,Bonobo,7.35,TMEM132D,protein_coding,transmembrane protein 132D,"MIR#SINE/MIR,MLT1A0#LTR/ERVL-MaLR,TR"
+chr17_mat_hsa18,86259000,86260000,Bonobo,8.39,TMX3,protein_coding,thioredoxin related transmembrane protein 3,"(AAAC)n#Simple_repeat,(ACAACAT)n#Simple_repeat,L1MC5a#LINE/L1,MER76-int#LTR/ERVL,TR"
+chr21_mat_hsa20,69697000,69698000,Bonobo,8.21,TPD52L2,protein_coding,TPD52 like 2,TR
+chr15_mat_hsa14,104029000,104030000,Bonobo,8.68,TRAF3,protein_coding,TNF receptor associated factor 3,"L1ME3F#LINE/L1,L1PA11#LINE/L1,TR"
+chr9_pat_hsa11,8116000,8117000,Bonobo,6.17,TRIM5,protein_coding,tripartite motif containing 5,TR
+chr20_pat_hsa19,11259000,11260000,Bonobo,6.21,VAV1,protein_coding,vav guanine nucleotide exchange factor 1,.
+chr19_pat_hsa17,8091000,8092000,Bonobo,7.42,VPS53,protein_coding,VPS53 subunit of GARP complex,L2c#LINE/L2
+chr19_pat_hsa17,8092000,8093000,Bonobo,6.16,VPS53,protein_coding,VPS53 subunit of GARP complex,L2c#LINE/L2
+chr20_pat_hsa19,60048000,60049000,Bonobo,6.07,VSTM1,protein_coding,V-set and transmembrane domain containing 1,TR
+chr5_pat_hsa6,189836000,189837000,Bonobo,7.31,WDR27,protein_coding,WD repeat domain 27,TR
+chr7_pat_hsa8,71077000,71078000,Bonobo,6.76,XKR4,protein_coding,XK related 4,TR
+chr7_pat_hsa8,161033000,161034000,Bonobo,6.06,ZC3H3,protein_coding,zinc finger CCCH-type containing 3,TR
+chr17_mat_hsa18,92458000,92459000,Bonobo,9.33,ZNF407,protein_coding,zinc finger protein 407,L1M6#LINE/L1
+chr18_pat_hsa16,97907000,97908000,Bonobo,11.15,ZNF469,protein_coding,zinc finger protein 469,L1MEd#LINE/L1
+chr20_pat_hsa19,64535000,64536000,Bonobo,6.14,ZNF544,protein_coding,zinc finger protein 544,TR
+chr20_pat_hsa19,58552000,58553000,Bonobo,6.53,ZNF578,protein_coding,zinc finger protein 578,"SEDEF_SD,TR"
+chr7_pat_hsa8,160766000,160767000,Bonobo,6.02,ZNF696,protein_coding,zinc finger protein 696,TR
+chr12_mat_hsa2a,14765000,14766000,Bonobo,6.67,ZNG1B,protein_coding,Zn regulated GTPase metalloprotein activator 1B,"HAL1b#LINE/L1,L1MC5#LINE/L1,SEDEF_SD,Tigger1#DNA/TcMar-Tigger,TR"
+chr20_pat_hsa19,62550000,62551000,Bonobo,6.77,ZSCAN5A,protein_coding,zinc finger and SCAN domain containing 5A,TR

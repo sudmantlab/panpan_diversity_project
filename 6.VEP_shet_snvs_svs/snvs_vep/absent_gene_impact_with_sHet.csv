@@ -1,0 +1,15 @@
+name,post_mean,selection_regime,species,description,impact_level,impact_level_factor
+SDR16C5,0.00214299,Strong selection,Human,short chain dehydrogenase/reductase family 16C member 5,0,Absent
+TEX46,0.00387823,Strong selection,Human,testis expressed 46,0,Absent
+GRPEL2,0.0102345,Extreme selection,Human,"GrpE like 2, mitochondrial",0,Absent
+GRPEL1,0.0162382,Extreme selection,Human,"GrpE like 1, mitochondrial",0,Absent
+TRNAU1AP,0.0334902,Extreme selection,Human,NA,0,Absent
+TRNAU1AP,0.0334902,Extreme selection,Chimpanzee,NA,0,Absent
+TRNAU1AP,0.0334902,Extreme selection,Bonobo,NA,0,Absent
+TMSB4Y,0.0787893,Extreme selection,Bonobo,thymosin beta 4 Y-linked,0,Absent
+MAGEH1,0.156238,Extreme selection,Bonobo,MAGE family member H1,0,Absent
+RPS4Y1,0.248016,Extreme selection,Bonobo,ribosomal protein S4 Y-linked 1,0,Absent
+KDM5D,0.260939,Extreme selection,Bonobo,lysine demethylase 5D,0,Absent
+ZFY,0.277136,Extreme selection,Bonobo,zinc finger protein Y-linked,0,Absent
+UTY,0.346642,Extreme selection,Bonobo,ubiquitously transcribed tetratricopeptide repeat containing%2C Y-linked,0,Absent
+DDX3Y,0.420997,Extreme selection,Bonobo,DEAD-box helicase 3 Y-linked,0,Absent

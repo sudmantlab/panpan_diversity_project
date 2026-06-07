@@ -1,0 +1,37 @@
+PCAngsd v.1.10.
+Jonas Meisner and Anders Albrechtsen.
+Using 24 thread(s).
+
+Parsing Beagle file.
+Loaded 20413990 sites and 29 individuals.
+Estimating minor allele frequencies.
+EM (MAF) converged at iteration: 27
+Number of sites after MAF filtering (0.05): 13863115
+
+Estimating covariance matrix.
+Using 1 principal components (MAP test).
+Individual allele frequencies estimated (1).
+Individual allele frequencies estimated (2). RMSE=0.010578819595220513
+Individual allele frequencies estimated (3). RMSE=0.006202712123521064
+Individual allele frequencies estimated (4). RMSE=0.00322301752082093
+Individual allele frequencies estimated (5). RMSE=0.001588588485152934
+Individual allele frequencies estimated (6). RMSE=0.0007856964449141714
+Individual allele frequencies estimated (7). RMSE=0.0004052619167357414
+Individual allele frequencies estimated (8). RMSE=0.00022259545119526506
+Individual allele frequencies estimated (9). RMSE=0.00013181186824595846
+Individual allele frequencies estimated (10). RMSE=8.481585184280093e-05
+Individual allele frequencies estimated (11). RMSE=5.918811754937816e-05
+Individual allele frequencies estimated (12). RMSE=4.3946255397400544e-05
+Individual allele frequencies estimated (13). RMSE=3.454277674064424e-05
+Individual allele frequencies estimated (14). RMSE=2.8125144381936046e-05
+Individual allele frequencies estimated (15). RMSE=2.367002200150845e-05
+Individual allele frequencies estimated (16). RMSE=2.016917924697497e-05
+Individual allele frequencies estimated (17). RMSE=1.7313466112353157e-05
+Individual allele frequencies estimated (18). RMSE=1.501770331940049e-05
+Individual allele frequencies estimated (19). RMSE=1.3244261547242596e-05
+Individual allele frequencies estimated (20). RMSE=1.1631051352400518e-05
+Individual allele frequencies estimated (21). RMSE=1.0327454800801677e-05
+Individual allele frequencies estimated (22). RMSE=9.285476067987125e-06
+PCAngsd converged.
+Saved covariance matrix as allchimps_snps_fromBam_minmaf0.05.cov (Text).
+

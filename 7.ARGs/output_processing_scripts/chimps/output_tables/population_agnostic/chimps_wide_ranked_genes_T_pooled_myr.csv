@@ -1,0 +1,173 @@
+chromosome,start,end,T_pooled_myr,genes,genes_renamed,descriptions,gene_biotypes,SRA_overlap_percent,tr_overlap_percent
+chr12_hap1_hsa2a,119177000,119178000,20.00964095,ALLC,ALLC,allantoicase,protein_coding,22.9,0
+chr19_hap1_hsa17,12122000,12123000,12.66823378,SCARF1,SCARF1,scavenger receptor class F member 1,protein_coding,26,2.9
+chr1_hap1_hsa1,3705000,3706000,11.96469132,KIF26B,KIF26B,kinesin family member 26B,protein_coding,42.9,4.5
+chr20_hap1_hsa19,55681000,55682000,11.45446267,ZNF28,ZNF28,zinc finger protein 28,protein_coding,46,0
+chr15_hap1_hsa14,103314000,103315000,11.22358417,BRF1,BRF1,BRF1 RNA polymerase III transcription initiation factor subunit,protein_coding,21.2,0
+chr5_hap1_hsa6,37159000,37160000,10.86598164,PATR-C,HLA-C,major histocompatibility complex%2C class I%2C C,protein_coding,45.2,0
+chr19_hap1_hsa17,95903000,95904000,10.67952731,FOXK2,FOXK2,forkhead box K2,protein_coding,30.5,0
+chr5_hap1_hsa6,35852000,35853000,10.28506526,PATR-A,PATR-A,patr class I histocompatibility antigen%2C A-126 alpha chain,protein_coding,24.7,3.1
+chr20_hap1_hsa19,59150000,59151000,9.693968896,ZSCAN5C,ZSCAN5C,zinc finger and SCAN domain containing 5C,protein_coding,34.3,2.1
+chr20_hap1_hsa19,57039000,57040000,9.256139337,LILRB3,LILRB3,leukocyte immunoglobulin like receptor B3,protein_coding,20.1,3.3
+chr17_hap1_hsa18,87050000,87051000,9.208808202,MBP,MBP,myelin basic protein,protein_coding,71.1,2.1
+chr18_hap1_hsa16,2784000,2785000,8.915523845,RAB11FIP3,RAB11FIP3,RAB11 family interacting protein 3,protein_coding,53.2,3.2
+chr5_hap1_hsa6,38996000,38997000,8.869954704,LOC100610904,HLA-DPB1,HLA class II histocompatibility antigen%2C DP beta 1 chain-like,protein_coding,100,0
+chr8_hap1_hsa10,14256000,14257000,8.853330434,ADARB2,ADARB2,adenosine deaminase RNA specific B2 (inactive),protein_coding,34.7,1.5
+chr20_hap1_hsa19,56170000,56171000,8.771082386,ZNF845,ZNF845,zinc finger protein 845,protein_coding,29.5,3.4
+chr1_hap1_hsa1,217111000,217112000,8.75671719,KAZN,KAZN,kazrin%2C periplakin interacting protein,protein_coding,100,0
+chr7_hap1_hsa8,23866000,23867000,8.698358059,TUSC3,TUSC3,tumor suppressor candidate 3,protein_coding,100,0
+chr7_hap1_hsa8,22927000,22928000,8.650346283,SGCZ,SGCZ,sarcoglycan zeta,protein_coding,32.4,1.8
+chr20_hap1_hsa19,55778000,55779000,8.45194053,ZNF888,ZNF888,zinc finger protein 888,protein_coding,46.5,1.4
+chr8_hap1_hsa10,144937000,144938000,8.449196346,INPP5A,INPP5A,inositol polyphosphate-5-phosphatase A,protein_coding,27.8,1.9
+chr11_hap1_hsa9,97265000,97266000,8.40648394,ADAMTSL1,ADAMTSL1,ADAMTS like 1,protein_coding,21.2,1.1
+chr4_hap1_hsa5,177595000,177596000,8.380853777,RASGEF1C,RASGEF1C,RasGEF domain family member 1C,protein_coding,27.8,0
+chr6_hap1_hsa7,173146000,173147000,8.291707832,PTPRN2,PTPRN2,protein tyrosine phosphatase receptor type N2,protein_coding,43.2,0
+chr5_hap1_hsa6,36937000,36938000,8.26359447,LOC462552,HCG22 ,protein PBMUCL2,protein_coding,99.4,3
+chr10_hap1_hsa12,136657000,136658000,8.217939473,TMEM132D,TMEM132D,transmembrane protein 132D,protein_coding,48.5,1.2
+chr23_hap1_hsa22,48857000,48858000,8.008346616,TBC1D22A,TBC1D22A,TBC1 domain family member 22A,protein_coding,33.3,1.2
+chr20_hap1_hsa19,59175000,59176000,8.001875086,ZSCAN5A,ZSCAN5A,zinc finger and SCAN domain containing 5A,protein_coding,21.4,1.8
+chr19_hap1_hsa17,96110000,96111000,7.961074915,FN3K,FN3K,fructosamine 3 kinase,protein_coding,67.8,0
+chr5_hap1_hsa6,37245000,37246000,7.9494157,PATR-B,HLA-B,major histocompatibility complex%2C class I%2C B,protein_coding,49.3,1.5
+chr4_hap1_hsa5,178394000,178395000,7.879254753,BTNL8,BTNL8,butyrophilin like 8,protein_coding,25.3,3
+chr8_hap1_hsa10,139431000,139432000,7.848339183,DOCK1,DOCK1,dedicator of cytokinesis 1,protein_coding,75.6,2.5
+chr11_hap1_hsa9,115597000,115598000,7.847365304,DOCK8,DOCK8,dedicator of cytokinesis 8,protein_coding,87.4,3.8
+chr10_hap1_hsa12,138617000,138618000,7.657206396,SFSWAP,SFSWAP,splicing factor SWAP,protein_coding,24.9,0
+chr8_hap1_hsa10,144352000,144353000,7.540000399,JAKMIP3,JAKMIP3,Janus kinase and microtubule interacting protein 3,protein_coding,21.8,1.9
+chr7_hap1_hsa8,59049000,59050000,7.523457423,SNTG1,SNTG1,syntrophin gamma 1,protein_coding,53.9,0
+chr18_hap1_hsa16,2513000,2514000,7.512138867,LOC129137268,HBA3-like,hemoglobin subunit alpha-3-like,protein_coding,27.8,0
+chr10_hap1_hsa12,9611000,9612000,7.505713288,CACNA1C,CACNA1C,calcium voltage-gated channel subunit alpha1 C,protein_coding,79.2,3.9
+chr12_hap1_hsa2a,91928000,91929000,7.491220023,GALNT14,GALNT14,polypeptide N-acetylgalactosaminyltransferase 14,protein_coding,92.9,1.6
+chr20_hap1_hsa19,12788000,12789000,7.485670157,LOC468717,C3P1,putative protein C3P1,protein_coding,50.6,1.4
+chr2_hap1_hsa3,11385000,11386000,7.454753965,GRM7,GRM7,glutamate metabotropic receptor 7,protein_coding,99.9,1.5
+chr7_hap1_hsa8,16490000,16491000,7.426059752,MSRA,MSRA,methionine sulfoxide reductase A;serine protease 51,protein_coding;protein_coding,21.2,0
+chr7_hap1_hsa8,16490000,16491000,7.426059752,PRSS51,PRSS51,methionine sulfoxide reductase A;serine protease 51,protein_coding;protein_coding,21.2,0
+chr5_hap1_hsa6,70739000,70740000,7.420971256,LOC100609532,EYS,protein eyes shut homolog,protein_coding,22.2,1.6
+chr20_hap1_hsa19,4977000,4978000,7.391891832,GNG7,GNG7,G protein subunit gamma 7,protein_coding,49.5,2.6
+chr1_hap1_hsa1,228446000,228447000,7.373065914,WRAP73,WRAP73,WD repeat containing%2C antisense to TP73,protein_coding,31,0
+chr23_hap1_hsa22,52884000,52885000,7.358703245,ACR,ACR,acrosin,protein_coding,51.1,0.2
+chr5_hap1_hsa6,35680000,35681000,7.286210592,LOC134810183,MICB,MHC class I polypeptide-related sequence B-like,protein_coding,65.2,2.2
+chr20_hap1_hsa19,55138000,55139000,7.279804147,ZNF766,ZNF766,zinc finger protein 766,protein_coding,60.3,4.1
+chr19_hap1_hsa17,11340000,11341000,7.273453864,NXN,NXN,nucleoredoxin,protein_coding,22.4,4.2
+chr20_hap1_hsa19,59634000,59635000,7.269327456,LOC104003467,OR1L4,olfactory receptor 1L4-like,protein_coding,80,2.1
+chr8_hap1_hsa10,27469000,27470000,7.266321463,FAM107B,FAM107B,family with sequence similarity 107 member B,protein_coding,90.6,3.5
+chr22_hap1_hsa21,46564000,46565000,7.265949585,PCBP3,PCBP3,poly(rC) binding protein 3,protein_coding,35,1.8
+chr2_hap1_hsa3,197633000,197634000,7.214875606,ATP13A3,ATP13A3,ATPase 13A3,protein_coding,52.2,2.8
+chr5_hap1_hsa6,36034000,36035000,7.214840143,TRIM31,TRIM31,tripartite motif containing 31,protein_coding,100,0
+chr20_hap1_hsa19,57405000,57406000,7.201247211,LILRA2,LILRA2,leukocyte immunoglobulin-like receptor%2C subfamily A (with TM domain)%2C member 2,protein_coding,86.5,4.8
+chr9_hap1_hsa11,9137000,9138000,7.177050156,MMP26,MMP26,matrix metallopeptidase 26,protein_coding,100,2.3
+chr7_hap1_hsa8,27539000,27540000,7.122524003,PSD3,PSD3,pleckstrin and Sec7 domain containing 3,protein_coding,94.3,3.3
+chr1_hap1_hsa1,215548000,215549000,7.112248667,DDI2,DDI2,DNA damage inducible 1 homolog 2,protein_coding,98.6,1.9
+chr9_hap1_hsa11,82149000,82150000,7.105305812,TENM4,TENM4,teneurin transmembrane protein 4,protein_coding,99.9,1.2
+chr7_hap1_hsa8,8247000,8248000,7.10057171,DLGAP2,DLGAP2,DLG associated protein 2,protein_coding,44.9,0
+chr9_hap1_hsa11,4410000,4411000,7.083100723,SIRT3,SIRT3,sirtuin 3,protein_coding,23.6,1.1
+chr5_hap1_hsa6,136219000,136220000,7.063526524,NKAIN2,NKAIN2,sodium/potassium transporting ATPase interacting 2,protein_coding,100,1.9
+chr6_hap1_hsa7,168004000,168005000,7.030473792,ACTR3B,ACTR3B,actin related protein 3B,protein_coding,100,0
+chr12_hap1_hsa2a,121780000,121781000,7.002363875,SNTG2,SNTG2,syntrophin gamma 2,protein_coding,78.2,0
+chr9_hap1_hsa11,8525000,8526000,6.985735344,LOC129136397,SSU72L2 ,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like,protein_coding,24.5,3.1
+chr2_hap1_hsa3,200825000,200826000,6.979601625,LOC112208690,MYLK2 ,myosin light chain kinase 2%2C skeletal/cardiac muscle-like,protein_coding,20.4,0
+chr7_hap1_hsa8,10859000,10860000,6.976661136,CSMD1,CSMD1,CUB and Sushi multiple domains 1,protein_coding,91.1,4.2
+chr6_hap1_hsa7,172006000,172007000,6.95770758,NOM1,NOM1,nucleolar protein with MIF4G domain 1,protein_coding,31.6,1.3
+chr9_hap1_hsa11,9604000,9605000,6.939744001,HBE1,HBE1,hemoglobin subunit epsilon 1,protein_coding,93.2,0
+chr11_hap1_hsa9,115781000,115782000,6.925839634,ZNG1A,ZNG1A,Zn regulated GTPase metalloprotein activator 1A,protein_coding,26.5,1.1
+chr20_hap1_hsa19,57454000,57455000,6.923954117,LILRB1,LILRB1,leukocyte immunoglobulin like receptor B1,protein_coding,81.7,2.8
+chr14_hap1_hsa13,83339000,83340000,6.904591864,LOC100611617,UPF0607 ,putative UPF0607 protein ENSP00000383144,protein_coding,23.1,0
+chr2_hap1_hsa3,4420000,4421000,6.90450967,CHL1,CHL1,cell adhesion molecule L1 like,protein_coding,99.6,0
+chr20_hap1_hsa19,55368000,55369000,6.884042657,ZNF578,ZNF578,zinc finger protein 578,protein_coding,33.2,3.2
+chr11_hap1_hsa9,106274000,106275000,6.883484389,PTPRD,PTPRD,protein tyrosine phosphatase receptor type D,protein_coding,44.9,1.4
+chr11_hap1_hsa9,104189000,104190000,6.87679696,TYRP1,TYRP1,tyrosinase related protein 1,protein_coding,41.3,1.7
+chr5_hap1_hsa6,180022000,180023000,6.860585045,LOC104007081,SIMC1,SUMO-interacting motif-containing protein 1,protein_coding,27.4,1.3
+chr1_hap1_hsa1,215894000,215895000,6.817303518,FHAD1,FHAD1,forkhead associated phosphopeptide binding domain 1,protein_coding,46.4,0
+chr3_hap1_hsa4,7829000,7830000,6.816066089,SORCS2,SORCS2,sortilin related VPS10 domain containing receptor 2,protein_coding,56.6,0
+chr19_hap1_hsa17,10785000,10786000,6.811022619,RPH3AL,RPH3AL,rabphilin 3A like (without C2 domains),protein_coding,32.2,0
+chr1_hap1_hsa1,2992000,2993000,6.810764832,SMYD3,SMYD3,SET and MYND domain containing 3,protein_coding,99.9,2
+chr10_hap1_hsa12,139904000,139905000,6.81047125,ZNF26,ZNF26,zinc finger protein 26,protein_coding,83.4,4.1
+chr10_hap1_hsa12,8607000,8608000,6.79551402,ERC1,ERC1,ELKS/RAB6-interacting/CAST family member 1,protein_coding,98.1,2
+chr16_hap1_hsa15,7109000,7110000,6.770222478,LOC100613625,GOLGA8G,putative golgin subfamily A member 8G,protein_coding,59.4,2.9
+chr18_hap1_hsa16,4112000,4113000,6.758755805,MAPK8IP3,MAPK8IP3,mitogen-activated protein kinase 8 interacting protein 3,protein_coding,55.8,3.9
+chr18_hap1_hsa16,81663000,81664000,6.717671339,CDH13,CDH13,cadherin 13,protein_coding,26.1,0
+chr1_hap1_hsa1,209583000,209584000,6.715153051,NBPF3,NBPF3,NBPF member 3,protein_coding,63.2,1.9
+chr11_hap1_hsa9,4505000,4506000,6.715115464,VAV2,VAV2,vav guanine nucleotide exchange factor 2,protein_coding,82.4,2.2
+chr9_hap1_hsa11,133604000,133605000,6.707178539,NTM,NTM,neurotrimin,protein_coding,38.9,0
+chr20_hap1_hsa19,57549000,57550000,6.67727638,LOC100608180,LILRB3,leukocyte immunoglobulin-like receptor subfamily B member 3-like,protein_coding,86.7,2.1
+chr1_hap1_hsa1,878000,879000,6.672171704,OR2M4,OR2M4,olfactory receptor family 2 subfamily M member 4,protein_coding,100,1.8
+chr15_hap1_hsa14,103469000,103470000,6.665287158,MTA1,MTA1,metastasis associated 1,protein_coding,34.1,3.4
+chr10_hap1_hsa12,135735000,135736000,6.657356369,GLT1D1,GLT1D1,glycosyltransferase 1 domain containing 1,protein_coding,58.1,2.2
+chr11_hap1_hsa9,2162000,2163000,6.642656728,CCDC187,CCDC187,coiled-coil domain containing 187,protein_coding,86.3,0
+chr8_hap1_hsa10,145654000,145655000,6.586109846,PAOX,PAOX,polyamine oxidase,protein_coding,42.5,0
+chr13_hap1_hsa2b,16043000,16044000,6.581648214,DPP10,DPP10,dipeptidyl peptidase like 10,protein_coding,86.5,2.5
+chr7_hap1_hsa8,63966000,63967000,6.559170178,XKR4,XKR4,XK related 4,protein_coding,36.2,0
+chr9_hap1_hsa11,9518000,9519000,6.549431129,OR51M1,OR51M1,hemoglobin subunit epsilon 1;olfactory receptor family 51 subfamily M member 1,protein_coding;protein_coding,99.4,2.6
+chr18_hap1_hsa16,25467000,25468000,6.545895533,HS3ST2,HS3ST2,heparan sulfate-glucosamine 3-sulfotransferase 2,protein_coding,83.4,0
+chr5_hap1_hsa6,55337000,55338000,6.522419764,CENPQ,CENPQ,centromere protein Q,protein_coding,95.9,0
+chr19_hap1_hsa17,13589000,13590000,6.520059551,OR1D2,OR1D2,olfactory receptor family 1 subfamily D member 2,protein_coding,99.9,0
+chr6_hap1_hsa7,14458000,14459000,6.518768093,NXPH1,NXPH1,neurexophilin 1,protein_coding,99.8,2
+chr6_hap1_hsa7,9892000,9893000,6.505934768,SDK1,SDK1,sidekick cell adhesion molecule 1,protein_coding,66.2,1.3
+chr1_hap1_hsa1,228256000,228257000,6.501498596,CEP104,CEP104,centrosomal protein 104,protein_coding,30.1,4.3
+chr2_hap1_hsa3,34772000,34773000,6.499706819,GADL1,GADL1,glutamate decarboxylase like 1,protein_coding,98.8,0
+chr8_hap1_hsa10,67178000,67179000,6.49415539,PCDH15,PCDH15,protocadherin related 15,protein_coding,68.3,1.2
+chr1_hap1_hsa1,127573000,127574000,6.484237237,AMY2B,AMY2B,amylase alpha 2B,protein_coding,100,0
+chr9_hap1_hsa11,8841000,8842000,6.45610334,OR51E2,OR51E2,olfactory receptor family 51 subfamily E member 2;olfactory receptor 51F2,protein_coding;protein_coding,99.9,0
+chr20_hap1_hsa19,57492000,57493000,6.455112176,LILRB4,LILRB4,leukocyte immunoglobulin like receptor B4,protein_coding,87.3,1.5
+chr13_hap1_hsa2b,69131000,69132000,6.453868851,XIRP2,XIRP2,xin actin binding repeat containing 2,protein_coding,74.5,1.5
+chr18_hap1_hsa16,9865000,9866000,6.451838643,RBFOX1,RBFOX1,RNA binding fox-1 homolog 1,protein_coding,38.6,1.7
+chr11_hap1_hsa9,110197000,110198000,6.4374826,RIC1,RIC1,RIC1 homolog%2C RAB6A GEF complex partner 1,protein_coding,36.1,0
+chr7_hap1_hsa8,155343000,155344000,6.417486362,ZNF16,ZNF16,zinc finger protein 16,protein_coding,22.7,0
+chr6_hap1_hsa7,6595000,6596000,6.41630653,PRKAR1B,PRKAR1B,protein kinase cAMP-dependent type I regulatory subunit beta,protein_coding,40.2,4
+chr13_hap1_hsa2b,141281000,141282000,6.41593506,HDAC4,HDAC4,histone deacetylase 4,protein_coding,20.4,3.5
+chr18_hap1_hsa16,21669000,21670000,6.412185387,TMC7,TMC7,transmembrane channel like 7,protein_coding,88.1,4.4
+chr1_hap1_hsa1,1189000,1190000,6.403378051,TRIM58,TRIM58,tripartite motif containing 58,protein_coding,24.4,0
+chr10_hap1_hsa12,25432000,25433000,6.401149825,PIK3C2G,PIK3C2G,phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 gamma,protein_coding,91.8,0.1
+chr4_hap1_hsa5,177803000,177804000,6.393988665,GFPT2,GFPT2,glutamine-fructose-6-phosphate transaminase 2,protein_coding,20.4,2
+chr3_hap1_hsa4,65578000,65579000,6.392521971,TECRL,TECRL,trans-2%2C3-enoyl-CoA reductase like,protein_coding,59.9,0
+chr10_hap1_hsa12,84444000,84445000,6.38972566,NAV3,NAV3,neuron navigator 3,protein_coding,100,1.4
+chr2_hap1_hsa3,5236000,5237000,6.373858196,CNTN6,CNTN6,contactin 6,protein_coding,60.7,0
+chr1_hap1_hsa1,205550000,205551000,6.370786373,LOC112209443,RH-like-IIR,RH-like protein IIR,protein_coding,24.4,3.1
+chr8_hap1_hsa10,26789000,26790000,6.351792527,FRMD4A,FRMD4A,FERM domain containing 4A,protein_coding,84.6,2.1
+chr5_hap1_hsa6,35392000,35393000,6.339860725,OR10C1,OR10C1,olfactory receptor family 11 subfamily A member 1;olfactory receptor family 10 subfamily C member 1,protein_coding;protein_coding,99.9,1.6
+chr5_hap1_hsa6,35392000,35393000,6.339860725,OR11A1,OR11A1,olfactory receptor family 11 subfamily A member 1;olfactory receptor family 10 subfamily C member 1,protein_coding;protein_coding,99.9,1.6
+chr5_hap1_hsa6,174681000,174682000,6.312339923,PRKN,PRKN,parkin RBR E3 ubiquitin protein ligase,protein_coding,73.6,2.7
+chr7_hap1_hsa8,8978000,8979000,6.304063259,MYOM2,MYOM2,myomesin 2,protein_coding,99.7,2.6
+chr4_hap1_hsa5,176626000,176627000,6.303921256,ADAMTS2,ADAMTS2,ADAM metallopeptidase with thrombospondin type 1 motif 2,protein_coding,43,0
+chr20_hap1_hsa19,59141000,59142000,6.298158655,ZSCAN5B,ZSCAN5B,zinc finger and SCAN domain containing 5C;zinc finger and SCAN domain containing 5B,protein_coding;protein_coding,40.4,0.4
+chr10_hap1_hsa12,17361000,17362000,6.294754009,KLRD1,KLRD1,killer cell lectin like receptor D1,protein_coding,100,1.8
+chr3_hap1_hsa4,6696000,6697000,6.287133339,PPP2R2C,PPP2R2C,protein phosphatase 2 regulatory subunit Bgamma,protein_coding,62.9,1.3
+chr18_hap1_hsa16,82568000,82569000,6.279626969,ATP2C2,ATP2C2,ATPase secretory pathway Ca2+ transporting 2,protein_coding,81.9,3.2
+chr8_hap1_hsa10,13134000,13135000,6.254422953,DIP2C,DIP2C,disco interacting protein 2 homolog C,protein_coding,66.4,1.7
+chr19_hap1_hsa17,11787000,11788000,6.253194098,TRARG1,TRARG1,trafficking regulator of GLUT4 (SLC2A4) 1,protein_coding,48.6,1.4
+chr10_hap1_hsa12,17514000,17515000,6.250599983,KLRC4,KLRC4,killer cell lectin like receptor C4,protein_coding,86.1,0
+chr3_hap1_hsa4,3894000,3895000,6.233004736,DOK7,DOK7,docking protein 7,protein_coding,93.3,1.1
+chr3_hap1_hsa4,6283000,6284000,6.228097854,C3H4orf50,C3H4orf50,chromosome 3 C4orf50 homolog,protein_coding,66.6,3.8
+chr5_hap1_hsa6,35657000,35658000,6.227504144,PATR-F,HLA-F,major histocompatibility complex%2C class I%2C F,protein_coding,67.5,3.1
+chr4_hap1_hsa5,31840000,31841000,6.223691473,EDIL3,EDIL3,EGF like repeats and discoidin domains 3,protein_coding,59.6,3.8
+chr9_hap1_hsa11,9278000,9279000,6.221710121,LOC466370,OR52A5,olfactory receptor 52A5,protein_coding,100,0
+chr20_hap1_hsa19,58954000,58955000,6.214033186,NLRP5,NLRP5,NLR family pyrin domain containing 5,protein_coding,91.2,2.9
+chr20_hap1_hsa19,57369000,57370000,6.213221666,KIR3DX1,KIR3DX1,killer cell immunoglobulin-like receptor%2C three domains%2C X1,protein_coding,34.1,1.3
+chr21_hap1_hsa20,70579000,70580000,6.194280707,MYT1,MYT1,myelin transcription factor 1,protein_coding,30.5,1.1
+chr5_hap1_hsa6,63297000,63298000,6.185993375,PRIM2,PRIM2,DNA primase subunit 2,protein_coding,41.1,4.3
+chr13_hap1_hsa2b,143790000,143791000,6.185068886,FARP2,FARP2,FERM%2C ARH/RhoGEF and pleckstrin domain protein 2,protein_coding,64,3.4
+chr3_hap1_hsa4,60406000,60407000,6.181695841,SULT1B1,SULT1B1,sulfotransferase family 1B member 1,protein_coding,100,0
+chr17_hap1_hsa18,73575000,73576000,6.166302844,SERPINB12,SERPINB12,serpin family B member 12,protein_coding,90.5,2.2
+chr20_hap1_hsa19,55570000,55571000,6.157068085,LOC104001134,ZNF83,zinc finger protein 83,protein_coding,47.3,0
+chr2_hap1_hsa3,101553000,101554000,6.144785345,LOC738646,OR5H6,olfactory receptor 5H6-like,protein_coding,92.5,0
+chr6_hap1_hsa7,169780000,169781000,6.143988861,DPP6,DPP6,dipeptidyl peptidase like 6,protein_coding,36.7,0
+chr8_hap1_hsa10,136602000,136603000,6.14283936,LHPP,LHPP,phospholysine phosphohistidine inorganic pyrophosphate phosphatase,protein_coding,68.1,4.2
+chr20_hap1_hsa19,58014000,58015000,6.126778975,PTPRH,PTPRH,protein tyrosine phosphatase receptor type H,protein_coding,70.3,1.5
+chr8_hap1_hsa10,145549000,145550000,6.122395267,TUBGCP2,TUBGCP2,tubulin gamma complex component 2,protein_coding,44.8,3.2
+chr3_hap1_hsa4,4294000,4295000,6.111024399,LOC750576,ALG1,chitobiosyldiphosphodolichol beta-mannosyltransferase-like,protein_coding,26.6,0
+chr4_hap1_hsa5,5946000,5947000,6.107200744,ADAMTS16,ADAMTS16,ADAM metallopeptidase with thrombospondin type 1 motif 16,protein_coding,100,1.4
+chr8_hap1_hsa10,25692000,25693000,6.103702831,CAMK1D,CAMK1D,calcium/calmodulin dependent protein kinase ID,protein_coding,50.4,2.5
+chr20_hap1_hsa19,16309000,16310000,6.089943032,CACNA1A,CACNA1A,calcium voltage-gated channel subunit alpha1 A,protein_coding,76,3.3
+chr10_hap1_hsa12,32087000,32088000,6.070619397,SRGAP1,SRGAP1,SLIT-ROBO Rho GTPase activating protein 1,protein_coding,39.4,1.7
+chr19_hap1_hsa17,58862000,58863000,6.069783808,DNAH9,DNAH9,dynein axonemal heavy chain 9,protein_coding,75,1.5
+chr3_hap1_hsa4,6428000,6429000,6.069568983,JAKMIP1,JAKMIP1,janus kinase and microtubule interacting protein 1,protein_coding,83.8,5
+chr5_hap1_hsa6,35988000,35989000,6.067821378,RNF39,RNF39,ring finger protein 39,protein_coding,97.8,0
+chr5_hap1_hsa6,7663000,7664000,6.065651852,GMDS,GMDS,GDP-mannose 4%2C6-dehydratase,protein_coding,98.7,2.6
+chr18_hap1_hsa16,85800000,85801000,6.061746649,JPH3,JPH3,junctophilin 3,protein_coding,90.8,1.5
+chr10_hap1_hsa12,54395000,54396000,6.04802221,PDZRN4,PDZRN4,PDZ domain containing ring finger 4,protein_coding,100,1.3
+chr8_hap1_hsa10,140279000,140280000,6.032531627,MKI67,MKI67,marker of proliferation Ki-67,protein_coding,60.9,4.2
+chr2_hap1_hsa3,66595000,66596000,6.031584297,CADPS,CADPS,calcium dependent secretion activator,protein_coding,24.9,2.2
+chr8_hap1_hsa10,140179000,140180000,6.026473853,PTPRE,PTPRE,protein tyrosine phosphatase receptor type E,protein_coding,48.1,0
+chr1_hap1_hsa1,228880000,228881000,6.022053621,PRDM16,PRDM16,PR/SET domain 16,protein_coding,32.9,0
+chr20_hap1_hsa19,9588000,9589000,6.021341775,INSR,INSR,insulin receptor,protein_coding,85.5,0
+chr4_hap1_hsa5,89967000,89968000,6.019141734,CDH12,CDH12,cadherin 12,protein_coding,26.8,0
+chr6_hap1_hsa7,96169000,96170000,6.001584066,GRM3,GRM3,glutamate metabotropic receptor 3,protein_coding,89.1,3.5

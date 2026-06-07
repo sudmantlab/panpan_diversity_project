@@ -1,0 +1,222 @@
+Sample	id	type	dataset	Assembler	p1	p2	HPRC_meta.Population	HPRC_PANPAN.color	hgdp_tgp_meta.Genetic.region	hgdp_tgp_meta.Study.region	SpeciesCode	hgdp_tgp_meta.Latitude	hgdp_tgp_meta.Longitude	Continent.colors	project_meta.sex	observations	Cell	Birth
+HG01890	HG01890	hap1	HGSVC3	verkko	ACB	AFR	ACB	#FF9933	AFR	AFR	Hsa 	13.1	-59.61667	#FFCC33	male	HGSVC3		
+HG02011	HG02011	hap1	HGSVC3	verkko	ACB	AFR	ACB	#FF9933	AFR	AFR	Hsa 	13.1	-59.61667	#FFCC33	male	HGSVC3		
+HG02282	HG02282	hap1	HGSVC3	verkko	ACB	AFR	ACB	#FF9933	AFR	AFR	Hsa 	13.1	-59.61667	#FFCC33	female	HGSVC3		
+HG02554	HG02554	hap1	HGSVC3	verkko	ACB	AFR	ACB	#FF9933	AFR	AFR	Hsa 	13.1	-59.61667	#FFCC33	male	HGSVC3		
+HG02587	HG02587	hap1	HGSVC3	verkko	GWD	AFR	GWD	#CC9900	AFR	AFR	Hsa 	13.466667	-16.6	#FFCC33	female	HGSVC3		
+HG02666	HG02666	hap1	HGSVC3	verkko	GWD	AFR	GWD	#CC9900	AFR	AFR	Hsa 	13.466667	-16.6	#FFCC33	male	HGSVC3		
+HG02769	HG02769	hap1	HGSVC3	verkko	GWD	AFR	GWD	#CC9900	AFR	AFR	Hsa 	13.466667	-16.6	#FFCC33	female	HGSVC3		
+HG02818	HG02818	hap1	HGSVC3	verkko	GWD	AFR	GWD	#CC9900	AFR	AFR	Hsa 	13.466667	-16.6	#FFCC33	female	HGSVC3		
+HG02953	HG02953	hap1	HGSVC3	verkko	ESN	AFR	ESN	#FFCC33	AFR	AFR	Hsa 	9.066667	7.483333	#FFCC33	male	HGSVC3		
+HG03065	HG03065	hap1	HGSVC3	verkko	MSL	AFR	MSL	#CC9933	AFR	AFR	Hsa 	-3	37	#FFCC33	male	HGSVC3		
+HG03248	HG03248	hap1	HGSVC3	verkko	GWD	AFR	GWD	#CC9900	AFR	AFR	Hsa 	13.466667	-16.6	#FFCC33	male	HGSVC3		
+HG03371	HG03371	hap1	HGSVC3	verkko	ESN	AFR	ESN	#FFCC33	AFR	AFR	Hsa 	9.066667	7.483333	#FFCC33	male	HGSVC3		
+HG03452	HG03452	hap1	HGSVC3	verkko	MSL	AFR	MSL	#CC9933	AFR	AFR	Hsa 	8.48445	-13.23445	#FFCC33	female	HGSVC3		
+HG03456	HG03456	hap1	HGSVC3	verkko	MSL	AFR	MSL	#CC9933	AFR	AFR	Hsa 	8.48445	-13.23445	#FFCC33		HGSVC3		
+HG03520	HG03520	hap1	HGSVC3	verkko	ESN	AFR	ESN	#FFCC33	AFR	AFR	Hsa 	9.066667	7.483333	#FFCC33	female	HGSVC3		
+NA19036	NA19036	hap1	HGSVC3	verkko	LWK	AFR	LWK	#996600	AFR	AFR	Hsa 	10.776667	106.681667	#FFCC33	female	HGSVC3		
+NA19129	NA19129	hap1	HGSVC3	verkko	YRI	AFR	YRI	#CC9900	AFR	AFR	Hsa 	7.396667	3.916667	#FFCC33	female	HGSVC3		
+NA19238	NA19238	hap1	HGSVC3	verkko	YRI	AFR	YRI	#CC9900	AFR	AFR	Hsa 	7.396667	3.916667	#FFCC33	female	HGSVC3		
+NA19239	NA19239	hap1	HGSVC3	verkko	YRI	AFR	YRI	#CC9900	AFR	AFR	Hsa 	7.396667	3.916667	#FFCC33	male	HGSVC3		
+NA19240	NA19240	hap1	HGSVC3	verkko	YRI	AFR	YRI	#CC9900	AFR	AFR	Hsa 	7.396667	3.916667	#FFCC33	female	HGSVC3		
+NA19317	NA19317	hap1	HGSVC3	verkko	LWK	AFR	LWK	#996600	AFR	AFR	Hsa 	10.776667	106.681667	#FFCC33	male	HGSVC3		
+NA19331	NA19331	hap1	HGSVC3	verkko	LWK	AFR	LWK	#996600	AFR	AFR	Hsa 	10.776667	106.681667	#FFCC33	male	HGSVC3		
+NA19347	NA19347	hap1	HGSVC3	verkko	LWK	AFR	LWK	#996600	AFR	AFR	Hsa 	10.776667	106.681667	#FFCC33	male	HGSVC3		
+NA19384	NA19384	hap1	HGSVC3	verkko	LWK	AFR	LWK	#996600	AFR	AFR	Hsa 	10.776667	106.681667	#FFCC33	male	HGSVC3		
+NA19434	NA19434	hap1	HGSVC3	verkko	LWK	AFR	LWK	#996600	AFR	AFR	Hsa 	10.776667	106.681667	#FFCC33	female	HGSVC3		
+NA19705	NA19705	hap1	HGSVC3	verkko	ASW	AFR	ASW	#FF6600	AFR	AFR	Hsa 	35.48167	-97.53333	#FFCC33	male	HGSVC3		
+NA19836	NA19836	hap1	HGSVC3	verkko	ASW	AFR	ASW	#FF6600	AFR	AFR	Hsa 	35.48167	-97.53333	#FFCC33	female	HGSVC3		
+NA19983	NA19983	hap1	HGSVC3	verkko	ASW	AFR	ASW	#FF6600	AFR	AFR	Hsa 	35.48167	-97.53333	#FFCC33	female	HGSVC3		
+NA20355	NA20355	hap1	HGSVC3	verkko	ASW	AFR	ASW	#FF6600	AFR	AFR	Hsa 	35.48167	-97.53333	#FFCC33	female	HGSVC3		
+NA21487	NA21487	hap1	HGSVC3	verkko	MKK	AFR	MKK	#CC9900	AFR	AFR	Hsa 	-3	37	#FFCC33		HGSVC3		
+HG01891	HG01891.1	hap1	HPRC	other	ACB	AFR	ACB	#FF9933	AFR	AFR	Hsa 	13.1	-59.61667	#FFCC33	female	HPRC-yr1		
+HG01891	HG01891.2	hap2	HPRC	other	ACB	AFR	ACB	#FF9933	AFR	AFR	Hsa 	13.1	-59.61667	#FFCC33	female	HPRC-yr1		
+HG02055	HG02055.2	hap2	HPRC	other	ACB	AFR	ACB	#FF9933	AFR	AFR	Hsa 	13.1	-59.61667	#FFCC33	male	HPRC-yr1		
+HG02055	HG02055.1	hap1	HPRC	other	ACB	AFR	ACB	#FF9933	AFR	AFR	Hsa 	13.1	-59.61667	#FFCC33	male	HPRC-yr1		
+HG02109	HG02109.1	hap1	HPRC	other	ACB	AFR	ACB	#FF9933	AFR	AFR	Hsa 	13.1	-59.61667	#FFCC33	female	HPRC-yr1		
+HG02109	HG02109.2	hap2	HPRC	other	ACB	AFR	ACB	#FF9933	AFR	AFR	Hsa 	13.1	-59.61667	#FFCC33	female	HPRC-yr1		
+HG02145	HG02145.1	hap1	HPRC	other	ACB	AFR	ACB	#FF9933	AFR	AFR	Hsa 	13.1	-59.61667	#FFCC33	male	HPRC-yr1		
+HG02145	HG02145.2	hap2	HPRC	other	ACB	AFR	ACB	#FF9933	AFR	AFR	Hsa 	13.1	-59.61667	#FFCC33	male	HPRC-yr1		
+HG02257	HG02257.1	hap1	HPRC	other	ACB	AFR	ACB	#FF9933	AFR	AFR	Hsa 	13.1	-59.61667	#FFCC33	female	HPRC-yr1		
+HG02257	HG02257.2	hap2	HPRC	other	ACB	AFR	ACB	#FF9933	AFR	AFR	Hsa 	13.1	-59.61667	#FFCC33	female	HPRC-yr1		
+HG02486	HG02486.2	hap2	HPRC	other	ACB	AFR	ACB	#FF9933	AFR	AFR	Hsa 	13.1	-59.61667	#FFCC33	male	HPRC-yr1		
+HG02486	HG02486.1	hap1	HPRC	other	ACB	AFR	ACB	#FF9933	AFR	AFR	Hsa 	13.1	-59.61667	#FFCC33	male	HPRC-yr1		
+HG02559	HG02559.1	hap1	HPRC	other	ACB	AFR	ACB	#FF9933	AFR	AFR	Hsa 	13.1	-59.61667	#FFCC33	female	HPRC-yr1		
+HG02559	HG02559.2	hap2	HPRC	other	ACB	AFR	ACB	#FF9933	AFR	AFR	Hsa 	13.1	-59.61667	#FFCC33	female	HPRC-yr1		
+HG02572	HG02572.1	hap1	HPRC	other	GWD	AFR	GWD	#CC9900	AFR	AFR	Hsa 	13.466667	-16.6	#FFCC33	male	HPRC-yr1		
+HG02572	HG02572.2	hap2	HPRC	other	GWD	AFR	GWD	#CC9900	AFR	AFR	Hsa 	13.466667	-16.6	#FFCC33	male	HPRC-yr1		
+HG02622	HG02622.2	hap2	HPRC	other	GWD	AFR	GWD	#CC9900	AFR	AFR	Hsa 	13.466667	-16.6	#FFCC33	female	HPRC-yr1		
+HG02622	HG02622.1	hap1	HPRC	other	GWD	AFR	GWD	#CC9900	AFR	AFR	Hsa 	13.466667	-16.6	#FFCC33	female	HPRC-yr1		
+HG02630	HG02630.2	hap2	HPRC	other	GWD	AFR	GWD	#CC9900	AFR	AFR	Hsa 	13.466667	-16.6	#FFCC33	female	HPRC-yr1		
+HG02630	HG02630.1	hap1	HPRC	other	GWD	AFR	GWD	#CC9900	AFR	AFR	Hsa 	13.466667	-16.6	#FFCC33	female	HPRC-yr1		
+HG02717	HG02717.1	hap1	HPRC	other	GWD	AFR	GWD	#CC9900	AFR	AFR	Hsa 	13.466667	-16.6	#FFCC33	male	HPRC-yr1		
+HG02717	HG02717.2	hap2	HPRC	other	GWD	AFR	GWD	#CC9900	AFR	AFR	Hsa 	13.466667	-16.6	#FFCC33	male	HPRC-yr1		
+HG02723	HG02723.1	hap1	HPRC	other	GWD	AFR	GWD	#CC9900	AFR	AFR	Hsa 	13.466667	-16.6	#FFCC33	female	HPRC-yr1		
+HG02723	HG02723.2	hap2	HPRC	other	GWD	AFR	GWD	#CC9900	AFR	AFR	Hsa 	13.466667	-16.6	#FFCC33	female	HPRC-yr1		
+HG02818	HG02818.2	hap2	HPRC	other	GWD	AFR	GWD	#CC9900	AFR	AFR	Hsa 	13.466667	-16.6	#FFCC33	female	HPRC-yr1		
+HG02818	HG02818.1	hap1	HPRC	other	GWD	AFR	GWD	#CC9900	AFR	AFR	Hsa 	13.466667	-16.6	#FFCC33	female	HPRC-yr1		
+HG02886	HG02886.2	hap2	HPRC	other	GWD	AFR	GWD	#CC9900	AFR	AFR	Hsa 	13.466667	-16.6	#FFCC33	female	HPRC-yr1		
+HG02886	HG02886.1	hap1	HPRC	other	GWD	AFR	GWD	#CC9900	AFR	AFR	Hsa 	13.466667	-16.6	#FFCC33	female	HPRC-yr1		
+HG03098	HG03098.2	hap2	HPRC	other	MSL	AFR	MSL	#CC9933	AFR	AFR	Hsa 	8.48445	-13.23445	#FFCC33	male	HPRC-yr1		
+HG03098	HG03098.1	hap1	HPRC	other	MSL	AFR	MSL	#CC9933	AFR	AFR	Hsa 	8.48445	-13.23445	#FFCC33	male	HPRC-yr1		
+HG03453	HG03453.2	hap2	HPRC	other	MSL	AFR	MSL	#CC9933	AFR	AFR	Hsa 	8.48445	-13.23445	#FFCC33	female	HPRC-yr1		
+HG03453	HG03453.1	hap1	HPRC	other	MSL	AFR	MSL	#CC9933	AFR	AFR	Hsa 	8.48445	-13.23445	#FFCC33	female	HPRC-yr1		
+HG03486	HG03486.2	hap2	HPRC	other	MSL	AFR	MSL	#CC9933	AFR	AFR	Hsa 	8.48445	-13.23445	#FFCC33	female	HPRC-yr1		
+HG03486	HG03486.1	hap1	HPRC	other	MSL	AFR	MSL	#CC9933	AFR	AFR	Hsa 	8.48445	-13.23445	#FFCC33	female	HPRC-yr1		
+HG03516	HG03516.1	hap1	HPRC	other	ESN	AFR	ESN	#FFCC33	AFR	AFR	Hsa 	9.066667	7.483333	#FFCC33	female	HPRC-yr1		
+HG03516	HG03516.2	hap2	HPRC	other	ESN	AFR	ESN	#FFCC33	AFR	AFR	Hsa 	9.066667	7.483333	#FFCC33	female	HPRC-yr1		
+HG03540	HG03540.1	hap1	HPRC	other	GWD	AFR	GWD	#CC9900	AFR	AFR	Hsa 	13.466667	-16.6	#FFCC33	female	HPRC-yr1		
+HG03540	HG03540.2	hap2	HPRC	other	GWD	AFR	GWD	#CC9900	AFR	AFR	Hsa 	13.466667	-16.6	#FFCC33	female	HPRC-yr1		
+HG03579	HG03579.2	hap2	HPRC	other	MSL	AFR	MSL	#CC9933	AFR	AFR	Hsa 	8.48445	-13.23445	#FFCC33	male	HPRC-yr1		
+HG03579	HG03579.1	hap1	HPRC	other	MSL	AFR	MSL	#CC9933	AFR	AFR	Hsa 	8.48445	-13.23445	#FFCC33	male	HPRC-yr1		
+NA18906	NA18906.1	hap1	HPRC	other	YRI	AFR	YRI	#CC9900	AFR	AFR	Hsa 	7.396667	3.916667	#FFCC33	female	HPRC-yr1		
+NA18906	NA18906.2	hap2	HPRC	other	YRI	AFR	YRI	#CC9900	AFR	AFR	Hsa 	7.396667	3.916667	#FFCC33	female	HPRC-yr1		
+NA19240	NA19240.2	hap2	HPRC	other	YRI	AFR	YRI	#CC9900	AFR	AFR	Hsa 	7.396667	3.916667	#FFCC33	female	HPRC-yr1		
+NA19240	NA19240.1	hap1	HPRC	other	YRI	AFR	YRI	#CC9900	AFR	AFR	Hsa 	7.396667	3.916667	#FFCC33	female	HPRC-yr1		
+NA20129	NA20129.2	hap2	HPRC	other	ASW	AFR	ASW	#FF6600	AFR	AFR	Hsa 	35.48167	-97.53333	#FFCC33	female	HPRC-yr1		
+NA20129	NA20129.1	hap1	HPRC	other	ASW	AFR	ASW	#FF6600	AFR	AFR	Hsa 	35.48167	-97.53333	#FFCC33	female	HPRC-yr1		
+NA21309	NA21309.1	hap1	HPRC	other	"HAPMAP - MAASAI IN KINYAWA, KENYA"	AFR	MKK	#CC9900	AFR	AFR	Hsa 	-3	37	#FFCC33	female	HPRC-yr1		
+NA21309	NA21309.2	hap2	HPRC	other	"HAPMAP - MAASAI IN KINYAWA, KENYA"	AFR	MKK	#CC9900	AFR	AFR	Hsa 	-3	37	#FFCC33	female	HPRC-yr1		
+AG05253_1	AG05253_1.hap2	hap2	PANPAN	hifiasm-hic	Bonobo	AFR	Bonobo	#e9d7cb	AFR	Pan paniscus	Ppan	-2.36	21.55	#e9d7cb	male	non-HPRC coordinates are purely speculative and do not reflect geographical origins	Fibroblast	unknown
+AG05253_1	AG05253_1.hap1	hap1	PANPAN	hifiasm-hic	Bonobo	AFR	Bonobo	#e9d7cb	AFR	Pan paniscus	Ppan	-2.36	21.55	#e9d7cb	male	non-HPRC coordinates are purely speculative and do not reflect geographical origins	Fibroblast	unknown
+AG06939_13	AG06939_13.hap1	hap1	PANPAN	hifiasm-hic	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	male	non-HPRC coordinates are purely speculative and do not reflect geographical origins	Fibroblast	unknown
+AG06939_13	AG06939_13.hap2	hap2	PANPAN	hifiasm-hic	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	male	non-HPRC coordinates are purely speculative and do not reflect geographical origins	Fibroblast	unknown
+AG16618_12	AG16618_12.hap1	hap1	PANPAN	hifiasm-hic	Western x Central hybrid	AFR	Western x Central hybrid	#bbc671	AFR	Pan troglodytes verus	Ptv x Ptt	-0.232861	12.888962	#bbc671	male	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	unknown
+AG16618_12	AG16618_12.hap2	hap2	PANPAN	hifiasm-hic	Western x Central hybrid	AFR	Western x Central hybrid	#bbc671	AFR	Pan troglodytes verus	Ptv x Ptt	-0.232861	12.888962	#bbc671	male	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	unknown
+AG18353_9	AG18353_9.hap1	hap1	PANPAN	hifiasm-hic	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	male	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	unknown
+AG18353_9	AG18353_9.hap2	hap2	PANPAN	hifiasm-hic	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	male	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	unknown
+AG18354_5	AG18354_5.hap1	hap1	PANPAN	hifiasm-hic	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	male	this is mPanTro3	LCL	unknown
+AG18354_5	AG18354_5.hap2	hap2	PANPAN	hifiasm-hic	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	male	this is mPanTro3	LCL	unknown
+AG18355_8	AG18355_8.hap1	hap1	PANPAN	hifiasm-hic	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	male	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	unknown
+AG18355_8	AG18355_8.hap2	hap2	PANPAN	hifiasm-hic	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	male	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	unknown
+AG18356_6	AG18356_6.hap1	hap1	PANPAN	hifiasm-hic	Western x Central hybrid	AFR	Western x Central hybrid	#bbc671	AFR	Pan troglodytes verus	Ptv x Ptt	-0.232861	12.888962	#bbc671	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	unknown
+AG18356_6	AG18356_6.hap2	hap2	PANPAN	hifiasm-hic	Western x Central hybrid	AFR	Western x Central hybrid	#bbc671	AFR	Pan troglodytes verus	Ptv x Ptt	-0.232861	12.888962	#bbc671	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	unknown
+AG18357_3	AG18357_3.hap1	hap1	PANPAN	hifiasm-hic	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	unknown
+AG18357_3	AG18357_3.hap2	hap2	PANPAN	hifiasm-hic	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	unknown
+AG18358_4	AG18358_4.hap1	hap1	PANPAN	hifiasm-hic	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	unknown
+AG18358_4	AG18358_4.hap2	hap2	PANPAN	hifiasm-hic	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	unknown
+AG18359_7	AG18359_7.hap1	hap1	PANPAN	hifiasm-hic	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	unknown
+AG18359_7	AG18359_7.hap2	hap2	PANPAN	hifiasm-hic	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	unknown
+AG18360_11	AG18360_11.hap1	hap1	PANPAN	hifiasm-hic	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	unknown
+AG18360_11	AG18360_11.hap2	hap2	PANPAN	hifiasm-hic	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	unknown
+AG18361_10	AG18361_10.hap1	hap1	PANPAN	hifiasm-hic	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	unknown
+AG18361_10	AG18361_10.hap2	hap2	PANPAN	hifiasm-hic	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	unknown
+mPanPan1	mPanPan1.hap1	hap1	PANPAN	verkko	Bonobo	AFR	Bonobo	#e9d7cb	AFR	Pan paniscus	Ppan	2.23	18.15	#e9d7cb	male	this is PR00251	LCL	captive
+mPanPan1	mPanPan1.hap2	hap2	PANPAN	verkko	Bonobo	AFR	Bonobo	#e9d7cb	AFR	Pan paniscus	Ppan	2.23	18.15	#e9d7cb	male	this is PR00251	LCL	captive
+mPanTro3	mPanTro3.hap1	hap1	PANPAN	verkko	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	male	this is AG18354_5	LCL	unknown
+mPanTro3	mPanTro3.hap2	hap2	PANPAN	verkko	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	male	this is AG18354_5	LCL	unknown
+PR00115	PR00115.hap1	hap1	PANPAN	hifiasm	Central chimpanzee	AFR	Central chimpanzee	#4c5d4c	AFR	Pan troglodytes troglodytes	Ptt	6	-9	#4c5d4c	male	non-HPRC coordinates are purely speculative and do not reflect geographical origins	Fibroblast	captive
+PR00115	PR00115.hap2	hap2	PANPAN	hifiasm	Central chimpanzee	AFR	Central chimpanzee	#4c5d4c	AFR	Pan troglodytes troglodytes	Ptt	6	-9	#4c5d4c	male	non-HPRC coordinates are purely speculative and do not reflect geographical origins	Fibroblast	captive
+PR00249	PR00249.hap1	hap1	PANPAN	hifiasm	Bonobo	AFR	Bonobo	#e9d7cb	AFR	Pan paniscus	Ppan	-2.36	21.55	#e9d7cb	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	captive
+PR00249	PR00249.hap2	hap2	PANPAN	hifiasm	Bonobo	AFR	Bonobo	#e9d7cb	AFR	Pan paniscus	Ppan	-2.36	21.55	#e9d7cb	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	captive
+PR00251	PR00251.hap1	hap1	PANPAN	hifiasm-hic	Bonobo	AFR	Bonobo	#e9d7cb	AFR	Pan paniscus	Ppan	-2.36	21.55	#e9d7cb	male	this is mPanPan1	LCL	captive
+PR00251	PR00251.hap2	hap2	PANPAN	hifiasm-hic	Bonobo	AFR	Bonobo	#e9d7cb	AFR	Pan paniscus	Ppan	-2.36	21.55	#e9d7cb	male	this is mPanPan1	LCL	captive
+PR00366	PR00366.hap1	hap1	PANPAN	verkko	Bonobo	AFR	Bonobo	#e9d7cb	AFR	Pan paniscus	Ppan	-2.36	21.55	#e9d7cb	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	captive
+PR00366	PR00366.hap2	hap2	PANPAN	verkko	Bonobo	AFR	Bonobo	#e9d7cb	AFR	Pan paniscus	Ppan	-2.36	21.55	#e9d7cb	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	captive
+PR00445	PR00445.hap2	hap2	PANPAN	hifiasm	Bonobo	AFR	Bonobo	#e9d7cb	AFR	Pan paniscus	Ppan	-2.36	21.55	#e9d7cb	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	captive
+PR00445	PR00445.hap1	hap1	PANPAN	hifiasm	Bonobo	AFR	Bonobo	#e9d7cb	AFR	Pan paniscus	Ppan	-2.36	21.55	#e9d7cb	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	captive
+PR00496A	PR00496A.hap1	hap1	PANPAN	hifiasm	Central chimpanzee	AFR	Central chimpanzee	#4c5d4c	AFR	Pan troglodytes troglodytes	Ptt	2.23	18.15	#4c5d4c	male	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	wild
+PR00496A	PR00496A.hap2	hap2	PANPAN	hifiasm	Central chimpanzee	AFR	Central chimpanzee	#4c5d4c	AFR	Pan troglodytes troglodytes	Ptt	2.23	18.15	#4c5d4c	male	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	wild
+PR00512	PR00512.hap2	hap2	PANPAN	hifiasm	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	-0.232861	12.888962	#9dced9	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	Fibroblast	wild
+PR00512	PR00512.hap1	hap1	PANPAN	hifiasm	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	-0.232861	12.888962	#9dced9	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	Fibroblast	wild
+PR00834	PR00834.hap1	hap1	PANPAN	hifiasm-hic	Western x Central hybrid	AFR	Western x Central hybrid	#bbc671	AFR	Pan troglodytes troglodytes	Ptv x Ptt	-0.232861	12.888962	#bbc671	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	captive
+PR00834	PR00834.hap2	hap2	PANPAN	hifiasm-hic	Western x Central hybrid	AFR	Western x Central hybrid	#bbc671	AFR	Pan troglodytes troglodytes	Ptv x Ptt	-0.232861	12.888962	#bbc671	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	captive
+PR00838	PR00838.hap1	hap1	PANPAN	hifiasm	Western x Central hybrid	AFR	Western x Central hybrid	#bbc671	AFR	Pan troglodytes troglodytes	Ptv x Ptt	6	-9	#bbc671	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	captive
+PR00838	PR00838.hap2	hap2	PANPAN	hifiasm	Western x Central hybrid	AFR	Western x Central hybrid	#bbc671	AFR	Pan troglodytes troglodytes	Ptv x Ptt	6	-9	#bbc671	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	captive
+PR01008	PR01008.hap1	hap1	PANPAN	verkko	Eastern chimpanzee	AFR	Eastern chimpanzee	#ffb35a	AFR	Pan troglodytes schweinfurthii	Pts	3	30	#ffb35a	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	Fibroblast	wild
+PR01008	PR01008.hap2	hap2	PANPAN	verkko	Eastern chimpanzee	AFR	Eastern chimpanzee	#ffb35a	AFR	Pan troglodytes schweinfurthii	Pts	3	30	#ffb35a	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	Fibroblast	wild
+PR01009	PR01009.hap1	hap1	PANPAN	hifiasm	Eastern chimpanzee	AFR	Eastern chimpanzee	#ffb35a	AFR	Pan troglodytes schweinfurthii	Pts	3	30	#ffb35a	male	non-HPRC coordinates are purely speculative and do not reflect geographical origins	Fibroblast	wild
+PR01009	PR01009.hap2	hap2	PANPAN	hifiasm	Eastern chimpanzee	AFR	Eastern chimpanzee	#ffb35a	AFR	Pan troglodytes schweinfurthii	Pts	3	30	#ffb35a	male	non-HPRC coordinates are purely speculative and do not reflect geographical origins	Fibroblast	wild
+PR01010	PR01010.hap1	hap1	PANPAN	verkko	Eastern chimpanzee	AFR	Eastern chimpanzee	#ffb35a	AFR	Pan troglodytes schweinfurthii	Pts	3	30	#ffb35a	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	Fibroblast	captive
+PR01010	PR01010.hap2	hap2	PANPAN	verkko	Eastern chimpanzee	AFR	Eastern chimpanzee	#ffb35a	AFR	Pan troglodytes schweinfurthii	Pts	3	30	#ffb35a	female	non-HPRC coordinates are purely speculative and do not reflect geographical origins	Fibroblast	captive
+PR01100	PR01100.hap1	hap1	PANPAN	hifiasm	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	male	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	captive
+PR01100	PR01100.hap2	hap2	PANPAN	hifiasm	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	male	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	captive
+PR01223	PR01223.hap1	hap1	PANPAN	hifiasm	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	male	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	wild
+PR01223	PR01223.hap2	hap2	PANPAN	hifiasm	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	male	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	wild
+PR01225	PR01225.hap1	hap1	PANPAN	hifiasm	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	male	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	wild
+PR01225	PR01225.hap2	hap2	PANPAN	hifiasm	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	male	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	wild
+PR01227	PR01227.hap1	hap1	PANPAN	verkko	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	male	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	wild
+PR01227	PR01227.hap2	hap2	PANPAN	verkko	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	6	-9	#9dced9	male	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	wild
+PR01228	PR01228.hap1	hap1	PANPAN	hifiasm	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	3	30	#9dced9	male	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	wild
+PR01228	PR01228.hap2	hap2	PANPAN	hifiasm	Western chimpanzee	AFR	Western chimpanzee	#9dced9	AFR	Pan troglodytes verus	Ptv	3	30	#9dced9	male	non-HPRC coordinates are purely speculative and do not reflect geographical origins	LCL	wild
+HG00731	HG00731	hap1	HGSVC3	verkko	PUR	AMR	PUR	#993300	AMR	AMR	Hsa 	18.45	-66.1	#E41A1C	male	HGSVC3		
+HG00732	HG00732	hap1	HGSVC3	verkko	PUR	AMR	PUR	#993300	AMR	AMR	Hsa 	18.45	-66.1	#E41A1C	female	HGSVC3		
+HG00733	HG00733	hap1	HGSVC3	verkko	PUR	AMR	PUR	#993300	AMR	AMR	Hsa 	18.45	-66.1	#E41A1C	female	HGSVC3		
+HG01114	HG01114	hap1	HGSVC3	verkko	CLM	AMR	CLM	#993333	AMR	AMR	Hsa 	4.583333	-74.066667	#E41A1C	female	HGSVC3		
+HG01352	HG01352	hap1	HGSVC3	verkko	CLM	AMR	CLM	#993333	AMR	AMR	Hsa 	4.583333	-74.066667	#E41A1C	female	HGSVC3		
+HG01457	HG01457	hap1	HGSVC3	verkko	CLM	AMR	CLM	#993333	AMR	AMR	Hsa 	4.583333	-74.066667	#E41A1C	male	HGSVC3		
+HG01573	HG01573	hap1	HGSVC3	verkko	PEL	AMR	PEL	#FF3333	AMR	AMR	Hsa 	-12.041667	-77.028333	#E41A1C	female	HGSVC3		
+HG02106	HG02106	hap1	HGSVC3	verkko	PEL	AMR	PEL	#FF3333	AMR	AMR	Hsa 	-12.041667	-77.028333	#E41A1C	female	HGSVC3		
+NA19650	NA19650	hap1	HGSVC3	verkko	MXL	AMR	MXL	#CC3333	AMR	AMR	Hsa 	19.433333	-99.133333	#E41A1C	male	HGSVC3		
+HG00733	HG00733.1	hap1	HPRC	other	PUR	AMR	PUR	#993300	AMR	AMR	Hsa 	18.45	-66.1	#E41A1C	female	HPRC-yr1		
+HG00733	HG00733.2	hap2	HPRC	other	PUR	AMR	PUR	#993300	AMR	AMR	Hsa 	18.45	-66.1	#E41A1C	female	HPRC-yr1		
+HG00735	HG00735.2	hap2	HPRC	other	PUR	AMR	PUR	#993300	AMR	AMR	Hsa 	18.45	-66.1	#E41A1C	female	HPRC-yr1		
+HG00735	HG00735.1	hap1	HPRC	other	PUR	AMR	PUR	#993300	AMR	AMR	Hsa 	18.45	-66.1	#E41A1C	female	HPRC-yr1		
+HG00741	HG00741.2	hap2	HPRC	other	PUR	AMR	PUR	#993300	AMR	AMR	Hsa 	18.45	-66.1	#E41A1C	female	HPRC-yr1		
+HG00741	HG00741.1	hap1	HPRC	other	PUR	AMR	PUR	#993300	AMR	AMR	Hsa 	18.45	-66.1	#E41A1C	female	HPRC-yr1		
+HG01071	HG01071.1	hap1	HPRC	other	PUR	AMR	PUR	#993300	AMR	AMR	Hsa 	18.45	-66.1	#E41A1C	female	HPRC-yr1		
+HG01071	HG01071.2	hap2	HPRC	other	PUR	AMR	PUR	#993300	AMR	AMR	Hsa 	18.45	-66.1	#E41A1C	female	HPRC-yr1		
+HG01106	HG01106.2	hap2	HPRC	other	PUR	AMR	PUR	#993300	AMR	AMR	Hsa 	18.45	-66.1	#E41A1C	male	HPRC-yr1		
+HG01106	HG01106.1	hap1	HPRC	other	PUR	AMR	PUR	#993300	AMR	AMR	Hsa 	18.45	-66.1	#E41A1C	male	HPRC-yr1		
+HG01109	HG01109.2	hap2	HPRC	other	PUR	AMR	PUR	#993300	AMR	AMR	Hsa 	18.45	-66.1	#E41A1C	male	HPRC-yr1		
+HG01109	HG01109.1	hap1	HPRC	other	PUR	AMR	PUR	#993300	AMR	AMR	Hsa 	18.45	-66.1	#E41A1C	male	HPRC-yr1		
+HG01123	HG01123.2	hap2	HPRC	other	CLM	AMR	CLM	#993333	AMR	AMR	Hsa 	4.583333	-74.066667	#E41A1C	female	HPRC-yr1		
+HG01123	HG01123.1	hap1	HPRC	other	CLM	AMR	CLM	#993333	AMR	AMR	Hsa 	4.583333	-74.066667	#E41A1C	female	HPRC-yr1		
+HG01175	HG01175.1	hap1	HPRC	other	PUR	AMR	PUR	#993300	AMR	AMR	Hsa 	18.45	-66.1	#E41A1C	female	HPRC-yr1		
+HG01175	HG01175.2	hap2	HPRC	other	PUR	AMR	PUR	#993300	AMR	AMR	Hsa 	18.45	-66.1	#E41A1C	female	HPRC-yr1		
+HG01243	HG01243.1	hap1	HPRC	other	PUR	AMR	PUR	#993300	AMR	AMR	Hsa 	18.45	-66.1	#E41A1C	male	HPRC-yr1		
+HG01243	HG01243.2	hap2	HPRC	other	PUR	AMR	PUR	#993300	AMR	AMR	Hsa 	18.45	-66.1	#E41A1C	male	HPRC-yr1		
+HG01258	HG01258.1	hap1	HPRC	other	CLM	AMR	CLM	#993333	AMR	AMR	Hsa 	4.583333	-74.066667	#E41A1C	male	HPRC-yr1		
+HG01258	HG01258.2	hap2	HPRC	other	CLM	AMR	CLM	#993333	AMR	AMR	Hsa 	4.583333	-74.066667	#E41A1C	male	HPRC-yr1		
+HG01358	HG01358.2	hap2	HPRC	other	CLM	AMR	CLM	#993333	AMR	AMR	Hsa 	4.583333	-74.066667	#E41A1C	male	HPRC-yr1		
+HG01358	HG01358.1	hap1	HPRC	other	CLM	AMR	CLM	#993333	AMR	AMR	Hsa 	4.583333	-74.066667	#E41A1C	male	HPRC-yr1		
+HG01361	HG01361.1	hap1	HPRC	other	CLM	AMR	CLM	#993333	AMR	AMR	Hsa 	4.583333	-74.066667	#E41A1C	female	HPRC-yr1		
+HG01361	HG01361.2	hap2	HPRC	other	CLM	AMR	CLM	#993333	AMR	AMR	Hsa 	4.583333	-74.066667	#E41A1C	female	HPRC-yr1		
+HG01928	HG01928.2	hap2	HPRC	other	PEL	AMR	PEL	#FF3333	AMR	AMR	Hsa 	-12.041667	-77.028333	#E41A1C	male	HPRC-yr1		
+HG01928	HG01928.1	hap1	HPRC	other	PEL	AMR	PEL	#FF3333	AMR	AMR	Hsa 	-12.041667	-77.028333	#E41A1C	male	HPRC-yr1		
+HG01952	HG01952.2	hap2	HPRC	other	PEL	AMR	PEL	#FF3333	AMR	AMR	Hsa 	-12.041667	-77.028333	#E41A1C	male	HPRC-yr1		
+HG01952	HG01952.1	hap1	HPRC	other	PEL	AMR	PEL	#FF3333	AMR	AMR	Hsa 	-12.041667	-77.028333	#E41A1C	male	HPRC-yr1		
+HG01978	HG01978.2	hap2	HPRC	other	PEL	AMR	PEL	#FF3333	AMR	AMR	Hsa 	-12.041667	-77.028333	#E41A1C	female	HPRC-yr1		
+HG01978	HG01978.1	hap1	HPRC	other	PEL	AMR	PEL	#FF3333	AMR	AMR	Hsa 	-12.041667	-77.028333	#E41A1C	female	HPRC-yr1		
+HG02148	HG02148.2	hap2	HPRC	other	PEL	AMR	PEL	#FF3333	AMR	AMR	Hsa 	-12.041667	-77.028333	#E41A1C	female	HPRC-yr1		
+HG02148	HG02148.1	hap1	HPRC	other	PEL	AMR	PEL	#FF3333	AMR	AMR	Hsa 	-12.041667	-77.028333	#E41A1C	female	HPRC-yr1		
+HG00512	HG00512	hap1	HGSVC3	verkko	CHS	EAS	CHS	#66FF33	EAS	EAS	Hsa 	23.133333	113.266667	#CCFF66	male	HGSVC3		
+HG00513	HG00513	hap1	HGSVC3	verkko	CHS	EAS	CHS	#66FF33	EAS	EAS	Hsa 	23.133333	113.266667	#CCFF66	female	HGSVC3		
+HG00514	HG00514	hap1	HGSVC3	verkko	CHS	EAS	CHS	#66FF33	EAS	EAS	Hsa 	23.133333	113.266667	#CCFF66	female	HGSVC3		
+HG00864	HG00864	hap1	HGSVC3	verkko	CDX	EAS	CDX	#339933	EAS	EAS	Hsa 	22	100.8	#CCFF66	female	HGSVC3		
+HG01596	HG01596	hap1	HGSVC3	verkko	KHV	EAS	KHV	#99CC33	EAS	EAS	Hsa 	10.776667	106.681667	#CCFF66	male	HGSVC3		
+HG02018	HG02018	hap1	HGSVC3	verkko	KHV	EAS	KHV	#99CC33	EAS	EAS	Hsa 	10.776667	106.681667	#CCFF66	female	HGSVC3		
+HG02059	HG02059	hap1	HGSVC3	verkko	KHV	EAS	KHV	#99CC33	EAS	EAS	Hsa 	10.776667	106.681667	#CCFF66	female	HGSVC3		
+NA18534	NA18534	hap1	HGSVC3	verkko	CHB	EAS	CHB	#66CC33	EAS	EAS	Hsa 	39.913333	116.391667	#CCFF66	male	HGSVC3		
+NA18939	NA18939	hap1	HGSVC3	verkko	JPT	EAS	JPT	#006600	EAS	EAS	Hsa 	35.683333	139.683333	#CCFF66	female	HGSVC3		
+NA18989	NA18989	hap1	HGSVC3	verkko	JPT	EAS	JPT	#006600	EAS	EAS	Hsa 	35.683333	139.683333	#CCFF66	male	HGSVC3		
+HG00438	HG00438.2	hap2	HPRC	other	CHS	EAS	CHS	#66FF33	EAS	EAS	Hsa 	23.133333	113.266667	#CCFF66	female	HPRC-yr1		
+HG00438	HG00438.1	hap1	HPRC	other	CHS	EAS	CHS	#66FF33	EAS	EAS	Hsa 	23.133333	113.266667	#CCFF66	female	HPRC-yr1		
+HG005	HG005.1	hap1	HPRC	other	Chinese-GIAB	EAS	CHS	#66FF33	EAS	EAS	Hsa 	NA	NA	#CCFF66	male	HPRC-yr1		
+HG005	HG005.2	hap2	HPRC	other	Chinese-GIAB	EAS	CHS	#66FF33	EAS	EAS	Hsa 	NA	NA	#CCFF66	male	HPRC-yr1		
+HG00621	HG00621.1	hap1	HPRC	other	CHS	EAS	CHS	#66FF33	EAS	EAS	Hsa 	23.133333	113.266667	#CCFF66	male	HPRC-yr1		
+HG00621	HG00621.2	hap2	HPRC	other	CHS	EAS	CHS	#66FF33	EAS	EAS	Hsa 	23.133333	113.266667	#CCFF66	male	HPRC-yr1		
+HG00673	HG00673.2	hap2	HPRC	other	CHS	EAS	CHS	#66FF33	EAS	EAS	Hsa 	23.133333	113.266667	#CCFF66	male	HPRC-yr1		
+HG00673	HG00673.1	hap1	HPRC	other	CHS	EAS	CHS	#66FF33	EAS	EAS	Hsa 	23.133333	113.266667	#CCFF66	male	HPRC-yr1		
+HG02080	HG02080.1	hap1	HPRC	other	KHV	EAS	KHV	#99CC33	EAS	EAS	Hsa 	10.776667	106.681667	#CCFF66	female	HPRC-yr1		
+HG02080	HG02080.2	hap2	HPRC	other	KHV	EAS	KHV	#99CC33	EAS	EAS	Hsa 	10.776667	106.681667	#CCFF66	female	HPRC-yr1		
+HG00096	HG00096	hap1	HGSVC3	verkko	GBR	EUR	GBR	#66FFFF	EUR	EUR	Hsa 	52.833333	-1.891667	#66FFFF	male	HGSVC3		
+HG00171	HG00171	hap1	HGSVC3	verkko	FIN	EUR	FIN	#66CCCC	EUR	EUR	Hsa 	60.168333	24.935	#66FFFF	female	HGSVC3		
+HG00268	HG00268	hap1	HGSVC3	verkko	FIN	EUR	FIN	#66CCCC	EUR	EUR	Hsa 	60.168333	24.935	#66FFFF	female	HGSVC3		
+HG00358	HG00358	hap1	HGSVC3	verkko	FIN	EUR	FIN	#66CCCC	EUR	EUR	Hsa 	60.168333	24.935	#66FFFF	male	HGSVC3		
+HG01505	HG01505	hap1	HGSVC3	verkko	IBS	EUR	IBS	#3366CC	EUR	EUR	Hsa 	40.383333	-3.716667	#66FFFF	male	HGSVC3		
+NA12329	NA12329	hap1	HGSVC3	verkko	CEU	EUR	CEU	#3300FF	EUR	EUR	Hsa 	40.32098	-111.093731	#66FFFF	female	HGSVC3		
+NA20509	NA20509	hap1	HGSVC3	verkko	TSI	EUR	TSI	#000066	EUR	EUR	Hsa 	43.066667	12	#66FFFF	male	HGSVC3		
+NA24385	NA24385	hap1	HGSVC3	verkko	ASK	EUR	ASK	#999999	EUR	EUR	Hsa 	NA	NA	#66FFFF		HGSVC3		
+HG002	HG002.1	hap1	HPRC	other	Ashkenazim Jewish-GIAB	EUR	ASK	#999999	EUR	EUR	Hsa 	NA	NA	#66FFFF	male	HPRC-yr1		
+HG002	HG002.2	hap2	HPRC	other	Ashkenazim Jewish-GIAB	EUR	ASK	#999999	EUR	EUR	Hsa 	NA	NA	#66FFFF	male	HPRC-yr1		
+HG03492	HG03492.1	hap1	HPRC	other	PJL	SAS	PJL	#CC0066	CSA	SAS	Hsa 	31.55	74.341667	#FF33FF	male	HPRC-yr1		
+HG03492	HG03492.2	hap2	HPRC	other	PJL	SAS	PJL	#CC0066	CSA	SAS	Hsa 	31.55	74.341667	#FF33FF	male	HPRC-yr1		
+HG02492	HG02492	hap1	HGSVC3	verkko	PJL	SAS	PJL	#CC0066	SAS	SAS	Hsa 	-12.041667	-77.028333	#FF33FF	male	HGSVC3		
+HG03009	HG03009	hap1	HGSVC3	verkko	BEB	SAS	BEB	#660066	SAS	SAS	Hsa 	23.7	90.35	#FF33FF	male	HGSVC3		
+HG03683	HG03683	hap1	HGSVC3	verkko	STU	SAS	STU	#FF33FF	SAS	SAS	Hsa 	6.9	79.9	#FF33FF	female	HGSVC3		
+HG03732	HG03732	hap1	HGSVC3	verkko	ITU	SAS	ITU	#CC3366	SAS	SAS	Hsa 	17.366	78.476	#FF33FF	male	HGSVC3		
+HG03807	HG03807	hap1	HGSVC3	verkko	BEB	SAS	BEB	#660066	SAS	SAS	Hsa 	23.7	90.35	#FF33FF	female	HGSVC3		
+HG04036	HG04036	hap1	HGSVC3	verkko	STU	SAS	STU	#FF33FF	SAS	SAS	Hsa 	6.9	79.9	#FF33FF	female	HGSVC3		
+HG04217	HG04217	hap1	HGSVC3	verkko	ITU	SAS	ITU	#CC3366	SAS	SAS	Hsa 	17.366	78.476	#FF33FF	female	HGSVC3		
+NA20847	NA20847	hap1	HGSVC3	verkko	GIH	SAS	GIH	#9900CC	SAS	SAS	Hsa 	13.466667	-16.6	#FF33FF	female	HGSVC3		

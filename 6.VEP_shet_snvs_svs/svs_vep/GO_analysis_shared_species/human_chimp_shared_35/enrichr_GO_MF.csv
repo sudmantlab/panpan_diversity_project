@@ -1,0 +1,40 @@
+source,term_id,term_name,p_value,p_value_raw,fold_enrichment,term_size,intersection_size,intersection,passes_fdr,background_used
+GO_MF,"Alpha-1,4-glucosidase Activity (GO:0004558)","Alpha-1,4-glucosidase Activity (GO:0004558)",0.06385427330695366,0.008720202703732128,70.26857142857143,5,1,MGAM,TRUE,enrichr_default
+GO_MF,ADP-ribose Diphosphatase Activity (GO:0047631),ADP-ribose Diphosphatase Activity (GO:0047631),0.06385427330695366,0.010455365255350332,58.55714285714286,6,1,TRPM2,TRUE,enrichr_default
+GO_MF,Gamma-aminobutyric Acid:Sodium:Chloride Symporter Activity (GO:0005332),Gamma-aminobutyric Acid:Sodium:Chloride Symporter Activity (GO:0005332),0.06385427330695366,0.010455365255350332,58.55714285714286,6,1,SLC6A12,TRUE,enrichr_default
+GO_MF,Telethonin Binding (GO:0031433),Telethonin Binding (GO:0031433),0.06385427330695366,0.012187578068480686,50.19183673469387,7,1,TTN,TRUE,enrichr_default
+GO_MF,L-amino-acid N-acetyltransferase Activity (GO:0140085),L-amino-acid N-acetyltransferase Activity (GO:0140085),0.06385427330695366,0.013916845835577172,43.917857142857144,8,1,NAT8,TRUE,enrichr_default
+GO_MF,Alpha-glucosidase Activity (GO:0090599),Alpha-glucosidase Activity (GO:0090599),0.06385427330695366,0.013916845835577172,43.917857142857144,8,1,MGAM,TRUE,enrichr_default
+GO_MF,Gamma-aminobutyric Acid Transmembrane Transporter Activity (GO:0015185),Gamma-aminobutyric Acid Transmembrane Transporter Activity (GO:0015185),0.06385427330695366,0.015643173290839224,39.03809523809524,9,1,SLC6A12,TRUE,enrichr_default
+GO_MF,Cytidine Deaminase Activity (GO:0004126),Cytidine Deaminase Activity (GO:0004126),0.06385427330695366,0.02080456145623845,29.27857142857143,12,1,APOBEC3A,TRUE,enrichr_default
+GO_MF,Intracellularly Ligand-Gated Monoatomic Ion Channel Activity (GO:0005217),Intracellularly Ligand-Gated Monoatomic Ion Channel Activity (GO:0005217),0.06385427330695366,0.022519175374063307,27.026373626373626,13,1,TRPM2,TRUE,enrichr_default
+GO_MF,Inhibitory MHC Class I Receptor Activity (GO:0032396),Inhibitory MHC Class I Receptor Activity (GO:0032396),0.06385427330695366,0.022519175374063307,27.026373626373626,13,1,LILRA6,TRUE,enrichr_default
+GO_MF,Monocarboxylate:sodium Symporter Activity (GO:0140161),Monocarboxylate:sodium Symporter Activity (GO:0140161),0.06385427330695366,0.02423087286505986,25.095918367346936,14,1,SLC6A12,TRUE,enrichr_default
+GO_MF,Muscle Alpha-Actinin Binding (GO:0051371),Muscle Alpha-Actinin Binding (GO:0051371),0.06385427330695366,0.02423087286505986,25.095918367346936,14,1,TTN,TRUE,enrichr_default
+GO_MF,Sodium:chloride Symporter Activity (GO:0015378),Sodium:chloride Symporter Activity (GO:0015378),0.06385427330695366,0.02423087286505986,25.095918367346936,14,1,SLC6A12,TRUE,enrichr_default
+GO_MF,MHC Class I Receptor Activity (GO:0032393),MHC Class I Receptor Activity (GO:0032393),0.06385427330695366,0.025939658708656763,23.42285714285714,15,1,LILRA6,TRUE,enrichr_default
+GO_MF,Intracellularly Gated Calcium Channel Activity (GO:0015278),Intracellularly Gated Calcium Channel Activity (GO:0015278),0.06385427330695366,0.027645537688029766,21.958928571428572,16,1,TRPM2,TRUE,enrichr_default
+GO_MF,N-acetyltransferase Activity (GO:0008080),N-acetyltransferase Activity (GO:0008080),0.06385427330695366,0.027645537688029766,21.958928571428572,16,1,NAT8,TRUE,enrichr_default
+GO_MF,Ligand-gated Sodium Channel Activity (GO:0015280),Ligand-gated Sodium Channel Activity (GO:0015280),0.06385427330695366,0.031048594155870846,19.51904761904762,18,1,SCNN1D,TRUE,enrichr_default
+GO_MF,"Hydrolase Act, Acting on Carbon-Nitrogen (But Not Peptide) Bonds, in Cyclic Amidines (GO:0016814)","Hydrolase Act, Acting on Carbon-Nitrogen (But Not Peptide) Bonds, in Cyclic Amidines (GO:0016814)",0.06385427330695366,0.031048594155870846,19.51904761904762,18,1,APOBEC3A,TRUE,enrichr_default
+GO_MF,Protein N-acetyltransferase Activity (GO:0034212),Protein N-acetyltransferase Activity (GO:0034212),0.06385427330695366,0.03274578118305316,18.49172932330827,19,1,NAT8,TRUE,enrichr_default
+GO_MF,Ligand-gated Calcium Channel Activity (GO:0099604),Ligand-gated Calcium Channel Activity (GO:0099604),0.06385427330695366,0.03274578118305316,18.49172932330827,19,1,TRPM2,TRUE,enrichr_default
+GO_MF,Amino Acid:Sodium Symporter Activity (GO:0005283),Amino Acid:Sodium Symporter Activity (GO:0005283),0.06396014935604898,0.03444008042248791,17.56714285714286,20,1,SLC6A12,TRUE,enrichr_default
+GO_MF,Actinin Binding (GO:0042805),Actinin Binding (GO:0042805),0.06434349749753862,0.037820034565529,15.970129870129869,22,1,TTN,TRUE,enrichr_default
+GO_MF,Alpha-actinin Binding (GO:0051393),Alpha-actinin Binding (GO:0051393),0.06434349749753862,0.03950569896166727,15.275776397515527,23,1,TTN,TRUE,enrichr_default
+GO_MF,C-C Chemokine Receptor Activity (GO:0016493),C-C Chemokine Receptor Activity (GO:0016493),0.06434349749753862,0.04454549826752674,13.513186813186813,26,1,MRGPRX1,TRUE,enrichr_default
+GO_MF,Acetyltransferase Activity (GO:0016407),Acetyltransferase Activity (GO:0016407),0.06434349749753862,0.04454549826752674,13.513186813186813,26,1,NAT8,TRUE,enrichr_default
+GO_MF,Protein-cysteine S-palmitoyltransferase Activity (GO:0019706),Protein-cysteine S-palmitoyltransferase Activity (GO:0019706),0.06434349749753862,0.04454549826752674,13.513186813186813,26,1,ZDHHC11,TRUE,enrichr_default
+GO_MF,Deaminase Activity (GO:0019239),Deaminase Activity (GO:0019239),0.06434349749753862,0.04454549826752674,13.513186813186813,26,1,APOBEC3A,TRUE,enrichr_default
+GO_MF,Palmitoyltransferase Activity (GO:0016409),Palmitoyltransferase Activity (GO:0016409),0.06648055632915549,0.04789108345945227,12.547959183673468,28,1,ZDHHC11,TRUE,enrichr_default
+GO_MF,Chemokine Receptor Activity (GO:0004950),Chemokine Receptor Activity (GO:0004950),0.06648055632915549,0.05288813385211744,11.333640552995393,31,1,MRGPRX1,TRUE,enrichr_default
+GO_MF,FAD Binding (GO:0071949),FAD Binding (GO:0071949),0.06648055632915549,0.05454814878289681,10.979464285714286,32,1,SDHA,TRUE,enrichr_default
+GO_MF,N-acyltransferase Activity (GO:0016410),N-acyltransferase Activity (GO:0016410),0.06648055632915549,0.05454814878289681,10.979464285714286,32,1,NAT8,TRUE,enrichr_default
+GO_MF,Protein-lysine-acetyltransferase Activity (GO:0061733),Protein-lysine-acetyltransferase Activity (GO:0061733),0.06648055632915549,0.05454814878289681,10.979464285714286,32,1,NAT8,TRUE,enrichr_default
+GO_MF,Histone Reader Activity (GO:0140566),Histone Reader Activity (GO:0140566),0.07654834519477302,0.06772690632728534,8.78357142857143,40,1,BRD9,TRUE,enrichr_default
+GO_MF,Nucleosomal DNA Binding (GO:0031492),Nucleosomal DNA Binding (GO:0031492),0.07654834519477302,0.06936165042401604,8.569337979094076,41,1,H3Y2,TRUE,enrichr_default
+GO_MF,Sodium Channel Activity (GO:0005272),Sodium Channel Activity (GO:0005272),0.07654834519477302,0.07099360978400186,8.36530612244898,42,1,SCNN1D,TRUE,enrichr_default
+GO_MF,Monoatomic Cation Transmembrane Transporter Activity (GO:0008324),Monoatomic Cation Transmembrane Transporter Activity (GO:0008324),0.07654834519477302,0.07262278903093851,8.170764119601328,43,1,TRPM2,TRUE,enrichr_default
+GO_MF,Sodium Ion Transmembrane Transporter Activity (GO:0015081),Sodium Ion Transmembrane Transporter Activity (GO:0015081),0.07654834519477302,0.07262278903093851,8.170764119601328,43,1,SCNN1D,TRUE,enrichr_default
+GO_MF,Monocarboxylic Acid Transmembrane Transporter Activity (GO:0008028),Monocarboxylic Acid Transmembrane Transporter Activity (GO:0008028),0.07953299961522406,0.07749369193278241,7.637888198757763,46,1,SLC6A12,TRUE,enrichr_default
+GO_MF,Flavin Adenine Dinucleotide Binding (GO:0050660),Flavin Adenine Dinucleotide Binding (GO:0050660),0.09672997032273796,0.09672997032273796,6.057635467980296,58,1,SDHA,TRUE,enrichr_default

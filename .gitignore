@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Files still exceeding GitHub's 100MB per-file limit even after compression
+# (kept local only)
+6.VEP_shet_snvs_svs/snvs_vep/long_only/snv_impact_long.tsv.gz
+7.ARGs/output_processing_scripts/humans/input_tables/chr4-wide_metrics_annotatedbyPop.csv.gz
+7.ARGs/output_processing_scripts/humans/input_tables/genome-wide_metrics_annotatedbyPop_SR_A_MASK_only.csv.zip
+8.GYP_diversity_structure/singer_GYP_humans579_+ACBdantu_pops/genome-wide_metrics_annotatedbyPop.csv.gz

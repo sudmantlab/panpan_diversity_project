@@ -1,0 +1,40 @@
+chromosome,start,end,population,genes,genes_renamed,descriptions,gene_biotypes,feature_annotation,avg_tmrca_myr,avg_pairwise_myr,tr_overlap_percent,sedef_overlap_percent,censat_overlap_percent,rmsk_overlap_percent,midpoint,row_index
+chr8_mat_hsa10,13939000,13940000,Bonobo,ADARB2,,adenosine deaminase RNA specific B2 (inactive),protein_coding,.,34.77278667,19.32192561,0,0,0,0,13939500,1260480
+chr18_pat_hsa16,99475000,99476000,Bonobo,SPATA33,,spermatogenesis associated 33,protein_coding,"Alu#SINE/Alu,AluYg6#SINE/Alu",34.61637787,17.66612809,0,0,0,703,99475500,2395482
+chr6_mat_hsa7,193017000,193018000,Bonobo,LOC100984998,,uncharacterized LOC100984998,lncRNA,.,26.55587138,16.81514506,0,0,0,0,193017500,1108851
+chr19_pat_hsa17,9457000,9458000,Bonobo,RPA1,,replication protein A1,protein_coding,.,25.98110997,15.33877184,0,0,0,0,9457500,2398680
+chr15_mat_hsa14,107603000,107604000,Bonobo,LOC100987802,IGHV3-30,immunoglobulin heavy variable 3-30-like,V_segment,"L1ME1#LINE/L1,L1P2#LINE/L1,LTR25-int#LTR/ERV1,MER89-int#LTR/ERV1,SEDEF_SD",23.73783189,14.51409365,0,200,0,341.8,107603500,2165678
+chr17_mat_hsa18,96889000,96890000,Bonobo,ATP9B,,ATPase phospholipid transporting 9B (putative),protein_coding,L1MA4#LINE/L1,22.62553222,14.26743956,0,0,0,52.9,96889500,2315410
+chr18_pat_hsa16,99933000,99934000,Bonobo,LOC129398364,,uncharacterized LOC129398364,lncRNA,"L2d2#LINE/L2,SEDEF_SD",24.64516748,14.23818795,0,1200,0,100,99933500,2395940
+chr5_pat_hsa6,177162000,177163000,Bonobo,ARID1B,,AT-rich interaction domain 1B,protein_coding,TR,26.80511382,13.81255313,1.1,0,0,0,177162500,942878
+chr5_pat_hsa6,190705000,190706000,Bonobo,LOC117980779,,uncharacterized LOC117980779,protein_coding,.,23.28313843,13.71263797,0,0,0,0,190705500,956376
+chr9_pat_hsa11,6631000,6632000,Bonobo,LOC134731187,,uncharacterized LOC134731187,lncRNA,"SEDEF_SD,TR",24.24926543,13.62983212,1.7,700,0,0,6631500,1392334
+chr20_pat_hsa19,4742000,4743000,Bonobo,SHC2,,SHC adaptor protein 2,protein_coding,.,19.57990513,13.05470543,0,0,0,0,4742500,2473123
+chr8_mat_hsa10,139269000,139270000,Bonobo,DOCK1,,dedicator of cytokinesis 1,protein_coding,.,19.48652855,12.76423472,0,0,0,0,139269500,1380365
+chr15_mat_hsa14,107554000,107555000,Bonobo,LOC117975702,IGHV3-30,immunoglobulin heavy variable 3-30-like,V_segment,"(CCTGACA)n#Simple_repeat,L1M3#LINE/L1,L1MC4#LINE/L1,L1P2#LINE/L1,LTR25-int#LTR/ERV1,MER89-int#LTR/ERV1,SEDEF_SD",21.43256137,12.67963541,0,100,0,294.6,107554500,2165629
+chr9_pat_hsa11,6539000,6540000,Bonobo,LOC134731186,,uncharacterized LOC134731186,lncRNA,"SEDEF_SD,TR",20.71244867,12.48454123,1.8,888.2,0,0,6539500,1392242
+chr9_pat_hsa11,6582000,6583000,Bonobo,LOC129393326,SSU72L2,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2,protein_coding,"SEDEF_SD,TR",18.60742099,11.69933963,1.8,593.9,0,0,6582500,1392285
+chr7_pat_hsa8,18535000,18536000,Bonobo,CSMD1,,CUB and Sushi multiple domains 1,protein_coding,.,20.96928605,11.59391667,0,0,0,0,18535500,1116593
+chr17_mat_hsa18,97986000,97987000,Bonobo,LOC129394588,TUBB8B,tubulin beta 8B-like,protein_coding,"L1ME4b#LINE/L1,PRIMA41-int#LTR/ERV1,SEDEF_SD",19.40464302,11.57259119,0,2560.8,0,111.8,97986500,2316463
+chr9_pat_hsa11,6766000,6767000,Bonobo,LOC129393325,SSU72L2,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like,protein_coding,SEDEF_SD,20.66571059,11.41953239,0,800,0,0,6766500,1392469
+chr11_mat_hsa9,1811000,1812000,Bonobo,DPH7,,diphthamide biosynthesis 7,protein_coding,.,21.76922283,11.32016835,0,0,0,0,1811500,1646858
+chr18_pat_hsa16,97907000,97908000,Bonobo,ZNF469,,zinc finger protein 469,protein_coding,L1MEd#LINE/L1,17.90396169,11.14629332,0,0,0,100,97907500,2393914
+chr21_mat_hsa20,865000,866000,Bonobo,LOC129394899,PGM5,phosphoglucomutase-like protein 5,protein_coding,"SEDEF_SD,TR",16.64110462,11.14205728,1.1,4200,0,0,865500,2524448
+chr9_pat_hsa11,6608000,6609000,Bonobo,LOC117978393,SSU72,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like,protein_coding,SEDEF_SD,17.48823112,11.02751894,0,800,0,0,6608500,1392311
+chr10_mat_hsa12,5908000,5909000,Bonobo,CCDC77,,coiled-coil domain containing 77,protein_coding,L1MB2#LINE/L1,17.99389923,10.96943844,0,0,0,100,5908500,1516029
+chr9_pat_hsa11,6792000,6793000,Bonobo,LOC129393404,SSU72L2,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like,protein_coding,SEDEF_SD,17.66616421,10.94371774,0,1100,0,0,6792500,1392495
+chr2_mat_hsa3,195856000,195857000,Bonobo,IQCG,,IQ motif containing G,protein_coding,.,21.79570734,10.73626022,0,0,0,0,195856500,420620
+chr17_mat_hsa18,97365000,97366000,Bonobo,CTDP1,,CTD phosphatase subunit 1,protein_coding,L1M4b#LINE/L1,18.40321684,10.70059829,0,0,0,100,97365500,2315842
+chr1_pat_hsa1,214834000,214835000,Bonobo,LOC129393906,PRAMEF1,PRAME family member 1-like,protein_coding,SEDEF_SD,18.02956705,10.66228682,0,1100,0,0,214834500,213635
+chr7_pat_hsa8,15880000,15881000,Bonobo,DLGAP2,,DLG associated protein 2,protein_coding,.,19.92064379,10.64731892,0,0,0,0,15880500,1113953
+chr11_mat_hsa9,1565000,1566000,Bonobo,EHMT1,,euchromatic histone lysine methyltransferase 1,protein_coding,.,21.09922019,10.59522473,0,0,0,0,1565500,1646612
+chr9_pat_hsa11,6829000,6830000,Bonobo,LOC129393322,SSU72L2,RNA polymerase II subunit A C-terminal domain phosphatase SSU72 like protein 2-like,protein_coding,SEDEF_SD,18.16379272,10.5891428,0,300,0,0,6829500,1392532
+chr14_pat_hsa13,115191000,115192000,Bonobo,GRK1,,G protein-coupled receptor kinase 1,protein_coding,.,22.93331009,10.50086237,0,0,0,0,115191500,2078538
+chr20_pat_hsa19,62037000,62038000,Bonobo,LOC129394818,RFPL4A,ret finger protein-like 4A,protein_coding,SEDEF_SD,22.15091666,10.48008494,0,800,0,0,62037500,2520647
+chr2_mat_hsa3,195525000,195526000,Bonobo,LOC100975254,SDHA,succinate dehydrogenase [ubiquinone] flavoprotein subunit%2C mitochondrial-like,protein_coding,"SEDEF_SD,TR",19.07354124,10.24963206,1.6,157.4,0,0,195525500,420289
+chr7_pat_hsa8,17081000,17082000,Bonobo,LOC134730949,,uncharacterized LOC134730949,lncRNA,SEDEF_SD,17.86542287,10.18352484,0,100,0,0,17081500,1115154
+chr9_pat_hsa11,9243000,9244000,Bonobo,LOC100974335,OR6A2,olfactory receptor 6A2,protein_coding,.,17.58824343,10.09635642,0,0,0,0,9243500,1394946
+chr1_pat_hsa1,2801000,2802000,Bonobo,SMYD3,,SET and MYND domain containing 3,protein_coding,.,17.1061496,10.07787633,0,0,0,0,2801500,2787
+chr8_mat_hsa10,67383000,67384000,Bonobo,PCDH15,,protocadherin related 15,protein_coding,TR,18.05204556,10.0339492,3,0,0,0,67383500,1308485
+chr23_pat_hsa22,56703000,56704000,Bonobo,TBC1D22A,,TBC1 domain family member 22A,protein_coding,.,19.64013401,9.788444867,0,0,0,0,56703500,2634293
+chr1_pat_hsa1,214780000,214781000,Bonobo,LOC129393928,PRAMEF11,PRAME family member 11-like,protein_coding,"SEDEF_SD,TR",15.79513121,9.670433835,3.4,1600,0,0,214780500,213581

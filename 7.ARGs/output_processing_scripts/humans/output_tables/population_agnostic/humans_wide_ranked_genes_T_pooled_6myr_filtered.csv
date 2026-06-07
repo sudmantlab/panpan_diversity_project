@@ -1,0 +1,106 @@
+chromosome,start,end,T_pooled_myr,genes,descriptions,gene_biotypes,SRA_overlap_percent,tr_overlap_percent
+chr1,245398000,245399000,22.64447458,SMYD3,SET and MYND domain containing 3,protein_coding,100,1.8
+chr22,18549000,18550000,21.20716569,MICAL3,microtubule associated monooxygenase%2C calponin and LIM domain containing 3,protein_coding,86.4,2.7
+chr10,1239000,1240000,21.05392507,ADARB2,adenosine deaminase RNA specific B2 (inactive),protein_coding,97,0
+chr10,134067000,134068000,20.74136465,ADGRA1,adhesion G protein-coupled receptor A1,protein_coding,21.7,0
+chr5,1326000,1327000,19.84564352,SLC6A3,solute carrier family 6 member 3,protein_coding,48.1,0
+chr18,79453000,79454000,18.34999213,ATP9B,ATPase phospholipid transporting 9B (putative),protein_coding,99.2,3
+chr17,836000,837000,17.28822612,NXN,nucleoredoxin,protein_coding,58.3,4.2
+chr19,16062000,16063000,17.12683849,CYP4F11,cytochrome P450 family 4 subfamily F member 11,protein_coding,74.2,1.1
+chr8,142622000,142623000,16.35015746,MROH5,maestro heat like repeat family member 5,protein_coding,60.2,2
+chr10,317000,318000,16.29754009,DIP2C,disco interacting protein 2 homolog C,protein_coding,86.6,2.2
+chr16,493000,494000,15.7297223,LOC124907820,RAB11 family interacting protein 3,protein_coding,81.9,3.6
+chr16,493000,494000,15.7297223,RAB11FIP3,RAB11 family interacting protein 3,protein_coding,81.9,3.6
+chr14,94160000,94161000,15.67748317,EML1,EMAP like 1,protein_coding,20.7,0
+chr6,31209000,31210000,15.56549676,HLA-B,major histocompatibility complex%2C class I%2C B,protein_coding,82.7,1.2
+chr9,149972000,149973000,15.48698567,EHMT1,euchromatic histone lysine methyltransferase 1,protein_coding,98.8,2
+chr4,37554000,37555000,14.52735311,C4orf19,chromosome 4 open reading frame 19,protein_coding,21.1,1.5
+chr10,133310000,133311000,14.47882553,LRRC27,leucine rich repeat containing 27,protein_coding,77,5
+chr13,13638000,13639000,13.54616526,GGT4P,gamma-glutamyltransferase 4 pseudogene,pseudogene,46.8,0
+chr6,29804000,29805000,13.50203646,HCG4P5,HLA complex group 4 pseudogene 5,pseudogene,81.1,2.8
+chr12,132198000,132199000,13.47886047,NOC4L,nucleolar complex associated 4 homolog,protein_coding,25.3,2.2
+chr6,31136000,31137000,13.4283428,HLA-C,major histocompatibility complex%2C class I%2C C,protein_coding,100,3.4
+chr16,95733000,95734000,13.16357381,CHMP1A,charged multivesicular body protein 1A,protein_coding,60.1,1.1
+chr17,372000,373000,12.69016744,RFLNB,refilin B,protein_coding,50.2,1.1
+chr10,127842000,127843000,12.49419808,DOCK1,dedicator of cytokinesis 1,protein_coding,100,0
+chr7,159822000,159823000,10.92921089,LOC124906653,basic proline-rich protein-like,pseudogene,51.6,0
+chr15,23499000,23500000,10.82205633,ATP10A,ATPase phospholipid transporting 10A (putative),protein_coding,89.5,0
+chr6,29797000,29798000,10.80932255,HLA-U,"major histocompatibility complex, class I, U (pseudogene)",pseudogene,91.3,2.1
+chr6,160958000,160959000,10.11603405,HNRNPH1P1,heterogeneous nuclear ribonucleoprotein H1 pseudogene 1,pseudogene,77.7,0
+chr6,160958000,160959000,10.11603405,SOD2,superoxide dismutase 2,protein_coding,77.7,0
+chr6,29794000,29795000,9.962185746,HLA-K,"major histocompatibility complex, class I, K (pseudogene)",pseudogene,100,1.6
+chr19,54680000,54681000,9.780928037,ZNF175,zinc finger protein 175,protein_coding,99,3.1
+chr12,132810000,132811000,9.684803891,ANKLE2,ankyrin repeat and LEM domain containing 2,protein_coding,54.1,0
+chr16,94803000,94804000,9.544604374,PIEZO1,piezo type mechanosensitive ion channel component 1 (Er blood group),protein_coding,27.9,1.1
+chr17,30839000,30840000,9.494431536,SSH2,slingshot protein phosphatase 2,protein_coding,26.2,1.2
+chr7,73427000,73428000,9.445447434,CALN1,calneuron 1,protein_coding,26.2,1.8
+chr21,44301000,44302000,9.33632612,PCBP3,poly(rC) binding protein 3,protein_coding,100,2
+chr7,4089000,4090000,9.334052216,SDK1,sidekick cell adhesion molecule 1,protein_coding,100,0
+chr6,29809000,29810000,9.250907705,HLA-A,major histocompatibility complex%2C class I%2C A,protein_coding,68.9,0
+chr11,4299000,4300000,9.211706895,SSU72L5,SSU72 like 5,protein_coding,56.1,2.3
+chr6,29819000,29820000,9.148237472,HCG4P4,HLA complex group 4 pseudogene 4,pseudogene,71.2,2.9
+chr6,29819000,29820000,9.148237472,HLA-W,"major histocompatibility complex, class I, W (pseudogene)",pseudogene,71.2,2.9
+chr17,67676000,67677000,9.071140856,PRKCA,protein kinase C alpha,protein_coding,100,1.5
+chr7,159729000,159730000,9.067033124,PTPRN2,protein tyrosine phosphatase receptor type N2,protein_coding,28.5,0
+chr6,31146000,31147000,8.895313164,RPL3P2,ribosomal protein L3 pseudogene 2,pseudogene,89.2,2.9
+chr16,95938000,95939000,8.831817865,SPIRE2,spire type actin nucleation factor 2,protein_coding,60.8,1.6
+chr6,34506000,34507000,8.804922518,ILRUN,inflammation and lipid regulator with UBA-like and NBR1-like domains,protein_coding,98.5,4.2
+chr13,13655000,13656000,8.429916839,LOC101060145,glutathione hydrolase light chain 1-like,pseudogene,73.9,1.5
+chr6,31141000,31142000,8.405258033,USP8P1,USP8 pseudogene 1,pseudogene,99.8,1.1
+chr10,134433000,134434000,8.262842549,OR7M1P,olfactory receptor family 7 subfamily M member 1 pseudogene,pseudogene,98.2,0
+chr6,32529000,32530000,8.223405128,MTCO3P1,MT-CO3 pseudogene 1,pseudogene,100,0
+chr17,3760000,3761000,8.216920049,CAMKK1,calcium/calmodulin dependent protein kinase kinase 1,protein_coding,79.9,1.2
+chr16,965000,966000,8.192265109,LMF1,lipase maturation factor 1,protein_coding,80,1.5
+chr8,14817000,14818000,8.103067311,SGCZ,sarcoglycan zeta,protein_coding,27.9,2.6
+chr14,99196000,99197000,8.101838898,AHNAK2,AHNAK nucleoprotein 2,protein_coding,61.7,0
+chr21,38571000,38572000,8.052033127,DSCAM,DS cell adhesion molecule,protein_coding,58.9,0
+chr20,65769000,65770000,7.978483912,UCKL1,uridine-cytidine kinase 1 like 1,protein_coding,34.3,3.9
+chr6,30885000,30886000,7.886423785,MUC22,mucin 22,protein_coding,64.3,2.7
+chr6,31225000,31226000,7.684584458,RNU6-283P,"RNA, U6 small nuclear 283, pseudogene",pseudogene,100,0
+chr3,111295000,111296000,7.669278391,CIP2A,cellular inhibitor of PP2A,protein_coding,34.4,4.3
+chr17,82161000,82162000,7.630392414,SLC38A10,solute carrier family 38 member 10,protein_coding,38.3,0
+chr11,36427000,36428000,7.608613888,COMMD9,COMM domain containing 9,protein_coding,26.8,3
+chr6,31269000,31270000,7.607916021,MICA,MHC class I polypeptide-related sequence A,protein_coding,79.5,0
+chr5,7239000,7240000,7.58228723,LOC442132,golgin A6 family-like 1 pseudogene,pseudogene,26.5,0
+chr6,32908000,32909000,7.466183985,HLA-DPB1,major histocompatibility complex%2C class II%2C DP beta 1,protein_coding,99.8,0
+chr6,31236000,31237000,7.407206001,ZDHHC20P2,ZDHHC20 pseudogene 2,pseudogene,100,0
+chr6,31892000,31893000,7.341468319,CYP21A2,cytochrome P450 family 21 subfamily A member 2,protein_coding,46.6,1.8
+chr13,113036000,113037000,7.337179609,GAS6,growth arrest specific 6,protein_coding,70.1,0
+chr13,113036000,113037000,7.337179609,GAS6-AS1,GAS6 antisense RNA 1,lncRNA,70.1,0
+chr6,31233000,31234000,7.143028284,FGFR3P1,fibroblast growth factor receptor 3 pseudogene 1,pseudogene,96.1,2
+chr1,247829000,247830000,7.022714811,OR2T1,olfactory receptor family 2 subfamily T member 1,protein_coding,38.4,3.4
+chr19,54452000,54453000,6.902886909,ETFB,electron transfer flavoprotein subunit beta,protein_coding,98.6,1.7
+chr16,95703000,95704000,6.901821464,DPEP1,dipeptidase 1,protein_coding,53.1,0
+chr11,1359000,1360000,6.788951485,TOLLIP,toll interacting protein,protein_coding,37.7,3.9
+chr6,29754000,29755000,6.781726012,HLA-H,"major histocompatibility complex, class I, H (pseudogene)",pseudogene,77,0
+chr9,149607000,149608000,6.75627253,EXD3,exonuclease 3'-5' domain containing 3,protein_coding,24.2,0
+chr6,29738000,29739000,6.724218654,LOC353009,HLA complex group 26 pseudogene 3,pseudogene,100,0
+chr14,99525000,99526000,6.689173882,BRF1,BRF1 RNA polymerase III transcription initiation factor subunit,protein_coding,94.4,1.4
+chr13,13643000,13644000,6.647893378,LOC124907100,putative glutathione hydrolase 3 proenzyme,protein_coding,88.8,1.1
+chr6,32565000,32566000,6.613687606,HLA-DQA2,major histocompatibility complex%2C class II%2C DQ alpha 2,protein_coding,73.7,1.3
+chr6,32218000,32219000,6.584848971,TSBP1,testis expressed basic protein 1,protein_coding,100,1.3
+chr6,29752000,29753000,6.574705399,HCG4P7,HLA complex group 4 pseudogene 7,pseudogene,100,1.1
+chr17,215000,216000,6.572627186,RPH3AL,rabphilin 3A like (without C2 domains),protein_coding,49.3,0
+chr18,76623000,76624000,6.566994063,ZNF516,zinc finger protein 516,protein_coding,89.5,0
+chr6,31237000,31238000,6.541630163,HLA-S,"major histocompatibility complex, class I, S (pseudogene)",pseudogene,99.9,3.5
+chr11,3696000,3697000,6.535386274,ART1,ADP-ribosyltransferase 1,protein_coding,58.8,0
+chr15,2176000,2177000,6.528528483,LOC124907536,protein FAM104B-like,protein_coding,21.9,4.7
+chr10,60737000,60738000,6.524728399,CCDC6,coiled-coil domain containing 6,protein_coding,67.6,1.5
+chr5,1181000,1182000,6.499905477,TERT,telomerase reverse transcriptase,protein_coding,80,0
+chr21,44674000,44675000,6.499412617,YBEY,ybeY metalloendoribonuclease,protein_coding,97.8,4.5
+chr19,57937000,57938000,6.441447313,KIR2DS4,killer cell immunoglobulin like receptor%2C two Ig domains and short cytoplasmic tail 4,protein_coding,24.7,1.5
+chr9,42933000,42934000,6.417846203,GXYLT1P6,glucoside xylosyltransferase 1 pseudogene 6,pseudogene,23.2,0
+chr12,133148000,133149000,6.368082999,ZNF140,zinc finger protein 140,protein_coding,64.4,1.9
+chr6,29672000,29673000,6.345751946,HLA-P,"major histocompatibility complex, class I, P (pseudogene)",pseudogene,72.3,1.5
+chr6,31221000,31222000,6.343299484,DHFRP2,dihydrofolate reductase pseudogene 2,pseudogene,98.9,1.5
+chr3,954000,955000,6.298207271,CNTN6,contactin 6,protein_coding,100,0
+chr10,125389000,125390000,6.293855184,LHPP,phospholysine phosphohistidine inorganic pyrophosphate phosphatase,protein_coding,100,0
+chr6,29764000,29765000,6.21009334,HLA-T,"major histocompatibility complex, class I, T (pseudogene)",pseudogene,100,0
+chr1,246560000,246561000,6.169107277,ZNF124,zinc finger protein 124,protein_coding,48,2.2
+chr19,57300000,57301000,6.134378864,LILRB3,leukocyte immunoglobulin like receptor B3,protein_coding,34.9,1.2
+chr10,46034000,46035000,6.120157369,RSU1P2,Ras suppressor protein 1 pseudogene 2,pseudogene,100,1.8
+chr1,247880000,247881000,6.114535039,OR2T7,olfactory receptor family 2 subfamily T member 7,protein_coding,35.6,0
+chr4,188582000,188583000,6.106977083,SNX25,sorting nexin 25,protein_coding,96.4,3
+chr22,47121000,47122000,6.055408941,GRAMD4,GRAM domain containing 4,protein_coding,68.5,3.3
+chr6,31347000,31348000,6.02121458,MICB,MHC class I polypeptide-related sequence B,protein_coding,36.5,2.1
+chr5,385000,386000,6.014770678,AHRR,aryl hydrocarbon receptor repressor,protein_coding,36.4,0
