@@ -2,11 +2,8 @@
 
 ##  Illumina Short-read sequencing (n=30)
 
-##### Illumina 4x coverage for Novogene Library Preparation + Sequencing in 1 Novaseq lane
+##### Chimpanzees sequenced at 4x coverage in 1 Novaseq lane
 
-![image](https://user-images.githubusercontent.com/42983167/195955307-5833576e-117a-4d8f-ae2a-f19bacb97e39.png)
-
-Chimpanzees sequenced
 
 ![image](https://user-images.githubusercontent.com/42983167/195955631-c60f53f8-5fe1-4fcb-88fc-f635dd6eddb9.png)
 
