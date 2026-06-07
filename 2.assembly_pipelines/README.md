@@ -1,13 +1,5 @@
 # Data Processing
 
-NOTE:
-BONOBO PR00251 is the same individual as T2T mPanPan1
-CHIMPANZEE AG18354_5 is the same individual as T2T mPanTro3
-
-
-### STATUS
-
-#### Current Status
 
 | Name     | Data                                        |  STATUS |
 | -------- | ------------------------------------------- | ---------------------------------------------- |
@@ -44,6 +36,7 @@ CHIMPANZEE AG18354_5 is the same individual as T2T mPanTro3
 
 
 ### COMPLETED (PRIMARY AND PHASED) ASSEMBLIES (example with a sample PR01227)
+
 to run assembly pipeline with hifiasm only:
 ```
 snakemake -prj40  --rerun-incomplete --keep-going --use-conda --conda-frontend mamba output/genomescope2/PR01227/joana_settings_shortcut/chimpPR01227/linear_plot.png output/merqury/PR01227/joana_settings_shortcut/no_opts/PR01227.{haplotig,consensus} output/gt-seqstat/PR01227/joana_settings_shortcut/no_opts/PR01227.p_ctg.stats

@@ -1,15 +1,17 @@
 # Sample Information
 
-##  Illumina Short-read sequencing (n=30)
+### ILLUMINA LOW COVERAGE RE-SEQUENCING
 
 ##### Chimpanzees sequenced at 4x coverage in 1 Novaseq lane
 
+The samples below were used to select a group of diverse and geographically representative individuals of chimpanzees for PACBIO. 
+
+They were also used downstream for COSIGT analysis to account for ability to genotype structures seen in long-read counterpart into the short-read sample. 
 
 ![image](https://user-images.githubusercontent.com/42983167/195955631-c60f53f8-5fe1-4fcb-88fc-f635dd6eddb9.png)
 
-
-### ILLUMINA LOW COVERAGE RE-SEQUENCING - The samples below were used to select a group of diverse and geographically representative individuals of chimpanzee and bonobos for PACBIO. They were also used downstream for COSIGT analysis to account for ability to genotype structures seen in long-read counterpart into the short-read sample. 
-
+ 
+ 
 | ind | Species | Subspecies | Population | Birth Type | Sex | Cell | Local ID | short-read low coverage WGS | PACBIO |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | PR00052 | Pan troglodytes | P. troglodytes verus | western | Captive | female | Fibroblast | 6059 | TRUE | FALSE |
@@ -37,12 +39,6 @@
 
 
 # PANPAN 
-
-NOTES: 
-
-  * BONOBO PR00251 is the same individual as T2T mPanPan1
-
-  * CHIMPANZEE AG18354_5 is the same individual as T2T mPanTro3
 
 
 ## Phase I - following samples were sequenced for PacBio Sequel II and may or may not have additional HiC and ONT 
@@ -88,7 +84,15 @@ NOTES:
 | AG16618_12| Pan troglodytes | P. troglodytes verus        | western        | TBD        | male| B-Lymphocyte | TBD      | FALSE                       | TRUE   | TRUE| FALSE|
 | AG06939_13| Pan troglodytes | P. troglodytes verus        | western        | TBD        | male | Fibroblasts  | TBD      | FALSE                       | TRUE   | TRUE| FALSE|
 
+
+
+NOTES: 
+
 * *AG18352_2 was removed. Something likely happened during cell culture growth
+
+* BONOBO PR00251 is the same individual as T2T mPanPan1
+
+* CHIMPANZEE AG18354_5 is the same individual as T2T mPanTro3
 
 
 ##### All samples complied with following specifics: 
