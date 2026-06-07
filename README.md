@@ -8,7 +8,7 @@ A repo for code and methods related to analyses and figures. This code is deposi
 
 ## Table of contents
 
-[Sample information](https://github.com/sudmantlab/panpan_diversity_project/blob/main/1.preliminary_dataset/Sample_information.md)
+[Sample information](https://github.com/sudmantlab/panpan_diversity_project/tree/main/1.preliminary_dataset)
 
 [Genome assembly pipelines](https://github.com/sudmantlab/panpan_diversity_project/tree/main/2.assembly_pipelines)
 
