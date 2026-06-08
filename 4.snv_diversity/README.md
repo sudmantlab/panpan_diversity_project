@@ -15,7 +15,7 @@ SNVs called from assembly alignments (`minimap2snvs.py`), merged to diploid geno
 SNV calling from BAMs (`allbams2snvs_*.py`); diversity stats code (`code_diversity_stats/`) and
 plots (`snv_diversity*.R`, `snv_pca.R`, `stats_longread_vs_shortread.R`); PCA inputs
 (`input_pca_eigen/`); long-vs-short windowed π in
-[`snv_pi_windows/`](calling_snv_shortlong_from_reads/snv_pi_windows) (see its README/METHODS).
+[`snv_pi_windows/`](calling_snv_shortlong_from_reads/snv_pi_windows).
 
 #### `chimp_bonobo_range_maps/`
 Sampling/range maps (`plot_dataset.R`, `plot_tree.R`, `mapchimps/mapRanges.R`).
