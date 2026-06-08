@@ -1,52 +1,27 @@
 # Variant effect prediction and gene constraint (SNVs & SVs)
 
-Functional annotation and constraint analysis of biallelic SNVs and structural variants (SVs,
-≤100 kb) across **human, chimpanzee, and bonobo**, using species-matched T2T references
-(CHM13/ht2t, mPanTro3, mPanPan1). Variants are annotated with Ensembl VEP, binned into impact
-classes, combined with gene-level constraint (sHet), and tested for site-frequency-spectrum
-differences and GO enrichment of constrained / high-impact genes shared across species.
+VEP annotation + gene-constraint (sHet) analysis of SNVs and SVs (≤100 kb) in human, chimpanzee,
+and bonobo against species-matched T2T refs (ht2t, mPanTro3, mPanPan1): impact classes, SFS,
+HIGH-impact SV-vs-SNV enrichment, and GO enrichment of shared constrained/high-impact genes.
+Full methods in [`methods_detailed_description.md`](methods_detailed_description.md); command log
+in [`VEP_Readme.txt`](VEP_Readme.txt).
 
-See **[`methods_detailed_description.md`](methods_detailed_description.md)** for the full
-methods (variant input → VEP → SFS → HIGH-impact SV-vs-SNV enrichment → sHet → statistics).
-**[`VEP_Readme.txt`](VEP_Readme.txt)** holds the raw command log (minimap2/paftools, bcftools
-`+liftover`, liftoff, VEP/snpEff invocations).
+#### Top-level scripts
+`vep_shet_combined.R` (merge VEP impact with sHet, build combined tables), `vep_shet_functios.R`
+(helpers), `plot_sv_snv_impact_long.R` (impact-stratified SFS, SNVs vs SVs).
 
-## Top-level scripts
+#### `snvs_vep/`
+VEP of phased SNVs + per-gene sHet (`vep_snvs.R`, `vep_shet.R`, `vep_shet_by_subspecies.R`,
+`get_vcf_long_chimp.R`); `long_only/` outputs (large `snv_impact_long.tsv.gz` kept local);
+[`GO_analysis_shared_species/`](snvs_vep/GO_analysis_shared_species) — GO enrichment of shared
+constrained SNV genes (see its README).
 
-| Script | Purpose |
-|---|---|
-| [`vep_shet_combined.R`](vep_shet_combined.R) | Main analysis: merge VEP impact calls with sHet, build the combined SNV+SV tables |
-| [`vep_shet_functios.R`](vep_shet_functios.R) | Shared helper functions used across the sHet/VEP scripts |
-| [`plot_sv_snv_impact_long.R`](plot_sv_snv_impact_long.R) | Impact-stratified site frequency spectra (SNVs vs SVs) per species |
+#### `svs_vep/`
+VEP of SVs + per-gene sHet (`vep_shet_SVs.R`, `vep_shet_by_subspecies.R`);
+[`GO_analysis_shared_species/`](svs_vep/GO_analysis_shared_species) — GO enrichment of shared
+high-impact SV genes, with `scripts/`, gene lists and backgrounds (see its README).
 
-## `snvs_vep/` — SNV annotation
-
-VEP of phased SNVs and per-gene sHet aggregation.
-
-- [`vep_snvs.R`](snvs_vep/vep_snvs.R), [`vep_shet.R`](snvs_vep/vep_shet.R),
-  [`vep_shet_by_subspecies.R`](snvs_vep/vep_shet_by_subspecies.R),
-  [`get_vcf_long_chimp.R`](snvs_vep/get_vcf_long_chimp.R)
-- `long_only/` — long-read impact outputs (`snv_impact_long.tsv.gz` is large and kept local).
-- [`GO_analysis_shared_species/`](snvs_vep/GO_analysis_shared_species) — GO enrichment of
-  constrained SNV genes shared across species (gene lists for the cross-species and
-  human–chimp shared sets); see its [README](snvs_vep/GO_analysis_shared_species/README.md).
-
-## `svs_vep/` — SV annotation
-
-VEP of structural variants and per-gene sHet aggregation.
-
-- [`vep_shet_SVs.R`](svs_vep/vep_shet_SVs.R),
-  [`vep_shet_by_subspecies.R`](svs_vep/vep_shet_by_subspecies.R)
-- [`GO_analysis_shared_species/`](svs_vep/GO_analysis_shared_species) — GO enrichment of
-  high-impact SV genes shared across species, with enrichment `scripts/`
-  ([`run_GO_enrichment.R`](svs_vep/GO_analysis_shared_species/scripts/run_GO_enrichment.R),
-  `_build_loc_map.R`), gene lists and backgrounds; see its
-  [README](svs_vep/GO_analysis_shared_species/README.md).
-
-## Supporting data
-
-| Folder | Contents |
-|---|---|
-| [`annotations/`](annotations) | Per-species gene models / BEDs (`ht2t_gene.bed.gz`, `mPanTro3_gene.bed.gz`, `mPanPan1_gene.bed.gz`, …) |
-| [`input_shet_tables/`](input_shet_tables) | Constraint inputs — Pritchard sHet table and gnomAD v4.1 constraint metrics |
-| [`output_tables/`](output_tables) | Combined VEP+sHet outputs (`vep_shet_snvs+svs_long/wide_data.csv`, strong/extreme subsets, high-impact outliers) |
+#### Supporting data
+`annotations/` (per-species gene BEDs), `input_shet_tables/` (Pritchard sHet + gnomAD v4.1
+constraint), `output_tables/` (combined VEP+sHet long/wide tables, strong/extreme subsets,
+high-impact outliers).
