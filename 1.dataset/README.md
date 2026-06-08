@@ -1,15 +1,5 @@
 # Sample Information
 
-Short-read data-processing pipelines for this study live in subfolders:
-
-- [`panpan_chimps_shortreads/`](panpan_chimps_shortreads) — QC, trimming, alignment and SNP
-  calling for the PANPAN chimpanzee short-read panel (`ngsQCrun.py`, `ngsQCevaluate.py`,
-  `call_snps.py`), plus the chimpanzee PCA (`pca/`).
-- [`ncbi_pan_shortreads/`](ncbi_pan_shortreads) — QC/alignment of public NCBI *Pan* short-read
-  data (de Manuel / Prado-Martinez) (`ngsQCrun2.py`, `ngsQC_get_symlinks.py`).
-
-The sample tables below describe the sequenced individuals.
-
 ### ILLUMINA LOW COVERAGE RE-SEQUENCING
 
 ##### Chimpanzees sequenced at 4x coverage in 1 Novaseq lane
@@ -107,5 +97,16 @@ NOTES:
 
 ##### All samples complied with following specifics: 
 -> at least 10ug total in 100-200 ul, ratio 260/280 1.8-2.0 and 260/230 > 2.00 
+
+
+## Short-read data-processing pipelines
+
+Short-read data-processing pipelines for this study live in subfolders:
+
+- [`panpan_chimps_shortreads/`](panpan_chimps_shortreads) — QC, trimming, alignment and SNP
+  calling for the PANPAN chimpanzee short-read panel (`ngsQCrun.py`, `ngsQCevaluate.py`,
+  `call_snps.py`), plus the chimpanzee PCA (`pca/`).
+- [`ncbi_pan_shortreads/`](ncbi_pan_shortreads) — QC/alignment of public NCBI *Pan* short-read
+  data (de Manuel / Prado-Martinez) (`ngsQCrun2.py`, `ngsQC_get_symlinks.py`).
 
 
