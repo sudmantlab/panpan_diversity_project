@@ -1,0 +1,673 @@
+
+## GYPB_17Mya_window
+region:
+  chrom: "NC_060928.1"
+  start: 147435928
+  end: 147436913
+
+inputs:
+  population_map: "superpopulations.csv" # Or the full path if it's elsewhere
+
+
+tree_options:
+  label_parse_mode: "dot"
+
+samples:
+  HG002.1:
+    fasta: "ragtag_ht2t_all/HG002.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG002.1_ht2t.paf"
+  HG002.2:
+    fasta: "ragtag_ht2t_all/HG002.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG002.2_ht2t.paf"
+  HG00438.1:
+    fasta: "ragtag_ht2t_all/HG00438.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00438.1_ht2t.paf"
+  HG00438.2:
+    fasta: "ragtag_ht2t_all/HG00438.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00438.2_ht2t.paf"
+  HG005.1:
+    fasta: "ragtag_ht2t_all/HG005.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG005.1_ht2t.paf"
+  HG005.2:
+    fasta: "ragtag_ht2t_all/HG005.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG005.2_ht2t.paf"
+  HG00621.1:
+    fasta: "ragtag_ht2t_all/HG00621.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00621.1_ht2t.paf"
+  HG00621.2:
+    fasta: "ragtag_ht2t_all/HG00621.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00621.2_ht2t.paf"
+  HG00673.1:
+    fasta: "ragtag_ht2t_all/HG00673.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00673.1_ht2t.paf"
+  HG00673.2:
+    fasta: "ragtag_ht2t_all/HG00673.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00673.2_ht2t.paf"
+  HG00733.1:
+    fasta: "ragtag_ht2t_all/HG00733.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00733.1_ht2t.paf"
+  HG00733.2:
+    fasta: "ragtag_ht2t_all/HG00733.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00733.2_ht2t.paf"
+  HG00735.1:
+    fasta: "ragtag_ht2t_all/HG00735.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00735.1_ht2t.paf"
+  HG00735.2:
+    fasta: "ragtag_ht2t_all/HG00735.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00735.2_ht2t.paf"
+  HG00741.1:
+    fasta: "ragtag_ht2t_all/HG00741.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00741.1_ht2t.paf"
+  HG00741.2:
+    fasta: "ragtag_ht2t_all/HG00741.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00741.2_ht2t.paf"
+  HG01071.1:
+    fasta: "ragtag_ht2t_all/HG01071.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01071.1_ht2t.paf"
+  HG01071.2:
+    fasta: "ragtag_ht2t_all/HG01071.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01071.2_ht2t.paf"
+  HG01106.1:
+    fasta: "ragtag_ht2t_all/HG01106.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01106.1_ht2t.paf"
+  HG01106.2:
+    fasta: "ragtag_ht2t_all/HG01106.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01106.2_ht2t.paf"
+  HG01109.1:
+    fasta: "ragtag_ht2t_all/HG01109.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01109.1_ht2t.paf"
+  HG01109.2:
+    fasta: "ragtag_ht2t_all/HG01109.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01109.2_ht2t.paf"
+  HG01123.1:
+    fasta: "ragtag_ht2t_all/HG01123.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01123.1_ht2t.paf"
+  HG01123.2:
+    fasta: "ragtag_ht2t_all/HG01123.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01123.2_ht2t.paf"
+  HG01175.1:
+    fasta: "ragtag_ht2t_all/HG01175.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01175.1_ht2t.paf"
+  HG01175.2:
+    fasta: "ragtag_ht2t_all/HG01175.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01175.2_ht2t.paf"
+  HG01243.1:
+    fasta: "ragtag_ht2t_all/HG01243.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01243.1_ht2t.paf"
+  HG01243.2:
+    fasta: "ragtag_ht2t_all/HG01243.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01243.2_ht2t.paf"
+  HG01258.1:
+    fasta: "ragtag_ht2t_all/HG01258.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01258.1_ht2t.paf"
+  HG01258.2:
+    fasta: "ragtag_ht2t_all/HG01258.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01258.2_ht2t.paf"
+  HG01358.1:
+    fasta: "ragtag_ht2t_all/HG01358.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01358.1_ht2t.paf"
+  HG01358.2:
+    fasta: "ragtag_ht2t_all/HG01358.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01358.2_ht2t.paf"
+  HG01361.1:
+    fasta: "ragtag_ht2t_all/HG01361.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01361.1_ht2t.paf"
+  HG01361.2:
+    fasta: "ragtag_ht2t_all/HG01361.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01361.2_ht2t.paf"
+  HG01891.1:
+    fasta: "ragtag_ht2t_all/HG01891.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01891.1_ht2t.paf"
+  HG01891.2:
+    fasta: "ragtag_ht2t_all/HG01891.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01891.2_ht2t.paf"
+  HG01928.1:
+    fasta: "ragtag_ht2t_all/HG01928.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01928.1_ht2t.paf"
+  HG01928.2:
+    fasta: "ragtag_ht2t_all/HG01928.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01928.2_ht2t.paf"
+  HG01952.1:
+    fasta: "ragtag_ht2t_all/HG01952.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01952.1_ht2t.paf"
+  HG01952.2:
+    fasta: "ragtag_ht2t_all/HG01952.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01952.2_ht2t.paf"
+  HG01978.1:
+    fasta: "ragtag_ht2t_all/HG01978.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01978.1_ht2t.paf"
+  HG01978.2:
+    fasta: "ragtag_ht2t_all/HG01978.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01978.2_ht2t.paf"
+  HG02055.1:
+    fasta: "ragtag_ht2t_all/HG02055.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02055.1_ht2t.paf"
+  HG02055.2:
+    fasta: "ragtag_ht2t_all/HG02055.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02055.2_ht2t.paf"
+  HG02080.1:
+    fasta: "ragtag_ht2t_all/HG02080.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02080.1_ht2t.paf"
+  HG02080.2:
+    fasta: "ragtag_ht2t_all/HG02080.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02080.2_ht2t.paf"
+  HG02109.1:
+    fasta: "ragtag_ht2t_all/HG02109.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02109.1_ht2t.paf"
+  HG02109.2:
+    fasta: "ragtag_ht2t_all/HG02109.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02109.2_ht2t.paf"
+  HG02145.1:
+    fasta: "ragtag_ht2t_all/HG02145.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02145.1_ht2t.paf"
+  HG02145.2:
+    fasta: "ragtag_ht2t_all/HG02145.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02145.2_ht2t.paf"
+  HG02148.1:
+    fasta: "ragtag_ht2t_all/HG02148.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02148.1_ht2t.paf"
+  HG02148.2:
+    fasta: "ragtag_ht2t_all/HG02148.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02148.2_ht2t.paf"
+  HG02257.1:
+    fasta: "ragtag_ht2t_all/HG02257.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02257.1_ht2t.paf"
+  HG02257.2:
+    fasta: "ragtag_ht2t_all/HG02257.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02257.2_ht2t.paf"
+  HG02486.1:
+    fasta: "ragtag_ht2t_all/HG02486.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02486.1_ht2t.paf"
+  HG02486.2:
+    fasta: "ragtag_ht2t_all/HG02486.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02486.2_ht2t.paf"
+  HG02559.1:
+    fasta: "ragtag_ht2t_all/HG02559.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02559.1_ht2t.paf"
+  HG02559.2:
+    fasta: "ragtag_ht2t_all/HG02559.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02559.2_ht2t.paf"
+  HG02572.1:
+    fasta: "ragtag_ht2t_all/HG02572.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02572.1_ht2t.paf"
+  HG02572.2:
+    fasta: "ragtag_ht2t_all/HG02572.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02572.2_ht2t.paf"
+  HG02622.1:
+    fasta: "ragtag_ht2t_all/HG02622.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02622.1_ht2t.paf"
+  HG02622.2:
+    fasta: "ragtag_ht2t_all/HG02622.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02622.2_ht2t.paf"
+  HG02630.1:
+    fasta: "ragtag_ht2t_all/HG02630.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02630.1_ht2t.paf"
+  HG02630.2:
+    fasta: "ragtag_ht2t_all/HG02630.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02630.2_ht2t.paf"
+  HG02717.1:
+    fasta: "ragtag_ht2t_all/HG02717.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02717.1_ht2t.paf"
+  HG02717.2:
+    fasta: "ragtag_ht2t_all/HG02717.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02717.2_ht2t.paf"
+  HG02723.1:
+    fasta: "ragtag_ht2t_all/HG02723.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02723.1_ht2t.paf"
+  HG02723.2:
+    fasta: "ragtag_ht2t_all/HG02723.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02723.2_ht2t.paf"
+  HG02818.1:
+    fasta: "ragtag_ht2t_all/HG02818.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02818.1_ht2t.paf"
+  HG02818.2:
+    fasta: "ragtag_ht2t_all/HG02818.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02818.2_ht2t.paf"
+  HG02886.1:
+    fasta: "ragtag_ht2t_all/HG02886.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02886.1_ht2t.paf"
+  HG02886.2:
+    fasta: "ragtag_ht2t_all/HG02886.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02886.2_ht2t.paf"
+  HG03098.1:
+    fasta: "ragtag_ht2t_all/HG03098.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03098.1_ht2t.paf"
+  HG03098.2:
+    fasta: "ragtag_ht2t_all/HG03098.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03098.2_ht2t.paf"
+  HG03453.1:
+    fasta: "ragtag_ht2t_all/HG03453.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03453.1_ht2t.paf"
+  HG03453.2:
+    fasta: "ragtag_ht2t_all/HG03453.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03453.2_ht2t.paf"
+  HG03486.1:
+    fasta: "ragtag_ht2t_all/HG03486.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03486.1_ht2t.paf"
+  HG03486.2:
+    fasta: "ragtag_ht2t_all/HG03486.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03486.2_ht2t.paf"
+  HG03492.1:
+    fasta: "ragtag_ht2t_all/HG03492.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03492.1_ht2t.paf"
+  HG03492.2:
+    fasta: "ragtag_ht2t_all/HG03492.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03492.2_ht2t.paf"
+  HG03516.1:
+    fasta: "ragtag_ht2t_all/HG03516.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03516.1_ht2t.paf"
+  HG03516.2:
+    fasta: "ragtag_ht2t_all/HG03516.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03516.2_ht2t.paf"
+  HG03540.1:
+    fasta: "ragtag_ht2t_all/HG03540.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03540.1_ht2t.paf"
+  HG03540.2:
+    fasta: "ragtag_ht2t_all/HG03540.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03540.2_ht2t.paf"
+  HG03579.1:
+    fasta: "ragtag_ht2t_all/HG03579.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03579.1_ht2t.paf"
+  HG03579.2:
+    fasta: "ragtag_ht2t_all/HG03579.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03579.2_ht2t.paf"
+  NA18906.1:
+    fasta: "ragtag_ht2t_all/NA18906.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA18906.1_ht2t.paf"
+  NA18906.2:
+    fasta: "ragtag_ht2t_all/NA18906.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA18906.2_ht2t.paf"
+  NA19240.1:
+    fasta: "ragtag_ht2t_all/NA19240.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19240.1_ht2t.paf"
+  NA19240.2:
+    fasta: "ragtag_ht2t_all/NA19240.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19240.2_ht2t.paf"
+  NA20129.1:
+    fasta: "ragtag_ht2t_all/NA20129.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA20129.1_ht2t.paf"
+  NA20129.2:
+    fasta: "ragtag_ht2t_all/NA20129.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA20129.2_ht2t.paf"
+  NA21309.1:
+    fasta: "ragtag_ht2t_all/NA21309.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA21309.1_ht2t.paf"
+  NA21309.2:
+    fasta: "ragtag_ht2t_all/NA21309.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA21309.2_ht2t.paf"
+  HG00096.1:
+    fasta: "ragtag_ht2t_all/HG00096.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00096.1_ht2t.paf"
+  HG00096.2:
+    fasta: "ragtag_ht2t_all/HG00096.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00096.2_ht2t.paf"
+  HG00171.1:
+    fasta: "ragtag_ht2t_all/HG00171.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00171.1_ht2t.paf"
+  HG00171.2:
+    fasta: "ragtag_ht2t_all/HG00171.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00171.2_ht2t.paf"
+  HG00268.1:
+    fasta: "ragtag_ht2t_all/HG00268.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00268.1_ht2t.paf"
+  HG00268.2:
+    fasta: "ragtag_ht2t_all/HG00268.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00268.2_ht2t.paf"
+  HG00358.1:
+    fasta: "ragtag_ht2t_all/HG00358.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00358.1_ht2t.paf"
+  HG00358.2:
+    fasta: "ragtag_ht2t_all/HG00358.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00358.2_ht2t.paf"
+  HG00512.1:
+    fasta: "ragtag_ht2t_all/HG00512.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00512.1_ht2t.paf"
+  HG00512.2:
+    fasta: "ragtag_ht2t_all/HG00512.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00512.2_ht2t.paf"
+  HG00513.1:
+    fasta: "ragtag_ht2t_all/HG00513.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00513.1_ht2t.paf"
+  HG00513.2:
+    fasta: "ragtag_ht2t_all/HG00513.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00513.2_ht2t.paf"
+  HG00514.1:
+    fasta: "ragtag_ht2t_all/HG00514.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00514.1_ht2t.paf"
+  HG00514.2:
+    fasta: "ragtag_ht2t_all/HG00514.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00514.2_ht2t.paf"
+  HG00731.1:
+    fasta: "ragtag_ht2t_all/HG00731.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00731.1_ht2t.paf"
+  HG00731.2:
+    fasta: "ragtag_ht2t_all/HG00731.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00731.2_ht2t.paf"
+  HG00732.1:
+    fasta: "ragtag_ht2t_all/HG00732.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00732.1_ht2t.paf"
+  HG00732.2:
+    fasta: "ragtag_ht2t_all/HG00732.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00732.2_ht2t.paf"
+  HG00864.1:
+    fasta: "ragtag_ht2t_all/HG00864.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00864.1_ht2t.paf"
+  HG00864.2:
+    fasta: "ragtag_ht2t_all/HG00864.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG00864.2_ht2t.paf"
+  HG01114.1:
+    fasta: "ragtag_ht2t_all/HG01114.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01114.1_ht2t.paf"
+  HG01114.2:
+    fasta: "ragtag_ht2t_all/HG01114.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01114.2_ht2t.paf"
+  HG01352.1:
+    fasta: "ragtag_ht2t_all/HG01352.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01352.1_ht2t.paf"
+  HG01352.2:
+    fasta: "ragtag_ht2t_all/HG01352.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01352.2_ht2t.paf"
+  HG01457.1:
+    fasta: "ragtag_ht2t_all/HG01457.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01457.1_ht2t.paf"
+  HG01457.2:
+    fasta: "ragtag_ht2t_all/HG01457.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01457.2_ht2t.paf"
+  HG01505.1:
+    fasta: "ragtag_ht2t_all/HG01505.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01505.1_ht2t.paf"
+  HG01505.2:
+    fasta: "ragtag_ht2t_all/HG01505.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01505.2_ht2t.paf"
+  HG01573.1:
+    fasta: "ragtag_ht2t_all/HG01573.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01573.1_ht2t.paf"
+  HG01573.2:
+    fasta: "ragtag_ht2t_all/HG01573.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01573.2_ht2t.paf"
+  HG01596.1:
+    fasta: "ragtag_ht2t_all/HG01596.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01596.1_ht2t.paf"
+  HG01596.2:
+    fasta: "ragtag_ht2t_all/HG01596.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01596.2_ht2t.paf"
+  HG01890.1:
+    fasta: "ragtag_ht2t_all/HG01890.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01890.1_ht2t.paf"
+  HG01890.2:
+    fasta: "ragtag_ht2t_all/HG01890.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG01890.2_ht2t.paf"
+  HG02011.1:
+    fasta: "ragtag_ht2t_all/HG02011.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02011.1_ht2t.paf"
+  HG02011.2:
+    fasta: "ragtag_ht2t_all/HG02011.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02011.2_ht2t.paf"
+  HG02018.1:
+    fasta: "ragtag_ht2t_all/HG02018.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02018.1_ht2t.paf"
+  HG02018.2:
+    fasta: "ragtag_ht2t_all/HG02018.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02018.2_ht2t.paf"
+  HG02059.1:
+    fasta: "ragtag_ht2t_all/HG02059.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02059.1_ht2t.paf"
+  HG02059.2:
+    fasta: "ragtag_ht2t_all/HG02059.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02059.2_ht2t.paf"
+  HG02106.1:
+    fasta: "ragtag_ht2t_all/HG02106.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02106.1_ht2t.paf"
+  HG02106.2:
+    fasta: "ragtag_ht2t_all/HG02106.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02106.2_ht2t.paf"
+  HG02282.1:
+    fasta: "ragtag_ht2t_all/HG02282.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02282.1_ht2t.paf"
+  HG02282.2:
+    fasta: "ragtag_ht2t_all/HG02282.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02282.2_ht2t.paf"
+  HG02492.1:
+    fasta: "ragtag_ht2t_all/HG02492.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02492.1_ht2t.paf"
+  HG02492.2:
+    fasta: "ragtag_ht2t_all/HG02492.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02492.2_ht2t.paf"
+  HG02554.1:
+    fasta: "ragtag_ht2t_all/HG02554.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02554.1_ht2t.paf"
+  HG02554.2:
+    fasta: "ragtag_ht2t_all/HG02554.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02554.2_ht2t.paf"
+  HG02587.1:
+    fasta: "ragtag_ht2t_all/HG02587.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02587.1_ht2t.paf"
+  HG02587.2:
+    fasta: "ragtag_ht2t_all/HG02587.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02587.2_ht2t.paf"
+  HG02666.1:
+    fasta: "ragtag_ht2t_all/HG02666.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02666.1_ht2t.paf"
+  HG02666.2:
+    fasta: "ragtag_ht2t_all/HG02666.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02666.2_ht2t.paf"
+  HG02769.1:
+    fasta: "ragtag_ht2t_all/HG02769.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02769.1_ht2t.paf"
+  HG02769.2:
+    fasta: "ragtag_ht2t_all/HG02769.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02769.2_ht2t.paf"
+  HG02953.1:
+    fasta: "ragtag_ht2t_all/HG02953.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02953.1_ht2t.paf"
+  HG02953.2:
+    fasta: "ragtag_ht2t_all/HG02953.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG02953.2_ht2t.paf"
+  HG03009.1:
+    fasta: "ragtag_ht2t_all/HG03009.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03009.1_ht2t.paf"
+  HG03009.2:
+    fasta: "ragtag_ht2t_all/HG03009.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03009.2_ht2t.paf"
+  HG03065.1:
+    fasta: "ragtag_ht2t_all/HG03065.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03065.1_ht2t.paf"
+  HG03065.2:
+    fasta: "ragtag_ht2t_all/HG03065.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03065.2_ht2t.paf"
+  HG03248.1:
+    fasta: "ragtag_ht2t_all/HG03248.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03248.1_ht2t.paf"
+  HG03248.2:
+    fasta: "ragtag_ht2t_all/HG03248.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03248.2_ht2t.paf"
+  HG03371.1:
+    fasta: "ragtag_ht2t_all/HG03371.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03371.1_ht2t.paf"
+  HG03371.2:
+    fasta: "ragtag_ht2t_all/HG03371.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03371.2_ht2t.paf"
+  HG03452.1:
+    fasta: "ragtag_ht2t_all/HG03452.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03452.1_ht2t.paf"
+  HG03452.2:
+    fasta: "ragtag_ht2t_all/HG03452.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03452.2_ht2t.paf"
+  HG03456.1:
+    fasta: "ragtag_ht2t_all/HG03456.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03456.1_ht2t.paf"
+  HG03456.2:
+    fasta: "ragtag_ht2t_all/HG03456.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03456.2_ht2t.paf"
+  HG03520.1:
+    fasta: "ragtag_ht2t_all/HG03520.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03520.1_ht2t.paf"
+  HG03520.2:
+    fasta: "ragtag_ht2t_all/HG03520.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03520.2_ht2t.paf"
+  HG03683.1:
+    fasta: "ragtag_ht2t_all/HG03683.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03683.1_ht2t.paf"
+  HG03683.2:
+    fasta: "ragtag_ht2t_all/HG03683.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03683.2_ht2t.paf"
+  HG03732.1:
+    fasta: "ragtag_ht2t_all/HG03732.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03732.1_ht2t.paf"
+  HG03732.2:
+    fasta: "ragtag_ht2t_all/HG03732.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03732.2_ht2t.paf"
+  HG03807.1:
+    fasta: "ragtag_ht2t_all/HG03807.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03807.1_ht2t.paf"
+  HG03807.2:
+    fasta: "ragtag_ht2t_all/HG03807.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG03807.2_ht2t.paf"
+  HG04036.1:
+    fasta: "ragtag_ht2t_all/HG04036.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG04036.1_ht2t.paf"
+  HG04036.2:
+    fasta: "ragtag_ht2t_all/HG04036.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG04036.2_ht2t.paf"
+  HG04217.1:
+    fasta: "ragtag_ht2t_all/HG04217.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG04217.1_ht2t.paf"
+  HG04217.2:
+    fasta: "ragtag_ht2t_all/HG04217.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/HG04217.2_ht2t.paf"
+  NA12329.1:
+    fasta: "ragtag_ht2t_all/NA12329.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA12329.1_ht2t.paf"
+  NA12329.2:
+    fasta: "ragtag_ht2t_all/NA12329.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA12329.2_ht2t.paf"
+  NA18534.1:
+    fasta: "ragtag_ht2t_all/NA18534.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA18534.1_ht2t.paf"
+  NA18534.2:
+    fasta: "ragtag_ht2t_all/NA18534.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA18534.2_ht2t.paf"
+  NA18939.1:
+    fasta: "ragtag_ht2t_all/NA18939.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA18939.1_ht2t.paf"
+  NA18939.2:
+    fasta: "ragtag_ht2t_all/NA18939.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA18939.2_ht2t.paf"
+  NA18989.1:
+    fasta: "ragtag_ht2t_all/NA18989.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA18989.1_ht2t.paf"
+  NA18989.2:
+    fasta: "ragtag_ht2t_all/NA18989.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA18989.2_ht2t.paf"
+  NA19036.1:
+    fasta: "ragtag_ht2t_all/NA19036.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19036.1_ht2t.paf"
+  NA19036.2:
+    fasta: "ragtag_ht2t_all/NA19036.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19036.2_ht2t.paf"
+  NA19129.1:
+    fasta: "ragtag_ht2t_all/NA19129.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19129.1_ht2t.paf"
+  NA19129.2:
+    fasta: "ragtag_ht2t_all/NA19129.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19129.2_ht2t.paf"
+  NA19238.1:
+    fasta: "ragtag_ht2t_all/NA19238.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19238.1_ht2t.paf"
+  NA19238.2:
+    fasta: "ragtag_ht2t_all/NA19238.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19238.2_ht2t.paf"
+  NA19239.1:
+    fasta: "ragtag_ht2t_all/NA19239.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19239.1_ht2t.paf"
+  NA19239.2:
+    fasta: "ragtag_ht2t_all/NA19239.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19239.2_ht2t.paf"
+  NA19317.1:
+    fasta: "ragtag_ht2t_all/NA19317.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19317.1_ht2t.paf"
+  NA19317.2:
+    fasta: "ragtag_ht2t_all/NA19317.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19317.2_ht2t.paf"
+  NA19331.1:
+    fasta: "ragtag_ht2t_all/NA19331.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19331.1_ht2t.paf"
+  NA19331.2:
+    fasta: "ragtag_ht2t_all/NA19331.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19331.2_ht2t.paf"
+  NA19347.1:
+    fasta: "ragtag_ht2t_all/NA19347.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19347.1_ht2t.paf"
+  NA19347.2:
+    fasta: "ragtag_ht2t_all/NA19347.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19347.2_ht2t.paf"
+  NA19384.1:
+    fasta: "ragtag_ht2t_all/NA19384.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19384.1_ht2t.paf"
+  NA19384.2:
+    fasta: "ragtag_ht2t_all/NA19384.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19384.2_ht2t.paf"
+  NA19434.1:
+    fasta: "ragtag_ht2t_all/NA19434.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19434.1_ht2t.paf"
+  NA19434.2:
+    fasta: "ragtag_ht2t_all/NA19434.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19434.2_ht2t.paf"
+  NA19650.1:
+    fasta: "ragtag_ht2t_all/NA19650.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19650.1_ht2t.paf"
+  NA19650.2:
+    fasta: "ragtag_ht2t_all/NA19650.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19650.2_ht2t.paf"
+  NA19705.1:
+    fasta: "ragtag_ht2t_all/NA19705.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19705.1_ht2t.paf"
+  NA19705.2:
+    fasta: "ragtag_ht2t_all/NA19705.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19705.2_ht2t.paf"
+  NA19836.1:
+    fasta: "ragtag_ht2t_all/NA19836.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19836.1_ht2t.paf"
+  NA19836.2:
+    fasta: "ragtag_ht2t_all/NA19836.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19836.2_ht2t.paf"
+  NA19983.1:
+    fasta: "ragtag_ht2t_all/NA19983.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19983.1_ht2t.paf"
+  NA19983.2:
+    fasta: "ragtag_ht2t_all/NA19983.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA19983.2_ht2t.paf"
+  NA20355.1:
+    fasta: "ragtag_ht2t_all/NA20355.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA20355.1_ht2t.paf"
+  NA20355.2:
+    fasta: "ragtag_ht2t_all/NA20355.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA20355.2_ht2t.paf"
+  NA20509.1:
+    fasta: "ragtag_ht2t_all/NA20509.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA20509.1_ht2t.paf"
+  NA20509.2:
+    fasta: "ragtag_ht2t_all/NA20509.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA20509.2_ht2t.paf"
+  NA20847.1:
+    fasta: "ragtag_ht2t_all/NA20847.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA20847.1_ht2t.paf"
+  NA20847.2:
+    fasta: "ragtag_ht2t_all/NA20847.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA20847.2_ht2t.paf"
+  NA21487.1:
+    fasta: "ragtag_ht2t_all/NA21487.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA21487.1_ht2t.paf"
+  NA21487.2:
+    fasta: "ragtag_ht2t_all/NA21487.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA21487.2_ht2t.paf"
+  NA24385.1:
+    fasta: "ragtag_ht2t_all/NA24385.1.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA24385.1_ht2t.paf"
+  NA24385.2:
+    fasta: "ragtag_ht2t_all/NA24385.2.chr.fasta"
+    paf: "ragtag_ht2t_all/all2ref_noeqx/NA24385.2_ht2t.paf"
+
+
+output:
+  main_dir: "GYPB_1kb_humans"  # Main results directory

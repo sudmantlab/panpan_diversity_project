@@ -1,0 +1,49 @@
+
+
+## GYPB_17Mya_window
+region:
+  chrom: "chr3_pat_hsa4"
+  start: 141752889
+  end: 141999177
+
+
+samples:
+  AG05253_1_hap1:
+    fasta: "ragtag_mPanPan1_all/AG05253_1.hap1.chr.fasta"
+    paf: "ragtag_mPanPan1_all/all2ref_noeqx/AG05253_1.hap1_mPanPan1.paf"
+  AG05253_1_hap2:
+    fasta: "ragtag_mPanPan1_all/AG05253_1.hap2.chr.fasta"
+    paf: "ragtag_mPanPan1_all/all2ref_noeqx/AG05253_1.hap2_mPanPan1.paf"
+  PR00249_hap1:
+    fasta: "ragtag_mPanPan1_all/PR00249.hap1.chr.fasta"
+    paf: "ragtag_mPanPan1_all/all2ref_noeqx/PR00249.hap1_mPanPan1.paf"
+  PR00249_hap2:
+    fasta: "ragtag_mPanPan1_all/PR00249.hap2.chr.fasta"
+    paf: "ragtag_mPanPan1_all/all2ref_noeqx/PR00249.hap2_mPanPan1.paf"
+  PR00251_hap1:
+    fasta: "ragtag_mPanPan1_all/PR00251.hap1.chr.fasta"
+    paf: "ragtag_mPanPan1_all/all2ref_noeqx/PR00251.hap1_mPanPan1.paf"
+  PR00251_hap2:
+    fasta: "ragtag_mPanPan1_all/PR00251.hap2.chr.fasta"
+    paf: "ragtag_mPanPan1_all/all2ref_noeqx/PR00251.hap2_mPanPan1.paf"
+  PR00366_hap1:
+    fasta: "ragtag_mPanPan1_all/PR00366.hap1.chr.fasta"
+    paf: "ragtag_mPanPan1_all/all2ref_noeqx/PR00366.hap1_mPanPan1.paf"
+  PR00366_hap2:
+    fasta: "ragtag_mPanPan1_all/PR00366.hap2.chr.fasta"
+    paf: "ragtag_mPanPan1_all/all2ref_noeqx/PR00366.hap2_mPanPan1.paf"
+  PR00445_hap1:
+    fasta: "ragtag_mPanPan1_all/PR00445.hap1.chr.fasta"
+    paf: "ragtag_mPanPan1_all/all2ref_noeqx/PR00445.hap1_mPanPan1.paf"
+  PR00445_hap2:
+    fasta: "ragtag_mPanPan1_all/PR00445.hap2.chr.fasta"
+    paf: "ragtag_mPanPan1_all/all2ref_noeqx/PR00445.hap2_mPanPan1.paf"
+  #mPanPan1_hap1:
+   # fasta: "ragtag_mPanPan1_all/mPanPan1.hap1.chr.fasta"
+    #paf: "ragtag_mPanPan1_all/all2ref_noeqx/mPanPan1.hap1_mPanPan1.paf"
+  #mPanPan1_hap2:
+   # fasta: "ragtag_mPanPan1_all/mPanPan1.hap2.chr.fasta"
+    #paf: "ragtag_mPanPan1_all/all2ref_noeqx/mPanPan1.hap2_mPanPan1.paf"
+
+output:
+  main_dir: "GYPB_1kb_bonobos"  # Main results directory

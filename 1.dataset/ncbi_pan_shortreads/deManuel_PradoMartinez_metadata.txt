@@ -1,0 +1,73 @@
+genomeName		Species	ShortName	SpeciesCode	CommonName		Latitude_approx	Longitude_approx	colors	Subspecies	Origin1	OriginCountry	OriginCountry2	Sex	Birth	Phase
+SAMN01920517_elliotiAkwaya-Jean_Cameroon		Pan troglodytes ellioti	Akwaya_Jean	Pte	Nigeria-Camerron chimpanzee		4.79855	9.2901	#fe604c	Pan_troglodytes_ellioti	Western Cameroon	Cameroon	Western Cameroon	M	wild	1
+SAMN01920518_ellioti_Banyo_Cameroon		Pan troglodytes ellioti	Banyo	Pte	Nigeria-Camerron chimpanzee		6.4109	10.4424	#fe604c	Pan_troglodytes_ellioti	Western Cameroon	Cameroon	Western Cameroon	F	wild	1
+SAMN01920519_ellioti_Basho_Cameroon		Pan troglodytes ellioti	Basho	Pte	Nigeria-Camerron chimpanzee		5.508405	10.144	#fe604c	Pan_troglodytes_ellioti	Western Cameroon	Cameroon	Western Cameroon	M	wild	1
+SAMN01920520_ellioti_Damian_Cameroon		Pan troglodytes ellioti	Damian	Pte	Nigeria-Camerron chimpanzee		6.387525	10.6643	#fe604c	Pan_troglodytes_ellioti	Western Cameroon	Cameroon	Western Cameroon	M	wild	1
+SAMN01920521_ellioti_JulieLWC21_Cameroon		Pan troglodytes ellioti	Julie	Pte	Nigeria-Camerron chimpanzee		6.78872	11.53365	#fe604c	Pan_troglodytes_ellioti	Western Cameroon	Cameroon	Western Cameroon	F	wild	1
+SAMN01920522_ellioti_Kopongo_Cameroon		Pan troglodytes ellioti	Kopongo	Pte	Nigeria-Camerron chimpanzee		5.784825	10.3854	#fe604c	Pan_troglodytes_ellioti	Western Cameroon	Cameroon	Western Cameroon	F	wild	1
+SAMN01920523_ellioti_Koto_Cameroon		Pan troglodytes ellioti	Koto	Pte	Nigeria-Camerron chimpanzee		4.15989	9.14837	#fe604c	Pan_troglodytes_ellioti	Western Cameroon	Cameroon	Western Cameroon	M	wild	1
+SAMN01920524_ellioti_Paquita_Cameroon		Pan troglodytes ellioti	Paquita	Pte	Nigeria-Camerron chimpanzee		5.240895	10.1503	#fe604c	Pan_troglodytes_ellioti	Western Cameroon	Cameroon	Western Cameroon	F	wild	1
+SAMN01920525_ellioti_Taweh_Cameroon		Pan troglodytes ellioti	Taweh	Pte	Nigeria-Camerron chimpanzee		6.637165	10.9659	#fe604c	Pan_troglodytes_ellioti	Western Cameroon	Cameroon	Western Cameroon	F	wild	1
+SAMN01920526_ellioti_Tobi_Cameroon		Pan troglodytes ellioti	Tobi	Pte	Nigeria-Camerron chimpanzee		5.767895	10.37835	#fe604c	Pan_troglodytes_ellioti	Western Cameroon	Cameroon	Western Cameroon	F	wild	1
+SAMN01920527_schweinfurthii_Vincent_Tanzania		Pan troglodytes schweinfurthii	100037_Vincent	Pts	Eastern chimpanzee		-5	30	#ffb35a	Pan_troglodytes_schweinfurthii	Tanzania-Gombe	Tanzania	Tanzania-Gombe National Park	M	wild	1
+SAMN01920528_schweinfurthii_Andromeda_Tanzania		Pan troglodytes schweinfurthii	100040_Andromeda	Pts	Eastern chimpanzee		-5	30	#ffb35a	Pan_troglodytes_schweinfurthii	Tanzania-Gombe	Tanzania	Tanzania-Gombe National Park	F	wild	1
+SAMN01920529_schweinfurthii_Harriet_Uganda		Pan troglodytes schweinfurthii	9729_Harriet	Pts	Eastern chimpanzee		3	32	#ffb35a	Pan_troglodytes_schweinfurthii	Western Uganda	Uganda	Uganda-West	F	wild	1
+SAMN01920530_schweinfurthii_Bwambale_Uganda		Pan troglodytes schweinfurthii	A910_Bwambale	Pts	Eastern chimpanzee		0	30	#ffb35a	Pan_troglodytes_schweinfurthii	"Uganda, from Busamba, Bundibujo District in western Uganda."	Uganda	Uganda-West	M	wild	1
+SAMN01920531_schweinfurthii_Kidongo_DemocraticRepublicCongo		Pan troglodytes schweinfurthii	A911_Kidongo	Pts	Eastern chimpanzee		0	20	#ffb35a	Pan_troglodytes_schweinfurthii	DRC	DRC	DRC	F	wild	1
+SAMN01920532_schweinfurthii_Nakuu_DemocraticRepublicCongo		Pan troglodytes schweinfurthii	A912_Nakuu	Pts	Eastern chimpanzee		0	26	#ffb35a	Pan_troglodytes_schweinfurthii	DRC	DRC	DRC	F	wild	1
+SAMEA4374787_schweinfurthii_Padda_DemocraticRepublicCongo		Pan troglodytes schweinfurthii	B002_Padda	Pts	Eastern chimpanzee		-10	25	#ffb35a	Pan_troglodytes_schweinfurthii	DRC-Walikali	DRC	DRC-Central	M	wild	2
+SAMEA4374788_schweinfurthii_Cindy_Uganda		Pan troglodytes schweinfurthii	B007_Cindy	Pts	Eastern chimpanzee		-1	28	#ffb35a	Pan_troglodytes_schweinfurthii	Uganda (Budongo central/westernmost)	Uganda	Uganda-West	F	wild	2
+SAMEA4374789_schweinfurthii_Ikuru_DemocraticRepublicCongo		Pan troglodytes schweinfurthii	B010_Ikuru	Pts	Eastern chimpanzee		2	32	#ffb35a	Pan_troglodytes_schweinfurthii	DRC	DRC	DRC	F	wild	2
+SAMEA4374790_schweinfurthii_Tongo_DemocraticRepublicCongo		Pan troglodytes schweinfurthii	N013_Tongo	Pts	Eastern chimpanzee		3	31	#ffb35a	Pan_troglodytes_schweinfurthii	Virunga NP in DRC just on the other side of the border (perhaps same population as Bwambale from phaseI-check coridors)	Rwanda	Rwanda	M	wild	2
+SAMEA4374791_schweinfurthii_Cleo_DemocraticRepublicCongo		Pan troglodytes schweinfurthii	N015_Cleo	Pts	Eastern chimpanzee		-1.2	29.3	#ffb35a	Pan_troglodytes_schweinfurthii	Zambia	Zambia	Zambia	F	wild	2
+SAMEA4374792_schweinfurthii_Bihati		Pan troglodytes schweinfurthii	N017_Bihati	Pts	Eastern chimpanzee		0	20	#ffb35a	Pan_troglodytes_schweinfurthii	DRC-Kinshasa	DRC	DRC	F	wild	2
+SAMEA4374793_schweinfurthii_Trixie_DemocraticRepublicCongo		Pan troglodytes schweinfurthii	N018_Trixie	Pts	Eastern chimpanzee		-2	29	#ffb35a	Pan_troglodytes_schweinfurthii	DRC-east near Rwanda	DRC- east near Rwanda	DRC-east	F	wild	2
+SAMEA4374795_schweinfurthii_Maya_DemocraticRepublicCongo		Pan troglodytes schweinfurthii	N019_Maya	Pts	Eastern chimpanzee		0	26	#ffb35a	Pan_troglodytes_schweinfurthii	DRC-Mbuji Mayi	DRC	DRC-South	F	wild	2
+SAMN01920533_troglodytes_Vaillant_Gabon		Pan troglodytes troglodytes	A957_Vaillant	Ptt	Central chimpanzee		-6	24	#4c5d4c	Pan_troglodytes_troglodytes	Gabon Haut-Ogooue	Gabon	Gabon-East	M	wild	1
+SAMN01920534_troglodytes_Doris_Gabon		Pan troglodytes troglodytes	A958_Doris	Ptt	Central chimpanzee		-1.5	14	#4c5d4c	Pan_troglodytes_troglodytes	Gabon Ogooue-Maritime	Gabon	Gabon-West	F	wild	1
+SAMN01920535_troglodytes_Julie_Gabon		Pan troglodytes troglodytes	A959_Julie	Ptt	Central chimpanzee		-2	10	#4c5d4c	Pan_troglodytes_troglodytes	Gabon Haut-Ogooue	Gabon	Gabon-East	F	wild	1
+SAMN01920536_troglodytes_Clara_Gabon		Pan troglodytes troglodytes	A960_Clara	Ptt	Central chimpanzee		-1.5	14	#4c5d4c	Pan_troglodytes_troglodytes	Gabon	Gabon	Gabon	F	wild	1
+SAMN01920537_verus_Bosco		Pan troglodytes verus	9668_Bosco	Ptv	Western chimpanzee		0	11	#9dced9	Pan_troglodytes_verus	NA	NA	NA	M	wild	1
+SAMN01920541_verusxtroglodytes_Donald		Pan troglodytes verus	9730_Donald	Ptv x Ptt hybrid	Western x Central chimpanzee hybrid		NA	NA	#9dced9	Pan_troglodytes_verus	Captive Born	Captive Born	Captive Born	M	captive	1
+SAMN01920538_verus_Jimmie		Pan troglodytes verus	A956_Jimmie	Ptv	Western chimpanzee		NA	NA	#9dced9	Pan_troglodytes_verus	West Africa	NA	NA	F	wild	1
+SAMEA4374763_verus_Berta_CotedIvoire		Pan troglodytes verus	A991_Berta	Ptv	Western chimpanzee		NA	NA	#9dced9	Pan_troglodytes_verus	"Ivory Coast, likely from Man in the northwest region of the country"	Ivory coast	Ivory coast	F	wild	2
+SAMEA4374764_verus_Annie_Guinea		Pan troglodytes verus	A992_Annie	Ptv	Western chimpanzee		7	-7	#9dced9	Pan_troglodytes_verus	"Guinea, Confiscated in Conakry"	Guinea	Guinea	F	wild	2
+SAMEA4374765_verus_Mike_Guinea		Pan troglodytes verus	A993_Mike	Ptv	Western chimpanzee		12	-13	#9dced9	Pan_troglodytes_verus	"Guinea, probably from north of Conakry along the coast, near Boke-Boffa area"	Guinea	Guinea	M	wild	2
+SAMEA4374766_verus_SepToni_Liberia		Pan troglodytes verus	B005_SeppToni	Ptv	Western chimpanzee		10	-14	#9dced9	Pan_troglodytes_verus	Liberia	Liberia	Liberia	M	wild	2
+SAMEA4374767_verus_Linda_CotedIvoire		Pan troglodytes verus	B006_Linda	Ptv	Western chimpanzee		6	-9	#9dced9	Pan_troglodytes_verus	Liberia	Liberia	Liberia	F	wild	2
+SAMN01920540_verus_Clint		Pan troglodytes verus	Clint	Ptv	Western chimpanzee		6	-9	#9dced9	Pan_troglodytes_verus	Captive Born	Captive Born	Captive Born	M	captive	1
+SAMEA4374768_verus_Cindy_CotedIvoire		Pan troglodytes verus	N014_Cindy	Ptv	Western chimpanzee				#9dced9	Pan_troglodytes_verus	Ivory coast	Ivory coast	Ivory coast	F	wild	2
+SAMEA4374769_verus_Alice_CotedIvoire		Pan troglodytes verus	N016_Alice	Ptv	Western chimpanzee		7	-5.5	#9dced9	Pan_troglodytes_verus	Ivory coast	Ivory coast	Ivory coast	F	wild	2
+SAMN01920539_verus_Koby		Pan troglodytes verus	X00100_Koby	Ptv	Western chimpanzee		7	-5.5	#9dced9	Pan_troglodytes_verus	NA	NA	NA	M	wild	1
+SAMEA4374770_troglodytes_Marlin		Pan troglodytes troglodytes	B025_Marlin	Ptt	Central chimpanzee		NA	NA	#4c5d4c	Pan_troglodytes_troglodytes	NA	NA	NA	F	wild	2
+SAMEA4374771_troglodytes_Negrita_EquatorialGuinea		Pan troglodytes troglodytes	B024_Negrita	Ptt	Central chimpanzee		NA	NA	#4c5d4c	Pan_troglodytes_troglodytes	Equatorial Guinea	Equatorial Guinea	Equatorial Guinea	F	wild	2
+SAMEA4374772_troglodytes_Blanquita_EquatorialGuinea		Pan troglodytes troglodytes	B023_Blanquita	Ptt	Central chimpanzee		1.5	10.5	#4c5d4c	Pan_troglodytes_troglodytes	Equatorial Guinea	Equatorial Guinea	Equatorial Guinea	F	wild	2
+SAMEA4374773_troglodytes_Tibe_EquatorialGuinea		Pan troglodytes troglodytes	B022_Tibe	Ptt	Central chimpanzee		1.5	10.5	#4c5d4c	Pan_troglodytes_troglodytes	Equatorial Guinea	Equatorial Guinea	Equatorial Guinea	M	wild	2
+SAMEA4374774_troglodytes_Yogui_EquatorialGuinea		Pan troglodytes troglodytes	B021_Yogui	Ptt	Central chimpanzee		1.5	10.5	#4c5d4c	Pan_troglodytes_troglodytes	Equatorial Guinea	Equatorial Guinea	Equatorial Guinea	M	wild	2
+SAMEA4374775_troglodytes_Noemie_EquatorialGuinea		Pan troglodytes troglodytes	A990_Noemie	Ptt	Central chimpanzee		1.5	10.5	#4c5d4c	Pan_troglodytes_troglodytes	Equatorial Guinea	Equatorial Guinea	Equatorial Guinea	F	wild	2
+SAMEA4374796_schweinfurthii_Coco_Zambia		Pan troglodytes schweinfurthii	B014_Coco	Pts	Central chimpanzee		1.5	10.5	#ffb35a	Pan_troglodytes_schweinfurthii	Zambia	Zambia	Zambia	F	wild	2
+SAMEA4374797_schweinfurthii_Athanga_DemocraticRepublicCongo		Pan troglodytes schweinfurthii	B013_Athanga	Pts	Central chimpanzee		0	20	#ffb35a	Pan_troglodytes_schweinfurthii	"Beni, North-Kivu, DRC"	DRC	DRC-North	M	wild	2
+SAMEA4374798_schweinfurthii_Washu_DemocraticRepublicCongo		Pan troglodytes schweinfurthii	B012_Washu	Pts	Central chimpanzee		0.5	29.5	#ffb35a	Pan_troglodytes_schweinfurthii	"Lubumbashi, DRC"	DRC	DRC-South	M	wild	2
+SAMEA4374794_schweinfurthii_Frederike_Rwanda		Pan troglodytes schweinfurthii	B011_Frederike	Pts	Central chimpanzee		-12	27	#ffb35a	Pan_troglodytes_schweinfurthii	Rwanda	Rwanda	Rwanda	F	wild	2
+SAMEA4374776_troglodytes_CindySAMEA4374776_troglodytes_Cindy		Pan troglodytes troglodytes	10964_Cindy	Ptt	Central chimpanzee		-2	30	#4c5d4c	Pan_troglodytes_troglodytes	NA	NA	NA	F	wild	2
+SAMEA4374777_troglodytes_Mirinda		Pan troglodytes troglodytes	11352_Mirinda	Ptt	Central chimpanzee				#4c5d4c	Pan_troglodytes_troglodytes	NA	NA	NA	F	wild	2
+SAMEA4374778_troglodytes_Ula_EquatorialGuinea		Pan troglodytes troglodytes	12311_Ula	Ptt	Central chimpanzee				#4c5d4c	Pan_troglodytes_troglodytes	Equatorial Guinea	Equatorial Guinea	Equatorial Guinea	F	wild	2
+SAMEA4374779_troglodytes_Lara_EquatorialGuinea		Pan troglodytes troglodytes	12320_Lara	Ptt	Central chimpanzee		1.5	10.5	#4c5d4c	Pan_troglodytes_troglodytes	Equatorial Guinea	Equatorial Guinea	Equatorial Guinea	F	wild	2
+SAMEA4374780_troglodytes_Luky_EquatorialGuinea		Pan troglodytes troglodytes	12348_Luky	Ptt	Central chimpanzee		1.5	10.5	#4c5d4c	Pan_troglodytes_troglodytes	Equatorial Guinea	Equatorial Guinea	Equatorial Guinea	M	wild	2
+SAMEA4374781_troglodytes_Gamin		Pan troglodytes troglodytes	12420_Gamin	Ptt	Central chimpanzee		1.5	10.5	#4c5d4c	Pan_troglodytes_troglodytes	NA	NA	NA	M	wild	2
+SAMEA4374782_troglodytes_Brigitta		Pan troglodytes troglodytes	13656_Brigitta	Ptt	Central chimpanzee		NA	NA	#4c5d4c	Pan_troglodytes_troglodytes	Reunion Island	Reunion Island	Reunion Island	F	wild	2
+SAMEA4374785_troglodytes_Alfred		Pan troglodytes troglodytes	11528_Alfred	Ptt	Central chimpanzee		NA	NA	#4c5d4c	Pan_troglodytes_troglodytes	NA	NA	NA	M	wild	2
+SAMEA4374799_schweinfurthii_DemocraticRepublicCongo		Pan troglodytes schweinfurthii	Mgbadolite	Pts	Central x Eastern chimpanzee hybrid		NA	NA	#bbc671	Pts/Ptt hybrid	DRC					
+SAMN01920504_LB502_paniscus		Pan paniscus	LB502	Ppan	Bonobo				#e9d7cb	Pan_paniscus						
+SAMN01920505_Hortense_paniscus		Pan paniscus	Hortense	Ppan	Bonobo				#e9d7cb	Pan_paniscus						
+SAMN01920506_Kosana_paniscus		Pan paniscus	Kosana	Ppan	Bonobo				#e9d7cb	Pan_paniscus						
+SAMN01920507_Dzeeta_paniscus		Pan paniscus	Dzeeta	Ppan	Bonobo				#e9d7cb	Pan_paniscus						
+SAMN01920508_Hermien_paniscus		Pan paniscus	Hermien	Ppan	Bonobo				#e9d7cb	Pan_paniscus						
+SAMN01920509_Desmond_paniscus		Pan paniscus	Desmond	Ppan	Bonobo				#e9d7cb	Pan_paniscus						
+SAMN01920510_Catherine_paniscus		Pan paniscus	Catherine	Ppan	Bonobo				#e9d7cb	Pan_paniscus						
+SAMN01920511_Kombote_paniscus		Pan paniscus	Kombote	Ppan	Bonobo				#e9d7cb	Pan_paniscus						
+SAMN01920512_Chipita_paniscus		Pan paniscus	Chipita	Ppan	Bonobo				#e9d7cb	Pan_paniscus						
+SAMN01920513_Bono_paniscus		Pan paniscus	Bono	Ppan	Bonobo				#e9d7cb	Pan_paniscus						
+SAMN01920514_Natalie_paniscus		Pan paniscus	Natalie	Ppan	Bonobo				#e9d7cb	Pan_paniscus						
+SAMN01920515_Salonga_paniscus		Pan paniscus	Salonga	Ppan	Bonobo				#e9d7cb	Pan_paniscus						
+SAMN01920516_paniscus_Kumbuka		Pan paniscus	Kumbuka	Ppan	Bonobo				#e9d7cb	Pan_paniscus						

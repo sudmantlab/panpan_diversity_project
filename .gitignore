@@ -2,6 +2,7 @@
 .DS_Store
 
 # Excluded data
+1.dataset/ncbi_exomes_shortreads/
 1.dataset/Coriell_apes_families.pdf
 1.dataset/Sample_infoNCBI.py
 1.dataset/Matt_old_tables/

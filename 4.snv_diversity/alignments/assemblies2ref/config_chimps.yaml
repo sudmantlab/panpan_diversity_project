@@ -1,0 +1,187 @@
+## GYPB_17Mya_window
+#region: 
+#  chrom: "chr3_hap1_hsa4" 
+#  start: 145551000
+#  end: 145552000
+
+#chr3_hap1_hsa4	145546728	145574615	GYPB
+#region: 
+#  chrom: "chr3_hap1_hsa4" 
+#  start: 145546728
+#  end: 145574615
+
+#chr3_hap1_hsa4  145422074       145464506       GYPE
+region: 
+  chrom: "chr3_hap1_hsa4" 
+  start: 145422074
+  end: 145464506
+
+#chr3_hap1_hsa4  145769638       145813288       GYPA
+region: 
+  chrom: "chr3_hap1_hsa4" 
+  start: 145546728
+  end: 145574615
+
+#chr3_hap1_hsa4	145031136	145155510	FREM3
+
+
+inputs:
+  population_map: "populations.csv" # Or the full path if it's elsewhere
+
+output:
+  main_dir: "GYPE_chimps"  # Main results directory
+
+samples:
+  AG06939_13_hap1:
+    fasta: "ragtag_mPanTro3_all/AG06939_13.hap1.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/AG06939_13.hap1_mPanTro3.paf"
+  AG06939_13_hap2:
+    fasta: "ragtag_mPanTro3_all/AG06939_13.hap2.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/AG06939_13.hap2_mPanTro3.paf"
+  AG16618_12_hap1:
+    fasta: "ragtag_mPanTro3_all/AG16618_12.hap1.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/AG16618_12.hap1_mPanTro3.paf"
+  AG16618_12_hap2:
+    fasta: "ragtag_mPanTro3_all/AG16618_12.hap2.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/AG16618_12.hap2_mPanTro3.paf"
+  AG18353_9_hap1:
+    fasta: "ragtag_mPanTro3_all/AG18353_9.hap1.chr.fasta"
+    paf: "ragtag_mPansTro3_all/all2ref_noeqx/AG18353_9.hap1_mPanTro3.paf"
+  AG18353_9_hap2:
+    fasta: "ragtag_mPanTro3_all/AG18353_9.hap2.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/AG18353_9.hap2_mPanTro3.paf"
+  AG18354_5_hap1:
+    fasta: "ragtag_mPanTro3_all/AG18354_5.hap1.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/AG18354_5.hap1_mPanTro3.paf"
+  AG18354_5_hap2:
+    fasta: "ragtag_mPanTro3_all/AG18354_5.hap2.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/AG18354_5.hap2_mPanTro3.paf"
+  AG18355_8_hap1:
+    fasta: "ragtag_mPanTro3_all/AG18355_8.hap1.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/AG18355_8.hap1_mPanTro3.paf"
+  AG18355_8_hap2:
+    fasta: "ragtag_mPanTro3_all/AG18355_8.hap2.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/AG18355_8.hap2_mPanTro3.paf"
+  AG18356_6_hap1:
+    fasta: "ragtag_mPanTro3_all/AG18356_6.hap1.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/AG18356_6.hap1_mPanTro3.paf"
+  AG18356_6_hap2:
+    fasta: "ragtag_mPanTro3_all/AG18356_6.hap2.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/AG18356_6.hap2_mPanTro3.paf"
+  AG18357_3_hap1:
+    fasta: "ragtag_mPanTro3_all/AG18357_3.hap1.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/AG18357_3.hap1_mPanTro3.paf"
+  AG18357_3_hap2:
+    fasta: "ragtag_mPanTro3_all/AG18357_3.hap2.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/AG18357_3.hap2_mPanTro3.paf"
+  AG18358_4_hap1:
+    fasta: "ragtag_mPanTro3_all/AG18358_4.hap1.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/AG18358_4.hap1_mPanTro3.paf"
+  AG18358_4_hap2:
+    fasta: "ragtag_mPanTro3_all/AG18358_4.hap2.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/AG18358_4.hap2_mPanTro3.paf"
+  AG18359_7_hap1:
+    fasta: "ragtag_mPanTro3_all/AG18359_7.hap1.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/AG18359_7.hap1_mPanTro3.paf"
+  AG18359_7_hap2:
+    fasta: "ragtag_mPanTro3_all/AG18359_7.hap2.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/AG18359_7.hap2_mPanTro3.paf"
+  AG18360_11_hap1:
+    fasta: "ragtag_mPanTro3_all/AG18360_11.hap1.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/AG18360_11.hap1_mPanTro3.paf"
+  AG18360_11_hap2:
+    fasta: "ragtag_mPanTro3_all/AG18360_11.hap2.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/AG18360_11.hap2_mPanTro3.paf"
+  AG18361_10_hap1:
+    fasta: "ragtag_mPanTro3_all/AG18361_10.hap1.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/AG18361_10.hap1_mPanTro3.paf"
+  AG18361_10_hap2:
+    fasta: "ragtag_mPanTro3_all/AG18361_10.hap2.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/AG18361_10.hap2_mPanTro3.paf"
+ # mPanTro3_hap1:
+  #  fasta: "ragtag_mPanTro3_all/mPanTro3.hap1.chr.fasta"
+   # paf: "ragtag_mPanTro3_all/all2ref_noeqx/mPanTro3.hap1_mPanTro3.paf"
+  #mPanTro3_hap2:
+   # fasta: "ragtag_mPanTro3_all/mPanTro3.hap2.chr.fasta"
+   # paf: "ragtag_mPanTro3_all/all2ref_noeqx/mPanTro3.hap2_mPanTro3.paf"
+  PR00115_hap1:
+    fasta: "ragtag_mPanTro3_all/PR00115.hap1.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/PR00115.hap1_mPanTro3.paf"
+  PR00115_hap2:
+    fasta: "ragtag_mPanTro3_all/PR00115.hap2.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/PR00115.hap2_mPanTro3.paf"
+  PR00496A_hap1:
+    fasta: "ragtag_mPanTro3_all/PR00496A.hap1.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/PR00496A.hap1_mPanTro3.paf"
+  PR00496A_hap2:
+    fasta: "ragtag_mPanTro3_all/PR00496A.hap2.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/PR00496A.hap2_mPanTro3.paf"
+  PR00512_hap1:
+    fasta: "ragtag_mPanTro3_all/PR00512.hap1.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/PR00512.hap1_mPanTro3.paf"
+  PR00512_hap2:
+    fasta: "ragtag_mPanTro3_all/PR00512.hap2.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/PR00512.hap2_mPanTro3.paf"
+  PR00834_hap1:
+    fasta: "ragtag_mPanTro3_all/PR00834.hap1.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/PR00834.hap1_mPanTro3.paf"
+  PR00834_hap2:
+    fasta: "ragtag_mPanTro3_all/PR00834.hap2.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/PR00834.hap2_mPanTro3.paf"
+  PR00838_hap1:
+    fasta: "ragtag_mPanTro3_all/PR00838.hap1.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/PR00838.hap1_mPanTro3.paf"
+  PR00838_hap2:
+    fasta: "ragtag_mPanTro3_all/PR00838.hap2.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/PR00838.hap2_mPanTro3.paf"
+  PR01008_hap1:
+    fasta: "ragtag_mPanTro3_all/PR01008.hap1.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/PR01008.hap1_mPanTro3.paf"
+  PR01008_hap2:
+    fasta: "ragtag_mPanTro3_all/PR01008.hap2.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/PR01008.hap2_mPanTro3.paf"
+  PR01009_hap1:
+    fasta: "ragtag_mPanTro3_all/PR01009.hap1.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/PR01009.hap1_mPanTro3.paf"
+  PR01009_hap2:
+    fasta: "ragtag_mPanTro3_all/PR01009.hap2.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/PR01009.hap2_mPanTro3.paf"
+  PR01010_hap1:
+    fasta: "ragtag_mPanTro3_all/PR01010.hap1.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/PR01010.hap1_mPanTro3.paf"
+  PR01010_hap2:
+    fasta: "ragtag_mPanTro3_all/PR01010.hap2.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/PR01010.hap2_mPanTro3.paf"
+  PR01100_hap1:
+    fasta: "ragtag_mPanTro3_all/PR01100.hap1.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/PR01100.hap1_mPanTro3.paf"
+  PR01100_hap2:
+    fasta: "ragtag_mPanTro3_all/PR01100.hap2.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/PR01100.hap2_mPanTro3.paf"
+  PR01223_hap1:
+    fasta: "ragtag_mPanTro3_all/PR01223.hap1.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/PR01223.hap1_mPanTro3.paf"
+  PR01223_hap2:
+    fasta: "ragtag_mPanTro3_all/PR01223.hap2.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/PR01223.hap2_mPanTro3.paf"
+  PR01225_hap1:
+    fasta: "ragtag_mPanTro3_all/PR01225.hap1.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/PR01225.hap1_mPanTro3.paf"
+  PR01225_hap2:
+    fasta: "ragtag_mPanTro3_all/PR01225.hap2.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/PR01225.hap2_mPanTro3.paf"
+  PR01227_hap1:
+    fasta: "ragtag_mPanTro3_all/PR01227.hap1.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/PR01227.hap1_mPanTro3.paf"
+  PR01227_hap2:
+    fasta: "ragtag_mPanTro3_all/PR01227.hap2.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/PR01227.hap2_mPanTro3.paf"
+  PR01228_hap1:
+    fasta: "ragtag_mPanTro3_all/PR01228.hap1.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/PR01228.hap1_mPanTro3.paf"
+  PR01228_hap2:
+    fasta: "ragtag_mPanTro3_all/PR01228.hap2.chr.fasta"
+    paf: "ragtag_mPanTro3_all/all2ref_noeqx/PR01228.hap2_mPanTro3.paf"
+
+ 
+

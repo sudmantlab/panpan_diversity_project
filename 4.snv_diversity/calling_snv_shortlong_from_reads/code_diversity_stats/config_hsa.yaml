@@ -1,0 +1,2 @@
+vcf: "hsa/hsa_hgdp.tgp.wholegenome_nonAFR.sorted.filtered.vcf.gz"
+samples: "hsa/nonAFR.txt"
