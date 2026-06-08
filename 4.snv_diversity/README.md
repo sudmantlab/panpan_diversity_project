@@ -1,8 +1,7 @@
 # SNV diversity
 
-SNV calling in human, chimpanzee, and bonobo from long-read (assembly-based) and
-short+long-read-based alignments, with downstream diversity and population structure analysis,
-and long-vs-short comparisons (refs: mPanTro3, mPanPan1, ht2t).
+Read-based and Assembly-based mapping, SNV calling, diversity and population structure analysis,
+and long-vs-short comparisons
 
 #### `alignments/`
 Alignments feeding SNV calling: `all2all.py` (assembly all-to-all), `assemblies2ref/`
