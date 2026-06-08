@@ -8,8 +8,9 @@
 1.dataset/Matt_old_tables/
 7.ARGs/output_supp_tables_EXTRA/
 
-# Unused script (kept local)
+# Unused scripts (kept local)
 4.snv_diversity/alignments/reads2ref/minimap2self.py
+4.snv_diversity/alignments/reads2ref/minimap2others.py
 
 # Unused chimps regional-tree extraction/visualization scripts (kept local)
 7.ARGs/run_singer_tskit_scripts/chimps/extract_regional_trees.py
