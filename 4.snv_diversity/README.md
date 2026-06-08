@@ -4,16 +4,17 @@ Read-based and Assembly-based mapping, SNV calling, diversity and population str
 and long-vs-short comparisons
 
 #### `alignments/`
-Alignments feeding SNV calling: `all2all.py` (assembly all-to-all), `assemblies2ref/`
-(`all2ref*.py` + per-species configs), `reads2ref/` (`winnowmap_*.py`).
+Alignments for SNV calling: assembly all-to-all (`all2all.py`), assemblies-to-ref (`all2ref*.py`
++ per-species configs), reads-to-ref (`winnowmap_*.py`).
 
 #### `calling_snv_long_from_assemblies/`
-SNVs from assembly alignments (`minimap2snvs.py`), merged to diploid genotypes (`haplo2diplo*.py`).
+SNVs called from assembly alignments (`minimap2snvs.py`), merged to diploid genotypes
+(`haplo2diplo*.py`).
 
 #### `calling_snv_shortlong_from_reads/`
-Joint SNV calling across BAMs (`allbams2snvs_*.py`); π/diversity via **pixy**
-(`code_diversity_stats/`); analysis & PCA (`snv_diversity*.R`, `snv_pca.R`,
-`stats_longread_vs_shortread.R`); PCA inputs (`input_pca_eigen/`); long-vs-short windowed π in
+SNV calling from BAMs (`allbams2snvs_*.py`); diversity stats code (`code_diversity_stats/`) and
+plots (`snv_diversity*.R`, `snv_pca.R`, `stats_longread_vs_shortread.R`); PCA inputs
+(`input_pca_eigen/`); long-vs-short windowed π in
 [`snv_pi_windows/`](calling_snv_shortlong_from_reads/snv_pi_windows) (see its README/METHODS).
 
 #### `chimp_bonobo_range_maps/`
