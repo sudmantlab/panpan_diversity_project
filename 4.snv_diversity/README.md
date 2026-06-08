@@ -4,8 +4,8 @@ Read-based and Assembly-based mapping, SNV calling, diversity and population str
 and long-vs-short comparisons
 
 #### `alignments/`
-Alignments for SNV calling: assembly all-to-all (`all2all.py`), assemblies-to-ref (`all2ref*.py`
-+ per-species configs), reads-to-ref (`winnowmap_*.py`).
+Alignments for SNV calling: assembly all-to-all (`all2all.py`), assemblies-to-ref
+(`all2ref*.py`, per-species configs), reads-to-ref (`winnowmap_*.py`).
 
 #### `calling_snv_long_from_assemblies/`
 SNVs called from assembly alignments (`minimap2snvs.py`), merged to diploid genotypes
