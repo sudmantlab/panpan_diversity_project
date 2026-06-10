@@ -1,0 +1,259 @@
+#!vim set syntax=python
+
+from Bio import SeqIO
+from Bio.Seq import Seq
+from Bio.SeqRecord import SeqRecord
+from Bio import AlignIO
+import pdb
+import pandas as pd
+import time
+import editdistance
+import numpy as np
+
+from readpaf import parse_paf
+
+#AG18354 AG18354_5.hap2
+ref_by_species = {"PTR":"AG18354_5.hap2", "human_579_plus":"100000_CHM13.pri"}
+
+ref_transcripts_name = {
+    "PTR_simple_CAT":"reference_annots/PTR_simple_CAT_AG16618_12.hap2.fa",
+    "HSA_simple_CAT": "reference_annots/HSA_simple_CHM13.fa",
+    "PTR_updated_annots":"reference_annots/PTR_updated_annots.fa",
+    "PTR_updated_annots_v2":"reference_annots/PTR_updated_annots_V2.fa",
+    "PTR_updated_annots_v3":"reference_annots/PTR_updated_annots_V3.fa"
+}
+
+
+CAT_ANNOTATIONS_BY_SPECIES = {"human_579_plus":"CAT_annotations/gyp_fusion_annotated_human_v1.tsv",
+                              "PTR":"CAT_annotations/gyp_fusion_annotated_v3.tsv"}
+
+rule all:
+    input:
+        "output/PTR/GYP/CAT_gene_annotation_analysis/PTR_simple_CAT/sliding_window_dists_to_ref.500.tsv",
+        "output/PTR/GYP/CAT_gene_annotation_analysis/HSA_simple_CAT/sliding_window_dists_to_ref.500.tsv",
+        "output/PTR/GYP/CAT_gene_annotation_analysis/PTR_updated_annots/sliding_window_dists_to_ref.500.tsv",
+        "output/PTR/GYP/CAT_gene_annotation_analysis/PTR_updated_annots_v2/sliding_window_dists_to_ref.500.tsv",
+        "output/PTR/GYP/CAT_gene_annotation_analysis/PTR_updated_annots_v3/sliding_window_dists_to_ref.500.tsv",
+        "output/PTR/GYP/CAT_gene_annotation_analysis/PTR_updated_annots_v3/merged_sliding_window_dists_to_ref.500.tsv",
+        "output/PTR/GYP/CAT_gene_annotation_analysis/HSA_simple_CAT/merged_sliding_window_dists_to_ref.500.tsv",
+        "output/human_579_plus/GYP/CAT_gene_annotation_analysis/HSA_simple_CAT/sliding_window_dists_to_ref.500.tsv",
+        "output/human_579_plus/GYP/CAT_gene_annotation_analysis/HSA_simple_CAT/merged_sliding_window_dists_to_ref.500.tsv",
+        "output/human_579_plus/GYP/CAT_gene_annotations/full_transcript_regions.annotated.fa"
+
+
+def get_windowed_pafs(wildcards):
+    inputs = []
+
+    fn = CAT_ANNOTATIONS_BY_SPECIES[wildcards.species]
+    t = pd.read_table(fn, header=0, sep="\t")
+    for i, row in t.iterrows():
+        sample = "{name}:{s}-{e}:{type}_{gene}".format(name=row['contig'], 
+                                                           s=row['gene_start'], 
+                                                           e=row['gene_end'],
+                                                           type=row["category"],
+                                                           gene=row['corrected_label'])
+        fn = "output/{species}/{loc}/CAT_gene_annotation_analysis/{ref}/windowed_mappings.{w}/{sample}.paf"
+        fn = fn.format(species = wildcards.species,
+                       loc = wildcards.loc, 
+                       sample = sample,
+                       w=wildcards.w,
+                       ref=wildcards.ref)
+        inputs.append(fn)
+
+    return inputs
+    
+rule merge_adjacent_windows:
+    input:
+        "output/{species}/{loc}/CAT_gene_annotation_analysis/{ref}/sliding_window_dists_to_ref.{w}.tsv"
+    output:
+        "output/{species}/{loc}/CAT_gene_annotation_analysis/{ref}/merged_sliding_window_dists_to_ref.{w}.tsv"
+    run:
+        t = pd.read_csv(input[0], header=0, sep="\t")
+        t[["gene_query", "gene_relstart", "s_e"]] = t['query'].str.split('@', expand=True)
+        t[["_sample", "rel_start_end", "info"]] = t['gene_query'].str.split(':', expand=True)
+        t[["query_start", "query_end"]] = t['rel_start_end'].str.split('-', expand=True)
+        t = t.drop(columns = ["_sample","info","rel_start_end","rel_start"])
+        t = t.sort_values(["gene_query","s","e"])
+        
+        #t = t[t['gene_query']=="HG02554.1.chr:365137-394515:fusion_GYPA"]
+        t['key_change'] = (t.target != t.target.shift()).cumsum()
+        #t['adjacent'] = t.s - t.e.shift()
+
+        clustered = t.groupby(['gene_query',
+                   "query_start",
+                   "query_end",
+                   'sample',
+                   'target', 
+                   'key_change']).agg({'s': 'min','e': 'max'}).reset_index()
+
+        #clustered = clustered[clustered['sample']=="HG02554.1.chr"].sort_values(["gene_query","s"])
+        clustered = clustered.sort_values(["gene_query","s"])
+        #pdb.set_trace()
+
+        #t['run_id'] = (key_change | dist_gap).cumsum()
+        #dist_gap = (df['start'] - df['end'].shift()) > 50 
+        #df['run_id'] = (df['start'] != df['window'].shift()).cumsum()
+        #group by query
+        clustered.to_csv(output[0], sep="\t", index=False)
+
+
+rule combine_mapped_info: 
+    input:
+        get_windowed_pafs
+    output:
+        #"output/{species}/{loc}/unspliced_alignment_analysis/sliding_window_dists_to_ref.{w}.all.paf",
+        #"output/{species}/{loc}/unspliced_alignment_analysis/sliding_window_dists_to_ref.{w}.tsv"
+        "output/{species}/{loc}/CAT_gene_annotation_analysis/{ref}/sliding_window_dists_to_ref.{w}.all.paf",
+        "output/{species}/{loc}/CAT_gene_annotation_analysis/{ref}/sliding_window_dists_to_ref.{w}.tsv"
+    run:
+        cmd = "cat {input} > {combined_paf}".format(input=" ".join(input), combined_paf = output[0])
+        shell(cmd)
+        t = parse_paf(open(output[0]), dataframe=True)
+        #remove the dummy which is used to double check it's a real fusion
+        #t = t[~t['target_name'].apply(lambda x: "DUMMY" in x)]
+
+        #clustered_df = bf.cluster(t, cols=["query_name", "target_start", "target_end"])
+        outrows = []
+        for group, all_items in t.groupby("query_name"):
+            items = all_items.nsmallest(1,'de')
+            next_best_items = all_items.nsmallest(2,'de')
+
+            if all_items.shape[0]>1:
+                next_best_de = next_best_items['de'].values[1] 
+            else: 
+                next_best_de = 1
+
+            query = items['query_name'].values[0] 
+            target = items['target_name'].values[0] 
+            de =  items['de'].values[0] 
+            sample, rel_coord, s_e = query.split("@")
+            gene = sample.split(":")[-1]
+            rel_info = sample.split(":")[1]
+            sample = sample.split(":")[0]
+            rel_start, rel_end = rel_info.split("-") 
+            #rel_start = rel_coord
+            s, e = s_e.split("-")
+
+            outrows.append({"query":query,
+                            "target":target, 
+                            "de":de,
+                            "next_best_de":next_best_de,
+                            "sample":sample,
+                            "gene":gene,
+                            "rel_start":int(rel_start),
+                            "rel_end":int(rel_end),
+                            "s":int(s),
+                            "e":int(e)})
+            
+        #HERE I need to check if you are the LAST window, and you DONT get ALL the way to the end of the locus, 
+        #then you need to be topped off!
+        # e.g AG16618_12.hap2:148371-179471:fusion_GYPE
+        t = pd.DataFrame(outrows)
+        #df['column_name'] = pd.to_numeric(df['column_name'], errors='coerce').astype('Int64')
+
+
+        #t['max_annot_end']=t.groupby(["sample","rel_start","rel_end"])["e"].transform("max")+t['rel_start']-1
+        #t['max_annot_end']=t.groupby(["sample","rel_start","rel_end"])["e"].transform("max")+t['rel_start']-1
+        t = t.sort_values(by=["sample","rel_start","s"])
+        #t_out['blocks'] = t_out.groupby(["sample","transcript_id","type"])["block"].transform("max")
+
+        t.to_csv(output[1], sep="\t", header=True, index=False)
+        #cat inputs
+
+    
+rule map_to_ref:
+    input:
+        #"output/{species}/{loc}/unspliced_alignment_seqs/windowed_seqs.{w}/{sample}.fa"
+        "output/{species}/{loc}/CAT_gene_annotation_analysis/{ref}/windowed_seqs.{w}/{sample}.fa"
+    output:
+        #"output/{species}/{loc}/unspliced_alignment_seqs/windowed_mappings.{w}/{sample}.paf"
+        "output/{species}/{loc}/CAT_gene_annotation_analysis/{ref}/windowed_mappings.{w}/{sample}.paf"
+    run:
+        #fn_transcripts =  unspliced_transcripts_by_species_loc[wildcards.species][wildcards.loc]
+
+        fn_ref = ref_transcripts_name[wildcards.ref]
+
+        cmd = """minimap2 -N 30 -x asm20 -c --eqx {fn_ref} {sample_seq}>{fout}"""
+        cmd = cmd.format(sample_seq = input[0],
+                         fn_ref = fn_ref,
+                         fout=output[0])
+        shell(cmd)
+
+#split {sample} into windows and output
+rule get_sequence:
+    input:
+        #"output/{species}/{loc}/minimap_pafs_combined/minimap_unspliced.best_matches.bed",
+        #"output/{species}/{loc}/unspliced_alignment_seqs/unspliced_alignment_best_seqs.fa"
+        "output/{species}/{loc}/CAT_gene_annotations/full_transcript_regions.annotated.fa",
+    output:
+        #"output/{species}/{loc}/unspliced_alignment_seqs/windowed_seqs.{w}/{sample}.fa"
+        "output/{species}/{loc}/CAT_gene_annotation_analysis/{ref}/windowed_seqs.{w}/{sample}.fa"
+    run:
+        fasta_sequences = SeqIO.parse(open(input[0]),'fasta') 
+        out_seqs = []
+        for fa in fasta_sequences:
+            sample = fa.id
+
+            curr_rel_coord_s = sample.split(":")[1].split("-")[0]
+            curr_rel_coord_e = sample.split(":")[1].split("-")[1]
+            #w = 2000
+            w = int(wildcards.w)
+            
+            start = 0
+            end = start + w
+            if sample == wildcards.sample:
+                while start<len(fa.seq):
+                    curr_id = "{sample}@{rel_coord_s}-{rel_coord_e}@{s}-{e}"
+                    curr_id = curr_id.format(sample=sample,
+                                             rel_coord_s = curr_rel_coord_s,
+                                             rel_coord_e = curr_rel_coord_e,
+                                             s=start,
+                                             e = end)
+                    out_seqs.append(SeqRecord(Seq(fa.seq[start:end]), 
+                                    id=curr_id,
+                                    description=""))
+                    start = end
+                    if start+2*w > len(fa.seq):
+                        end = len(fa.seq)
+                    else:
+                        #end = min(len(fa.seq), start+w)
+                        end = start+w
+        
+        SeqIO.write(out_seqs, output[0], "fasta")
+
+
+rule annotate_sequences:
+    input:
+        "output/{species}/{loc}/CAT_gene_annotations/full_transcript_regions.fa",
+    output:
+        "output/{species}/{loc}/CAT_gene_annotations/full_transcript_regions.annotated.fa"
+    run:
+
+        fasta_sequences = SeqIO.parse(open(input[0]),'fasta') 
+        out_seqs = []
+        fn_CAT = CAT_ANNOTATIONS_BY_SPECIES[wildcards.species]
+        t_CAT = pd.read_csv(fn_CAT, sep = "\t")
+        
+        fa_header_to_newname = {}
+        for i, row in t_CAT.iterrows():
+
+            header = "{name}:{s}-{e}".format(name=row['contig'], s=row['gene_start'], e=row['gene_end'])
+            new_header = "{name}:{s}-{e}:{type}_{gene}".format(name=row['contig'], 
+                                                               s=row['gene_start'], 
+                                                               e=row['gene_end'],
+                                                               type=row["category"],
+                                                               gene=row['corrected_label'])
+            fa_header_to_newname[header] =  new_header
+
+        for fa in fasta_sequences:
+            curr_sample, inf = fa.id.split(":")
+            new_name = fa_header_to_newname[fa.id]
+            print(curr_sample, new_name)
+            out_seqs.append(SeqRecord(Seq(fa.seq),
+                            id=new_name,
+                            description=""))
+
+        SeqIO.write(out_seqs, output[0], "fasta")
+
+
+
