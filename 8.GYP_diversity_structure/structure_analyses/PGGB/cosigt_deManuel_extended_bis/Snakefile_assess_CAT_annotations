@@ -1,0 +1,4 @@
+#!vim set syntax=python
+
+
+#gffread -F -W  -y - -g ./output/human_579_plus/GYP/sequences.fa ./CAT_annotations/gyp_human_annotated.gff3 >./output/CAT_annotation_analysis/HSA_spliced_transcripts.fa

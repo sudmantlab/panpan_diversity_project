@@ -1,0 +1,238 @@
+#!vim set syntax=python
+import pandas as pd
+import pdb 
+import tempfile
+import os
+import numpy as np
+
+ptr_samples = [s.rstrip() for s in open("ptr_samples.txt").readlines()]
+human_579_plus_samples = [s.rstrip() for s in open("human_579_plus_samples.txt").readlines()]
+
+
+samples_by_species = {"PTR":ptr_samples,
+                      "human_579_plus":human_579_plus_samples}
+
+agc_by_species = {"PTR":"/Users/petersudmant/Documents/science/sudmantlab/projects/panpan/resources/assemblies/agc/output/PTR.agc",
+                  "human_579_plus":"/Users/petersudmant/Documents/science/sudmantlab/projects/panpan/resources/assemblies/agc/output/human_579_plus_HG02554.1.2.agc"
+                  }
+
+fn_paf_pattern_by_species = {"PTR":"/Users/petersudmant/Documents/science/sudmantlab/projects/panpan/resources/assemblies/PTR/all2ref_noeqx/{sample}_mPanTro3.paf",
+                             "HSA":"/Users/petersudmant/Documents/science/sudmantlab/projects/panpan/resources/assemblies/HSA/all2ref_noeqx/{sample}_ht2t.paf",
+                             "HPRC_v2":"/Users/petersudmant/Documents/science/sudmantlab/projects/panpan/resources/assemblies/HSA_HPRCv2/paf_sample2t2t/{sample}.paf",
+                             "human_579_plus":"/Users/petersudmant/Documents/science/sudmantlab/projects/panpan/resources/assemblies/human_579_plus_HG02554.1.2/paf_sample2t2t/{sample}.paf"}
+
+
+HSA_UCSC_to_NCBI  = {l.split("\t")[11]:l.split("\t")[8] for l in open("/Users/petersudmant/Documents/science/sudmantlab/projects/panpan/resources/annotations/chrom_correspondance_T2T-CHM13v2.0.tsv").readlines()}
+HSA_NCBI_to_UCSC = {l.split("\t")[8]:l.split("\t")[11] for l in open("/Users/petersudmant/Documents/science/sudmantlab/projects/panpan/resources/annotations/chrom_correspondance_T2T-CHM13v2.0.tsv").readlines()}
+
+
+ref_coords_by_species = {
+    "PTR":{
+        "GYP":{"contig":"chr3_hap1_hsa4",
+               "start":145167459,
+               "end":146036838},
+        "HBA2":{"contig":"chr18_hap1_hsa16",
+                "start":2499465,
+                "end":2517570}
+    },
+    "human_579_plus":{
+        "GYP":{"contig":"chr4", 
+               "start":147017500,
+               "end":147569044},
+        "HBA2":{"contig":"chr16",
+                "start":165271,
+                "end":175949}
+    }
+}
+
+
+bespoke_seq_aln = {
+    "human_579_plus":{
+        "GYP":{
+            "PGGB_clusters_reord":[
+            "200260_HG00099.hap2@HG00099#2#CM087359.1:144171675-144741549:0-569875",  # HaploGroup5
+            "HG02554.2.chr@NC_060928.1:145779364-146330894:1-551531",  #HaploGroup1
+            "200334_HG03225.hap2@HG03225#2#JBHIIH010000004.1:145026272-145618329:0-592058",  # HaploGroup6
+            "210076_APR038.hap2@APR038#2#JBHMSF010000002.1:0-626781",  #HaploGroup7
+            "200134_HG02148.mat@HG02148#2#JAHAMF020000007.1:94378552-95049318:0-670767",      # HaploGroup4
+            "200083_HG01891.pat@HG01891#1#JAGYVO020000008.1:145848069-146289158:0-441090",    # HaploGroup3
+            "200332_HG03209.hap2@HG03209#2#CM087229.1:144342789-144790953:0-448165",   #HaploGroup2
+            "HG02554.1.chr@NC_060928.1:145315365-146249433:1-934069"  #HaploGroup8
+            ],
+            "PGGB_clusters_reord_alt":[
+            "200260_HG00099.hap2@HG00099#2#CM087359.1:144171675-144741549:0-569875",  # HaploGroup5
+            "HG02554.2.chr@NC_060928.1:145779364-146330894:1-551531",  #HaploGroup1
+            "200334_HG03225.hap2@HG03225#2#JBHIIH010000004.1:145026272-145618329:0-592058",  # HaploGroup6
+            "210076_APR038.hap2@APR038#2#JBHMSF010000002.1:0-626781",  #HaploGroup7
+            "200134_HG02148.mat@HG02148#2#JAHAMF020000007.1:94378552-95049318:0-670767",      # HaploGroup4
+            "200083_HG01891.pat@HG01891#1#JAGYVO020000008.1:145848069-146289158:0-441090",    # HaploGroup3
+            "200332_HG03209.hap2@HG03209#2#CM087229.1:144342789-144790953:0-448165",   #HaploGroup2
+            "HG02554.1.chr@NC_060928.1:145315365-146249433:1-934069"  #HaploGroup8
+            ],
+            "clustered_by_genes":[
+				"200415_NA19443.hap1@NA19443#1#JBHIIQ010000050.1:143878021-144319108",
+				"200332_HG03209.hap2@HG03209#2#CM087229.1:144342789-144790953",
+				#"200326_HG03130.hap2@HG03130#2#CM087268.1:145954697-146506635",
+				"200003_HG06807.pat@HG06807#1#CM101398.1:143803418-144355327",
+				"210020_APR008.hap2@APR008#2#JBHMUK010000018.1",
+				#"200260_HG00099.hap2@HG00099#2#CM087359.1:144171675-144741549",
+				#"200334_HG03225.hap2@HG03225#2#JBHIIH010000004.1:145026272-145618329",
+				"200339_HG03470.hap1@HG03470#1#CM091820.1:145245134-145837207",
+				"210076_APR038.hap2@APR038#2#JBHMSF010000002.1",
+               	"200134_HG02148.mat@HG02148#2#JAHAMF020000007.1:94378552-95049318",
+				"HG02554.1.chr@NC_060928.1:145315365-146249433" 
+
+            ]
+        }
+    },
+    "PTR":{
+        "GYP":{
+            "PGGB_clusters_reord":[
+                            "PR00115.hap2", #6
+                            "AG18355_8.hap1", #4
+                            "PR00834.hap1", #7
+                            "PR01009.hap1", #8
+                            "AG06939_13.hap1", #1
+                            "AG18353_9.hap2", #3
+                            "AG18356_6.hap2", #5
+                            "AG16618_12.hap2", #2
+                            "PR01009.hap2" #9
+                            ],
+            "clustered_by_genes":[
+				"PR01009.hap2@chr3_hap1_hsa4:143477113-143888423",
+				"AG18356_6.hap2@chr3_hap1_hsa4:145794232-146297935",
+				"AG16618_12.hap2@chr3_hap1_hsa4:146265807-146777581",
+				"PR01225.hap2@chr3_hap1_hsa4:141221456-141846815",
+				"PR00115.hap2@chr3_hap1_hsa4:142080878-142716260",
+				"PR01009.hap1@chr3_hap1_hsa4:143822180-144465824",
+				"PR00834.hap1@chr3_hap1_hsa4:144623958-145295336",
+				"PR00496A.hap1@chr3_hap1_hsa4:145173999-145906944",
+				#"PR00512.hap2@chr3_hap1_hsa4:143818473-144557763",
+				"PR01223.hap2@chr3_hap1_hsa4:140426166-141168549",
+				"PR01008.hap1@chr3_hap1_hsa4:145857262-146603161",
+				"PR00512.hap1@chr3_hap1_hsa4:142808548-143674286"
+				#"AG18354_5.hap2@chr3_hap1_hsa4:144959753-145829133"
+			]
+
+            }
+    }
+}
+
+
+
+exclude = ["210082_APR041.hap2"]
+
+rule all:
+    input:
+        "output/PTR/GYP/hap_alignments/simple_cluster_sequential.full.paf",
+        "output/PTR/HBA2/hap_alignments/simple_cluster_sequential.full.paf",
+        "output/human_579_plus/HBA2/hap_alignments/simple_cluster_sequential.full.paf",
+        "output/human_579_plus/GYP/hap_alignments/simple_cluster_sequential.full.paf",
+        "output/PTR/GYP/hap_alignments_bespoke/PGGB_clusters_reord.full.paf",
+        "output/human_579_plus/GYP/hap_alignments_bespoke/PGGB_clusters_reord.full.paf",
+        "output/human_579_plus/GYP/hap_alignments_bespoke/PGGB_clusters_reord_alt.full.paf",
+        "output/human_579_plus/GYP/hap_alignments_bespoke/clustered_by_genes.full.paf",
+        "output/PTR/GYP/hap_alignments_bespoke/clustered_by_genes.full.paf"
+        #"output/human_579_plus/GYP/sequences.fa.fai",
+        #"output/human_579_plus/HBA2/sequences.fa.fai"
+
+def get_simple_cluster_pafs(wildcards):
+    
+    min_diff = 500
+    fn_coords = "output/{species}/{loc}/sequences.fa.fai".format(species=wildcards.species,
+                                                                 loc=wildcards.loc)
+    if not os.path.exists(fn_coords):
+        return []
+
+    t = pd.read_csv(fn_coords, sep='\t', header=None, names=['contig', 'length', 'd1', 'd2', 'd3'])
+    t = t.sort_values(by="length")
+
+    #kill crazies
+    t = t[t.length<15000000]
+
+    diff = np.diff(t.length, prepend=0)
+    t = t[diff>min_diff]
+
+    inputs = []
+    prev_sample = ""
+    
+    for i, row in t.iterrows():
+        sample=row['contig'].split("@")[0]
+        if prev_sample != "":
+            fn = "output/{species}/{loc}/sequential_pafs/{s1}:{s2}.full.paf".format(species=wildcards.species,
+                                                                                 s1=prev_sample,
+                                                                                 s2=sample,
+                                                                                 loc=wildcards.loc)
+            inputs.append(fn)
+
+        prev_sample = sample
+    return inputs
+
+rule sequential_combine_pafs:
+    input:
+        "output/{species}/{loc}/sequences.fa.fai",
+        get_simple_cluster_pafs
+    output:
+        "output/{species}/{loc}/hap_alignments/simple_cluster_sequential.full.paf",
+        "output/{species}/{loc}/hap_alignments/simple_cluster_sequential.no_secondary.paf"
+    run:
+        fns = input[1:]
+        cmd = "cat {fn_in} >{fn_out}".format(fn_in=" ".join(fns), fn_out=output[0])
+        shell(cmd) 
+        fns_no_sec = [f.replace("full","no_secondary") for f in fns]
+        cmd = "cat {fn_in} >{fn_out}".format(fn_in=" ".join(fns_no_sec), fn_out=output[1])
+        shell(cmd) 
+        #"minimap2 -x asm20 -c --eqx -D -P -t 24 --dual=no {input[0]} {input[0]} > {output[0]}"
+
+
+
+rule seq_aln_paf:
+    input:
+        "output/{species}/{loc}/sample_fastas/{s1}.fa",
+        "output/{species}/{loc}/sample_fastas/{s2}.fa"
+    output:
+        "output/{species}/{loc}/sequential_pafs/{s1}:{s2}.full.paf",
+        "output/{species}/{loc}/sequential_pafs/{s1}:{s2}.no_secondary.paf"
+    run:
+        shell("minimap2 -x asm20 -c --eqx -D -P  {input[0]} {input[1]} >{output[0]}")
+        shell("minimap2 -x asm20 -c --eqx --secondary=no  {input[0]} {input[1]} >{output[1]}")
+        #AVA"minimap2 -x asm20 -c --eqx -D -P -t 24 --dual=no {input[0]} {input[0]} > {output[0]}"
+        #"minimap2 -x asm20 -c --eqx -D -P -t 24 --dual=no {input[0]} {input[0]} > {output[0]}"
+        #"minimap2 -x asm20 -c --eqx -D -P -t 24 {input[0]} {input[0]} > {output[0]}"
+        # "minimap2 -x asm20 -c --eqx -D -P -t 24 --dual=no {input[0]} {input[0]} > {output[0]}"
+        #"minimap2 -x asm20 -c --eqx --secondary=no  {input[0]} {input[1]} >{output[0]}"
+
+def get_bespoke_seq_pafs(wildcards):
+
+    samples = bespoke_seq_aln[wildcards.species][wildcards.loc][wildcards.name]
+    inputs = []
+    prev_sample = ""
+    for sample in samples:
+        sample=sample.split("@")[0]
+        if prev_sample  != "":
+            fn = "output/{species}/{loc}/sequential_pafs/{s1}:{s2}.full.paf".format(species=wildcards.species,
+                                                                                    loc=wildcards.loc,
+                                                                                    s1=prev_sample,
+                                                                                    s2=sample)
+            inputs.append(fn)
+
+        prev_sample = sample
+    return inputs
+
+rule bespoke_combine_pafs:
+    input:
+        "output/{species}/{loc}/sequences.fa.fai",
+        get_bespoke_seq_pafs
+    output:
+        "output/{species}/{loc}/hap_alignments_bespoke/{name}.full.paf",
+        "output/{species}/{loc}/hap_alignments_bespoke/{name}.no_secondary.paf"
+    run:
+        fns = input[1:]
+        cmd = "cat {fn_in} >{fn_out}".format(fn_in=" ".join(fns), fn_out=output[0])
+        shell(cmd) 
+        fns_no_sec = [f.replace("full","no_secondary") for f in fns]
+        cmd = "cat {fn_in} >{fn_out}".format(fn_in=" ".join(fns_no_sec), fn_out=output[1])
+        shell(cmd) 
+        #"minimap2 -x asm20 -c --eqx -D -P -t 24 --dual=no {input[0]} {input[0]} > {output[0]}"
+
+

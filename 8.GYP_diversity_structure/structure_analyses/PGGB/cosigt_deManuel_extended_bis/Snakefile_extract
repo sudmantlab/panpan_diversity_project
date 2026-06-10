@@ -1,0 +1,254 @@
+#!vim set syntax=python
+import pandas as pd
+import pdb 
+import tempfile
+import os
+
+
+ptr_samples = [s.rstrip() for s in open("ptr_samples.txt").readlines()]
+human_579_plus_samples = [s.rstrip() for s in open("human_579_plus_samples.txt").readlines()]
+
+
+samples_by_species = {"PTR":ptr_samples,
+                      "human_579_plus":human_579_plus_samples}
+
+agc_by_species = {"PTR":"/Users/petersudmant/Documents/science/sudmantlab/projects/panpan/resources/assemblies/agc/output/PTR.agc",
+                  "human_579_plus":"/Users/petersudmant/Documents/science/sudmantlab/projects/panpan/resources/assemblies/agc/output/human_579_plus_HG02554.1.2.agc"
+                  }
+
+fn_paf_pattern_by_species = {"PTR":"/Users/petersudmant/Documents/science/sudmantlab/projects/panpan/resources/assemblies/PTR/all2ref_noeqx/{sample}_mPanTro3.paf",
+                             "HSA":"/Users/petersudmant/Documents/science/sudmantlab/projects/panpan/resources/assemblies/HSA/all2ref_noeqx/{sample}_ht2t.paf",
+                             "HPRC_v2":"/Users/petersudmant/Documents/science/sudmantlab/projects/panpan/resources/assemblies/HSA_HPRCv2/paf_sample2t2t/{sample}.paf",
+                             "human_579_plus":"/Users/petersudmant/Documents/science/sudmantlab/projects/panpan/resources/assemblies/human_579_plus_HG02554.1.2/paf_sample2t2t/{sample}.paf"}
+
+
+HSA_UCSC_to_NCBI  = {l.split("\t")[11]:l.split("\t")[8] for l in open("/Users/petersudmant/Documents/science/sudmantlab/projects/panpan/resources/annotations/chrom_correspondance_T2T-CHM13v2.0.tsv").readlines()}
+HSA_NCBI_to_UCSC = {l.split("\t")[8]:l.split("\t")[11] for l in open("/Users/petersudmant/Documents/science/sudmantlab/projects/panpan/resources/annotations/chrom_correspondance_T2T-CHM13v2.0.tsv").readlines()}
+
+
+ref_coords_by_species = {
+    "PTR":{
+        "GYP":{"contig":"chr3_hap1_hsa4",
+               "start":145167459,
+               "end":146036838},
+        "HBA2":{"contig":"chr18_hap1_hsa16",
+                "start":2499465,
+                "end":2517570}
+    },
+    "human_579_plus":{
+        "GYP":{"contig":"chr4", 
+               "start":147017500,
+               "end":147569044},
+        "HBA2":{"contig":"chr16",
+                "start":165271,
+                "end":175949}
+    }
+}
+
+
+
+
+rule all:
+    input:
+        "output/PTR/GYP/sequences.fa.fai",
+        "output/PTR/HBA2/sequences.fa.fai",
+        "output/human_579_plus/GYP/sequences.fa.fai",
+        "output/human_579_plus/HBA2/sequences.fa.fai"
+        
+checkpoint make_fai:
+    input:
+        "output/{species}/{loc}/sequences.fa"
+    output:
+        "output/{species}/{loc}/sequences.fa.fai"
+    shell:
+        "samtools faidx {input[0]}"
+
+
+def get_fasta_inputs(wildcards):
+    inputs = []
+    
+    fn_coords = "output/{species}/{loc}/sample_coords.txt".format(species=wildcards.species,
+                                                                  loc=wildcards.loc)
+    if not os.path.exists(fn_coords):
+        return []
+    t = pd.read_csv(fn_coords, sep='\t', header=None, names=['contig', 'start', 'end', 'sample','strand'])
+    for i, row in t.iterrows():
+        sample=row['sample']
+        inputs.append("output/{species}/{loc}/sample_fastas/{sample}.fa".format(species=wildcards.species,
+                                                                                loc = wildcards.loc,
+                                                                                sample=sample))
+    return inputs
+
+rule combine_fastas:
+    input:
+        "output/{species}/{loc}/sample_coords.txt",
+        get_fasta_inputs
+    output:
+        "output/{species}/{loc}/sequences.fa"
+    run:
+        cmd = "cat {inputs} > {output}".format(inputs=" ".join(input[1:]), output=output[0])
+        shell(cmd)
+
+rule get_fasta:
+    input:
+        "output/{species}/{loc}/sample_coords.txt"
+    output:
+        "output/{species}/{loc}/sample_fastas/{sample}.fa"
+    run:
+        cmd = ("""~/Documents/science/programs/agc-3.2_x64_mac/agc """
+               """getctg """
+               """{fn_agc} """
+               """{coord_fetches} | sed "s/>/>{sample}@/g" >{fn_out}""")
+
+        cmd_rc = ("""~/Documents/science/programs/agc-3.2_x64_mac/agc """
+                  """getctg """
+                  """{fn_agc} """
+                  """{coord_fetches} | sed "s/>/>{sample}@/g" | """
+                  """ seqtk seq -r >{fn_out}""")
+
+        #for revcomp pipe to seqtka
+        #seqtk seq -r
+        t = pd.read_csv(input[0], sep='\t', header=None, names=['contig', 'start', 'end', 'sample','strand'])
+        coord_fetches = []
+        coord_fetches_swap = []
+        contig_fetches = []
+        t = t[t['sample']==wildcards.sample]
+        contig = t['contig'].values[0]
+        start = t['start'].values[0]
+        end = t['end'].values[0]
+        strand=t['strand'].values[0]
+        sample=t['sample'].values[0]
+        addition = ".chr"
+        if wildcards.species=="HPRC_v2" or wildcards.species=="human_579_plus":
+            addition = ""
+        coord_fetches.append("{contig}@{sample}{addition}:{s}-{e}".format(sample=sample,
+                                                                    contig=contig,
+                                                                    s=start,
+                                                                    e=end,
+                                                                    addition=addition))
+        coord_fetches_swap.append("{sample}{addition}@{contig}:{s}-{e}".format(sample=sample,
+                                                                    contig=contig,
+                                                                    s=start,
+                                                                    e=end,
+                                                                    addition=addition))
+        contig_fetches.append("{contig}@{sample}{addition}".format(sample=sample,
+                                                                    contig=contig,
+                                                                    addition=addition))
+        ##this is in a loop because it CAN be used to do a multiple sequence extraction, tho that is broken w/ this dumb agc
+        #for i, row in t.iterrows():
+        #    contig = row['contig']
+        #    start = row['start']
+        #    end = row['end']
+        #    sample=row['sample']
+        #    strand=row['strand']
+        #    if sample==wildcards.sample:
+        #        addition = ".chr"
+        #        if wildcards.species=="HPRC_v2" or wildcards.species=="human_579_plus":
+        #            addition = ""
+        #        coord_fetches.append("{contig}@{sample}{addition}:{s}-{e}".format(sample=sample,
+        #                                                                    contig=contig,
+        #                                                                    s=start,
+        #                                                                    e=end,
+        #                                                                    addition=addition))
+        #        coord_fetches_swap.append("{sample}{addition}@{contig}:{s}-{e}".format(sample=sample,
+        #                                                                    contig=contig,
+        #                                                                    s=start,
+        #                                                                    e=end,
+        #                                                                    addition=addition))
+        #        contig_fetches.append("{contig}@{sample}{addition}".format(sample=sample,
+        #                                                                    contig=contig,
+        #                                                                    addition=addition))
+        run_cmd = cmd if strand == "+" else cmd_rc
+        print(strand)
+        run_cmd = run_cmd.format(contig=contig,
+                             sample=wildcards.sample,
+                             coord_fetches = " ".join(coord_fetches),
+                             fn_agc=agc_by_species[wildcards.species],
+                             fn_out=output[0])
+        #print(run_cmd)
+        #print (wildcards.sample)
+        if wildcards.sample in ["HG02554.1.chr","HG02554.2.chr"]:
+            with tempfile.NamedTemporaryFile(mode='w+t', delete=True, dir="{p}/tmp/".format(p=os.getcwd())) as tmp_named_file:
+                run_cmd = cmd.format(contig=contig,
+                                     sample=wildcards.sample,
+                                     coord_fetches = " ".join(contig_fetches),
+                                     fn_agc=agc_by_species[wildcards.species],
+                                     fn_out = tmp_named_file.name)
+                shell(run_cmd)
+                run_cmd = "samtools faidx {fn} {coords} >{fout}".format(fn = tmp_named_file.name,
+                                                                        coords =" ".join(coord_fetches_swap),
+                                                                        fout=output[0])
+                shell(run_cmd)
+        else:
+            shell(run_cmd)
+
+def get_sample_coords_inputs(wildcards):
+    inputs = []
+    for s in samples_by_species[wildcards.species]:
+        inputs.append("output/{species}/{loc}/sample_liftovers/{s}.paf".format(species=wildcards.species,
+                                                                               loc = wildcards.loc,
+                                                                               s=s))
+    return inputs
+
+checkpoint get_sample_coords:
+    input:
+        get_sample_coords_inputs
+    output:
+        "output/{species}/{loc}/sample_coords.txt"
+    run:
+        outrows = []
+        s = 0
+        e = 0
+        for f in input:
+            sample = f.replace(".paf","").split("/")[-1]
+            t = pd.read_csv(f, sep="\t", header=None, names = ["qcontig","start","end","tcontig","match","strand"])
+            if t.shape[0] == 0:
+                continue
+            s = t['start'].min()
+            e = t['end'].max()
+            contig=t['qcontig'][0]
+            strand=t['strand'][0]
+            #not needed as AGC is in NCBI 
+            #if wildcards.species == "HSA":
+            #    contig = HSA_NCBI_to_UCSC[contig]
+            outrows.append({"contig":contig, "start":s, "end":e, "sample":sample, "strand":strand})
+
+        t = pd.DataFrame(outrows)
+        t.to_csv(output[0], sep="\t", index=False, header=False)
+
+rule liftover:
+    output:
+        "output/{species}/{loc}/sample_liftovers/{sample}.paf"
+    run:
+        #/Users/petersudmant/Documents/science/programs/minimap2/k8 /Users/petersudmant/Documents/science/programs/minimap2/misc/paftools.js liftover -l 1000 ../../../../../resources/assemblies/HSA/all2ref_noeqx/HG02554.1_ht2t.paf <(echo -e "NC_060928.1\\t147017500\\t147569044") | sort -k 2 | awk '{print $3-$2, $0}'
+
+        #fn_paf = "/Users/petersudmant/Documents/science/sudmantlab/projects/panpan/resources/assemblies/PTR/all2ref_noeqx/{sample}_mPanTro3.paf".format(sample=wildcards.sample)
+        fn_paf = fn_paf_pattern_by_species[wildcards.species].format(sample=wildcards.sample)
+
+        ref_coords = ref_coords_by_species[wildcards.species]
+        contig = ref_coords[wildcards.loc]['contig']
+        start = ref_coords[wildcards.loc]['start']
+        end = ref_coords[wildcards.loc]['end']
+
+        #if wildcards.species in [== "HSA" or wildcards.species=="HPRC_v2":
+        if wildcards.species in ["HSA","HPRC_v2","human_579_plus"]:
+            contig = HSA_UCSC_to_NCBI[contig]
+        #contig =  "chr3_hap1_hsa4"
+        #start = 145167459
+        #end = 146036838
+        
+        cmd = ("""/Users/petersudmant/Documents/science/programs/minimap2/k8 """
+             """/Users/petersudmant/Documents/science/programs/minimap2/misc/paftools.js """
+             """liftover -l 1000 """
+             """{fn_paf}  """
+             """ <(echo -e "{contig}\\t{s}\\t{e}") """
+             """>>{fout} """)
+        run_cmd = cmd.format(contig = contig,
+                             s = start,
+                             e = end,
+                             fn_paf = fn_paf,
+                             fout = output[0])
+        #print(run_cmd)
+        shell(run_cmd)
+        
+

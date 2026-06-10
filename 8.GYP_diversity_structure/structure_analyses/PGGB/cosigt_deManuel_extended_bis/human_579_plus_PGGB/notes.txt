@@ -1,0 +1,3 @@
+/global/scratch/users/psudmant/projects/panpan/gyp/hprc_v2/out/sequences.fa.a65af12.11fba48.3bf8f48.smooth.final.sort.extract.gfa.jaccard_dist.tsv
+
+all commands run herE: /global/scratch/users/psudmant/projects/panpan/gyp/do_pggb.sh

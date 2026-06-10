@@ -1,0 +1,1 @@
+Rscript ./cluster.r ./input/sequences.fa.a65af12.11fba48.8fd6b64.smooth.final.sort.extract.gfa.jaccard_dist.tsv ./output//sequences.fa.a65af12.11fba48.8fd6b64.smooth.final.sort.extract.gfa.jaccard_dist.clusters.json  automatic 100 1
