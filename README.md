@@ -3,6 +3,7 @@
 ### A Pan-pangenome illuminates complex structural variation and selection in humans, chimpanzees, and bonobos
 
 ![](chimp_peter.png)
+image credit Mogens Trolle http://www.mogenstrolle.com/primates
 
 A repo for code and methods related to analyses and figures. This code is deposited under the [GNU General Public License, version 3.0 (GPL-3.0)](https://web.archive.org/web/20160316065455/https://opensource.org/licenses/gpl-3.0). All code is written for python 3 or R version 4 unless otherwise indicated. There are no operating system requirements.
 
