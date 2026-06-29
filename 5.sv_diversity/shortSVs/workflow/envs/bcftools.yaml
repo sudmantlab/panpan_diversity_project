@@ -1,0 +1,6 @@
+name: pbsv
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - bcftools

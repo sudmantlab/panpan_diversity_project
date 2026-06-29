@@ -1,0 +1,477 @@
+---
+title: "Untitled"
+output: html_document
+date: "2025-06-17"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+
+library(SVbyEye)
+library(tidyverse)
+#library(rtracklayer)
+#install.packages("cowplot")
+#library(cowplot)
+#install.packages("gridExtra")
+library("gridExtra")
+library(GenomicRanges)
+library(scatterpie)
+library(jsonlite)
+
+# bonobo "#FF8C69",
+# chimp "#8A865D",
+# human "#5C608A"
+# 
+# pop_colors <- c(
+#   "Western" = "#9DCED9",
+#   "hybrid" = "#BBC671",
+#   "Eastern" = "#FFB35A",
+#   "Central" = "#4C5D4C"
+# )
+
+
+```
+
+```{r,fig.height=3,fig.width=6}
+#HBA2_locus
+# 
+# TO DO - only plot HIGH IMPACT SV genotype distributions
+#
+# locus = "HBA2_locus"
+#locus = "LILR_locus"
+#locus = "APOBEC_locus"
+locus = "KIR2D_locus"
+# locus = "C4A_locus"
+
+
+all_locus_info =fromJSON("config.json", flatten=TRUE)
+curr_path = "output/"
+
+fn_paf = paste(curr_path, locus,"/aln.paf",sep="")
+fn_out = paste(curr_path,locus,"/", str_remove(locus, "_locus"), ".pdf",sep="")
+
+fn_HSA_genes = paste(curr_path,locus,"/HSA.genes.bed",sep="")
+fn_PTR_genes = paste(curr_path,locus,"/PTR.genes.bed",sep="")
+
+fn_all_events = "sv_impact_long.renamed.tsv"
+t_all_events = read.table(fn_all_events,header=T,sep="\t")
+
+fn_locus_info = paste(curr_path,locus,"/info.csv",sep="")
+t_locus_info = read.table(fn_locus_info,header=T,sep="\t")
+
+#paf.file <- system.file(fn_paf, package = "SVbyEye")
+paf.table <- readPaf(paf.file = fn_paf, include.paf.tags = TRUE, restrict.paf.tags = "cg")
+
+qmin=min(paf.table$q.start) #chimp
+qmax=max(paf.table$q.end) #chimp
+tmin=min(paf.table$t.start) #HSA 
+tmax=max(paf.table$t.end) #HSA
+
+#is this necessary?
+paf.table$t.name = (t_locus_info %>% filter(species=="HSA"))$contig #chr16
+paf.table$q.name = (t_locus_info %>% filter(species=="PTR"))$contig #"chr18_hap1_hsa16"
+
+HSA_contig = all_locus_info$loci[[locus]]$HSA$contig
+HSA_start = all_locus_info$loci[[locus]]$HSA$start
+HSA_end = all_locus_info$loci[[locus]]$HSA$end
+# 
+PTR_contig = all_locus_info$loci[[locus]]$PTR$contig
+PTR_start =all_locus_info$loci[[locus]]$PTR$start
+PTR_end = all_locus_info$loci[[locus]]$PTR$end
+
+HSA_offset = all_locus_info$loci[[locus]]$HSA$start
+  #(t_locus_info %>% filter(species=="HSA"))$start + tmin
+PTR_offset = all_locus_info$loci[[locus]]$PTR$start
+  #(t_locus_info %>% filter(species=="PTR"))$start + qmin
+
+###load human genes
+t.HSA_genes_tmp=read.table(fn_HSA_genes,header=FALSE, col.names=c("contig", "start", "end", "name", "score", "strand")) %>% 
+            mutate(start=start-HSA_offset,
+                   end=end-HSA_offset) %>%
+            filter(!(name %in% all_locus_info$loci[[locus]]$HSA_gene_exclude)) 
+t.HSA_genes_to_keep <- t.HSA_genes_tmp %>%
+  separate(name, into=c("gene_name", "transcript_id"), sep="-", remove = FALSE) %>%
+  distinct(name, gene_name) %>% 
+  slice_head(by=gene_name)
+t.HSA_genes <- t.HSA_genes_tmp %>%
+  filter(name %in% t.HSA_genes_to_keep$name)
+
+HSA_genes.gr <- GRanges(
+  seqnames = t.HSA_genes$contig,
+  ranges = IRanges(start = t.HSA_genes$start, end = t.HSA_genes$end),
+  strand = t.HSA_genes$strand,
+  score = t.HSA_genes$score,          # This becomes a metadata column
+  gene_name = t.HSA_genes$name,   # This also becomes a metadata column
+  fill = "gene"
+)
+
+###load PTR genes
+t.PTR_genes_tmp=read.table(fn_PTR_genes,header=FALSE, col.names=c("contig", "start", "end", "name", "score", "strand")) %>% 
+            mutate(start=start-PTR_offset,
+                   end=end-PTR_offset) %>%
+            filter(!(name %in% all_locus_info$loci[[locus]]$PTR_gene_exclude))
+t.PTR_genes_to_keep <- t.PTR_genes_tmp %>%
+  separate(name, into=c("gene_name", "transcript_id"), sep="-", remove = FALSE) %>%
+  distinct(name, gene_name) %>% 
+  slice_head(by=gene_name)
+t.PTR_genes <- t.PTR_genes_tmp %>%
+  filter(name %in% t.PTR_genes_to_keep$name)
+
+PTR_genes.gr <- GRanges(
+  seqnames = t.PTR_genes$contig,
+  ranges = IRanges(start = t.PTR_genes$start, end = t.PTR_genes$end),
+  strand = t.PTR_genes$strand,
+  score = t.PTR_genes$score,          # This becomes a metadata column
+  gene_name = t.PTR_genes$name,   # This also becomes a metadata column
+  fill = "gene"
+  )
+
+#t_all_events %>% filter(species=="human", chrom==HSA_contig)
+#make insertions 500bp
+t.HSA_events = t_all_events %>% 
+  filter(species=="human", chrom==HSA_contig, pos<=HSA_end, end>=HSA_start) %>%
+  mutate(start = pos-HSA_offset,
+         end = end-HSA_offset) %>%
+  arrange(start) %>%
+  mutate(end=ifelse(end==start,start+500,end)) %>%
+  filter(!(id %in% all_locus_info$loci$HBA2_locus$exclude_SVs)) %>%
+  #filter(id!="Sniffles2.DEL.22MF") %>%
+  mutate(i=row_number(),
+         p=allele_frequency,
+         q=1-allele_frequency) %>%
+  mutate(SV_name=paste("HSA",i)) %>%
+  arrange(-total_allele_count) %>%
+  mutate(plot_pie=row_number()<=3)
+
+#make insertions 500bp
+t.PTR_events = t_all_events %>% 
+  filter(species=="chimpanzee", chrom==PTR_contig, pos<=PTR_end, end>=PTR_start) %>%
+  mutate(start = pos-PTR_offset+qmin,
+         end=end-PTR_offset+qmin) %>%
+  arrange(start) %>%
+  mutate(end=ifelse(end==start,start+500,end)) %>%
+  filter(!(id %in% all_locus_info$loci$HBA2_locus$exclude_SVs)) %>%
+  mutate(i=row_number()) %>%
+  mutate(i=row_number(),
+         p=allele_frequency,
+         q=1-allele_frequency) %>%
+  mutate(SV_name=paste("PTR",i)) %>%
+  arrange(-total_allele_count) %>%
+  mutate(plot_pie=row_number()<=3)
+
+
+# ###load HSA SVs
+# t.HSA_events = read.table(fn_HSA_events,header=FALSE, col.names=c("contig", "start", "end", "type")) %>% 
+#             mutate(start=start-HSA_offset,
+#                    end=end-HSA_offset)
+# HSA_events.gr <- GRanges(
+#   seqnames = t.HSA_events$contig,
+#   ranges = IRanges(start = t.HSA_events$start, end = t.HSA_events$end),
+#   type = t.HSA_events$type   # This also becomes a metadata column
+# )
+# 
+# ###load PTR SVs
+# t.PTR_events = read.table(fn_PTR_events,header=FALSE, col.names=c("contig", "start", "end", "type")) %>% 
+#             mutate(start=start-PTR_offset,
+#                    end=end-PTR_offset)
+# PTR_events.gr <- GRanges(
+#   seqnames = t.PTR_events$contig,
+#   ranges = IRanges(start = t.PTR_events$start, end = t.PTR_events$end),
+#   type = t.PTR_events$type   # This also becomes a metadata column
+# )
+
+### plot
+plt1=plotMiro(paf.table = paf.table,color.palette = c("-"="grey","+"="grey"))
+#plt1=plotMiro(paf.table = paf.table, color.by = "identity")
+
+plt2 = addAnnotation(
+    ggplot.obj = plt1, annot.gr = HSA_genes.gr, coordinate.space = "target",
+    shape = "rectangle", 
+    annotation.level = 0.05,  
+    annotation.group = "gene_name",
+    fill.by = "fill",
+    color.palette=c("gene"= "black")
+
+)
+
+plt3 = addAnnotation(
+    ggplot.obj = plt2, annot.gr = PTR_genes.gr, coordinate.space = "query",
+    shape = "rectangle", 
+    annotation.level = 0.05,  
+    annotation.group = "gene_name", 
+    fill.by = "fill", 
+    color.palette=c("gene"= "black")
+)
+
+# plt4 = addAnnotation(
+#     ggplot.obj = plt3, annot.gr = HSA_events.gr, coordinate.space = "target",
+#     shape = "rectangle",
+#     annotation.level = 0.1
+# )
+# 
+# plt5 = addAnnotation(
+#     ggplot.obj = plt4, annot.gr = PTR_events.gr, coordinate.space = "query",
+#     shape = "rectangle",
+#     annotation.level = 0.1
+# )
+
+
+t.HSA_genes_label = t.HSA_genes %>% group_by(name) %>% summarize(loc = min(start)) %>% separate(name, into="name",sep="-")
+t.PTR_genes_label = t.PTR_genes %>% group_by(name) %>% summarize(loc = min(start)) %>% separate(name, into="name",sep="\\.")
+
+label_offset=800
+squish_factor = 5
+HSA_squish_factor = dim(t.HSA_events)[1]*2
+PTR_squish_factor = dim(t.PTR_events)[1]*2
+  
+gene_name_y_offset = .15
+event_y_offset = 0.2
+
+plt_SV = plt3+theme(legend.position="None")+
+  geom_segment(aes(x=start,xend=end,y=1-i/PTR_squish_factor-event_y_offset,yend=1-i/PTR_squish_factor-event_y_offset,color=svtype),size=1.5,data=t.PTR_events)+
+  geom_segment(aes(x=start,xend=end,y=2+i/HSA_squish_factor+event_y_offset,yend=2+i/HSA_squish_factor+event_y_offset,color=svtype),size=1.5,data=t.HSA_events)+
+  geom_text(aes(x=start-300,y=1-i/PTR_squish_factor-event_y_offset,color=svtype,label=i),size=3,data=t.PTR_events %>% filter(plot_pie==TRUE),hjust=1, show.legend = FALSE)+
+  geom_text(aes(x=start-300,y=2+i/HSA_squish_factor+event_y_offset,color=svtype,label=i),size=3,data=t.HSA_events %>% filter(plot_pie==TRUE),hjust=1, show.legend = FALSE)+
+  #geom_scatterpie(aes(x=end+tmin,y=i/5+0.05,group=id), data=t.PTR_events, cols=c("p","q"))+
+  geom_text(aes(x=loc+label_offset,y=2+gene_name_y_offset,label=name),data=t.HSA_genes_label,size=3,fontface = 'italic', show.legend = FALSE)+
+  geom_text(aes(x=loc+label_offset,y=1-gene_name_y_offset,label=name),data=t.PTR_genes_label,size=3,fontface = 'italic', show.legend = FALSE)+
+  ## for HBA (because it doesn't have DUP, which is orange)
+  # scale_color_manual(values=c("darkred","black", "blue"))
+  ## for KIR
+  scale_color_manual(values=c("darkred","orange", "black", "blue"))
+  #scale_color_manual(values=c("darkred","blue"))+
+  #theme(axis.text.x.bottom = element_blank(),
+  #     axis.text.x.top = element_blank())
+plt_SV
+#t.PTR_events  
+
+#ONLY PLOTTING PIE charts for non singletons
+mycols <- c("#0073C2FF", "#EFC000FF", "#868686FF", "#CD534CFF")
+data_formatted = rbind(t.PTR_events,t.HSA_events) %>%
+  filter(plot_pie==TRUE) %>%
+  #filter(total_allele_count>1) %>%
+  dplyr::select(p,q,id,species,i,SV_name) %>%
+  pivot_longer(cols=c("p","q"))
+
+g_pie = ggplot(data_formatted, aes(x = "", y = value, fill = name)) +
+  geom_bar(width = 1, stat = "identity", color = "white") +
+  coord_polar("y", start = 0)+
+  scale_fill_manual(values = mycols) +
+  theme_void()+
+  facet_wrap(~SV_name,ncol=3)+
+  theme(legend.position="None",drop=TRUE,scales="free")
+
+
+#pdf(fn_out,width=7,height=3)
+pdf(fn_out,width=13.5,height=4)
+#pdf(fn_out,width=9,height=4)
+#grid.arrange(plt_SV, g_pie, ncol=2, nrow = 2)
+grid.arrange(plt_SV,g_pie, ncol=2, widths=c(1, .4))
+dev.off()
+all_locus_info$loci[[locus]]
+
+# paf.table
+# qmin
+# tmin
+ggsave("legend.pdf", cowplot::get_legend(plt_SV+theme(legend.position="right")), width=3, height = 4)
+```
+```{r}
+mycols <- c("#0073C2FF", "#EFC000FF", "#868686FF", "#CD534CFF")
+
+# count.data <- data.frame(
+#   class = c("1st", "2nd", "3rd", "Crew"),
+#   n = c(325, 285, 706, 885),
+#   prop = c(14.8, 12.9, 32.1, 40.2)
+# )
+# count.data
+# 
+# ggplot(count.data, aes(x = "", y = prop, fill = class)) +
+#   geom_bar(width = 1, stat = "identity", color = "white") +
+#   coord_polar("y", start = 0)+
+#   #geom_text(aes(y = lab.ypos, label = prop), color = "white")+
+#   scale_fill_manual(values = mycols) +
+#   theme_void()
+# 
+data_formatted = rbind(t.PTR_events,t.HSA_events) %>%
+  dplyr::select(p,q,id,species,i,SV_name) %>%
+  pivot_longer(cols=c("p","q"))
+
+#g=ggplot(data_formatted)
+g_pie = ggplot(data_formatted, aes(x = "", y = value, fill = name)) +
+  geom_bar(width = 1, stat = "identity", color = "white") +
+  coord_polar("y", start = 0)+
+  #geom_text(aes(y = 0.25,x=1, label = i), color = "white")+
+  scale_fill_manual(values = mycols) +
+  theme_void()+
+  facet_wrap(SV_name~,ncol=2)+
+  #facet_wrap(~factor(SV_name, levels=c('50%','100%','150%','200%')))
+  #facet_wrap(SV_name~species,ncol=2)+
+  theme(legend.position="None",drop=TRUE,scales="free")
+  #facet_grid(species~i)
+g_pie
+# data_formatted = rbind(t.PTR_events,t.HSA_events) %>% 
+#   dplyr::select(allele_frequency,id,species) %>% 
+#   mutate(q=1-allele_frequency, p=allele_frequency) %>%
+#   mutate(x=runif(6))
+
+# g=ggplot(data_formatted)
+# g+geom_scatterpie(aes(x=x,y=x,group=id),cols=c("p","q"))+
+#   theme_void()
+qmin
+tmin
+```
+
+```{r,fig.height=2,fig.width=6}
+paf.table
+xmin=min(paf.table$q.start)
+xmax=max(paf.table$q.end)
+g=ggplot(t.PTR_events %>% mutate(i=row_number()))
+g=g+geom_segment(aes(x=start,xend=end,y=i,yend=i,color=type),size=5)+
+  theme_bw()+
+  coord_cartesian(xlim = c(xmin, xmax), ylim=c(0.5,3.5),expand = FALSE)+
+  theme(panel.grid=element_blank())+
+  theme(axis.text.y=element_blank())+
+  theme(legend.position="None")+
+  scale_y_continuous("")
+
+g
+#plot_grid(plt5+theme(legend.position="None"), g, label_size = 12)
+
+grid.arrange(plt5+theme(legend.position="None"),g, ncol=1, nrow = 2)
+             #layout_matrix = rbind(c(1,1), c(2,3)),
+             #widths = c(2.7), heights = c(0.2, 2.5))
+
+```
+```{}
+
+HSA_genes.gr <- import(fn_HSA_genes, format = "BED") 
+
+
+gene_spans_gr <- GRanges(
+  seqnames = seqnames(HSA_genes.gr),
+  ranges = IRanges(start = start(HSA_genes.gr), end = end(HSA_genes.gr)),
+  strand = strand(HSA_genes.gr),
+  mcols = mcols(HSA_genes.gr) # Keep original metadata if desired
+)
+
+unlist(HSA_genes.gr$blocks)
+
+test.gr <- GenomicRanges::GRanges(
+    seqnames = "hs1_dna",
+    ranges = IRanges::IRanges(
+        start = c(2000, 3000, 5000),
+        end = c(2500, 3600,6000)
+    ),
+    ID = "gene1"
+)
+
+#unlist(HSA_genes.gr)
+# bed12_content <- "chr1\t1000\t5000\tGeneA\t0\t+\t1000\t5000\t0,0,0\t2\t1000,500\t0,3500
+#                     chr2\t2000\t6000\tGeneB\t0\t-\t2000\t6000\t0,0,0\t3\t500,800,400\t0,1500,3600"
+# writeLines(bed12_content, "./example.bed12")
+
+# Load the BED12 file
+# The 'format = "BED"' argument is usually sufficient, as rtracklayer recognizes BED12 by its structure.
+#bed12_grl <- import("./example.bed12", format = "BED")
+
+
+
+```
+
+```{r}
+
+fn = "output/HBA2/HBA2.paf"
+paf.file <- system.file(fn, package = "SVbyEye")
+paf.table <- readPaf(paf.file = fn, include.paf.tags = TRUE, restrict.paf.tags = "cg")
+fn_out = "output/HBA2/HBA2.pdf"
+
+
+plt=plotMiro(paf.table = paf.table,color.palette = c("-"="grey","+"="grey"))
+#plt=plotMiro(paf.table = paf.table, color.by = "identity",perc.identity.breaks = c(90))
+
+
+plt1 <- addAnnotation(
+    ggplot.obj = plt, annot.gr = target.gr, shape = "rectangle",
+    coordinate.space = "target"
+)
+
+test.gr <- GenomicRanges::GRanges(
+    seqnames = "hs1_dna",
+    ranges = IRanges::IRanges(
+        start = c(2000, 3000, 5000),
+        end = c(2500, 3600,6000)
+    ),
+    ID = "gene1"
+)
+
+test.gr2 <- GenomicRanges::GRanges(
+    seqnames = "mPanTro3_v2.0_pri_dna",
+    ranges = IRanges::IRanges(
+        start = c(2000, 3000, 5000),
+        end = c(2500, 3600,6000)
+    ),
+    ID = "gene2"
+)
+## Add single gene annotation
+plt1 = addAnnotation(
+    ggplot.obj = plt, annot.gr = test.gr, coordinate.space = "target",
+    shape = "rectangle", annotation.group = "ID", fill.by = "ID",
+    annotation.level = 0.2
+)
+
+colors = setNames("black","gene2")
+  
+plt2 = addAnnotation(
+    ggplot.obj = plt1, 
+    annot.gr = test.gr2, 
+    coordinate.space = "query",
+    shape = "rectangle", 
+    annotation.group = "ID", 
+    fill.by = "ID",
+    annotation.level = 0.2,
+    color.palette = colors
+)
+
+target.SV <- as("hs1_dna:4000-8000", "GRanges")
+plt3 = addAnnotation(
+    ggplot.obj = plt2, 
+    annot.gr = target.SV, 
+    shape = "rectangle",
+    coordinate.space = "target",
+    annotation.level = 0.1, 
+    annotation.label = "test"
+)
+
+query.SV <- as("mPanTro3_v2.0_pri_dna:4000-12000", "GRanges")
+plt4 = addAnnotation(
+    ggplot.obj = plt3, annot.gr = query.SV, shape = "rectangle",
+    coordinate.space = "query",
+    annotation.level = 0.1
+)
+
+pdf(fn_out,width=6,height=3)
+print(plt4)
+dev.off()
+#chr16:166047-169851
+#target.gr <- as("hs1_dna:4000-8000", "GRanges")
+# lifted.annot.gr <- liftRangesToAlignment(
+#     paf.table = paf.table,
+#     gr = target.gr,
+#     direction = "target2query"
+# )
+# 
+# #a09c7b
+# #7c7ea1
+?addAnnotation
+
+#addAlignments(ggplot.obj = plt, paf.table = paf.table, linetype = "solid")
+#addAlignments(ggplot.obj = plt, paf.table = paf.table[1,], linetype = "solid")
+    
+#plotMiro(paf.table = paf.table, color.by = "identity")
+
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

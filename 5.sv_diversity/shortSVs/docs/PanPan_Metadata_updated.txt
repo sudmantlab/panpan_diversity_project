@@ -1,0 +1,61 @@
+genomeName	Species	SpeciesCode	CommonName	NewName	Birth	cell	type	id	colors	sex
+PR00249	Pan paniscus	Ppan	Bonobo	PR00249 (Bonobo)	captive	LCL	hap1	PR00249.hap1	#e9d7cb	male
+PR00249	Pan paniscus	Ppan	Bonobo	PR00249 (Bonobo)	captive	LCL	hap2	PR00249.hap2	#e9d7cb	male
+PR00366	Pan paniscus	Ppan	Bonobo	PR00366 (Bonobo)	captive	LCL	hap1	PR00366.hap1	#e9d7cb	female
+PR00366	Pan paniscus	Ppan	Bonobo	PR00366 (Bonobo)	captive	LCL	hap2	PR00366.hap2	#e9d7cb	female
+PR00445	Pan paniscus	Ppan	Bonobo	PR00445 (Bonobo)	captive	LCL	hap1	PR00445.hap1	#e9d7cb	female
+PR00445	Pan paniscus	Ppan	Bonobo	PR00445 (Bonobo)	captive	LCL	hap2	PR00445.hap2	#e9d7cb	female
+PR00251	Pan paniscus	Ppan	Bonobo	PR00251 (Bonobo)	captive	LCL	hap1	PR00251.hap1	#e9d7cb	male
+PR00251	Pan paniscus	Ppan	Bonobo	PR00251 (Bonobo)	captive	LCL	hap2	PR00251.hap2	#e9d7cb	male
+PR00496A	Pan troglodytes troglodytes	Ptt	Central chimpanzee	PR00496 	wild	LCL	hap1	PR00496A.hap1	#4c5d4c	male
+PR00496A	Pan troglodytes troglodytes	Ptt	Central chimpanzee	PR00496 (Central chimpanzee)	wild	LCL	hap2	PR00496A.hap2	#4c5d4c	male
+PR00115	Pan troglodytes troglodytes	Ptt	Central chimpanzee	PR00115 (Central chimpanzee)	captive	Fibroblast	hap1	PR00115.hap1	#4c5d4c	male
+PR00115	Pan troglodytes troglodytes	Ptt	Central chimpanzee	PR00115 (Central chimpanzee)	captive	Fibroblast	hap2	PR00115.hap2	#4c5d4c	male
+PR00512	Pan troglodytes verus	Ptv	Western chimpanzee	PR00512 (Western chimpanzee)	wild	Fibroblast	hap1	PR00512.hap1	#9dced9	female
+PR00512	Pan troglodytes verus	Ptv	Western chimpanzee	PR00512 (Western chimpanzee)	wild	Fibroblast	hap2	PR00512.hap2	#9dced9	female
+PR00834	Pan troglodytes troglodytes	Ptv x Ptt	Western x Central hybrid	PR00834 (hybrid western x central chimpanzee)	captive	LCL	hap1	PR00834.hap1	#bbc671	female
+PR00834	Pan troglodytes troglodytes	Ptv x Ptt	Western x Central hybrid	PR00834 (hybrid western x central chimpanzee)	captive	LCL	hap2	PR00834.hap2	#bbc672	female
+PR00838	Pan troglodytes troglodytes	Ptv x Ptt	Western x Central hybrid	PR00838  (hybrid western x central chimpanzee)	captive	LCL	hap1	PR00838.hap1	#bbc673	female
+PR00838	Pan troglodytes troglodytes	Ptv x Ptt	Western x Central hybrid	PR00838  (hybrid western x central chimpanzee)	captive	LCL	hap2	PR00838.hap2	#bbc674	female
+PR01100	Pan troglodytes verus	Ptv	Western chimpanzee	PR01100 (Western chimpanzee)	captive	LCL	hap1	PR01100.hap1	#9dced9	male
+PR01100	Pan troglodytes verus	Ptv	Western chimpanzee	PR01100 (Western chimpanzee)	captive	LCL	hap2	PR01100.hap2	#9dced9	male
+PR01223	Pan troglodytes verus	Ptv	Western chimpanzee	PR01223 (Western chimpanzee)	wild	LCL	hap1	PR01223.hap1	#9dced9	male
+PR01223	Pan troglodytes verus	Ptv	Western chimpanzee	PR01223 (Western chimpanzee)	wild	LCL	hap2	PR01223.hap2	#9dced9	male
+PR01225	Pan troglodytes verus	Ptv	Western chimpanzee	PR01225 (Western chimpanzee)	wild	LCL	hap1	PR01225.hap1	#9dced9	male
+PR01225	Pan troglodytes verus	Ptv	Western chimpanzee	PR01225 (Western chimpanzee)	wild	LCL	hap2	PR01225.hap2	#9dced9	male
+PR01227	Pan troglodytes verus	Ptv	Western chimpanzee	PR01227 (Western chimpanzee)	wild	LCL	hap1	PR01227.hap1	#9dced9	male
+PR01227	Pan troglodytes verus	Ptv	Western chimpanzee	PR01227 (Western chimpanzee)	wild	LCL	hap2	PR01227.hap2	#9dced9	male
+PR01228	Pan troglodytes verus	Ptv	Western chimpanzee	PR01228 (Western chimpanzee)	wild	LCL	hap1	PR01228.hap1	#9dced9	male
+PR01228	Pan troglodytes verus	Ptv	Western chimpanzee	PR01228 (Western chimpanzee)	wild	LCL	hap2	PR01228.hap2	#9dced9	male
+PR01008	Pan troglodytes schweinfurthii	Pts	Eastern chimpanzee	PR01008 (Eastern chimpanzee)	wild	Fibroblast	hap1	PR01008.hap1	#ffb35a	female
+PR01008	Pan troglodytes schweinfurthii	Pts	Eastern chimpanzee	PR01008 (Eastern chimpanzee)	wild	Fibroblast	hap2	PR01008.hap2	#ffb35a	female
+PR01009	Pan troglodytes schweinfurthii	Pts	Eastern chimpanzee	PR01009 (Eastern chimpanzee)	wild	Fibroblast	hap1	PR01009.hap1	#ffb35a	male
+PR01009	Pan troglodytes schweinfurthii	Pts	Eastern chimpanzee	PR01009 (Eastern chimpanzee)	wild	Fibroblast	hap2	PR01009.hap2	#ffb35a	male
+PR01010	Pan troglodytes schweinfurthii	Pts	Eastern chimpanzee	PR01010 (Eastern chimpanzee)	captive	Fibroblast	hap1	PR01010.hap1	#ffb35a	female
+PR01010	Pan troglodytes schweinfurthii	Pts	Eastern chimpanzee	PR01010 (Eastern chimpanzee)	captive	Fibroblast	hap2	PR01010.hap2	#ffb35a	female
+AG05253_1		unknown					hap1	AG05253_1.hap1		
+AG05253_1		unknown					hap2	AG05253_1.hap2		
+AG18352_2	Pan troglodytes?	unknown					dip	AG18352_2.dip		
+AG18352_2	Pan troglodytes?	unknown					dip	AG18352_2.dip		
+AG18357_3		unknown					hap1	AG18357_3.hap1		
+AG18357_3		unknown					hap2	AG18357_3.hap2		
+AG18358_4		unknown					hap1	AG18358_4.hap1		
+AG18358_4		unknown					hap2	AG18358_4.hap2		
+AG18354_5		unknown					hap1	AG18354_5.hap1		
+AG18354_5		unknown					hap2	AG18354_5.hap2		
+AG18356_6		unknown					hap1	AG18356_6.hap1		
+AG18356_6		unknown					hap2	AG18356_6.hap2		
+AG18359_7		unknown					hap1	AG18359_7.hap1		
+AG18359_7		unknown					hap2	AG18359_7.hap2		
+AG18355_8		unknown					hap1	AG18355_8.hap1		
+AG18355_8		unknown					hap2	AG18355_8.hap2		
+AG18353_9		unknown					hap1	AG18353_9.hap1		
+AG18353_9		unknown					hap2	AG18353_9.hap2		
+AG18361_10		unknown					hap1	AG18361_10.hap1		
+AG18361_10		unknown					hap2	AG18361_10.hap2		
+AG18360_11		unknown					hap1	AG18360_11.hap1		
+AG18360_11		unknown					hap2	AG18360_11.hap2		
+AG16618_12		unknown					hap1	AG16618_12.hap1		
+AG16618_12		unknown					hap2	AG16618_12.hap2		
+AG06939_13		unknown					hap1	AG06939_13.hap1		
+AG06939_13		unknown					hap2	AG06939_13.hap2		

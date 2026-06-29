@@ -1,0 +1,10 @@
+name: sniffles
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  # Python
+  - python==3.9.5
+  - pysam==0.16.0.1
+  # Sniffles
+  - sniffles==2.0.7

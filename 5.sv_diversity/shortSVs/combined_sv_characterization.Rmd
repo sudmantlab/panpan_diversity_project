@@ -1,0 +1,1895 @@
+---
+title: "Combined SV characterization"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r message=FALSE, warning=FALSE}
+library(tidyverse)
+library(cowplot)
+library(knitr)
+library(vcfR)
+library(janitor)
+library(ggupset)
+library(ggh4x)
+library(patchwork)
+library(plyranges)
+## genome sizes
+genome_size_table <- tibble(species=c("bonobo", "chimpanzee", "human"),
+                            genome_size=c(3244888708,3177739762,3117275501))
+## HPRC metadata
+hprc_pop_order <- c("GWD", "ACB", "MSL", "YRI", "ESN", "MKK-HapMap", "ASW",
+                    "PUR", "CLM", "PEL",
+                    "CHS", "KHV", "PJL", "Chinese-GIAB", 
+                    "Ashkenazim Jewish-GIAB")
+hprc_metadata <- read_tsv("../docs/HPRC_metadata.txt") %>%
+  janitor::clean_names() %>%
+  mutate(hprc_meta_population=fct_relevel(hprc_meta_population, hprc_pop_order)) %>%
+  distinct(id, hprc_meta_population, hprc_panpan_color)
+hprc_color <- count(hprc_metadata, hprc_meta_population, hprc_panpan_color) %>%
+  arrange(hprc_meta_population) %>%
+  pull(hprc_panpan_color)
+## Panpan metadata
+panpan_sample_id <- read_tsv("../docs/sample_table_combined.tsv") %>%
+  pull(sample_id)
+panpan_metadata <- read_tsv("../docs/PanPan_Metadata_updated.txt") %>%
+  janitor::clean_names() %>%
+  distinct(genome_name, species, species_code, common_name, new_name) %>%
+  mutate(species_code=ifelse(species_code=="unknown" & genome_name %in% c("AG05253_1"), "Ppan", species_code),
+         species_code=ifelse(species_code=="unknown" & genome_name %in% c("AG18356_6", "AG16618_12"), "Ptv x Ptt", species_code),
+         species_code=ifelse(species_code=="unknown", "Ptv", species_code)) %>%
+  mutate(common_name=ifelse(is.na(common_name) & genome_name %in% c("AG05253_1"), "Bonobo", common_name),
+         common_name=ifelse(is.na(common_name) & genome_name %in% c("AG18356_6", "AG16618_12"), "Western x Central hybrid", common_name),
+         common_name=ifelse(is.na(common_name), "Western chimpanzee", common_name)) %>%
+  filter(genome_name %in% panpan_sample_id) %>%
+  distinct(genome_name, common_name)
+panpan_color <- c('#4c5d4c','#ffb35a', '#9dced9', '#bbc671', "darkgrey")
+```
+
+## Cancatenate vcf files
+
+#### Concatenate vcf files across callers
+
+```{bash eval=FALSE}
+## test, the followings have all been implemented in Snakemake but the output were stored in the truvari directory. I got confused and ran these code again, so the output files are duplicated but identical.
+conda activate bcftools
+cd /global/scratch/users/nicolas931010/sv_detection
+mkdir concat_vcf
+mkdir concat_vcf/mPanTro3
+mkdir concat_vcf/ht2t
+mkdir concat_vcf/mPanPan1
+
+bcftools concat -a truvari/mPanTro3/panpan-pt.svimasm.consensus.vcf.gz truvari/mPanTro3/panpan-pt.svimasm.only.vcf.gz truvari/mPanTro3/panpan-pt.sniffles.only.vcf.gz | bgzip > concat_vcf/mPanTro3/panpan-pt.concat.vcf.gz
+bcftools concat -a truvari/mPanPan1/panpan-pp.svimasm.consensus.vcf.gz truvari/mPanPan1/panpan-pp.svimasm.only.vcf.gz truvari/mPanPan1/panpan-pp.sniffles.only.vcf.gz | bgzip > concat_vcf/mPanPan1/panpan-pp.concat.vcf.gz
+bcftools concat -a truvari/ht2t/hprc.svimasm.consensus.vcf.gz truvari/ht2t/hprc.svimasm.only.vcf.gz truvari/ht2t/hprc.sniffles.only.vcf.gz | bgzip > concat_vcf/ht2t/hprc.concat.vcf.gz
+
+
+for FILE in `ls concat_vcf/*/*.concat.vcf.gz`; do
+bcftools index $FILE
+done
+```
+
+#### liftover chimp vcf
+
+```{r eval=FALSE}
+## First, check whether there are SVs spanning the two bases that are different between the two mPanTro3 versions. there doesn't appear to be anything
+vcf_long_chimp_tmp <- vcf_long
+vcf_long_chimp_tmp %>%
+  mutate(end_from_svlen=ifelse(svtype=="INS", pos, pos+svlen)) %>%
+  mutate(end=ifelse(!is.na(end), end, end_from_svlen)) %>%
+  distinct(id, chrom, pos, end) %>%
+  filter((chrom=="chr15_hap1_hsa14" & pos <= 2711420 & end >= 2711420) | (chrom=="chr23_hap1_hsa22" & pos <= 2222408 & end >= 2222408))
+# samtools faidx  /global/scratch/users/joana_rocha/PANPAN/reference/primates_T2T/mPanTro3/mPanTro3.pri.cur.20231122.fasta chr15_hap1_hsa14:2711420-2711420
+```
+
+```{bash eval=FALSE}
+## Use a combination of bcftools and awk to subtract 1 to pos and END info tag for SVs past the deleted N
+conda activate bcftools 
+cd /global/scratch/users/nicolas931010/sv_detection
+
+bcftools view truvari/mPanTro3/panpan-pt.concat.vcf.gz -h > truvari/mPanTro3/lifted_panpan-pt.concat.vcf
+bcftools view truvari/mPanTro3/panpan-pt.concat.vcf.gz -H | \
+awk -F'\t' '
+BEGIN { OFS = FS }
+$1 == "chr15_hap1_hsa14" && $2 > 2711420 {
+$2 -= 1
+sub(/END=[0-9]+/, "END=" gensub(/^.*END=([0-9]+).*$/, "\\1", "g", $8)-1, $8)
+}
+$1 == "chr23_hap1_hsa22" && $2 > 2222408 {
+$2 -= 1
+sub(/END=[0-9]+/, "END=" gensub(/^.*END=([0-9]+).*$/, "\\1", "g", $8)-1, $8)
+}
+{ print }' >> truvari/mPanTro3/lifted_panpan-pt.concat.vcf
+
+bgzip truvari/mPanTro3/lifted_panpan-pt.concat.vcf
+bcftools index truvari/mPanTro3/lifted_panpan-pt.concat.vcf.gz
+
+## Sanity check (the first pair should be the same. the second pair should be shifted by 1bp, with the lifted version having smaller numbers)
+bcftools view -r chr15_hap1_hsa14:0-2711420 truvari/mPanTro3/panpan-pt.concat.vcf.gz -H | tail -n 1
+bcftools view -r chr15_hap1_hsa14:0-2711420 truvari/mPanTro3/lifted_panpan-pt.concat.vcf.gz -H | tail -n 1
+
+bcftools view -r chr15_hap1_hsa14:2711420- truvari/mPanTro3/panpan-pt.concat.vcf.gz -H | head -n 2 | tail -n 1
+bcftools view -r chr15_hap1_hsa14:2711420- truvari/mPanTro3/lifted_panpan-pt.concat.vcf.gz -H | head -n 2 | tail -n 1
+```
+
+```{bash eval=FALSE}
+### Bcftools liftover. This method has complications and we choose not to use it
+cd /global/scratch/users/nicolas931010/sv_detection
+export BCFTOOLS_PLUGINS=/global/scratch/users/joana_rocha/software/bcftools-1.20/plugins/
+/global/scratch/users/joana_rocha/software/bcftools-1.20/bcftools +fill-tags truvari/mPanTro3/panpan-pt.concat.vcf.gz -t AC |
+
+/global/scratch/users/joana_rocha/software/bcftools-1.20/bcftools annotate truvari/mPanTro3/panpan-pt.concat.vcf.gz --remove INFO/AC,INFO/AF |
+/global/scratch/users/joana_rocha/software/bcftools-1.20/bcftools norm -c s -f /global/scratch/users/joana_rocha/PANPAN/reference/primates_T2T/mPanTro3/mPanTro3.pri.cur.20231031.fasta -- |
+#/global/scratch/users/joana_rocha/software/bcftools-1.20/bcftools view -H | head -n 4 | tail -n 1
+#/global/scratch/users/joana_rocha/software/bcftools-1.20/bcftools +fill-tags -t AC -- |
+/global/scratch/users/joana_rocha/software/bcftools-1.20/bcftools +liftover -Oz -o truvari/mPanTro3/lifted_panpan-pt.concat.vcf.gz -- \
+-s /global/scratch/users/joana_rocha/PANPAN/reference/primates_T2T/mPanTro3/mPanTro3.pri.cur.20231031.fasta \
+-f /global/scratch/users/joana_rocha/PANPAN/reference/primates_T2T/mPanTro3/mPanTro3.pri.cur.20231122.fasta \
+-c /global/scratch/users/joana_rocha/PANPAN/reference/primates_T2T/mPanTro3/pafs_ref_debug/thanksgiving_halloween.chain &> truvari/mPanTro3/lifted_panpan-pt.log
+```
+
+
+
+#### Concatenate vcf with Scott's
+
+```{bash eval=FALSE}
+## concat with Scott's. These were run manually
+conda activate bcftools
+cd /global/scratch/users/nicolas931010/software/apptainer
+apptainer pull docker://griffithlab/vatools
+cd /global/scratch/users/nicolas931010/sv_detection
+
+#apptainer exec /global/scratch/users/nicolas931010/software/apptainer/vatools_latest.sif vcf-genotype-annotator -o concat_vcf/mPanTro3/final3~mPanTro3.tmp.vcf /global/scratch/users/scott_ferguson/panpan/finished_vcf/final3~mPanTro3.vcf AG18354_5 .
+## I misnamed final4 as final3, but it's not a problem since the correct input file from Scott was used
+echo "mPanTro3 AG18354_5" > concat_vcf/mPanTro3/panpan-pt.sample_to_rename.txt
+bcftools query -l truvari/mPanTro3/panpan-pt.concat.vcf.gz  > concat_vcf/mPanTro3/panpan-pt.samples.txt
+bcftools reheader -s concat_vcf/mPanTro3/panpan-pt.sample_to_rename.txt /global/scratch/users/scott_ferguson/panpan/finished_vcf/final4~mPanTro3.vcf | bcftools view -S concat_vcf/mPanTro3/panpan-pt.samples.txt | bcftools sort | bgzip > concat_vcf/mPanTro3/final3~mPanTro3.vcf.gz
+bcftools index concat_vcf/mPanTro3/final3~mPanTro3.vcf.gz
+bcftools concat -a truvari/mPanTro3/panpan-pt.concat.vcf.gz concat_vcf/mPanTro3/final3~mPanTro3.vcf.gz | bgzip > concat_vcf/mPanTro3/panpan-pt.all_svs.vcf.gz
+bcftools index concat_vcf/mPanTro3/panpan-pt.all_svs.vcf.gz
+
+#apptainer exec /global/scratch/users/nicolas931010/software/apptainer/vatools_latest.sif vcf-genotype-annotator -o concat_vcf/mPanPan1/final3~mPanPan1.tmp.vcf /global/scratch/users/scott_ferguson/panpan/finished_vcf/final3~mPanPan1.vcf PR00251 .
+echo "mPanPan1 PR00251" > concat_vcf/mPanPan1/panpan-pp.sample_to_rename.txt
+bcftools query -l truvari/mPanPan1/panpan-pp.concat.vcf.gz  > concat_vcf/mPanPan1/panpan-pp.samples.txt
+bcftools reheader -s concat_vcf/mPanPan1/panpan-pp.sample_to_rename.txt /global/scratch/users/scott_ferguson/panpan/finished_vcf/final4~mPanPan1.vcf | bcftools view -S concat_vcf/mPanPan1/panpan-pp.samples.txt | bcftools sort | bgzip > concat_vcf/mPanPan1/final3~mPanPan1.vcf.gz
+bcftools index concat_vcf/mPanPan1/final3~mPanPan1.vcf.gz
+bcftools concat -a truvari/mPanPan1/panpan-pp.concat.vcf.gz concat_vcf/mPanPan1/final3~mPanPan1.vcf.gz | bgzip > concat_vcf/mPanPan1/panpan-pp.all_svs.vcf.gz
+bcftools index concat_vcf/mPanPan1/panpan-pp.all_svs.vcf.gz
+
+bcftools sort /global/scratch/users/scott_ferguson/panpan/finished_vcf/final3~ht2t.vcf | bgzip > concat_vcf/ht2t/final3~ht2t.vcf.gz
+bcftools index concat_vcf/ht2t/final3~ht2t.vcf.gz
+bcftools concat -a truvari/ht2t/hprc.concat.vcf.gz concat_vcf/ht2t/final3~ht2t.vcf.gz | bgzip > concat_vcf/ht2t/hprc.all_svs.vcf.gz
+bcftools index concat_vcf/ht2t/hprc.all_svs.vcf.gz
+
+## count Scott's calls
+bcftools query -f '%INFO/SVTYPE\n' mPanTro3/final3~mPanTro3.vcf.gz | sort | uniq -c
+bcftools query -f '%INFO/SVTYPE\n' mPanPan1/final3~mPanPan1.vcf.gz | sort | uniq -c
+bcftools query -f '%INFO/SVTYPE\n' ht2t/final3~ht2t.vcf.gz | sort | uniq -c
+```
+
+
+#### Generate concatenated bed files
+
+```{bash eval=FALSE}
+bcftools query -f '%CHROM\t%ALT\t%POS\t%ID\t%INFO/END\t%INFO/SVLEN\t%INFO/SVTYPE\n' concat_vcf/mPanTro3/panpan-pt.all_svs.vcf.gz > concat_vcf/mPanTro3/panpan-pt.all_svs.tsv
+bcftools query -f '%CHROM\t%ALT\t%POS\t%ID\t%INFO/END\t%INFO/SVLEN\t%INFO/SVTYPE\n' concat_vcf/mPanPan1/panpan-pp.all_svs.vcf.gz > concat_vcf/mPanPan1/panpan-pp.all_svs.tsv
+bcftools query -f '%CHROM\t%ALT\t%POS\t%ID\t%INFO/END\t%INFO/SVLEN\t%INFO/SVTYPE\n' concat_vcf/ht2t/hprc.all_svs.vcf.gz > concat_vcf/ht2t/hprc.all_svs.tsv
+```
+
+```{r eval=FALSE}
+chimp_bed_raw <- read_tsv("../concat_vcf/mPanTro3/panpan-pt.all_svs.tsv", col_names=c("chrom","alt", "pos", "id", "end", "svlen", "svtype"), guess_max = 10000) %>%
+  mutate(end=ifelse(end==".", NA, end), 
+         end=parse_double(end),
+         svlen=ifelse(svlen==".", str_count(alt) %>% as.character(), svlen), 
+         svlen=parse_double(svlen) %>% abs(),
+         end_from_svlen=ifelse(svtype=="INS", pos, pos+svlen)) %>%
+  transmute(chrom, start=pos-1, end=ifelse(!is.na(end), end, end_from_svlen), id)
+chimp_bed_raw %>%
+  write_tsv("../concat_vcf/mPanTro3/panpan-pt.all_svs.bed", col_names = FALSE)
+
+bonobo_bed_raw <- read_tsv("../concat_vcf/mPanPan1/panpan-pp.all_svs.tsv", col_names=c("chrom","alt", "pos", "id", "end", "svlen", "svtype"), guess_max = 10000) %>%
+  mutate(end=ifelse(end==".", NA, end), 
+         end=parse_double(end),
+         svlen=ifelse(svlen==".", str_count(alt) %>% as.character(), svlen), 
+         svlen=parse_double(svlen) %>% abs(),
+         end_from_svlen=ifelse(svtype=="INS", pos, pos+svlen)) %>%
+  transmute(chrom, start=pos-1, end=ifelse(!is.na(end), end, end_from_svlen), id)
+bonobo_bed_raw %>%
+  write_tsv("../concat_vcf/mPanPan1/panpan-pp.all_svs.bed", col_names = FALSE)
+
+human_bed_raw <- read_tsv("../concat_vcf/ht2t/hprc.all_svs.tsv", col_names=c("chrom","alt", "pos", "id", "end", "svlen", "svtype"), guess_max = 10000) %>%
+  mutate(end=ifelse(end==".", NA, end), 
+         end=parse_double(end),
+         svlen=ifelse(svlen==".", str_count(alt) %>% as.character(), svlen), 
+         svlen=parse_double(svlen) %>% abs(),
+         end_from_svlen=ifelse(svtype=="INS", pos, pos+svlen)) %>%
+  transmute(chrom, start=pos-1, end=ifelse(!is.na(end), end, end_from_svlen), id)
+human_bed_raw %>%
+  write_tsv("../concat_vcf/ht2t/hprc.all_svs.bed", col_names = FALSE)
+
+## some sanity checks
+bonobo_bed_raw %>%
+  filter(end-start<1)
+chimp_bed_raw %>%
+  #mutate(svlen_from_end=ifelse(svtype=="INS", str_count(alt), end-pos)) %>%
+  #filter(svlen_from_end/svlen>1.1 | svlen/svlen_from_end>1.1)
+  filter(end-end_from_svlen>1 | end_from_svlen-end>1)
+ggplot(aes(x=end, y=end_from_svlen)) +
+  #ggplot(aes(x=svlen, y=svlen_from_end)) +
+  geom_point()  +
+  scale_x_log10() +
+  scale_y_log10() 
+chimp_bed_raw %>%
+  count(svlen) %>%
+  slice_max(n, n=100)
+chimp_bed_raw %>%
+  count(svtype)
+```
+
+## Final callset < 100kb
+
+```{r}
+get_annotated_vcf <- function(reference, dataset){
+  if (dataset !="panpan-pt"){
+    vcf_raw <- read.vcfR(str_c("../truvari/", reference, "/", dataset, ".concat.vcf.gz"))
+  } else {
+    vcf_raw <- read.vcfR(str_c("../truvari/", reference, "/lifted_", dataset, ".concat.vcf.gz"))
+  }
+  sample_size <- (ncol(vcf_raw@gt)-1)
+  vcf <-vcfR2tidy(vcf_raw, single_frame = TRUE, format_fields = c("GT", "ID"))
+  vcf_dat <- vcf$dat %>%
+    clean_names() %>%
+    mutate(svtype = factor(svtype, levels = c("INS", "DEL", "DUP", "INV")))
+  vcf_long <<- vcf_dat %>%
+    dplyr::select(-gt_gt_alleles) %>%
+    dplyr::select(id, chrom, pos, ref, alt, svlen, svtype, end, indiv, gt_gt) %>%
+    group_by(id, chrom, pos, ref, alt, svlen, svtype, end) %>%
+    ungroup() %>%
+    mutate(allele_count=case_when(is.na(gt_gt) | gt_gt=="0/0" ~ 0L,
+                                  gt_gt=="0/1" | gt_gt=="1/0" ~ 1L,
+                                  gt_gt=="1/1" ~ 2L,)) %>%
+    ## INV called by svimasm doesn't have an svlen field, so I'll need to calculate it
+    mutate(svlen=ifelse(is.na(svlen), str_count(alt), svlen))
+  vcf_summary <- vcf_long %>%
+    group_by(id, chrom, pos, ref, alt, svlen, svtype, end) %>%
+    summarize(total_allele_count=sum(allele_count), allele_count_vector=str_c(allele_count, collapse = "")) %>%
+    ungroup() %>%
+    mutate(allele_frequency=total_allele_count/sample_size/2,
+           maf=ifelse(allele_frequency<0.5, allele_frequency, 1-allele_frequency),
+           seqlen=case_when(svtype=="DEL"~str_count(ref), 
+                            svtype %in% c("INS", "INV") ~ str_count(alt),
+                            svtype=="DUP" ~ svlen))
+  annotated_indel <- read_tsv(str_c("../truvari/", reference, "/", dataset, ".sniffles_svim-asm.truvari.sorted.merged.annotated_indel.tsv")) %>%
+    transmute(merged_id=id, type, length_top_type, divergence, length_annotated, type_simplified) 
+  id_table <- read_tsv(str_c("../truvari/", reference, "/", dataset, ".sniffles_svim-asm.truvari.sorted.merged.final_id_table.tsv")) %>%
+    transmute(merged_id=id, id=gt_id)
+  vcf_annotated <- vcf_summary %>%
+    left_join(id_table, by="id") %>%
+    left_join(annotated_indel, by="merged_id") %>%
+    mutate(type_simplified=fct_relevel(type_simplified, c("SINE/Alu", "LINE/L1", "Retroposon/SVA", "Other Type I TE", "Type II TE", "Simple/tandem repeat", "RNA array", "Unknown", "Non-repeat")))
+  return(vcf_annotated)
+}
+vcf_annotated_chimp <- get_annotated_vcf("mPanTro3", "panpan-pt")
+vcf_long_chimp_tmp <- vcf_long
+vcf_annotated_bonobo <- get_annotated_vcf("mPanPan1", "panpan-pp")
+vcf_long_bonobo_tmp <- vcf_long
+vcf_annotated_human <- get_annotated_vcf("ht2t", "hprc")
+vcf_long_human_tmp <- vcf_long
+vcf_annotated_combined <- bind_rows(vcf_annotated_chimp %>% mutate(species="chimpanzee"),
+                                    vcf_annotated_bonobo %>% mutate(species="bonobo"),
+                                    vcf_annotated_human %>% mutate(species="human")) %>%
+  mutate(type_simplified = type_simplified %>% as.character(),
+         type_simplified = ifelse(type_simplified %in% c("Other Type I TE", "Type II TE", "RNA array", "Unknown"), "Other repeats", type_simplified),
+         type_simplified=fct_relevel(type_simplified, c("SINE/Alu", "LINE/L1", "Retroposon/SVA", "Simple/tandem repeat", "Other repeats", "Non-repeat")))
+```
+
+```{r eval=FALSE}
+write_tsv(vcf_annotated_combined, "../truvari/vcf_annotated_combined.tsv")
+genotype_long_combined <- vcf_long_chimp_tmp %>%
+  mutate(species="chimpanzee") %>%
+  bind_rows(vcf_long_bonobo_tmp %>% mutate(species="bonobo")) %>%
+  bind_rows(vcf_long_human_tmp %>% mutate(species="human")) %>%
+  transmute(species, id, indiv, gt=gt_gt) %>%
+  filter(gt != "0/0", !is.na(gt)) 
+genotype_long_combined %>%
+  write_tsv("../truvari/genotype_long_combined.tsv")
+```
+
+## Annotated length profiles for insertions and deletions
+
+```{r}
+vcf_annotated_combined <- read_tsv("../truvari/vcf_annotated_combined.tsv") %>%
+  mutate(type_simplified=fct_relevel(type_simplified, c("SINE/Alu", "LINE/L1", "Retroposon/SVA", "Simple/tandem repeat", "Other repeats", "Non-repeat")))
+scientific_10 <- function(x) {
+  ifelse(str_detect(scales::scientific_format()(x), "1e"),
+         parse(text=gsub("1e\\+", "10^", scales::scientific_format()(x))),
+         #parse(text=gsub("e\\+", " %*% 10^", scales::scientific_format()(x))),
+         NA
+  )
+}
+
+plot_annotated_length_profile <- function(vcf_annotated, svtype_for_plotting, title) {
+  vcf_annotated %>%
+    filter(svtype %in% svtype_for_plotting) %>%
+    mutate(svtype=ifelse(svtype=="INS", "insertion", "deletion"), svtype=fct_relevel(svtype, c("insertion", "deletion"))) %>%
+    ggplot(aes(x=abs(seqlen))) +
+    geom_histogram(aes(fill=type_simplified), color="black", bins=100) +
+    scale_fill_manual(values = pals::cols25(n=25)[c(1:3, 7, 8, 13)], breaks=c("SINE/Alu", "LINE/L1", "Retroposon/SVA", "Simple/tandem repeat", "Other repeats", "Non-repeat"), drop=FALSE) +
+    #scale_fill_manual(values = pals::cols25(n=25)[c(1:3, 7, 5 , 8, 4, 11, 13)], breaks=c("SINE/Alu", "LINE/L1", "Retroposon/SVA", "Other Type I TE", "Type II TE", "Simple/tandem repeat", "RNA array", "Unknown", "Non-repeat"), drop=FALSE) +
+    labs(x="length") +
+    theme_bw() +
+    #scale_x_log10(breaks=c(50, 100, 300, 1000, 3000, 10000, 30000, 100000), limits=c(10000, 100000)) +
+    scale_x_log10(breaks=c((5:10)*10^1, (1:10)*10^2, (1:10)*10^3, (1:10)*10^4), limits=c(50, 100000), labels=scientific_10) +
+    ylab("count") + 
+    theme(text = element_text(size=15),
+          title = element_text(size=15),
+          panel.grid = element_blank()) +
+    ggtitle(title)
+}
+plot_annotated_length_profile(vcf_annotated_combined %>% filter(species=="chimpanzee"), "INS", "Insertions in chimpanzee")
+```
+
+```{r fig.width=14, fig.height=5.5}
+custom_y_scale <- list(
+  scale_y_continuous(limits = c(-900, 1800), labels=abs),
+  scale_y_continuous(limits = c(-2700, 5400), labels=abs),
+  scale_y_continuous(limits = c(-4200, 8400), breaks=c(-4000, 0, 4000, 8000), labels=abs)
+)
+te_labels <- tibble(species=rep(c("bonobo", "chimpanzee", "human"), each=3),
+                    te_family=rep(c("Alu", "SVA", "L1"),3),
+                    x=c(150, 2000, 11000, 150, 2000, 11000, 150, 2000, 11000),
+                    y=c(1200, 600, 500, 4500, 1800, 1400, 6500, 1400, 1200))
+p <- vcf_annotated_combined %>%
+  filter(svtype %in% c("INS")) %>%
+  ggplot(aes()) +
+  geom_histogram(aes(y = ..count.., x=abs(seqlen), fill=type_simplified), bins=50) +
+  geom_histogram(data=filter(vcf_annotated_combined, svtype=="DEL"), aes(y = -..count.., x=abs(seqlen), fill=type_simplified), bins=50) +
+  geom_hline(yintercept = 0) +
+  geom_label(data=te_labels, aes(x=x, y=y, label = te_family, color=te_family), size=6) +
+  annotate(geom = "text", x=4000, y=0, label="insertions", hjust = -0.3, vjust = -10, color="black", size=7) +
+  annotate(geom = "text", x=4000, y=0, label="deletions", hjust = -0.42, vjust = 5.5, color="black", size=7) +
+  scale_fill_manual(values = pals::cols25(n=25)[c(1:3, 7, 8, 13)], breaks=c("SINE/Alu", "LINE/L1", "Retroposon/SVA", "Simple/tandem repeat", "Other repeats", "Non-repeat"), drop=FALSE) +
+  scale_color_manual(values = pals::cols25(n=25)[1:3]) +
+  labs(x="structural variant length (in bp)") +
+  theme_bw() +
+  scale_x_log10(breaks=c((5:10)*10^1, (1:10)*10^2, (1:10)*10^3, (1:10)*10^4), limits=c(50, 100000), labels=scientific_10) +
+  ylab("count") + 
+  ggh4x::facet_grid2(.~species, scales="free_y",independent = "y") +
+  ggh4x::facetted_pos_scales(y = custom_y_scale) +
+  guides(fill=guide_legend(nrow =1), color=FALSE) +
+  theme(legend.position = "bottom",
+        legend.title = element_blank(),
+        text = element_text(size = 20),
+        legend.text = element_text(size = 16),
+        strip.text = element_text(size=20, color="white", face="bold"),
+        panel.grid = element_blank())
+p
+fill_colors <- c("#FF8C69", "#8A865D", "#5C608A")
+
+# Find strips glob
+gt<-ggplot_gtable(ggplot_build(p))
+strips <- which(startsWith(gt$layout$name,'strip'))
+# Change the fill color of each strip
+for (s in seq_along(strips)) {
+  gt$grobs[[strips[s]]]$grobs[[1]]$children[[1]]$gp$fill <- fill_colors[s]
+}
+plot(gt)
+
+```
+
+```{r eval=FALSE}
+ggsave("../figures/annotated_length_profile_mirror.pdf", gt, width = 14, height = 5.5, units = "in")
+```
+
+```{r fig.width=8, fig.height=4}
+custom_y_scale <- list(
+  scale_y_continuous(limits = c(-2500, 5000)),
+  scale_y_continuous(limits = c(-3500, 7000))
+)
+p <- vcf_annotated_combined %>%
+  filter(svtype %in% c("INS"), species != "bonobo") %>%
+  ggplot(aes(x=abs(seqlen), fill=type_simplified)) +
+  geom_histogram(aes(y = ..count..), bins=50) +
+  geom_histogram(data=filter(vcf_annotated_combined, svtype=="DEL", species != "bonobo"), aes(y = -..count..), bins=50) +
+  geom_hline(yintercept = 0) +
+  scale_fill_manual(values = pals::cols25(n=25)[c(1:3, 7, 8, 13)], breaks=c("SINE/Alu", "LINE/L1", "Retroposon/SVA", "Simple/tandem repeat", "Other repeats", "Non-repeat"), drop=FALSE) +
+  labs(x="length") +
+  theme_bw() +
+  scale_x_log10(breaks=c((5:10)*10^1, (1:10)*10^2, (1:10)*10^3, (1:10)*10^4), limits=c(50, 100000), labels=scientific_10) +
+  ylab("count") + 
+  ggh4x::facet_grid2(.~species, scales="free_y",independent = "y") +
+  ggh4x::facetted_pos_scales(y = custom_y_scale) +
+  guides(fill=guide_legend(nrow =1)) +
+  theme(legend.position = "top",
+        title = element_blank(),
+        text = element_text(size = 20),
+        legend.text = element_text(size = 10),
+        panel.grid = element_blank())
+p
+#ggsave("../figures/annotated_length_profile_for_grant.pdf", width=8, height = 4)
+```
+
+```{r fig.width=16, fig.height=8}
+vcf_annotated_combined %>%
+  plot_annotated_length_profile(c("INS", "DEL"), "length profile")+
+  ggh4x::facet_grid2(svtype~species , scales = "free_y", independent = "y") +
+  guides(fill=guide_legend(nrow =1)) +
+  theme(legend.position = "top",
+        title = element_blank(),
+        text = element_text(size = 20),
+        legend.text = element_text(size = 16))
+```
+
+## Summary stats
+
+```{r, fig.width=12, fig.height=4}
+full_length_te <- vcf_annotated_combined %>%
+  filter(type_simplified %in% c("SINE/Alu", "LINE/L1", "Retroposon/SVA")) %>%
+  filter(allele_frequency>0, allele_frequency<1) %>%
+  mutate(svlen=abs(svlen)) %>%
+  mutate(full_length=(svlen>250 & type_simplified=="SINE/Alu") | (svlen>5000 & type_simplified=="LINE/L1") | (svlen>1800 & type_simplified=="Retroposon/SVA")) 
+p <- full_length_te %>%
+  ggplot(aes(x=svlen, fill=full_length)) +
+  geom_histogram(color="black", bins = 80)+
+  scale_x_log10()+
+  ggh4x::facet_grid2(species~type_simplified, scales = "free_y", independent = "y") +
+  theme_bw()
+p
+#ggsave("../figures/full_insertion_histogram.pdf", p, width = 12, height = 4, units = "in")
+```
+
+```{r, fig.width=2.2, fig.height=4.2}
+diversity_summary_stats <- full_length_te %>%
+  filter(full_length) %>%
+  mutate(sample_size=2*str_count(allele_count_vector)) %>%
+  group_by(species, type_simplified, sample_size) %>%
+  summarize(theta_p_numerator=sum(sample_size/(sample_size-1)*(1-maf^2-(1-maf)^2)),
+            n_segregating_sites=dplyr::n()) %>%
+  mutate(theta_w_numerator=n_segregating_sites*psych::harmonic.mean(1:(sample_size-1))/(sample_size-1)) %>%
+  left_join(genome_size_table) %>%
+  mutate(theta_w=theta_w_numerator/genome_size, theta_p=theta_p_numerator/genome_size) %>%
+  dplyr::select(species, type_simplified, theta_w, theta_p) %>%
+  ungroup() %>%
+  mutate(type_simplified=fct_relevel(type_simplified, c("SINE/Alu", "Retroposon/SVA", "LINE/L1")))
+p <- diversity_summary_stats %>%
+  pivot_longer(cols = c(theta_w, theta_p)) %>%
+  mutate(name=ifelse(name=="theta_w", "hat(theta)[w]", "pi")) %>%
+  ggplot(aes(x=species, y=value, fill=species)) +
+  geom_col(width=0.8) +
+  scale_fill_manual(values = c("#FF8C69", "#8A865D", "#5C608A")) +
+  facet_grid(type_simplified~name, labeller = label_parsed, scale="free_y") +
+  # scale_y_sqrt() +
+  theme_bw() +
+  theme(legend.position = "top",
+        legend.location = "plot",
+        legend.title = element_blank(),
+        legend.direction = "horizontal",
+        legend.key.size = unit(0.05, "inch"),
+        legend.text = element_text(margin = margin(r=-3, l = 3, unit = "pt"), size = 11),
+        axis.title = element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        panel.grid = element_blank(),
+        strip.text.x = element_text(size=12),
+        strip.text.y = element_text(color="white"),
+        strip.background.x = element_rect(fill = "transparent", color = NA, size = 0),
+        legend.box.margin = margin(b = -10, unit = "pt"),
+  )
+p
+# Find the colors used
+fill_colors <- pals::cols25(n=25)[c(1,3,2)]
+# Find strips glob
+gt<-ggplot_gtable(ggplot_build(p))
+strips <- which(startsWith(gt$layout$name,'strip-r'))
+# Change the fill color of each strip
+for (s in seq_along(strips)) {
+  gt$grobs[[strips[s]]]$grobs[[1]]$children[[1]]$gp$fill <- fill_colors[s]
+}
+plot(gt)
+#ggsave("../figures/full_insertion_theta.pdf", gt, width = 2.2, height = 4.2, units = "in")
+```
+
+## Summary stats for SNVs, and TE to SNV ratio
+
+```{bash eval=FALSE}
+## get the SFS from SNVs
+cd /global/scratch/users/joana_rocha/PANPAN/PANPAN_snvs/vcfs/
+bcftools +fill-tags mPanPan1/diploid/panpa_mapped2mPanPan1.sorted.filtered.vcf.gz --threads 6 -- -t AC | bcftools query -f '%AC\n' | sort --parallel 6 | uniq -c > /global/scratch/users/nicolas931010/sv_detection/docs/panpa_mapped2mPanPan1.sorted.filtered.sfs
+bcftools +fill-tags mPanTro3/diploid/pantros_mapped2mPanTro3.sorted.filtered.vcf.gz --threads 6 -- -t AC | bcftools query -f '%AC\n' | sort --parallel 6 | uniq -c > /global/scratch/users/nicolas931010/sv_detection/docs/pantros_mapped2mPanTro3.sorted.filtered.sfs
+bcftools +fill-tags ht2t/diploid/hprc_mapped2ht2t.sorted.filtered.vcf.gz --threads 6 -- -t AC | bcftools query -f '%AC\n' | sort --parallel 6 | uniq -c > /global/scratch/users/nicolas931010/sv_detection/docs/hprc_mapped2ht2t.sorted.filtered.sfs
+```
+
+```{r, fig.width=7, fig.height=3}
+sfs_combined <- bind_rows(
+  read.table("../docs/panpa_mapped2mPanPan1.sorted.filtered.sfs", header = FALSE, col.names = c("n_sites", "ac")) %>% mutate(species="bonobo"),
+  read.table("../docs/pantros_mapped2mPanTro3.sorted.filtered.sfs", header = FALSE, col.names = c("n_sites", "ac")) %>% mutate(species="chimpanzee"),
+  read.table("../docs/hprc_mapped2ht2t.sorted.filtered.sfs", header = FALSE, col.names = c("n_sites", "ac")) %>% mutate(species="human"),
+)
+sample_size_table <- full_length_te %>% mutate(sample_size=str_count(allele_count_vector)*2) %>% distinct(species, sample_size)
+snv_summary_stats <- NULL
+# total genome size INCLUDING invariant sites
+for (i in 1:nrow(genome_size_table)){
+  species_i <- genome_size_table$species[i]
+  l <- genome_size_table$genome_size[i] 
+  n <- sample_size_table %>% filter(species==species_i) %>% pull(sample_size)
+  sfs <- sfs_combined %>% filter(species==species_i) %>% filter(ac<n)
+  n_snv <- sum(sfs$n_sites)
+  ## WATTERSON'S THETA
+  a1 <- sum(1 / (1:(n - 1)))
+  theta_w <- n_snv / (a1 * l)
+  # pi
+  pi_total <- sum(sfs$n_sites * (2 * sfs$ac * (n - sfs$ac) / (n * (n - 1))))
+  pi <- pi_total / l
+  snv_summary_stats <- bind_rows(snv_summary_stats, tibble(species=species_i, theta_w_snv=theta_w, pi_snv=pi))
+}
+scientific_notation <- function(x) {
+  ifelse(str_detect(scales::scientific_format()(x), "0e"),
+         "0",
+         parse(text=gsub("e", " %*% 10^", scales::scientific_format()(x)))
+  )
+}
+
+p <- diversity_summary_stats %>%
+  left_join(snv_summary_stats) %>%
+  transmute(species,type_simplified, theta_p, theta_p_ratio=theta_p/pi_snv) %>%
+  pivot_longer(cols = c(theta_p, theta_p_ratio)) %>%
+  mutate(name=ifelse(name=="theta_p_ratio", "pi[TE]/pi[SNV]", "pi[TE]")) %>%
+  ggplot(aes(x=species, y=value, fill=species)) +
+  geom_col(width=0.8) +
+  scale_fill_manual(values = c("#FF8C69", "#8A865D", "#5C608A")) +
+  coord_flip()+
+  # facet_grid(name~type_simplified, labeller = label_parsed, scale="free") +
+  facet_grid2(name~type_simplified,
+              scales = "free",
+              independent = "all",
+              labeller = label_parsed) +
+  facetted_pos_scales(y = list(scale_y_continuous(labels = scientific_notation),
+                               scale_y_continuous(breaks = c(0, 5e-8, 10e-8), labels = scientific_notation),
+                               scale_y_continuous(labels = scientific_notation),
+                               scale_y_continuous(labels = scientific_notation),
+                               scale_y_continuous(labels = scientific_notation),
+                               scale_y_continuous(labels = scientific_notation))) +
+  # scale_y_sqrt() +
+  theme_bw() +
+  theme(legend.position = "bottom",
+        legend.location = "plot",
+        legend.title = element_blank(),
+        legend.direction = "horizontal",
+        legend.key.size = unit(0.05, "inch"),
+        legend.text = element_text(margin = margin(r=-3, l = 3, unit = "pt"), size = 11),
+        axis.title = element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank(),
+        axis.text.x=element_text(size=11, angle=0, vjust=0),
+        panel.grid = element_blank(),
+        strip.text.y = element_text(size=14),
+        strip.text.x = element_text(size=16, color="white", face="bold"),
+        strip.background.y = element_rect(fill = "transparent", color = NA, size = 0),
+        legend.box.margin = margin(b = -10, unit = "pt"),
+  )
+p
+# Find the colors used
+fill_colors <- pals::cols25(n=25)[c(1,3,2)]
+# Find strips glob
+gt<-ggplot_gtable(ggplot_build(p))
+strips <- which(startsWith(gt$layout$name,'strip-t'))
+# Change the fill color of each strip
+for (s in seq_along(strips)) {
+  gt$grobs[[strips[s]]]$grobs[[1]]$children[[1]]$gp$fill <- fill_colors[s]
+  gt$grobs[[strips[s]]]$grobs[[1]]$children[[2]]$children[[1]]$label <- c("SINE/Alu", "Retroposon/SVA", "LINE/L1")[s]
+}
+plot(gt)
+# ggsave("../figures/full_insertion_pi.pdf", gt, width = 7, height = 3, units = "in")
+```
+
+## Divergence profile
+
+```{r fig.width=16, fig.height=8}
+vcf_annotated_combined %>%
+  filter(svtype %in% c("INS", "DEL"), 
+         type_simplified %in% c("SINE/Alu", "LINE/L1", "Retroposon/SVA", "Other Type I TE")) %>%
+  mutate(svtype=ifelse(svtype=="INS", "insertion", "deletion"), svtype=fct_relevel(svtype, c("insertion", "deletion"))) %>%
+  ggplot(aes(x=abs(divergence))) +
+  geom_histogram(aes(fill=type_simplified), color="black", bins=80) +
+  #geom_density(aes(fill=type_simplified), color="black", alpha=0.5) +
+  scale_fill_manual(values = pals::cols25(n=25)[c(1:3, 7)], breaks=c("SINE/Alu", "LINE/L1", "Retroposon/SVA", "Other Type I TE")) +
+  scale_x_continuous(limits=c(0,40)) +
+  labs(x="percent divergence", y="count") + 
+  ggh4x::facet_grid2(type_simplified~species , scales = "free_y", independent = "y") +
+  guides(fill=guide_legend(nrow =1)) +
+  cowplot::theme_cowplot() +
+  theme(legend.position = "top",
+        legend.title = element_blank(),
+        text = element_text(size = 20),
+        strip.text.x = element_text(size = 25),
+        strip.text.y = element_text(size = 14),
+        legend.text = element_text(size = 16))
+```
+
+
+## SFS
+
+```{r fig.width=12, fig.height=6}
+vcf_annotated_combined %>%
+  ggplot(aes(x=total_allele_count)) +
+  geom_bar(color="black", fill="white") +
+  ggh4x::facet_grid2(svtype~species, scales="free", independent = "y") +
+  theme_cowplot() +
+  labs(x="number of non-reference alleles")
+```
+
+## Ideogram
+
+#### all species to ht2t
+
+###### liftover to ht2t
+
+```{r eval=FALSE}
+## create genomic windows on h2t
+conda activate bedtools
+awk 'BEGIN {OFS="\t"} {print $1, 0, $2, $1}' reference/ht2t.fasta.fai > liftover/ht2t.bed
+bedtools makewindows -b liftover/ht2t.bed -w 100000 -i srcwinnum > liftover/ht2t.100kb-windows.bed
+bedtools makewindows -b liftover/ht2t.bed -w 500000 -i srcwinnum > liftover/ht2t.500kb-windows.bed
+bedtools makewindows -b liftover/ht2t.bed -w 2000000 -i srcwinnum > liftover/ht2t.2mb-windows.bed
+
+#mamba create -c conda-forge -c bioconda -n ucsc-liftover ucsc-liftover
+#mamba create -c conda-forge -c bioconda -n picard picard
+#mamba create -c conda-forge -c bioconda -n rustybam rustybam
+
+## alignment
+conda activate minimap2
+cd /global/scratch/users/nicolas931010/sv_detection
+mkdir -p minimap2/ref_to_ref
+#minimap2 -cx asm10  -t 32 --cs reference/mPanTro3.fasta reference/ht2t.fasta > minimap2/ref_to_ref/ht2t_to_mPanTro3.paf 2> minimap2/ref_to_ref/ht2t_to_mPanTro3.paf.log
+#minimap2 -cx asm10  -t 32 --cs reference/mPanPan1.fasta reference/ht2t.fasta > minimap2/ref_to_ref/ht2t_to_mPanPan1.paf 2> minimap2/ref_to_ref/ht2t_to_mPanPan1.paf.log
+minimap2 -cx asm10  -t 32 --cs reference/ht2t.fasta reference/mPanTro3.fasta > minimap2/ref_to_ref/mPanTro3_to_ht2t.paf 2> minimap2/ref_to_ref/mPanTro3_to_ht2t.paf.log
+minimap2 -cx asm10  -t 32 --cs reference/ht2t.fasta reference/mPanPan1.fasta > minimap2/ref_to_ref/mPanPan1_to_ht2t.paf 2> minimap2/ref_to_ref/mPanPan1_to_ht2t.paf.log
+
+conda deactivate
+#conda activate rustybam
+#rb trim-paf minimap2/ref_to_ref/ht2t_to_mPanTro3.paf | rb filter --paired-len 10000 > minimap2/ref_to_ref/ht2t_to_mPanTro3.filtered.paf
+#sort -k6,6 -k8,8n minimap2/ref_to_ref/ht2t_to_mPanTro3.paf > minimap2/ref_to_ref/ht2t_to_mPanTro3.filtered.paf
+#sort -k6,6 -k8,8n minimap2/ref_to_ref/ht2t_to_mPanTro3.paf | rb trim-paf > minimap2/ref_to_ref/ht2t_to_mPanTro3.filtered.paf
+
+## paf to chain
+mamba create -c conda-forge -c bioconda -n paf2chain paf2chain
+conda activate paf2chain
+#paf2chain --input minimap2/ref_to_ref/ht2t_to_mPanTro3.paf > minimap2/ref_to_ref/ht2t_to_mPanTro3.chain 2> minimap2/ref_to_ref/ht2t_to_mPanTro3.chain.log
+paf2chain --input minimap2/ref_to_ref/mPanTro3_to_ht2t.paf > minimap2/ref_to_ref/mPanTro3_to_ht2t.chain 2> minimap2/ref_to_ref/mPanTro3_to_ht2t.chain.log
+paf2chain --input minimap2/ref_to_ref/mPanPan1_to_ht2t.paf > minimap2/ref_to_ref/mPanPan1_to_ht2t.chain 2> minimap2/ref_to_ref/mPanPan1_to_ht2t.chain.log
+conda deactivate
+
+## liftover
+mkdir -p liftover/ht2t
+mamba create -c conda-forge -c bioconda -n ucsc-liftover ucsc-liftover
+conda activate ucsc-liftover
+liftOver -multiple -minMatch=0.1 liftover/ht2t.2mb-windows.bed minimap2/ref_to_ref/mPanTro3_to_ht2t.chain liftover/ht2t.2mb-windows.mPanTro3.lifted.bed liftover/ht2t.2mb-windows.mPanTro3.unlifted.bed &> liftover/ht2t.2mb-windows.mPanTro3.log
+liftOver -multiple -minMatch=0.1 liftover/ht2t.2mb-windows.bed minimap2/ref_to_ref/mPanPan1_to_ht2t.chain liftover/ht2t.2mb-windows.mPanPan1.lifted.bed liftover/ht2t.2mb-windows.mPanPan1.unlifted.bed &> liftover/ht2t.2mb-windows.mPanPan1.log
+conda deactivate
+
+## bedtools intersect
+conda activate bedtools
+bedtools intersect -a liftover/ht2t.2mb-windows.bed -b concat_vcf/ht2t/hprc.all_svs.bed -loj > liftover/hprc.all_svs.in.ht2t.2mb-windows.bed 2> liftover/hprc.all_svs.in.ht2t.2mb-windows.log
+bedtools intersect -a liftover/ht2t.2mb-windows.mPanTro3.lifted.bed -b concat_vcf/mPanTro3/panpan-pt.all_svs.bed -loj > liftover/panpan-pt.all_svs.in.mPanTro3.2mb-windows.bed 2> liftover/panpan-pt.all_svs.in.mPanTro3.2mb-windows.log
+bedtools intersect -a liftover/ht2t.2mb-windows.mPanPan1.lifted.bed -b concat_vcf/mPanPan1/panpan-pp.all_svs.bed -loj > liftover/panpan-pp.all_svs.in.mPanPan1.2mb-windows.bed 2> liftover/panpan-pp.all_svs.in.mPanPan1.2mb-windows.log
+
+## lift over a file for Peter
+liftOver -multiple -minMatch=0.1 ../misc/pathogenic_cnvs_hs1.all.renamed.txt minimap2/ref_to_ref/mPanTro3_to_ht2t.chain ../misc/pathogenic_cnvs_hs1.all.renamed.lifted_to_mPanTro3.bed ../misc/pathogenic_cnvs_hs1.all.renamed.unlifted.bed &> ../misc/pathogenic_cnvs_hs1.all.renamed.lifted_to_mPanTro3.log
+
+```
+
+###### plotting
+
+```{r fig.width=6, fig.height=8}
+ht2t_windows <- read_tsv("../liftover/ht2t.2mb-windows.bed", col_names = c("chrom", "start", "end", "window_id"))
+hprc_svs_in_windows <- read_tsv("../liftover/hprc.all_svs.in.ht2t.2mb-windows.bed", col_names = c("chrom", "start", "end", "window_id", "sv_chrom", "sv_start", "sv_end", "sv_id")) %>%
+  mutate(species="human")
+pt_svs_in_windows <- read_tsv("../liftover/panpan-pt.all_svs.in.mPanTro3.2mb-windows.bed", col_names = c("chrom", "start", "end", "window_id", "subwindow_id", "sv_chrom", "sv_start", "sv_end", "sv_id")) %>%
+  mutate(species="chimpanzee")
+pp_svs_in_windows <- read_tsv("../liftover/panpan-pp.all_svs.in.mPanPan1.2mb-windows.bed", col_names = c("chrom", "start", "end", "window_id", "subwindow_id", "sv_chrom", "sv_start", "sv_end", "sv_id")) %>%
+  mutate(species="bonobo")
+svs_in_windows <- hprc_svs_in_windows %>%
+  bind_rows(pt_svs_in_windows) %>%
+  bind_rows(pp_svs_in_windows) %>%
+  filter(sv_id != ".") %>%
+  ## Remove larger SVs
+  filter(!str_detect(sv_id, "^INS|^DEL|^TRA|^DUP|^HDR|^INV"))
+# mutate(junk=str_sub(sv_id, 1, 3)) %>%
+# count(junk) %>%
+# arrange(-n)
+svs_in_windows_summary <- svs_in_windows %>%
+  distinct(window_id, sv_id, species) %>%
+  group_by(species) %>%
+  summarise(n_svs_in_plot = length(sv_id), n_unique_svs_in_plot = length(unique(sv_id))) #%>%
+# mutate(n_unique_svs_total=c(filter(vcf_annotated_combined, species=="bonobo") %>% nrow(),
+#                             filter(vcf_annotated_combined, species=="chimpanzee") %>% nrow(),
+#                             filter(vcf_annotated_combined, species=="human") %>% nrow()))
+# mutate(n_unique_svs_total=c(readLines("../concat_vcf/mPanPan1/panpan-pp.all_svs.bed") %>% length(),
+#                             readLines("../concat_vcf/mPanTro3/panpan-pt.all_svs.bed") %>% length(),
+#                             readLines("../concat_vcf/ht2t/hprc.all_svs.bed") %>% length()))
+svs_in_windows_summary
+lifted_window_length <- bind_rows(read_tsv("../liftover/ht2t.2mb-windows.mPanPan1.lifted.bed", col_names = c("chr", "start", "end", "window_id", "match_id")) %>% mutate(species="bonobo"),
+                                  read_tsv("../liftover/ht2t.2mb-windows.mPanTro3.lifted.bed", col_names = c("chr", "start", "end", "window_id", "match_id"))%>% mutate(species="chimpanzee")) %>%
+  summarise(lifted_length=sum(end-start), .by = c("window_id", "species"))
+sv_count_in_windows <- svs_in_windows %>%
+  distinct(window_id, sv_id, species) %>%
+  summarise(n=dplyr::n(), .by=c(species, window_id)) %>%
+  left_join(crossing(ht2t_windows, species=c("human", "chimpanzee", "bonobo")), .) %>%
+  mutate(n=ifelse(is.na(n), 0, n), p=n/sum(n), .by=species) %>%
+  left_join(lifted_window_length) %>%
+  mutate(lifted_length=ifelse(species=="human", 2*10^6, lifted_length),
+         lifted_length=ifelse(lifted_length< 1*10^6 | lifted_length>4*10^6, NA, lifted_length)
+         ) %>%
+  # filter(!is.na(lifted_length)) %>%
+  mutate(density=n/lifted_length, density_normalized=density/sum(density, na.rm = TRUE), .by=species)
+sv_count_in_windows %>%
+  ggplot(aes(x=start, y=density_normalized, color=species)) +
+  geom_line() +
+  scale_y_sqrt() +
+  #facet_wrap(~chrom, ncol = 1) +
+  facet_grid(chrom~species) +
+  theme_bw() +
+  theme(strip.text = element_blank()) 
+## ideogram
+reference_length <- read_tsv(str_c("../reference/ht2t.fasta.fai"), col_names = FALSE)  %>%
+  transmute(chrom=X1, start=0, end=X2) %>%
+  mutate(chrom_number = str_extract(chrom, "^(.+?)\\.") %>% parse_number() %>% magrittr::subtract(60924)) %>%
+  filter(!is.na(chrom_number), chrom_number<23) %>%
+  arrange(desc(chrom_number)) %>%
+  mutate(chrom=str_c("chr", chrom_number), chrom=as_factor(chrom))
+reference_chrom_order <- reference_length %>%
+  pull(chrom) %>%
+  levels()
+reference_chrom_label <- reference_length %>%
+  pull(chrom) %>%
+  as.character()
+reference_feature <- read_tsv(str_c("../reference/ht2t_genome_feature.bed"), col_names = FALSE) %>%
+  transmute(chrom=X1, start=X2, end=X3, type=X4) %>%
+  mutate(type=case_when(type=="CEN"~"Cen",
+                        type=="TEL"~"Telo",
+                        TRUE~type)) %>%
+  filter(type %in% c("Cen", "Telo")) %>%
+  filter(chrom %in% reference_chrom_order) %>%
+  mutate(chrom=fct_relevel(chrom, reference_chrom_order))
+sv_count_for_ideogram  <- sv_count_in_windows %>%
+  mutate(chrom_number = str_extract(chrom, "^(.+?)\\.") %>% parse_number() %>% magrittr::subtract(60924)) %>%
+  mutate(chrom=str_c("chr", chrom_number)) %>%
+  filter(chrom %in% reference_chrom_order) %>%
+  #filter(type_simplified=="SINE/Alu", svtype=="INS") %>%
+  mutate(chrom=fct_relevel(chrom, reference_chrom_order)) %>%
+  mutate(p=n/sum(n), density_normalized=density/sum(density, na.rm = TRUE),.by=species) 
+sv_count_for_ideogram %>%
+  group_by(species) %>%
+  slice_max(order_by=density_normalized, n=1)
+offset <-1*10^6
+ideogram <- reference_length %>%
+  ggplot() +
+  geom_rect(aes(xmin=start, xmax=end, ymin=as.numeric(chrom)-0.3, ymax=as.numeric(chrom)-0.2), fill="white", color="black", linewidth=0.5) +
+  geom_rect(data=reference_feature, aes(xmin=start, xmax=end, ymin=as.numeric(chrom)-0.3, ymax=as.numeric(chrom)-0.2), linewidth=0.5, color="black") +
+  #ggridges::geom_density_ridges(data=joined_vcf_for_ideogram,aes(y=as.numeric(chrom), group=chrom, x=pos), position=position_nudge(y=-0.05), rel_min_height = 0.02, scale=0.8, bandwidth=200000, color=NA, fill=density_fill, panel_scaling = TRUE)+
+  ggridges::geom_density_ridges(data=sv_count_for_ideogram %>% filter(species=="bonobo"), aes(y=as.numeric(chrom), group=chrom, x=start+4*offset, height=density_normalized, fill=species, color=species), position=position_nudge(y=0.37), rel_min_height = 0.0, scale=0.8, alpha=0.3, panel_scaling = FALSE, stat="identity")+
+  ggridges::geom_density_ridges(data=sv_count_for_ideogram %>% filter(species=="chimpanzee"), aes(y=as.numeric(chrom), group=chrom, x=start+2*offset, height=density_normalized, fill=species, color=species), position=position_nudge(y=0.13), rel_min_height = 0.0, scale=0.8, alpha=0.3, panel_scaling = FALSE, stat="identity")+
+  ggridges::geom_density_ridges(data=sv_count_for_ideogram %>% filter(species=="human"), aes(y=as.numeric(chrom), group=chrom, x=start+0*offset, height=density_normalized, fill=species, color=species), position=position_nudge(y=-0.11), rel_min_height = 0.0, scale=0.8, alpha=0.3, panel_scaling = FALSE, stat="identity")+
+  #ggridges::geom_ridgeline(data=sv_count_for_ideogram %>% filter(species=="human"),aes(y=as.numeric(chrom), group=chrom, x=start, height=density_p), position=position_nudge(y=-0.05), scale=0.8, fill="grey",color=NA)+
+  scale_y_continuous(breaks=1:length(reference_chrom_label), labels=reference_chrom_label, expand=c(0.01, 0)) +
+  scale_x_continuous(expand = c(0, 0), breaks = 0:4*5*10^7, labels = 0:4*5*10) +
+  scale_fill_manual(values = c("#FF8C69", "#8A865D", "#5C608A")) +
+  scale_color_manual(values = c("#FF8C69", "#8A865D", "#5C608A")) +
+  #scale_color_manual(values = c("#00000000", "#00000000", "#00000000")) +
+  labs(x="position (in Mbp)") +
+  theme_minimal() +
+  theme(panel.grid = element_blank(),
+        axis.ticks.x = element_line(),
+        axis.title.y = element_blank(),
+        axis.text.y = element_text(angle=0))
+ideogram
+```
+
+```{r fig.width=9, fig.height=3}
+sv_count_for_ideogram_wide <- sv_count_for_ideogram %>%
+  pivot_wider(names_from = species, values_from=c(n, p, density, density_normalized, lifted_length)) %>%
+  filter(!is.na(density_normalized_chimpanzee), !is.na(density_normalized_bonobo)) %>%
+  mutate(density_normalized_chimpanzee=density_chimpanzee/sum(density_chimpanzee),
+         density_normalized_bonobo=density_bonobo/sum(density_bonobo),
+         density_normalized_human=density_human/sum(density_human))
+r2_1 <- cor(sv_count_for_ideogram_wide$density_normalized_human, sv_count_for_ideogram_wide$density_normalized_chimpanzee)^2
+p2_1 <- lm(sv_count_for_ideogram_wide$density_normalized_chimpanzee~sv_count_for_ideogram_wide$density_normalized_human) %>% summary() %>% .$coefficients %>% .[2, 4]
+p1 <- sv_count_for_ideogram_wide %>%
+  ggplot(aes(x=density_normalized_human, y=density_normalized_chimpanzee)) +
+  geom_hex(binwidth = c(0.002, 0.002)) +
+  scale_fill_viridis_c() +
+  # geom_smooth(method = "lm") +
+  geom_abline(slope=1, intercept = 0) +
+  #annotate(geom="text", label=str_c("p==", p2_1), parse=TRUE, x=0.2, y=1.5) +
+  annotate(geom="text", label=str_c("R^2==", round(r2_1,2)), parse=TRUE, x=0.009, y=0.0002, size=4) +
+  coord_fixed(xlim=c(0, 0.013),ylim=c(0, 0.013))+
+  labs(x="human", y="chimpanzee") +
+  scale_x_sqrt()+
+  scale_y_sqrt()+
+  theme_bw() +
+  theme(panel.grid = element_blank(),
+        legend.position = c(0.3, 0.8),
+        legend.direction = "horizontal",
+        legend.title.position = "top")
+r2_2 <- cor(sv_count_for_ideogram_wide$density_normalized_human, sv_count_for_ideogram_wide$density_normalized_bonobo)^2
+p2_2 <- lm(sv_count_for_ideogram_wide$density_normalized_bonobo~sv_count_for_ideogram_wide$density_normalized_human) %>% summary() %>% .$coefficients %>% .[2, 4]
+p2 <- sv_count_for_ideogram_wide %>%
+  ggplot(aes(x=density_normalized_human, y=density_normalized_bonobo)) +
+  geom_hex(binwidth = c(0.002, 0.002)) +
+  scale_fill_viridis_c() +
+  # geom_smooth(method = "lm") +
+  geom_abline(slope=1, intercept = 0) +
+  annotate(geom="text", label=str_c("R^2==", round(r2_2,2)), parse=TRUE, x=0.009, y=0.0002, size=4) +
+  coord_fixed(xlim=c(0, 0.013),ylim=c(0, 0.013))+
+  scale_x_sqrt()+
+  scale_y_sqrt()+
+  labs(x="human", y="bonobo") +
+  theme_bw() +
+  theme(legend.position = c(0.3, 0.8),
+        legend.direction = "horizontal",
+        legend.title.position = "top",
+        panel.grid = element_blank())
+r2_3 <- cor(sv_count_for_ideogram_wide$density_normalized_chimpanzee, sv_count_for_ideogram_wide$density_normalized_bonobo)^2
+p2_3 <- lm(sv_count_for_ideogram_wide$density_normalized_bonobo~sv_count_for_ideogram_wide$density_normalized_chimpanzee) %>% summary() %>% .$coefficients %>% .[2, 4]
+p3 <- sv_count_for_ideogram_wide %>%
+  ggplot(aes(x=density_normalized_chimpanzee, y=density_normalized_bonobo)) +
+  geom_hex(binwidth = c(0.002, 0.002)) +
+  scale_fill_viridis_c() +
+  # geom_smooth(method = "lm") +
+  geom_abline(slope=1, intercept = 0) +
+  annotate(geom="text", label=str_c("R^2==", round(r2_3,2)), parse=TRUE, x=0.009, y=0.0002, size=4) +
+  coord_fixed(xlim=c(0, 0.013),ylim=c(0, 0.013))+
+  scale_x_sqrt()+
+  scale_y_sqrt()+
+  labs(x="chimpanzee", y="bonobo") +
+  theme_bw() +
+  theme(legend.position = c(0.3, 0.8),
+        legend.direction = "horizontal",
+        legend.title.position = "top",
+        panel.grid = element_blank())
+# sv_hotspot_correlation <- plot_grid(plot_grid(p_legend, NA, rel_widths = c(0.9, 0.05), nrow = 1), p1, p2, p3, ncol=1, rel_heights = c(0.5, 1, 1, 1), scale = c(1, 1, rep(1.05, 3)))
+sv_hotspot_correlation <- plot_grid(p1, p2, p3, nrow=1, rel_widths = c(1, 1, 1), scale = c(1, 1, 1))
+
+sv_hotspot_correlation
+```
+
+```{r eval=FALSE}
+ggsave("../figures/sv_density_ideogram_lifted_to_ht2t.pdf", ideogram, width = 6, height=8)
+ggsave("../figures/sv_density_correlation.pdf", sv_hotspot_correlation, width = 9, height=3)
+
+```
+
+Note that I tried picard LiftoverVcf as well but it didn't work very well
+
+```{bash eval=FALSE}
+conda activate picard
+mkdir -p liftovervcf/ht2t
+gunzip -c concat_vcf/mPanTro3/panpan-pt.concat.vcf.gz > concat_vcf/mPanTro3/panpan-pt.concat.vcf
+#picard CreateSequenceDictionary R=reference/ht2t.fasta O=reference/ht2t.fasta.dict
+picard CreateSequenceDictionary R=reference/ht2t.fasta O=reference/ht2t.dict
+#bcftools view concat_vcf/mPanTro3/panpan-pt.concat.vcf | head -n 10000 > concat_vcf/mPanTro3/test.vcf
+picard LiftoverVcf -Xmx60g I=concat_vcf/mPanTro3/panpan-pt.concat.vcf O=liftovervcf/ht2t/panpan-pt.concat.vcf CHAIN=minimap2/ref_to_ref/ht2t_to_mPanTro3.chain REJECT=liftovervcf/ht2t/panpan-pt.concat.rejected_variants.vcf R=reference/ht2t.fasta 2> liftovervcf/ht2t/panpan-pt.concat.log
+bcftools view liftovervcf/ht2t/panpan-pt.concat.rejected_variants.vcf -H | wc #38636
+bcftools view liftovervcf/ht2t/panpan-pt.concat.vcf -H | wc #19872
+picard LiftoverVcf I=concat_vcf/mPanTro3/panpan-pt.concat.vcf O=liftovervcf/ht2t/panpan-pt.concat.vcf CHAIN=minimap2/ref_to_ref/ht2t_to_mPanTro3.chain REJECT=liftovervcf/ht2t/panpan-pt.concat.rejected_variants.vcf R=reference/ht2t.fasta 2> liftovervcf/ht2t/panpan-pt.concat.log
+```
+
+
+#### each species to its own reference
+
+```{r eval=FALSE, fig.width=10, fig.height=10}
+window_size <- 1*10^6
+plot_ideogram <- function(reference, vcf, density_fill){
+  if(reference=="ht2t"){
+    reference_length_tmp <- read_tsv(str_c("../reference/", reference, ".fasta.fai"), col_names = FALSE)  %>%
+      transmute(chrom=X1, start=0, end=X2) %>%
+      mutate(chrom_number = str_extract(chrom, "^(.+?)\\.") %>% parse_number() %>% magrittr::subtract(60924)) %>%
+      filter(!is.na(chrom_number), chrom_number<23) %>%
+      arrange(desc(chrom_number)) %>%
+      .[c(1:4, 6:7, 5, 8:10, 21, 14, 11:13,15:20, 22),] %>%
+      mutate(chrom=str_c("chr", chrom_number))
+    reference_length <- reference_length_tmp %>%
+      bind_rows(tibble(chrom="", start=NA, end=NA, chrom_number=23), .) %>%
+      mutate(chrom=factor(chrom, c(reference_length_tmp$chrom[1:10], "", reference_length_tmp$chrom[11:22]))) %>%
+      arrange(chrom)
+    vcf <- vcf %>%
+      mutate(chrom_number = str_extract(chrom, "^(.+?)\\.") %>% parse_number() %>% magrittr::subtract(60924)) %>%
+      mutate(chrom=str_c("chr", chrom_number))
+  } else {
+    reference_length <- read_tsv(str_c("../reference/", reference, ".fasta.fai"), col_names = FALSE) %>%
+      transmute(chrom=X1, start=0, end=X2) %>%
+      mutate(chrom_number = str_extract(chrom, "^(.+?)_") %>% parse_number()) %>%
+      filter(!is.na(chrom_number), chrom_number<100) %>%
+      arrange(desc(chrom_number)) %>%
+      mutate(chrom=as_factor(chrom)) 
+  }
+  reference_chrom_order <- reference_length %>%
+    pull(chrom) %>%
+    levels()
+  reference_chrom_label <- reference_length %>%
+    mutate(tmp=ifelse(is.na(end), "", str_c("chr", chrom_number))) %>%
+    pull(tmp)
+  reference_feature <- read_tsv(str_c("../reference/", reference, "_genome_feature.bed"), col_names = FALSE) %>%
+    transmute(chrom=X1, start=X2, end=X3, type=X4) %>%
+    mutate(type=case_when(type=="CEN"~"Cen",
+                          type=="TEL"~"Telo",
+                          TRUE~type)) %>%
+    filter(type %in% c("Cen", "Telo")) %>%
+    filter(chrom %in% reference_chrom_order) %>%
+    mutate(chrom=factor(chrom, reference_chrom_order))
+  joined_vcf_for_ideogram  <- vcf %>%
+    filter(chrom %in% reference_chrom_order) %>%
+    #filter(type_simplified=="SINE/Alu", svtype=="INS") %>%
+    mutate(chrom=factor(chrom, reference_chrom_order)) 
+  window_density <- joined_vcf_for_ideogram %>%
+    left_join(transmute(reference_length, chrom, chrom_end=end)) %>%
+    dplyr::transmute(chrom=as.character(chrom), pos, chrom_end) %>%
+    mutate(window_pos = cut(pos, breaks = seq(from=0, to=250*10^6, by=window_size), labels = seq(from=0+window_size/2, to=250*10^6-window_size/2, by=window_size)) %>% as.character() %>% as.integer(),
+           window_name = str_c(chrom, "_", window_pos)) %>%
+    summarise(sv_count=dplyr::n(), .by = c(chrom, chrom_end, window_pos, window_name)) %>%
+    mutate(start=window_pos-window_size/2, end=ifelse(window_pos+window_size/2< chrom_end, window_pos+window_size/2, chrom_end)) %>%
+    mutate(sv_density=sv_count/(end-start)) %>%
+    filter((end-start)>=window_size/10)
+  max_density <- max(window_density$sv_density)
+  hotspot_position <<- window_density %>%
+    mutate(threshold=mean(sv_density)+3*sd(sv_density)) %>%
+    filter(sv_density>threshold) %>%
+    arrange(chrom, window_pos) %>%
+    transmute(seqnames=chrom, start, end) %>%
+    as_granges() %>%
+    reduce_ranges(min.gapwidth = window_size) %>%
+    as_tibble() %>%
+    transmute(reference=reference, chrom=seqnames, start, end, mid=(start+end)/2) %>%
+    mutate(chrom=factor(chrom, reference_chrom_order)) 
+  ideogram <- reference_length %>%
+    ggplot() +
+    geom_rect(aes(xmin=start, xmax=end, ymin=as.numeric(chrom)-0.4, ymax=as.numeric(chrom)-0.2), fill="white", color="black", size=0.5) +
+    geom_rect(data=reference_feature, aes(xmin=start, xmax=end, ymin=as.numeric(chrom)-0.4, ymax=as.numeric(chrom)-0.2), size=0.5, color="black") +
+    #ggridges::geom_density_ridges(data=joined_vcf_for_ideogram,aes(y=as.numeric(chrom), group=chrom, x=pos), position=position_nudge(y=-0.05), rel_min_height = 0.02, scale=0.8, bandwidth=200000, color=NA, fill=density_fill, panel_scaling = TRUE)+
+    # ggridges::geom_density_ridges(data=joined_vcf_for_ideogram,aes(y=as.numeric(chrom), group=chrom, x=pos, fill=svtype), position=position_nudge(y=-0.05), rel_min_height = 0.02, scale=0.8, bandwidth=200000, color=NA, panel_scaling = TRUE, fill=density_fill, alpha=0.5)+
+    ggridges::geom_ridgeline(data=window_density %>% mutate(chrom=factor(chrom, reference_chrom_order)), aes(y=as.numeric(chrom), group=chrom, x=(start+end)/2, height=sv_density), alpha=0.3, rel_min_height = 0.0, scale=1*10^0/max_density, fill=density_fill, color=density_fill)+
+    # geom_point(data=hotspot_position, aes(x=mid, y=as.numeric(chrom)-0.12), shape="*", size=5) +
+    # geom_segment(data=hotspot_position, aes(x=start,xend=end, y=as.numeric(chrom)+0.45, yend=as.numeric(chrom)+0.45)) +
+    geom_rect(data=hotspot_position, aes(xmin=start, xmax=end, ymin=as.numeric(chrom)-0.4, ymax=as.numeric(chrom)-0.2), size=0.5, color="red", fill="red") +
+    scale_y_continuous(breaks=1:length(reference_chrom_label), labels=reference_chrom_label, expand=c(0.01, 0)) +
+    scale_x_continuous(breaks = 0:4*5*10^7, labels = 0:4*5*10) +
+    labs(x="position (in Mbp)") +
+    theme_minimal() +
+    theme(panel.grid = element_blank(),
+          axis.ticks.x = element_line(),
+          axis.title.y = element_blank())
+  return(ideogram)
+}
+p1 <- plot_ideogram("mPanTro3", vcf_annotated_combined %>% filter(species=="chimpanzee"), "#8A865D") +
+  ggtitle("Chimpanzee mapped to T2T-mPanTro3")
+hotspot_position_final <- hotspot_position %>% mutate(species="chimpanzee")
+p2 <- plot_ideogram("mPanPan1", vcf_annotated_combined %>% filter(species=="bonobo"), "#FF8C69") +
+  ggtitle("Bonobo mapped to T2T-mPanPan1")
+hotspot_position_final <- bind_rows(hotspot_position_final, hotspot_position %>% mutate(species="bonobo"))
+p3 <- plot_ideogram("ht2t", vcf_annotated_combined %>% filter(species=="human"), "#5C608A") +
+  ggtitle("Human mapped to CHM13")
+hotspot_position_final <- bind_rows(hotspot_position_final, hotspot_position %>% mutate(species="human"))
+combined_ideogram <- p1 + p2 + p3 + plot_layout()
+combined_ideogram
+hotspot_position_final %>%
+  count(species)
+# hotspot_position_final %>%
+#   dplyr::select(chrom, start, end, species) %>%
+#   write_tsv("../docs/sv_hotspots.tsv")
+# ggsave("../figures/combined_sv_density_ideogram.pdf", combined_ideogram, width=10, height = 10)
+```
+
+```{r}
+library(plyranges)
+vcf_annotated_combined %>%
+  dplyr::select(chrom, pos, species) %>%
+  mutate(window_pos = cut(pos, breaks = seq(from=0, to=250*10^6, by=2*10^6), labels = seq(from=1*10^6, to=249*10^6, by=2*10^6)) %>% as.character() %>% as.integer(),
+         window_name = str_c(chrom, "_", window_pos)) %>%
+  summarise(sv_count=n(), .by = c(chrom, species, window_pos, window_name)) %>%
+  mutate(sv_density=sv_count/(2*10^6)) %>%
+  mutate(threshold=mean(sv_count)+3*sd(sv_count), .by=species) %>%
+  # slice_max(order_by = sv_density, by=species, n=50) %>%
+  ggplot(aes(x=sv_density, fill = sv_count>threshold)) +
+  geom_histogram()+
+  facet_wrap(~species, ncol = 1) +
+  scale_y_sqrt()
+vcf_annotated_combined %>%
+  dplyr::select(chrom, pos, species) %>%
+  mutate(window_pos = cut(pos, breaks = seq(from=0, to=250*10^6, by=2*10^6), labels = seq(from=1*10^6, to=249*10^6, by=2*10^6)) %>% as.character() %>% as.integer(),
+         window_name = str_c(chrom, "_", window_pos)) %>%
+  summarise(sv_count=dplyr::n(), .by = c(chrom, species, window_pos, window_name)) %>%
+  mutate(sv_density=sv_count/(2*10^6)) %>%
+  mutate(threshold=mean(sv_count)+3*sd(sv_count), .by=species) %>%
+  filter(sv_count>threshold) %>%
+  arrange(species, chrom, window_pos) %>%
+  mutate(start=window_pos-10^6, end=window_pos+10^6) %>%
+  transmute(seqnames=chrom, start, end, species) %>%
+  filter(species=="bonobo") %>%
+  as_granges() %>%
+  reduce_ranges(min.gapwidth = 4*10^6) %>%
+  as_tibble() %>%
+  transmute(species="bonobo", chrom=seqnames, start, end, mid=(start+end)/2)
+```
+
+## PCA
+
+```{r fig.height=5, fig.width=6}
+## HPRC
+hprc_eigenvec <- read_delim(str_c("../truvari/ht2t/hprc.concat.eigenvec"), delim = " ", col_names = c("sample_id", "junk", str_c("PC", 1:20))) %>%
+  dplyr::select(-junk) %>%
+  left_join(hprc_metadata, by=c("sample_id"="id")) 
+hprc_eigenval <- read_lines(str_c("../truvari/ht2t/hprc.concat.eigenval")) %>%
+  parse_double() %>%
+  magrittr::divide_by(., sum(.)) %>%
+  magrittr::multiply_by(100) %>%
+  round(2)
+hprc_eigenvec_outlier <- hprc_eigenvec %>%
+  filter(abs(PC1) > (mean(PC1)+2*sd(PC1)) | abs(PC2)>mean(PC2)+2*sd(PC2))
+hprc_pca <- hprc_eigenvec %>%
+  ggplot(aes(x=PC1, y=PC2, color=hprc_meta_population, shape = hprc_meta_population)) +
+  #ggrepel::geom_label_repel(data=filter(hprc_eigenvec, sample_id %in% c("AG18356_6", "AG16618_12")), mapping = aes(label=sample_id)) +
+  geom_point(size=2, stroke=1)+
+  #ggrepel::geom_label_repel(data=hprc_eigenvec_outlier, aes(label=sample_id), show_guide = FALSE) +
+  #ggrepel::geom_label_repel(aes(label=sample_id)) +
+  scale_shape_manual(values = rep(c(21:24), 10)) +
+  scale_color_manual(values =hprc_color) +
+  guides(color=guide_legend(ncol=2), shape=guide_legend(ncol=2)) +
+  labs(x=str_c("PC1 (", hprc_eigenval[1], "%)"),
+       y=str_c("PC2 (", hprc_eigenval[2], "%)")) +
+  theme_cowplot() +
+  theme_bw() +
+  theme(legend.title=element_blank(),
+        legend.box.background = element_rect(linewidth = 0.5),
+        legend.position = c(0.6, 0.65),
+        panel.grid = element_blank(),
+        text = element_text(size=15)) +
+  ggtitle("human")
+hprc_pca
+
+## PANPAN-PT
+chimp_eigenvec <- read_delim(str_c("../truvari/mPanTro3/panpan-pt.concat.eigenvec"), delim = " ", col_names = c("sample_id", "junk", str_c("PC", 1:20))) %>%
+  dplyr::select(-junk) %>%
+  left_join(panpan_metadata %>% distinct(genome_name, common_name), by=c("sample_id"="genome_name"))
+chimp_eigenval <- read_lines(str_c("../truvari/mPanTro3/panpan-pt.concat.eigenval")) %>%
+  parse_double() %>%
+  magrittr::divide_by(., sum(.)) %>%
+  magrittr::multiply_by(100) %>%
+  round(2)
+chimp_pca <- chimp_eigenvec %>%
+  ggplot(aes(x=PC1, y=PC2, color=common_name)) +
+  #ggrepel::geom_label_repel(data=filter(chimp_eigenvec, sample_id %in% c("AG18356_6", "AG16618_12")), mapping = aes(label=sample_id)) +
+  geom_point(size=3, stroke=1.5, shape=21)+
+  #ggrepel::geom_label_repel(aes(label=sample_id)) +
+  #scale_shape_manual(values = c(21, 22, 22, 22, 22, 23)) +
+  scale_color_manual(values =c(panpan_color, "grey")) +
+  labs(x=str_c("PC1 (", chimp_eigenval[1], "%)"),
+       y=str_c("PC2 (", chimp_eigenval[2], "%)")) +
+  theme_cowplot() +
+  theme_bw() +
+  theme(legend.title=element_blank(),
+        legend.box.background = element_rect(linewidth = 0.5),
+        legend.position = c(0.27, 0.25),
+        panel.grid = element_blank(),
+        text = element_text(size=15)) +
+  ggtitle("chimpanzee")
+chimp_pca
+```
+
+```{r fig.height=4.5, fig.width=12}
+combined_pca_plot <- plot_grid(hprc_pca,
+                               chimp_pca,
+                               align = "vh",
+                               nrow = 1)
+combined_pca_plot
+ggsave("../figures/combined_sv_pca.pdf", combined_pca_plot, width=12, height=4.5)
+```
+
+## Intersection with genes with vep
+
+#### run vep
+
+```{bash eval=FALSE}
+## ht2t, we used an older annotation file first, which caused some issues. we are now switching to the new one, but Joana did the processing, so I'll start from there
+/global/scratch/users/joana_rocha/PANPAN/reference/human_T2T/ncbi_dataset/data/GCF_009914755.1/genomic.gff
+#/global/scratch/users/joana_rocha/PANPAN/reference/human_T2T/GCF_009914755.1_T2T-CHM13v2.0_genomic.gff
+## mPanPan1
+/global/scratch/users/joana_rocha/PANPAN/PANPAN_graph/pangene/mPanPan1_reference_proteins/mPanPan1_modified_chrom_alias.gtf
+## mPanTro3
+/global/scratch/users/joana_rocha/PANPAN/PANPAN_graph/pangene/mPanTro3_reference_proteins/mPanTro3_modified_chrom_alias.gtf
+
+## ht2t
+conda activate ensembl-vep-113.3
+cd /global/scratch/users/nicolas931010/sv_detection
+mkdir -p vep/ht2t
+#grep -v "#" /global/scratch/users/joana_rocha/PANPAN/reference/human_T2T/GCF_009914755.1_T2T-CHM13v2.0_genomic.gff | sort -k1,1 -k4,4n -k5,5n -t$'\t' | bgzip -c > vep/ht2t/ht2t.gff.gz
+#tabix -p gff -C vep/ht2t/ht2t.gff.gz
+cp /global/scratch/users/joana_rocha/PANPAN/PANPAN_snvs/vep_snvs/ht2t/ht2t.gff.gz vep/ht2t/
+tabix -p gff -C vep/ht2t/ht2t.gff.gz
+vep -i truvari/ht2t/hprc.concat.vcf.gz -o vep/ht2t/hprc.concat.vcf.txt --fork 32 --custom file=vep/ht2t/ht2t.gff.gz,short_name=ht2t,format=gff,type=overlap --fasta reference/ht2t.fasta --force_overwrite  &> vep/ht2t/hprc.concat.vcf.log
+vep -i concat_vcf/ht2t/final3~ht2t.vcf.gz -o vep/ht2t/hprc.large_svs.vcf.txt --fork 32 --custom file=vep/ht2t/ht2t.gff.gz,short_name=ht2t,format=gff,type=overlap --fasta reference/ht2t.fasta --force_overwrite  &> vep/ht2t/hprc.large_svs.vcf.log
+
+## mPanTro3
+mkdir -p vep/mPanTro3
+grep -v "#" /global/scratch/users/joana_rocha/PANPAN/PANPAN_graph/pangene/mPanTro3_reference_proteins/mPanTro3_modified_chrom_alias.gtf | sort -k1,1 -k4,4n -k5,5n -t$'\t' | bgzip -c > vep/mPanTro3/mPanTro3.gtf.gz
+tabix -p gff -C vep/mPanTro3/mPanTro3.gtf.gz
+vep -i truvari/mPanTro3/lifted_panpan-pt.concat.vcf.gz -o vep/mPanTro3/panpan-pt.concat.vcf.txt --fork 32 --custom file=vep/mPanTro3/mPanTro3.gtf.gz,short_name=mPanTro3,format=gtf,type=overlap --fasta /global/scratch/users/joana_rocha/PANPAN/reference/primates_T2T/mPanTro3/mPanTro3.pri.cur.20231122.fasta --force_overwrite  &> vep/mPanTro3/panpan-pt.concat.vcf.log
+vep -i concat_vcf/mPanTro3/final3~mPanTro3.vcf.gz -o vep/mPanTro3/panpan-pt.large_svs.vcf.txt --fork 32 --custom file=vep/mPanTro3/mPanTro3.gtf.gz,short_name=mPanTro3,format=gtf,type=overlap --fasta /global/scratch/users/joana_rocha/PANPAN/reference/primates_T2T/mPanTro3/mPanTro3.pri.cur.20231122.fasta --force_overwrite  &> vep/mPanTro3/panpan-pt.large_svs.vcf.log
+
+## mPanPan1
+mkdir -p vep/mPanPan1
+grep -v "#" /global/scratch/users/joana_rocha/PANPAN/PANPAN_graph/pangene/mPanPan1_reference_proteins/mPanPan1_modified_chrom_alias.gtf | sort -k1,1 -k4,4n -k5,5n -t$'\t' | bgzip -c > vep/mPanPan1/mPanPan1.gtf.gz
+tabix -p gff -C vep/mPanPan1/mPanPan1.gtf.gz
+vep -i truvari/mPanPan1/panpan-pp.concat.vcf.gz -o vep/mPanPan1/panpan-pp.concat.vcf.txt --fork 32 --custom file=vep/mPanPan1/mPanPan1.gtf.gz,short_name=mPanPan1,format=gtf,type=overlap --fasta reference/mPanPan1.fasta --force_overwrite  &> vep/mPanPan1/panpan-pp.concat.vcf.log
+vep -i concat_vcf/mPanPan1/final3~mPanPan1.vcf.gz -o vep/mPanPan1/panpan-pp.large_svs.vcf.txt --fork 32 --custom file=vep/mPanPan1/mPanPan1.gtf.gz,short_name=mPanPan1,format=gtf,type=overlap --fasta reference/mPanPan1.fasta --force_overwrite  &> vep/mPanPan1/panpan-pp.large_svs.vcf.log
+```
+
+#### wrangle the result
+
+```{r eval=FALSE}
+## human
+vep_human <- read_tsv("../vep/ht2t/hprc.concat.vcf.txt", comment = "##") %>% 
+  clean_names() %>%
+  # bind_rows(read_tsv("../vep/ht2t/hprc.large_svs.vcf.txt", comment = "##") %>% clean_names()) %>%
+  filter(!str_detect(number_uploaded_variation, "BND")) %>%
+  separate_rows(extra, sep = ";") %>%
+  separate(extra, into = c("key", "value"), sep = "=", fill = "right") %>%
+  pivot_wider(names_from = key, values_from = value) %>%
+  clean_names() %>%
+  mutate(impact=fct_relevel(impact, c("HIGH", "MODERATE", "LOW", "MODIFIER"))) %>%
+  mutate(species="human")
+gff_human <- read_tsv("../vep/ht2t/ht2t.gff.gz", comment = "#", col_names = FALSE) %>%
+  filter(X3 %in% c("gene"), str_detect(X9, "gene_biotype=protein_coding")) %>% 
+  mutate(index=row_number()) %>%
+  dplyr::select(index, X2, X3, X9) %>%
+  separate_rows(X9, sep = ";") %>%
+  separate(X9, into = c("key", "value"), sep = "=") %>%
+  filter(key %in% c("Dbxref", "ID", "Name", "description")) %>%
+  pivot_wider(names_from = key, values_from = value) %>%
+  clean_names() %>%
+  dplyr::select(-index) %>%
+  mutate(gene=str_remove(dbxref, ".*GeneID:") %>% str_remove(",.*")) %>%
+  dplyr::rename(annotation_tool=x2, type=x3) %>%
+  filter(!str_detect(description, "non-protein coding"),
+         !(str_detect(name, "^LOC") & is.na(description)),
+         !(str_detect(name, "^LOC") & str_detect(description, regex("uncharacterized", ignore_case = TRUE))),
+         !(str_detect(name, "^LOC") & str_detect(description, "uncharaterized")))
+vep_human_by_gene <- vep_human %>%
+  filter(gene != "-") %>%
+  separate_rows(consequence, sep = ",") %>%
+  distinct(gene, impact, consequence, species, number_uploaded_variation) %>%
+  ##filter(gene=="100288069") %>%
+  ## this is to only include variants that have the highest impact for each gene, and its functional consequences (it may be mix for high and low impact consequences)
+  filter(impact==sort(unique(impact))[1], .by=c(species, gene)) %>%
+  summarise(consequence=str_c(unique(consequence), collapse = ","), variant_id=str_c(unique(number_uploaded_variation), collapse = ","), impact=sort(impact)[1], .by=c(species, gene)) %>%
+  inner_join(gff_human, by="gene")
+vep_human_by_gene_filtered <- vep_human_by_gene %>%
+  #filter(impact=="HIGH") %>%
+  dplyr::select(species, type, name, description, impact, consequence, variant_id) %>%
+  # filter(!(str_detect(name, "^LOC") & is.na(description)),
+  #        !(str_detect(name, "^LOC") & str_detect(description, "^uncharacterized")),
+  #        !(str_detect(name, "^LOC") & str_detect(description, "^putatively uncharacterized")),
+  #        !(str_detect(name, "^LOC") & str_detect(description, "spliceosomal RNA")),
+  #        !(str_detect(name, "^LOC") & str_detect(description, "small") & str_detect(description, "RNA")),
+  #        !str_detect(name, "^TRNA"),
+  #        !str_detect(name, "^LINC"),
+  #        !str_detect(name, "^SNORA"),
+  #        !str_detect(name, "^RNA5S"),
+  #        !str_detect(description, "ribosomal RNA$"),
+  #        !str_detect(description, "^microRNA"),
+  #        type=="gene") %>%
+  distinct()
+## chimp
+vep_chimp <- read_tsv("../vep/mPanTro3/panpan-pt.concat.vcf.txt", comment = "##") %>% 
+  clean_names() %>%
+  filter(!str_detect(number_uploaded_variation, "BND")) %>%
+  separate_rows(extra, sep = ";") %>%
+  separate(extra, into = c("key", "value"), sep = "=", fill = "right") %>%
+  pivot_wider(names_from = key, values_from = value) %>%
+  clean_names() %>%
+  mutate(impact=fct_relevel(impact, c("HIGH", "MODERATE", "LOW", "MODIFIER"))) %>%
+  mutate(species="chimpanzee")
+gtf_chimp <- read_tsv("../vep/mPanTro3/mPanTro3.gtf.gz", comment = "#", col_names = FALSE) %>%
+  filter(X3 %in% c("gene"), str_detect(X9, "gene_biotype \"protein_coding\"")) %>% 
+  mutate(index=row_number()) %>%
+  dplyr::select(index, X2, X3, X9) %>%
+  separate_rows(X9, sep = "; ") %>%
+  separate(X9, into = c("key", "value"), sep = " ", extra = "merge") %>%
+  mutate(value=str_remove_all(value, "\"")) %>%
+  filter(key %in% c("gene_id", "description")) %>%
+  pivot_wider(names_from = key, values_from = value) %>%
+  clean_names() %>%
+  dplyr::select(-index) %>%
+  #mutate(gene=str_remove(dbxref, ".*GeneID:") %>% str_remove(",.*")) %>%
+  dplyr::rename(gene=gene_id, annotation_tool=x2, type=x3) %>%
+  filter(!str_detect(description, "non-protein coding"),
+         !(str_detect(gene, "^LOC") & is.na(description)),
+         !(str_detect(gene, "^LOC") & str_detect(description, regex("uncharacterized", ignore_case = TRUE))))
+vep_chimp_by_gene <- vep_chimp %>%
+  filter(gene != "-") %>%
+  separate_rows(consequence, sep = ",") %>%
+  distinct(gene, impact, consequence, species, number_uploaded_variation) %>%
+  filter(impact==sort(unique(impact))[1], .by=c(species, gene)) %>%
+  summarise(consequence=str_c(unique(consequence), collapse = ","), variant_id=str_c(unique(number_uploaded_variation), collapse = ","), impact=sort(impact)[1], .by=c(species, gene)) %>%
+  inner_join(gtf_chimp, by="gene") 
+vep_chimp_by_gene_filtered <- vep_chimp_by_gene %>%
+  #filter(impact=="HIGH") %>%
+  dplyr::select(species, type, gene, description, impact, consequence, variant_id) %>%
+  dplyr::rename(name=gene) %>%
+  # filter(!(str_detect(name, "^LOC") & is.na(description)),
+  #        !(str_detect(name, "^LOC") & str_detect(description, "^uncharacterized")),
+  #        !(str_detect(name, "^LOC") & str_detect(description, "^putatively uncharacterized")),
+  #        !(str_detect(name, "^LOC") & str_detect(description, "spliceosomal RNA")),
+  #        !(str_detect(name, "^LOC") & str_detect(description, "small") & str_detect(description, "RNA")),
+  #        !str_detect(name, "^TRNA"),
+  #        !str_detect(name, "^LINC"),
+  #        !str_detect(name, "^SNORA"),
+  #        !str_detect(name, "^RNA5S"),
+  #        !str_detect(description, "ribosomal RNA$"),
+  #        !str_detect(description, "^microRNA"),
+  #        type=="gene") %>%
+  distinct()
+## bonobo
+vep_bonobo <- read_tsv("../vep/mPanPan1/panpan-pp.concat.vcf.txt", comment = "##") %>% 
+  clean_names() %>%
+  filter(!str_detect(number_uploaded_variation, "BND")) %>%
+  separate_rows(extra, sep = ";") %>%
+  separate(extra, into = c("key", "value"), sep = "=", fill = "right") %>%
+  pivot_wider(names_from = key, values_from = value) %>%
+  clean_names() %>%
+  mutate(impact=fct_relevel(impact, c("HIGH", "MODERATE", "LOW", "MODIFIER"))) %>%
+  mutate(species="bonobo")
+gtf_bonobo <- read_tsv("../vep/mPanPan1/mPanPan1.gtf.gz", comment = "#", col_names = FALSE) %>%
+  filter(X3 %in% c("gene"), str_detect(X9, "gene_biotype \"protein_coding\"")) %>% 
+  mutate(index=row_number()) %>%
+  dplyr::select(index, X2, X3, X9) %>%
+  separate_rows(X9, sep = "; ") %>%
+  separate(X9, into = c("key", "value"), sep = " ", extra = "merge") %>%
+  mutate(value=str_remove_all(value, "\"")) %>%
+  filter(key %in% c("gene_id", "description")) %>%
+  pivot_wider(names_from = key, values_from = value) %>%
+  clean_names() %>%
+  dplyr::select(-index) %>%
+  #mutate(gene=str_remove(dbxref, ".*GeneID:") %>% str_remove(",.*")) %>%
+  dplyr::rename(gene=gene_id, annotation_tool=x2, type=x3) %>%
+  filter(!str_detect(description, "non-protein coding"),
+         !(str_detect(gene, "^LOC") & is.na(description)),
+         !(str_detect(gene, "^LOC") & str_detect(description, regex("uncharacterized", ignore_case = TRUE))))
+vep_bonobo_by_gene <- vep_bonobo %>%
+  filter(gene != "-") %>%
+  separate_rows(consequence, sep = ",") %>%
+  distinct(gene, impact, consequence, species, number_uploaded_variation) %>%
+  filter(impact==sort(unique(impact))[1], .by=c(species, gene)) %>%
+  summarise(consequence=str_c(unique(consequence), collapse = ","), variant_id=str_c(unique(number_uploaded_variation), collapse = ","), impact=sort(impact)[1], .by=c(species, gene)) %>%
+  inner_join(gtf_bonobo, by="gene")
+vep_bonobo_by_gene_filtered <- vep_bonobo_by_gene %>%
+  #filter(impact=="HIGH") %>%
+  dplyr::select(species, type, gene, description, impact, consequence, variant_id) %>%
+  dplyr::rename(name=gene) %>%
+  # filter(!(str_detect(name, "^LOC") & is.na(description)),
+  #        !(str_detect(name, "^LOC") & str_detect(description, "^uncharacterized")),
+  #        !(str_detect(name, "^LOC") & str_detect(description, "^putatively uncharacterized")),
+  #        !(str_detect(name, "^LOC") & str_detect(description, "spliceosomal RNA")),
+  #        !(str_detect(name, "^LOC") & str_detect(description, "small") & str_detect(description, "RNA")),
+  #        !str_detect(name, "^TRNA"),
+  #        !str_detect(name, "^LINC"),
+  #        !str_detect(name, "^SNORA"),
+  #        !str_detect(name, "^RNA5S"),
+  #        !str_detect(description, "ribosomal RNA$"),
+  #        !str_detect(description, "^microRNA"),
+  #        type=="gene") %>%
+  distinct()
+vep_all_species_by_gene_wide <- vep_human_by_gene_filtered %>% 
+  dplyr::select(species, name, description, impact) %>%
+  bind_rows(vep_chimp_by_gene_filtered %>% dplyr::select(species, name, description, impact)) %>%
+  bind_rows(vep_bonobo_by_gene_filtered %>% dplyr::select(species, name, description, impact)) %>%
+  #filter(str_detect(name, "^LOC")) %>% 
+  #filter(dplyr::n()>1, .by=name)
+  dplyr::select(-description) %>%
+  mutate(impact=(5-as.numeric(impact))) %>%
+  pivot_wider(names_from = species, values_from = impact, values_fill = 0) %>%
+  left_join(gff_human %>% filter(!is.na(description)) %>% dplyr::select(name, description) %>% distinct()) %>%
+  left_join(gtf_chimp %>% filter(!is.na(description)) %>% transmute(name=gene, description_chimp=description) %>% distinct()) %>%
+  left_join(gtf_bonobo %>% filter(!is.na(description)) %>% transmute(name=gene, description_bonobo=description) %>% distinct()) %>%
+  mutate(description=ifelse(is.na(description), description_chimp, description),
+         description=ifelse(is.na(description), description_bonobo, description),) %>%
+  dplyr::select(-description_chimp, -description_bonobo)
+vep_all_species_by_gene_wide %>%
+  mutate(human=human>0, chimpanzee=chimpanzee>0, bonobo=bonobo>0) %>%
+  count(human, chimpanzee, bonobo)
+vep_all_species_by_gene_wide %>%
+  mutate(human=human>1, chimpanzee=chimpanzee>1, bonobo=bonobo>1) %>%
+  count(human, chimpanzee, bonobo)
+vep_all_species_by_gene_wide %>%
+  filter((human>3)+(chimpanzee>3)+(bonobo>3)>1)%>%
+  arrange(name)
+vep_all_species_by_gene_wide %>%
+  filter((human>1)+(chimpanzee>1)+(bonobo>1)>2) 
+```
+
+#### output the gene table
+
+```{r eval=FALSE}
+vep_all_species_by_gene_wide %>%
+  write_tsv("../vep/gene_impact_wide.tsv")
+vep_all_species_by_gene_wide %>%
+  filter((human>3)+(chimpanzee>3)+(bonobo>3)>1) %>%
+  arrange(name) %>%
+  write_csv("../docs/genes_impacted_by_svs_shared_across_species.csv")
+disease_info_old <- read_csv("../docs/JR_genes_impacted_by_svs_shared_across_species.csv") %>%
+  dplyr::select(name, diseases, other)
+vep_all_species_by_gene_wide %>%
+  filter((human>3)+(chimpanzee>3)+(bonobo>3)>1) %>%
+  left_join(disease_info_old) %>% 
+  arrange(name) %>%
+  write_csv("../docs/genes_impacted_by_svs_shared_across_species_with_desease_info.csv")
+```
+
+#### output the SV table
+
+```{r eval=FALSE}
+genes_impacted_by_svs_shared_across_species_long <- vep_all_species_by_gene_wide %>%
+  filter((human>3)+(chimpanzee>3)+(bonobo>3)>1) %>%
+  pivot_longer(cols=2:4, values_to = "impact", names_to = "species") %>%
+  filter(impact==4)
+vcf_for_vep_join <- vcf_annotated_combined %>%
+  mutate(end_from_svlen=ifelse(svtype=="INS", pos, pos+abs(svlen))) %>%
+  mutate(end=ifelse(!is.na(end), end, end_from_svlen), id) %>%
+  dplyr::select(id, chrom, pos, end, svtype, svlen, total_allele_count, allele_frequency, type_simplified, species)
+high_impact_svs_on_shared_genes <- bind_rows(vep_bonobo, vep_chimp, vep_human %>% left_join(gff_human %>% distinct(gene, name)) %>% mutate(gene=name) %>% dplyr::select(-name)) %>% 
+  filter(impact=="HIGH") %>% 
+  transmute(species, gene, id=number_uploaded_variation, feature, consequence) %>%
+  group_by(species, gene, id) %>%
+  summarise(feature=unique(feature) %>% str_c(collapse = ","), 
+            consequence=str_c(consequence, collapse = ",") %>% str_split(pattern=",") %>% lapply(unique) %>% map_chr(function(x){str_c(x, collapse = ",")})) %>%
+  ungroup() %>%
+  semi_join(genes_impacted_by_svs_shared_across_species_long, by=c("gene"="name", "species")) %>%
+  left_join(vcf_for_vep_join, by=c("id", "species"))
+high_impact_svs_on_shared_genes %>%
+  write_csv("../docs/high_impact_svs_on_shared_genes.csv")
+
+high_impact_svs_on_shared_genes %>%
+  count(gene, species) %>%
+  #count(gene) %>%
+  pivot_wider(names_from = species, values_from = n)
+# distinct(species, gene) %>%
+# mutate(value=1) %>%
+# pivot_wider(names_from = species, values_from = value) %>%
+# arrange(gene)
+```
+
+```{r eval=FALSE}
+sv_impact_long <- bind_rows(vep_bonobo, vep_chimp, vep_human %>% left_join(gff_human %>% distinct(gene, name)) %>% mutate(gene=name) %>% dplyr::select(-name)) %>% 
+  transmute(species, gene, impact, id=number_uploaded_variation, feature, consequence) %>%
+  group_by(species, id) %>%
+  filter(impact==unique(impact) %>% sort() %>% .[1]) %>%
+  summarise(impact=unique(impact),
+            gene=unique(gene) %>% str_c(collapse = ","), 
+            feature=unique(feature) %>% str_c(collapse = ","), 
+            consequence=str_c(consequence, collapse = ",") %>% str_split(pattern=",") %>% lapply(unique) %>% map_chr(function(x){str_c(x, collapse = ",")})) %>%
+  ungroup() %>%
+  left_join(vcf_for_vep_join, by=c("id", "species"))
+write_tsv(sv_impact_long, "../vep/sv_impact_long.tsv")
+```
+
+#### upset plot
+
+```{r fig.width=3.5, fig.height=3.5}
+vep_all_species_by_gene_wide <- read_tsv("../vep/gene_impact_wide.tsv")
+upset_plot_df <- vep_all_species_by_gene_wide %>%
+  mutate(human=human==4, chimpanzee=chimpanzee==4, bonobo=bonobo==4) %>%
+  filter(human+chimpanzee+bonobo>0) %>%
+  pivot_longer(cols=2:4, names_to = "species", values_to = "high_impact") %>%
+  filter(high_impact) %>%
+  group_by(name) %>%
+  summarise(species=list(species)) %>%
+  ungroup()
+factor_levels =  c("Eastern", "Central", "Western x Central", "Western")
+shared_genes_upset_plot <- upset_plot_df %>%
+  ggplot(aes(x=species)) +
+  geom_bar(fill="grey") +
+  geom_text(data=count(upset_plot_df, species), mapping = aes(x=species, y=exp(log(n)/2), label=n), size=3) +
+  scale_x_upset(n_intersections = 7) +
+  scale_y_log10() +
+  labs(y="number of named protein-coding genes\nhighly impacted by segregating SVs") +
+  theme_bw() +
+  theme(panel.grid.major.x = element_blank(),
+        axis.title.x=element_blank(),
+        axis.title.y=element_text(size=11),
+        text=element_text(size=15))
+shared_genes_upset_plot
+```
+
+```{r eval=FALSE}
+ggsave("../figures/highly_impacted_genes_upset_plot.pdf", shared_genes_upset_plot, height = 3.5, width = 3.5)
+```
+
+#### pLI correlation
+
+the absent category is currently wrong, since genes not existing in the annotation file should be excluded. We may not need this anyways though, since sHet seems to be better.
+
+```{r eval=FALSE, fig.width=6, fig.height=3}
+#read_tsv("http://hgdownload.soe.ucsc.edu/gbdb/hg38/gnomAD/pLI/pliByTranscript.bb")
+vep_all_species_by_gene_wide <- read_tsv("../vep/gene_impact_wide.tsv")
+pli_vep <- read_tsv("https://raw.githubusercontent.com/Ensembl/VEP_plugins/refs/heads/release/114/pLI_values.txt") %>%
+  rename(name=gene)
+## https://gnomad.broadinstitute.org/downloads#v4-constraint
+pli_raw <- read_tsv("../vep/gnomad.v4.1.constraint_metrics.tsv")
+pli <- pli_raw %>%
+  filter(canonical, !is.na(lof.pLI)) %>%
+  dplyr::select(gene, lof.pLI, lof.oe, lof.z_score, mis.z_score, syn.z_score) %>%
+  distinct() %>%
+  arrange(gene, lof.z_score, mis.z_score, syn.z_score) %>%
+  slice_tail(by=gene) %>%
+  rename(name=gene)
+pli_of_sv_impacted_genes <- pli %>%
+  left_join(vep_all_species_by_gene_wide, by="name") %>%
+  mutate(human=ifelse(is.na(human), 0, human),
+         chimpanzee=ifelse(is.na(chimpanzee), 0, chimpanzee),
+         bonobo=ifelse(is.na(bonobo), 0, bonobo)) %>%
+  mutate(category=case_when(human>1 ~ "impacted by SVs in humans", 
+                            T ~ "unimpacted by SVs in humans"))
+#   mutate(category=case_when(human>1 ~ "impacted by functional SVs in humans", 
+#                             human==0 ~ "unimpacted by SVs in humans",
+#                             human==1 ~ "impacted by modifier SVs in humans"))
+pli_of_sv_impacted_genes %>%
+  ggplot(aes(x=lof.pLI, y=as.factor(human))) +
+  ggridges::geom_density_ridges() +
+  scale_x_sqrt() +
+  scale_y_discrete(label=c("absent", "modifier", "low","moderate", "high"), name="impact level by SV") +
+  theme_bw()
+pli_of_sv_impacted_genes %>%
+  ggplot(aes(x=lof.pLI)) +
+  geom_histogram() +
+  facet_wrap(~category, scales = "free_y") +
+  theme_bw()
+pli_of_sv_impacted_genes %>%
+  ggplot(aes(x=lof.z_score)) +
+  geom_histogram() +
+  facet_wrap(~category, scales = "free_y", ncol = 1)
+pli_of_sv_impacted_genes %>%
+  ggplot(aes(x=lof.z_score, y=category)) +
+  geom_boxplot() +
+  theme_bw()
+pli_of_sv_impacted_genes %>%
+  ggplot(aes(fill=category, x=lof.z_score)) +
+  geom_density(alpha=0.5) +
+  theme_bw() +
+  theme(legend.position = "top") 
+
+pli_of_sv_impacted_genes %>%
+  slice_max(lof.z_score)
+pli_of_sv_impacted_genes %>%
+  rowwise() %>%
+  mutate(max_impact=max(human, chimpanzee, bonobo)) %>%
+  ggplot(aes(x=lof.pLI)) +
+  geom_histogram() +
+  facet_wrap(~(max_impact>1), scales = "free_y")
+# vep_all_species_by_gene_wide %>%
+#   anti_join(pli) %>% #arrange(desc(bonobo), desc(chimpanzee))
+#   filter(human>0)
+pli %>%
+  ggplot(aes(x=mis.z_score, y=lof.z_score)) +
+  geom_point()
+```
+
+#### length distribution of SVs with different impact levels
+
+```{r fig.width=8, fig.height=5}
+sv_impact_long %>%
+  mutate(impact=fct_relevel(impact, c("MODIFIER", "LOW","MODERATE", "HIGH"))) %>%
+  mutate(svtype=fct_relevel(svtype, c("INS", "DEL", "DUP", "INV"))) %>%
+  ggplot(aes(x=abs(svlen), fill = svtype)) +
+  geom_histogram(color="black", bins=50, linewidth=0.2) +
+  scale_x_log10() +
+  facet_grid(impact~species, scales = "free_y") +
+  labs(x="SV length") +
+  theme_bw()
+sv_impact_long %>%
+  mutate(type_simplified=fct_relevel(type_simplified, c("SINE/Alu", "LINE/L1", "Retroposon/SVA", "Simple/tandem repeat", "Other repeats", "Non-repeat"))) %>%
+  filter(svtype %in% c("INS", "DEL")) %>%
+  mutate(impact=fct_relevel(impact, c("MODIFIER", "LOW","MODERATE", "HIGH"))) %>%
+  ggplot(aes(x=abs(svlen), fill = type_simplified)) +
+  geom_histogram(color="black", bins=50, linewidth=0.2) +
+  scale_fill_manual(values = pals::cols25(n=25)[c(1:3, 7, 8, 13)], breaks=c("SINE/Alu", "LINE/L1", "Retroposon/SVA", "Simple/tandem repeat", "Other repeats", "Non-repeat"), drop=FALSE) +
+  scale_x_log10() +
+  facet_grid(impact~species, scales = "free_y") +
+  labs(x="SV length") +
+  theme_bw()
+```
+
+#### SFS of SVs with different impact levels
+
+```{r fig.height=3, fig.width=10}
+sv_impact_long <- read_tsv("../vep/sv_impact_long.tsv")
+# sv_impact_long %>% distinct(id, species) %>% dim()
+# vcf_for_vep_join %>% distinct(id, species) %>% dim()
+sv_impact_sfs_tmp <- crossing(species="bonobo", total_allele_count=1:(10-1), impact_simplified=c("modifier variant", "putatively functional variant")) %>%
+  bind_rows(crossing(species="chimpanzee", total_allele_count=1:(48-1), impact_simplified=c("modifier variant", "putatively functional variant"))) %>%
+  bind_rows(crossing(species="human", total_allele_count=1:94, impact_simplified=c("modifier variant", "putatively functional variant")))
+sv_impact_sfs <- sv_impact_long %>%
+  filter(species!="bonobo" | total_allele_count!=10) %>%
+  filter(species!="chimpanzee" | total_allele_count!=48) %>%
+  mutate(impact_simplified=ifelse(impact=="MODIFIER", "modifier variant", "putatively functional variant")) %>%
+  count(species, total_allele_count, impact_simplified) %>% 
+  left_join(sv_impact_sfs_tmp, .) %>%
+  mutate(n=ifelse(is.na(n), 0, n)) %>%
+  mutate(p=n/sum(n), .by=c(species, impact_simplified)) 
+custom_x <- list(
+  scale_x_sqrt(breaks = c(1, 5, 9)),
+  scale_x_sqrt(breaks = c(1, (1:5)*10)),
+  scale_x_sqrt((breaks = c(1, (1:4)*25)),)
+)
+sv_impact_sfs %>%
+  ggplot(aes(x=total_allele_count, y=p)) +
+  geom_line(aes(color=impact_simplified)) +
+  geom_point(aes(color=impact_simplified), size=0.2) +
+  geom_ribbon(aes(fill=impact_simplified, ymax=p), ymin=0, alpha=0.2) +
+  scale_color_manual(values=MetBrewer::met.brewer(name="Homer1", n=8, type = "d")[c(8,2)]) +
+  scale_fill_manual(values=MetBrewer::met.brewer(name="Homer1", n=8, type = "d")[c(8,2)]) +
+  labs(x="number of non-reference alleles", y="proportion of SVs") +
+  scale_y_sqrt() +
+  facet_grid(.~species, scale="free", space="free_x")+
+  facetted_pos_scales(x = custom_x) +
+  theme_bw() +
+  theme(legend.position = "top", panel.grid = element_blank())
+custom_x <- list(
+  scale_x_continuous(breaks = c(1, 9)),
+  scale_x_continuous(breaks = c(1, (1:5)*10)),
+  scale_x_continuous(breaks = c(1, (1:4)*25))
+)
+sv_impact_sfs %>%
+  ggplot(aes(x=total_allele_count, y=p)) +
+  geom_col(aes(fill=impact_simplified), position=position_dodge(), color="black", linewidth=0.1) +
+  #scale_fill_manual(values=MetBrewer::met.brewer(name="Derain", n=7, type = "d")[c(1,6)]) +
+  scale_fill_manual(values=MetBrewer::met.brewer(name="Homer1", n=8, type = "d")[c(8,2)]) +
+  labs(x="number of non-reference alleles", y="proportion of SVs") +
+  scale_y_sqrt() +
+  facet_grid(.~species, scale="free", space="free_x")+
+  facetted_pos_scales(x = custom_x) +
+  theme_bw() +
+  theme(legend.position = "top", panel.grid = element_blank())
+```
+
+## Segregating SVs in chimp
+
+```{r eval=FALSE}
+vcf_long_chimp <- vcf_long_chimp_tmp %>%
+  left_join(panpan_metadata, by=c("indiv"="genome_name")) %>%
+  mutate(common_name=str_remove(common_name, " chimpanzee"),
+         common_name=str_remove(common_name, " hybrid"),
+         common_name=fct_relevel(common_name, c("Western", "Western x Central", "Central", "Eastern")))
+write_tsv(vcf_long_chimp, "../truvari/mPanTro3/vcf_long_chimp.tsv")
+```
+
+```{r}
+vcf_long_chimp <- data.table::fread("../truvari/mPanTro3/vcf_long_chimp.tsv") %>%
+  mutate(common_name=fct_relevel(common_name, c("Western", "Western x Central", "Central", "Eastern")))
+
+vcf_long_chimp_by_species <- vcf_long_chimp %>%
+  group_by(id, chrom, pos, ref, alt, svlen, svtype, end, common_name) %>%
+  summarise(allele_count=sum(allele_count), sample_size=dplyr::n()) %>%
+  ungroup()
+```
+
+#### SFS
+
+```{r fig.width=10, fig.height=4}
+vcf_long_chimp_by_species %>%
+  filter(allele_count>0) %>%
+  ggplot(aes(x=allele_count)) +
+  geom_bar(aes(fill=common_name), color="black") +
+  scale_fill_manual(values = panpan_color[c(3, 4, 1, 2)], name=NULL) +
+  facet_grid2(svtype~common_name, scales="free", space="free_x", independent = "y") +
+  theme_bw()+
+  theme(panel.grid = element_blank(),
+        legend.position = "none")
+```
+
+#### upset plot
+
+```{r}
+upset_plot_df <- vcf_long_chimp_by_species %>%
+  mutate(allele_frequency=allele_count/sample_size/2) %>%
+  filter(allele_frequency>0) %>%
+  group_by(id, chrom, pos, ref, alt, svlen, svtype, end) %>%
+  summarise(population=list(common_name)) %>%
+  ungroup()
+factor_levels =  c("Eastern", "Central", "Western x Central", "Western")
+upset_overriding_fn = function(df) {
+  df %>%
+    mutate(single_label = factor(single_label,levels = factor_levels ) ) %>%
+    ggplot(aes(x = at, y = single_label)) +
+    geom_rect(aes(fill= index %% 2 == 0), ymin=df$index-0.5,
+              ymax=df$index+0.5, xmin=0, xmax=1) +
+    geom_point(aes(color= observed), size = 3) +
+    geom_line(data= function(dat) dat[dat$observed, ,drop=FALSE],
+              aes(group = labels), size= 1.2) +
+    ylab("") + xlab("") +
+    scale_x_continuous(limits = c(0, 1), expand = c(0, 0)) +
+    scale_fill_manual(values= c("#F7F7F7", "white")) +
+    scale_color_manual(values= c( "#E0E0E0", "black")) +
+    guides(color="none", fill="none") +
+    theme(
+      panel.background = element_blank(),
+      axis.text.x = element_blank(),
+      axis.ticks.y = element_blank(),
+      axis.ticks.length = unit(0, "pt"),
+      axis.title.y = element_blank(),
+      axis.title.x = element_blank(),
+      axis.line = element_blank(),
+      panel.border = element_blank()
+    )
+}
+upset_plot_df %>%
+  ggplot(aes(x=population)) +
+  geom_bar(aes(fill=svtype), color="black") +
+  scale_x_upset(n_intersections = 20) +
+  axis_combmatrix(sep = "," ,override_plotting_function = upset_overriding_fn ) +
+  theme_bw() +
+  theme(panel.grid.major.x = element_blank())
+
+upset_plot_df %>%
+  filter(svtype %in% c("INS", "DEL")) %>%
+  inner_join(vcf_annotated_chimp %>% dplyr::select(id, type_simplified, divergence)) %>%
+  ggplot(aes(x=population)) +
+  geom_bar(aes(fill=type_simplified), color="black", position = "fill") +
+  scale_fill_manual(values = pals::cols25(n=25)[c(1:3, 7, 5 , 8, 4, 11, 13)], breaks=c("SINE/Alu", "LINE/L1", "Retroposon/SVA", "Other Type I TE", "Type II TE", "Simple/tandem repeat", "RNA array", "Unknown", "Non-repeat")) +
+  scale_x_upset(n_intersections = 20) +
+  axis_combmatrix(sep = "," ,override_plotting_function = upset_overriding_fn ) +
+  theme_bw() +
+  theme(panel.grid.major.x = element_blank())
+```
+
+#### saturation plot
+
+```{r}
+## chimp
+individual_order <- vcf_long_chimp %>%
+  mutate(common_name=fct_relevel(common_name, c("Central", "Eastern", "Western", "Western x Central"))) %>%
+  filter(allele_count>0) %>%
+  count(indiv, common_name) %>%
+  arrange(common_name, desc(n))
+n_variants <- NULL
+for (i in seq_len(nrow(individual_order))){
+  individuals <- individual_order$indiv[1:i]
+  n_variants_tmp <- vcf_long_chimp %>% 
+    filter(indiv %in% c(individuals)) %>%
+    group_by(id) %>%
+    summarize(allele_frequency=sum(allele_count)/dplyr::n()/2) %>%
+    ungroup() %>%
+    filter(allele_frequency>0) %>%
+    nrow()
+  n_variants <- c(n_variants, n_variants_tmp)
+}
+saturation_plot <- individual_order %>%
+  mutate(index=row_number(),
+         n_variants=n_variants, 
+         indiv=str_extract(indiv, "^[^_]+"),
+         indiv=as_factor(indiv)) %>%
+  ggplot() +
+  geom_col(aes(x=index, y=n_variants, fill = common_name), alpha=0.8) +
+  scale_fill_manual(values = panpan_color[c(1, 2, 3, 4)], name=NULL) +
+  theme_bw() +
+  scale_x_continuous(limits = c(0,25), expand = expansion(mult = 0, add = 0.5)) +
+  labs(y="cumulative number of SVs discovered", x="number of individuals") +
+  theme(# axis.text.x = element_text(angle = 90),
+    # axis.text.x = element_blank(),
+    # axis.ticks.x = element_blank(),
+    # axis.title.x = element_blank(),
+    panel.grid = element_blank(),
+    legend.position=c(0.3, 0.75),
+    legend.background = element_rect(fill="transparent"),
+    legend.box = "horizontal", 
+    # legend.background = element_rect(color="black")
+  )
+```
+
+```{r fig.width = 5, fig.height=3}
+# human
+individual_order_human <- vcf_long_human_tmp %>%
+  filter(allele_count>0) %>%
+  count(indiv) %>%
+  arrange(desc(n))
+n_variants_human <- NULL
+for (i in seq_len(nrow(individual_order))){
+  individuals <- individual_order_human$indiv[1:i]
+  n_variants_human_tmp <- vcf_long_human_tmp %>% 
+    filter(indiv %in% c(individuals)) %>%
+    group_by(id) %>%
+    summarize(allele_frequency=sum(allele_count)/dplyr::n()/2) %>%
+    ungroup() %>%
+    filter(allele_frequency>0) %>%
+    nrow()
+  n_variants_human <- c(n_variants_human, n_variants_human_tmp)
+}
+human_data_for_saturation_plot <- individual_order_human %>%
+  .[seq_len(nrow(individual_order)),] %>%
+  mutate(index=row_number(),
+         n_variants=n_variants_human)
+# bonobo
+individual_order_bonobo <- vcf_long_bonobo_tmp %>%
+  filter(allele_count>0) %>%
+  count(indiv) %>%
+  arrange(desc(n))
+n_variants_bonobo <- NULL
+for (i in seq_len(nrow(individual_order_bonobo))){
+  individuals <- individual_order_bonobo$indiv[1:i]
+  n_variants_bonobo_tmp <- vcf_long_bonobo_tmp %>% 
+    filter(indiv %in% c(individuals)) %>%
+    group_by(id) %>%
+    summarize(allele_frequency=sum(allele_count)/dplyr::n()/2) %>%
+    ungroup() %>%
+    filter(allele_frequency>0) %>%
+    nrow()
+  n_variants_bonobo <- c(n_variants_bonobo, n_variants_bonobo_tmp)
+}
+bonobo_data_for_saturation_plot <- individual_order_bonobo %>%
+  .[seq_len(nrow(individual_order_bonobo)),] %>%
+  mutate(index=row_number(),
+         n_variants=n_variants_bonobo)
+p <- saturation_plot +
+  geom_line(data=human_data_for_saturation_plot, mapping=aes(x=index, y=n_variants, color="Human"), linewidth=1.5) +
+  geom_point(data=human_data_for_saturation_plot, mapping=aes(x=index, y=n_variants, color="Human"), size=2.5, fill="white", shape=21, stroke=1.5) +
+  geom_line(data=bonobo_data_for_saturation_plot, mapping=aes(x=index, y=n_variants, color="Bonobo"), linewidth=1.5) +
+  geom_point(data=bonobo_data_for_saturation_plot, mapping=aes(x=index, y=n_variants, color="Bonobo"), size=2.5, fill="white", shape=21, stroke=1.5) +
+  scale_color_manual(values = c("#FF8C69", "#5C608A"), name=NULL) +
+  ylim(c(0, 100000))
+p
+#ggsave("../figures/saturation_plot.pdf", p, width = 5, height=3, units = "in")
+```
+
+#### heterozygosity
+
+```{r fig.width=5, fig.height=3}
+het_human <-  vcf_long_human_tmp %>%
+  filter(gt_gt %in% c("0/1", "1/0")) %>%
+  count(indiv) %>%
+  arrange(desc(n)) %>%
+  mutate(species="human") %>%
+  left_join(genome_size_table) %>%
+  mutate(het=n/genome_size) %>%
+  left_join(hprc_metadata, by=c("indiv"="id"))
+het_human_summary <- het_human %>%
+  mutate(afr=ifelse(hprc_meta_population %in% c("GWD", "ACB", "MSL", "YRI", "ESN", "MKK-HapMap", "ASW"), "Human AFR", "non-AFR")) %>% #count(afr)
+  summarise(het=mean(het), .by=afr)
+## PR00512 and PR00496A being suspicious?
+het_chimp <- vcf_long_chimp_tmp %>%
+  filter(gt_gt %in% c("0/1", "1/0")) %>%
+  count(indiv) %>%
+  arrange(desc(n)) %>%
+  mutate(species="chimpanzee") %>%
+  left_join(genome_size_table) %>%
+  mutate(het=n/genome_size) %>%
+  left_join(panpan_metadata, by=c("indiv"="genome_name"))
+het_bonobo <-  vcf_long_bonobo_tmp %>%
+  filter(gt_gt %in% c("0/1", "1/0")) %>%
+  count(indiv) %>%
+  arrange(desc(n)) %>%
+  mutate(species="bonobo") %>%
+  left_join(genome_size_table) %>%
+  mutate(het=n/genome_size) %>%
+  left_join(panpan_metadata, by=c("indiv"="genome_name"))
+p_het <- het_chimp %>%
+  bind_rows(het_bonobo) %>%
+  mutate(common_name=str_remove(common_name, " chimpanzee"),
+         common_name=str_remove(common_name, " hybrid"),
+         common_name=fct_relevel(common_name, c("Bonobo", "Central", "Eastern", "Western", "Western x Central"))) %>%
+  arrange(common_name, het) %>%
+  mutate(indiv=as_factor(indiv)) %>%
+  ggplot(aes(x=indiv, y=het)) +
+  geom_col(aes(fill=common_name), alpha=0.8) +
+  geom_hline(data=het_human_summary, aes(yintercept=het), linetype="22", linewidth=0.3) +
+  geom_text(data=het_human_summary, aes(y=het+2e-7, label=afr, x=0.5), size=3, hjust=0) +
+  scale_fill_manual(values = c("#E9D7CB", panpan_color[c(1, 2, 3, 4)]), name=NULL) +
+  labs(x="individual", y="SV heterozygosity") +
+  ylim(c(0, 5.2e-6))+
+  theme_bw() +
+  theme(axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        panel.grid = element_blank(),
+        legend.position=c(0.6, 0.75),
+        legend.background = element_rect(fill="transparent"))
+p_het
+#ggsave("../figures/heterozygosity_plot.pdf", p_het, width = 5, height=3, units = "in")
+## this is just for sanity checking
+private_sv_chimp <-  vcf_long_chimp_tmp %>%
+  filter(gt_gt != "0/0") %>%
+  filter(dplyr::n()==1, .by = id) %>%
+  count(indiv) %>%
+  arrange(desc(n))
+## write the data table for Joana
+panpan_sv_het_table <- het_chimp %>%
+  bind_rows(het_bonobo) %>%
+  mutate(common_name=str_remove(common_name, " chimpanzee"),
+         common_name=str_remove(common_name, " hybrid"),
+         common_name=fct_relevel(common_name, c("Bonobo", "Central", "Eastern", "Western", "Western x Central"))) %>%
+  arrange(common_name, het) %>%
+  mutate(indiv=as_factor(indiv))
+write.table(panpan_sv_het_table, "", quote = FALSE, row.names = FALSE, sep = "\t")
+```
+
+#### sharing of variant effect on the variant level
+
+```{r eval=FALSE}
+variant_level_sharing <- sv_impact_long %>%
+  filter(species=="chimpanzee") %>%
+  dplyr::select(-species) %>%
+  left_join(vcf_long_chimp_by_species %>% dplyr::select(id, common_name, allele_count, sample_size), ., by="id") %>%
+  filter(impact=="HIGH") 
+write_tsv(variant_level_sharing, "../vep/mPanTro3/high_impact_variant_by_subspecies.tsv")
+```
+
+```{r fig.width=6, fig.height=4}
+variant_level_sharing <- read_tsv("../vep/mPanTro3/high_impact_variant_by_subspecies.tsv") %>%
+  mutate(svtype=fct_relevel(svtype, c("INS", "DEL", "DUP", "INV")))
+
+# left_join(gtf_chimp %>% filter(!is.na(description)) %>% distinct())
+variant_level_sharing_filtered <- variant_level_sharing %>%
+  filter(allele_count>0, allele_count<(sample_size*2)) 
+upset_plot_df <- variant_level_sharing_filtered %>%
+  group_by(id, svtype) %>%
+  summarise(population=list(common_name)) %>%
+  ungroup() 
+chimp_high_impact_variant_upset_plot <- upset_plot_df %>%
+  ggplot(aes(x=population)) +
+  geom_bar(aes(fill=svtype), color="white", linewidth = 0.5) +
+  geom_text(data=upset_plot_df%>%count(population), mapping=aes(x=population, y=n+20, label=n), size=3.5)+
+  scale_x_upset(n_intersections = 20) +
+  labs(y="number of segregating\nhigh-impact SVs") +
+  axis_combmatrix(sep = "," ,override_plotting_function = upset_overriding_fn ) +
+  scale_fill_manual(values=MetBrewer::met.brewer(name="Derain", n=4, type="discrete"), name="SV type", ) +
+  guides(fill = guide_legend(position = "inside")) +
+  theme_bw(base_size = 15) +
+  theme(panel.grid = element_blank(),
+        legend.position.inside = c(0.85, 0.7))
+chimp_high_impact_variant_upset_plot
+# ggsave("../figures/chimp_high_impact_variant_upset_plot.pdf",chimp_high_impact_variant_upset_plot, width=6, height=4)
+
+
+variant_level_sharing_wide <- variant_level_sharing %>%
+  transmute(id, svtype, type_simplified, gene, common_name, allele_frequency=allele_count/sample_size/2) %>%
+  pivot_wider(names_from = common_name, values_from = allele_frequency) %>%
+  left_join(variant_level_sharing_filtered %>% count(id)) %>%
+  arrange(desc(n))
+# variant_level_sharing_wide %>%
+#   filter(n==4) %>% View()
+# variant_level_sharing_wide %>%
+#   filter(svtype=="INV")
+
+# vcf_long_chimp_by_species %>%
+#   left_join(vep_chimp %>% transmute(gene, impact, id=number_uploaded_variation, feature, consequence))
+# 
+#   transmute(species, gene, impact, id=number_uploaded_variation, feature, consequence) %>%
+#   group_by(species, id) %>%
+#   filter(impact==unique(impact) %>% sort() %>% .[1]) %>%
+#   summarise(impact=unique(impact),
+#             gene=unique(gene) %>% str_c(collapse = ","), 
+#             feature=unique(feature) %>% str_c(collapse = ","), 
+#             consequence=str_c(consequence, collapse = ",") %>% str_split(pattern=",") %>% lapply(unique) %>% map_chr(function(x){str_c(x, collapse = ",")})) %>%
+#   ungroup() %>%
+#   left_join(vcf_for_vep_join, by=c("id", "species"))
+
+```
+
+#### sharing of variant effect on the gene level
+
+```{r}
+gene_level_sharing <- vep_chimp %>%
+  filter(gene != "-") %>%
+  separate_rows(consequence, sep = ",") %>%
+  distinct(gene, impact, consequence, number_uploaded_variation) %>%
+  inner_join(vcf_long_chimp_by_species %>% filter(allele_count>0, allele_count<(sample_size*2)) %>% transmute(number_uploaded_variation=id, common_name), ., relationship = "many-to-many") %>%
+  filter(impact==sort(unique(impact))[1], .by=c(common_name, gene)) %>%
+  summarise(consequence=str_c(unique(consequence), collapse = ","), variant_id=str_c(unique(number_uploaded_variation), collapse = ","), impact=sort(impact)[1], .by=c(common_name, gene)) %>%
+  left_join(gtf_chimp, by="gene") %>%
+  dplyr::select(-annotation_tool, -type)
+gene_level_sharing_wide <- gene_level_sharing %>%
+  dplyr::select(gene, description, common_name, impact) %>%
+  mutate(impact=(5-as.numeric(impact))) %>%
+  pivot_wider(names_from = common_name, values_from = impact, values_fill = 0) 
+gene_level_sharing_wide %>%
+  write_tsv("../vep/mPanTro3/gene_impact_wide_by_subspecies.tsv")
+```

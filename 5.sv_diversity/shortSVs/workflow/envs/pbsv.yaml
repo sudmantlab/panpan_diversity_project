@@ -1,0 +1,7 @@
+name: pbsv
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - pbsv==2.9.0
+  - samtools
