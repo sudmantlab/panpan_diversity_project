@@ -2,6 +2,7 @@
 #
 # Count the number of gaps within a genome
 # Outps a per fasta, per chromosome file and a summary file
+# Requires bioawk
 #
 
 genomeDir="XXX YYY"
